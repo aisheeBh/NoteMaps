@@ -49,9 +49,16 @@ def find_parent(node, prefix):
     raise LookupError(f"no parent for {prefix!r}")
 
 
+# Note the ordering: the leaf form 'A.1.' must be tried before the bare
+# letter form 'A.', otherwise 'A.' matches first, the trailing \s fails
+# against the digit, and label() wrongly returns '' - which makes body()
+# hand back the whole title and reletter() prepend a second label.
+LABEL_RE = re.compile(r"^([A-Z]+\.\d+\.|[A-Z]+\.|\d+(?:\.\d+)*\.)\s")
+
+
 def label(title):
-    """'3.2.14. Prompt Engineering' -> '3.2.14.'  /  'C. RAG' -> 'C.'"""
-    m = re.match(r"^([A-Z]+\.|[\d.]+\.)\s", title)
+    """'3.2.14. Prompt Eng' -> '3.2.14.' / 'C. RAG' -> 'C.' / 'C.4. Chunking' -> 'C.4.'"""
+    m = LABEL_RE.match(title)
     return m.group(1) if m else ""
 
 

@@ -54,6 +54,14 @@ def check(node, depth, path):
     elif depth == 5 and kids:
         errors.append(f"UNEXPECTED CHILDREN at depth 5: {path}")
 
+    # A correct label must not be followed by a second one. Checking only the
+    # prefix lets 'H.12. I.12. Title' pass, which is how a reletter bug once
+    # shipped 444 doubled labels undetected.
+    for t in titles:
+        rest = t[len(mk.label(t)):].strip()
+        if mk.label(rest + " "):
+            errors.append(f"DOUBLED LABEL {t!r} under {path}")
+
     for k in kids:
         check(k, depth + 1, path + " > " + k["title"])
 
