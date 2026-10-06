@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The task framework of technological change</title>
+  <desc>A two-by-two grid of routine versus non-routine and manual versus cognitive tasks, with examples, showing which tasks earlier automation reached and the new reach of generative AI into non-routine cognitive work.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Which tasks does technology take over?</text>
+
+  <!-- column headers -->
+  <text x="370" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">ROUTINE</text>
+  <text x="370" y="104" text-anchor="middle" font-size="13" fill="#111111">follows explicit rules</text>
+  <text x="710" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">NON-ROUTINE</text>
+  <text x="710" y="104" text-anchor="middle" font-size="13" fill="#111111">needs judgement, adaptation, tacit knowledge</text>
+
+  <!-- row headers -->
+  <text x="110" y="215" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">COGNITIVE</text>
+  <text x="110" y="237" text-anchor="middle" font-size="13" fill="#111111">information work</text>
+  <text x="110" y="425" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">MANUAL</text>
+  <text x="110" y="447" text-anchor="middle" font-size="13" fill="#111111">physical work</text>
+
+  <!-- cells -->
+  <rect x="200" y="120" width="340" height="200" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="220" y="140" width="300" height="160" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="370" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Book-keeping, data entry,</text>
+  <text x="370" y="188" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">standard calculations</text>
+  <text x="370" y="222" text-anchor="middle" font-size="14" fill="#111111">Heavily automated since the</text>
+  <text x="370" y="241" text-anchor="middle" font-size="14" fill="#111111">spread of computers</text>
+  <text x="370" y="275" text-anchor="middle" font-size="14" fill="#111111">(software, spreadsheets, scripts)</text>
+
+  <rect x="540" y="120" width="340" height="200" fill="url(#dots)" stroke="#222222" stroke-width="3.5" stroke-dasharray="10 5"/>
+  <rect x="560" y="140" width="300" height="160" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="710" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Analysis, writing, design,</text>
+  <text x="710" y="188" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">diagnosis, persuasion</text>
+  <text x="710" y="222" text-anchor="middle" font-size="14" fill="#111111">Long complemented by computers;</text>
+  <text x="710" y="241" text-anchor="middle" font-size="14" fill="#111111">since 2022 generative AI performs</text>
+  <text x="710" y="260" text-anchor="middle" font-size="14" fill="#111111">a growing share of these tasks</text>
+
+  <rect x="200" y="330" width="340" height="200" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="220" y="350" width="300" height="160" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="370" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Assembly-line work,</text>
+  <text x="370" y="398" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">repetitive machine operation</text>
+  <text x="370" y="432" text-anchor="middle" font-size="14" fill="#111111">Heavily automated by industrial</text>
+  <text x="370" y="451" text-anchor="middle" font-size="14" fill="#111111">robotics and machinery</text>
+
+  <rect x="540" y="330" width="340" height="200" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <rect x="560" y="350" width="300" height="160" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="710" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Caregiving, cleaning,</text>
+  <text x="710" y="398" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">skilled trades, hospitality</text>
+  <text x="710" y="432" text-anchor="middle" font-size="14" fill="#111111">Hard to automate: unstructured</text>
+  <text x="710" y="451" text-anchor="middle" font-size="14" fill="#111111">physical settings and human contact</text>
+
+  <text x="480" y="570" text-anchor="middle" font-size="14" fill="#111111">The routine column was transformed first. The non-routine cognitive cell, once the safest</text>
+  <text x="480" y="590" text-anchor="middle" font-size="14" fill="#111111">for professionals, is where generative AI now changes work fastest.</text>
+</svg>

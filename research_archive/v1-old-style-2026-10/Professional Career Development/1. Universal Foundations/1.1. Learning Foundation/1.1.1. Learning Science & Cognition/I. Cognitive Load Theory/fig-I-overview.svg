@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Cognitive load theory subtopic overview</title>
+  <desc>Four stages from left to right: the architecture (I.1), the three kinds of load and the total budget (I.2 to I.5), the instructional effects (I.6 to I.9) and design in practice (I.10 to I.12). All stages rest on one rule: working memory is narrow for new information, long-term memory is vast.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Cognitive Load Theory: the subtopic at a glance</text>
+
+  <!-- Stage 1 -->
+  <rect x="28" y="64" width="190" height="460" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="123" y="92" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">STAGE 1</text>
+  <text x="123" y="114" text-anchor="middle" font-size="15" fill="#FFFFFF">The architecture</text>
+  <rect x="42" y="136" width="162" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="123" y="162" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">I.1</text>
+  <text x="123" y="184" text-anchor="middle" font-size="14" fill="#111111">Introduction to</text>
+  <text x="123" y="202" text-anchor="middle" font-size="14" fill="#111111">cognitive load</text>
+  <text x="123" y="220" text-anchor="middle" font-size="14" fill="#111111">theory</text>
+  <rect x="42" y="290" width="162" height="210" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="123" y="316" text-anchor="middle" font-size="14" fill="#111111">Working memory:</text>
+  <text x="123" y="336" text-anchor="middle" font-size="14" fill="#111111">a few new elements</text>
+  <text x="123" y="366" text-anchor="middle" font-size="14" fill="#111111">Long-term memory:</text>
+  <text x="123" y="386" text-anchor="middle" font-size="14" fill="#111111">vast store of</text>
+  <text x="123" y="406" text-anchor="middle" font-size="14" fill="#111111">schemas</text>
+  <text x="123" y="436" text-anchor="middle" font-size="14" fill="#111111">Learning = building</text>
+  <text x="123" y="456" text-anchor="middle" font-size="14" fill="#111111">schemas across</text>
+  <text x="123" y="476" text-anchor="middle" font-size="14" fill="#111111">the gap</text>
+
+  <!-- Stage 2 -->
+  <rect x="258" y="64" width="200" height="460" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="270" y="74" width="176" height="50" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="358" y="96" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">STAGE 2</text>
+  <text x="358" y="116" text-anchor="middle" font-size="15" fill="#111111">The kinds of load</text>
+  <rect x="272" y="140" width="172" height="76" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="358" y="166" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.2 Intrinsic</text>
+  <text x="358" y="188" text-anchor="middle" font-size="13" fill="#111111">price of the content</text>
+  <rect x="272" y="230" width="172" height="76" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="358" y="256" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.3 Extraneous</text>
+  <text x="358" y="278" text-anchor="middle" font-size="13" fill="#111111">waste from design</text>
+  <rect x="272" y="320" width="172" height="76" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="358" y="346" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.4 Germane</text>
+  <text x="358" y="368" text-anchor="middle" font-size="13" fill="#111111">resources for essentials</text>
+  <rect x="272" y="410" width="172" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="358" y="436" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.5 Total load</text>
+  <text x="358" y="458" text-anchor="middle" font-size="13" fill="#111111">intrinsic + extraneous</text>
+  <text x="358" y="478" text-anchor="middle" font-size="13" fill="#111111">within capacity</text>
+
+  <!-- Stage 3 -->
+  <rect x="498" y="64" width="200" height="460" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="510" y="74" width="176" height="50" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="598" y="96" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">STAGE 3</text>
+  <text x="598" y="116" text-anchor="middle" font-size="15" fill="#111111">The core effects</text>
+  <rect x="512" y="140" width="172" height="76" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="598" y="166" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.6 Worked</text>
+  <text x="598" y="188" text-anchor="middle" font-size="13" fill="#111111">examples: show first</text>
+  <rect x="512" y="230" width="172" height="76" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="598" y="256" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.7 Split</text>
+  <text x="598" y="278" text-anchor="middle" font-size="13" fill="#111111">attention: integrate</text>
+  <rect x="512" y="320" width="172" height="76" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="598" y="346" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.8 Redundancy</text>
+  <text x="598" y="368" text-anchor="middle" font-size="13" fill="#111111">cut what is not needed</text>
+  <rect x="512" y="410" width="172" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="598" y="436" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.9 Expertise</text>
+  <text x="598" y="458" text-anchor="middle" font-size="13" fill="#111111">reversal: help shrinks</text>
+  <text x="598" y="478" text-anchor="middle" font-size="13" fill="#111111">as skill grows</text>
+
+  <!-- Stage 4 -->
+  <rect x="738" y="64" width="194" height="460" fill="url(#cross)" stroke="#1E5E24" stroke-width="3.5"/>
+  <rect x="750" y="74" width="170" height="50" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="835" y="96" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">STAGE 4</text>
+  <text x="835" y="116" text-anchor="middle" font-size="15" fill="#111111">Design in practice</text>
+  <rect x="752" y="140" width="166" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="835" y="166" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.10 Segment</text>
+  <text x="835" y="188" text-anchor="middle" font-size="13" fill="#111111">and sequence:</text>
+  <text x="835" y="206" text-anchor="middle" font-size="13" fill="#111111">piece by piece</text>
+  <rect x="752" y="250" width="166" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="835" y="276" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.11 Multimedia</text>
+  <text x="835" y="298" text-anchor="middle" font-size="13" fill="#111111">words + pictures,</text>
+  <text x="835" y="316" text-anchor="middle" font-size="13" fill="#111111">done right</text>
+  <rect x="752" y="360" width="166" height="146" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="835" y="388" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">I.12 Low-load</text>
+  <text x="835" y="408" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">design</text>
+  <text x="835" y="432" text-anchor="middle" font-size="13" fill="#111111">capstone: cut waste,</text>
+  <text x="835" y="450" text-anchor="middle" font-size="13" fill="#111111">manage complexity,</text>
+  <text x="835" y="468" text-anchor="middle" font-size="13" fill="#111111">keep the thinking</text>
+  <text x="835" y="486" text-anchor="middle" font-size="13" fill="#111111">with the learner</text>
+
+  <!-- arrows between stages -->
+  <line x1="220" y1="294" x2="254" y2="294" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="460" y1="294" x2="494" y2="294" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="700" y1="294" x2="734" y2="294" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- foundation bar -->
+  <rect x="28" y="544" width="904" height="56" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="567" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">One rule underneath everything: new information squeezes through a narrow working memory;</text>
+  <text x="480" y="587" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">design so that squeeze is spent on the essentials, adapted to what the learner already knows.</text>
+  <text x="480" y="626" text-anchor="middle" font-size="13" fill="#333333">Stage boxes differ by fill pattern and border style so they remain distinct in black-and-white print.</text>
+</svg>

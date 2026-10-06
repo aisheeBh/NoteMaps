@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Learning versus performance</title>
+  <desc>Schematic: easy massed practice gives high performance during training but large loss at a delayed test; effortful spaced practice gives lower training performance but higher delayed performance.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Performance during training is not the same as learning</text>
+
+  <!-- delayed-test band -->
+  <rect x="560" y="70" width="330" height="370" fill="url(#hatch)" stroke="#555555" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="725" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">DELAYED TEST</text>
+  <text x="725" y="114" text-anchor="middle" font-size="14" fill="#111111">(one week later, no help)</text>
+  <text x="320" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">TRAINING PHASE</text>
+  <text x="320" y="114" text-anchor="middle" font-size="14" fill="#111111">(what you can see while practising)</text>
+
+  <!-- axes -->
+  <line x1="90" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="90" y1="440" x2="90" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="495" y="476" text-anchor="middle" font-size="16" fill="#111111">Time</text>
+  <text x="44" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 44 255)">Score on the skill</text>
+
+  <!-- easy / massed : dashed -->
+  <path d="M100 400 C 220 300, 330 160, 520 140" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M520 140 C 600 150, 650 300, 860 345" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="860" cy="345" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- effortful / spaced : solid -->
+  <path d="M100 400 C 250 370, 380 260, 520 215" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M520 215 C 620 205, 720 215, 860 225" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="860" cy="225" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- direct labels -->
+  <rect x="240" y="146" width="256" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="252" y="166" font-size="15" font-weight="bold" fill="#111111">Dashed: easy, massed practice</text>
+  <text x="252" y="184" font-size="14" fill="#111111">feels great, looks great now</text>
+
+  <rect x="300" y="300" width="250" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="312" y="320" font-size="15" font-weight="bold" fill="#111111">Solid: effortful, spaced practice</text>
+  <text x="312" y="338" font-size="14" fill="#111111">feels harder, lasts longer</text>
+
+  <text x="760" y="372" text-anchor="middle" font-size="14" fill="#111111">big drop = little learning</text>
+  <text x="760" y="196" text-anchor="middle" font-size="14" fill="#111111">small drop = durable learning</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative schematic of a well-replicated pattern; curves are not plotted from a single dataset.</text>
+</svg>

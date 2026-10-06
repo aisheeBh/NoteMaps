@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Concreteness fading</title>
+  <desc>A three-step staircase rising from left to right. Step one, concrete: a real, familiar case. Step two, bridging: a simplified diagram that keeps the structure. Step three, abstract: the general principle or symbol. An arrow at the top shows transfer to new cases from the abstract step, while a dashed arrow links each step back to the previous one.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Concreteness fading: from a real case to a portable principle</text>
+
+  <!-- steps -->
+  <rect x="60" y="360" width="270" height="130" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="345" y="270" width="270" height="220" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="630" y="180" width="270" height="310" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+
+  <!-- labels on white panels for print legibility -->
+  <rect x="75" y="372" width="240" height="106" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="195" y="396" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">1. CONCRETE</text>
+  <text x="195" y="420" text-anchor="middle" font-size="14" fill="#111111">A vivid, familiar case:</text>
+  <text x="195" y="440" text-anchor="middle" font-size="14" fill="#111111">"Our checkout queue backed up</text>
+  <text x="195" y="460" text-anchor="middle" font-size="14" fill="#111111">at lunchtime last Friday."</text>
+
+  <rect x="360" y="282" width="240" height="106" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="480" y="306" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">2. BRIDGING</text>
+  <text x="480" y="330" text-anchor="middle" font-size="14" fill="#111111">A simplified model that</text>
+  <text x="480" y="350" text-anchor="middle" font-size="14" fill="#111111">keeps the structure: arrivals,</text>
+  <text x="480" y="370" text-anchor="middle" font-size="14" fill="#111111">one server, a waiting line.</text>
+
+  <rect x="645" y="192" width="240" height="106" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="765" y="216" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">3. ABSTRACT</text>
+  <text x="765" y="240" text-anchor="middle" font-size="14" fill="#111111">The general principle:</text>
+  <text x="765" y="260" text-anchor="middle" font-size="14" fill="#111111">as load nears capacity,</text>
+  <text x="765" y="280" text-anchor="middle" font-size="14" fill="#111111">waiting time rises steeply.</text>
+
+  <!-- step body text -->
+  <rect x="375" y="402" width="210" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="420" text-anchor="middle" font-size="14" fill="#111111">Strip away irrelevant detail;</text>
+  <text x="480" y="440" text-anchor="middle" font-size="14" fill="#111111">name each part.</text>
+  <text x="765" y="350" text-anchor="middle" font-size="15" fill="#FFFFFF">Portable: applies to servers,</text>
+  <text x="765" y="372" text-anchor="middle" font-size="15" fill="#FFFFFF">help desks, hospital beds,</text>
+  <text x="765" y="394" text-anchor="middle" font-size="15" fill="#FFFFFF">code-review backlogs.</text>
+
+  <!-- arrows -->
+  <path d="M195 350 C 230 300, 300 280, 340 280" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M480 260 C 520 210, 580 190, 625 190" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="200" y="300" font-size="14" font-weight="bold" fill="#111111">fade</text>
+  <text x="490" y="210" font-size="14" font-weight="bold" fill="#111111">fade</text>
+
+  <path d="M765 172 L 765 110 L 880 110" fill="none" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="640" y="104" font-size="15" font-weight="bold" fill="#111111">TRANSFER to new cases</text>
+
+  <path d="M630 480 C 580 512, 400 512, 330 470" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <rect x="400" y="456" width="160" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/><text x="480" y="473" text-anchor="middle" font-size="14" fill="#111111">dashed: link back</text>
+</svg>

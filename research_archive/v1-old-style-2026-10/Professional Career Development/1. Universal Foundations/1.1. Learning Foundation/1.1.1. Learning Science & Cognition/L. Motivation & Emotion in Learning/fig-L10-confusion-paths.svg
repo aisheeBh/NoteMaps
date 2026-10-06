@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Productive and unproductive paths through confusion</title>
+  <desc>Two schematic paths of struggle intensity over time. Both start engaged and hit an impasse that creates confusion. On the solid path, effort plus a timely hint resolves the confusion and ends in deeper understanding. On the dashed path, confusion is not resolved, escalates into frustration, and then collapses into boredom and giving up.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><circle cx="5" cy="5" r="1.6" fill="#8B0000"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Confusion helps only if it gets resolved</text>
+
+  <!-- zones -->
+  <rect x="110" y="70" width="790" height="110" fill="url(#dots)" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="120" y="78" width="250" height="26" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="245" y="96" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">OVERWHELM: frustration zone</text>
+  <rect x="110" y="180" width="790" height="130" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="490" y="188" width="230" height="26" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="605" y="206" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">PRODUCTIVE STRUGGLE zone</text>
+
+  <!-- axes -->
+  <line x1="110" y1="440" x2="910" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="62" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510" y="474" text-anchor="middle" font-size="16" fill="#111111">Time on a hard problem</text>
+  <text x="62" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 260)">Struggle intensity</text>
+
+  <!-- shared start -->
+  <path d="M120 400 C 180 395, 220 380, 260 330" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="260" cy="330" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="270" y="356" font-size="14" font-weight="bold" fill="#111111">impasse</text>
+
+  <!-- solid resolved path -->
+  <path d="M260 330 C 320 250, 380 230, 450 240 C 520 255, 560 330, 640 370 C 700 395, 780 395, 880 390" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="470" cy="246" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <line x1="470" y1="246" x2="470" y2="296" stroke="#222222" stroke-width="1.5"/>
+  <rect x="404" y="296" width="132" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="470" y="313" text-anchor="middle" font-size="13" fill="#111111">timely hint</text>
+
+  <!-- dashed unresolved path -->
+  <path d="M260 330 C 320 240, 400 160, 480 130 C 560 105, 620 110, 680 140 C 730 170, 760 300, 880 420" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <!-- labels -->
+  <rect x="420" y="384" width="236" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="432" y="404" font-size="15" font-weight="bold" fill="#111111">Solid: confusion resolved</text>
+  <text x="432" y="422" font-size="14" fill="#111111">deeper understanding</text>
+
+  <rect x="130" y="116" width="200" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="142" y="136" font-size="15" font-weight="bold" fill="#111111">Dashed: not resolved</text>
+  <text x="142" y="154" font-size="14" fill="#111111">frustration builds</text>
+
+  <rect x="740" y="200" width="150" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="752" y="220" font-size="15" font-weight="bold" fill="#111111">then boredom:</text>
+  <text x="752" y="238" font-size="14" fill="#111111">gives up</text>
+
+  <text x="480" y="510" text-anchor="middle" font-size="14" fill="#111111">Design lever: keep struggle in the cross-hatched band — hard enough to think, with help before overwhelm.</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic based on research on learner affect dynamics; not plotted from a single dataset.</text>
+</svg>

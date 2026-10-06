@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Overview of the Cognitive Science of Learning subtopic</title>
+  <desc>Four bands. Band 1, the lens: B.1 introduction and B.2 information processing model. Band 2, the memory cycle: B.3 perception and attention, B.4 encoding, B.5 retrieval, B.6 forgetting, arranged as a loop. Band 3, how the mind shapes learning: B.7 biases, B.8 dual-process, B.9 language, B.10 embodiment. Band 4, across life and into practice: B.11 lifespan development and B.12 applying cognitive science to study.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Cognitive Science of Learning: four stages, twelve notes</text>
+
+  <!-- Band 1: lens (plain white, thick solid) -->
+  <rect x="30" y="60" width="900" height="90" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="48" y="84" font-size="16" font-weight="bold" fill="#111111">STAGE 1 - THE LENS</text>
+  <rect x="250" y="76" width="300" height="60" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="400" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">B.1 Introduction to</text>
+  <text x="400" y="122" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Cognitive Science</text>
+  <rect x="590" y="76" width="300" height="60" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="740" y="102" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">B.2 Information</text>
+  <text x="740" y="122" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Processing Model</text>
+  <line x1="552" y1="106" x2="586" y2="106" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <line x1="480" y1="150" x2="480" y2="174" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Band 2: memory cycle (hatch) -->
+  <rect x="30" y="178" width="900" height="150" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="44" y="188" width="270" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="54" y="207" font-size="16" font-weight="bold" fill="#111111">STAGE 2 - THE MEMORY CYCLE</text>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <rect x="50" y="232" width="190" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="145" y="258" font-weight="bold">B.3 Perception</text>
+    <text x="145" y="278" font-weight="bold">and Attention</text>
+    <rect x="275" y="232" width="190" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="370" y="258" font-weight="bold">B.4 Encoding</text>
+    <text x="370" y="278">getting it in</text>
+    <rect x="500" y="232" width="190" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="595" y="258" font-weight="bold">B.5 Retrieval</text>
+    <text x="595" y="278">getting it out</text>
+    <rect x="725" y="232" width="190" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="820" y="258" font-weight="bold">B.6 Forgetting</text>
+    <text x="820" y="278">and the curve</text>
+  </g>
+  <line x1="240" y1="263" x2="271" y2="263" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="465" y1="263" x2="496" y2="263" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="690" y1="263" x2="721" y2="263" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M820 294 C 820 322, 600 322, 595 298" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="610" y="306" width="140" height="18" fill="#FFFFFF"/>
+  <text x="680" y="320" text-anchor="middle" font-size="13" fill="#111111">review restores access</text>
+
+  <line x1="480" y1="328" x2="480" y2="352" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Band 3: how the mind shapes learning (dots, long dash) -->
+  <rect x="30" y="356" width="900" height="120" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="44" y="366" width="380" height="26" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="54" y="385" font-size="16" font-weight="bold" fill="#111111">STAGE 3 - HOW THE MIND SHAPES LEARNING</text>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <rect x="50" y="402" width="190" height="60" fill="#FFFFFF" stroke="#7A5200" stroke-width="2"/>
+    <text x="145" y="428" font-weight="bold">B.7 Cognitive</text>
+    <text x="145" y="448" font-weight="bold">Biases</text>
+    <rect x="275" y="402" width="190" height="60" fill="#FFFFFF" stroke="#7A5200" stroke-width="2"/>
+    <text x="370" y="428" font-weight="bold">B.8 Dual-Process</text>
+    <text x="370" y="448">fast and slow</text>
+    <rect x="500" y="402" width="190" height="60" fill="#FFFFFF" stroke="#7A5200" stroke-width="2"/>
+    <text x="595" y="428" font-weight="bold">B.9 Language</text>
+    <text x="595" y="448">and Thought</text>
+    <rect x="725" y="402" width="190" height="60" fill="#FFFFFF" stroke="#7A5200" stroke-width="2"/>
+    <text x="820" y="428" font-weight="bold">B.10 Embodied</text>
+    <text x="820" y="448">Cognition</text>
+  </g>
+
+  <line x1="480" y1="476" x2="480" y2="500" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Band 4: across life and practice (cross, thick) -->
+  <rect x="30" y="504" width="900" height="96" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="44" y="514" width="270" height="26" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="54" y="533" font-size="16" font-weight="bold" fill="#111111">STAGE 4 - LIFE AND PRACTICE</text>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <rect x="400" y="518" width="240" height="68" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="520" y="546" font-weight="bold">B.11 Cognitive Development</text>
+    <text x="520" y="568">across the lifespan</text>
+    <rect x="670" y="518" width="245" height="68" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3.5"/>
+    <text x="792" y="546" font-weight="bold">B.12 Applying Cognitive</text>
+    <text x="792" y="568" font-weight="bold">Science to Study</text>
+  </g>
+  <line x1="640" y1="552" x2="666" y2="552" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+</svg>

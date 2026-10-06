@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Schema formation at a glance</title>
+  <desc>Varied experiences are compared and abstracted into a schema with slots, defaults and relations. The schema guides perception, comprehension, memory and prediction. Feedback either tunes the schema or, when it fails, drives conceptual change. Four bands at the bottom show the four stages of the subtopic.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Schema formation: build, use, tune, change</text>
+
+  <!-- LEFT: experiences -->
+  <text x="130" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">1. EXPERIENCES</text>
+  <g fill="#FFFFFF" stroke="#222222" stroke-width="1.5">
+    <rect x="50" y="100" width="150" height="40"/>
+    <rect x="62" y="150" width="150" height="40"/>
+    <rect x="50" y="200" width="150" height="40"/>
+    <rect x="62" y="250" width="150" height="40"/>
+  </g>
+  <g font-size="14" fill="#111111">
+    <text x="62" y="125">case A: a client call</text>
+    <text x="74" y="175">case B: another call</text>
+    <text x="62" y="225">worked example</text>
+    <text x="74" y="275">a surprising case</text>
+  </g>
+  <text x="130" y="320" text-anchor="middle" font-size="14" fill="#111111">varied surface,</text>
+  <text x="130" y="338" text-anchor="middle" font-size="14" fill="#111111">shared deep structure</text>
+
+  <!-- arrow to schema -->
+  <line x1="225" y1="195" x2="320" y2="195" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="272" y="180" text-anchor="middle" font-size="14" fill="#111111">compare,</text>
+  <text x="272" y="222" text-anchor="middle" font-size="14" fill="#111111">abstract</text>
+
+  <!-- CENTER: schema frame -->
+  <text x="480" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">2. SCHEMA</text>
+  <rect x="330" y="95" width="300" height="230" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="345" y="108" width="270" height="32" fill="#1F3B5C"/>
+  <text x="480" y="130" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">"Discovery call" schema</text>
+  <g fill="#FFFFFF" stroke="#222222" stroke-width="1.5">
+    <rect x="345" y="150" width="270" height="34"/>
+    <rect x="345" y="192" width="270" height="34"/>
+    <rect x="345" y="234" width="270" height="34"/>
+    <rect x="345" y="276" width="270" height="34"/>
+  </g>
+  <g font-size="14" fill="#111111">
+    <text x="355" y="172">SLOT: real pain</text><text x="605" y="172" text-anchor="end">default: cost</text>
+    <text x="355" y="214">SLOT: budget holder</text><text x="605" y="214" text-anchor="end">default: VP</text>
+    <text x="355" y="256">SLOT: timeline</text><text x="605" y="256" text-anchor="end">default: next quarter</text>
+    <text x="355" y="298">RELATION: pain drives urgency</text>
+  </g>
+
+  <!-- arrow to uses -->
+  <line x1="640" y1="195" x2="725" y2="195" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="682" y="180" text-anchor="middle" font-size="14" fill="#111111">guides</text>
+
+  <!-- RIGHT: uses -->
+  <text x="830" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">3. USES</text>
+  <g fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5">
+    <rect x="735" y="100" width="190" height="40"/>
+    <rect x="735" y="150" width="190" height="40"/>
+    <rect x="735" y="200" width="190" height="40"/>
+    <rect x="735" y="250" width="190" height="40"/>
+  </g>
+  <g fill="#FFFFFF">
+    <rect x="745" y="108" width="170" height="24"/><rect x="745" y="158" width="170" height="24"/><rect x="745" y="208" width="170" height="24"/><rect x="745" y="258" width="170" height="24"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="830" y="125">what you notice</text>
+    <text x="830" y="175">what you understand</text>
+    <text x="830" y="225">what you remember</text>
+    <text x="830" y="275">what you predict</text>
+  </g>
+
+  <!-- feedback loop -->
+  <path d="M830 300 C 830 380, 700 400, 640 400" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="848" y="350" font-size="14" fill="#111111">feedback</text>
+
+  <rect x="400" y="370" width="230" height="56" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="515" y="393" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">FITS: assimilate, tune</text>
+  <text x="515" y="413" text-anchor="middle" font-size="14" fill="#111111">small updates, solid border</text>
+
+  <rect x="120" y="370" width="250" height="56" fill="url(#dots)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="130" y="378" width="230" height="40" fill="#FFFFFF"/>
+  <text x="245" y="395" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">FAILS: conceptual change</text>
+  <text x="245" y="413" text-anchor="middle" font-size="14" fill="#111111">or distortion, dotted border</text>
+  <line x1="400" y1="398" x2="372" y2="398" stroke="#222222" stroke-width="2" stroke-dasharray="2 4"/>
+  <line x1="515" y1="370" x2="515" y2="332" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M245 370 C 245 340, 300 320, 326 300" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+
+  <!-- stage bands -->
+  <g stroke="#555555" stroke-width="1.5">
+    <rect x="30" y="460" width="215" height="110" fill="#FFFFFF"/>
+    <rect x="255" y="460" width="215" height="110" fill="#F2F2F2"/>
+    <rect x="480" y="460" width="215" height="110" fill="#FFFFFF"/>
+    <rect x="705" y="460" width="225" height="110" fill="#F2F2F2"/>
+  </g>
+  <g font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="137" y="486">FOUNDATIONS</text>
+    <text x="362" y="486">FORMATION</text>
+    <text x="587" y="486">SCHEMAS AT WORK</text>
+    <text x="817" y="486">CHANGE AND MASTERY</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="137" y="512">H.1 What is a schema</text>
+    <text x="137" y="532">H.2 Origins</text>
+    <text x="362" y="512">H.3 How built</text>
+    <text x="362" y="532">H.4 Assim. vs. accomm.</text>
+    <text x="362" y="552">H.5 Prior knowledge</text>
+    <text x="587" y="512">H.6 Scripts, events</text>
+    <text x="587" y="532">H.7 Reading</text>
+    <text x="587" y="552">H.8 Activation</text>
+    <text x="817" y="512">H.9 Misconceptions</text>
+    <text x="817" y="532">H.10 Conceptual change</text>
+    <text x="817" y="552">H.11 Expert, H.12 Accelerate</text>
+  </g>
+
+  <text x="480" y="600" text-anchor="middle" font-size="13" fill="#333333">Conceptual overview; the sales example is illustrative. Every profession has schemas of this kind.</text>
+</svg>

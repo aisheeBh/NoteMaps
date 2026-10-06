@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Neuroplasticity subtopic overview</title>
+  <desc>A staircase of four stages: foundations (J.1 to J.3), plasticity across the lifespan (J.4 to J.6), forces that shape plasticity (J.7 to J.10) and using it wisely (J.11 and J.12), resting on a base showing the levels at which the brain changes from molecules to behavior.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.5" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">J. Neuroplasticity: four steps from biology to practice</text>
+
+  <!-- steps (staircase) -->
+  <!-- step 1 -->
+  <rect x="40" y="380" width="210" height="130" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="40" y="380" width="210" height="34" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="45" y="386" width="200" height="22" fill="#FFFFFF"/>
+  <text x="145" y="403" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">STEP 1: WHAT and HOW</text>
+  <text x="54" y="438" font-size="14" fill="#111111">J.1 What is neuroplasticity?</text>
+  <text x="54" y="460" font-size="14" fill="#111111">J.2 Hebbian learning</text>
+  <text x="54" y="482" font-size="14" fill="#111111">J.3 Structural vs. functional</text>
+
+  <!-- step 2 -->
+  <rect x="265" y="290" width="210" height="220" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="265" y="290" width="210" height="34" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="270" y="296" width="200" height="22" fill="#FFFFFF"/>
+  <text x="370" y="313" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">STEP 2: WHEN</text>
+  <text x="279" y="348" font-size="14" fill="#111111">J.4 Critical periods</text>
+  <text x="279" y="370" font-size="14" fill="#111111">J.5 Adult plasticity and</text>
+  <text x="279" y="388" font-size="14" fill="#111111">neurogenesis (contested)</text>
+  <text x="279" y="410" font-size="14" fill="#111111">J.6 Experience-dependent</text>
+  <text x="279" y="428" font-size="14" fill="#111111">plasticity</text>
+
+  <!-- step 3 -->
+  <rect x="490" y="200" width="210" height="310" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="490" y="200" width="210" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="495" y="206" width="200" height="22" fill="#FFFFFF"/>
+  <text x="595" y="223" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">STEP 3: WHAT SHAPES IT</text>
+  <text x="504" y="258" font-size="14" fill="#111111">J.7 Myelin, repetition,</text>
+  <text x="504" y="276" font-size="14" fill="#111111">skill learning</text>
+  <text x="504" y="298" font-size="14" fill="#111111">J.8 After brain injury</text>
+  <text x="504" y="320" font-size="14" fill="#111111">J.9 Lifestyle factors</text>
+  <text x="504" y="342" font-size="14" fill="#111111">J.10 Stress and trauma</text>
+  <text x="504" y="372" font-size="13" fill="#333333">J.8 and J.10 are</text>
+  <text x="504" y="390" font-size="13" fill="#333333">educational, not</text>
+  <text x="504" y="408" font-size="13" fill="#333333">medical advice</text>
+
+  <!-- step 4 -->
+  <rect x="715" y="110" width="210" height="400" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="715" y="110" width="210" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="720" y="116" width="200" height="22" fill="#FFFFFF"/>
+  <text x="820" y="133" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">STEP 4: USE IT WISELY</text>
+  <text x="729" y="168" font-size="14" fill="#111111">J.11 Myths and</text>
+  <text x="729" y="186" font-size="14" fill="#111111">misconceptions</text>
+  <text x="729" y="208" font-size="14" fill="#111111">J.12 Harnessing</text>
+  <text x="729" y="226" font-size="14" fill="#111111">plasticity for learning</text>
+
+  <!-- rising arrow -->
+  <path d="M120 360 C 250 280, 420 200, 690 100" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="320" y="272" font-size="14" font-style="italic" fill="#111111">novice to expert</text>
+
+  <!-- base: levels of change -->
+  <rect x="40" y="530" width="885" height="56" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="482" y="552" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">FOUNDATION: the brain changes at every level</text>
+  <text x="482" y="574" text-anchor="middle" font-size="14" fill="#FFFFFF">molecules  &gt;  synapses  &gt;  spines and myelin  &gt;  circuits and maps  &gt;  behavior and skill</text>
+
+  <text x="480" y="610" text-anchor="middle" font-size="13" fill="#333333">Each step is taller because it builds on the steps before it.</text>
+</svg>

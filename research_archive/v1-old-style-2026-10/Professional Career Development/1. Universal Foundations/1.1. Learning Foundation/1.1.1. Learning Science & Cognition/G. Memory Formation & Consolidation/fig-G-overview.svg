@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Memory formation and consolidation at a glance</title>
+  <desc>A timeline from seconds to years. Encoding happens in seconds, synaptic consolidation over minutes to hours, sleep-dependent consolidation over nights, and systems consolidation over weeks to years. Retrieval can reopen a memory for reconsolidation. Below, everyday modulators — emotion and stress, sleep, exercise, nutrition, spaced practice and daily habits — act on these stages, and disorders can disrupt them.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">How a memory is built and kept: stages over time</text>
+
+  <!-- stage boxes -->
+  <rect x="40" y="70" width="150" height="110" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="115" y="104" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">ENCODING</text>
+  <text x="115" y="128" text-anchor="middle" font-size="14" fill="#FFFFFF">attention plus</text>
+  <text x="115" y="146" text-anchor="middle" font-size="14" fill="#FFFFFF">meaning</text>
+  <text x="115" y="168" text-anchor="middle" font-size="13" fill="#FFFFFF">G.1, G.4</text>
+
+  <rect x="205" y="70" width="190" height="110" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="215" y="80" width="170" height="90" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="300" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SYNAPTIC</text>
+  <text x="300" y="122" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">CONSOLIDATION</text>
+  <text x="300" y="142" text-anchor="middle" font-size="14" fill="#111111">LTP, protein synthesis</text>
+  <text x="300" y="160" text-anchor="middle" font-size="13" fill="#111111">G.2</text>
+
+  <rect x="410" y="70" width="190" height="110" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="420" y="80" width="170" height="90" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="505" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SLEEP</text>
+  <text x="505" y="122" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">CONSOLIDATION</text>
+  <text x="505" y="142" text-anchor="middle" font-size="14" fill="#111111">replay, spindles</text>
+  <text x="505" y="160" text-anchor="middle" font-size="13" fill="#111111">G.3</text>
+
+  <rect x="615" y="70" width="305" height="110" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="625" y="80" width="285" height="90" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="767" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SYSTEMS CONSOLIDATION</text>
+  <text x="767" y="126" text-anchor="middle" font-size="14" fill="#111111">hippocampus to cortex,</text>
+  <text x="767" y="144" text-anchor="middle" font-size="14" fill="#111111">detail to gist, schemas</text>
+  <text x="767" y="162" text-anchor="middle" font-size="13" fill="#111111">G.5</text>
+
+  <!-- timeline -->
+  <line x1="40" y1="215" x2="925" y2="215" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <line x1="115" y1="207" x2="115" y2="223" stroke="#222222" stroke-width="2"/><text x="115" y="242">seconds</text>
+    <line x1="250" y1="207" x2="250" y2="223" stroke="#222222" stroke-width="2"/><text x="250" y="242">minutes</text>
+    <line x1="350" y1="207" x2="350" y2="223" stroke="#222222" stroke-width="2"/><text x="350" y="242">hours</text>
+    <line x1="505" y1="207" x2="505" y2="223" stroke="#222222" stroke-width="2"/><text x="505" y="242">nights</text>
+    <line x1="680" y1="207" x2="680" y2="223" stroke="#222222" stroke-width="2"/><text x="680" y="242">weeks</text>
+    <line x1="860" y1="207" x2="860" y2="223" stroke="#222222" stroke-width="2"/><text x="860" y="242">years</text>
+  </g>
+  <text x="480" y="264" text-anchor="middle" font-size="13" fill="#333333">time since learning (not to scale)</text>
+
+  <!-- retrieval + reconsolidation -->
+  <rect x="330" y="290" width="300" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="318" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">RETRIEVAL and RECONSOLIDATION</text>
+  <text x="480" y="342" text-anchor="middle" font-size="14" fill="#111111">recall can reopen and update a memory (G.6)</text>
+  <path d="M767 182 C 767 300, 700 325, 632 325" fill="none" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M328 325 C 260 325, 300 260, 300 184" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="8 5" marker-end="url(#arrow)"/>
+  <text x="790" y="290" font-size="13" fill="#111111">recall</text>
+  <text x="190" y="296" font-size="13" fill="#111111">dashed: re-store</text>
+
+  <!-- modulators -->
+  <text x="480" y="400" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">WHAT SHAPES EVERY STAGE</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="40" y="415" width="140" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="110" y="444" font-weight="bold">Emotion and</text><text x="110" y="462" font-weight="bold">stress</text><text x="110" y="479" font-size="13">G.7</text>
+    <rect x="193" y="415" width="140" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="263" y="444" font-weight="bold">Nutrition</text><text x="263" y="462">and drink</text><text x="263" y="479" font-size="13">G.8</text>
+    <rect x="346" y="415" width="140" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="416" y="444" font-weight="bold">Exercise</text><text x="416" y="462">acute and regular</text><text x="416" y="479" font-size="13">G.9</text>
+    <rect x="499" y="415" width="140" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="569" y="444" font-weight="bold">Spaced</text><text x="569" y="462" font-weight="bold">practice</text><text x="569" y="479" font-size="13">G.11</text>
+    <rect x="652" y="415" width="140" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="722" y="444" font-weight="bold">Daily habits</text><text x="722" y="462">routine, focus</text><text x="722" y="479" font-size="13">G.12</text>
+    <rect x="805" y="415" width="115" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="862" y="444" font-weight="bold">Sleep</text><text x="862" y="462">every night</text><text x="862" y="479" font-size="13">G.3</text>
+  </g>
+
+  <!-- disorders -->
+  <rect x="40" y="515" width="880" height="80" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="170" y="527" width="620" height="56" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="480" y="550" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">WHEN IT GOES WRONG: impairment and disorders (G.10)</text>
+  <text x="480" y="572" text-anchor="middle" font-size="14" fill="#111111">injury, illness, medication, sleep disorders, neurodegeneration</text>
+
+  <!-- key -->
+  <text x="40" y="630" font-size="14" fill="#111111">Read left to right for time since learning. The solid arrow from systems consolidation is recall;</text>
+  <text x="40" y="650" font-size="14" fill="#111111">the dashed arrow is re-storage after reconsolidation. Boxes in the middle row act on all stages.</text>
+  <text x="480" y="695" text-anchor="middle" font-size="13" fill="#333333">Overview schematic of Subtopic G; stage boundaries overlap in the real brain.</text>
+</svg>

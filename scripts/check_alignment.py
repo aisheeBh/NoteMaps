@@ -23,16 +23,13 @@ expected_dirs, expected_files = set(), set()
 
 
 def expect(node, parent):
+    # Every node, leaf or not, is a folder containing <title>.md.
     title = sanitize(node["title"])
-    kids = node.get("children") or []
-    if kids:
-        folder = os.path.join(parent, title)
-        expected_dirs.add(folder)
-        expected_files.add(os.path.join(folder, title + ".md"))
-        for k in kids:
-            expect(k, folder)
-    else:
-        expected_files.add(os.path.join(parent, title + ".md"))
+    folder = os.path.join(parent, title)
+    expected_dirs.add(folder)
+    expected_files.add(os.path.join(folder, title + ".md"))
+    for k in node.get("children") or []:
+        expect(k, folder)
 
 
 data = mk.load()

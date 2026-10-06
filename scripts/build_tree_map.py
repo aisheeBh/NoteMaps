@@ -16,23 +16,20 @@ def sanitize(name: str) -> str:
 
 
 def build(node, parent_dir):
+    # Every node - parent or leaf - gets its own folder holding its note
+    # (<title>/<title>.md) and any artefacts such as fig-*.svg figures.
     title = sanitize(node["title"])
     children = node.get("children") or []
 
-    if children:
-        folder_path = os.path.join(parent_dir, title)
-        os.makedirs(folder_path, exist_ok=True)
+    folder_path = os.path.join(parent_dir, title)
+    os.makedirs(folder_path, exist_ok=True)
 
-        md_path = os.path.join(folder_path, title + ".md")
-        if not os.path.exists(md_path):
-            open(md_path, "w", encoding="utf-8").close()
+    md_path = os.path.join(folder_path, title + ".md")
+    if not os.path.exists(md_path):
+        open(md_path, "w", encoding="utf-8").close()
 
-        for child in children:
-            build(child, folder_path)
-    else:
-        md_path = os.path.join(parent_dir, title + ".md")
-        if not os.path.exists(md_path):
-            open(md_path, "w", encoding="utf-8").close()
+    for child in children:
+        build(child, folder_path)
 
 
 def main():

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Transfer distance is measured on several dimensions</title>
+  <desc>Six context dimensions from the Barnett and Ceci taxonomy, each drawn as a scale from near to far. A filled circle marks an end-of-course quiz, which is near on every dimension. An open square marks using a bootcamp SQL skill in an audit at a new job six months later, which is far on several dimensions.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">"Near" and "far" are measured on several dimensions</text>
+  <text x="480" y="66" text-anchor="middle" font-size="15" fill="#111111">Context dimensions of transfer distance (after Barnett and Ceci, 2002)</text>
+
+  <!-- column headers -->
+  <text x="330" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">NEAR</text>
+  <text x="870" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">FAR</text>
+  <rect x="640" y="118" width="270" height="430" fill="url(#hatch)" stroke="#555555" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="775" y="524" text-anchor="middle" font-size="14" fill="#111111">zone where spontaneous</text>
+
+  <!-- rows -->
+  <g font-size="16" fill="#111111">
+    <text x="40" y="160" font-weight="bold">Knowledge domain</text>
+    <text x="40" y="179" font-size="14">same topic ... other field</text>
+    <line x1="330" y1="165" x2="870" y2="165" stroke="#222222" stroke-width="2"/>
+
+    <text x="40" y="226" font-weight="bold">Physical context</text>
+    <text x="40" y="245" font-size="14">same room ... new place</text>
+    <line x1="330" y1="231" x2="870" y2="231" stroke="#222222" stroke-width="2"/>
+
+    <text x="40" y="292" font-weight="bold">Temporal context</text>
+    <text x="40" y="311" font-size="14">same day ... months later</text>
+    <line x1="330" y1="297" x2="870" y2="297" stroke="#222222" stroke-width="2"/>
+
+    <text x="40" y="358" font-weight="bold">Functional context</text>
+    <text x="40" y="377" font-size="14">a test ... real work</text>
+    <line x1="330" y1="363" x2="870" y2="363" stroke="#222222" stroke-width="2"/>
+
+    <text x="40" y="424" font-weight="bold">Social context</text>
+    <text x="40" y="443" font-size="14">alone ... in a team</text>
+    <line x1="330" y1="429" x2="870" y2="429" stroke="#222222" stroke-width="2"/>
+
+    <text x="40" y="490" font-weight="bold">Modality</text>
+    <text x="40" y="509" font-size="14">same format ... new format</text>
+    <line x1="330" y1="495" x2="870" y2="495" stroke="#222222" stroke-width="2"/>
+  </g>
+
+  <!-- ticks -->
+  <g stroke="#222222" stroke-width="2">
+    <line x1="330" y1="157" x2="330" y2="173"/><line x1="870" y1="157" x2="870" y2="173"/>
+    <line x1="330" y1="223" x2="330" y2="239"/><line x1="870" y1="223" x2="870" y2="239"/>
+    <line x1="330" y1="289" x2="330" y2="305"/><line x1="870" y1="289" x2="870" y2="305"/>
+    <line x1="330" y1="355" x2="330" y2="371"/><line x1="870" y1="355" x2="870" y2="371"/>
+    <line x1="330" y1="421" x2="330" y2="437"/><line x1="870" y1="421" x2="870" y2="437"/>
+    <line x1="330" y1="487" x2="330" y2="503"/><line x1="870" y1="487" x2="870" y2="503"/>
+  </g>
+
+  <!-- Example A: end-of-course quiz (filled circles, near) -->
+  <g fill="#1F3B5C" stroke="#000000" stroke-width="1.5">
+    <circle cx="360" cy="165" r="9"/>
+    <circle cx="350" cy="231" r="9"/>
+    <circle cx="350" cy="297" r="9"/>
+    <circle cx="350" cy="363" r="9"/>
+    <circle cx="350" cy="429" r="9"/>
+    <circle cx="360" cy="495" r="9"/>
+  </g>
+  <!-- Example B: bootcamp SQL used in audit at new job (open squares) -->
+  <polyline points="470,165 760,231 830,297 790,363 700,429 600,495" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+  <g fill="#FFFFFF" stroke="#222222" stroke-width="2.5">
+    <rect x="461" y="156" width="18" height="18"/>
+    <rect x="751" y="222" width="18" height="18"/>
+    <rect x="821" y="288" width="18" height="18"/>
+    <rect x="781" y="354" width="18" height="18"/>
+    <rect x="691" y="420" width="18" height="18"/>
+    <rect x="591" y="486" width="18" height="18"/>
+  </g>
+
+  <!-- legend with direct labels -->
+  <rect x="40" y="570" width="880" height="96" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <circle cx="68" cy="598" r="9" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="88" y="604" font-size="15" fill="#111111"><tspan font-weight="bold">Filled circles:</tspan> end-of-course quiz, same week, same format. Near on every dimension.</text>
+  <rect x="59" y="626" width="18" height="18" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="88" y="641" font-size="15" fill="#111111"><tspan font-weight="bold">Open squares, dashed line:</tspan> bootcamp SQL used in a compliance audit at a new</text>
+  <text x="88" y="660" font-size="15" fill="#111111">job, six months later, with a team. Far on several dimensions at once.</text>
+  <text x="775" y="540" text-anchor="middle" font-size="14" fill="#111111">transfer is least likely</text>
+  <text x="775" y="138" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">FAR ZONE</text>
+
+  <text x="480" y="700" text-anchor="middle" font-size="13" fill="#333333">Illustrative positions; the taxonomy also has content dimensions (what skill, what change, what memory demand).</text>
+</svg>

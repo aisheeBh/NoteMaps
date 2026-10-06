@@ -4,3 +4,6 @@ __pycache__/
 
 # Local backups taken before a changeset run
 *.bak
+
+# Node.js tools installed locally (run `npm install` in tools/)
+tools/node_modules/

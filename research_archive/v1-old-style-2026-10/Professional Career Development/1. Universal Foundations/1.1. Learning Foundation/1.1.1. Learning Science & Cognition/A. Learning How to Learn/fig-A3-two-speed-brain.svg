@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The two-speed learning system</title>
+  <desc>Schematic: experience is filtered by attention into working memory, stored quickly by the hippocampus, replayed during sleep and rest into the slowly learning neocortex; retrieval reactivates neocortical knowledge back into working memory.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFF4D6"/><circle cx="5" cy="5" r="1.4" fill="#B08A3A"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#EAF5EA"/><path d="M0 5H10M5 0V10" stroke="#9CC49C" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Fast capture, slow integration: how knowledge settles in</text>
+
+  <!-- Experience -->
+  <rect x="30" y="150" width="140" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="100" y="192" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">EXPERIENCE</text>
+  <text x="100" y="214" text-anchor="middle" font-size="14" fill="#FFFFFF">sights, words,</text>
+  <text x="100" y="232" text-anchor="middle" font-size="14" fill="#FFFFFF">actions</text>
+
+  <!-- Attention funnel -->
+  <polygon points="200,135 300,178 300,222 200,265" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="250" y="124" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">ATTENTION</text>
+  <text x="246" y="205" text-anchor="middle" font-size="14" fill="#111111">filter</text>
+  <line x1="170" y1="200" x2="198" y2="200" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="250" y1="250" x2="250" y2="300" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <text x="250" y="322" text-anchor="middle" font-size="14" fill="#111111">most input is lost</text>
+
+  <!-- Working memory -->
+  <rect x="330" y="160" width="140" height="80" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="342" y="172" width="116" height="56" fill="#FFFFFF" stroke="none"/>
+  <text x="400" y="195" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">WORKING</text>
+  <text x="400" y="215" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">MEMORY</text>
+  <text x="400" y="150" text-anchor="middle" font-size="14" fill="#111111">small, lasts seconds</text>
+  <line x1="300" y1="200" x2="328" y2="200" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Hippocampus -->
+  <rect x="540" y="140" width="200" height="120" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="556" y="156" width="168" height="88" fill="#FFFFFF" stroke="none"/>
+  <text x="640" y="182" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">HIPPOCAMPUS</text>
+  <text x="640" y="206" text-anchor="middle" font-size="15" fill="#111111">FAST learner</text>
+  <text x="640" y="228" text-anchor="middle" font-size="14" fill="#111111">binds a new episode</text>
+  <line x1="470" y1="200" x2="538" y2="200" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="505" y="188" text-anchor="middle" font-size="13" fill="#111111">encode</text>
+
+  <!-- Neocortex -->
+  <rect x="380" y="370" width="540" height="110" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="440" y="388" width="420" height="74" fill="#FFFFFF" stroke="none"/>
+  <text x="650" y="414" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">NEOCORTEX — SLOW learner</text>
+  <text x="650" y="438" text-anchor="middle" font-size="14" fill="#111111">long-term store; new knowledge is woven</text>
+  <text x="650" y="456" text-anchor="middle" font-size="14" fill="#111111">into existing knowledge over days to years</text>
+
+  <!-- Replay arrows (dashed) -->
+  <path d="M610 260 C 600 300, 600 330, 600 366" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/>
+  <path d="M680 260 C 700 300, 730 330, 740 366" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/>
+  <rect x="760" y="282" width="176" height="56" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="848" y="304" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Dashed: REPLAY</text>
+  <text x="848" y="324" text-anchor="middle" font-size="14" fill="#111111">during sleep and rest</text>
+
+  <!-- Retrieval arrow (dotted) -->
+  <path d="M380 430 C 330 430, 330 330, 380 244" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="60" y="380" width="250" height="56" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="185" y="402" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Dotted: RETRIEVAL</text>
+  <text x="185" y="422" text-anchor="middle" font-size="14" fill="#111111">reactivates and updates knowledge</text>
+
+  <text x="480" y="518" text-anchor="middle" font-size="13" fill="#333333">Schematic of the complementary-learning-systems idea; boxes are functions, not anatomical positions.</text>
+</svg>

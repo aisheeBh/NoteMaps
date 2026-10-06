@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The self-determination continuum of motivation</title>
+  <desc>Six motivation types from amotivation through external, introjected, identified and integrated regulation to intrinsic motivation, grouped into non-self-determined, controlled and autonomous motivation, with a learner quote for each.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="grey" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#E6E6E6"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">From no motivation to intrinsic motivation</text>
+
+  <!-- direction arrow -->
+  <line x1="40" y1="74" x2="920" y2="74" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480" y="66" text-anchor="middle" font-size="15" fill="#111111">more self-endorsed, more persistent, deeper learning</text>
+
+  <!-- extrinsic bracket -->
+  <path d="M184 112 V100 H776 V112" fill="none" stroke="#222222" stroke-width="2"/>
+  <rect x="330" y="88" width="300" height="22" fill="#FFFFFF"/>
+  <text x="480" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">EXTRINSIC MOTIVATION (4 styles)</text>
+
+  <!-- boxes -->
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <rect x="30" y="122" width="140" height="78" fill="#FFFFFF" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+    <text x="100" y="156" font-weight="bold">Amotivation</text>
+    <text x="100" y="178" font-size="14">no reason to act</text>
+
+    <rect x="182" y="122" width="140" height="78" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="252" y="148" font-weight="bold">External</text>
+    <text x="252" y="168" font-size="14">reward or</text>
+    <text x="252" y="186" font-size="14">punishment</text>
+
+    <rect x="334" y="122" width="140" height="78" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="404" y="148" font-weight="bold">Introjected</text>
+    <text x="404" y="168" font-size="14">guilt, pride,</text>
+    <text x="404" y="186" font-size="14">self-pressure</text>
+
+    <rect x="486" y="122" width="140" height="78" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="556" y="148" font-weight="bold">Identified</text>
+    <text x="556" y="168" font-size="14">I value</text>
+    <text x="556" y="186" font-size="14">the outcome</text>
+
+    <rect x="638" y="122" width="140" height="78" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="708" y="148" font-weight="bold">Integrated</text>
+    <text x="708" y="168" font-size="14">fits who</text>
+    <text x="708" y="186" font-size="14">I am</text>
+
+    <rect x="790" y="122" width="140" height="78" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+    <text x="860" y="156" font-weight="bold" fill="#FFFFFF">Intrinsic</text>
+    <text x="860" y="178" font-size="14" fill="#FFFFFF">activity itself</text>
+  </g>
+
+  <!-- bands -->
+  <rect x="30" y="220" width="140" height="64" fill="url(#grey)" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="182" y="220" width="292" height="64" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="486" y="220" width="444" height="64" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="44" y="238" width="112" height="28" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="100" y="257" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">NONE</text>
+  <rect x="218" y="238" width="220" height="28" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="328" y="257" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">CONTROLLED (dotted)</text>
+  <rect x="588" y="238" width="240" height="28" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="708" y="257" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">AUTONOMOUS (cross-hatched)</text>
+
+  <!-- example quotes -->
+  <text x="480" y="320" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">What a learner studying Python might say</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="30" y="336" width="140" height="92" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+    <text x="100" y="366">"I don't see</text>
+    <text x="100" y="386">the point."</text>
+
+    <rect x="182" y="336" width="140" height="92" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+    <text x="252" y="366">"My manager</text>
+    <text x="252" y="386">will check my</text>
+    <text x="252" y="406">completion."</text>
+
+    <rect x="334" y="336" width="140" height="92" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+    <text x="404" y="366">"I'd feel</text>
+    <text x="404" y="386">guilty falling</text>
+    <text x="404" y="406">behind."</text>
+
+    <rect x="486" y="336" width="140" height="92" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+    <text x="556" y="366">"Automating</text>
+    <text x="556" y="386">reports matters</text>
+    <text x="556" y="406">to my goals."</text>
+
+    <rect x="638" y="336" width="140" height="92" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+    <text x="708" y="366">"Building tools</text>
+    <text x="708" y="386">is part of who</text>
+    <text x="708" y="406">I am now."</text>
+
+    <rect x="790" y="336" width="140" height="92" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+    <text x="860" y="366">"I just love</text>
+    <text x="860" y="386">solving these</text>
+    <text x="860" y="406">puzzles."</text>
+  </g>
+
+  <text x="480" y="468" text-anchor="middle" font-size="15" fill="#111111">Internalisation = moving rightward by making an external reason your own.</text>
+  <text x="480" y="492" text-anchor="middle" font-size="15" fill="#111111">It is fed by support for autonomy, competence and relatedness.</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the continuum described in self-determination theory; the types can co-exist in one person.</text>
+</svg>

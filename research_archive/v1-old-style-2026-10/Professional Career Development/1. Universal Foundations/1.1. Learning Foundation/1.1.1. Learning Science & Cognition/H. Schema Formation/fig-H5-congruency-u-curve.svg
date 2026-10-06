@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Memory as a function of schema congruency</title>
+  <desc>Schematic U-shaped curve: memory is strongest for information that is highly congruent with a schema or highly novel, and weakest for information in between. The congruent end is linked to medial prefrontal cortex, the novel end to hippocampus.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Fits well or stands out: what is remembered best</text>
+
+  <!-- zones -->
+  <rect x="110" y="70" width="230" height="350" fill="url(#cross)" opacity="0.55"/>
+  <rect x="380" y="70" width="200" height="350" fill="url(#dots)" opacity="0.55"/>
+  <rect x="620" y="70" width="270" height="350" fill="url(#hatch)" opacity="0.45"/>
+
+  <!-- axes -->
+  <line x1="100" y1="420" x2="905" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="420" x2="100" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="54" y="245" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 54 245)">Memory strength</text>
+  <text x="120" y="446" font-size="15" fill="#111111">Highly congruent</text>
+  <text x="480" y="446" text-anchor="middle" font-size="15" fill="#111111">Somewhat related</text>
+  <text x="890" y="446" text-anchor="end" font-size="15" fill="#111111">Highly novel</text>
+  <text x="500" y="472" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">How well new information fits an existing schema</text>
+
+  <!-- U curve -->
+  <path d="M120 120 C 260 160, 360 360, 480 365 C 600 360, 720 170, 880 125" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="120" cy="120" r="6" fill="#1F3B5C"/>
+  <circle cx="880" cy="125" r="6" fill="#1F3B5C"/>
+  <circle cx="480" cy="365" r="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="3"/>
+
+  <!-- labels -->
+  <rect x="135" y="185" width="190" height="88" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="230" y="208" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">FITS THE SCHEMA</text>
+  <text x="230" y="228" text-anchor="middle" font-size="14" fill="#111111">fast integration</text>
+  <text x="230" y="246" text-anchor="middle" font-size="14" fill="#111111">medial prefrontal cortex</text>
+  <text x="230" y="264" text-anchor="middle" font-size="14" fill="#111111">risk: false memories</text>
+
+  <rect x="395" y="110" width="170" height="70" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480" y="134" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">IN BETWEEN</text>
+  <text x="480" y="154" text-anchor="middle" font-size="14" fill="#111111">absorbed, blurred,</text>
+  <text x="480" y="172" text-anchor="middle" font-size="14" fill="#111111">most easily lost</text>
+
+  <rect x="655" y="195" width="200" height="88" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="755" y="218" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">STANDS OUT</text>
+  <text x="755" y="238" text-anchor="middle" font-size="14" fill="#111111">distinct episode</text>
+  <text x="755" y="256" text-anchor="middle" font-size="14" fill="#111111">hippocampus</text>
+  <text x="755" y="274" text-anchor="middle" font-size="14" fill="#111111">risk: isolated, inert</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the SLIMM prediction; the exact shape varies by task, delay and type of memory test.</text>
+</svg>

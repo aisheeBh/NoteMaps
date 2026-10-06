@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The central bottleneck in dual-task performance</title>
+  <desc>Two tasks each have perceive, decide and respond stages. Task 2 perception overlaps Task 1, but Task 2's decide stage must wait until Task 1's decide stage finishes, creating a waiting gap that delays the second response.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Only one decision at a time: the second task waits</text>
+
+  <!-- row labels -->
+  <text x="40" y="150" font-size="17" font-weight="bold" fill="#111111">Task 1</text>
+  <text x="40" y="290" font-size="17" font-weight="bold" fill="#111111">Task 2</text>
+
+  <!-- Task 1 -->
+  <rect x="140" y="120" width="150" height="50" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="290" y="120" width="180" height="50" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="380" y="151" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">DECIDE 1</text>
+  <rect x="470" y="120" width="120" height="50" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+
+  <!-- Task 2 -->
+  <rect x="220" y="260" width="150" height="50" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="370" y="260" width="100" height="50" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="420" y="291" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">WAIT</text>
+  <rect x="470" y="260" width="180" height="50" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="560" y="291" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">DECIDE 2</text>
+  <rect x="650" y="260" width="120" height="50" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+
+  <!-- stage label tags (white boxes so text is readable over patterns) -->
+  <rect x="160" y="133" width="110" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="215" y="150" text-anchor="middle" font-size="14" fill="#111111">perceive 1</text>
+  <rect x="480" y="133" width="100" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="530" y="150" text-anchor="middle" font-size="14" fill="#111111">respond 1</text>
+  <rect x="240" y="273" width="110" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="295" y="290" text-anchor="middle" font-size="14" fill="#111111">perceive 2</text>
+  <rect x="660" y="273" width="100" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="710" y="290" text-anchor="middle" font-size="14" fill="#111111">respond 2</text>
+
+  <!-- SOA marker -->
+  <line x1="140" y1="210" x2="220" y2="210" stroke="#222222" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="180" y="232" text-anchor="middle" font-size="14" fill="#111111">short gap</text>
+
+  <!-- bottleneck line -->
+  <line x1="470" y1="96" x2="470" y2="330" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="470" y="88" text-anchor="middle" font-size="14" fill="#111111">decision stage frees up here</text>
+
+  <!-- time axis -->
+  <line x1="140" y1="380" x2="860" y2="380" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="406" text-anchor="middle" font-size="16" fill="#111111">Time (fractions of a second) →</text>
+
+  <!-- legend -->
+  <rect x="120" y="430" width="40" height="22" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <text x="170" y="447" font-size="14" fill="#111111">perceive: can run in parallel</text>
+  <rect x="390" y="430" width="40" height="22" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="440" y="447" font-size="14" fill="#111111">decide: one at a time</text>
+  <rect x="630" y="430" width="40" height="22" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <text x="680" y="447" font-size="14" fill="#111111">respond: can overlap</text>
+
+  <text x="480" y="500" text-anchor="middle" font-size="15" fill="#111111">The dotted WAIT box is the psychological refractory period: shorter gaps make it longer.</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Schematic of the standard central-bottleneck model; stage durations are illustrative.</text>
+</svg>

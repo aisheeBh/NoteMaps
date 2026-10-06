@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Old and new views of germane cognitive load</title>
+  <desc>Left: the older additive model stacks intrinsic, extraneous and germane load as three separate layers inside working memory capacity. Right: the current model has only intrinsic and extraneous load; germane resources are the share of working memory devoted to intrinsic load, so reducing extraneous load frees resources that can be redirected to intrinsic processing.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="500" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Germane load: from a third layer to a share of resources</text>
+
+  <!-- LEFT: old model -->
+  <text x="240" y="80" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">OLDER VIEW (about 1998 to 2010)</text>
+  <text x="240" y="102" text-anchor="middle" font-size="14" fill="#111111">three separate loads that add up</text>
+
+  <!-- capacity line -->
+  <line x1="110" y1="140" x2="370" y2="140" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <text x="240" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">working memory capacity</text>
+
+  <rect x="160" y="150" width="160" height="90" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="180" y="180" width="120" height="30" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="240" y="201" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">GERMANE</text>
+
+  <rect x="160" y="240" width="160" height="100" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="175" y="275" width="130" height="30" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="240" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">EXTRANEOUS</text>
+
+  <rect x="160" y="340" width="160" height="120" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="182" y="385" width="116" height="30" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="240" y="406" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">INTRINSIC</text>
+
+  <line x1="110" y1="460" x2="370" y2="460" stroke="#222222" stroke-width="2"/>
+  <text x="240" y="490" text-anchor="middle" font-size="14" fill="#111111">Total = intrinsic + extraneous + germane</text>
+  <text x="240" y="510" text-anchor="middle" font-size="14" fill="#111111">Problem: germane could not be measured</text>
+  <text x="240" y="530" text-anchor="middle" font-size="14" fill="#111111">independently, so explanations risked</text>
+  <text x="240" y="550" text-anchor="middle" font-size="14" fill="#111111">being circular.</text>
+
+  <!-- divider -->
+  <line x1="470" y1="70" x2="470" y2="560" stroke="#555555" stroke-width="1.5" stroke-dasharray="2 4"/>
+
+  <!-- RIGHT: new model -->
+  <text x="715" y="80" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">CURRENT VIEW (2010 onward)</text>
+  <text x="715" y="102" text-anchor="middle" font-size="14" fill="#111111">two loads; germane = resources for intrinsic</text>
+
+  <line x1="530" y1="140" x2="900" y2="140" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <text x="805" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">working memory capacity</text>
+
+  <!-- poor design bar: overflows capacity -->
+  <rect x="555" y="110" width="120" height="30" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="615" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#111111">OVERLOAD</text>
+  <rect x="555" y="140" width="120" height="120" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="561" y="185" width="108" height="30" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="615" y="206" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">EXTRANEOUS</text>
+  <rect x="555" y="260" width="120" height="200" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="565" y="320" width="100" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="615" y="341" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">INTRINSIC</text>
+  <text x="615" y="361" text-anchor="middle" font-size="13" fill="#111111">not fully</text>
+  <text x="615" y="376" text-anchor="middle" font-size="13" fill="#111111">processed</text>
+
+  <!-- good design bar -->
+  <rect x="745" y="225" width="120" height="35" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="761" y="231" width="88" height="23" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="805" y="248" text-anchor="middle" font-size="13" font-weight="bold" fill="#111111">extraneous</text>
+  <rect x="745" y="260" width="120" height="200" fill="url(#hatch)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="755" y="320" width="100" height="62" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="805" y="341" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">INTRINSIC</text>
+  <text x="805" y="361" text-anchor="middle" font-size="13" fill="#111111">fully</text>
+  <text x="805" y="376" text-anchor="middle" font-size="13" fill="#111111">processed</text>
+  <text x="805" y="190" text-anchor="middle" font-size="13" fill="#111111">spare capacity</text>
+  <!-- bracket for germane resources -->
+  <path d="M875 262 H888 V458 H875" fill="none" stroke="#1E5E24" stroke-width="3"/>
+  <text x="900" y="330" font-size="14" font-weight="bold" fill="#111111">GERMANE</text>
+  <text x="900" y="348" font-size="13" fill="#111111">resources</text>
+  <text x="900" y="364" font-size="13" fill="#111111">devoted</text>
+  <text x="900" y="380" font-size="13" fill="#111111">to intrinsic</text>
+
+  <line x1="680" y1="200" x2="738" y2="240" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="708" y="186" text-anchor="middle" font-size="13" fill="#111111">cut waste</text>
+
+  <line x1="530" y1="460" x2="900" y2="460" stroke="#222222" stroke-width="2"/>
+  <text x="615" y="480" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Poor design</text>
+  <text x="805" y="480" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Good design</text>
+  <text x="715" y="510" text-anchor="middle" font-size="14" fill="#111111">Total load = intrinsic + extraneous.</text>
+  <text x="715" y="530" text-anchor="middle" font-size="14" fill="#111111">Cutting extraneous load frees resources;</text>
+  <text x="715" y="550" text-anchor="middle" font-size="14" fill="#111111">germane processing spends them on the essential content.</text>
+
+  <text x="500" y="584" text-anchor="middle" font-size="13" fill="#333333">Schematic. Bar heights are illustrative, not measured values.</text>
+</svg>

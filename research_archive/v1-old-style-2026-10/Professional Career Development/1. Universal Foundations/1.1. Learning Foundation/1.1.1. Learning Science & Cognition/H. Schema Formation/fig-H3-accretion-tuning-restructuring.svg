@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Accretion, tuning and restructuring of a schema</title>
+  <desc>Three panels. Accretion adds new filled slots to an unchanged structure. Tuning strengthens links and revises a default. Restructuring reorganizes the same elements around a new central principle.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Three ways learning changes a schema</text>
+
+  <!-- panel frames -->
+  <rect x="28" y="60" width="284" height="400" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <rect x="338" y="60" width="284" height="400" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <rect x="648" y="60" width="284" height="400" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+
+  <text x="170" y="90" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">1. ACCRETION</text>
+  <text x="170" y="112" text-anchor="middle" font-size="14" fill="#111111">add facts, same structure</text>
+  <text x="480" y="90" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">2. TUNING</text>
+  <text x="480" y="112" text-anchor="middle" font-size="14" fill="#111111">adjust links and defaults</text>
+  <text x="790" y="90" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">3. RESTRUCTURING</text>
+  <text x="790" y="112" text-anchor="middle" font-size="14" fill="#111111">reorganize around a new idea</text>
+
+  <!-- PANEL 1 -->
+  <g stroke="#222222" stroke-width="2">
+    <line x1="170" y1="270" x2="100" y2="190"/>
+    <line x1="170" y1="270" x2="240" y2="190"/>
+    <line x1="170" y1="270" x2="90" y2="330"/>
+    <line x1="170" y1="270" x2="250" y2="330"/>
+  </g>
+  <g stroke="#222222" stroke-width="2" stroke-dasharray="2 4">
+    <line x1="90" y1="330" x2="80" y2="405"/>
+    <line x1="250" y1="330" x2="260" y2="405"/>
+  </g>
+  <circle cx="170" cy="270" r="34" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="135" y="260" width="70" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="170" y="275" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">schema</text>
+  <circle cx="100" cy="190" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="240" cy="190" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="90" cy="330" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="250" cy="330" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="80" cy="405" r="16" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="3 3"/>
+  <circle cx="260" cy="405" r="16" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="170" y="410" text-anchor="middle" font-size="14" fill="#111111">new facts</text>
+  <text x="170" y="428" text-anchor="middle" font-size="14" fill="#111111">(dotted)</text>
+
+  <!-- PANEL 2 -->
+  <g stroke="#222222" stroke-width="2">
+    <line x1="480" y1="270" x2="410" y2="190"/>
+    <line x1="480" y1="270" x2="400" y2="330"/>
+    <line x1="480" y1="270" x2="560" y2="330"/>
+  </g>
+  <line x1="480" y1="270" x2="550" y2="190" stroke="#1F3B5C" stroke-width="7"/>
+  <circle cx="480" cy="270" r="34" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="445" y="260" width="70" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="480" y="275" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">schema</text>
+  <circle cx="410" cy="190" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="550" cy="190" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="400" cy="330" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="560" cy="330" r="22" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="560" cy="330" r="16" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="566" y="152" text-anchor="middle" font-size="14" fill="#111111">link strengthened</text>
+  <text x="560" y="378" text-anchor="middle" font-size="14" fill="#111111">default revised</text>
+  <text x="560" y="396" text-anchor="middle" font-size="14" fill="#111111">(double ring)</text>
+
+  <!-- PANEL 3 -->
+  <g stroke="#222222" stroke-width="2">
+    <line x1="790" y1="200" x2="710" y2="290"/>
+    <line x1="790" y1="200" x2="870" y2="290"/>
+    <line x1="710" y1="290" x2="740" y2="380"/>
+    <line x1="870" y1="290" x2="840" y2="380"/>
+    <line x1="740" y1="380" x2="840" y2="380"/>
+  </g>
+  <rect x="722" y="168" width="136" height="64" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="736" y="182" width="108" height="38" fill="#FFFFFF" stroke="none"/>
+  <text x="790" y="198" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">new central</text>
+  <text x="790" y="215" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">principle</text>
+  <circle cx="710" cy="290" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="870" cy="290" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="740" cy="380" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="840" cy="380" r="18" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="790" y="428" text-anchor="middle" font-size="14" fill="#111111">same pieces, new organization</text>
+
+  <!-- bottom scale -->
+  <line x1="60" y1="492" x2="900" y2="492" stroke="#222222" stroke-width="2"/>
+  <text x="60" y="516" font-size="14" fill="#111111">common, fast, easy</text>
+  <text x="900" y="516" text-anchor="end" font-size="14" fill="#111111">rare, slow, deep change</text>
+  <polygon points="900,486 912,492 900,498" fill="#222222"/>
+</svg>

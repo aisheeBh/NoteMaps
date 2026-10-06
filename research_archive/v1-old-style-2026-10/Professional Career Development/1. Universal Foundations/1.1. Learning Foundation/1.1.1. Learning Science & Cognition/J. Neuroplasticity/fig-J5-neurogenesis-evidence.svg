@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The adult human neurogenesis debate over time</title>
+  <desc>Timeline with supportive studies above the line and skeptical studies below: early 1900s fixed-brain dogma, 1960s rodent findings, 1998 BrdU study, 2013 carbon-14 study, 2018 conflicting studies, 2019 DCX study, 2021-2022 skeptical single-nucleus studies, 2025 and 2026 large transcriptomic studies, and ongoing critiques.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Do adult humans make new hippocampal neurons?</text>
+  <text x="34" y="74" font-size="16" font-weight="bold" fill="#111111">ABOVE THE LINE: reported as supporting (solid borders)</text>
+  <text x="34" y="560" font-size="16" font-weight="bold" fill="#111111">BELOW THE LINE: reported as finding little or none (dotted borders)</text>
+
+  <!-- timeline -->
+  <line x1="30" y1="320" x2="930" y2="320" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <g font-size="14" font-weight="bold" fill="#111111" text-anchor="start">
+    <text x="117" y="308">1900s-60s</text>
+    <text x="267" y="308">1998</text>
+    <text x="417" y="308">2013</text>
+    <text x="567" y="308">2018-19</text>
+    <text x="717" y="308">2021-25</text>
+    <text x="867" y="308">2026</text>
+  </g>
+
+  <!-- supporting boxes (above) -->
+  <g font-size="14" fill="#111111">
+    <rect x="38" y="96" width="134" height="104" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="48" y="118" font-weight="bold">1960s Altman</text>
+    <text x="48" y="138">new neurons in</text>
+    <text x="48" y="156">adult rats; later</text>
+    <text x="48" y="174">birds, primates</text>
+    <text x="48" y="192">(animals only)</text>
+    <line x1="105" y1="200" x2="105" y2="294" stroke="#222222" stroke-width="1.5"/><circle cx="105" cy="320" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+    <rect x="188" y="96" width="134" height="104" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="198" y="118" font-weight="bold">Eriksson, Gage</text>
+    <text x="198" y="138">BrdU-labelled</text>
+    <text x="198" y="156">new neurons in</text>
+    <text x="198" y="174">adult patients</text>
+    <line x1="255" y1="200" x2="255" y2="294" stroke="#222222" stroke-width="1.5"/><circle cx="255" cy="320" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+    <rect x="338" y="96" width="134" height="104" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="348" y="118" font-weight="bold">Spalding, Frisen</text>
+    <text x="348" y="138">carbon-14 dating:</text>
+    <text x="348" y="156">about 700 new</text>
+    <text x="348" y="174">neurons per day</text>
+    <text x="348" y="192">per hippocampus</text>
+    <line x1="405" y1="200" x2="405" y2="294" stroke="#222222" stroke-width="1.5"/><circle cx="405" cy="320" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+    <rect x="488" y="96" width="134" height="104" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="498" y="118" font-weight="bold">Boldrini 2018;</text>
+    <text x="498" y="136" font-weight="bold">Llorens-Martin</text>
+    <text x="498" y="156">2019: immature</text>
+    <text x="498" y="174">neurons into the</text>
+    <text x="498" y="192">90s, lower in AD</text>
+    <line x1="555" y1="200" x2="555" y2="294" stroke="#222222" stroke-width="1.5"/><circle cx="555" cy="320" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+    <rect x="638" y="96" width="134" height="104" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="648" y="118" font-weight="bold">Frisen 2025</text>
+    <text x="648" y="138">dividing</text>
+    <text x="648" y="156">progenitors in</text>
+    <text x="648" y="174">adults; rare and</text>
+    <text x="648" y="192">highly variable</text>
+    <line x1="705" y1="200" x2="705" y2="294" stroke="#222222" stroke-width="1.5"/><circle cx="705" cy="320" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+    <rect x="788" y="96" width="134" height="104" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="798" y="118" font-weight="bold">Lazarov 2026</text>
+    <text x="798" y="138">neuroblasts in</text>
+    <text x="798" y="156">all groups; fewer</text>
+    <text x="798" y="174">in AD, more in</text>
+    <text x="798" y="192">SuperAgers</text>
+    <line x1="855" y1="200" x2="855" y2="294" stroke="#222222" stroke-width="1.5"/><circle cx="855" cy="320" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  </g>
+
+  <!-- skeptical boxes (below) -->
+  <g font-size="14" fill="#111111">
+    <rect x="38" y="420" width="134" height="104" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="48" y="442" font-weight="bold">Cajal era</text>
+    <text x="48" y="462">adult pathways</text>
+    <text x="48" y="480">seen as fixed;</text>
+    <text x="48" y="498">no new neurons</text>
+    <line x1="105" y1="320" x2="105" y2="420" stroke="#222222" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <rect x="488" y="420" width="134" height="104" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="498" y="442" font-weight="bold">Sorrells 2018</text>
+    <text x="498" y="462">59 brains: young-</text>
+    <text x="498" y="480">neuron markers</text>
+    <text x="498" y="498">vanish after</text>
+    <text x="498" y="516">childhood</text>
+    <line x1="555" y1="320" x2="555" y2="420" stroke="#222222" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <rect x="638" y="420" width="134" height="104" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="648" y="442" font-weight="bold">2021-2022</text>
+    <text x="648" y="462">some single-</text>
+    <text x="648" y="480">nucleus studies</text>
+    <text x="648" y="498">find almost no</text>
+    <text x="648" y="516">neurogenic cells</text>
+    <line x1="705" y1="320" x2="705" y2="420" stroke="#222222" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <rect x="788" y="420" width="134" height="104" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="798" y="442" font-weight="bold">Ongoing critique</text>
+    <text x="798" y="462">gene-expression</text>
+    <text x="798" y="480">labels are not</text>
+    <text x="798" y="498">proof of cell</text>
+    <text x="798" y="516">division</text>
+    <line x1="855" y1="320" x2="855" y2="420" stroke="#222222" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- verdict -->
+  <rect x="200" y="350" width="270" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="335" y="370" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">2026 status: leaning "some exists";</text>
+  <text x="335" y="389" text-anchor="middle" font-size="14" fill="#111111">amount and function unresolved</text>
+
+  <text x="480" y="600" text-anchor="middle" font-size="13" fill="#333333">Teaching summary; spacing between dates is not to scale and the list is not exhaustive.</text>
+</svg>

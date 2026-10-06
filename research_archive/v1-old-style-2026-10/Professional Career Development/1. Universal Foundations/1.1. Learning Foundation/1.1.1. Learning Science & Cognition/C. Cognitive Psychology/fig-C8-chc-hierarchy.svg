@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The Cattell-Horn-Carroll hierarchy</title>
+  <desc>Three-level hierarchy: general ability g at the top; seven broad abilities in the middle (fluid reasoning, comprehension-knowledge, working memory, long-term retrieval, visual processing, auditory processing, processing speed); example narrow abilities at the bottom.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The CHC model: three levels of cognitive ability</text>
+
+  <!-- level labels -->
+  <text x="30" y="108" font-size="14" font-weight="bold" fill="#111111">LEVEL 3</text>
+  <text x="30" y="126" font-size="13" fill="#333333">general</text>
+  <text x="30" y="268" font-size="14" font-weight="bold" fill="#111111">LEVEL 2</text>
+  <text x="30" y="286" font-size="13" fill="#333333">broad</text>
+  <text x="30" y="458" font-size="14" font-weight="bold" fill="#111111">LEVEL 1</text>
+  <text x="30" y="476" font-size="13" fill="#333333">narrow</text>
+
+  <!-- g -->
+  <rect x="380" y="76" width="200" height="66" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="104" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">g</text>
+  <text x="480" y="128" text-anchor="middle" font-size="15" fill="#FFFFFF">general ability</text>
+
+  <!-- connectors g to broad -->
+  <g stroke="#222222" stroke-width="2">
+    <line x1="480" y1="142" x2="164" y2="226"/>
+    <line x1="480" y1="142" x2="272" y2="226"/>
+    <line x1="480" y1="142" x2="380" y2="226"/>
+    <line x1="480" y1="142" x2="488" y2="226"/>
+    <line x1="480" y1="142" x2="596" y2="226"/>
+    <line x1="480" y1="142" x2="704" y2="226"/>
+    <line x1="480" y1="142" x2="812" y2="226"/>
+  </g>
+
+  <!-- broad abilities: width 100, centers 164..812 step 108 -->
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="114" y="226" width="100" height="84" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+    <rect x="120" y="238" width="88" height="62" fill="#FFFFFF" stroke="none"/>
+    <text x="164" y="258" font-weight="bold">Gf</text><text x="164" y="276">fluid</text><text x="164" y="293">reasoning</text>
+
+    <rect x="222" y="226" width="100" height="84" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+    <rect x="228" y="238" width="88" height="62" fill="#FFFFFF" stroke="none"/>
+    <text x="272" y="258" font-weight="bold">Gc</text><text x="272" y="276">knowledge,</text><text x="272" y="293">verbal</text>
+
+    <rect x="330" y="226" width="100" height="84" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="380" y="258" font-weight="bold">Gwm</text><text x="380" y="276">working</text><text x="380" y="293">memory</text>
+
+    <rect x="438" y="226" width="100" height="84" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="488" y="258" font-weight="bold">Gl / Gr</text><text x="488" y="276">learning and</text><text x="488" y="293">retrieval</text>
+
+    <rect x="546" y="226" width="100" height="84" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="596" y="258" font-weight="bold">Gv</text><text x="596" y="276">visual</text><text x="596" y="293">processing</text>
+
+    <rect x="654" y="226" width="100" height="84" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="704" y="258" font-weight="bold">Ga</text><text x="704" y="276">auditory</text><text x="704" y="293">processing</text>
+
+    <rect x="762" y="226" width="100" height="84" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="812" y="258" font-weight="bold">Gs</text><text x="812" y="276">processing</text><text x="812" y="293">speed</text>
+  </g>
+
+  <!-- connectors broad to narrow (dashed) -->
+  <g stroke="#333333" stroke-width="1.5" stroke-dasharray="8 5">
+    <line x1="164" y1="310" x2="164" y2="420"/>
+    <line x1="272" y1="310" x2="272" y2="420"/>
+    <line x1="380" y1="310" x2="380" y2="420"/>
+    <line x1="488" y1="310" x2="488" y2="420"/>
+    <line x1="596" y1="310" x2="596" y2="420"/>
+    <line x1="704" y1="310" x2="704" y2="420"/>
+    <line x1="812" y1="310" x2="812" y2="420"/>
+  </g>
+
+  <!-- narrow examples -->
+  <g font-size="13" fill="#111111" text-anchor="middle">
+    <rect x="114" y="420" width="100" height="78" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/>
+    <text x="164" y="442">induction</text><text x="164" y="460">deduction</text><text x="164" y="478">quantitative</text>
+
+    <rect x="222" y="420" width="100" height="78" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/>
+    <text x="272" y="442">vocabulary</text><text x="272" y="460">general</text><text x="272" y="478">information</text>
+
+    <rect x="330" y="420" width="100" height="78" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/>
+    <text x="380" y="442">memory span</text><text x="380" y="460">attentional</text><text x="380" y="478">control</text>
+
+    <rect x="438" y="420" width="100" height="78" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/>
+    <text x="488" y="442">associative</text><text x="488" y="460">memory,</text><text x="488" y="478">idea fluency</text>
+
+    <rect x="546" y="420" width="100" height="78" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/>
+    <text x="596" y="442">mental</text><text x="596" y="460">rotation,</text><text x="596" y="478">visualisation</text>
+
+    <rect x="654" y="420" width="100" height="78" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/>
+    <text x="704" y="442">speech sound</text><text x="704" y="460">discrimination</text>
+
+    <rect x="762" y="420" width="100" height="78" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/>
+    <text x="812" y="442">perceptual</text><text x="812" y="460">speed, test-</text><text x="812" y="478">taking speed</text>
+  </g>
+
+  <!-- legend -->
+  <rect x="114" y="524" width="26" height="22" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="150" y="541" font-size="14" fill="#111111">Hatched frame: the two classic broad abilities (Cattell and Horn: fluid and crystallized)</text>
+  <text x="114" y="572" font-size="13" fill="#333333">Simplified; full CHC lists more broad abilities (for example reading-writing, quantitative knowledge) and many more narrow ones.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Early and late phases of long-term potentiation</title>
+  <desc>Schematic: after a weak stimulus synaptic strength rises and decays back to baseline within a few hours (early LTP only). After a strong or repeated stimulus, protein synthesis stabilises the change and strength stays elevated for many hours to days (late LTP).</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFF3D1"/><circle cx="5" cy="5" r="1.4" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Early LTP fades; late LTP lasts</text>
+
+  <!-- protein synthesis window -->
+  <rect x="300" y="70" width="210" height="370" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <text x="405" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">PROTEIN SYNTHESIS</text>
+  <text x="405" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">WINDOW</text>
+  <text x="405" y="128" text-anchor="middle" font-size="14" fill="#111111">(roughly 1 to 3 hours)</text>
+
+  <!-- axes -->
+  <line x1="90" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="90" y1="440" x2="90" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="495" y="476" text-anchor="middle" font-size="16" fill="#111111">Time after stimulation (minutes, hours, days)</text>
+  <text x="44" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 44 255)">Synaptic strength</text>
+
+  <!-- baseline -->
+  <line x1="90" y1="380" x2="890" y2="380" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="880" y="400" text-anchor="end" font-size="14" fill="#111111">baseline</text>
+
+  <!-- stimulus marker -->
+  <line x1="150" y1="380" x2="150" y2="150" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="150" y="142" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">stimulus</text>
+
+  <!-- late LTP: solid -->
+  <path d="M100 380 L150 380 C 165 200, 190 190, 230 200 C 300 215, 420 215, 520 210 C 640 205, 760 205, 880 205" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="880" cy="205" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- early LTP only: dashed -->
+  <path d="M150 380 C 165 260, 190 255, 230 262 C 300 280, 380 330, 470 365 C 540 378, 600 380, 700 380" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="700" cy="380" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- labels -->
+  <rect x="560" y="150" width="320" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="572" y="170" font-size="15" font-weight="bold" fill="#111111">Solid: strong or repeated stimulus</text>
+  <text x="572" y="188" font-size="14" fill="#111111">late LTP, new proteins, lasts hours to days</text>
+
+  <rect x="560" y="300" width="300" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="572" y="320" font-size="15" font-weight="bold" fill="#111111">Dashed: weak, single stimulus</text>
+  <text x="572" y="338" font-size="14" fill="#111111">early LTP only, back to baseline</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative schematic of the classic hippocampal slice finding; time axis compressed and not to scale.</text>
+</svg>

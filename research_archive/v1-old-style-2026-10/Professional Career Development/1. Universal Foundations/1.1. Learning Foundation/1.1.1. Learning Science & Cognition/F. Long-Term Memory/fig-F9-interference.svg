@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Proactive and retroactive interference</title>
+  <desc>Two timelines. Proactive interference: old learning A disrupts recall of newer learning B, shown by an arrow pointing forward in time. Retroactive interference: newer learning B disrupts recall of older learning A, shown by an arrow pointing backward in time.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Interference: similar memories compete at retrieval</text>
+
+  <!-- ROW 1 PROACTIVE -->
+  <text x="40" y="78" font-size="19" font-weight="bold" fill="#111111">PROACTIVE - the old disrupts the new</text>
+  <line x1="60" y1="216" x2="900" y2="216" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="900" y="238" text-anchor="end" font-size="14" fill="#333333">time</text>
+  <rect x="90" y="140" width="200" height="56" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="104" y="148" width="172" height="42" fill="#FFFFFF" stroke="none"/>
+  <text x="190" y="166" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Learn A (old)</text>
+  <text x="190" y="184" text-anchor="middle" font-size="14" fill="#111111">old deploy command</text>
+  <rect x="380" y="140" width="200" height="56" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <rect x="394" y="148" width="172" height="42" fill="#FFFFFF" stroke="none"/>
+  <text x="480" y="166" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Learn B (new)</text>
+  <text x="480" y="184" text-anchor="middle" font-size="14" fill="#111111">new deploy command</text>
+  <rect x="680" y="140" width="190" height="56" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="775" y="166" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Recall B?</text>
+  <text x="775" y="184" text-anchor="middle" font-size="14" fill="#111111">types the old one</text>
+  <path d="M190 138 C 300 96, 640 96, 760 136" fill="none" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">A intrudes forward in time (solid arrow)</text>
+
+  <!-- ROW 2 RETROACTIVE -->
+  <text x="40" y="280" font-size="19" font-weight="bold" fill="#111111">RETROACTIVE - the new disrupts the old</text>
+  <line x1="60" y1="416" x2="900" y2="416" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="900" y="438" text-anchor="end" font-size="14" fill="#333333">time</text>
+  <rect x="90" y="340" width="200" height="56" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="104" y="348" width="172" height="42" fill="#FFFFFF" stroke="none"/>
+  <text x="190" y="366" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Learn A (old)</text>
+  <text x="190" y="384" text-anchor="middle" font-size="14" fill="#111111">last year's prices</text>
+  <rect x="380" y="340" width="200" height="56" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <rect x="394" y="348" width="172" height="42" fill="#FFFFFF" stroke="none"/>
+  <text x="480" y="366" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Learn B (new)</text>
+  <text x="480" y="384" text-anchor="middle" font-size="14" fill="#111111">this year's prices</text>
+  <rect x="680" y="340" width="190" height="56" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="775" y="366" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Recall A?</text>
+  <text x="775" y="384" text-anchor="middle" font-size="14" fill="#111111">can't recall old ones</text>
+  <path d="M480 338 C 420 294, 260 294, 200 336" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="335" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">B blocks access to A</text>
+  <text x="640" y="320" text-anchor="start" font-size="14" fill="#111111">(dashed arrow points back in time)</text>
+
+  <text x="480" y="470" text-anchor="middle" font-size="15" fill="#111111">Hatched frame, solid border = older learning. Dotted frame, dashed border = newer learning. Plain = the test.</text>
+  <text x="480" y="492" text-anchor="middle" font-size="15" fill="#111111">The more similar A and B are, the stronger the interference in both directions.</text>
+  <text x="480" y="514" text-anchor="middle" font-size="13" fill="#333333">Conceptual schematic of a well-established pattern; examples are illustrative.</text>
+</svg>

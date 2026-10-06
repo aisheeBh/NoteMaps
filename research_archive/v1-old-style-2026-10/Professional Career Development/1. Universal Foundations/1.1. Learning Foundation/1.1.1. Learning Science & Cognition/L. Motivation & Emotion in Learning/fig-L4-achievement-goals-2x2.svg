@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The 2 by 2 achievement goal framework</title>
+  <desc>A two by two matrix crossing how competence is defined (mastery versus performance) with valence (approach versus avoidance), giving mastery-approach, performance-approach, mastery-avoidance and performance-avoidance goals, each with a typical thought and typical outcomes.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="grey" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#E6E6E6"/><circle cx="3" cy="3" r="1" fill="#666666"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Four achievement goals: what counts as success?</text>
+
+  <!-- column headers -->
+  <text x="390" y="78" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">MASTERY</text>
+  <text x="390" y="98" text-anchor="middle" font-size="14" fill="#111111">standard = the task or my past self</text>
+  <text x="730" y="78" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">PERFORMANCE</text>
+  <text x="730" y="98" text-anchor="middle" font-size="14" fill="#111111">standard = other people</text>
+
+  <!-- row headers -->
+  <text x="110" y="220" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">APPROACH</text>
+  <text x="110" y="242" text-anchor="middle" font-size="14" fill="#111111">aim for success</text>
+  <text x="110" y="440" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">AVOIDANCE</text>
+  <text x="110" y="462" text-anchor="middle" font-size="14" fill="#111111">aim to avoid failure</text>
+
+  <!-- quadrants -->
+  <rect x="220" y="114" width="340" height="216" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="560" y="114" width="340" height="216" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="220" y="330" width="340" height="216" fill="url(#grey)" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="560" y="330" width="340" height="216" fill="url(#dots)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+
+  <!-- label cards -->
+  <g font-size="14" fill="#111111">
+    <rect x="240" y="132" width="300" height="180" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+    <text x="390" y="156" text-anchor="middle" font-size="16" font-weight="bold">Mastery-approach</text>
+    <text x="256" y="182">"I want to really understand</text>
+    <text x="256" y="200">how this works."</text>
+    <text x="256" y="230">+ deep strategies, interest,</text>
+    <text x="256" y="248">  persistence after setbacks</text>
+    <text x="256" y="278" font-weight="bold">MOST ADAPTIVE overall</text>
+
+    <rect x="580" y="132" width="300" height="180" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="730" y="156" text-anchor="middle" font-size="16" font-weight="bold">Performance-approach</text>
+    <text x="596" y="182">"I want to be the best</text>
+    <text x="596" y="200">on the team."</text>
+    <text x="596" y="230">+ often good grades and effort</text>
+    <text x="596" y="248">- linked to anxiety, cheating risk</text>
+    <text x="596" y="278" font-weight="bold">MIXED / CONTESTED</text>
+
+    <rect x="240" y="348" width="300" height="180" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+    <text x="390" y="372" text-anchor="middle" font-size="16" font-weight="bold">Mastery-avoidance</text>
+    <text x="256" y="398">"I don't want to lose</text>
+    <text x="256" y="416">skills I already have."</text>
+    <text x="256" y="446">common in experts and</text>
+    <text x="256" y="464">older workers; weak, mixed</text>
+    <text x="256" y="494" font-weight="bold">LEAST STUDIED</text>
+
+    <rect x="580" y="348" width="300" height="180" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+    <text x="730" y="372" text-anchor="middle" font-size="16" font-weight="bold">Performance-avoidance</text>
+    <text x="596" y="398">"I must not look stupid</text>
+    <text x="596" y="416">in front of others."</text>
+    <text x="596" y="446">- anxiety, help avoidance,</text>
+    <text x="596" y="464">  surface learning, lower scores</text>
+    <text x="596" y="494" font-weight="bold">LEAST ADAPTIVE</text>
+  </g>
+
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of the 2 x 2 model; outcome labels reflect the general pattern in meta-analyses, not fixed rules.</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Attention and Focus: overview of the subtopic</title>
+  <desc>Four stages from left to right: understand attention (D.1, D.2), its mechanisms and limits (D.3 to D.6), threats and peak states (D.7, D.8), and strategies to protect, restore and train focus (D.9 to D.12). Arrows show the progression; a dashed feedback line shows that better habits and settings raise everyday focus.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFF3D6"/><circle cx="5" cy="5" r="1.4" fill="#B08A3A"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#E6F4E6"/><path d="M0 5H10M5 0V10" stroke="#7FB37F" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">D. Attention &amp; Focus: from what it is to how to train it</text>
+
+  <!-- Stage 1 -->
+  <rect x="24" y="70" width="200" height="380" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="24" y="70" width="200" height="56" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="124" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">STAGE 1</text>
+  <text x="124" y="115" text-anchor="middle" font-size="15" fill="#FFFFFF">What attention is</text>
+  <rect x="40" y="146" width="168" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="124" y="171" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.1</text>
+  <text x="124" y="191" text-anchor="middle" font-size="14" fill="#111111">What is attention?</text>
+  <rect x="40" y="222" width="168" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="124" y="247" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.2</text>
+  <text x="124" y="267" text-anchor="middle" font-size="14" fill="#111111">Types of attention</text>
+  <text x="124" y="330" text-anchor="middle" font-size="14" fill="#111111">selection,</text>
+  <text x="124" y="349" text-anchor="middle" font-size="14" fill="#111111">capacity, control</text>
+
+  <!-- Stage 2 -->
+  <rect x="256" y="70" width="200" height="380" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="256" y="70" width="200" height="56" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="356" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">STAGE 2</text>
+  <text x="356" y="115" text-anchor="middle" font-size="15" fill="#111111">Mechanisms and limits</text>
+  <rect x="272" y="140" width="168" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="356" y="164" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.3</text>
+  <text x="356" y="184" text-anchor="middle" font-size="14" fill="#111111">Selective attention</text>
+  <text x="356" y="200" text-anchor="middle" font-size="14" fill="#111111">and filtering</text>
+  <rect x="272" y="216" width="168" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="356" y="240" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.4</text>
+  <text x="356" y="260" text-anchor="middle" font-size="14" fill="#111111">Sustained attention</text>
+  <text x="356" y="276" text-anchor="middle" font-size="14" fill="#111111">and vigilance</text>
+  <rect x="272" y="292" width="168" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="356" y="316" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.5</text>
+  <text x="356" y="336" text-anchor="middle" font-size="14" fill="#111111">Divided attention</text>
+  <text x="356" y="352" text-anchor="middle" font-size="14" fill="#111111">and multitasking</text>
+  <rect x="272" y="368" width="168" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="356" y="392" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.6</text>
+  <text x="356" y="412" text-anchor="middle" font-size="14" fill="#111111">Attentional</text>
+  <text x="356" y="428" text-anchor="middle" font-size="14" fill="#111111">bottlenecks</text>
+
+  <!-- Stage 3 -->
+  <rect x="488" y="70" width="200" height="380" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="488" y="70" width="200" height="56" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <text x="588" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">STAGE 3</text>
+  <text x="588" y="115" text-anchor="middle" font-size="15" fill="#111111">Threats and peak states</text>
+  <rect x="504" y="160" width="168" height="80" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="588" y="186" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.7</text>
+  <text x="588" y="206" text-anchor="middle" font-size="14" fill="#111111">Distraction and</text>
+  <text x="588" y="224" text-anchor="middle" font-size="14" fill="#111111">digital interruptions</text>
+  <rect x="504" y="280" width="168" height="80" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="588" y="306" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.8</text>
+  <text x="588" y="326" text-anchor="middle" font-size="14" fill="#111111">Deep work and</text>
+  <text x="588" y="344" text-anchor="middle" font-size="14" fill="#111111">flow state</text>
+  <rect x="514" y="384" width="148" height="46" fill="#FFFFFF" stroke="none"/>
+  <text x="588" y="403" text-anchor="middle" font-size="14" fill="#111111">the threat versus</text>
+  <text x="588" y="421" text-anchor="middle" font-size="14" fill="#111111">the goal state</text>
+
+  <!-- Stage 4 -->
+  <rect x="720" y="70" width="216" height="380" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="720" y="70" width="216" height="56" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="828" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">STAGE 4</text>
+  <text x="828" y="115" text-anchor="middle" font-size="15" fill="#111111">Protect, restore, train</text>
+  <rect x="736" y="140" width="184" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="828" y="164" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.9</text>
+  <text x="828" y="186" text-anchor="middle" font-size="14" fill="#111111">Mindfulness for focus</text>
+  <rect x="736" y="216" width="184" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="828" y="240" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.10</text>
+  <text x="828" y="262" text-anchor="middle" font-size="14" fill="#111111">Environmental design</text>
+  <rect x="736" y="292" width="184" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="828" y="316" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.11</text>
+  <text x="828" y="338" text-anchor="middle" font-size="14" fill="#111111">Attention restoration</text>
+  <rect x="736" y="368" width="184" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="828" y="392" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D.12</text>
+  <text x="828" y="414" text-anchor="middle" font-size="14" fill="#111111">Training sustained focus</text>
+
+  <!-- stage arrows -->
+  <line x1="226" y1="260" x2="252" y2="260" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="458" y1="260" x2="484" y2="260" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="690" y1="260" x2="716" y2="260" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- feedback line -->
+  <path d="M828 452 V 500 H 124 V 458" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="8 5" marker-end="url(#arrow)"/>
+  <rect x="250" y="484" width="460" height="32" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="480" y="505" text-anchor="middle" font-size="14" fill="#111111">feedback: better habits and settings raise everyday focus</text>
+
+  <text x="480" y="550" text-anchor="middle" font-size="15" fill="#111111">Core message: attention is limited and steerable. Design the work, then train the person.</text>
+  <text x="480" y="582" text-anchor="middle" font-size="13" fill="#333333">Stage panels differ by fill pattern and border in black-and-white print: plain, hatched, dotted with dashed border, cross-hatched with thick border.</text>
+</svg>

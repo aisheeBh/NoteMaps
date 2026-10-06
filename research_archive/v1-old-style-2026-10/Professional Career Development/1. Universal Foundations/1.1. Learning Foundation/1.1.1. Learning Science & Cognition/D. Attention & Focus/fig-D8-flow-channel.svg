@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The flow channel</title>
+  <desc>Challenge on the vertical axis, skill on the horizontal axis. Above the diagonal channel is anxiety (challenge exceeds skill), below is boredom (skill exceeds challenge), and the diagonal channel is flow. A dashed staircase shows a learner raising challenge as skill grows to stay in flow.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFF3D6"/><circle cx="5" cy="5" r="1.5" fill="#B08A3A"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Flow happens where challenge matches skill</text>
+
+  <!-- plot area 140..780 x, 80..500 y -->
+  <!-- anxiety region (upper-left triangle) -->
+  <polygon points="140,80 680,80 140,430" fill="url(#dots)" stroke="none"/>
+  <!-- boredom region (lower-right) -->
+  <polygon points="240,500 780,500 780,150" fill="url(#hatch)" stroke="none"/>
+  <!-- flow channel -->
+  <polygon points="140,430 140,500 240,500 780,150 780,80 680,80" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+
+  <!-- axes -->
+  <line x1="140" y1="500" x2="800" y2="500" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="500" x2="140" y2="64" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="460" y="536" text-anchor="middle" font-size="16" fill="#111111">Skill: low  →  high</text>
+  <text x="90" y="290" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 90 290)">Challenge: low  →  high</text>
+
+  <!-- staircase path (drawn under labels) -->
+  <path d="M190 470 H 290 V 400 H 390 V 330 H 490 V 262 H 580 V 190 H 680 V 125" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="9 5" marker-end="url(#arrow)"/>
+  <circle cx="190" cy="470" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- region labels with white boxes -->
+  <rect x="190" y="130" width="200" height="54" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="290" y="153" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">ANXIETY</text>
+  <text x="290" y="174" text-anchor="middle" font-size="14" fill="#111111">challenge exceeds skill</text>
+
+  <rect x="560" y="400" width="200" height="54" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="660" y="423" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">BOREDOM</text>
+  <text x="660" y="444" text-anchor="middle" font-size="14" fill="#111111">skill exceeds challenge</text>
+
+  <rect x="385" y="262" width="180" height="54" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="475" y="285" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">FLOW</text>
+  <text x="475" y="306" text-anchor="middle" font-size="14" fill="#111111">matched and stretching</text>
+
+  <!-- side notes -->
+  <text x="810" y="120" font-size="15" font-weight="bold" fill="#111111">Dashed path:</text>
+  <text x="810" y="140" font-size="14" fill="#111111">skill grows →</text>
+  <text x="810" y="158" font-size="14" fill="#111111">raise challenge →</text>
+  <text x="810" y="176" font-size="14" fill="#111111">stay in the channel</text>
+
+  <text x="810" y="300" font-size="15" font-weight="bold" fill="#111111">If anxious:</text>
+  <text x="810" y="320" font-size="14" fill="#111111">make it smaller,</text>
+  <text x="810" y="338" font-size="14" fill="#111111">get help or info</text>
+  <text x="810" y="380" font-size="15" font-weight="bold" fill="#111111">If bored:</text>
+  <text x="810" y="400" font-size="14" fill="#111111">add a constraint</text>
+  <text x="810" y="418" font-size="14" fill="#111111">or harder goal</text>
+
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Schematic of Csikszentmihalyi's flow channel; boundaries are conceptual, not measured.</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>How effective a method feels versus how well it works</title>
+  <desc>Schematic scatter. Horizontal axis: how fluent and effective a learning activity feels. Vertical axis: long-term retention and transfer. Rereading, cramming, blocked practice, watching a demonstration and reading a polished AI answer sit in the bottom-right illusion zone: feels good, works poorly. Self-testing, spacing, interleaving, explaining in your own words and attempting before help sit in the top-left desirable-difficulty zone: feels hard, works well.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="14" height="14" fill="#F6E0E0"/><line x1="0" y1="0" x2="0" y2="14" stroke="#B58A8A" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#E3F2E3"/><path d="M0 5H10M5 0V10" stroke="#7FA883" stroke-width="0.8"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What feels effective is often not what works</text>
+
+  <!-- zones -->
+  <rect x="140" y="80" width="370" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="510" y="290" width="390" height="210" fill="url(#hatch)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="140" y="290" width="370" height="210" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="510" y="80" width="390" height="210" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+
+  <!-- zone titles -->
+  <text x="325" y="104" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">DESIRABLE DIFFICULTY</text>
+  <text x="325" y="123" text-anchor="middle" font-size="14" fill="#111111">feels hard, works well</text>
+  <text x="705" y="482" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">ILLUSION OF COMPETENCE</text>
+  <text x="705" y="463" text-anchor="middle" font-size="14" fill="#111111">feels good, works poorly</text>
+  <text x="705" y="112" text-anchor="middle" font-size="14" fill="#333333">rare: easy and durable</text>
+  <text x="325" y="482" text-anchor="middle" font-size="14" fill="#333333">hard and useless (avoid)</text>
+
+  <!-- good items: filled squares -->
+  <rect x="174" y="148" width="14" height="14" fill="#1F3B5C" stroke="#000000"/>
+  <text x="196" y="160" font-size="15" fill="#111111">Self-testing (retrieval)</text>
+  <rect x="234" y="184" width="14" height="14" fill="#1F3B5C" stroke="#000000"/>
+  <text x="256" y="196" font-size="15" fill="#111111">Spacing over days</text>
+  <rect x="174" y="220" width="14" height="14" fill="#1F3B5C" stroke="#000000"/>
+  <text x="196" y="232" font-size="15" fill="#111111">Interleaving problem types</text>
+  <rect x="284" y="250" width="14" height="14" fill="#1F3B5C" stroke="#000000"/>
+  <text x="306" y="262" font-size="15" fill="#111111">Explaining in own words</text>
+  <rect x="214" y="270" width="14" height="14" fill="#1F3B5C" stroke="#000000"/>
+  <text x="236" y="282" font-size="14" fill="#111111">Attempt before help</text>
+
+  <!-- illusion items: open circles -->
+  <circle cx="560" cy="314" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="574" y="319" font-size="15" fill="#111111">Watching a demo or video</text>
+  <circle cx="600" cy="342" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="614" y="347" font-size="15" fill="#111111">Blocked practice</text>
+  <circle cx="660" cy="370" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="674" y="375" font-size="15" fill="#111111">Rereading and highlighting</text>
+  <circle cx="620" cy="398" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="634" y="403" font-size="15" fill="#111111">Cramming the night before</text>
+  <circle cx="530" cy="426" r="7" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="544" y="431" font-size="15" fill="#111111">Reading a polished AI answer</text>
+
+  <!-- axes -->
+  <line x1="140" y1="500" x2="915" y2="500" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="500" x2="140" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="525" y="528" text-anchor="middle" font-size="16" fill="#111111">How smooth and effective it FEELS while learning</text>
+  <text x="96" y="290" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 96 290)">How well it WORKS (retention a week later)</text>
+  <text x="150" y="518" font-size="13" fill="#333333">low</text>
+  <text x="880" y="518" font-size="13" fill="#333333">high</text>
+
+  <text x="480" y="568" text-anchor="middle" font-size="14" fill="#111111">Filled squares = methods with strong evidence. Open circles = common methods that mainly build familiarity.</text>
+  <text x="480" y="590" text-anchor="middle" font-size="13" fill="#333333">Qualitative positions summarising a well-replicated pattern; not plotted from a single dataset.</text>
+</svg>

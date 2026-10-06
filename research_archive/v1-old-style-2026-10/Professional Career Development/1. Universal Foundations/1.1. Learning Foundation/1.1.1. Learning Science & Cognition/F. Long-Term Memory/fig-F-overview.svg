@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Long-term memory at a glance</title>
+  <desc>Top half: the kinds of long-term memory - explicit (episodic and semantic) and implicit (procedural, priming and conditioning) - plus prospective memory as a forward-looking use of the store. Bottom half: the processes that act on every memory - encoding, retrieval by cues, interference and forgetting, reconstruction - with emotion modulating them and retention techniques strengthening them. Note labels F.1 to F.12 show where each idea is covered.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Long-term memory: what is stored, and what acts on it</text>
+
+  <!-- PART 1 label -->
+  <text x="36" y="76" font-size="16" font-weight="bold" fill="#333333">PART 1 - KINDS OF MEMORY</text>
+
+  <!-- root -->
+  <rect x="330" y="90" width="300" height="56" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="116" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">LONG-TERM MEMORY</text>
+  <text x="480" y="136" text-anchor="middle" font-size="14" fill="#FFFFFF">overview - F.1</text>
+
+  <!-- explicit / implicit -->
+  <rect x="110" y="190" width="290" height="56" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="122" y="198" width="266" height="40" fill="#FFFFFF"/>
+  <text x="255" y="215" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">EXPLICIT (declarative)</text>
+  <text x="255" y="233" text-anchor="middle" font-size="14" fill="#111111">you know that you know - F.2</text>
+
+  <rect x="560" y="190" width="290" height="56" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="572" y="198" width="266" height="40" fill="#FFFFFF"/>
+  <text x="705" y="215" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">IMPLICIT (nondeclarative)</text>
+  <text x="705" y="233" text-anchor="middle" font-size="14" fill="#111111">shown in performance - F.2</text>
+
+  <line x1="420" y1="146" x2="290" y2="188" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="540" y1="146" x2="670" y2="188" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- leaves -->
+  <rect x="60" y="290" width="180" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="150" y="315" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Episodic</text>
+  <text x="150" y="334" text-anchor="middle" font-size="14" fill="#111111">events - F.3</text>
+  <rect x="260" y="290" width="180" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="350" y="315" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Semantic</text>
+  <text x="350" y="334" text-anchor="middle" font-size="14" fill="#111111">facts, concepts - F.4</text>
+  <rect x="520" y="290" width="180" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="610" y="315" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Procedural</text>
+  <text x="610" y="334" text-anchor="middle" font-size="14" fill="#111111">skills, habits - F.5</text>
+  <rect x="720" y="290" width="180" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="810" y="315" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Priming, conditioning</text>
+  <text x="810" y="334" text-anchor="middle" font-size="14" fill="#111111">F.2</text>
+
+  <line x1="220" y1="246" x2="160" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="290" y1="246" x2="340" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="670" y1="246" x2="620" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="740" y1="246" x2="800" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- prospective -->
+  <rect x="330" y="372" width="300" height="50" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 5"/>
+  <rect x="342" y="379" width="276" height="36" fill="#FFFFFF"/>
+  <text x="480" y="394" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Prospective: remembering to act</text>
+  <text x="480" y="411" text-anchor="middle" font-size="14" fill="#111111">a forward-looking use of the store - F.6</text>
+
+  <!-- divider -->
+  <line x1="36" y1="446" x2="924" y2="446" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="36" y="474" font-size="16" font-weight="bold" fill="#333333">PART 2 - PROCESSES THAT ACT ON EVERY MEMORY</text>
+
+  <!-- process chain -->
+  <rect x="40" y="500" width="190" height="62" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="135" y="526" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Encoding</text>
+  <text x="135" y="546" text-anchor="middle" font-size="14" fill="#111111">strategies - F.7</text>
+  <rect x="270" y="500" width="190" height="62" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="365" y="526" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Retrieval</text>
+  <text x="365" y="546" text-anchor="middle" font-size="14" fill="#111111">cues, context - F.8</text>
+  <rect x="500" y="500" width="190" height="62" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="595" y="526" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Forgetting</text>
+  <text x="595" y="546" text-anchor="middle" font-size="14" fill="#111111">interference - F.9</text>
+  <rect x="730" y="500" width="190" height="62" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="825" y="526" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Distortion</text>
+  <text x="825" y="546" text-anchor="middle" font-size="14" fill="#111111">reconstruction - F.10</text>
+
+  <line x1="230" y1="531" x2="268" y2="531" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="531" x2="498" y2="531" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="690" y1="531" x2="728" y2="531" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- modulators -->
+  <rect x="120" y="610" width="320" height="56" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 5"/>
+  <rect x="132" y="618" width="296" height="40" fill="#FFFFFF"/>
+  <text x="280" y="635" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Emotion modulates all of it</text>
+  <text x="280" y="652" text-anchor="middle" font-size="14" fill="#111111">stronger, narrower, more confident - F.11</text>
+
+  <rect x="520" y="610" width="320" height="56" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="532" y="618" width="296" height="40" fill="#FFFFFF"/>
+  <text x="680" y="635" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Techniques strengthen it</text>
+  <text x="680" y="652" text-anchor="middle" font-size="14" fill="#111111">retrieve, space, mix, sleep - F.12</text>
+
+  <line x1="280" y1="608" x2="300" y2="566" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <line x1="680" y1="608" x2="640" y2="566" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="480" y="700" text-anchor="middle" font-size="13" fill="#333333">Solid dark = root. Hatched = memory families. Dashed dotted = uses and modulators. Dotted border = failure modes. Thick crossed = remedies.</text>
+</svg>

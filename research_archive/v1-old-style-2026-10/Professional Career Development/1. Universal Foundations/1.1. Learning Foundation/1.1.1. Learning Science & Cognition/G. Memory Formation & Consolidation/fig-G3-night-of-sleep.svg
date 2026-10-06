@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>A typical night of sleep (hypnogram)</title>
+  <desc>Schematic hypnogram of a healthy young adult over eight hours. About five cycles of roughly ninety minutes. Deep slow-wave sleep (N3) dominates the first half of the night; REM sleep periods lengthen in the second half.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">One night of sleep: deep sleep early, REM late</text>
+
+  <!-- stage labels -->
+  <text x="128" y="95" text-anchor="end" font-size="15" fill="#111111">Wake</text>
+  <text x="128" y="155" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">REM</text>
+  <text x="128" y="215" text-anchor="end" font-size="15" fill="#111111">N1 (light)</text>
+  <text x="128" y="275" text-anchor="end" font-size="15" fill="#111111">N2 (spindles)</text>
+  <text x="128" y="335" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">N3 (deep)</text>
+
+  <!-- gridlines -->
+  <g stroke="#CCCCCC" stroke-width="1" stroke-dasharray="2 4">
+    <line x1="140" y1="90" x2="900" y2="90"/><line x1="140" y1="150" x2="900" y2="150"/>
+    <line x1="140" y1="210" x2="900" y2="210"/><line x1="140" y1="270" x2="900" y2="270"/>
+    <line x1="140" y1="330" x2="900" y2="330"/>
+  </g>
+
+  <!-- N3 blocks (dots) -->
+  <rect x="187.5" y="322" width="57" height="16" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="311" y="322" width="57" height="16" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="482" y="322" width="23.75" height="16" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+
+  <!-- REM blocks (hatch) -->
+  <rect x="263.5" y="142" width="14.25" height="16" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="396.5" y="142" width="28.5" height="16" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="520" y="142" width="47.5" height="16" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="643.5" y="142" width="66.5" height="16" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="786" y="142" width="76" height="16" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+
+  <!-- hypnogram line -->
+  <path d="M140 90 H149.5 V210 H159 V270 H187.5 V330 H244.5 V270 H263.5 V150 H277.75 V270 H311 V330 H368 V270 H396.5 V150 H425 V270 H482 V330 H505.75 V270 H520 V150 H567.5 V270 H643.5 V150 H710 V210 H719.5 V270 H786 V150 H862 V90 H900" fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- time axis -->
+  <line x1="140" y1="365" x2="905" y2="365" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="140" y="385">0</text><text x="235" y="385">1</text><text x="330" y="385">2</text>
+    <text x="425" y="385">3</text><text x="520" y="385">4</text><text x="615" y="385">5</text>
+    <text x="710" y="385">6</text><text x="805" y="385">7</text><text x="900" y="385">8</text>
+  </g>
+  <text x="520" y="406" text-anchor="middle" font-size="15" fill="#111111">Hours after falling asleep</text>
+
+  <!-- halves -->
+  <line x1="520" y1="60" x2="520" y2="360" stroke="#555555" stroke-width="1.5" stroke-dasharray="8 5"/>
+  <text x="330" y="68" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">FIRST HALF</text>
+  <text x="710" y="68" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">SECOND HALF</text>
+
+  <!-- annotation boxes -->
+  <rect x="140" y="424" width="350" height="62" fill="#FFFFFF" stroke="#7A5200" stroke-width="2"/>
+  <rect x="152" y="436" width="22" height="14" fill="url(#dots)" stroke="#7A5200" stroke-width="1"/>
+  <text x="184" y="448" font-size="15" font-weight="bold" fill="#111111">Dotted blocks: deep N3 sleep</text>
+  <text x="152" y="474" font-size="14" fill="#111111">slow oscillations; most in the first half</text>
+
+  <rect x="530" y="424" width="370" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="542" y="436" width="22" height="14" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="574" y="448" font-size="15" font-weight="bold" fill="#111111">Hatched blocks: REM sleep</text>
+  <text x="542" y="474" font-size="14" fill="#111111">periods lengthen toward morning</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of a typical healthy adult night; real nights vary with age, sleep pressure and individual differences.</text>
+</svg>

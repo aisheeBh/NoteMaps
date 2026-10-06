@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Sensitive periods across the lifespan</title>
+  <desc>Schematic curves: basic sensory systems peak in infancy, language sound and grammar systems in early to middle childhood, higher-order association systems into adolescence, over a band of lifelong experience-dependent plasticity.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#D3ECD3"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1E5E24" stroke-width="1.2"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Different systems, different windows</text>
+
+  <!-- lifelong band -->
+  <rect x="102" y="380" width="790" height="38" fill="url(#hatch)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="300" y="388" width="400" height="24" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="500" y="405" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Lifelong experience-dependent plasticity</text>
+
+  <!-- axes -->
+  <line x1="100" y1="420" x2="910" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="420" x2="100" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="56" y="245" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 56 245)">Ease of experience-driven rewiring</text>
+
+  <!-- age ticks -->
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <line x1="100" y1="420" x2="100" y2="428" stroke="#222222" stroke-width="2"/><text x="100" y="446">birth</text>
+    <line x1="190" y1="420" x2="190" y2="428" stroke="#222222" stroke-width="2"/><text x="190" y="446">1 yr</text>
+    <line x1="300" y1="420" x2="300" y2="428" stroke="#222222" stroke-width="2"/><text x="300" y="446">5 yrs</text>
+    <line x1="430" y1="420" x2="430" y2="428" stroke="#222222" stroke-width="2"/><text x="430" y="446">10 yrs</text>
+    <line x1="560" y1="420" x2="560" y2="428" stroke="#222222" stroke-width="2"/><text x="560" y="446">18 yrs</text>
+    <line x1="700" y1="420" x2="700" y2="428" stroke="#222222" stroke-width="2"/><text x="700" y="446">30 yrs</text>
+    <line x1="860" y1="420" x2="860" y2="428" stroke="#222222" stroke-width="2"/><text x="860" y="446">older age</text>
+  </g>
+  <text x="500" y="474" text-anchor="middle" font-size="15" fill="#111111">Age (not to scale)</text>
+
+  <!-- sensory: solid -->
+  <path d="M100 330 C 130 120, 170 100, 210 160 C 250 240, 300 330, 420 370 C 600 378, 800 378, 900 378" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- language: dashed -->
+  <path d="M100 360 C 160 260, 220 150, 290 150 C 360 155, 430 250, 520 330 C 600 365, 750 372, 900 374" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- association: dotted -->
+  <path d="M100 372 C 220 340, 340 260, 450 210 C 520 185, 570 200, 620 280 C 680 345, 800 365, 900 368" fill="none" stroke="#222222" stroke-width="3.5" stroke-dasharray="2 5"/>
+
+  <!-- labels -->
+  <rect x="150" y="66" width="250" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="162" y="85" font-size="15" font-weight="bold" fill="#111111">Solid: basic senses</text>
+  <text x="162" y="103" font-size="14" fill="#111111">vision, hearing (infancy)</text>
+  <line x1="200" y1="110" x2="185" y2="128" stroke="#222222" stroke-width="1.5"/>
+
+  <rect x="430" y="66" width="250" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <text x="442" y="85" font-size="15" font-weight="bold" fill="#111111">Dashed: language</text>
+  <text x="442" y="103" font-size="14" fill="#111111">speech sounds, then grammar</text>
+  <line x1="450" y1="110" x2="318" y2="152" stroke="#222222" stroke-width="1.5"/>
+
+  <rect x="610" y="150" width="280" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="622" y="169" font-size="15" font-weight="bold" fill="#111111">Dotted: association systems</text>
+  <text x="622" y="187" font-size="14" fill="#111111">planning, social (into adolescence)</text>
+  <line x1="610" y1="185" x2="560" y2="200" stroke="#222222" stroke-width="1.5"/>
+
+  <text x="480" y="508" text-anchor="middle" font-size="15" fill="#111111">Windows narrow but never reach zero: adults keep learning through experience-dependent plasticity.</text>
+  <text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Schematic only; curves illustrate relative timing, not measured values.</text>
+</svg>

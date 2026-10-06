@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 744" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Working Memory subtopic overview</title>
+  <desc>Overview of the twelve notes in four stages. Stage 1, What it is: E.1 and E.2. Stage 2, The parts: E.3 phonological loop, E.4 visuospatial sketchpad, E.5 central executive. Stage 3, Limits and how to work around them: E.6 capacity and E.7 chunking. Stage 4, Working memory in action: E.8 learning, E.9 problem solving, E.10 development, E.11 improving performance, E.12 training research.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Working Memory: the mind's small workspace in four stages</text>
+
+  <!-- STAGE 1 -->
+  <rect x="30" y="62" width="900" height="120" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="50" y="90" font-size="18" font-weight="bold" fill="#FFFFFF">STAGE 1 · WHAT IT IS</text>
+  <rect x="50" y="102" width="420" height="64" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="260" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.1 What is Working Memory?</text>
+  <text x="260" y="150" text-anchor="middle" font-size="14" fill="#111111">a few items, a few seconds, hold and manipulate</text>
+  <rect x="490" y="102" width="420" height="64" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="700" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.2 The Baddeley-Hitch Model</text>
+  <text x="700" y="150" text-anchor="middle" font-size="14" fill="#111111">executive + loop + sketchpad + buffer</text>
+
+  <line x1="480" y1="184" x2="480" y2="206" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- STAGE 2 -->
+  <rect x="30" y="210" width="900" height="120" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="44" y="220" width="250" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="54" y="239" font-size="18" font-weight="bold" fill="#111111">STAGE 2 · THE PARTS</text>
+  <rect x="50" y="254" width="270" height="64" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="185" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.3 Phonological Loop</text>
+  <text x="185" y="302" text-anchor="middle" font-size="14" fill="#111111">words, sounds, inner voice</text>
+  <rect x="345" y="254" width="270" height="64" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="480" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.4 Visuospatial Sketchpad</text>
+  <text x="480" y="302" text-anchor="middle" font-size="14" fill="#111111">images, layout, rotation</text>
+  <rect x="640" y="254" width="270" height="64" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="775" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.5 Central Executive</text>
+  <text x="775" y="302" text-anchor="middle" font-size="14" fill="#111111">focus, switch, inhibit, update</text>
+
+  <line x1="480" y1="332" x2="480" y2="354" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- STAGE 3 -->
+  <rect x="30" y="358" width="900" height="120" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="44" y="368" width="410" height="26" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="54" y="387" font-size="18" font-weight="bold" fill="#111111">STAGE 3 · LIMITS AND WORKAROUNDS</text>
+  <rect x="50" y="402" width="420" height="64" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="260" y="428" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.6 Capacity and Limits</text>
+  <text x="260" y="450" text-anchor="middle" font-size="14" fill="#111111">about 3 to 5 chunks; time and interference</text>
+  <rect x="490" y="402" width="420" height="64" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="700" y="428" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.7 Chunking to Expand Capacity</text>
+  <text x="700" y="450" text-anchor="middle" font-size="14" fill="#111111">knowledge makes each unit carry more</text>
+
+  <line x1="480" y1="480" x2="480" y2="502" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- STAGE 4 -->
+  <rect x="30" y="506" width="900" height="186" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="44" y="516" width="400" height="26" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="54" y="535" font-size="18" font-weight="bold" fill="#111111">STAGE 4 · WORKING MEMORY IN ACTION</text>
+  <rect x="50" y="550" width="270" height="60" rx="6" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="185" y="575" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.8 Learning</text>
+  <text x="185" y="596" text-anchor="middle" font-size="14" fill="#111111">the narrow doorway</text>
+  <rect x="345" y="550" width="270" height="60" rx="6" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="480" y="575" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.9 Problem Solving</text>
+  <text x="480" y="596" text-anchor="middle" font-size="14" fill="#111111">externalise, decompose, check</text>
+  <rect x="640" y="550" width="270" height="60" rx="6" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="775" y="575" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.10 Across Development</text>
+  <text x="775" y="596" text-anchor="middle" font-size="14" fill="#111111">rise, peak, gentle decline</text>
+  <rect x="50" y="620" width="420" height="60" rx="6" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="260" y="645" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.11 Improving Performance</text>
+  <text x="260" y="666" text-anchor="middle" font-size="14" fill="#111111">state, environment, strategy, knowledge, tools</text>
+  <rect x="490" y="620" width="420" height="60" rx="6" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="700" y="645" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E.12 Training Research</text>
+  <text x="700" y="666" text-anchor="middle" font-size="14" fill="#111111">near transfer yes, far transfer not shown</text>
+
+  <text x="480" y="718" text-anchor="middle" font-size="13" fill="#333333">Stages are distinguished by fill pattern and border style: solid dark, hatched, dotted with dashed border, cross-hatched with thick border.</text>
+</svg>

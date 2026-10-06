@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The eight universal foundations grouped into four families</title>
+  <desc>Learning Foundation is the base that powers three families above it: literacies for working with tools (digital, data, AI), for working with people (communication and professional skills), and for working within the world of organisations and society (business, financial and economic, legal and regulatory).</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Pillar 1 — Eight foundations in four families</text>
+
+  <!-- family panels -->
+  <rect x="40" y="70" width="290" height="330" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="345" y="70" width="270" height="330" fill="url(#lines)" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 5"/>
+  <rect x="630" y="70" width="290" height="330" fill="url(#dots)" stroke="#222222" stroke-width="2.5" stroke-dasharray="3 3"/>
+
+  <!-- family headers -->
+  <g text-anchor="middle" fill="#111111">
+    <rect x="60" y="84" width="250" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+    <text x="185" y="104" font-size="17" font-weight="bold">WORKING WITH TOOLS</text>
+    <text x="185" y="122" font-size="13">solid border, diagonal hatch</text>
+    <rect x="365" y="84" width="230" height="46" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+    <text x="480" y="104" font-size="17" font-weight="bold">WORKING WITH PEOPLE</text>
+    <text x="480" y="122" font-size="13">dashed border, horizontal lines</text>
+    <rect x="650" y="84" width="250" height="46" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+    <text x="775" y="104" font-size="17" font-weight="bold">WORKING IN THE WORLD</text>
+    <text x="775" y="122" font-size="13">dotted border, dot pattern</text>
+  </g>
+
+  <!-- section tiles -->
+  <g font-size="16" fill="#111111">
+    <rect x="70" y="150" width="230" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="85" y="176" font-weight="bold">1.2 Digital Literacy</text>
+    <text x="85" y="199" font-size="14">devices, cloud, security</text>
+    <rect x="70" y="228" width="230" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="85" y="254" font-weight="bold">1.4 Data Literacy</text>
+    <text x="85" y="277" font-size="14">read, analyse, tell stories</text>
+    <rect x="70" y="306" width="230" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="85" y="332" font-weight="bold">1.6 AI Literacy</text>
+    <text x="85" y="355" font-size="14">use AI well and safely</text>
+
+    <rect x="375" y="190" width="210" height="140" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="390" y="220" font-weight="bold">1.5 Communication</text>
+    <text x="390" y="242" font-weight="bold">&amp; Professional Skills</text>
+    <text x="390" y="270" font-size="14">writing, presenting,</text>
+    <text x="390" y="290" font-size="14">teamwork, negotiation,</text>
+    <text x="390" y="310" font-size="14">stakeholders</text>
+
+    <rect x="660" y="150" width="230" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="675" y="176" font-weight="bold">1.3 Business Literacy</text>
+    <text x="675" y="199" font-size="14">how organisations create value</text>
+    <rect x="660" y="228" width="230" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="675" y="254" font-weight="bold">1.7 Financial Literacy</text>
+    <text x="675" y="277" font-size="14">money, risk, economics</text>
+    <rect x="660" y="306" width="230" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="675" y="332" font-weight="bold">1.8 Legal Literacy</text>
+    <text x="675" y="355" font-size="14">rights, contracts, regulation</text>
+  </g>
+
+  <!-- arrows from base -->
+  <g stroke="#222222" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="185" y1="470" x2="185" y2="406"/>
+    <line x1="480" y1="470" x2="480" y2="406"/>
+    <line x1="775" y1="470" x2="775" y2="406"/>
+  </g>
+  <text x="200" y="446" font-size="14" fill="#111111">powers</text>
+  <text x="495" y="446" font-size="14" fill="#111111">powers</text>
+  <text x="790" y="446" font-size="14" fill="#111111">powers</text>
+
+  <!-- base -->
+  <rect x="40" y="476" width="880" height="80" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="508" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">1.1 LEARNING FOUNDATION — the engine</text>
+  <text x="480" y="536" text-anchor="middle" font-size="15" fill="#FFFFFF">learning science, study strategies, skill mastery, lifelong learning, thinking, productivity</text>
+
+  <text x="480" y="584" text-anchor="middle" font-size="14" fill="#333333">Learn how to learn first: it makes every other foundation faster to acquire.</text>
+</svg>

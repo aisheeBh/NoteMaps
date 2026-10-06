@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Pasteur's quadrant applied to learning research</title>
+  <desc>A two-by-two grid crossing the quest for fundamental understanding with consideration of use, giving pure basic research, use-inspired basic research, pure applied research and systematic description, each with a learning-research example.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <text x="535" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Pasteur's quadrant: four kinds of learning research</text>
+
+  <g transform="translate(-40,0)">
+  <!-- axis titles -->
+  <text x="575" y="74" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Is the research driven by a practical use?</text>
+  <text x="385" y="98" text-anchor="middle" font-size="15" fill="#111111">NO</text>
+  <text x="765" y="98" text-anchor="middle" font-size="15" fill="#111111">YES</text>
+  <text x="100" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 100 330)">Does it seek fundamental understanding?</text>
+  <text x="150" y="215" text-anchor="middle" font-size="15" fill="#111111">YES</text>
+  <text x="150" y="445" text-anchor="middle" font-size="15" fill="#111111">NO</text>
+
+  <!-- top-left: pure basic -->
+  <rect x="200" y="110" width="370" height="210" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="385" y="146" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Pure basic research</text>
+  <text x="385" y="168" text-anchor="middle" font-size="15" fill="#111111">"Bohr's quadrant"</text>
+  <text x="222" y="206" font-size="15" fill="#111111">e.g. how a synapse strengthens</text>
+  <text x="222" y="226" font-size="15" fill="#111111">when two neurons fire together</text>
+  <text x="222" y="262" font-size="14" fill="#111111">Explains mechanisms; rarely tells</text>
+  <text x="222" y="280" font-size="14" fill="#111111">a teacher or trainer what to do.</text>
+
+  <!-- top-right: use-inspired basic -->
+  <rect x="580" y="110" width="370" height="210" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="4"/>
+  <rect x="596" y="126" width="338" height="178" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="765" y="152" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Use-inspired basic research</text>
+  <text x="765" y="174" text-anchor="middle" font-size="15" fill="#111111">"Pasteur's quadrant"</text>
+  <text x="608" y="208" font-size="15" fill="#111111">e.g. why testing strengthens memory,</text>
+  <text x="608" y="228" font-size="15" fill="#111111">studied in real courses</text>
+  <text x="608" y="262" font-size="14" fill="#111111">Builds theory and solves practical</text>
+  <text x="608" y="280" font-size="14" fill="#111111">problems at the same time.</text>
+
+  <!-- bottom-left: description -->
+  <rect x="200" y="330" width="370" height="210" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="385" y="366" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Systematic description</text>
+  <text x="385" y="388" text-anchor="middle" font-size="15" fill="#111111">(no famous name)</text>
+  <text x="222" y="426" font-size="15" fill="#111111">e.g. surveying which study habits</text>
+  <text x="222" y="446" font-size="15" fill="#111111">students report using</text>
+  <text x="222" y="482" font-size="14" fill="#111111">Maps what happens; often the raw</text>
+  <text x="222" y="500" font-size="14" fill="#111111">material for later questions.</text>
+
+  <!-- bottom-right: pure applied -->
+  <rect x="580" y="330" width="370" height="210" fill="#F2F2F2" stroke="#333333" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="765" y="366" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Pure applied research</text>
+  <text x="765" y="388" text-anchor="middle" font-size="15" fill="#111111">"Edison's quadrant"</text>
+  <text x="602" y="426" font-size="15" fill="#111111">e.g. does onboarding app X beat</text>
+  <text x="602" y="446" font-size="15" fill="#111111">our current course?</text>
+  <text x="602" y="482" font-size="14" fill="#111111">Answers a local decision; says little</text>
+  <text x="602" y="500" font-size="14" fill="#111111">about why, or whether it generalises.</text>
+
+  </g>
+  <text x="535" y="572" text-anchor="middle" font-size="13" fill="#333333">After Donald Stokes (1997); learning-research examples added for illustration.</text>
+</svg>

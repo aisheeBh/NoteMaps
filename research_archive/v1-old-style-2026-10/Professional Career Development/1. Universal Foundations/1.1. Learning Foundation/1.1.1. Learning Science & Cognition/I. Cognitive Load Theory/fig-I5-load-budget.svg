@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The working memory budget in four situations</title>
+  <desc>Four stacked bars compare intrinsic and extraneous load against a fixed working memory capacity line: a novice with cluttered material overflows the capacity; a novice with clean material fits; an expert given novice-style guidance carries redundant load with little challenge; an expert given a challenging task with lean support uses capacity well.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The working memory budget: same limit, four situations</text>
+
+  <!-- legend (shape-based) -->
+  <rect x="250" y="58" width="26" height="18" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="284" y="73" font-size="15" fill="#111111">Intrinsic load (solid border, hatched)</text>
+  <rect x="560" y="58" width="26" height="18" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="594" y="73" font-size="15" fill="#111111">Extraneous (dashed, dotted)</text>
+
+  <!-- capacity line -->
+  <line x1="60" y1="150" x2="910" y2="150" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <rect x="672" y="118" width="238" height="24" fill="#FFFFFF"/>
+  <text x="906" y="136" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">WORKING MEMORY CAPACITY</text>
+
+  <!-- baseline -->
+  <line x1="60" y1="440" x2="910" y2="440" stroke="#222222" stroke-width="2"/>
+
+  <!-- Bar 1: novice cluttered -->
+  <rect x="100" y="240" width="140" height="200" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="100" y="90" width="140" height="150" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="110" y="97" width="120" height="44" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="170" y="116" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">OVERLOAD</text>
+  <text x="170" y="133" text-anchor="middle" font-size="13" fill="#111111">above the line</text>
+
+  <!-- Bar 2: novice clean -->
+  <rect x="310" y="240" width="140" height="200" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="310" y="205" width="140" height="35" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="320" y="160" width="120" height="36" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="380" y="183" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">FITS</text>
+
+  <!-- Bar 3: expert with novice guidance -->
+  <rect x="520" y="360" width="140" height="80" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="520" y="270" width="140" height="90" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="526" y="292" width="128" height="44" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="590" y="311" text-anchor="middle" font-size="13" font-weight="bold" fill="#111111">redundant</text>
+  <text x="590" y="327" text-anchor="middle" font-size="13" font-weight="bold" fill="#111111">guidance</text>
+  <rect x="530" y="180" width="120" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="590" y="199" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">WASTED</text>
+  <text x="590" y="216" text-anchor="middle" font-size="13" fill="#111111">little challenge</text>
+
+  <!-- Bar 4: expert challenging -->
+  <rect x="730" y="210" width="140" height="230" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="730" y="185" width="140" height="25" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="740" y="290" width="120" height="44" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="800" y="309" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">STRETCH</text>
+  <text x="800" y="326" text-anchor="middle" font-size="13" fill="#111111">well used</text>
+
+  <!-- bar labels -->
+  <text x="170" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">A. Novice,</text>
+  <text x="170" y="486" text-anchor="middle" font-size="15" fill="#111111">cluttered material</text>
+  <text x="380" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">B. Novice,</text>
+  <text x="380" y="486" text-anchor="middle" font-size="15" fill="#111111">clean, staged material</text>
+  <text x="590" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">C. Expert,</text>
+  <text x="590" y="486" text-anchor="middle" font-size="15" fill="#111111">novice-style guidance</text>
+  <text x="800" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">D. Expert,</text>
+  <text x="800" y="486" text-anchor="middle" font-size="15" fill="#111111">harder task, lean support</text>
+
+  <rect x="120" y="510" width="720" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="530" text-anchor="middle" font-size="15" fill="#111111">Goal: keep total load under the line while the learner's capacity</text>
+  <text x="480" y="548" text-anchor="middle" font-size="15" fill="#111111">is spent mostly on intrinsic (essential) content, as in B and D.</text>
+  <text x="480" y="584" text-anchor="middle" font-size="13" fill="#333333">Schematic. Heights are illustrative; real capacity also varies with fatigue, stress and practice.</text>
+</svg>

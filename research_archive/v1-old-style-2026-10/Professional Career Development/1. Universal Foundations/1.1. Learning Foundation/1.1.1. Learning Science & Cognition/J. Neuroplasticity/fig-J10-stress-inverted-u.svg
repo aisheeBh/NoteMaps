@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Inverted-U relationship between stress and prefrontal function</title>
+  <desc>Schematic inverted U: low arousal gives disengagement, moderate controllable challenge gives peak flexible thinking and learning, high or chronic stress impairs prefrontal function so habit and threat systems dominate.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1.4" fill="#666666"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#F6CACA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8B0000" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Some challenge helps; chronic overload harms</text>
+
+  <!-- zones -->
+  <rect x="100" y="380" width="230" height="34" fill="url(#dots)" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="330" y="380" width="260" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="590" y="380" width="300" height="34" fill="url(#hatch)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="145" y="386" width="140" height="22" fill="#FFFFFF"/>
+  <text x="215" y="402" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">TOO LITTLE</text>
+  <rect x="385" y="386" width="150" height="22" fill="#FFFFFF"/>
+  <text x="460" y="402" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">OPTIMAL ZONE</text>
+  <rect x="650" y="386" width="180" height="22" fill="#FFFFFF"/>
+  <text x="740" y="402" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">TOO MUCH / CHRONIC</text>
+
+  <!-- axes -->
+  <line x1="100" y1="380" x2="910" y2="380" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="380" x2="100" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="444" text-anchor="middle" font-size="16" fill="#111111">Level of stress or arousal</text>
+  <text x="56" y="225" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 56 225)">Prefrontal function and learning</text>
+
+  <!-- curve -->
+  <path d="M110 350 C 250 330, 330 120, 460 110 C 590 105, 660 300, 880 360" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="460" cy="110" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- annotations -->
+  <rect x="120" y="190" width="200" height="66" fill="#FFFFFF" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="132" y="212" font-size="15" font-weight="bold" fill="#111111">Low arousal</text>
+  <text x="132" y="231" font-size="14" fill="#111111">bored, disengaged,</text>
+  <text x="132" y="248" font-size="14" fill="#111111">little effort</text>
+
+  <rect x="350" y="130" width="220" height="66" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="362" y="152" font-size="15" font-weight="bold" fill="#111111">Moderate, controllable</text>
+  <text x="362" y="171" font-size="14" fill="#111111">focused, flexible thinking,</text>
+  <text x="362" y="188" font-size="14" fill="#111111">best learning</text>
+
+  <rect x="640" y="160" width="250" height="84" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="652" y="182" font-size="15" font-weight="bold" fill="#111111">High or chronic stress</text>
+  <text x="652" y="201" font-size="14" fill="#111111">prefrontal control weakens;</text>
+  <text x="652" y="218" font-size="14" fill="#111111">habit and threat systems</text>
+  <text x="652" y="235" font-size="14" fill="#111111">take over; retrieval suffers</text>
+
+  <text x="480" y="484" text-anchor="middle" font-size="15" fill="#111111">The peak shifts left for complex tasks and for low sense of control; recovery moves people back toward the middle.</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic, based on research on catecholamines and prefrontal function; not plotted from a single dataset.</text>
+</svg>

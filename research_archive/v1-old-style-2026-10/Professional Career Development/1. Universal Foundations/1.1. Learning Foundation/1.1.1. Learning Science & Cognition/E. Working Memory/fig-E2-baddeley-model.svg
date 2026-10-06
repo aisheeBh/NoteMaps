@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The multicomponent model of working memory</title>
+  <desc>Schematic of the Baddeley and Hitch model as updated in 2000: a central executive at the top controls three subsidiary systems - the phonological loop, the episodic buffer and the visuospatial sketchpad - which sit above a layer of long-term knowledge: language, episodic long-term memory and visual semantics.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The multicomponent model of working memory</text>
+  <text x="480" y="62" text-anchor="middle" font-size="15" fill="#111111">Baddeley and Hitch (1974), with the episodic buffer added by Baddeley (2000)</text>
+
+  <!-- Central executive -->
+  <rect x="300" y="86" width="360" height="84" rx="10" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="120" text-anchor="middle" font-size="22" font-weight="bold" fill="#FFFFFF">CENTRAL EXECUTIVE</text>
+  <text x="480" y="148" text-anchor="middle" font-size="15" fill="#FFFFFF">focuses, divides and switches attention</text>
+
+  <!-- arrows down -->
+  <line x1="360" y1="172" x2="170" y2="232" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <line x1="480" y1="172" x2="480" y2="232" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <line x1="600" y1="172" x2="790" y2="232" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+
+  <!-- three subsystems -->
+  <rect x="40" y="236" width="260" height="130" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="56" y="250" width="228" height="102" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="170" y="276" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">PHONOLOGICAL LOOP</text>
+  <text x="170" y="300" text-anchor="middle" font-size="14" fill="#111111">speech-based store</text>
+  <text x="170" y="320" text-anchor="middle" font-size="14" fill="#111111">+ inner voice rehearsal</text>
+  <text x="170" y="340" text-anchor="middle" font-size="14" fill="#111111">words, numbers, names</text>
+
+  <rect x="350" y="236" width="260" height="130" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="366" y="250" width="228" height="102" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="480" y="276" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">EPISODIC BUFFER</text>
+  <text x="480" y="300" text-anchor="middle" font-size="14" fill="#111111">binds sound, sight, space</text>
+  <text x="480" y="320" text-anchor="middle" font-size="14" fill="#111111">and meaning into episodes</text>
+  <text x="480" y="340" text-anchor="middle" font-size="14" fill="#111111">(added in 2000)</text>
+
+  <rect x="660" y="236" width="260" height="130" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="676" y="250" width="228" height="102" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="790" y="276" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">VISUOSPATIAL</text>
+  <text x="790" y="296" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">SKETCHPAD</text>
+  <text x="790" y="320" text-anchor="middle" font-size="14" fill="#111111">shapes, colours, layout,</text>
+  <text x="790" y="340" text-anchor="middle" font-size="14" fill="#111111">locations, mental images</text>
+
+  <!-- side links between subsystems and buffer -->
+  <line x1="302" y1="300" x2="348" y2="300" stroke="#222222" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <line x1="612" y1="300" x2="658" y2="300" stroke="#222222" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+
+  <!-- divider -->
+  <line x1="40" y1="410" x2="920" y2="410" stroke="#222222" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="92" y="400" font-size="14" font-style="italic" fill="#111111">FLUID SYSTEMS above: temporary, capacity-limited</text>
+  <text x="92" y="432" font-size="14" font-style="italic" fill="#111111">CRYSTALLISED SYSTEMS below: long-term knowledge</text>
+
+  <!-- vertical links to LTM -->
+  <line x1="70" y1="368" x2="70" y2="452" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <line x1="480" y1="368" x2="480" y2="452" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <line x1="790" y1="368" x2="790" y2="452" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+
+  <!-- LTM layer -->
+  <rect x="40" y="456" width="260" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <text x="170" y="486" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Language</text>
+  <text x="170" y="508" text-anchor="middle" font-size="14" fill="#111111">vocabulary, grammar</text>
+  <rect x="350" y="456" width="260" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="486" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Episodic long-term memory</text>
+  <text x="480" y="508" text-anchor="middle" font-size="14" fill="#111111">events and experiences</text>
+  <rect x="660" y="456" width="260" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <text x="790" y="486" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Visual semantics</text>
+  <text x="790" y="508" text-anchor="middle" font-size="14" fill="#111111">what things look like</text>
+
+  <text x="480" y="570" text-anchor="middle" font-size="13" fill="#333333">Solid double arrows: control and exchange of information. Dotted arrows: links to long-term knowledge. Schematic after Baddeley (2000).</text>
+</svg>

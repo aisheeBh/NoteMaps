@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Load theory of selective attention</title>
+  <desc>Schematic: distractor interference falls as perceptual load rises (solid line) and rises as cognitive load rises (dashed line).</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Two kinds of load, opposite effects on distraction</text>
+
+  <line x1="110" y1="440" x2="690" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="400" y="476" text-anchor="middle" font-size="16" fill="#111111">Load on the main task: low  →  high</text>
+  <text x="60" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 260)">Interference from distractors</text>
+
+  <path d="M130 140 C 280 160, 420 330, 660 395" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="660" cy="395" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <path d="M130 330 C 300 310, 450 210, 660 120" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="660" cy="120" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <rect x="686" y="88" width="246" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="698" y="110" font-size="15" font-weight="bold" fill="#111111">Dashed: COGNITIVE load</text>
+  <text x="698" y="129" font-size="14" fill="#111111">e.g. holding numbers in mind</text>
+  <text x="698" y="146" font-size="14" fill="#111111">control busy → MORE distraction</text>
+
+  <rect x="686" y="362" width="246" height="66" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="698" y="384" font-size="15" font-weight="bold" fill="#111111">Solid: PERCEPTUAL load</text>
+  <text x="698" y="403" font-size="14" fill="#111111">e.g. dense, detailed display</text>
+  <text x="698" y="420" font-size="14" fill="#111111">senses full → LESS distraction</text>
+
+  <text x="140" y="100" font-size="14" font-weight="bold" fill="#111111">Easy, sparse task:</text>
+  <text x="140" y="118" font-size="14" fill="#111111">spare capacity spills over to distractors</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative schematic of load theory (Lavie); directions are well supported, curve shapes are not from one dataset.</text>
+</svg>

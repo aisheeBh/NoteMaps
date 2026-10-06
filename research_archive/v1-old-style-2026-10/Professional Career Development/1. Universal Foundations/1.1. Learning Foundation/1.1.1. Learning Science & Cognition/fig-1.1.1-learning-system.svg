@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The learning system: how the thirteen subtopics of Topic 1.1.1 fit together</title>
+  <desc>Information flows from the world through attention into working memory, is encoded into long-term memory organised as schemas, is consolidated over time and sleep, is retrieved back into working memory, and is transferred to new situations. Metacognition monitors the whole flow from above; motivation and emotion energise it from below; neuroplasticity is the biological base. Three lenses frame the topic.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Topic 1.1.1 — The learning system in one picture</text>
+
+  <!-- K metacognition band -->
+  <rect x="40" y="60" width="880" height="60" fill="url(#dots)" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="210" y="70" width="540" height="40" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="480" y="96" text-anchor="middle" font-size="17" fill="#111111"><tspan font-weight="bold">K · METACOGNITION</tspan> — monitors and steers every stage</text>
+  <g stroke="#222222" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrow)">
+    <line x1="302" y1="122" x2="302" y2="180"/>
+    <line x1="489" y1="122" x2="489" y2="180"/>
+    <line x1="676" y1="122" x2="676" y2="180"/>
+  </g>
+
+  <!-- flow boxes -->
+  <rect x="40" y="185" width="150" height="120" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="115" y="235" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">The world</text>
+  <text x="115" y="258" text-anchor="middle" font-size="14" fill="#111111">sights, sounds,</text>
+  <text x="115" y="276" text-anchor="middle" font-size="14" fill="#111111">words, actions</text>
+
+  <rect x="227" y="185" width="150" height="120" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="235" y="195" width="134" height="100" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="302" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">D · Attention</text>
+  <text x="302" y="248" text-anchor="middle" font-size="14" fill="#111111">the filter:</text>
+  <text x="302" y="266" text-anchor="middle" font-size="14" fill="#111111">what gets in</text>
+
+  <rect x="414" y="185" width="150" height="120" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="422" y="195" width="134" height="100" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="489" y="220" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">E · Working</text>
+  <text x="489" y="239" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">memory</text>
+  <text x="489" y="261" text-anchor="middle" font-size="14" fill="#111111">tiny workspace</text>
+  <text x="489" y="280" text-anchor="middle" font-size="14" fill="#111111">I · Cognitive load</text>
+
+  <rect x="601" y="185" width="150" height="120" fill="url(#cross)" stroke="#222222" stroke-width="3"/>
+  <rect x="609" y="195" width="134" height="100" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="676" y="220" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">F · Long-term</text>
+  <text x="676" y="239" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">memory</text>
+  <text x="676" y="261" text-anchor="middle" font-size="14" fill="#111111">vast store,</text>
+  <text x="676" y="280" text-anchor="middle" font-size="14" fill="#111111">H · as schemas</text>
+
+  <rect x="788" y="185" width="132" height="120" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="854" y="225" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">M · Transfer</text>
+  <text x="854" y="250" text-anchor="middle" font-size="14" fill="#FFFFFF">use it in new</text>
+  <text x="854" y="268" text-anchor="middle" font-size="14" fill="#FFFFFF">situations</text>
+
+  <!-- main flow arrows -->
+  <g stroke="#222222" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="190" y1="245" x2="224" y2="245"/>
+    <line x1="377" y1="245" x2="411" y2="245"/>
+    <line x1="564" y1="230" x2="598" y2="230"/>
+    <line x1="751" y1="245" x2="785" y2="245"/>
+  </g>
+  <text x="582" y="177" text-anchor="middle" font-size="13" font-weight="bold" fill="#111111">encode</text>
+  <!-- retrieval -->
+  <path d="M600 275 L 567 275" stroke="#222222" stroke-width="2" stroke-dasharray="6 4" fill="none" marker-end="url(#arrow)"/>
+  <text x="572" y="324" text-anchor="middle" font-size="13" font-weight="bold" fill="#111111">retrieve</text>
+
+  <!-- G consolidation loop -->
+  <path d="M640 307 C 600 360, 760 360, 712 309" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="560" y="352" width="240" height="40" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="680" y="377" text-anchor="middle" font-size="14" fill="#111111"><tspan font-weight="bold">G · Consolidation</tspan> (time, sleep)</text>
+
+  <!-- L band -->
+  <rect x="40" y="410" width="880" height="56" fill="url(#lines)" stroke="#222222" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="160" y="418" width="640" height="40" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="480" y="444" text-anchor="middle" font-size="17" fill="#111111"><tspan font-weight="bold">L · MOTIVATION &amp; EMOTION</tspan> — energy and priority for every stage</text>
+
+  <!-- J base -->
+  <rect x="40" y="476" width="880" height="60" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="512" text-anchor="middle" font-size="17" fill="#FFFFFF"><tspan font-weight="bold">J · NEUROPLASTICITY</tspan> — the brain physically changes when you learn</text>
+
+  <!-- lenses -->
+  <rect x="40" y="552" width="880" height="64" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="480" y="577" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">THREE LENSES ON THE WHOLE SYSTEM</text>
+  <text x="480" y="600" text-anchor="middle" font-size="15" fill="#111111">A · Learning How to Learn  ·  B · Cognitive Science of Learning  ·  C · Cognitive Psychology</text>
+
+  <text x="480" y="645" text-anchor="middle" font-size="13" fill="#333333">Thick arrows: main flow. Dashed: retrieval and monitoring. Dotted loop: consolidation over time. Simplified teaching model, not an anatomical map.</text>
+</svg>

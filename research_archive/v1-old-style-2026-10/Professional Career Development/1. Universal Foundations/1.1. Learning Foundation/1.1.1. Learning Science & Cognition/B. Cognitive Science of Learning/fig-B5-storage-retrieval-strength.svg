@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Storage strength versus retrieval strength</title>
+  <desc>Two by two matrix from the Bjorks' new theory of disuse. Horizontal axis is storage strength, low to high; vertical axis is retrieval strength, low to high. Quadrants: high retrieval low storage is the cramming illusion; high both is fluent mastery; low both is unlearned; high storage low retrieval is dormant knowledge, the best moment for retrieval practice.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Two strengths of every memory</text>
+
+  <!-- quadrants -->
+  <!-- top-left: high retrieval, low storage -->
+  <rect x="150" y="70" width="350" height="210" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="170" y="110" width="310" height="130" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="325" y="138" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">CRAMMING ILLUSION</text>
+  <text x="325" y="164" text-anchor="middle" font-size="15" fill="#111111">Easy to recall right now,</text>
+  <text x="325" y="186" text-anchor="middle" font-size="15" fill="#111111">poorly anchored.</text>
+  <text x="325" y="212" text-anchor="middle" font-size="15" fill="#111111">Fades fast after the exam.</text>
+
+  <!-- top-right: high both -->
+  <rect x="500" y="70" width="350" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="520" y="110" width="310" height="130" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="675" y="138" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">FLUENT MASTERY</text>
+  <text x="675" y="164" text-anchor="middle" font-size="15" fill="#111111">Well learned and easy to</text>
+  <text x="675" y="186" text-anchor="middle" font-size="15" fill="#111111">reach. Extra practice now</text>
+  <text x="675" y="212" text-anchor="middle" font-size="15" fill="#111111">adds little.</text>
+
+  <!-- bottom-left: low both -->
+  <rect x="150" y="280" width="350" height="210" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="170" y="320" width="310" height="130" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="325" y="348" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">NOT YET LEARNED</text>
+  <text x="325" y="374" text-anchor="middle" font-size="15" fill="#111111">New or never encoded.</text>
+  <text x="325" y="396" text-anchor="middle" font-size="15" fill="#111111">Needs study, examples</text>
+  <text x="325" y="418" text-anchor="middle" font-size="15" fill="#111111">and explanation first.</text>
+
+  <!-- bottom-right: high storage, low retrieval -->
+  <rect x="500" y="280" width="350" height="210" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="520" y="320" width="310" height="130" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="675" y="348" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">DORMANT KNOWLEDGE</text>
+  <text x="675" y="374" text-anchor="middle" font-size="15" fill="#111111">Well learned but rusty.</text>
+  <text x="675" y="396" text-anchor="middle" font-size="15" fill="#111111">Effortful retrieval here gives</text>
+  <text x="675" y="418" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">the biggest gain.</text>
+
+  <!-- axes -->
+  <line x1="150" y1="490" x2="880" y2="490" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="490" x2="150" y2="62" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="524" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">STORAGE STRENGTH (how well learned) - low to high</text>
+  <text x="104" y="280" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111" transform="rotate(-90 104 280)">RETRIEVAL STRENGTH (how easy now)</text>
+
+  <text x="480" y="560" text-anchor="middle" font-size="15" fill="#111111">Practice that lowers retrieval strength first (spacing, mixing) makes the next retrieval harder and storage gains larger.</text>
+  <text x="480" y="584" text-anchor="middle" font-size="13" fill="#333333">Conceptual schematic based on the Bjorks' new theory of disuse; quadrant boundaries are illustrative.</text>
+</svg>

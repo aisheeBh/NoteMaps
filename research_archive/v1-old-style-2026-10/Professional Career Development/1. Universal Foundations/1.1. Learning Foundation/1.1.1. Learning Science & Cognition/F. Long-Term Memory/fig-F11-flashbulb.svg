@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Flashbulb memories: confidence stays high while consistency falls</title>
+  <desc>Two schematic panels. Left: consistency of memory details with the first report declines over months for both emotional flashbulb memories and everyday memories, at similar rates. Right: confidence and vividness decline for everyday memories but stay high for flashbulb memories, producing a widening gap between confidence and accuracy.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Emotional memories feel certain - but drift like ordinary ones</text>
+
+  <!-- LEFT PANEL -->
+  <text x="250" y="82" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">A. CONSISTENCY with first report</text>
+  <line x1="70" y1="420" x2="440" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="70" y1="420" x2="70" y2="100" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="255" y="450" text-anchor="middle" font-size="15" fill="#111111">Time since event</text>
+  <text x="40" y="262" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 40 262)">Details unchanged</text>
+  <text x="80" y="470" font-size="14" fill="#111111">1 day</text>
+  <text x="380" y="470" font-size="14" fill="#111111">months</text>
+
+  <!-- flashbulb consistency: thick solid -->
+  <path d="M80 130 C 160 190, 260 260, 420 300" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- everyday consistency: dashed -->
+  <path d="M80 136 C 160 205, 260 275, 420 318" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="300" y="232" font-size="14" font-weight="bold" fill="#111111">Solid: flashbulb</text>
+  <text x="250" y="340" font-size="14" font-weight="bold" fill="#111111">Dashed: everyday</text>
+  <text x="250" y="392" text-anchor="middle" font-size="14" fill="#111111">Both decline at similar rates</text>
+
+  <!-- RIGHT PANEL -->
+  <text x="710" y="82" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">B. CONFIDENCE and vividness</text>
+  <line x1="530" y1="420" x2="900" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="530" y1="420" x2="530" y2="100" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="715" y="450" text-anchor="middle" font-size="15" fill="#111111">Time since event</text>
+  <text x="500" y="262" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 500 262)">Feeling of certainty</text>
+  <text x="540" y="470" font-size="14" fill="#111111">1 day</text>
+  <text x="840" y="470" font-size="14" fill="#111111">months</text>
+
+  <!-- gap region -->
+  <path d="M540 132 C 640 134, 760 138, 880 142 L 880 318 C 760 290, 650 220, 540 136 Z" fill="url(#hatch)" stroke="none"/>
+  <!-- flashbulb confidence: thick solid stays high -->
+  <path d="M540 130 C 640 132, 760 136, 880 140" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- everyday confidence: dashed declines -->
+  <path d="M540 136 C 650 220, 760 290, 880 318" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="760" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Solid: flashbulb stays high</text>
+  <text x="700" y="340" font-size="14" font-weight="bold" fill="#111111">Dashed: everyday falls</text>
+  <rect x="728" y="166" width="160" height="62" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="808" y="186" text-anchor="middle" font-size="14" fill="#111111">hatched gap = extra</text>
+  <text x="808" y="204" text-anchor="middle" font-size="14" fill="#111111">certainty, without</text>
+  <text x="808" y="222" text-anchor="middle" font-size="14" fill="#111111">extra accuracy (see A)</text>
+
+  <text x="480" y="504" text-anchor="middle" font-size="15" fill="#111111">Pattern reported in longitudinal studies of memories for shocking public events; curves are schematic, not plotted data.</text>
+</svg>

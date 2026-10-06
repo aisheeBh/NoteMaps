@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The forgetting curve with and without spaced review</title>
+  <desc>Solid line: approximate Ebbinghaus savings values falling steeply in the first hour and day then levelling off over a month. Dashed line: schematic retention when the material is reviewed at day 1, day 3 and day 7, each review restoring memory and the decline after each review becoming flatter.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Forgetting is steep at first, then slows - and review resets it</text>
+
+  <!-- steep-loss zone -->
+  <rect x="110" y="70" width="180" height="370" fill="url(#dots)" opacity="0.45"/>
+  <rect x="140" y="394" width="120" height="40" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="200" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">steepest loss:</text>
+  <text x="200" y="426" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">first day</text>
+
+  <!-- gridlines -->
+  <line x1="110" y1="90" x2="880" y2="90" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="110" y1="265" x2="880" y2="265" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="100" y="95" text-anchor="end" font-size="14" fill="#111111">100%</text>
+  <text x="100" y="270" text-anchor="end" font-size="14" fill="#111111">50%</text>
+  <text x="100" y="445" text-anchor="end" font-size="14" fill="#111111">0%</text>
+
+  <!-- axes -->
+  <line x1="110" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="62" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="40" y="265" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 40 265)">Memory retained</text>
+
+  <!-- x ticks (non-linear time axis) -->
+  <g font-size="13" fill="#111111" text-anchor="middle">
+    <line x1="170" y1="440" x2="170" y2="448" stroke="#222222"/><text x="170" y="464">1 h</text>
+    <line x1="230" y1="440" x2="230" y2="448" stroke="#222222"/><text x="230" y="464">9 h</text>
+    <line x1="290" y1="440" x2="290" y2="448" stroke="#222222"/><text x="290" y="464">1 day</text>
+    <line x1="400" y1="440" x2="400" y2="448" stroke="#222222"/><text x="400" y="464">3 days</text>
+    <line x1="490" y1="440" x2="490" y2="448" stroke="#222222"/><text x="490" y="464">7 days</text>
+    <line x1="600" y1="440" x2="600" y2="448" stroke="#222222"/><text x="600" y="464">14 days</text>
+    <line x1="840" y1="440" x2="840" y2="448" stroke="#222222"/><text x="840" y="464">31 days</text>
+  </g>
+  <text x="500" y="492" text-anchor="middle" font-size="16" fill="#111111">Time since learning (axis compressed: early hours stretched)</text>
+
+  <!-- no review: solid -->
+  <path d="M110 90 C 125 200, 140 237, 140 237 C 150 262, 160 280, 170 286 C 190 300, 210 312, 230 314 L 290 321 L 350 342 C 400 348, 440 352, 470 352 C 600 358, 720 362, 840 366" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="840" cy="366" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- with review: dashed -->
+  <path d="M290 321 L 290 107 C 330 140, 370 165, 400 177 L 400 107 C 430 125, 460 145, 490 153 L 490 107 C 600 122, 720 134, 840 142" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="840" cy="142" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- review markers -->
+  <g font-size="13" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="290" y="100">review 1</text>
+    <text x="400" y="100">review 2</text>
+    <text x="490" y="100">review 3</text>
+  </g>
+
+  <!-- direct labels -->
+  <rect x="560" y="166" width="300" height="48" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="572" y="186" font-size="15" font-weight="bold" fill="#111111">Dashed: reviewed at days 1, 3, 7</text>
+  <text x="572" y="205" font-size="14" fill="#111111">each review flattens the next decline</text>
+
+  <rect x="560" y="378" width="300" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="572" y="398" font-size="15" font-weight="bold" fill="#111111">Solid: no review</text>
+  <text x="572" y="417" font-size="14" fill="#111111">levels off low, but not at zero</text>
+
+  <text x="480" y="524" text-anchor="middle" font-size="13" fill="#333333">Solid line approximates Ebbinghaus's savings data for nonsense syllables; dashed line is schematic.</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Real rates depend on material, prior knowledge and how well it was learned.</text>
+</svg>

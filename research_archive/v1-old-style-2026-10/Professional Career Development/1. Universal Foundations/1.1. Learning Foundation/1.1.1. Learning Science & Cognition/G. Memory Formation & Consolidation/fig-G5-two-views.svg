@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Two views of systems consolidation</title>
+  <desc>Left panel, standard consolidation theory: hippocampal involvement falls to near zero over time while cortical support rises, for all declarative memories. Right panel, multiple trace and trace transformation theory: a gist version becomes cortical, but detailed episodic memory keeps depending on the hippocampus.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Does an old memory still need the hippocampus?</text>
+
+  <!-- LEFT PANEL -->
+  <rect x="30" y="60" width="430" height="420" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="245" y="88" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">A. Standard consolidation theory</text>
+  <text x="245" y="108" text-anchor="middle" font-size="14" fill="#111111">all declarative memories become cortical</text>
+
+  <line x1="80" y1="400" x2="440" y2="400" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="80" y1="400" x2="80" y2="130" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="260" y="428" text-anchor="middle" font-size="15" fill="#111111">Time since learning</text>
+  <text x="50" y="268" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 50 268)">Contribution to recall</text>
+
+  <!-- hippocampus dashed falling -->
+  <path d="M85 150 C 160 160, 220 300, 300 370 C 340 392, 380 396, 425 396" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- cortex solid rising -->
+  <path d="M85 385 C 170 380, 220 250, 300 180 C 340 158, 380 152, 425 150" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+
+  <text x="140" y="142" font-size="14" font-weight="bold" fill="#111111">Hippocampus (dashed)</text>
+  <text x="310" y="140" font-size="14" font-weight="bold" fill="#111111">Cortex (solid)</text>
+  <text x="350" y="372" font-size="14" fill="#111111">near zero</text>
+
+  <!-- RIGHT PANEL -->
+  <rect x="500" y="60" width="430" height="420" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="715" y="88" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">B. Multiple trace / transformation</text>
+  <text x="715" y="108" text-anchor="middle" font-size="14" fill="#111111">detail stays hippocampal; gist becomes cortical</text>
+
+  <line x1="550" y1="400" x2="910" y2="400" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="550" y1="400" x2="550" y2="130" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="730" y="428" text-anchor="middle" font-size="15" fill="#111111">Time since learning</text>
+  <text x="520" y="268" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 520 268)">Contribution to recall</text>
+
+  <!-- hippocampus for detailed: dashed stays high -->
+  <path d="M555 150 C 650 165, 760 200, 895 215" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- cortex gist: solid rising -->
+  <path d="M555 385 C 640 380, 690 280, 760 250 C 820 230, 860 228, 895 226" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- dotted: detail fading -->
+  <path d="M555 160 C 650 200, 760 300, 895 330" fill="none" stroke="#555555" stroke-width="2.5" stroke-dasharray="2 4"/>
+
+  <text x="600" y="142" font-size="14" font-weight="bold" fill="#111111">Hippocampus, for detail (dashed)</text>
+  <text x="568" y="292" font-size="14" font-weight="bold" fill="#111111">Cortex, gist</text><text x="568" y="310" font-size="14" font-weight="bold" fill="#111111">(solid)</text><line x1="655" y1="297" x2="701" y2="297" stroke="#222222" stroke-width="1.5"/>
+  <text x="700" y="360" font-size="14" fill="#111111">Dotted: vivid detail fades</text>
+
+  <!-- bottom note -->
+  <rect x="30" y="494" width="900" height="40" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="480" y="519" text-anchor="middle" font-size="14" fill="#111111">Schematic comparison of theories, not data. Both agree memories reorganise; they disagree about remote, detailed episodes.</text>
+</svg>

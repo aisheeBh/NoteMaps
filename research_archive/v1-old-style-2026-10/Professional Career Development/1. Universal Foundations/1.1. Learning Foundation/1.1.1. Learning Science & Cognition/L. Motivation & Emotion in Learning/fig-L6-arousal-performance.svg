@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Arousal, task complexity and performance</title>
+  <desc>Schematic inverted-U curves: for a complex or novel task, performance peaks at lower arousal and falls sharply with high anxiety; for a simple, well-practised task, performance peaks at higher arousal. A shaded zone marks where worry consumes working memory.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><circle cx="5" cy="5" r="1.6" fill="#8B0000"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">How much arousal helps depends on the task</text>
+
+  <!-- zones -->
+  <rect x="100" y="70" width="150" height="370" fill="url(#hatch)" stroke="#555555" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="175" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TOO LOW</text>
+  <text x="175" y="111" text-anchor="middle" font-size="14" fill="#111111">bored, unfocused</text>
+  <rect x="660" y="70" width="230" height="370" fill="url(#dots)" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="680" y="80" width="190" height="44" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="775" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TOO HIGH: anxiety</text>
+  <text x="775" y="117" text-anchor="middle" font-size="14" fill="#111111">worry eats working memory</text>
+
+  <!-- axes -->
+  <line x1="100" y1="440" x2="905" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="440" x2="100" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="476" text-anchor="middle" font-size="16" fill="#111111">Arousal / stress level (calm to very high)</text>
+  <text x="52" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 52 255)">Quality of learning or performance</text>
+
+  <!-- complex task: solid, peak left -->
+  <path d="M110 400 C 220 160, 330 150, 400 165 C 480 185, 560 330, 700 420" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="360" cy="160" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <!-- simple task: dashed, peak right -->
+  <path d="M110 410 C 280 330, 450 160, 590 150 C 690 145, 760 230, 860 330" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="590" cy="150" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- labels -->
+  <rect x="262" y="384" width="230" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="274" y="404" font-size="15" font-weight="bold" fill="#111111">Solid: complex, new task</text>
+  <text x="274" y="422" font-size="14" fill="#111111">peaks at moderate arousal</text>
+
+  <rect x="390" y="72" width="250" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="402" y="92" font-size="15" font-weight="bold" fill="#111111">Dashed: simple, practised task</text>
+  <text x="402" y="110" font-size="14" fill="#111111">tolerates higher arousal</text>
+
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Reappraisal ("this energy helps me") and practice under pressure shift people toward the useful zone.</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Heuristic schematic, not plotted data: the inverted-U is debated and human evidence is mixed (some studies find linear effects).</text>
+</svg>

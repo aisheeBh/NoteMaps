@@ -20,7 +20,7 @@ If you believe a change is obviously correct, still propose it and stop.
 ```
 NoteMaps/
 ├── source_json/<Map_Name>.json   <- SOURCE OF TRUTH. Edits belong here.
-├── scripts/build_tree_map.py     <- generator: JSON -> folder tree of empty .md files
+├── scripts/build_tree_map.py     <- generator: JSON -> one folder per node, each holding <node>.md
 ├── main_map/<Map Name>/          <- GENERATED. Do not hand-edit.
 ├── derived_maps/                 <- generated variants
 ├── docs/
@@ -29,7 +29,7 @@ NoteMaps/
 
 Two facts that change how you work:
 
-1. **Every `.md` file is empty.** The map is pure structure — a curriculum skeleton. "Content" means the *node title*. A coverage gap is a missing title, not a missing paragraph. Never grep file contents for topic coverage; grep **paths and filenames**.
+1. **Structure is defined by titles, not by note bodies.** Most `.md` files are still empty, but notes are progressively being written (see `skills/notemap-content`). For coverage audits, "content" still means the *node title*: a coverage gap is a missing title, not a missing paragraph. Grep **paths and filenames**, not file contents.
 2. **`main_map/` is a build artifact.** `build_tree_map.py` walks the JSON (`{"title": str, "children": [...]}`) and mirrors it to folders. It is additive-only — it creates missing files and never deletes, so stale folders survive a rebuild. Any approved change goes into the JSON first, then regenerate.
 
 ### Taxonomy shape
@@ -45,7 +45,7 @@ Two facts that change how you work:
 | 4     | Subtopic | `A.`–`L.`             | `C. RAG Architecture & Design`          |
 | 5     | Note     | `A.1.`–`A.12.`        | `C.4. Chunking Strategies`              |
 
-A parent node also gets an index `.md` named after itself inside its own folder.
+**Every node — parent or leaf — is a folder** named after its title, holding `<title>.md` (and any `fig-*.svg` figures). A leaf note therefore lives at `.../<Subtopic>/<Leaf>/<Leaf>.md`. When counting Subtopics with `find -type d`, leaf folders now appear at the next depth down.
 
 **Branching factor is NOT a rule.** A node has as many children as its subject actually needs — no more, no less. There is no target of 12, or 20, or 6. Twelve happens to be the *most common* width (889 of 934 Topics), but that is an observation about this map, not a standard it must meet. Sections legitimately range from 6 to 28 Topics.
 
@@ -234,10 +234,10 @@ Write changes as a declarative changeset script (`scripts/apply_NN_*.py`) rather
 6. Run `python scripts/validate_map.py`. **Do not regenerate until it reports 0 errors.**
 7. Regenerate. The generator is **additive-only** — it never deletes, so renames and stubs leave stale folders behind and an in-place rebuild will silently leave the map wrong. A clean rebuild is required:
    ```bash
-   find main_map -name '*.md' -size +0 | wc -l   # MUST be 0 - proves no content would be lost
-   rm -rf main_map && python scripts/build_tree_map.py
+   find main_map -name '*.md' -size +0 | wc -l   # if NOT 0, notes have content - DO NOT rm -rf
+   rm -rf main_map && python scripts/build_tree_map.py   # only when the count above is 0
    ```
-   Never run `rm -rf` on that check returning anything but 0. If notes ever stop being empty, this step must be replaced with a targeted stale-path removal.
+   Never run `rm -rf` on that check returning anything but 0. **Notes now have content**, so in practice the step is: run `build_tree_map.py` (additive), then remove only the specific stale folders that `check_alignment.py` reports as EXTRA — after confirming each one holds no written note.
 8. Run `python scripts/check_alignment.py`. It must print `ALIGNED` with zero missing and zero extra on both sides. This is the real proof the two representations agree; file counts matching is not sufficient on its own.
 9. Re-run the Part 2 redundancy queries to confirm the duplicates you targeted are gone, and spot-check that what remains is facet-level naming (the same word as an aspect of genuinely different subjects, e.g. "Performance Engineering" under Full Stack, SRE and HPC) rather than duplicated depth. Do not chase facet-level overlap — renaming those makes the map worse.
 10. Report before/after node counts by depth, and say plainly what was stubbed versus what was deleted.

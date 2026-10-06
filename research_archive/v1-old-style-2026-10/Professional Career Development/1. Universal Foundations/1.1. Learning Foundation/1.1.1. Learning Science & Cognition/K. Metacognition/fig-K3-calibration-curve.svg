@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Calibration curve: confidence versus accuracy</title>
+  <desc>Schematic calibration plot. The diagonal shows perfect calibration. A typical learner curve is flatter than the diagonal: underconfident at low confidence and overconfident at high confidence. A side panel defines calibration and resolution.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#F6E0E0"/><line x1="0" y1="0" x2="0" y2="8" stroke="#B58A8A" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#EEF4FA"/><circle cx="5" cy="5" r="1.4" fill="#7F99B3"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Calibration: does confidence match accuracy?</text>
+
+  <!-- zones -->
+  <polygon points="120,460 600,460 600,100" fill="url(#hatch)"/>
+  <polygon points="120,460 120,100 600,100" fill="url(#dots)"/>
+  <rect x="120" y="100" width="480" height="360" fill="none" stroke="#555555" stroke-width="1"/>
+
+  <!-- zone labels -->
+  <rect x="380" y="390" width="210" height="58" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="485" y="413" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">OVERCONFIDENT ZONE</text>
+  <text x="485" y="434" text-anchor="middle" font-size="14" fill="#111111">sure, but often wrong</text>
+  <rect x="132" y="112" width="220" height="58" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="242" y="135" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">UNDERCONFIDENT ZONE</text>
+  <text x="242" y="156" text-anchor="middle" font-size="14" fill="#111111">unsure, but often right</text>
+
+  <!-- axes -->
+  <line x1="120" y1="460" x2="620" y2="460" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="460" x2="120" y2="84" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="120" y="482" text-anchor="middle" font-size="14" fill="#111111">0%</text>
+  <text x="360" y="482" text-anchor="middle" font-size="14" fill="#111111">50%</text>
+  <text x="600" y="482" text-anchor="middle" font-size="14" fill="#111111">100%</text>
+  <text x="104" y="465" text-anchor="end" font-size="14" fill="#111111">0%</text>
+  <text x="104" y="285" text-anchor="end" font-size="14" fill="#111111">50%</text>
+  <text x="104" y="105" text-anchor="end" font-size="14" fill="#111111">100%</text>
+  <text x="360" y="508" text-anchor="middle" font-size="16" fill="#111111">Stated confidence (how sure you said you were)</text>
+  <text x="44" y="280" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 44 280)">Actual accuracy</text>
+
+  <!-- perfect calibration diagonal -->
+  <line x1="120" y1="460" x2="600" y2="100" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <text x="140" y="74" font-size="15" font-weight="bold" fill="#111111">Dashed diagonal: perfect calibration (confidence = accuracy)</text>
+
+  <!-- typical learner curve -->
+  <path d="M168 380 C 220 340, 264 316, 300 300 S 420 250, 456 233 S 552 208, 600 193" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="168" cy="380" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="600" cy="193" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="150" y="196" width="196" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="160" y="216" font-size="15" font-weight="bold" fill="#111111">Solid: typical learner</text>
+  <text x="160" y="234" font-size="14" fill="#111111">flatter than the diagonal</text>
+  <line x1="600" y1="193" x2="600" y2="100" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="420" y="250" width="172" height="40" fill="#FFFFFF" stroke="#8B0000" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="506" y="267" text-anchor="middle" font-size="14" fill="#111111">dotted gap at 100%</text>
+  <text x="506" y="284" text-anchor="middle" font-size="14" fill="#111111">= overconfidence</text>
+
+  <!-- side panel -->
+  <rect x="650" y="90" width="282" height="380" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="666" y="120" font-size="17" font-weight="bold" fill="#111111">Two kinds of accuracy</text>
+  <text x="666" y="152" font-size="15" font-weight="bold" fill="#111111">Calibration (absolute)</text>
+  <text x="666" y="174" font-size="14" fill="#111111">Is my overall confidence</text>
+  <text x="666" y="194" font-size="14" fill="#111111">level right? Distance from</text>
+  <text x="666" y="214" font-size="14" fill="#111111">the dashed diagonal.</text>
+  <text x="666" y="252" font-size="15" font-weight="bold" fill="#111111">Resolution (relative)</text>
+  <text x="666" y="274" font-size="14" fill="#111111">Am I more confident on</text>
+  <text x="666" y="294" font-size="14" fill="#111111">the items I really know</text>
+  <text x="666" y="314" font-size="14" fill="#111111">than on those I do not?</text>
+  <text x="666" y="352" font-size="15" font-weight="bold" fill="#111111">Why both matter</text>
+  <text x="666" y="374" font-size="14" fill="#111111">Calibration decides HOW</text>
+  <text x="666" y="394" font-size="14" fill="#111111">MUCH to study; resolution</text>
+  <text x="666" y="414" font-size="14" fill="#111111">decides WHAT to study.</text>
+  <text x="666" y="446" font-size="13" fill="#333333">They can differ in one person.</text>
+
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">Illustrative schematic of a commonly reported pattern; not plotted from a single dataset.</text>
+</svg>

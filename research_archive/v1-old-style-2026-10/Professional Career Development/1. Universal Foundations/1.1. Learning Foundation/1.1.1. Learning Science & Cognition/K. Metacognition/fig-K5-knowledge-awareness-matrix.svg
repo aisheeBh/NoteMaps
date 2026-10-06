@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The knowledge-awareness matrix</title>
+  <desc>A two by two matrix. Columns: you actually know it, you actually do not know it. Rows: you are aware of it, you are unaware of it. Quadrants: known knowns (confident competence), known unknowns (recognised gaps, learning targets), unknown knowns (hidden competence, underconfidence), unknown unknowns (blind spots, the danger zone). An arrow shows the main goal: turn unknown unknowns into known unknowns.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#F6CACA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8B0000" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.5" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="0.8"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What you know versus what you know you know</text>
+
+  <!-- column headers -->
+  <text x="390" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">YOU ACTUALLY KNOW IT</text>
+  <text x="720" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">YOU ACTUALLY DO NOT</text>
+  <!-- row headers -->
+  <text x="110" y="215" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">YOU ARE</text>
+  <text x="110" y="237" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">AWARE</text>
+  <text x="110" y="425" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">YOU ARE</text>
+  <text x="110" y="447" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">UNAWARE</text>
+
+  <!-- quadrants -->
+  <rect x="225" y="100" width="330" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="555" y="100" width="330" height="220" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="225" y="320" width="330" height="220" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="555" y="320" width="330" height="220" fill="url(#hatch)" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+
+  <!-- quadrant labels on white cards -->
+  <rect x="250" y="130" width="280" height="150" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="390" y="160" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">KNOWN KNOWNS</text>
+  <text x="390" y="186" text-anchor="middle" font-size="15" fill="#111111">Confident competence</text>
+  <text x="390" y="216" text-anchor="middle" font-size="14" fill="#111111">Use it; keep it fresh with</text>
+  <text x="390" y="236" text-anchor="middle" font-size="14" fill="#111111">occasional unaided checks.</text>
+  <text x="390" y="264" text-anchor="middle" font-size="13" fill="#333333">e.g. a query pattern you write daily</text>
+
+  <rect x="580" y="130" width="280" height="150" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="720" y="160" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">KNOWN UNKNOWNS</text>
+  <text x="720" y="186" text-anchor="middle" font-size="15" fill="#111111">Recognised gaps</text>
+  <text x="720" y="216" text-anchor="middle" font-size="14" fill="#111111">Your learning agenda; flag</text>
+  <text x="720" y="236" text-anchor="middle" font-size="14" fill="#111111">them, ask, or look them up.</text>
+  <text x="720" y="264" text-anchor="middle" font-size="13" fill="#333333">e.g. "I don't know our tax rules"</text>
+
+  <rect x="250" y="350" width="280" height="150" fill="#FFFFFF" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="390" y="380" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">UNKNOWN KNOWNS</text>
+  <text x="390" y="406" text-anchor="middle" font-size="15" fill="#111111">Hidden competence</text>
+  <text x="390" y="436" text-anchor="middle" font-size="14" fill="#111111">Underconfidence or tacit skill;</text>
+  <text x="390" y="456" text-anchor="middle" font-size="14" fill="#111111">surface it by testing yourself.</text>
+  <text x="390" y="484" text-anchor="middle" font-size="13" fill="#333333">e.g. an expert's unspoken judgement</text>
+
+  <rect x="580" y="350" width="280" height="150" fill="#FFFFFF" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <text x="720" y="380" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">UNKNOWN UNKNOWNS</text>
+  <text x="720" y="406" text-anchor="middle" font-size="15" fill="#111111">Blind spots: DANGER ZONE</text>
+  <text x="720" y="436" text-anchor="middle" font-size="14" fill="#111111">Overconfidence lives here;</text>
+  <text x="720" y="456" text-anchor="middle" font-size="14" fill="#111111">expose with tests, critics, premortems.</text>
+  <text x="720" y="484" text-anchor="middle" font-size="13" fill="#333333">e.g. a risk no one thought to check</text>
+
+  <!-- main goal arrow -->
+  <line x1="905" y1="430" x2="905" y2="215" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="930" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111" transform="rotate(-90 930 330)">MAIN GOAL: make gaps visible</text>
+
+  <text x="480" y="575" text-anchor="middle" font-size="13" fill="#333333">Border styles: thick solid = safe; long dash = known gap; dotted = danger; sparse dotted = hidden strength.</text>
+</svg>

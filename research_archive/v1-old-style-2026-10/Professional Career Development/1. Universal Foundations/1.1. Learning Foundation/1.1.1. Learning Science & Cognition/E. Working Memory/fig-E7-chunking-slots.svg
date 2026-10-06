@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Same four slots, different chunks</title>
+  <desc>Two rows of four working-memory slots receive the same 13-letter string FBICIANASAIBM. The novice row holds four single letters and loses the rest. The expert row holds four meaningful chunks, FBI, CIA, NASA and IBM, and so keeps all 13 letters, because each chunk is a pointer to knowledge in long-term memory.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Same four slots, very different amounts held</text>
+  <text x="480" y="66" text-anchor="middle" font-size="16" fill="#111111">Input heard once:  F B I C I A N A S A I B M  (13 letters)</text>
+
+  <!-- NOVICE ROW -->
+  <text x="40" y="112" font-size="18" font-weight="bold" fill="#111111">NOVICE: each letter is its own chunk</text>
+  <g>
+    <rect x="40" y="128" width="130" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="70" y="146" width="70" height="34" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+    <text x="105" y="170" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">F</text>
+    <rect x="190" y="128" width="130" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="220" y="146" width="70" height="34" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+    <text x="255" y="170" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">B</text>
+    <rect x="340" y="128" width="130" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="370" y="146" width="70" height="34" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+    <text x="405" y="170" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">I</text>
+    <rect x="490" y="128" width="130" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="520" y="146" width="70" height="34" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+    <text x="555" y="170" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">C</text>
+  </g>
+  <rect x="650" y="128" width="270" height="70" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="785" y="156" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">LOST: 9 letters</text>
+  <text x="785" y="180" text-anchor="middle" font-size="15" fill="#111111">I A N A S A I B M</text>
+  <text x="40" y="226" font-size="15" fill="#111111">Held: 4 of 13 letters. No meaning attached, so nothing to rebuild from later.</text>
+
+  <!-- divider -->
+  <line x1="40" y1="250" x2="920" y2="250" stroke="#555555" stroke-width="1.5" stroke-dasharray="8 5"/>
+
+  <!-- EXPERT ROW -->
+  <text x="40" y="286" font-size="18" font-weight="bold" fill="#111111">EXPERT: letters grouped into known acronyms</text>
+  <g>
+    <rect x="40" y="302" width="130" height="70" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="62" y="320" width="86" height="34" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+    <text x="105" y="344" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">FBI</text>
+    <rect x="190" y="302" width="130" height="70" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="212" y="320" width="86" height="34" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+    <text x="255" y="344" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">CIA</text>
+    <rect x="340" y="302" width="130" height="70" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="357" y="320" width="96" height="34" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+    <text x="405" y="344" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">NASA</text>
+    <rect x="490" y="302" width="130" height="70" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="512" y="320" width="86" height="34" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+    <text x="555" y="344" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">IBM</text>
+  </g>
+  <rect x="650" y="302" width="270" height="70" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="785" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">LOST: nothing</text>
+  <text x="785" y="354" text-anchor="middle" font-size="15" fill="#111111">all 13 letters kept</text>
+
+  <!-- arrows to LTM -->
+  <line x1="105" y1="374" x2="105" y2="440" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <line x1="255" y1="374" x2="255" y2="440" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <line x1="405" y1="374" x2="405" y2="440" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <line x1="555" y1="374" x2="555" y2="440" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="444" width="880" height="56" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="468" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">LONG-TERM MEMORY</text>
+  <text x="480" y="490" text-anchor="middle" font-size="14" fill="#111111">each chunk is a pointer to stored knowledge, which unpacks it on demand</text>
+
+  <text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Slots are a simplification: the point is that the limit applies to meaningful units, not raw letters.</text>
+</svg>

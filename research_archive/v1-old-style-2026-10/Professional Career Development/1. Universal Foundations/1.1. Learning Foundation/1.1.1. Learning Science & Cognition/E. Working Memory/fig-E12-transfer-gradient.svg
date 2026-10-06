@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The transfer gradient in working-memory training</title>
+  <desc>Schematic bar chart: gains are large on the trained task, moderate on similar untrained working-memory tasks (near transfer), and small to near zero on different abilities such as reasoning, reading, maths and real-world outcomes (far transfer), especially when active control groups are used. Near-transfer gains tend to persist at follow-up; far-transfer gains, where found, tend not to persist.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The further from the trained task, the smaller the gain</text>
+
+  <!-- axes -->
+  <line x1="110" y1="420" x2="900" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <line x1="110" y1="420" x2="110" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="60" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 250)">Size of improvement</text>
+
+  <!-- bars -->
+  <rect x="150" y="110" width="160" height="310" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="166" y="240" width="128" height="50" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="230" y="261" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">LARGE</text>
+  <text x="230" y="280" text-anchor="middle" font-size="14" fill="#111111">practice effect</text>
+
+  <rect x="350" y="230" width="160" height="190" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="366" y="300" width="128" height="50" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="430" y="321" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">MODERATE</text>
+  <text x="430" y="340" text-anchor="middle" font-size="14" fill="#111111">often lasts</text>
+
+  <rect x="550" y="385" width="160" height="35" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="630" y="350" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SMALL TO ZERO</text>
+  <text x="630" y="370" text-anchor="middle" font-size="14" fill="#111111">fades at follow-up</text>
+
+  <rect x="750" y="414" width="130" height="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="815" y="350" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">NOT</text>
+  <text x="815" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SHOWN</text>
+  <text x="815" y="390" text-anchor="middle" font-size="14" fill="#111111">reliably</text>
+
+  <!-- category labels -->
+  <text x="230" y="448" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Trained task</text>
+  <text x="230" y="468" text-anchor="middle" font-size="14" fill="#111111">e.g. the n-back game</text>
+  <text x="430" y="448" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Near transfer</text>
+  <text x="430" y="468" text-anchor="middle" font-size="14" fill="#111111">similar memory tasks</text>
+  <text x="630" y="448" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Far transfer</text>
+  <text x="630" y="468" text-anchor="middle" font-size="14" fill="#111111">reasoning, reading, maths</text>
+  <text x="815" y="448" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Real-world</text>
+  <text x="815" y="468" text-anchor="middle" font-size="14" fill="#111111">grades, job, symptoms</text>
+
+  <!-- distance arrow -->
+  <line x1="150" y1="500" x2="880" y2="500" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="515" y="524" text-anchor="middle" font-size="15" fill="#111111">Increasing distance from what was practised</text>
+
+  <text x="480" y="560" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of meta-analytic consensus; bar heights are qualitative, not effect sizes from one study.</text>
+</svg>

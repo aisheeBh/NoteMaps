@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Fluid and crystallized abilities across adulthood</title>
+  <desc>Schematic: crystallized knowledge rises through midlife and stays high into the seventies; fluid abilities and processing speed peak in the twenties and decline gradually, faster after about 65. A shaded band indicates wide individual differences.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFF4D6"/><circle cx="5" cy="5" r="1.3" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Two abilities, two life-course paths</text>
+
+  <!-- axes: x from 100 (age 20) to 860 (age 80): 12.67 px per year -->
+  <line x1="100" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="440" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480" y="492" text-anchor="middle" font-size="16" fill="#111111">Age (years)</text>
+  <text x="50" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 260)">Average performance (relative)</text>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <line x1="100" y1="440" x2="100" y2="448" stroke="#222222" stroke-width="2"/><text x="100" y="466">20</text>
+    <line x1="227" y1="440" x2="227" y2="448" stroke="#222222" stroke-width="2"/><text x="227" y="466">30</text>
+    <line x1="353" y1="440" x2="353" y2="448" stroke="#222222" stroke-width="2"/><text x="353" y="466">40</text>
+    <line x1="480" y1="440" x2="480" y2="448" stroke="#222222" stroke-width="2"/><text x="480" y="466">50</text>
+    <line x1="607" y1="440" x2="607" y2="448" stroke="#222222" stroke-width="2"/><text x="607" y="466">60</text>
+    <line x1="733" y1="440" x2="733" y2="448" stroke="#222222" stroke-width="2"/><text x="733" y="466">70</text>
+    <line x1="860" y1="440" x2="860" y2="448" stroke="#222222" stroke-width="2"/><text x="860" y="466">80</text>
+  </g>
+
+  <!-- individual-differences band around fluid curve -->
+  <path d="M100 170 C 180 130, 300 160, 480 200 C 600 230, 720 280, 860 330 L 860 430 C 720 380, 600 330, 480 300 C 300 260, 180 230, 100 250 Z" fill="url(#dots)" stroke="#7A5200" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- fluid: dashed -->
+  <path d="M100 210 C 170 175, 260 200, 480 250 C 600 278, 720 320, 860 380" fill="none" stroke="#222222" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <!-- crystallized: solid -->
+  <path d="M100 330 C 250 250, 400 165, 560 140 C 680 125, 760 140, 860 185" fill="none" stroke="#1F3B5C" stroke-width="4.5"/>
+
+  <!-- labels -->
+  <rect x="610" y="74" width="260" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="622" y="94" font-size="15" font-weight="bold" fill="#111111">Solid: crystallized knowledge</text>
+  <text x="622" y="112" font-size="14" fill="#111111">vocabulary, expertise, judgement</text>
+
+  <rect x="120" y="76" width="300" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="132" y="96" font-size="15" font-weight="bold" fill="#111111">Dashed: fluid ability and speed</text>
+  <text x="132" y="114" font-size="14" fill="#111111">novel reasoning, working memory</text>
+
+  <rect x="560" y="378" width="190" height="44" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="570" y="390" width="20" height="20" fill="url(#dots)" stroke="#7A5200"/>
+  <text x="600" y="405" font-size="14" fill="#111111">wide individual spread</text>
+
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">Schematic of well-replicated average patterns; curves are illustrative, not plotted from one dataset.</text>
+</svg>

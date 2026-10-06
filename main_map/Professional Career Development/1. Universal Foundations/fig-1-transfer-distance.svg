@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Transfer becomes less likely as distance grows</title>
+  <desc>Two falling curves against the distance between learning and use. Spontaneous transfer falls steeply; transfer supported by explicit principles and varied practice falls more slowly. Five examples mark points from near to far.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Transfer becomes less likely as distance grows</text>
+
+  <!-- axes -->
+  <line x1="100" y1="400" x2="900" y2="400" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="100" y1="400" x2="100" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="60" y="235" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 60 235)">Likelihood of successful transfer</text>
+  <text x="500" y="492" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Distance between where it was learned and where it is used</text>
+  <text x="110" y="492" font-size="14" fill="#111111">NEAR</text>
+  <text x="890" y="492" text-anchor="end" font-size="14" fill="#111111">FAR</text>
+
+  <!-- curves -->
+  <path d="M110 110 C 300 125, 430 320, 880 382" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <path d="M110 110 C 420 115, 640 215, 880 285" fill="none" stroke="#7A5200" stroke-width="3.5" stroke-dasharray="10 6"/>
+
+  <rect x="600" y="126" width="270" height="46" fill="#FFFFFF"/>
+  <text x="608" y="145" font-size="15" font-weight="bold" fill="#111111">With explicit principles</text>
+  <text x="608" y="165" font-size="15" fill="#111111">and varied practice</text>
+
+  <rect x="190" y="252" width="200" height="26" fill="#FFFFFF"/>
+  <text x="198" y="271" font-size="15" font-weight="bold" fill="#111111">Spontaneous transfer</text>
+  <line x1="372" y1="252" x2="392" y2="232" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- example ticks -->
+  <g stroke="#222222" stroke-width="2">
+    <line x1="150" y1="395" x2="150" y2="408"/>
+    <line x1="330" y1="395" x2="330" y2="408"/>
+    <line x1="510" y1="395" x2="510" y2="408"/>
+    <line x1="690" y1="395" x2="690" y2="408"/>
+    <line x1="860" y1="395" x2="860" y2="408"/>
+  </g>
+  <g text-anchor="middle" font-size="14" fill="#111111">
+    <text x="150" y="426">same task,</text>
+    <text x="150" y="443">a week later</text>
+    <text x="330" y="426">new version</text>
+    <text x="330" y="443">of the same tool</text>
+    <text x="510" y="426">new client,</text>
+    <text x="510" y="443">same industry</text>
+    <text x="690" y="426">new field,</text>
+    <text x="690" y="443">same principle</text>
+    <text x="860" y="426">chess training</text>
+    <text x="860" y="443">to mathematics</text>
+  </g>
+
+  <text x="480" y="535" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. Shape reflects reviews of transfer research.</text>
+</svg>

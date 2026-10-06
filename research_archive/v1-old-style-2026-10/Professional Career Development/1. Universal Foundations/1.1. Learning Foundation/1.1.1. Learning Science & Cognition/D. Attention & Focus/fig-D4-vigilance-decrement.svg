@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The vigilance decrement with and without breaks</title>
+  <desc>Schematic: detection falls steadily with time on a continuous watch (solid line); with short breaks, performance partly recovers after each break (dashed sawtooth line).</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Attention to rare signals fades with time on task</text>
+
+  <!-- break bands -->
+  <rect x="330" y="80" width="30" height="360" fill="url(#hatch)" stroke="#555555" stroke-width="1" stroke-dasharray="4 4"/>
+  <rect x="540" y="80" width="30" height="360" fill="url(#hatch)" stroke="#555555" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="345" y="460" text-anchor="middle" font-size="14" fill="#111111">break</text>
+  <text x="555" y="460" text-anchor="middle" font-size="14" fill="#111111">break</text>
+
+  <!-- axes -->
+  <line x1="110" y1="440" x2="770" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="440" y="490" text-anchor="middle" font-size="16" fill="#111111">Time on task (minutes) →</text>
+  <text x="60" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 260)">Signals detected</text>
+
+  <!-- continuous: solid -->
+  <path d="M120 120 C 200 160, 300 240, 450 290 S 650 340, 740 355" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="740" cy="355" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- with breaks: dashed sawtooth -->
+  <path d="M120 120 C 200 150, 270 190, 330 210" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M360 140 C 420 160, 490 200, 540 220" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M570 150 C 630 170, 700 205, 740 220" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="740" cy="220" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- labels -->
+  <rect x="770" y="186" width="168" height="66" fill="#FFFFFF" stroke="#222222" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="780" y="208" font-size="15" font-weight="bold" fill="#111111">Dashed:</text>
+  <text x="780" y="227" font-size="14" fill="#111111">short breaks partly</text>
+  <text x="780" y="244" font-size="14" fill="#111111">reset the decline</text>
+
+  <rect x="770" y="322" width="168" height="66" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="780" y="344" font-size="15" font-weight="bold" fill="#111111">Solid:</text>
+  <text x="780" y="363" font-size="14" fill="#111111">continuous watch,</text>
+  <text x="780" y="380" font-size="14" fill="#111111">steady decrement</text>
+
+  <text x="130" y="100" font-size="14" fill="#111111">fresh start: high detection</text>
+
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Illustrative schematic of a well-replicated pattern; size and timing of decline vary with signal rate, salience and sleep.</text>
+</svg>

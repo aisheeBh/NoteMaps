@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Learning science as use-inspired basic research</title>
+  <desc>A two-by-two matrix after Donald Stokes. Rows ask whether research seeks fundamental understanding; columns ask whether it is driven by considerations of use. Pure basic research (Bohr), use-inspired basic research (Pasteur) and pure applied research (Edison) are shown with learning examples; most learning science sits in Pasteur's quadrant.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+
+  <text x="520" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Learning science as use-inspired basic research</text>
+
+  <!-- column headers -->
+  <text x="520" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Driven by considerations of use?</text>
+  <text x="370" y="104" text-anchor="middle" font-size="15" fill="#111111">NO</text>
+  <text x="710" y="104" text-anchor="middle" font-size="15" fill="#111111">YES</text>
+
+  <!-- row headers -->
+  <text x="60" y="320" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 60 320)">Seeks fundamental understanding?</text>
+  <text x="170" y="225" text-anchor="middle" font-size="15" fill="#111111">YES</text>
+  <text x="170" y="430" text-anchor="middle" font-size="15" fill="#111111">NO</text>
+
+  <!-- quadrants -->
+  <rect x="200" y="115" width="340" height="200" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="540" y="115" width="340" height="200" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="200" y="315" width="340" height="200" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <rect x="540" y="315" width="340" height="200" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+
+  <g text-anchor="middle" fill="#111111">
+    <rect x="220" y="140" width="300" height="150" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+    <text x="370" y="170" font-size="17" font-weight="bold">PURE BASIC RESEARCH</text>
+    <text x="370" y="194" font-size="15">Bohr's atomic physics</text>
+    <text x="370" y="234" font-size="14">e.g. how synapses strengthen</text>
+    <text x="370" y="253" font-size="14">in animal models, studied</text>
+    <text x="370" y="272" font-size="14">for understanding alone</text>
+
+    <rect x="220" y="340" width="300" height="150" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+    <text x="370" y="400" font-size="15">neither goal: describing</text>
+    <text x="370" y="420" font-size="15">particular cases</text>
+
+    <rect x="560" y="340" width="300" height="150" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+    <text x="710" y="370" font-size="17" font-weight="bold">PURE APPLIED RESEARCH</text>
+    <text x="710" y="394" font-size="15">Edison's inventions</text>
+    <text x="710" y="434" font-size="14">e.g. tuning one app's reminder</text>
+    <text x="710" y="453" font-size="14">timing, with no interest</text>
+    <text x="710" y="472" font-size="14">in why it works</text>
+  </g>
+  <g text-anchor="middle" fill="#FFFFFF">
+    <text x="710" y="164" font-size="17" font-weight="bold">USE-INSPIRED BASIC</text>
+    <text x="710" y="186" font-size="17" font-weight="bold">RESEARCH</text>
+    <text x="710" y="210" font-size="15">Pasteur's microbiology</text>
+    <text x="710" y="246" font-size="14">e.g. why retrieval strengthens</text>
+    <text x="710" y="265" font-size="14">memory, studied in order</text>
+    <text x="710" y="284" font-size="14">to improve teaching</text>
+  </g>
+
+  <text x="540" y="560" text-anchor="middle" font-size="13" fill="#333333">After Donald Stokes, Pasteur's Quadrant (1997). Most learning science occupies the upper-right quadrant.</text>
+</svg>

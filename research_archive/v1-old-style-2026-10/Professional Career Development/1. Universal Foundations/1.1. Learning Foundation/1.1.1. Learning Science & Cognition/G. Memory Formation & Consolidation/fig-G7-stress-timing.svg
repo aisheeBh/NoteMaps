@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Timing decides whether stress helps or hurts memory</title>
+  <desc>A timeline of four moments: stress long before learning has mixed effects; acute stress during or right after learning tends to enhance consolidation of related, especially emotional material; acute stress just before recall tends to impair retrieval; chronic stress impairs hippocampal memory overall.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatchR" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#F6CACA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8B0000" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Timing decides whether acute stress helps or hurts memory</text>
+
+  <!-- timeline -->
+  <line x1="40" y1="120" x2="920" y2="120" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="330" cy="120" r="9" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="330" y="96" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">LEARNING</text>
+  <circle cx="720" cy="120" r="9" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="720" y="96" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">RECALL (test, meeting)</text>
+  <text x="905" y="148" text-anchor="end" font-size="14" fill="#111111">time</text>
+
+  <!-- box 1: stress well before learning -->
+  <rect x="40" y="170" width="200" height="200" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="52" y="182" width="176" height="176" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="140" y="208" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">MIXED</text>
+  <text x="140" y="236" text-anchor="middle" font-size="14" fill="#111111">Stress before</text>
+  <text x="140" y="256" text-anchor="middle" font-size="14" fill="#111111">learning</text>
+  <text x="140" y="290" text-anchor="middle" font-size="14" fill="#111111">depends on delay</text>
+  <text x="140" y="310" text-anchor="middle" font-size="14" fill="#111111">and whether the</text>
+  <text x="140" y="330" text-anchor="middle" font-size="14" fill="#111111">stressor is related</text>
+  <line x1="140" y1="170" x2="200" y2="128" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- box 2: during / right after learning -->
+  <rect x="260" y="170" width="200" height="200" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="272" y="182" width="176" height="176" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="360" y="208" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">TENDS TO HELP</text>
+  <text x="360" y="236" text-anchor="middle" font-size="14" fill="#111111">During or just</text>
+  <text x="360" y="256" text-anchor="middle" font-size="14" fill="#111111">after learning</text>
+  <text x="360" y="290" text-anchor="middle" font-size="14" fill="#111111">boosts consolidation</text>
+  <text x="360" y="310" text-anchor="middle" font-size="14" fill="#111111">of related, mainly</text>
+  <text x="360" y="330" text-anchor="middle" font-size="14" fill="#111111">emotional material</text>
+  <line x1="350" y1="170" x2="340" y2="130" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- box 3: before recall -->
+  <rect x="620" y="170" width="200" height="200" fill="url(#hatchR)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="632" y="182" width="176" height="176" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="720" y="208" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">TENDS TO HURT</text>
+  <text x="720" y="236" text-anchor="middle" font-size="14" fill="#111111">Just before or</text>
+  <text x="720" y="256" text-anchor="middle" font-size="14" fill="#111111">during recall</text>
+  <text x="720" y="290" text-anchor="middle" font-size="14" fill="#111111">blocks retrieval:</text>
+  <text x="720" y="310" text-anchor="middle" font-size="14" fill="#111111">the "blank mind"</text>
+  <text x="720" y="330" text-anchor="middle" font-size="14" fill="#111111">under pressure</text>
+  <line x1="720" y1="170" x2="720" y2="132" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- chronic band -->
+  <rect x="40" y="400" width="880" height="80" fill="url(#hatchR)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="200" y="414" width="560" height="52" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="480" y="436" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">CHRONIC STRESS (weeks to months): TENDS TO HURT</text>
+  <text x="480" y="456" text-anchor="middle" font-size="14" fill="#111111">impairs hippocampal learning, flexible memory and sleep</text>
+
+  <!-- key -->
+  <text x="40" y="516" font-size="14" fill="#111111">Key: thick solid border with cross-hatch = tends to help; dotted border with diagonal hatch = tends to hurt;</text>
+  <text x="40" y="536" font-size="14" fill="#111111">long-dash border with dots = mixed. Effects are averages; individual responses vary widely.</text>
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Schematic synthesis of human and animal research on stress hormones and memory phases.</text>
+</svg>
