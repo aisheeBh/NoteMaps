@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Job-to-tool map</title>
+  <desc>Grid of six jobs as columns: drafting, images, meeting notes, research, transcription, analysis; and nine tools as rows. Marks show which tools serve which job. Drafting has five tools, an overlap. Images has two tools, an overlap. Transcription has no approved tool, a gap. Image generator B and one extension are each used by one person, orphans.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">A job-to-tool map shows overlaps, gaps and orphans</text>
+  <text x="313.0" y="98.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Drafting</text>
+  <text x="419.0" y="98.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Images</text>
+  <text x="525.0" y="98.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Meetings</text>
+  <text x="631.0" y="98.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Research</text>
+  <text x="737.0" y="98.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Transcribe</text>
+  <text x="843.0" y="98.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Analysis</text>
+  <rect x="260.0" y="110.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="137.0" text-anchor="end" font-size="15" fill="#111111">Enterprise assistant</text>
+  <circle cx="313.0" cy="132.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="631.0" cy="132.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="843.0" cy="132.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="154.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="181.0" text-anchor="end" font-size="15" fill="#111111">Suite assistant</text>
+  <circle cx="313.0" cy="176.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="525.0" cy="176.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="198.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="225.0" text-anchor="end" font-size="15" fill="#111111">Writing tool A</text>
+  <circle cx="313.0" cy="220.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="242.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="269.0" text-anchor="end" font-size="15" fill="#111111">Writing tool B</text>
+  <circle cx="313.0" cy="264.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="286.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="313.0" text-anchor="end" font-size="15" fill="#111111">Writing tool C</text>
+  <circle cx="313.0" cy="308.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="330.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="357.0" text-anchor="end" font-size="15" fill="#111111">Image generator A</text>
+  <circle cx="419.0" cy="352.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="374.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="401.0" text-anchor="end" font-size="15" fill="#111111">Image generator B</text>
+  <circle cx="419.0" cy="396.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="418.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="445.0" text-anchor="end" font-size="15" fill="#111111">Meeting recorder</text>
+  <circle cx="525.0" cy="440.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <rect x="260.0" y="462.0" width="636.0" height="44.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="248.0" y="489.0" text-anchor="end" font-size="15" fill="#111111">Browser extension</text>
+  <circle cx="631.0" cy="484.0" r="9" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <line x1="366.0" y1="110.0" x2="366.0" y2="506.0" stroke="#999999" stroke-width="1"/>
+  <line x1="472.0" y1="110.0" x2="472.0" y2="506.0" stroke="#999999" stroke-width="1"/>
+  <line x1="578.0" y1="110.0" x2="578.0" y2="506.0" stroke="#999999" stroke-width="1"/>
+  <line x1="684.0" y1="110.0" x2="684.0" y2="506.0" stroke="#999999" stroke-width="1"/>
+  <line x1="790.0" y1="110.0" x2="790.0" y2="506.0" stroke="#999999" stroke-width="1"/>
+  <rect x="230.0" y="522.0" width="242.0" height="66.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="238.0" y="533.2" width="226.0" height="45.4" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="351.0" y="550.7" text-anchor="middle" font-size="14.5" fill="#111111">Overlaps: five drafting</text>
+  <text x="351.0" y="569.5" text-anchor="middle" font-size="14.5" fill="#111111">tools, two image tools</text>
+  <rect x="482.0" y="522.0" width="202.0" height="66.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="490.0" y="533.2" width="186.0" height="45.4" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="583.0" y="550.7" text-anchor="middle" font-size="14.5" fill="#111111">Gap: no approved</text>
+  <text x="583.0" y="569.5" text-anchor="middle" font-size="14.5" fill="#111111">transcription tool</text>
+  <rect x="694.0" y="522.0" width="242.0" height="66.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="815.0" y="550.7" text-anchor="middle" font-size="14.5" fill="#111111">Orphans: image tool B,</text>
+  <text x="815.0" y="569.5" text-anchor="middle" font-size="14.5" fill="#111111">extension, one user each</text>
+  <text x="480.0" y="620.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Illustrative marketing-team example; a filled circle means the tool is used for that job.</text>
+</svg>
