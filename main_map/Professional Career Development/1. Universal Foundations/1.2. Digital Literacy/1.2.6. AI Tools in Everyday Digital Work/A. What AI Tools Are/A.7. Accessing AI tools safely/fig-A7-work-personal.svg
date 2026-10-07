@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two accounts, two purposes</title>
+  <desc>Two panels. Work account: signed in through the employer, approved tool, business data terms, removed on leaving, audit and support. Personal account: own sign-in, consumer terms, own responsibility, no work content.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Two accounts, two purposes</text>
+  <rect x="24" y="70" width="447" height="248" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="24" y="70" width="447" height="38" rx="8" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="248" y="98" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Work account</text>
+  <circle cx="40" cy="131" r="3.2" fill="#111111"/>
+  <text x="50" y="136" text-anchor="start" font-size="14" fill="#111111">Signed in through the employer's single sign-on</text>
+  <circle cx="40" cy="158" r="3.2" fill="#111111"/>
+  <text x="50" y="162" text-anchor="start" font-size="14" fill="#111111">Approved tool and plan, under contract</text>
+  <circle cx="40" cy="184" r="3.2" fill="#111111"/>
+  <text x="50" y="189" text-anchor="start" font-size="14" fill="#111111">MFA and device rules enforced centrally</text>
+  <circle cx="40" cy="210" r="3.2" fill="#111111"/>
+  <text x="50" y="216" text-anchor="start" font-size="14" fill="#111111">Access removed automatically on leaving</text>
+  <circle cx="40" cy="237" r="3.2" fill="#111111"/>
+  <text x="50" y="242" text-anchor="start" font-size="14" fill="#111111">Logs available for audit and incidents</text>
+  <circle cx="40" cy="264" r="3.2" fill="#111111"/>
+  <text x="50" y="268" text-anchor="start" font-size="14" fill="#111111">For work content allowed by policy</text>
+  <rect x="489" y="70" width="447" height="248" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="489" y="70" width="447" height="38" rx="8" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <text x="712" y="98" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Personal account</text>
+  <circle cx="505" cy="131" r="3.2" fill="#222222"/>
+  <text x="515" y="136" text-anchor="start" font-size="14" fill="#222222">Own sign-in: use a passkey or strong MFA</text>
+  <circle cx="505" cy="158" r="3.2" fill="#222222"/>
+  <text x="515" y="162" text-anchor="start" font-size="14" fill="#222222">Consumer terms: review training settings</text>
+  <circle cx="505" cy="184" r="3.2" fill="#222222"/>
+  <text x="515" y="189" text-anchor="start" font-size="14" fill="#222222">Security is the individual's responsibility</text>
+  <circle cx="505" cy="210" r="3.2" fill="#222222"/>
+  <text x="515" y="216" text-anchor="start" font-size="14" fill="#222222">Stays with the person after they leave</text>
+  <circle cx="505" cy="237" r="3.2" fill="#222222"/>
+  <text x="515" y="242" text-anchor="start" font-size="14" fill="#222222">No employer visibility or support</text>
+  <circle cx="505" cy="264" r="3.2" fill="#222222"/>
+  <text x="515" y="268" text-anchor="start" font-size="14" fill="#222222">No client, colleague or confidential work data</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five functional families of AI tools</title>
+  <desc>Five horizontal bands from perceiving signals, through predicting, recommending and generating, to acting in other systems, each with workplace examples.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Five functional families of AI tools</text>
+  <rect x="160" y="71" width="770" height="87" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="180" y="120" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Perceive</text>
+  <text x="405" y="110" text-anchor="start" font-size="14.5" fill="#111111">Turn sound, images and scans into text and labels:</text>
+  <text x="405" y="129" text-anchor="start" font-size="14.5" fill="#111111">transcription, OCR, face unlock.</text>
+  <rect x="160" y="168" width="770" height="87" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="180" y="217" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Predict and classify</text>
+  <text x="405" y="207" text-anchor="start" font-size="14.5" fill="#111111">Assign a score or category: spam filters, fraud alerts, churn</text>
+  <text x="405" y="226" text-anchor="start" font-size="14.5" fill="#111111">and demand forecasts.</text>
+  <rect x="160" y="265" width="770" height="87" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="172" y="274" width="745" height="69" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="180" y="314" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Recommend and rank</text>
+  <text x="405" y="304" text-anchor="start" font-size="14.5" fill="#111111">Order options for a person: suggested files, search ranking,</text>
+  <text x="405" y="322" text-anchor="start" font-size="14.5" fill="#111111">next-best offer.</text>
+  <rect x="160" y="361" width="770" height="87" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="180" y="411" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Generate</text>
+  <text x="405" y="400" text-anchor="start" font-size="14.5" fill="#111111">Produce new text, code, images, audio or video: drafts,</text>
+  <text x="405" y="419" text-anchor="start" font-size="14.5" fill="#111111">summaries, translations.</text>
+  <rect x="160" y="458" width="770" height="87" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="180" y="508" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">Act</text>
+  <text x="405" y="497" text-anchor="start" font-size="14.5" fill="#FFFFFF">Carry out steps in other software or the physical world:</text>
+  <text x="405" y="516" text-anchor="start" font-size="14.5" fill="#FFFFFF">booking, filing, robots.</text>
+  <line x1="80" y1="538" x2="80" y2="78" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <rect x="18" y="106" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">From sensing</text>
+  <text x="80" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">the world</text>
+  <rect x="18" y="462" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="478" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">to changing</text>
+  <text x="80" y="496" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">it</text>
+</svg>

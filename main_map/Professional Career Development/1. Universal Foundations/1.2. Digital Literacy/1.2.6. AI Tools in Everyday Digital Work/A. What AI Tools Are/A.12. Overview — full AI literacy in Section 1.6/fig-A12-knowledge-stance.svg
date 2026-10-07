@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Knowledge of AI and the stance it produces</title>
+  <desc>Two by two grid. Horizontal axis knowledge of how AI works, low to high. Vertical axis enthusiasm to use AI, low to high. Top left: awed adoption. Top right: calibrated use. Bottom left: wary avoidance. Bottom right: informed scepticism.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Knowledge of AI and the stance it produces</text>
+  <rect x="176" y="82" width="358" height="198" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="355" y="178" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Awed adoption</text>
+  <text x="355" y="199" text-anchor="middle" font-size="14.5" fill="#111111">AI seems magical; outputs trusted too readily.</text>
+  <rect x="546" y="82" width="358" height="198" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="725" y="178" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Calibrated use</text>
+  <text x="725" y="199" text-anchor="middle" font-size="14.5" fill="#111111">Selective, verified use matched to task fit.</text>
+  <rect x="176" y="292" width="358" height="198" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="355" y="379" text-anchor="middle" font-size="17" font-weight="bold" fill="#222222">Wary avoidance</text>
+  <text x="355" y="400" text-anchor="middle" font-size="14.5" fill="#222222">Vague fears; benefits missed; others' AI</text>
+  <text x="355" y="419" text-anchor="middle" font-size="14.5" fill="#222222">unexamined.</text>
+  <rect x="546" y="292" width="358" height="198" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="725" y="379" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Informed scepticism</text>
+  <text x="725" y="400" text-anchor="middle" font-size="14.5" fill="#111111">Understands limits; uses AI sparingly,</text>
+  <text x="725" y="419" text-anchor="middle" font-size="14.5" fill="#111111">questions claims.</text>
+  <line x1="170" y1="512" x2="910" y2="512" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="540" y="542" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Knowledge of how AI works and fails</text>
+  <text x="170" y="542" text-anchor="start" font-size="14" fill="#111111">Low</text>
+  <text x="910" y="542" text-anchor="end" font-size="14" fill="#111111">High</text>
+  <line x1="154" y1="496" x2="154" y2="76" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="126" y="286" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 126 286)">Enthusiasm to use AI</text>
+  <text x="100" y="496" text-anchor="start" font-size="14" fill="#111111" transform="rotate(-90 100 496)">Low</text>
+  <text x="100" y="76" text-anchor="end" font-size="14" fill="#111111" transform="rotate(-90 100 76)">High</text>
+</svg>
