@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Mechanisms by task</title>
+  <desc>Matrix of four mechanisms (contrast, retrieval, selection, spacing) against four kinds of task, with one to three marks showing the judged weight of each mechanism.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Which mechanisms carry the benefit?</text>
+  <rect x="300" y="90" width="150" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="375.0" y="122" font-size="17" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Contrast</text>
+  <rect x="450" y="90" width="150" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="525.0" y="122" font-size="17" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Retrieval</text>
+  <rect x="600" y="90" width="150" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="675.0" y="122" font-size="17" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Selection</text>
+  <rect x="750" y="90" width="150" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="825.0" y="122" font-size="17" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Spacing</text>
+  <rect x="40" y="140" width="260" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="56" y="186.0" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Visual categories</text>
+  <rect x="300" y="140" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="345" cy="180.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="375" cy="180.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="405" cy="180.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="450" y="140" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="495" cy="180.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="525" cy="180.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <circle cx="555" cy="180.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="600" y="140" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="645" cy="180.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="675" cy="180.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="705" cy="180.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="750" y="140" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="795" cy="180.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="825" cy="180.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <circle cx="855" cy="180.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="40" y="220" width="260" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="56" y="266.0" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Maths problem types</text>
+  <rect x="300" y="220" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="345" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="375" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="405" cy="260.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="450" y="220" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="495" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="525" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="555" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="600" y="220" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="645" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="675" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="705" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="750" y="220" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="795" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="825" cy="260.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="855" cy="260.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="40" y="300" width="260" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="56" y="346.0" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Motor skill variations</text>
+  <rect x="300" y="300" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="345" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="375" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="405" cy="340.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="450" y="300" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="495" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="525" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="555" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="600" y="300" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="645" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="675" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="705" cy="340.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="750" y="300" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="795" cy="340.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="825" cy="340.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <circle cx="855" cy="340.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="40" y="380" width="260" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="56" y="426.0" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Language form choices</text>
+  <rect x="300" y="380" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="345" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="375" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="405" cy="420.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="450" y="380" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="495" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="525" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="555" cy="420.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <rect x="600" y="380" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="645" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="675" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="705" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="750" y="380" width="150" height="80" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="795" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="825" cy="420.0" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="855" cy="420.0" r="10" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <circle cx="320" cy="470" r="10" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="338" y="476" font-size="15" text-anchor="start" fill="#111111">= judged contribution (three = major)</text>
+  <text x="480.0" y="505" font-size="13" text-anchor="middle" fill="#333333">Qualitative judgement drawn from the studies described; not measured weights.</text>
+</svg>

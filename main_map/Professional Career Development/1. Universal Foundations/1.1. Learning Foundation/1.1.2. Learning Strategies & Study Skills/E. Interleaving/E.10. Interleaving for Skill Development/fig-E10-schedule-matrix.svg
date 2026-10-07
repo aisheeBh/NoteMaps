@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Schedule matrix</title>
+  <desc>Two by two grid: closed or open skill against beginner or skilled learner, with the recommended practice schedule in each cell.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Which schedule for which skill and learner?</text>
+  <rect x="250" y="280" width="330" height="200" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="415.0" y="356.5" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Closed skill, beginner</text>
+  <text x="415.0" y="380.5" font-size="15" text-anchor="middle" fill="#111111">e.g. first free throws</text>
+  <text x="415.0" y="400.5" font-size="15" text-anchor="middle" fill="#111111">blocked, then serial;</text>
+  <text x="415.0" y="420.5" font-size="15" text-anchor="middle" fill="#111111">vary distance early</text>
+  <rect x="580" y="280" width="330" height="200" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+  <rect x="638.825" y="337.5" width="212.35000000000002" height="89" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="745.0" y="356.5" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Closed skill, skilled</text>
+  <text x="745.0" y="380.5" font-size="15" text-anchor="middle" fill="#111111">e.g. golf putting</text>
+  <text x="745.0" y="400.5" font-size="15" text-anchor="middle" fill="#111111">random order of</text>
+  <text x="745.0" y="420.5" font-size="15" text-anchor="middle" fill="#111111">variations; add pressure</text>
+  <rect x="250" y="80" width="330" height="200" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="309.5" y="137.5" width="211.0" height="89" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="415.0" y="156.5" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Open skill, beginner</text>
+  <text x="415.0" y="180.5" font-size="15" text-anchor="middle" fill="#111111">e.g. first tennis rallies</text>
+  <text x="415.0" y="200.5" font-size="15" text-anchor="middle" fill="#111111">simplified games;</text>
+  <text x="415.0" y="220.5" font-size="15" text-anchor="middle" fill="#111111">serial feeding</text>
+  <rect x="580" y="80" width="330" height="200" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="3.5"/>
+  <rect x="608.3" y="137.5" width="273.40000000000003" height="89" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="745.0" y="156.5" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Open skill, skilled</text>
+  <text x="745.0" y="180.5" font-size="15" text-anchor="middle" fill="#111111">e.g. match play, live negotiation</text>
+  <text x="745.0" y="200.5" font-size="15" text-anchor="middle" fill="#111111">random and representative;</text>
+  <text x="745.0" y="220.5" font-size="15" text-anchor="middle" fill="#111111">game-like scenarios</text>
+  <text x="415.0" y="510" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Beginner</text>
+  <text x="745.0" y="510" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Skilled learner</text>
+  <text x="234" y="185.0" font-size="16" text-anchor="end" fill="#111111" font-weight="bold">Open skill</text>
+  <text x="234" y="385.0" font-size="16" text-anchor="end" fill="#111111" font-weight="bold">Closed skill</text>
+  <line x1="250" y1="530" x2="910" y2="530" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="580" y="552" font-size="15" text-anchor="middle" fill="#111111">more contextual interference</text>
+  <text x="480.0" y="585" font-size="13" text-anchor="middle" fill="#333333">Guidance distilled from motor-learning research; boundaries are approximate.</text>
+</svg>

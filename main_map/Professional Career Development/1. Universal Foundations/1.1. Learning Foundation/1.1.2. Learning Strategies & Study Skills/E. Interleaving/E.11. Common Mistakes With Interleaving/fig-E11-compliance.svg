@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two compliance designs</title>
+  <desc>Left: shuffled screens from four unrelated modules, nothing to discriminate. Right: coherent modules plus a mixed scenario set within data protection, targeting confusable decisions.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">Mixing unrelated modules versus mixing confusable decisions</text>
+  <rect x="40" y="70" width="420" height="400" rx="0" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="250" y="100" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">First attempt: shuffled modules</text>
+  <rect x="70" y="130" width="85" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="74" y="154" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="112" y="170" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Data</text>
+  <rect x="165" y="130" width="85" height="70" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="169" y="154" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="207" y="170" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Info</text>
+  <rect x="260" y="130" width="85" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="264" y="154" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="302" y="170" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Sanctions</text>
+  <rect x="355" y="130" width="85" height="70" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="359" y="154" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="397" y="170" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Anti-bribery</text>
+  <rect x="70" y="220" width="85" height="70" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="74" y="244" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="112" y="260" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Info</text>
+  <rect x="165" y="220" width="85" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="169" y="244" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="207" y="260" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Data</text>
+  <rect x="260" y="220" width="85" height="70" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="264" y="244" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="302" y="260" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Anti-bribery</text>
+  <rect x="355" y="220" width="85" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="359" y="244" width="77" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="397" y="260" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Sanctions</text>
+  <text x="70" y="345" font-size="15" text-anchor="start" fill="#111111">Unrelated topics: nothing to confuse</text>
+  <text x="70" y="369" font-size="15" text-anchor="start" fill="#111111">Explanations broken into fragments</text>
+  <text x="70" y="393" font-size="15" text-anchor="start" fill="#111111">Result: slower, no better</text>
+  <rect x="500" y="70" width="420" height="400" rx="0" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="710" y="100" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Redesign: mix within one domain</text>
+  <rect x="530" y="120" width="360" height="60" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="710.0" y="155.5" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Coherent modules for explanation</text>
+  <rect x="530" y="200" width="112" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="534" y="216" width="104" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="586" y="233" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Lawful basis?</text>
+  <rect x="652" y="200" width="112" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="656" y="216" width="104" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="708" y="233" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Request type?</text>
+  <rect x="774" y="200" width="112" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="778" y="216" width="104" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="830" y="233" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Breach?</text>
+  <rect x="530" y="266" width="112" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="534" y="282" width="104" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="586" y="299" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Lawful basis?</text>
+  <rect x="652" y="266" width="112" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="656" y="282" width="104" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="708" y="299" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Request type?</text>
+  <rect x="774" y="266" width="112" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="778" y="282" width="104" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="830" y="299" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Breach?</text>
+  <text x="530" y="365" font-size="15" text-anchor="start" fill="#111111">Confusable decisions mixed, unlabelled</text>
+  <text x="530" y="389" font-size="15" text-anchor="start" fill="#111111">Feedback names the deciding feature</text>
+  <text x="530" y="413" font-size="15" text-anchor="start" fill="#111111">Result: better decisions months later</text>
+  <text x="480.0" y="520" font-size="13" text-anchor="middle" fill="#333333">Illustration of the case described.</text>
+</svg>

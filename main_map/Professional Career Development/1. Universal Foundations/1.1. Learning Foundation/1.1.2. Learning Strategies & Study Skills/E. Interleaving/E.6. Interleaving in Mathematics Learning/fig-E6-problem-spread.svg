@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Spread of problems</title>
+  <desc>Grid of eight assignments. Blocked: all twelve problems for lesson 3's method appear in assignment 3. Interleaved: four in assignment 3 and the rest spread one or two at a time across assignments 4 to 8.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Where the 12 practice problems for lesson 3's method go</text>
+  <text x="170" y="122" font-size="17" text-anchor="end" fill="#111111" font-weight="bold">Blocked</text>
+  <rect x="190" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="230" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="280" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="320" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="370" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="376" y="98" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="388" y="98" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="400" y="98" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="412" y="98" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="424" y="98" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="436" y="98" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="376" y="122" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="388" y="122" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="400" y="122" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="412" y="122" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="424" y="122" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="436" y="122" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <text x="410" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">12</text>
+  <rect x="460" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="500" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="550" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="590" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="640" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="680" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="730" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="770" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="820" y="90" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="860" y="168" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <text x="170" y="262" font-size="17" text-anchor="end" fill="#111111" font-weight="bold">Interleaved</text>
+  <rect x="190" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="230" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="280" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="320" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">-</text>
+  <rect x="370" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="376" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="388" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="400" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="412" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <text x="410" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">4</text>
+  <rect x="460" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="466" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="478" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <text x="500" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">2</text>
+  <rect x="550" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="556" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="568" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <text x="590" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">2</text>
+  <rect x="640" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="646" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <text x="680" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">1</text>
+  <rect x="730" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="736" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <rect x="748" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <text x="770" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">2</text>
+  <rect x="820" y="230" width="80" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="826" y="238" width="10" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1"/>
+  <text x="860" y="308" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">1</text>
+  <text x="230" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A1</text>
+  <text x="320" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A2</text>
+  <text x="410" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A3</text>
+  <text x="500" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A4</text>
+  <text x="590" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A5</text>
+  <text x="680" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A6</text>
+  <text x="770" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A7</text>
+  <text x="860" y="80" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A8</text>
+  <text x="560" y="360" font-size="15" text-anchor="middle" fill="#111111">A1 to A8 = successive daily assignments; numbers = problems of lesson 3's method</text>
+  <rect x="190" y="390" width="330" height="70" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="355.0" y="421.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Blocked</text>
+  <text x="355.0" y="444.5" font-size="14" text-anchor="middle" fill="#111111">all practice on one day, then never again</text>
+  <rect x="560" y="390" width="330" height="70" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
+  <text x="725.0" y="421.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Interleaved</text>
+  <text x="725.0" y="444.5" font-size="14" text-anchor="middle" fill="#111111">some on the day, the rest spaced and mixed</text>
+  <text x="480.0" y="488" font-size="13" text-anchor="middle" fill="#333333">Illustrative distribution; total practice is the same in both designs.</text>
+</svg>

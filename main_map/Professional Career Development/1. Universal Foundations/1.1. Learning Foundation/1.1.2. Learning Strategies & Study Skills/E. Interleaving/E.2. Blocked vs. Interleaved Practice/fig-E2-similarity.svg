@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Similarity and schedule</title>
+  <desc>Spectrum of between-category similarity: low similarity favours blocked study, high similarity favours interleaved study.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">How alike are the categories?</text>
+  <rect x="80" y="150" width="800" height="60" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="80" y="150" width="320" height="60" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="560" y="150" width="320" height="60" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="400" y="150" width="160" height="60" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="110" y="160" width="260" height="40" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="240.0" y="186.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Blocked tends to help</text>
+  <rect x="590" y="160" width="260" height="40" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="720.0" y="186.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Interleaved tends to help</text>
+  <text x="480" y="186" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">uncertain</text>
+  <line x1="80" y1="240" x2="880" y2="240" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="80" y="270" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Low similarity between categories</text>
+  <text x="880" y="270" font-size="16" text-anchor="end" fill="#111111" font-weight="bold">High similarity between categories</text>
+  <rect x="80" y="300" width="380" height="170" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="270.0" y="353.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Why blocking helps here</text>
+  <text x="270.0" y="376.0" font-size="14" text-anchor="middle" fill="#111111">Categories already look different</text>
+  <text x="270.0" y="395.0" font-size="14" text-anchor="middle" fill="#111111">Hard part: noticing what members</text>
+  <text x="270.0" y="414.0" font-size="14" text-anchor="middle" fill="#111111">of one category share</text>
+  <text x="270.0" y="433.0" font-size="14" text-anchor="middle" fill="#111111">Blocked runs highlight commonalities</text>
+  <rect x="500" y="300" width="380" height="170" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
+  <text x="690.0" y="353.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Why interleaving helps here</text>
+  <text x="690.0" y="376.0" font-size="14" text-anchor="middle" fill="#111111">Categories look alike</text>
+  <text x="690.0" y="395.0" font-size="14" text-anchor="middle" fill="#111111">Hard part: spotting what</text>
+  <text x="690.0" y="414.0" font-size="14" text-anchor="middle" fill="#111111">tells them apart</text>
+  <text x="690.0" y="433.0" font-size="14" text-anchor="middle" fill="#111111">Alternation highlights differences</text>
+  <text x="80" y="110" font-size="15" text-anchor="start" fill="#111111" font-style="italic">e.g. fruit versus vehicles</text>
+  <text x="880" y="110" font-size="15" text-anchor="end" fill="#111111" font-style="italic">e.g. two painters of one school; flutter versus fibrillation</text>
+  <text x="480.0" y="520" font-size="13" text-anchor="middle" fill="#333333">Schematic summary of Carvalho and Goldstone's findings; the boundary between zones is not precisely known.</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Onboarding tracker</title>
+  <desc>Line chart over twelve weeks: daily practice accuracy stays modest while monthly unseen-check source-choice accuracy rises steadily.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Practice feels hard; unseen checks keep improving</text>
+  <line x1="120" y1="420" x2="780" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="420" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="114" y1="420.0" x2="120" y2="420.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="425.0" font-size="14" text-anchor="end" fill="#111111">0%</text>
+  <line x1="114" y1="335.0" x2="120" y2="335.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="340.0" font-size="14" text-anchor="end" fill="#111111">25%</text>
+  <line x1="114" y1="250.0" x2="120" y2="250.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="255.0" font-size="14" text-anchor="end" fill="#111111">50%</text>
+  <line x1="114" y1="165.0" x2="120" y2="165.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="170.0" font-size="14" text-anchor="end" fill="#111111">75%</text>
+  <line x1="114" y1="80.0" x2="120" y2="80.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="85.0" font-size="14" text-anchor="end" fill="#111111">100%</text>
+  <text x="450.0" y="460" font-size="15" text-anchor="middle" fill="#111111">Week of onboarding</text>
+  <text x="120.0" y="440" font-size="14" text-anchor="middle" fill="#111111">0</text>
+  <text x="230.0" y="440" font-size="14" text-anchor="middle" fill="#111111">2</text>
+  <text x="340.0" y="440" font-size="14" text-anchor="middle" fill="#111111">4</text>
+  <text x="450.0" y="440" font-size="14" text-anchor="middle" fill="#111111">6</text>
+  <text x="560.0" y="440" font-size="14" text-anchor="middle" fill="#111111">8</text>
+  <text x="670.0" y="440" font-size="14" text-anchor="middle" fill="#111111">10</text>
+  <text x="780.0" y="440" font-size="14" text-anchor="middle" fill="#111111">12</text>
+  <path d="M175 257 L230 243 L285 250 L340 233 L395 236 L450 223 L505 226 L560 216 L615 219 L670 209 L725 213 L780 206" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M340 233 L560 162 L780 121" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="340.0" cy="233.0" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="560.0" cy="161.60000000000002" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="780.0" cy="120.80000000000001" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <rect x="330" y="90" width="220" height="44" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="340" y="109" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Monthly unseen checks</text>
+  <text x="340" y="127" font-size="14" text-anchor="start" fill="#111111">source choice accuracy</text>
+  <rect x="420" y="300" width="250" height="44" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="430" y="319" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Daily mixed practice sets</text>
+  <text x="430" y="337" font-size="14" text-anchor="start" fill="#111111">accuracy stays modest</text>
+  <text x="480.0" y="525" font-size="13" text-anchor="middle" fill="#333333">Illustrative data for the case described; not measured values.</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 530" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Pit stop and surgical hand-over: shared structure</title>
+  <desc>Mapping between a Formula One pit stop and a theatre-to-intensive-care hand-over: leader, fixed sequence, defined roles, controlled communication, rehearsal; plus differences.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="23" text-anchor="middle" fill="#111111" font-weight="bold">Pit stop and surgical hand-over: shared structure</text>
+  <rect x="40" y="64" width="300" height="44" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="94.0" y="74.0" width="192.0" height="28" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="190.0" y="92.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Formula One pit stop</text>
+  <rect x="620" y="64" width="300" height="44" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="656.4" y="74.0" width="227.20000000000002" height="28" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="770.0" y="92.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Theatre to ICU hand-over</text>
+  <rect x="355" y="64" width="250" height="44" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="480.0" y="92.0" font-size="16" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Shared structure</text>
+  <rect x="40" y="130" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="620" y="130" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="370" y="136" width="220" height="44" rx="0" fill="#F2F2F2" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="190" y="154" font-size="14" text-anchor="middle" fill="#111111">Chief mechanic</text>
+  <text x="190" y="172" font-size="14" text-anchor="middle" fill="#111111">controls the stop</text>
+  <text x="770" y="154" font-size="14" text-anchor="middle" fill="#111111">One clinician leads</text>
+  <text x="770" y="172" font-size="14" text-anchor="middle" fill="#111111">the hand-over</text>
+  <text x="480" y="163" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">A single leader</text>
+  <line x1="340" y1="158" x2="368" y2="158" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="620" y1="158" x2="592" y2="158" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="40" y="200" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="620" y="200" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="370" y="206" width="220" height="44" rx="0" fill="#F2F2F2" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="190" y="224" font-size="14" text-anchor="middle" fill="#111111">Wheels, fuel, checks</text>
+  <text x="190" y="242" font-size="14" text-anchor="middle" fill="#111111">in fixed order</text>
+  <text x="770" y="224" font-size="14" text-anchor="middle" fill="#111111">Equipment first,</text>
+  <text x="770" y="242" font-size="14" text-anchor="middle" fill="#111111">then information</text>
+  <text x="480" y="233" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Fixed task sequence</text>
+  <line x1="340" y1="228" x2="368" y2="228" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="620" y1="228" x2="592" y2="228" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="40" y="270" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="620" y="270" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="370" y="276" width="220" height="44" rx="0" fill="#F2F2F2" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="190" y="294" font-size="14" text-anchor="middle" fill="#111111">Each crew member</text>
+  <text x="190" y="312" font-size="14" text-anchor="middle" fill="#111111">has one job</text>
+  <text x="770" y="294" font-size="14" text-anchor="middle" fill="#111111">Each clinician has</text>
+  <text x="770" y="312" font-size="14" text-anchor="middle" fill="#111111">named tasks</text>
+  <text x="480" y="303" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Defined roles</text>
+  <line x1="340" y1="298" x2="368" y2="298" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="620" y1="298" x2="592" y2="298" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="40" y="340" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="620" y="340" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="370" y="346" width="220" height="44" rx="0" fill="#F2F2F2" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="190" y="364" font-size="14" text-anchor="middle" fill="#111111">Minimal talk</text>
+  <text x="190" y="382" font-size="14" text-anchor="middle" fill="#111111">during the stop</text>
+  <text x="770" y="364" font-size="14" text-anchor="middle" fill="#111111">Silence while key</text>
+  <text x="770" y="382" font-size="14" text-anchor="middle" fill="#111111">information is given</text>
+  <text x="480" y="373" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Controlled communication</text>
+  <line x1="340" y1="368" x2="368" y2="368" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="620" y1="368" x2="592" y2="368" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="40" y="410" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="620" y="410" width="300" height="56" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="370" y="416" width="220" height="44" rx="0" fill="#F2F2F2" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="190" y="434" font-size="14" text-anchor="middle" fill="#111111">Stops rehearsed</text>
+  <text x="190" y="452" font-size="14" text-anchor="middle" fill="#111111">repeatedly</text>
+  <text x="770" y="434" font-size="14" text-anchor="middle" fill="#111111">Protocol trained</text>
+  <text x="770" y="452" font-size="14" text-anchor="middle" fill="#111111">and practised</text>
+  <text x="480" y="443" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Rehearsal</text>
+  <line x1="340" y1="438" x2="368" y2="438" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="620" y1="438" x2="592" y2="438" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480.0" y="516" font-size="13" text-anchor="middle" fill="#333333">Differences kept in view: patients vary far more than cars, and information must be communicated, not just equipment changed.</text>
+</svg>

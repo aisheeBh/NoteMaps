@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>What gets compared</title>
+  <desc>Blocked sequence AAA BBB with comparison arrows between same-category neighbours, highlighting shared features. Interleaved sequence A B A B with arrows between different-category neighbours, highlighting differences.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Each item is compared with the one before it</text>
+  <text x="60" y="92" font-size="18" text-anchor="start" fill="#111111" font-weight="bold">Blocked</text>
+  <rect x="80" y="110" width="70" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="105.0" y="134.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="115.0" y="151.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="210" y="110" width="70" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="235.0" y="134.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="245.0" y="151.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <path d="M154 145 Q 180 100 206 145" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="340" y="110" width="70" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="365.0" y="134.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="375.0" y="151.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <path d="M284 145 Q 310 100 336 145" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="470" y="110" width="70" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="495.0" y="134.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="505.0" y="151.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <path d="M414 145 Q 440 100 466 145" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="600" y="110" width="70" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="625.0" y="134.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="635.0" y="151.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <path d="M544 145 Q 570 100 596 145" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="730" y="110" width="70" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="755.0" y="134.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="765.0" y="151.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <path d="M674 145 Q 700 100 726 145" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <text x="80" y="215" font-size="16" text-anchor="start" fill="#111111" font-style="italic">neighbours share a category: attention goes to what A items have in common</text>
+  <text x="60" y="282" font-size="18" text-anchor="start" fill="#111111" font-weight="bold">Interleaved</text>
+  <rect x="80" y="300" width="70" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="105.0" y="324.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="115.0" y="341.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="210" y="300" width="70" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="235.0" y="324.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="245.0" y="341.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <path d="M154 335 Q 180 290 206 335" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="340" y="300" width="70" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="365.0" y="324.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="375.0" y="341.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <path d="M284 335 Q 310 290 336 335" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="470" y="300" width="70" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="495.0" y="324.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="505.0" y="341.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <path d="M414 335 Q 440 290 466 335" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="600" y="300" width="70" height="70" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="625.0" y="324.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="635.0" y="341.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <path d="M544 335 Q 570 290 596 335" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="730" y="300" width="70" height="70" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="755.0" y="324.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="765.0" y="341.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <path d="M674 335 Q 700 290 726 335" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="80" y="405" font-size="16" text-anchor="start" fill="#111111" font-style="italic">neighbours differ: attention goes to what separates A from B</text>
+  <rect x="80" y="440" width="26" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <text x="116" y="456" font-size="15" text-anchor="start" fill="#111111">Category A</text>
+  <rect x="300" y="440" width="26" height="20" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <text x="336" y="456" font-size="15" text-anchor="start" fill="#111111">Category B</text>
+</svg>

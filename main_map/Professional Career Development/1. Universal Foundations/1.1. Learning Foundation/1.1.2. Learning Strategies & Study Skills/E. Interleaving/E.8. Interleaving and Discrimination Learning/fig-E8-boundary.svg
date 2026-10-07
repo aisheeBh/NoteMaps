@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Category boundary</title>
+  <desc>Scatter of two categories in a two-feature space. Typical examples lie far from the boundary; near-misses lie close to it on both sides.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Typical examples teach the centre; near-misses teach the edge</text>
+  <rect x="110" y="70" width="620" height="400" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="420.0" y="500" font-size="15" text-anchor="middle" fill="#111111">Feature 1 (e.g. surface texture)</text>
+  <text x="80" y="270.0" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 80 270.0)">Feature 2 (e.g. shape)</text>
+  <line x1="230" y1="470" x2="610" y2="70" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="167.04673256324082" y="140.50656547691455" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="189.44815396549535" y="148.79556332838564" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="143.3121133951426" y="188.25456231761197" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="262.51370603228065" y="252.0723762393294" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="241.12276435076137" y="159.5085081104508" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="209.1352011444739" y="168.26922295063204" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="158.17303409995165" y="140.9893267890448" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="164.0160605610483" y="272.3961010284897" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="250.04880682897874" y="253.06437547237175" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="246.06269739601527" y="154.9496988830784" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="177.37899402193497" y="224.3160963861008" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="236.4652592430205" y="260.7437372786155" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="257.2071051905679" y="137.8749204215875" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="218.81926372078317" y="231.4722330426357" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="625.8930663565623" cy="318.4464278785255" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="621.0381831377717" cy="304.29539316246246" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="690.1882545849862" cy="428.47746722961335" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="632.145830438058" cy="338.0393183317319" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="686.3305434122029" cy="381.57868826974266" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="682.3475859818185" cy="425.6870541157815" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="626.2558562999127" cy="356.23136690107714" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="639.8368708284984" cy="358.96688276692913" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="574.1980909182413" cy="338.81785542923825" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="671.8888477951931" cy="296.9181550515598" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="556.9482998505268" cy="390.2161192863846" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="592.0649817424328" cy="375.53948718070757" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="620.686012917249" cy="344.85492246754495" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="699.5918311258168" cy="321.2917590933305" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <rect x="242" y="409.89473684210526" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="292" cy="439.89473684210526" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <rect x="302" y="346.7368421052632" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="352" cy="376.7368421052632" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <rect x="362" y="283.57894736842104" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="412" cy="313.57894736842104" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <rect x="422" y="220.42105263157896" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="472" cy="250.42105263157896" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <rect x="482" y="157.26315789473682" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="532" cy="187.26315789473682" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <rect x="542" y="94.10526315789474" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="592" cy="124.10526315789474" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <ellipse cx="420" cy="270" rx="250" ry="48" transform="rotate(-46 420 270)" fill="none" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="510" y="82" width="200" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="610" y="100" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">category boundary</text>
+  <rect x="760" y="100" width="180" height="70" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="850.0" y="131.0" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Typical A</text>
+  <text x="850.0" y="154.0" font-size="14" text-anchor="middle" fill="#111111">far from boundary</text>
+  <rect x="760" y="200" width="180" height="80" rx="0" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="850.0" y="226.5" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Near-misses</text>
+  <text x="850.0" y="249.5" font-size="14" text-anchor="middle" fill="#111111">close to boundary,</text>
+  <text x="850.0" y="268.5" font-size="14" text-anchor="middle" fill="#111111">both sides</text>
+  <rect x="760" y="310" width="180" height="70" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="850.0" y="341.0" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Typical B</text>
+  <text x="850.0" y="364.0" font-size="14" text-anchor="middle" fill="#111111">far from boundary</text>
+  <rect x="770" y="420" width="12" height="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="792" y="431" font-size="14" text-anchor="start" fill="#111111">square = category A</text>
+  <circle cx="776" cy="456" r="7" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <text x="792" y="461" font-size="14" text-anchor="start" fill="#111111">circle = category B</text>
+  <text x="480.0" y="548" font-size="13" text-anchor="middle" fill="#333333">Schematic; points are illustrative.</text>
+</svg>

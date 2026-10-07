@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Blocked and interleaved practice sets</title>
+  <desc>Two worksheet mock-ups. Left: Lesson 7.3 The Sine Rule, six sine-rule problems. Right: mixed set with no heading, problems needing sine rule, cosine rule, Pythagoras and trigonometric ratios.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">The heading answers the question the exam will ask</text>
+  <rect x="40" y="70" width="400" height="470" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="40" y="70" width="400" height="50" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+  <rect x="100" y="80" width="280" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="240" y="101" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Lesson 7.3: The Sine Rule</text>
+  <text x="58" y="150" font-size="15" text-anchor="start" fill="#111111">1. Two angles and a side given ...</text>
+  <text x="76" y="172" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <text x="58" y="212" font-size="15" text-anchor="start" fill="#111111">2. Two angles and a side given ...</text>
+  <text x="76" y="234" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <text x="58" y="274" font-size="15" text-anchor="start" fill="#111111">3. Two sides, non-included angle ...</text>
+  <text x="76" y="296" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <text x="58" y="336" font-size="15" text-anchor="start" fill="#111111">4. Two angles and a side given ...</text>
+  <text x="76" y="358" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <text x="58" y="398" font-size="15" text-anchor="start" fill="#111111">5. Two sides, non-included angle ...</text>
+  <text x="76" y="420" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <text x="58" y="460" font-size="15" text-anchor="start" fill="#111111">6. Two angles and a side given ...</text>
+  <text x="76" y="482" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <rect x="520" y="70" width="400" height="470" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="720" y="101" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Mixed practice (no heading)</text>
+  <text x="538" y="150" font-size="15" text-anchor="start" fill="#111111">1. Two sides and included angle ...</text>
+  <text x="556" y="172" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: cosine rule</text>
+  <text x="538" y="212" font-size="15" text-anchor="start" fill="#111111">2. Right angle, two sides given ...</text>
+  <text x="556" y="234" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: Pythagoras</text>
+  <text x="538" y="274" font-size="15" text-anchor="start" fill="#111111">3. Two angles and a side given ...</text>
+  <text x="556" y="296" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <text x="538" y="336" font-size="15" text-anchor="start" fill="#111111">4. Three sides given, find angle ...</text>
+  <text x="556" y="358" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: cosine rule</text>
+  <text x="538" y="398" font-size="15" text-anchor="start" fill="#111111">5. Right angle, angle and side ...</text>
+  <text x="556" y="420" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: trig ratio</text>
+  <text x="538" y="460" font-size="15" text-anchor="start" fill="#111111">6. Two sides, non-included angle ...</text>
+  <text x="556" y="482" font-size="14" text-anchor="start" fill="#333333" font-style="italic">method: sine rule</text>
+  <text x="240" y="565" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Method known before reading</text>
+  <text x="720" y="565" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Method must be chosen from the problem</text>
+</svg>
