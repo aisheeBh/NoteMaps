@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Matching control of learning to readiness</title>
+<desc>A two-by-two matrix with learner readiness in a domain on the vertical axis and who controls the learning on the horizontal axis.</desc>
+<defs>
+  <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+  </pattern>
+  <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+  </pattern>
+  <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+  </pattern>
+  <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+  </pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#222222"/>
+  </marker>
+</defs>
+<text x="480" y="40" font-size="22" fill="#111111" text-anchor="middle" font-weight="bold">Who controls the learning, and is the learner ready?</text>
+<rect x="180" y="70" width="365.0" height="230.0" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="208" y="110" width="309.0" height="128" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+<text x="362.5" y="140" font-size="19" fill="#111111" text-anchor="middle" font-weight="bold">Constrained expert</text>
+<text x="362.5" y="168" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">High readiness, little control:</text>
+<text x="362.5" y="190" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">lectured and micromanaged;</text>
+<text x="362.5" y="212" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">boredom, wasted capability</text>
+<rect x="545.0" y="70" width="365.0" height="230.0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+<rect x="573.0" y="110" width="309.0" height="128" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+<text x="727.5" y="140" font-size="19" fill="#111111" text-anchor="middle" font-weight="bold">Mature self-direction</text>
+<text x="727.5" y="168" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">High readiness, learner in control:</text>
+<text x="727.5" y="190" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">chooses goals, resources,</text>
+<text x="727.5" y="212" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">guidance and tests deliberately</text>
+<rect x="180" y="300.0" width="365.0" height="230.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+<rect x="208" y="340.0" width="309.0" height="128" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+<text x="362.5" y="370.0" font-size="19" fill="#111111" text-anchor="middle" font-weight="bold">Guided novice</text>
+<text x="362.5" y="398.0" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">Low readiness, others in control:</text>
+<text x="362.5" y="420.0" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">structure, worked examples,</text>
+<text x="362.5" y="442.0" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">feedback; the right start</text>
+<rect x="545.0" y="300.0" width="365.0" height="230.0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+<rect x="573.0" y="340.0" width="309.0" height="128" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+<text x="727.5" y="370.0" font-size="19" fill="#111111" text-anchor="middle" font-weight="bold">Abandoned novice</text>
+<text x="727.5" y="398.0" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">Low readiness, learner in control:</text>
+<text x="727.5" y="420.0" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">cannot judge gaps or quality;</text>
+<text x="727.5" y="442.0" font-size="15" fill="#111111" text-anchor="middle" font-weight="normal">illusions of competence, drop-out</text>
+<path d="M517.0 404.0 C 551.0 404.0, 551.0 310.0, 615.0 246" fill="none" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="309.0" y="256.0" width="200" height="26" fill="#FFFFFF" stroke="#222222" stroke-width="1"/><text x="409.0" y="275.0" font-size="14" fill="#111111" text-anchor="middle" font-weight="bold">growth path with knowledge</text>
+<line x1="180" y1="550" x2="910" y2="550" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="180" y="575" font-size="15" fill="#111111" text-anchor="start" font-weight="normal">Others control</text>
+<text x="910" y="575" font-size="15" fill="#111111" text-anchor="end" font-weight="normal">Learner controls</text>
+<text x="545.0" y="605" font-size="16" fill="#111111" text-anchor="middle" font-weight="bold">Control of the learning situation</text>
+<line x1="155" y1="530" x2="155" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="110" y="300.0" font-size="16" fill="#111111" text-anchor="middle" font-weight="bold" transform="rotate(-90 110 300.0)">Readiness in this domain</text>
+<text x="145" y="85" font-size="14" fill="#111111" text-anchor="end" font-weight="normal">High</text>
+<text x="145" y="530" font-size="14" fill="#111111" text-anchor="end" font-weight="normal">Low</text>
+</svg>
