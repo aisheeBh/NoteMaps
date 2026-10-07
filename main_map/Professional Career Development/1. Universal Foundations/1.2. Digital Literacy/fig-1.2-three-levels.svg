@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Three levels of digital literacy</title>
+<desc>A pyramid with digital competence at the base, digital usage in the middle and digital transformation at the top, after Allan Martin's DigEuLit model.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Three levels of digital literacy (after Allan Martin, 2006)</text>
+<polygon points="480,80 340,200 620,200" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+<polygon points="340,210 620,210 760,340 200,340" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+<polygon points="200,350 760,350 900,480 60,480" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="380" y="142" width="200" height="52" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+<text x="480" y="160" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">TRANSFORMATION</text>
+<text x="480" y="180" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">innovation, creativity</text>
+<rect x="355" y="246" width="250" height="72" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+<text x="480" y="264" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">USAGE</text>
+<text x="480" y="284" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">applying competence to real</text>
+<text x="480" y="304" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">tasks in a specific context</text>
+<rect x="355" y="382" width="250" height="72" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+<text x="480" y="400" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">COMPETENCE</text>
+<text x="480" y="420" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">skills, concepts, approaches</text>
+<text x="480" y="440" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">and attitudes</text>
+<line x1="900" y1="460" x2="900" y2="100" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="930" y="280" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 930 280)">rarer, more context-dependent</text>
+<text x="480" y="520" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Each level builds on the one below; the upper levels depend more on context and are reached by fewer people.</text>
+</svg>
