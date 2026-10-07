@@ -272,7 +272,7 @@ flowchart TD
     class P good
 ```
 
-### Worked example: revising for a professional exam in eight weeks
+### Worked example (illustrative): revising for a professional exam in eight weeks
 
 A trainee accountant has 56 days until an exam and has just studied a chapter on revenue recognition.
 
@@ -291,6 +291,8 @@ A trainee accountant has 56 days until an exam and has just studied a chapter on
 | Review 4 | 34 | 16 days | Consolidate |
 | Review 5 | 50 | 16 days | Final refresh before the exam |
 | Exam | 56 | 6 days | — |
+
+*Illustrative figures.*
 
 - **Result:** five brief reviews, totalling perhaps two hours for the chapter, replace an exam-week cram of similar length — with far better retention on the day and afterwards.
 
@@ -317,7 +319,7 @@ A trainee accountant has 56 days until an exam and has just studied a chapter on
 - **Adaptive versions:** questions answered correctly twice are retired or moved to long gaps; missed questions return sooner.
 - **B. Price Kerfoot's "spaced education"** trials in medical training used email questions repeated at intervals of weeks, with explanations, and found improved retention over months compared with non-spaced delivery.
 
-### Case study: a bank's anti-money-laundering refresh
+### Case study (illustrative): a bank's anti-money-laundering refresh
 
 - **Situation:** a retail bank required all branch staff to complete a 90-minute annual anti-money-laundering course.
 - **Problem:** mystery-shopper tests and audit samples showed that staff missed warning signs months after completing the course with high marks.
@@ -381,7 +383,7 @@ The main accounts of the spacing effect each make predictions about **where** th
 | Long retention goal | Slightly longer | Much longer | Follow the ratio rule |
 | High cost of forgetting | Shorter | Shorter | Raise the recall target |
 
-### Worked example: a year-long certification horizon
+### Worked example (illustrative): a year-long certification horizon
 
 A network engineer must maintain knowledge for a certification renewal exam in twelve months and also use it at work throughout. She has studied a chapter on routing protocols today.
 
@@ -400,6 +402,8 @@ A network engineer must maintain knowledge for a certification renewal exam in t
 | 5 | 140 | 75 | Stable memory; longer gap |
 | 6 | 230 | 90 | Maintenance |
 | 7 | 340 | 110 | Refresh before the exam |
+
+*Illustrative figures.*
 
 > **Watch out:** a fixed plan like this is a starting point. If a review reveals that much was forgotten, the next gap should be **shortened**; if recall was effortless, it can be **lengthened**.
 

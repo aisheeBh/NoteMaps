@@ -94,7 +94,7 @@ flowchart TD
 
 ![Figure 2. The Leitner box](fig-D5-leitner.svg)
 
-> **Example:** a law student with 400 cards in five boxes reviews box 1 daily, box 2 every two days and so on; a case name missed once returns to box 1 even if it had reached box 4.
+> **Example (illustrative):** a law student with 400 cards in five boxes reviews box 1 daily, box 2 every two days and so on; a case name missed once returns to box 1 even if it had reached box 4.
 
 ---
 
@@ -119,7 +119,7 @@ flowchart TD
 
 > **Formula — SM-2 ease update:** EF′ = EF + (0.1 − (5 − q) × (0.08 + (5 − q) × 0.02)), with q the grade. Example: q = 5 → EF rises by **0.10**; q = 4 → **no change**; q = 3 → EF falls by **0.14**.
 
-**Worked example — one item under SM-2**
+**Worked example (illustrative) — one item under SM-2**
 
 | Review | Grade | Ease factor after | Next interval |
 |---|---|---|---|
@@ -128,6 +128,8 @@ flowchart TD
 | 3 | 5 | 2.60 | 6 × 2.6 ≈ 16 days |
 | 4 | 3 | 2.46 | 16 × 2.46 ≈ 39 days |
 | 5 | 4 | 2.46 | 39 × 2.46 ≈ 96 days |
+
+*Illustrative figures.*
 
 - After five reviews spanning about two months, the next review is about three months away.
 
@@ -372,7 +374,7 @@ flowchart TD
 - **Onboarding** — spaced review of systems, policies, people and terminology for new joiners.
 - **Analytics** — platforms show which items are commonly forgotten, revealing weak training content or confusing policies.
 
-### Case study: spaced questions for a pharmaceutical sales force
+### Case study (illustrative): spaced questions for a pharmaceutical sales force
 
 - **Situation:** a pharmaceutical company launched a new product with a two-day training event for 300 representatives covering clinical data, safety information and approved messaging.
 - **Problem:** field observation two months later found frequent errors in clinical figures and in required safety statements — a regulatory risk.

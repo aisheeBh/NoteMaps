@@ -140,7 +140,7 @@ The same material can be studied in any of the four modes. The table shows how.
 | A financial report | Read through | Highlight key figures | Write a three-sentence judgement of the firm's health | Defend the judgement against a peer's opposite view |
 | A worked statistics example | Read it | Copy it out | Explain each step's purpose in writing | Take turns explaining steps and correcting each other |
 
-> **Example:** a sales team watching a recorded customer call can listen passively, take verbatim notes (active), list three moments where the representative could have asked a better question and draft those questions (constructive), or compare their lists in pairs and agree the single best rewrite (interactive).
+> **Example (illustrative):** a sales team watching a recorded customer call can listen passively, take verbatim notes (active), list three moments where the representative could have asked a better question and draft those questions (constructive), or compare their lists in pairs and agree the single best rewrite (interactive).
 
 ### The evidence behind ICAP
 
@@ -289,7 +289,7 @@ A popular graphic claims people remember 10% of what they read, 20% of what they
 
 > **In practice:** many instructional designers use a simple ratio — count the minutes in which learners **produce** versus **receive**. A one-hour session with 55 minutes of slides and a 5-minute Q&A is passive whatever the slides contain.
 
-### Worked example: classifying a training morning
+### Worked example (illustrative): classifying a training morning
 
 - **Situation:** a three-hour induction on a firm's information-security policy. The designer lists the activities and classifies each.
 
@@ -301,6 +301,8 @@ A popular graphic claims people remember 10% of what they read, 20% of what they
 | 1:20–1:50 | Pairs review real (anonymised) phishing emails, argue which rule applies, agree a response | Interactive | Partners build on each other's reasoning |
 | 1:50–2:20 | Video case of a data breach | Passive | Learners only watch |
 | 2:20–3:00 | Multiple-choice quiz on rule wording | Active (recognition) | Selecting from options; little generation |
+
+*Illustrative figures.*
 
 - **Diagnosis:** 70 of 180 minutes are passive; the assessment is recognition-based and so cannot detect whether the constructive work succeeded.
 - **Redesign:**
@@ -327,6 +329,8 @@ A popular graphic claims people remember 10% of what they read, 20% of what they
 | Errors discovered | Later, on the test or on the job | During the session, when they can be corrected |
 | How it feels to learners | Smooth, clear, comfortable | Effortful, sometimes uncomfortable |
 | Content "covered" | More | Somewhat less, often with pre-reading compensating |
+
+*Illustrative figures.*
 
 > **Key point:** active designs trade a little **coverage** for a great deal more **processing**. Content that is presented but not processed is coverage in name only.
 
@@ -358,7 +362,7 @@ A popular graphic claims people remember 10% of what they read, 20% of what they
 
 > **In practice:** a useful default is **"attempt first, then ask"** — write one's own answer, plan or explanation before consulting a colleague, a reference or an AI system, then compare.
 
-### Case study: converting a compliance webinar
+### Case study (illustrative): converting a compliance webinar
 
 - **Situation:** a bank delivered annual anti-money-laundering training as a 60-minute recorded webinar followed by a ten-question multiple-choice test.
 - **Problem:**

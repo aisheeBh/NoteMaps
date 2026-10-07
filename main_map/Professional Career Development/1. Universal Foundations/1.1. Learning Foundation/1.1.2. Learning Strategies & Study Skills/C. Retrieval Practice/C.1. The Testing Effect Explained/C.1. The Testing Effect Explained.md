@@ -327,7 +327,7 @@ flowchart TD
 
 > **Mnemonic — "Early Rehearsals Feed Powerful, Lasting Memory Chains" (ERF-PLMC):** Early, Repeated, Feedback, Production, Low stakes, Match, Cumulative.
 
-### Worked example: converting a revision hour
+### Worked example (illustrative): converting a revision hour
 
 A compliance officer has one hour to revise a new data-protection regulation before a team briefing next month.
 
@@ -355,7 +355,7 @@ A compliance officer has one hour to revise a new data-protection regulation bef
 
 > **In practice:** the cheapest effective change most training programmes can make is to replace a final recap slide with **five recall questions** answered without notes, followed by the answers.
 
-### Case study: product knowledge in a contact centre
+### Case study (illustrative): product knowledge in a contact centre
 
 - **Situation:** a telecoms contact centre trained new advisers for two weeks on tariffs, contract rules and troubleshooting.
 - **Problem:** after go-live, advisers repeatedly placed customers on hold to search the knowledge base; average handling time was high and errors in contract advice frequent.
@@ -427,7 +427,7 @@ The finding is simple; its popular versions often are not. Several misreadings r
 
 ---
 
-## Worked Example: Testing the Testing Effect in Your Own Programme
+## Worked Example (illustrative): Testing the Testing Effect in Your Own Programme
 
 An organisation can check whether retrieval practice works for its own content with a simple, fair comparison. A learning team at a logistics firm wants evidence before redesigning its customs-compliance course.
 

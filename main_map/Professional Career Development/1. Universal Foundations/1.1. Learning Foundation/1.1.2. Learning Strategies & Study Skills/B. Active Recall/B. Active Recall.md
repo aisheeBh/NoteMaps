@@ -358,7 +358,7 @@ Active recall rests on one of the strongest evidence bases in applied learning s
 - **Make it safe to fail** — recall exercises are practice, never used in performance ratings.
 - **Treat AI tools as questioners** — configure learning assistants to ask, wait and give feedback, rather than to answer first.
 
-### Case study: redesigning graduate onboarding around recall
+### Case study (illustrative): redesigning graduate onboarding around recall
 
 - **Situation:** a professional-services firm onboarded about two hundred graduates a year through a six-week programme of lectures, e-learning modules and readings on its methods, sectors and tools.
 - **Problem:** satisfaction was high and end-of-module quiz scores averaged above 90 per cent, but project managers reported that graduates arrived on client work unable to explain the firm's core methods or recall basic sector facts without searching.
@@ -435,7 +435,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Auditing a Week of Study
+## Worked Example (illustrative): Auditing a Week of Study
 
 **Situation:** an accountant preparing for a professional examination logs one week of study and wants to know how much of it was active recall.
 
@@ -448,6 +448,8 @@ flowchart TD
 | Flashcards, flipped after about one second | 40 | Partly | No | Yes | No — recognition |
 | Explaining deferred tax to a colleague without notes | 20 | Yes | Yes | Partly | Yes |
 | Total | 480 | | | | 110 |
+
+*Illustrative figures.*
 
 > **Formula — Recall share:** minutes of genuine active recall ÷ total study minutes. Example: 110 ÷ 480 ≈ **23%**.
 

@@ -286,7 +286,7 @@ flowchart TD
 - **Communities of practice** — practitioners who share a craft and learn from one another through shared work.
 - **Collaborating with AI** — an AI system can serve as a devil's advocate or a sceptical client in discussion practice; it cannot yet replace the accountability and social stakes that make human discussion effortful.
 
-### Worked example: rescuing a failing group assignment
+### Worked example (illustrative): rescuing a failing group assignment
 
 - **Situation:** in a management programme, teams of six write a joint strategy report. Feedback shows one or two people write most of each report; individual exam answers on strategy are weak.
 - **Step 1 — diagnose with the five elements:**
@@ -311,7 +311,7 @@ flowchart TD
 
 > **Watch out:** students sometimes resist random presenters as "unfair". Explaining that the purpose is to make sure **everyone** understands the whole report — the very learning the assignment exists for — usually resolves the objection.
 
-### Case study: peer discussion in a bank's credit training
+### Case study (illustrative): peer discussion in a bank's credit training
 
 - **Situation:** a bank trained new credit analysts in lecture-style sessions on assessing small-business loan applications, followed by individual case exercises.
 - **Problem:** analysts reached inconsistent decisions on similar applications; reviewers found that many missed warning signs that more experienced colleagues spotted immediately.

@@ -287,7 +287,7 @@ flowchart LR
 
 ---
 
-## Worked Example: A Personal System for a New Role
+## Worked Example (illustrative): A Personal System for a New Role
 
 A newly promoted engineering manager must retain people-management policies, the team's systems architecture and key stakeholders' priorities.
 
@@ -307,13 +307,15 @@ A newly promoted engineering manager must retain people-management policies, the
 | 7–12 | 2 per day | About 8 minutes | Week 12: 9 of 10 |
 | After 12 | As needed | About 5 minutes | Quarterly |
 
+*Illustrative figures.*
+
 - **Conclusion:** about ten minutes a day, deliberately aimed, produces reliable unaided recall of the knowledge the role demands.
 
 > **Watch out:** adding every interesting fact encountered in the first weeks would quickly push load past 30 minutes a day — the commonest reason personal systems collapse.
 
 ---
 
-## Case Study: An Organisation-Wide Knowledge Retention System
+## Case Study (illustrative): An Organisation-Wide Knowledge Retention System
 
 - **Situation:** a global insurer's claims division (about 1,200 handlers) faced frequent regulatory and policy changes; annual e-learning was followed by persistent errors on specific rules.
 - **Problem:** audits repeatedly found the same handful of errors — limitation periods, disclosure obligations, fraud indicators.
@@ -389,7 +391,7 @@ The fairest evaluation is built into the system itself.
 
 ---
 
-## Worked Example: A Team System for a Data Platform Group
+## Worked Example (illustrative): A Team System for a Data Platform Group
 
 A data-platform team of eight supports internal analysts. Knowledge is spread unevenly; on-call engineers often escalate to the two longest-serving members.
 

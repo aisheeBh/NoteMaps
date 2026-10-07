@@ -295,7 +295,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Summarising a Policy Report
+## Worked Example (illustrative): Summarising a Policy Report
 
 **Situation:** an HR business partner reads a 12-page internal report on hybrid working and must brief the leadership team next week. The next morning, without the report, she writes a one-paragraph summary.
 
@@ -350,7 +350,7 @@ Many professions have standard summary structures; producing them from memory is
 
 > **Watch out:** AI summaries can omit qualifications, merge separate points or introduce claims the text did not make. A professional who relies on them without reading needs some independent way to verify the key points.
 
-### Case study: junior consultants who could not tell the story
+### Case study (illustrative): junior consultants who could not tell the story
 
 - **Situation:** a strategy consultancy found that junior consultants, after reading long research packs, wrote client briefs that were accurate in detail but lacked a clear argument.
 - **Problem:** senior partners spent hours rewriting briefs; clients complained that "the point" was hard to find.

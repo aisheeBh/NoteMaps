@@ -274,7 +274,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Routine for a Busy Consultant
+## Worked Example (illustrative): A Routine for a Busy Consultant
 
 **Situation:** a management consultant on a new client engagement must absorb the client's industry, organisation and data quickly, while working long days. She has no fixed study time.
 
@@ -300,7 +300,9 @@ flowchart TD
 | Friday brain dump and check | 1 × week | 30 | 30 |
 | Total | | | **170** |
 
-**Figure 6.** Weekly time budget for the consultant's recall routine.
+*Illustrative figures.*
+
+**Figure 6.** Weekly time budget for the consultant's recall routine. (illustrative)
 
 ![Figure 6. Weekly time budget for the consultant's recall routine](fig-B12-time-budget.svg)
 
@@ -315,7 +317,7 @@ flowchart TD
 
 ---
 
-## Case Study: Exam Preparation on Shift Work
+## Case Study (illustrative): Exam Preparation on Shift Work
 
 - **Situation:** a hospital registrar was preparing for a specialty examination while working rotating day and night shifts.
 - **Problem:** her plan of "two hours of study on days off" kept collapsing; she would re-read textbooks when exhausted and remember little. Three months before the exam she felt she had made almost no progress.

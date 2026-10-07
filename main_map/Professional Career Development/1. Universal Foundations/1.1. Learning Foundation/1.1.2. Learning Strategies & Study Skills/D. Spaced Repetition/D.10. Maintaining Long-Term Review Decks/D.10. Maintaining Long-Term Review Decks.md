@@ -193,7 +193,7 @@ flowchart TD
   - **subscribe to change** — when a guideline or law changes, search the deck by tag and update all related cards in one sitting;
   - **mark superseded knowledge** — sometimes the old rule matters (for historical cases); keep it with an explicit label ("before 2024 …").
 
-> **Example:** a tax adviser keeps a tag for each annual budget. When a new budget changes thresholds, she searches that tag, updates every affected card in one session, and adds one contrast card per major change ("2024 vs 2025 threshold for …").
+> **Example (illustrative):** a tax adviser keeps a tag for each annual budget. When a new budget changes thresholds, she searches that tag, updates every affected card in one session, and adds one contrast card per major change ("2024 vs 2025 threshold for …").
 
 | Kind of knowledge | Change rate | Maintenance approach |
 |---|---|---|
@@ -229,7 +229,7 @@ flowchart TD
 
 > **Watch out:** "resetting" the deck — rescheduling everything as new — throws away years of information about each card. It is almost never necessary; a capped recovery preserves the history.
 
-### Worked example: recovering from parental leave
+### Worked example (illustrative): recovering from parental leave
 
 An engineer returns from six weeks away to a 16,000-card deck with 3,200 overdue reviews; her normal load is 90 reviews a day, and she can manage about 30 minutes (around 220 reviews) daily.
 
@@ -245,6 +245,8 @@ An engineer returns from six weeks away to a 16,000-card deck with 3,200 overdue
 | Everything at once | 2–3 days | 1,000+ reviews | Exhaustion, sloppy grading, risk of abandoning |
 | Capped at 130 overdue a day | About 25 days | About 30 minutes | Slower; some extra forgetting |
 | Capped plus background suspended | About 15 days | About 30 minutes | Background knowledge delayed further |
+
+*Illustrative figures.*
 
 - **Conclusion:** the capped plans preserve the habit and grading quality; the speed of recovery matters much less than not quitting.
 
@@ -300,7 +302,7 @@ flowchart TD
 
 ---
 
-## Case Study: A Physician's Ten-Year Deck
+## Case Study (illustrative): A Physician's Ten-Year Deck
 
 - **Situation:** a physician began a deck in medical school, adding cards heavily for licensing exams; by residency it held 25,000 cards from a shared deck and personal additions.
 - **Problem:** in her second year as a consultant, the deck cost 50 minutes a day; much of it covered topics she no longer used (paediatric dosing, obstetric emergencies), and some cards contradicted current guidelines.
@@ -379,7 +381,7 @@ Organisations that run spaced reinforcement maintain **item banks** — the orga
 
 > **Definition — Item bank:** a managed collection of review or assessment questions, with owners, versions and usage statistics, used to deliver spaced reinforcement to many learners.
 
-### Case study: a law firm's knowledge-maintenance programme
+### Case study (illustrative): a law firm's knowledge-maintenance programme
 
 - **Situation:** a commercial law firm built a shared review bank of about 1,200 items on procedural rules, limitation periods and leading cases for its trainee and junior lawyers.
 - **Problem:** after three years, junior lawyers began reporting that some items contradicted current practice; trust in the bank fell and usage halved.

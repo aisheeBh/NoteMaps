@@ -298,7 +298,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Fifteen-Minute Internal Talk
+## Worked Example (illustrative): A Fifteen-Minute Internal Talk
 
 **Situation:** a compliance analyst must brief colleagues on a new anti-money-laundering rule. She considers two ways of preparing.
 
@@ -337,7 +337,7 @@ flowchart TD
 
 > **In practice:** organisations that ask experts to teach — through internal academies, mentoring or knowledge-sharing rotas — gain twice: the audience learns, and the experts' knowledge is consolidated and made explicit.
 
-### Case study: a knowledge-sharing rota for a legacy system
+### Case study (illustrative): a knowledge-sharing rota for a legacy system
 
 - **Situation:** a bank's payments team relied on a twenty-year-old system that only three senior engineers fully understood.
 - **Problem:** documentation was outdated; when one senior engineer left, a production incident took days to resolve.

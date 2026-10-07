@@ -259,7 +259,7 @@ flowchart TD
 
 > **Mnemonic — "Can, Chance, Choose":** Capability, Opportunity (the chance), Motivation (choosing to).
 
-### Worked example: a six-week habit plan
+### Worked example (illustrative): a six-week habit plan
 
 - **Situation:** a newly promoted finance manager must learn the firm's treasury operations while doing her job. She has about 30 minutes a day and tends to read reports passively.
 - **Step 1 — diagnose (COM-B):**
@@ -301,7 +301,7 @@ flowchart TD
 
 > **In practice:** a team habit survives when it is **short, regular, tied to an existing meeting and visibly used** — a retrospective whose actions are reviewed at the next one persists; one whose actions vanish dies within months.
 
-### Case study: installing active habits in a sales team
+### Case study (illustrative): installing active habits in a sales team
 
 - **Situation:** a B2B software company introduced a new product line and required its 25 account executives to learn it while selling the existing range.
 - **Problem:** the enablement team ran excellent webinars and published a detailed knowledge base. Six weeks later, executives still forwarded technical questions to pre-sales engineers; usage logs showed the knowledge base was skimmed but rarely returned to.

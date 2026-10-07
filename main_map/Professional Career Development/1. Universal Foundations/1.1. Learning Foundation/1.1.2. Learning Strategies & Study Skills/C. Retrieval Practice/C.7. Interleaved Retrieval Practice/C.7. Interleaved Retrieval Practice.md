@@ -204,7 +204,7 @@ flowchart TD
     class O good
 ```
 
-### Worked example: from blocked to interleaved revision
+### Worked example (illustrative): from blocked to interleaved revision
 
 A trainee actuary revises four types of probability problem: binomial, Poisson, normal approximation and conditional probability.
 
@@ -216,6 +216,8 @@ A trainee actuary revises four types of probability problem: binomial, Poisson, 
 | Session 4 | 15 conditional probability | As above; each problem labelled by type **before** solving |
 | Practice accuracy | High — about 85% | Lower — about 60% at first, rising to 75% |
 | Typical exam error | Wrong distribution chosen | Fewer wrong choices; more arithmetic slips |
+
+*Illustrative figures.*
 
 1. **Step 1:** check that each type has been learned at least once with worked examples — interleaving is for retrieval, not first exposure.
 2. **Step 2:** build mixed sets with labels removed.
@@ -347,7 +349,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Building a Cumulative Retrieval Plan for a Course
+## Worked Example (illustrative): Building a Cumulative Retrieval Plan for a Course
 
 A training manager runs a ten-week product-specialist programme with one new module per week. Each week ends with a 12-item quiz.
 
@@ -365,6 +367,8 @@ A training manager runs a ten-week product-specialist programme with one new mod
 | 7 | 4 | 8 | 1–6, weighted |
 | 10 | 4 | 8 + 40-item cumulative test | All |
 
+*Illustrative figures.*
+
 - **Check the load:** by week 10, module 1 has been retrieved on about nine occasions; without cumulative quizzes it would have been retrieved once.
 - **Conclusion:** the plan costs no extra quiz time — the same 12 items a week — but turns every quiz into spaced, mixed retrieval of the whole programme.
 
@@ -380,7 +384,7 @@ A training manager runs a ten-week product-specialist programme with one new mod
 - **Languages** — mixing grammatical constructions that learners confuse (*e.g.* Spanish *ser* and *estar*, or French *passé composé* and *imparfait*) supports choosing correctly in speech.
 - **Customer service** — mixed scenario quizzes train advisers to recognise which policy applies.
 
-### Case study: diagnostic errors in a radiology rotation
+### Case study (illustrative): diagnostic errors in a radiology rotation
 
 - **Situation:** junior doctors on a radiology rotation studied teaching files organised by condition — a folder of pneumothorax films, a folder of effusions, a folder of consolidations.
 - **Problem:** on mixed reporting lists, they frequently confused effusion with consolidation and missed small pneumothoraces.
@@ -394,7 +398,7 @@ A training manager runs a ten-week product-specialist programme with one new mod
 - **Caveat:** no randomised comparison; improvement over a rotation is expected anyway.
 - **Lesson:** if work arrives mixed, retrieval practice must be mixed.
 
-### Case study: a policy quiz that told advisers which policy applied
+### Case study (illustrative): a policy quiz that told advisers which policy applied
 
 - **Situation:** an insurance contact centre trained advisers on six claims policies, each taught in its own module, each followed by a quiz on that policy.
 - **Problem:** quiz scores were high, but on live calls advisers frequently applied the wrong policy — for instance treating accidental damage under the terms for theft.

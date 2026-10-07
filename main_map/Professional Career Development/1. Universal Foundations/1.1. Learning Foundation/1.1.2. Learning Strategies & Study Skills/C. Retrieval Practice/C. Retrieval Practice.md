@@ -347,7 +347,7 @@ flowchart TD
 
 > **In practice:** the most important question about any learning technology is not what it can do, but **who does the retrieving** — the learner or the machine.
 
-### Worked example: re-budgeting a product-training programme
+### Worked example (illustrative): re-budgeting a product-training programme
 
 A software vendor trains 200 customer-success managers on each quarterly release: a two-hour webinar and a 15-question end-of-session quiz (average 92%).
 
@@ -360,6 +360,8 @@ A software vendor trains 200 customer-success managers on each quarterly release
 | Total learner time | About 2 hours 10 minutes | About 2 hours |
 | Measured outcome | End-of-session score | Accuracy on unannounced questions at 8 weeks; support escalations on new features |
 
+*Illustrative figures.*
+
 1. **Cut presentation time** by 45 minutes; use 10 of those minutes for interpolated questions.
 2. **Change the end-of-session quiz** from recognition to short answer with feedback.
 3. **Add spaced, cumulative questions** for six weeks in the tool staff already use.
@@ -370,7 +372,7 @@ A software vendor trains 200 customer-success managers on each quarterly release
 
 > **Watch out:** the redesigned programme's end-of-session scores will be **lower** than 92%, because short answers are harder than recognition. Report this to stakeholders in advance as a change in measurement, not a decline in learning.
 
-### Case study: on-call readiness in a payments company
+### Case study (illustrative): on-call readiness in a payments company
 
 - **Situation:** a payments company ran quarterly incident-response training for 150 engineers: a lecture on runbooks and an open-book quiz.
 - **Problem:** in real incidents, engineers frequently searched for runbooks under pressure, escalated basic steps, and missed early containment actions; post-incident reviews repeatedly cited "unfamiliarity with procedure".

@@ -272,7 +272,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Explaining How HTTPS Keeps Data Private
+## Worked Example (illustrative): Explaining How HTTPS Keeps Data Private
 
 **Situation:** a junior developer wants to understand how HTTPS protects data, because she will soon review security settings.
 
@@ -323,7 +323,7 @@ flowchart TD
 
 > **Watch out:** an AI tool's explanation can be fluent and wrong. A learner who has done the Feynman technique is better placed to notice — which is one more reason to explain first and read second.
 
-### Case study: explaining a churn model to the board
+### Case study (illustrative): explaining a churn model to the board
 
 - **Situation:** a data scientist built a model predicting which subscription customers would cancel. She was asked to explain it to the board before it was used to target retention offers.
 - **Problem:** in a rehearsal with her manager, her explanation consisted of model names, accuracy figures and feature-importance charts. Asked "Why does the model think this customer will leave?", she answered with another chart.

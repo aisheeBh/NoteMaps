@@ -280,7 +280,7 @@ flowchart TD
 
 ---
 
-## Worked Example: An Engineer Learning a Container Platform
+## Worked Example (illustrative): An Engineer Learning a Container Platform
 
 A backend engineer joins a team that runs services on a container-orchestration platform and must become self-sufficient on call within three months.
 
@@ -301,11 +301,13 @@ A backend engineer joins a team that runs services on a container-orchestration 
 | Understanding of failures | Fragmented | Patterns recognised |
 | Daily cost | None, until incidents | About 10 minutes of review, plus occasional problem sessions |
 
+*Illustrative figures.*
+
 > **Watch out:** carding the entire command reference is a common mistake. Most commands are used rarely and are easy to look up; card only those needed **fast** and **often**.
 
 ---
 
-## Case Study: A Regional Bank's Risk Analysts
+## Case Study (illustrative): A Regional Bank's Risk Analysts
 
 - **Situation:** a bank's credit-risk team trained new analysts on regulatory capital rules, internal models and reporting standards during a six-week induction.
 - **Problem:** reviewers found recurring errors in analysts' work months later — wrong risk weights, misapplied definitions of default, confusion between similar exposure classes.
@@ -378,7 +380,7 @@ A backend engineer joins a team that runs services on a container-orchestration 
 
 > **Watch out:** "spaced" programmes in organisations vary enormously in quality. The spacing principle is robust; a particular programme works only if each episode requires real retrieval or practice with feedback.
 
-### Worked example: maintaining a security engineer's certification knowledge
+### Worked example (illustrative): maintaining a security engineer's certification knowledge
 
 A security engineer holds a certification that requires renewal every three years and wants to keep its core knowledge current rather than cram before each renewal.
 
@@ -394,6 +396,8 @@ A security engineer holds a certification that requires renewal every three year
 | Time between renewals | None | About 30 minutes a month |
 | Knowledge between renewals | Declines steadily | Stays available |
 | Stress | High near renewal | Low |
+
+*Illustrative figures.*
 
 ---
 

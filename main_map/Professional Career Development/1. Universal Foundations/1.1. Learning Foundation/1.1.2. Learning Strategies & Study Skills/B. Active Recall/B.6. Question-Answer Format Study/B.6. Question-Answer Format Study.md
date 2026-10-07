@@ -261,7 +261,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Turning a Page of Notes Into Questions
+## Worked Example (illustrative): Turning a Page of Notes Into Questions
 
 **Situation:** a data analyst has a page of notes on A/B testing and wants to study it in question-answer form.
 
@@ -311,7 +311,7 @@ flowchart TD
   - check doubtful answers against the source;
   - continue writing some questions oneself.
 
-### Case study: preparing executives for a regulatory hearing
+### Case study (illustrative): preparing executives for a regulatory hearing
 
 - **Situation:** a utility company's chief executive and finance director were called to give evidence to a parliamentary committee about a billing failure that affected thousands of customers.
 - **Problem:** in the first internal rehearsal, both executives read prepared statements well but stumbled on follow-up questions — giving inconsistent figures and pausing to look for briefing notes.

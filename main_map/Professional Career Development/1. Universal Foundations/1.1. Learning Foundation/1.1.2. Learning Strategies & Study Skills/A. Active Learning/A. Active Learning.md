@@ -294,7 +294,7 @@ flowchart TD
 - **Learning in the flow of work** — reviews, retrospectives and case conferences built into ordinary work cycles.
 - **Measurement** — the persistent weakness: most organisations still measure attendance and satisfaction; active designs show their value only when **behaviour and results** are measured after a delay.
 
-### Worked example: re-budgeting a three-day workshop
+### Worked example (illustrative): re-budgeting a three-day workshop
 
 - **Situation:** a firm's three-day leadership workshop (18 contact hours) consists of 14 hours of presentation, 3 hours of group exercises and 1 hour of Q&A.
 - **Step 1 — classify each hour** by what participants do:
@@ -305,6 +305,8 @@ flowchart TD
 | Group exercises (mostly discussion of slides) | 3 | Active to interactive, unstructured |
 | Q&A | 1 | Mostly passive |
 
+*Illustrative figures.*
+
 - **Step 2 — redesign the same 18 hours:**
 
 | Activity | Hours after redesign | Mode |
@@ -313,6 +315,8 @@ flowchart TD
 | Individual prediction, decision and reflection tasks | 3 | Constructive |
 | Structured role-plays and case discussions with feedback | 8 | Interactive |
 | Consolidation: summaries from memory, commitments, teach-back | 2 | Constructive |
+
+*Illustrative figures.*
 
 - **Step 3 — move content:** two hours of pre-reading with short recall questions replace about eight hours of presentation.
 
@@ -323,7 +327,7 @@ flowchart TD
 
 > **Watch out:** a redesign of this kind typically **lowers** first-day satisfaction scores and raises facilitator preparation time. Stakeholders should be told in advance — and shown delayed results later.
 
-### Case study: an engineering academy adopts active learning
+### Case study (illustrative): an engineering academy adopts active learning
 
 - **Situation:** a global engineering and consulting firm ran a six-week academy for about 300 graduates a year, built around lectures by senior engineers and an end-of-academy multiple-choice exam.
 - **Problem:** project managers reported that graduates arrived on projects unable to apply core methods without supervision; exam scores were high and satisfaction excellent.

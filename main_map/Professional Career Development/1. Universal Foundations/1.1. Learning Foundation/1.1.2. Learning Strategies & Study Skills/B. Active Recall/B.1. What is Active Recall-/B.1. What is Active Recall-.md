@@ -405,7 +405,7 @@ Active recall is often pictured as memorising lists. It works on every kind of k
 
 ---
 
-## Worked Example: Converting a Passive Study Hour
+## Worked Example (illustrative): Converting a Passive Study Hour
 
 **Situation:** a finance trainee has an hour to study a chapter on working capital before a qualification exam in three weeks. Her usual method is to re-read the chapter and her notes.
 
@@ -464,7 +464,7 @@ Active recall is often pictured as memorising lists. It works on every kind of k
 
 > **Watch out:** AI-generated questions and answer keys can contain errors. A learner who cannot yet judge correctness should check generated answers against an authoritative source.
 
-### Case study: a support team that could not answer without the wiki
+### Case study (illustrative): a support team that could not answer without the wiki
 
 - **Situation:** a software company's first-line support team handled customer calls about a complex billing product.
 - **Problem:** new agents took long pauses to search the internal wiki during calls; resolution times were high and customers noticed the hesitation.

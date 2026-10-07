@@ -281,7 +281,7 @@ flowchart TD
     class N,T accent
 ```
 
-### Worked example: choosing a tool for a regulatory update
+### Worked example (illustrative): choosing a tool for a regulatory update
 
 A pharmaceutical company must ensure 400 sales staff retain new promotional-code rules for a year.
 
@@ -294,6 +294,8 @@ A pharmaceutical company must ensure 400 sales staff retain new promotional-code
 | Data to managers | Individual pass/fail | Team-level accuracy by rule |
 | Staff time | 60 minutes once | About 2 minutes per fortnight — about 50 minutes per year |
 
+*Illustrative figures.*
+
 - **Step 1:** objectives — the twelve rules most often breached in audits.
 - **Step 2:** 60 items written by compliance staff, half drafted with AI assistance and reviewed by legal.
 - **Step 3:** schedule — two items per fortnight per person, mixing new and old rules.
@@ -302,7 +304,7 @@ A pharmaceutical company must ensure 400 sales staff retain new promotional-code
 
 > **Watch out:** if team-level data are later broken down by name for disciplinary use, participation and honesty will fall. Decide data use **before** launch and tell staff.
 
-### Case study: a question bank that taught reading, not recall
+### Case study (illustrative): a question bank that taught reading, not recall
 
 - **Situation:** a postgraduate medical training programme licensed a large question bank with excellent explanations.
 - **Problem:** trainees used it heavily but improvement on in-training examinations was disappointing for many.
@@ -403,7 +405,7 @@ Organisations often choose tools on features, price and appearance. The question
 | How long does a session take to start? | Seconds, from tools already in use | Separate log-in and navigation |
 | Can results be exported for evaluation? | Item-level data available | Only completion rates |
 
-### Worked example: comparing two vendor proposals
+### Worked example (illustrative): comparing two vendor proposals
 
 A professional-services firm compares two microlearning platforms for 3,000 staff.
 
@@ -419,6 +421,8 @@ A professional-services firm compares two microlearning platforms for 3,000 staf
 | Average time per week | 3 minutes | 5 minutes |
 | Unannounced typed test at week 8 | 52% | 71% |
 | Licence cost per user | Lower | Higher |
+
+*Illustrative figures.*
 
 - **Conclusion:** Platform A looked better on completion and cost; Platform B produced substantially more retained knowledge. The decision depends on the value of the knowledge, but the comparison shows that **completion is not the outcome**.
 
@@ -439,7 +443,7 @@ A professional-services firm compares two microlearning platforms for 3,000 staf
 
 ---
 
-## Case Study: An AI Quizzing Partner for Junior Lawyers
+## Case Study (illustrative): An AI Quizzing Partner for Junior Lawyers
 
 - **Situation:** a law firm wanted trainee solicitors to retain key procedural rules and deadlines, which they frequently looked up or got wrong under time pressure.
 - **Design:**

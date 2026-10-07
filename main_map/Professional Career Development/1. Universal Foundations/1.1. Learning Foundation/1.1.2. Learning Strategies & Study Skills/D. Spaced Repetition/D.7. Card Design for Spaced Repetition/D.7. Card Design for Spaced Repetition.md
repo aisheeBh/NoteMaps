@@ -165,7 +165,7 @@ A concept cannot be held by one card. Approach it from several angles — each p
 - **Significance** — "Why should opportunity cost, not accounting cost, drive a decision?" → Because the decision is between alternatives.
 - **Connection** — "How does opportunity cost relate to comparative advantage?"
 
-> **Example:** a data scientist learning *regularisation* writes five cards: its purpose, the difference between L1 and L2, what L1 tends to do to coefficients, a sign of overfitting it addresses, and when it is unnecessary. No single card is long; together they capture the concept.
+> **Example (illustrative):** a data scientist learning *regularisation* writes five cards: its purpose, the difference between L1 and L2, what L1 tends to do to coefficients, a sign of overfitting it addresses, and when it is unnecessary. No single card is long; together they capture the concept.
 
 ### Procedures
 
@@ -218,7 +218,7 @@ A concept cannot be held by one card. Approach it from several angles — each p
 ### The problem
 
 - After many reviews, learners can **recognise a card's appearance** — its length, wording, image — and produce the answer without knowing it in any other form.
-- **Example:** a learner always answers "Krebs cycle" to a card with a particular diagram, but cannot name it when the same process is described in a lecture.
+- **Example (illustrative):** a learner always answers "Krebs cycle" to a card with a particular diagram, but cannot name it when the same process is described in a lecture.
 
 > **Definition — Pattern matching (in spaced repetition):** answering a card from superficial features of its prompt rather than from knowledge of the content, so that the knowledge fails to transfer to new contexts.
 
@@ -293,7 +293,7 @@ flowchart TD
 
 > **Key point:** a leech is **information about the card**, not a judgement on the learner. Continuing to review an unchanged leech is the most expensive activity in spaced repetition.
 
-### Worked example: rewriting a leech
+### Worked example (illustrative): rewriting a leech
 
 A cloud engineer's card has lapsed nine times:
 
@@ -316,6 +316,8 @@ A cloud engineer's card has lapsed nine times:
 | Lapses in the next six months | Expected to continue | Few |
 | Transfer to real decisions | Weak | Strong — scenario card practises the decision |
 
+*Illustrative figures.*
+
 - **Conclusion:** five small cards cost less over their lifetime than one large failing card, and capture the knowledge better.
 
 ---
@@ -330,7 +332,7 @@ A cloud engineer's card has lapsed nine times:
 
 ---
 
-## Case Study: A Consultancy's Shared Terminology Deck
+## Case Study (illustrative): A Consultancy's Shared Terminology Deck
 
 - **Situation:** a management consultancy created a shared deck to help new analysts learn financial, industry and internal terminology.
 - **Problem:** after three months most analysts had stopped using it; those who persisted reported spending long sessions on cards that "never stick".
@@ -413,7 +415,7 @@ When cards or reinforcement questions are written for many learners, card design
 | Low or negative discrimination | Strong learners fail as often as weak | Ambiguity or mis-keying | Review with an expert |
 | One popular wrong option | Shared misconception | Gap in training content | Fix the training and add a contrast item |
 
-### Case study: rewriting a bank's reinforcement questions
+### Case study (illustrative): rewriting a bank's reinforcement questions
 
 - **Situation:** a retail bank's spaced-question programme on lending rules had run for a year with about 400 questions.
 - **Problem:** completion was high, but audit errors on the same rules had barely changed; staff described questions as "obvious".

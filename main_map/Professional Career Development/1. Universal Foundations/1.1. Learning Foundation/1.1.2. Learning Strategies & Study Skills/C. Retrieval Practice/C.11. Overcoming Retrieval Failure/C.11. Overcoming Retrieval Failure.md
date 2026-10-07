@@ -299,7 +299,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Diagnosing a Pattern of Exam Blanks
+## Worked Example (illustrative): Diagnosing a Pattern of Exam Blanks
 
 A trainee accountant reports "blanking" on several topics in mock exams despite many hours of study.
 
@@ -324,7 +324,7 @@ A trainee accountant reports "blanking" on several topics in mock exams despite 
 
 ---
 
-## Case Study: The New Procedure That Old Habits Overrode
+## Case Study (illustrative): The New Procedure That Old Habits Overrode
 
 - **Situation:** a hospital changed its protocol for an anticoagulant, altering a dosage threshold and a monitoring step.
 - **Problem:** in the following months, several nurses applied the **old** threshold, despite having completed e-learning on the change.
@@ -431,7 +431,7 @@ Many professional retrieval failures happen in front of others — presentations
 
 ---
 
-## Case Study: The Interview Candidate Who Knew Too Much to Say
+## Case Study (illustrative): The Interview Candidate Who Knew Too Much to Say
 
 - **Situation:** an experienced engineer interviewing for a principal role failed two interviews in which she "went blank" on system-design questions she could answer easily at work.
 - **Diagnosis:**

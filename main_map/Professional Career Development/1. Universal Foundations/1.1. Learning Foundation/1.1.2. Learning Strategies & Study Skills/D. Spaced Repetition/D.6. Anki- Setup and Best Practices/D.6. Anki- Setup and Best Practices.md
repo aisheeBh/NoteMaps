@@ -244,7 +244,7 @@ stateDiagram-v2
   - add personal cards for what the shared deck lacks or explains poorly;
   - edit shared cards that repeatedly fail.
 
-> **Example:** a medical student keeps a community licensing-exam deck fully suspended, and after each lecture unsuspends the cards tagged to that lecture's topics — so reviews follow the course rather than the whole syllabus at once.
+> **Example (illustrative):** a medical student keeps a community licensing-exam deck fully suspended, and after each lecture unsuspends the cards tagged to that lecture's topics — so reviews follow the course rather than the whole syllabus at once.
 
 ### Adding cards efficiently
 
@@ -337,7 +337,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Setting Up for a Professional Exam
+## Worked Example (illustrative): Setting Up for a Professional Exam
 
 A trainee chartered accountant has 10 months until a set of professional exams and can spare 35 minutes a day for Anki.
 
@@ -353,7 +353,7 @@ A trainee chartered accountant has 10 months until a set of professional exams a
 
 ---
 
-## Case Study: Rescuing a Collapsed Medical Deck
+## Case Study (illustrative): Rescuing a Collapsed Medical Deck
 
 - **Situation:** a second-year medical student had used a large shared licensing deck for five months, adding 100 new cards a day during a burst of motivation.
 - **Problem:** daily reviews passed 900, sessions took three hours, and after a week of examinations she stopped; the backlog reached 4,000 overdue cards.
@@ -427,7 +427,7 @@ A trainee chartered accountant has 10 months until a set of professional exams a
 
 > **In practice:** organisations often use Anki where learners are **self-directed** (doctors in training, engineers, analysts) and reinforcement platforms where **assignment and reporting** are required (compliance, sales).
 
-### Worked example: presets for three tiers
+### Worked example (illustrative): presets for three tiers
 
 A pharmacist sets up one collection with three presets and estimates the daily load.
 
@@ -436,6 +436,8 @@ A pharmacist sets up one collection with three presets and estimates the daily l
 | Critical (high-alert drugs) | 600 | 0.95 | About 60 days | 600 ÷ 60 ≈ 10 |
 | Professional (therapeutics) | 4,000 | 0.90 | About 150 days | 4,000 ÷ 150 ≈ 27 |
 | Background (basic science) | 3,000 | 0.82 | About 400 days | 3,000 ÷ 400 ≈ 8 |
+
+*Illustrative figures.*
 
 - **Total:** about **45 reviews a day**, plus lapses and any new cards — roughly **8–10 minutes**.
 - **Without tiers** (everything at 0.95) the same collection would need roughly twice as many reviews.

@@ -154,7 +154,7 @@ flowchart TD
 
 > **Mnemonic — "PROBLEM-SOLVED":** **P**rotagonist, **R**eal problem, **O**ptions, **B**asis for choosing (criteria), **L**ead recommendation, **E**xecution plan, **M**oral (the transferable lesson).
 
-### Worked example: a decision matrix for a case
+### Worked example (illustrative): a decision matrix for a case
 
 - **Situation:** a case describes a regional hospital deciding how to reduce emergency-department waiting times. Three options are proposed.
 - **Step 1 — criteria and weights** (agreed before scoring):
@@ -166,6 +166,8 @@ flowchart TD
 | Speed of implementation | 0.2 | 2 | 4 | 2 |
 | Staff acceptance | 0.1 | 5 | 3 | 2 |
 | **Weighted score** | | **2.8** | **3.9** | **2.7** |
+
+*Illustrative figures.*
 
 > **Formula — Weighted score:** Σ (weight × score). *Option B:* 0.4×4 + 0.3×4 + 0.2×4 + 0.1×3 = 1.6 + 1.2 + 0.8 + 0.3 = **3.9**.
 
@@ -296,7 +298,7 @@ flowchart TD
 
 > **In practice:** a strong habit is to keep a short file of **"cases I learned from"** — one page each, with the situation, the decision, what was known, what happened, and the principle — and to reread related cases before facing a similar decision.
 
-### Case study: building judgement with paired cases in a consulting firm
+### Case study (illustrative): building judgement with paired cases in a consulting firm
 
 - **Situation:** a consulting firm's new associates attended a week of training built around single, long business cases, one per day.
 - **Problem:** associates could discuss each case fluently but, on client work months later, rarely recognised that a client's situation resembled one they had studied.

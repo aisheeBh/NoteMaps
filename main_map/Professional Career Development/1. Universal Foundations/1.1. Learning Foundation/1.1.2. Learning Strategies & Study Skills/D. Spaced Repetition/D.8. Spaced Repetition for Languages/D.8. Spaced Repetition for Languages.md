@@ -285,7 +285,7 @@ flowchart TD
 - Chunks let learners speak fluently before grammar is fully mastered.
 - **Cards:** situation → phrase ("politely ask a client to repeat") with audio.
 
-### Worked example: reaching working Spanish in twelve months
+### Worked example (illustrative): reaching working Spanish in twelve months
 
 A project manager must hold basic meetings in Spanish within a year and can spare 25 minutes a day for spaced review, plus other practice.
 
@@ -306,9 +306,11 @@ A project manager must hold basic meetings in Spanish within a year and can spar
 | Ability to hold a meeting | Poor | Basic but functional |
 | Risk of abandonment | High; monotonous | Lower; varied |
 
+*Illustrative figures.*
+
 > **Watch out:** "I know 5,000 words in my deck" is not the same as understanding 5,000 words in speech at natural speed. Audio cards and listening practice close much of the gap.
 
-### Case study: preparing hospital doctors for practice in Germany
+### Case study (illustrative): preparing hospital doctors for practice in Germany
 
 - **Situation:** a recruitment agency prepared overseas-trained doctors for medical practice in Germany, where they had to pass a specialist medical-language examination.
 - **Problem:** candidates who had completed intensive general-language courses failed the medical-communication examination at high rates, struggling with patient histories and case presentations.
@@ -387,7 +389,7 @@ A project manager must hold basic meetings in Spanish within a year and can spar
 
 > **Definition — CEFR:** the Common European Framework of Reference for Languages, which describes proficiency on six levels from A1 (beginner) to C2 (mastery).
 
-### Worked example: field vocabulary for a support centre
+### Worked example (illustrative): field vocabulary for a support centre
 
 A support centre in Lisbon adds German-language customer support. Agents already speak some German but struggle with technical calls.
 
@@ -402,6 +404,8 @@ A support centre in Lisbon adds German-language customer support. Agents already
 | Specialised terms recognised | Patchy | Most of the 400 core items |
 | Average call handling | Long; frequent escalation | Shorter; fewer escalations |
 | Daily learning time | None | 15–20 minutes review, 30 minutes weekly practice |
+
+*Illustrative figures.*
 
 > **Watch out:** a deck built from real calls must be checked for **accuracy and register** by a fluent speaker; transcripts contain errors, slang and customer mistakes that should not be learned.
 
