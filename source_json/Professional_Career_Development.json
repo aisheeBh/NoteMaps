@@ -114460,6 +114460,647 @@
           ]
          }
         ]
+       },
+       {
+        "title": "2.11.13. Mathematical Foundations: Algebra, Functions, Exponents & Logarithms",
+        "children": [
+         {
+          "title": "A. Numbers & Arithmetic",
+          "children": [
+           {
+            "title": "A.1. What numbers are and why they matter",
+            "children": []
+           },
+           {
+            "title": "A.2. Whole numbers, integers and the number line",
+            "children": []
+           },
+           {
+            "title": "A.3. The four operations and their properties",
+            "children": []
+           },
+           {
+            "title": "A.4. Order of operations",
+            "children": []
+           },
+           {
+            "title": "A.5. Negative numbers and signed arithmetic",
+            "children": []
+           },
+           {
+            "title": "A.6. Factors, multiples and primes",
+            "children": []
+           },
+           {
+            "title": "A.7. Divisibility and remainders",
+            "children": []
+           },
+           {
+            "title": "A.8. Rounding and estimation",
+            "children": []
+           },
+           {
+            "title": "A.9. Mental arithmetic strategies",
+            "children": []
+           },
+           {
+            "title": "A.10. Scientific notation for very large and small numbers",
+            "children": []
+           },
+           {
+            "title": "A.11. Precision, significant figures and error",
+            "children": []
+           },
+           {
+            "title": "A.12. Arithmetic as the base of all computation",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "B. Fractions, Ratios & Percentages",
+          "children": [
+           {
+            "title": "B.1. What a fraction represents",
+            "children": []
+           },
+           {
+            "title": "B.2. Equivalent fractions and simplifying",
+            "children": []
+           },
+           {
+            "title": "B.3. Adding and subtracting fractions",
+            "children": []
+           },
+           {
+            "title": "B.4. Multiplying and dividing fractions",
+            "children": []
+           },
+           {
+            "title": "B.5. Decimals and their link to fractions",
+            "children": []
+           },
+           {
+            "title": "B.6. Ratios and proportions",
+            "children": []
+           },
+           {
+            "title": "B.7. Rates and unit rates",
+            "children": []
+           },
+           {
+            "title": "B.8. Percentages and percentage change",
+            "children": []
+           },
+           {
+            "title": "B.9. Percentage points versus percent",
+            "children": []
+           },
+           {
+            "title": "B.10. Averages: mean, median and mode",
+            "children": []
+           },
+           {
+            "title": "B.11. Proportional reasoning in everyday decisions",
+            "children": []
+           },
+           {
+            "title": "B.12. Ratios and percentages in technical work",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "C. Algebraic Expressions",
+          "children": [
+           {
+            "title": "C.1. Why letters stand for numbers",
+            "children": []
+           },
+           {
+            "title": "C.2. Variables, constants and coefficients",
+            "children": []
+           },
+           {
+            "title": "C.3. Writing expressions from words",
+            "children": []
+           },
+           {
+            "title": "C.4. Simplifying and collecting like terms",
+            "children": []
+           },
+           {
+            "title": "C.5. Expanding brackets",
+            "children": []
+           },
+           {
+            "title": "C.6. Factorising expressions",
+            "children": []
+           },
+           {
+            "title": "C.7. Substituting values into expressions",
+            "children": []
+           },
+           {
+            "title": "C.8. Formulas and rearranging them",
+            "children": []
+           },
+           {
+            "title": "C.9. Indices notation inside expressions",
+            "children": []
+           },
+           {
+            "title": "C.10. Common algebraic mistakes",
+            "children": []
+           },
+           {
+            "title": "C.11. Reading mathematical notation fluently",
+            "children": []
+           },
+           {
+            "title": "C.12. Algebra as the language of models",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "D. Equations & Inequalities",
+          "children": [
+           {
+            "title": "D.1. What an equation says",
+            "children": []
+           },
+           {
+            "title": "D.2. Solving linear equations step by step",
+            "children": []
+           },
+           {
+            "title": "D.3. Equations with variables on both sides",
+            "children": []
+           },
+           {
+            "title": "D.4. Simultaneous equations",
+            "children": []
+           },
+           {
+            "title": "D.5. Quadratic equations and their solutions",
+            "children": []
+           },
+           {
+            "title": "D.6. Completing the square and the formula",
+            "children": []
+           },
+           {
+            "title": "D.7. Inequalities and how they differ from equations",
+            "children": []
+           },
+           {
+            "title": "D.8. Solving and graphing inequalities",
+            "children": []
+           },
+           {
+            "title": "D.9. Absolute value",
+            "children": []
+           },
+           {
+            "title": "D.10. Checking solutions",
+            "children": []
+           },
+           {
+            "title": "D.11. Word problems into equations",
+            "children": []
+           },
+           {
+            "title": "D.12. Equations as constraints in optimisation",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "E. Functions & Their Graphs",
+          "children": [
+           {
+            "title": "E.1. What a function is",
+            "children": []
+           },
+           {
+            "title": "E.2. Inputs, outputs, domain and range",
+            "children": []
+           },
+           {
+            "title": "E.3. Function notation",
+            "children": []
+           },
+           {
+            "title": "E.4. Plotting points and reading graphs",
+            "children": []
+           },
+           {
+            "title": "E.5. The coordinate plane",
+            "children": []
+           },
+           {
+            "title": "E.6. Composing functions",
+            "children": []
+           },
+           {
+            "title": "E.7. Inverse functions",
+            "children": []
+           },
+           {
+            "title": "E.8. Increasing, decreasing and turning points",
+            "children": []
+           },
+           {
+            "title": "E.9. Piecewise functions",
+            "children": []
+           },
+           {
+            "title": "E.10. Transformations of graphs",
+            "children": []
+           },
+           {
+            "title": "E.11. Functions with several inputs",
+            "children": []
+           },
+           {
+            "title": "E.12. Functions as the core idea of machine learning",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "F. Linear & Polynomial Functions",
+          "children": [
+           {
+            "title": "F.1. Straight lines and the equation y = mx + c",
+            "children": []
+           },
+           {
+            "title": "F.2. Slope as a rate of change",
+            "children": []
+           },
+           {
+            "title": "F.3. Intercepts and their meaning",
+            "children": []
+           },
+           {
+            "title": "F.4. Fitting a line to data by eye",
+            "children": []
+           },
+           {
+            "title": "F.5. Parallel and perpendicular lines",
+            "children": []
+           },
+           {
+            "title": "F.6. Quadratic functions and parabolas",
+            "children": []
+           },
+           {
+            "title": "F.7. Polynomials of higher degree",
+            "children": []
+           },
+           {
+            "title": "F.8. Roots and factors of polynomials",
+            "children": []
+           },
+           {
+            "title": "F.9. Growth of polynomial functions",
+            "children": []
+           },
+           {
+            "title": "F.10. Linear models in practice",
+            "children": []
+           },
+           {
+            "title": "F.11. When straight lines fail",
+            "children": []
+           },
+           {
+            "title": "F.12. From linear functions to linear algebra",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "G. Exponents & Exponential Functions",
+          "children": [
+           {
+            "title": "G.1. Powers and repeated multiplication",
+            "children": []
+           },
+           {
+            "title": "G.2. Laws of exponents",
+            "children": []
+           },
+           {
+            "title": "G.3. Zero, negative and fractional exponents",
+            "children": []
+           },
+           {
+            "title": "G.4. Square roots and other roots",
+            "children": []
+           },
+           {
+            "title": "G.5. Exponential growth",
+            "children": []
+           },
+           {
+            "title": "G.6. Exponential decay",
+            "children": []
+           },
+           {
+            "title": "G.7. Compound interest as an exponential process",
+            "children": []
+           },
+           {
+            "title": "G.8. The number e",
+            "children": []
+           },
+           {
+            "title": "G.9. Doubling time and half-life",
+            "children": []
+           },
+           {
+            "title": "G.10. Exponential versus polynomial growth",
+            "children": []
+           },
+           {
+            "title": "G.11. Exponentials in technology trends",
+            "children": []
+           },
+           {
+            "title": "G.12. The exponential function in neural networks",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "H. Logarithms",
+          "children": [
+           {
+            "title": "H.1. What a logarithm asks",
+            "children": []
+           },
+           {
+            "title": "H.2. Logarithms as inverses of exponentials",
+            "children": []
+           },
+           {
+            "title": "H.3. Laws of logarithms",
+            "children": []
+           },
+           {
+            "title": "H.4. Common, natural and binary logarithms",
+            "children": []
+           },
+           {
+            "title": "H.5. Changing the base",
+            "children": []
+           },
+           {
+            "title": "H.6. Solving exponential equations with logarithms",
+            "children": []
+           },
+           {
+            "title": "H.7. Logarithmic scales",
+            "children": []
+           },
+           {
+            "title": "H.8. Orders of magnitude",
+            "children": []
+           },
+           {
+            "title": "H.9. Logarithms in measuring information",
+            "children": []
+           },
+           {
+            "title": "H.10. Log-likelihood and log-probabilities",
+            "children": []
+           },
+           {
+            "title": "H.11. Logarithms in algorithm analysis",
+            "children": []
+           },
+           {
+            "title": "H.12. Reading log-scale charts correctly",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "I. Sequences, Series & Summation",
+          "children": [
+           {
+            "title": "I.1. What a sequence is",
+            "children": []
+           },
+           {
+            "title": "I.2. Arithmetic sequences",
+            "children": []
+           },
+           {
+            "title": "I.3. Geometric sequences",
+            "children": []
+           },
+           {
+            "title": "I.4. Sigma notation for sums",
+            "children": []
+           },
+           {
+            "title": "I.5. Arithmetic and geometric series",
+            "children": []
+           },
+           {
+            "title": "I.6. Infinite series and convergence",
+            "children": []
+           },
+           {
+            "title": "I.7. Products and pi notation",
+            "children": []
+           },
+           {
+            "title": "I.8. Recursive definitions",
+            "children": []
+           },
+           {
+            "title": "I.9. Averages written as sums",
+            "children": []
+           },
+           {
+            "title": "I.10. Sums over data sets",
+            "children": []
+           },
+           {
+            "title": "I.11. Indices and subscripts in formulas",
+            "children": []
+           },
+           {
+            "title": "I.12. Summation in machine-learning formulas",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "J. Sets, Logic & Mathematical Notation",
+          "children": [
+           {
+            "title": "J.1. Sets and elements",
+            "children": []
+           },
+           {
+            "title": "J.2. Union, intersection and complement",
+            "children": []
+           },
+           {
+            "title": "J.3. Venn diagrams",
+            "children": []
+           },
+           {
+            "title": "J.4. Number sets and intervals",
+            "children": []
+           },
+           {
+            "title": "J.5. Logical statements and connectives",
+            "children": []
+           },
+           {
+            "title": "J.6. If-then statements and implication",
+            "children": []
+           },
+           {
+            "title": "J.7. Quantifiers: for all and there exists",
+            "children": []
+           },
+           {
+            "title": "J.8. Reading Greek letters and symbols",
+            "children": []
+           },
+           {
+            "title": "J.9. Common notation in technical papers",
+            "children": []
+           },
+           {
+            "title": "J.10. Definitions, theorems and proofs",
+            "children": []
+           },
+           {
+            "title": "J.11. Precision in mathematical language",
+            "children": []
+           },
+           {
+            "title": "J.12. From notation to understanding",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "K. Geometry, Trigonometry & Coordinates",
+          "children": [
+           {
+            "title": "K.1. Points, lines, angles and shapes",
+            "children": []
+           },
+           {
+            "title": "K.2. Distance and Pythagoras' theorem",
+            "children": []
+           },
+           {
+            "title": "K.3. Coordinates in two and three dimensions",
+            "children": []
+           },
+           {
+            "title": "K.4. Perimeter, area and volume",
+            "children": []
+           },
+           {
+            "title": "K.5. Similarity and scale",
+            "children": []
+           },
+           {
+            "title": "K.6. Sine, cosine and tangent",
+            "children": []
+           },
+           {
+            "title": "K.7. Radians and the unit circle",
+            "children": []
+           },
+           {
+            "title": "K.8. Trigonometric graphs and waves",
+            "children": []
+           },
+           {
+            "title": "K.9. Vectors as arrows",
+            "children": []
+           },
+           {
+            "title": "K.10. Angles between directions",
+            "children": []
+           },
+           {
+            "title": "K.11. Distance and similarity between points",
+            "children": []
+           },
+           {
+            "title": "K.12. Geometry in high-dimensional spaces",
+            "children": []
+           }
+          ]
+         },
+         {
+          "title": "L. Bridging to University Mathematics for AI",
+          "children": [
+           {
+            "title": "L.1. Why AI needs mathematics",
+            "children": []
+           },
+           {
+            "title": "L.2. From functions to models",
+            "children": []
+           },
+           {
+            "title": "L.3. From slopes to derivatives",
+            "children": []
+           },
+           {
+            "title": "L.4. From arrows to vectors and matrices",
+            "children": []
+           },
+           {
+            "title": "L.5. From counting to probability",
+            "children": []
+           },
+           {
+            "title": "L.6. From averages to statistics",
+            "children": []
+           },
+           {
+            "title": "L.7. From logarithms to entropy and loss",
+            "children": []
+           },
+           {
+            "title": "L.8. Reading an equation in a research paper",
+            "children": []
+           },
+           {
+            "title": "L.9. Building mathematical confidence",
+            "children": []
+           },
+           {
+            "title": "L.10. Practising mathematics effectively",
+            "children": []
+           },
+           {
+            "title": "L.11. Using software and AI tools for mathematics",
+            "children": []
+           },
+           {
+            "title": "L.12. A roadmap from school maths to ML maths",
+            "children": []
+           }
+          ]
+         }
+        ]
        }
       ]
      },
