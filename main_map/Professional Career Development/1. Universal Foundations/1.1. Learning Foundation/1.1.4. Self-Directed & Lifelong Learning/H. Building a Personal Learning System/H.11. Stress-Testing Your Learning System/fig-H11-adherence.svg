@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Weekly adherence through a three-week disruption</title>
+  <desc>Line chart over 14 weeks. A shaded band marks weeks 4 to 6, the disruption. The brittle system falls from about 90 per cent adherence to zero, stays at zero through week 8 and climbs back to about 80 per cent by week 13. The resilient system falls to about 35 per cent in minimum mode, never reaches zero, and returns to about 90 per cent by week 8.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Adherence through a disruption: brittle and resilient</text>
+  <rect x="264" y="100" width="173" height="350" fill="#F2F2F2" stroke="#888888" stroke-dasharray="2 4"/>
+  <text x="351" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">disruption</text>
+  <line x1="120" y1="450" x2="880" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="120" y2="90" stroke="#222222" stroke-width="2.5"/>
+  <text x="110" y="455" text-anchor="end" font-size="14" fill="#111111">0%</text>
+  <text x="110" y="280" text-anchor="end" font-size="14" fill="#111111">50%</text>
+  <text x="110" y="105" text-anchor="end" font-size="14" fill="#111111">100%</text>
+  <text x="120" y="474" text-anchor="middle" font-size="13" fill="#111111">1</text>
+  <text x="178" y="474" text-anchor="middle" font-size="13" fill="#111111">2</text>
+  <text x="235" y="474" text-anchor="middle" font-size="13" fill="#111111">3</text>
+  <text x="293" y="474" text-anchor="middle" font-size="13" fill="#111111">4</text>
+  <text x="351" y="474" text-anchor="middle" font-size="13" fill="#111111">5</text>
+  <text x="408" y="474" text-anchor="middle" font-size="13" fill="#111111">6</text>
+  <text x="466" y="474" text-anchor="middle" font-size="13" fill="#111111">7</text>
+  <text x="524" y="474" text-anchor="middle" font-size="13" fill="#111111">8</text>
+  <text x="582" y="474" text-anchor="middle" font-size="13" fill="#111111">9</text>
+  <text x="639" y="474" text-anchor="middle" font-size="13" fill="#111111">10</text>
+  <text x="697" y="474" text-anchor="middle" font-size="13" fill="#111111">11</text>
+  <text x="755" y="474" text-anchor="middle" font-size="13" fill="#111111">12</text>
+  <text x="812" y="474" text-anchor="middle" font-size="13" fill="#111111">13</text>
+  <text x="870" y="474" text-anchor="middle" font-size="13" fill="#111111">14</text>
+  <text x="495" y="500" text-anchor="middle" font-size="15" fill="#111111">Week</text>
+  <polyline points="120,135 178,142 235,128 293,380 351,450 408,450 466,450 524,450 582,415 639,345 697,258 755,205 812,170 870,163" fill="none" stroke="#8B0000" stroke-width="4" stroke-dasharray="3 3"/>
+  <polyline points="120,135 178,142 235,128 293,310 351,328 408,328 466,240 524,142 582,135 639,132 697,138 755,128 812,135 870,132" fill="none" stroke="#1E5E24" stroke-width="4"/>
+  <rect x="445" y="398" width="249" height="20" fill="#FFFFFF"/>
+  <text x="570" y="413" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">brittle: zero for four weeks</text>
+  <rect x="282" y="344" width="207" height="20" fill="#FFFFFF"/>
+  <text x="385" y="359" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">resilient: minimum mode</text>
+  <rect x="570" y="100" width="196" height="19" fill="#FFFFFF"/>
+  <text x="668" y="114" text-anchor="middle" font-size="14" fill="#111111">resilient: back by week 8</text>
+  <text x="480" y="535" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">Illustrative patterns, not data from a study.</text>
+</svg>

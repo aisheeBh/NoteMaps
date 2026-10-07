@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Value of structured guidance and self-directed challenge as expertise grows</title>
+  <desc>Schematic line chart. Horizontal axis: expertise in a field, from novice to expert. A solid line for structured guidance such as worked examples starts high and falls; a dashed line for self-directed challenge such as novel problems and critique starts low and rises. They cross in the middle, marking the region where a system should shift its emphasis.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What helps changes as expertise grows</text>
+  <line x1="120" y1="450" x2="870" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="120" y2="90" stroke="#222222" stroke-width="2.5"/>
+  <text x="490" y="496" text-anchor="middle" font-size="15" fill="#111111">Expertise in the field</text>
+  <text x="120" y="474" text-anchor="middle" font-size="14" fill="#111111">novice</text>
+  <text x="860" y="474" text-anchor="middle" font-size="14" fill="#111111">expert</text>
+  <text x="70" y="275" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 70 275)">Benefit to learning</text>
+  <rect x="420" y="100" width="160" height="350" fill="#F2F2F2" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M130,120 C 400,140 560,390 860,410" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M130,420 C 400,410 560,150 860,130" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <rect x="184" y="73" width="172" height="20" fill="#FFFFFF"/>
+  <text x="270" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">structured guidance</text>
+  <rect x="135" y="92" width="270" height="19" fill="#FFFFFF"/>
+  <text x="270" y="106" text-anchor="middle" font-size="14" fill="#111111">worked examples, step-by-step paths</text>
+  <rect x="597" y="85" width="207" height="20" fill="#FFFFFF"/>
+  <text x="700" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">self-directed challenge</text>
+  <rect x="554" y="104" width="292" height="19" fill="#FFFFFF"/>
+  <text x="700" y="118" text-anchor="middle" font-size="14" fill="#111111">novel problems, critique, contribution</text>
+  <rect x="474" y="385" width="53" height="20" fill="#FFFFFF"/>
+  <text x="500" y="400" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">shift</text>
+  <rect x="447" y="406" width="106" height="19" fill="#FFFFFF"/>
+  <text x="500" y="420" text-anchor="middle" font-size="14" fill="#111111">emphasis here</text>
+  <text x="480" y="535" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">Schematic, after the expertise reversal effect; not plotted from a single dataset.</text>
+</svg>

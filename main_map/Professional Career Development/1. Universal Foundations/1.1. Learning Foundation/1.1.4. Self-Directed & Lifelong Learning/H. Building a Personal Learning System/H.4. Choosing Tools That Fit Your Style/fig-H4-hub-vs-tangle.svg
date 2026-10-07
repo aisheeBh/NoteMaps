@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Hub-and-spoke tool arrangement compared with a tangled one</title>
+  <desc>Left: six tools, each linked only to a central notes hub, with all hand-offs passing through it. Right: the same six tools linked to one another in many directions with no hub, with an item marked as lost between tools.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Integrated around a hub versus tangled</text>
+  <line x1="240" y1="300" x2="240.0" y2="130.0" stroke="#222222" stroke-width="2.5"/>
+  <line x1="240" y1="300" x2="387.22431864335454" y2="215.0" stroke="#222222" stroke-width="2.5"/>
+  <line x1="240" y1="300" x2="387.2243186433546" y2="385.0" stroke="#222222" stroke-width="2.5"/>
+  <line x1="240" y1="300" x2="240.0" y2="470.0" stroke="#222222" stroke-width="2.5"/>
+  <line x1="240" y1="300" x2="92.77568135664546" y2="385.00000000000006" stroke="#222222" stroke-width="2.5"/>
+  <line x1="240" y1="300" x2="92.77568135664544" y2="215.0" stroke="#222222" stroke-width="2.5"/>
+  <rect x="178" y="108" width="124" height="44" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="240" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000">Capture app</text>
+  <rect x="325" y="193" width="124" height="44" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="387" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000">Calendar</text>
+  <rect x="325" y="363" width="124" height="44" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="387" y="390" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000">Flashcards</text>
+  <rect x="178" y="448" width="124" height="44" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="240" y="475" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000">Editor</text>
+  <rect x="31" y="363" width="124" height="44" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="93" y="390" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000">Reader</text>
+  <rect x="31" y="193" width="124" height="44" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="93" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000">Journal</text>
+  <rect x="170" y="270" width="140" height="60" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="240" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Notes hub</text>
+  <text x="240" y="315" text-anchor="middle" font-size="15" fill="#FFFFFF">one source</text>
+  <text x="240" y="532" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">every hand-off passes through one place</text>
+  <line x1="720.0" y1="130.0" x2="867.2243186433545" y2="385.0" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="720.0" y1="130.0" x2="720.0" y2="470.0" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="867.2243186433545" y1="215.0" x2="572.7756813566455" y2="385.00000000000006" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="867.2243186433545" y1="215.0" x2="572.7756813566455" y2="215.0" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="867.2243186433545" y1="385.0" x2="572.7756813566455" y2="385.00000000000006" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="720.0" y1="470.0" x2="572.7756813566455" y2="215.0" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="720.0" y1="130.0" x2="572.7756813566455" y2="385.00000000000006" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="867.2243186433545" y1="385.0" x2="572.7756813566455" y2="215.0" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <line x1="867.2243186433545" y1="215.0" x2="720.0" y2="470.0" stroke="#555555" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <rect x="658" y="108" width="124" height="44" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="720" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Capture app</text>
+  <rect x="805" y="193" width="124" height="44" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="867" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Calendar</text>
+  <rect x="805" y="363" width="124" height="44" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="867" y="390" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Flashcards</text>
+  <rect x="658" y="448" width="124" height="44" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="720" y="475" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Editor</text>
+  <rect x="511" y="363" width="124" height="44" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="573" y="390" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Reader</text>
+  <rect x="511" y="193" width="124" height="44" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="573" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Journal</text>
+  <rect x="645" y="274" width="150" height="52" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="677" y="281" width="87" height="20" fill="#FFFFFF"/>
+  <text x="720" y="296" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">item lost</text>
+  <rect x="667" y="301" width="106" height="18" fill="#FFFFFF"/>
+  <text x="720" y="314" text-anchor="middle" font-size="14" fill="#111111">between tools</text>
+  <text x="720" y="532" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">many links, no home: items fall through</text>
+  <line x1="480" y1="80" x2="480" y2="510" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+</svg>
