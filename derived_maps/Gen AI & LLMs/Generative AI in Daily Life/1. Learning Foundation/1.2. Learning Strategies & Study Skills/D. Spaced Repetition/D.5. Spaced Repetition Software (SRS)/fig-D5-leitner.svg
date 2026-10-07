@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The Leitner box</title>
+  <desc>Five compartments reviewed at increasing intervals: every day, every 2 days, every 4 days, every 8 days and every 16 days. A card answered correctly moves one compartment to the right; a card answered incorrectly returns to compartment 1.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">The Leitner box: promotion on success, demotion on failure</text>
+  <rect x="60" y="190" width="150" height="150" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <rect x="85" y="235" width="100" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="135" y="260" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Box 1</text>
+  <text x="135" y="284" text-anchor="middle" font-size="14" fill="#111111">every day</text>
+  <line x1="212" y1="265" x2="233" y2="265" stroke="#1E5E24" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="235" y="190" width="150" height="150" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="3" stroke-dasharray="8 4"/>
+  <rect x="260" y="235" width="100" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="310" y="260" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Box 2</text>
+  <text x="310" y="284" text-anchor="middle" font-size="14" fill="#111111">every 2 days</text>
+  <line x1="387" y1="265" x2="408" y2="265" stroke="#1E5E24" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="410" y="190" width="150" height="150" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
+  <rect x="435" y="235" width="100" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="485" y="260" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Box 3</text>
+  <text x="485" y="284" text-anchor="middle" font-size="14" fill="#111111">every 4 days</text>
+  <line x1="562" y1="265" x2="583" y2="265" stroke="#1E5E24" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="585" y="190" width="150" height="150" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="610" y="235" width="100" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="660" y="260" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Box 4</text>
+  <text x="660" y="284" text-anchor="middle" font-size="14" fill="#111111">every 8 days</text>
+  <line x1="737" y1="265" x2="758" y2="265" stroke="#1E5E24" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="760" y="190" width="150" height="150" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="785" y="235" width="100" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="835" y="260" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Box 5</text>
+  <text x="835" y="284" text-anchor="middle" font-size="14" fill="#111111">every 16 days</text>
+  <text x="480" y="165" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">correct answer: move one box to the right</text>
+  <path d="M760 345 C700 440 220 440 140 345" fill="none" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+  <text x="480" y="455" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">wrong answer: return to Box 1</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Intervals shown are a common example; Leitner's original physical box used compartments of increasing size.</text>
+</svg>

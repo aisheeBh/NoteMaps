@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Encapsulation</title>
+  <desc>Four rows show data passing down the layers. The application message alone; the transport layer adds a header with ports and sequence numbers; the internet layer adds a header with source and destination IP addresses; the link layer adds a frame header and trailer for the next physical link. Only the link wrapping is replaced at each router.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Encapsulation: each layer adds its own header</text>
+  <text x="112" y="120" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Application</text>
+  <rect x="465.0" y="80" width="250" height="64" rx="2" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="590.0" y="107.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Data</text>
+  <text x="590.0" y="127.25" text-anchor="middle" font-size="15" fill="#111111">part of a page or video</text>
+  <line x1="590" y1="146" x2="590" y2="178" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="112" y="230" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Transport</text>
+  <rect x="375.0" y="190" width="90" height="64" rx="2" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="420.0" y="217.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Transport</text>
+  <text x="420.0" y="236.4" text-anchor="middle" font-size="14" fill="#111111">header</text>
+  <rect x="465.0" y="190" width="250" height="64" rx="2" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="590.0" y="217.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Data</text>
+  <text x="590.0" y="237.25" text-anchor="middle" font-size="15" fill="#111111">part of a page or video</text>
+  <text x="805" y="218" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">TCP or UDP</text>
+  <text x="805" y="238" text-anchor="start" font-size="14" fill="#111111">ports, sequence</text>
+  <line x1="590" y1="256" x2="590" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="112" y="340" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Internet</text>
+  <rect x="285.0" y="300" width="90" height="64" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="330.0" y="327.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">IP</text>
+  <text x="330.0" y="346.4" text-anchor="middle" font-size="14" fill="#111111">header</text>
+  <rect x="375.0" y="300" width="90" height="64" rx="2" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="420.0" y="327.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Transport</text>
+  <text x="420.0" y="346.4" text-anchor="middle" font-size="14" fill="#111111">header</text>
+  <rect x="465.0" y="300" width="250" height="64" rx="2" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="590.0" y="327.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Data</text>
+  <text x="590.0" y="347.25" text-anchor="middle" font-size="15" fill="#111111">part of a page or video</text>
+  <text x="805" y="328" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">IP header</text>
+  <text x="805" y="348" text-anchor="start" font-size="14" fill="#111111">IP addresses</text>
+  <line x1="590" y1="366" x2="590" y2="398" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="112" y="450" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Link</text>
+  <rect x="195.0" y="410" width="90" height="64" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="215.75" y="423.4" width="48.5" height="20" fill="#FFFFFF"/>
+  <text x="240.0" y="437.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Frame</text>
+  <rect x="211.9" y="442.4" width="56.2" height="20" fill="#FFFFFF"/>
+  <text x="240.0" y="456.4" text-anchor="middle" font-size="14" fill="#111111">header</text>
+  <rect x="285.0" y="410" width="90" height="64" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="330.0" y="437.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">IP</text>
+  <text x="330.0" y="456.4" text-anchor="middle" font-size="14" fill="#111111">header</text>
+  <rect x="375.0" y="410" width="90" height="64" rx="2" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="420.0" y="437.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Transport</text>
+  <text x="420.0" y="456.4" text-anchor="middle" font-size="14" fill="#111111">header</text>
+  <rect x="465.0" y="410" width="250" height="64" rx="2" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="590.0" y="437.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Data</text>
+  <text x="590.0" y="457.25" text-anchor="middle" font-size="15" fill="#111111">part of a page or video</text>
+  <rect x="715.0" y="410" width="74" height="64" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="727.75" y="423.4" width="48.5" height="20" fill="#FFFFFF"/>
+  <text x="752.0" y="437.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Frame</text>
+  <rect x="720.05" y="442.4" width="63.900000000000006" height="20" fill="#FFFFFF"/>
+  <text x="752.0" y="456.4" text-anchor="middle" font-size="14" fill="#111111">trailer</text>
+  <text x="805" y="438" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Frame</text>
+  <text x="805" y="458" text-anchor="start" font-size="14" fill="#111111">hardware addresses</text>
+  <text x="480.0" y="540" text-anchor="middle" font-size="13" fill="#333333">Moving down the layers on the sender adds wrappings; the receiver removes them in reverse. Routers replace only the link wrapping at each hop.</text>
+</svg>

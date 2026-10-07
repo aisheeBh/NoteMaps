@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two-by-two framework of achievement goals</title>
+  <desc>A two-by-two matrix. Columns: mastery (developing competence) and performance (demonstrating competence). Rows: approach and avoidance. Mastery-approach: understand thoroughly, linked to deep processing. Performance-approach: outdo others, mixed outcomes. Mastery-avoidance: avoid losing skill or misunderstanding. Performance-avoidance: avoid looking incompetent, linked to anxiety and poorer outcomes.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Achievement goals: what the learner is trying to do</text>
+  <text x="390" y="96" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">MASTERY</text>
+  <text x="390" y="116" text-anchor="middle" font-size="14" fill="#111111">developing competence</text>
+  <text x="700" y="96" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">PERFORMANCE</text>
+  <text x="700" y="116" text-anchor="middle" font-size="14" fill="#111111">demonstrating competence</text>
+  <text x="150" y="230" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">APPROACH</text>
+  <text x="150" y="252" text-anchor="middle" font-size="14" fill="#111111">seeking success</text>
+  <text x="150" y="420" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">AVOIDANCE</text>
+  <text x="150" y="442" text-anchor="middle" font-size="14" fill="#111111">avoiding failure</text>
+  <rect x="240" y="135" width="300" height="190" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="312" y="180" width="156" height="21" fill="#FFFFFF"/>
+  <text x="390" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Mastery-approach</text>
+  <rect x="302" y="201" width="177" height="20" fill="#FFFFFF"/>
+  <text x="390" y="215" text-anchor="middle" font-size="15" fill="#111111">“I want to understand</text>
+  <rect x="317" y="221" width="145" height="20" fill="#FFFFFF"/>
+  <text x="390" y="235" text-anchor="middle" font-size="15" fill="#111111">this thoroughly.”</text>
+  <rect x="321" y="241" width="137" height="20" fill="#FFFFFF"/>
+  <text x="390" y="255" text-anchor="middle" font-size="15" fill="#111111">Deep processing,</text>
+  <rect x="341" y="261" width="97" height="20" fill="#FFFFFF"/>
+  <text x="390" y="275" text-anchor="middle" font-size="15" fill="#111111">persistence</text>
+  <rect x="550" y="135" width="300" height="190" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="700" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Performance-approach</text>
+  <text x="700" y="215" text-anchor="middle" font-size="15" fill="#000000">“I want to be the best</text>
+  <text x="700" y="235" text-anchor="middle" font-size="15" fill="#000000">on the team.”</text>
+  <text x="700" y="255" text-anchor="middle" font-size="15" fill="#000000">Mixed: good grades,</text>
+  <text x="700" y="275" text-anchor="middle" font-size="15" fill="#000000">often surface strategies</text>
+  <rect x="240" y="335" width="300" height="190" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="390" y="396" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Mastery-avoidance</text>
+  <text x="390" y="415" text-anchor="middle" font-size="15" fill="#111111">“I must not lose my</text>
+  <text x="390" y="435" text-anchor="middle" font-size="15" fill="#111111">skill or misunderstand.”</text>
+  <text x="390" y="455" text-anchor="middle" font-size="15" fill="#111111">Common when expertise</text>
+  <text x="390" y="475" text-anchor="middle" font-size="15" fill="#111111">is threatened by change</text>
+  <rect x="550" y="335" width="300" height="190" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="599" y="380" width="202" height="21" fill="#FFFFFF"/>
+  <text x="700" y="396" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Performance-avoidance</text>
+  <rect x="631" y="401" width="137" height="20" fill="#FFFFFF"/>
+  <text x="700" y="415" text-anchor="middle" font-size="15" fill="#111111">“I must not look</text>
+  <rect x="643" y="421" width="113" height="20" fill="#FFFFFF"/>
+  <text x="700" y="435" text-anchor="middle" font-size="15" fill="#111111">incompetent.”</text>
+  <rect x="600" y="441" width="201" height="20" fill="#FFFFFF"/>
+  <text x="700" y="455" text-anchor="middle" font-size="15" fill="#111111">Anxiety, lower interest,</text>
+  <rect x="635" y="461" width="129" height="20" fill="#FFFFFF"/>
+  <text x="700" y="475" text-anchor="middle" font-size="15" fill="#111111">poorer outcomes</text>
+  <text x="480" y="570" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">After Elliot and McGregor (2001); outcome summaries simplified from a large literature.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four outcomes of confidence-tagged self-testing</title>
+  <desc>A two by two grid. Columns: answer wrong, answer correct. Rows: high confidence, low confidence. High confidence and correct is secure knowledge. High confidence and wrong is a misconception and the top priority. Low confidence and correct is fragile knowledge. Low confidence and wrong is a known gap. Priority numbers run 1 for misconception, 2 for known gap, 3 for fragile, 4 for secure.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Confidence and correctness together</text>
+  <rect x="180" y="70" width="340" height="220" fill="url(#lines)" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <rect x="520" y="70" width="340" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="180" y="290" width="340" height="220" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="520" y="290" width="340" height="220" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <g font-size="15" fill="#111111">
+    <rect x="205" y="95" width="290" height="170" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+    <text x="350" y="124" text-anchor="middle" font-size="19" font-weight="bold">1. Misconception</text>
+    <text x="350" y="154" text-anchor="middle">a wrong idea held firmly;</text>
+    <text x="350" y="175" text-anchor="middle">will be acted on unchecked</text>
+    <text x="350" y="208" text-anchor="middle" font-weight="bold">Contrast right and wrong ideas;</text>
+    <text x="350" y="229" text-anchor="middle" font-weight="bold">re-test soon</text>
+    <rect x="545" y="95" width="290" height="170" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+    <text x="690" y="124" text-anchor="middle" font-size="19" font-weight="bold">4. Secure</text>
+    <text x="690" y="154" text-anchor="middle">knowledge that can</text>
+    <text x="690" y="175" text-anchor="middle">be trusted</text>
+    <text x="690" y="208" text-anchor="middle" font-weight="bold">Light review, later</text>
+    <rect x="205" y="315" width="290" height="170" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="350" y="344" text-anchor="middle" font-size="19" font-weight="bold">2. Known gap</text>
+    <text x="350" y="374" text-anchor="middle">the learner already</text>
+    <text x="350" y="395" text-anchor="middle">knows this is weak</text>
+    <text x="350" y="428" text-anchor="middle" font-weight="bold">Study from the source;</text>
+    <text x="350" y="449" text-anchor="middle" font-weight="bold">re-test after a delay</text>
+    <rect x="545" y="315" width="290" height="170" fill="#FFFFFF" stroke="#7A5200" stroke-width="2"/>
+    <text x="690" y="344" text-anchor="middle" font-size="19" font-weight="bold">3. Fragile</text>
+    <text x="690" y="374" text-anchor="middle">a lucky guess, or real</text>
+    <text x="690" y="395" text-anchor="middle">knowledge not yet trusted</text>
+    <text x="690" y="428" text-anchor="middle" font-weight="bold">Re-test after a delay;</text>
+    <text x="690" y="449" text-anchor="middle" font-weight="bold">adjust confidence</text>
+  </g>
+  <text x="350" y="540" text-anchor="middle" font-size="16" fill="#111111">Answer wrong</text>
+  <text x="690" y="540" text-anchor="middle" font-size="16" fill="#111111">Answer correct</text>
+  <text x="520" y="575" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Correctness after marking</text>
+  <text x="165" y="185" text-anchor="end" font-size="16" fill="#111111">High</text>
+  <text x="165" y="405" text-anchor="end" font-size="16" fill="#111111">Low</text>
+  <text x="50" y="290" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111" transform="rotate(-90 50 290)">Confidence before checking</text>
+</svg>

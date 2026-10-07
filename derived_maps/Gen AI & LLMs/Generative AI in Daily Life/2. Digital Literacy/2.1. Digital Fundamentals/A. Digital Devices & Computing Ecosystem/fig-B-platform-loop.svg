@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The self-reinforcing loop of a device platform</title>
+  <desc>A loop of four boxes around a central platform: more users attract more app developers; more apps attract accessory and service makers; more complements make devices more useful; more usefulness attracts more users. A side note shows that accumulated data, purchases and accessories raise switching costs, locking users in. A second note shows open standards and regulation pushing against lock-in.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Network effects: why platforms grow and hold on</text>
+  <rect x="380" y="235" width="200" height="80" rx="40" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="270" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Platform</text>
+  <text x="480" y="292" text-anchor="middle" font-size="14" fill="#FFFFFF">devices, OS, store, cloud</text>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <rect x="370" y="70" width="220" height="64" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="480" y="98" font-weight="bold">More users</text><text x="480" y="119">a bigger market</text>
+    <rect x="660" y="243" width="240" height="64" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="780" y="271" font-weight="bold">More app developers</text><text x="780" y="292">build for it first</text>
+    <rect x="370" y="420" width="220" height="64" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="480" y="448" font-weight="bold">More accessories</text><text x="480" y="469">and services</text>
+    <rect x="60" y="243" width="240" height="64" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="180" y="271" font-weight="bold">More useful devices</text><text x="180" y="292">for each user</text>
+  </g>
+  <g stroke="#222222" stroke-width="2.5" fill="none">
+    <path d="M592 110 C 690 120, 760 180, 775 239" marker-end="url(#arrow)"/>
+    <path d="M775 309 C 760 380, 690 440, 594 450" marker-end="url(#arrow)"/>
+    <path d="M366 450 C 270 440, 200 380, 185 311" marker-end="url(#arrow)"/>
+    <path d="M185 239 C 200 180, 270 120, 366 106" marker-end="url(#arrow)"/>
+  </g>
+  <rect x="640" y="510" width="300" height="70" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="648" y="518" width="284" height="54" fill="#FFFFFF"/>
+  <text x="656" y="540" font-size="14" fill="#111111">Data, purchases and accessories</text>
+  <text x="656" y="560" font-size="14" fill="#111111">raise switching costs: lock-in</text>
+  <rect x="20" y="510" width="300" height="70" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="28" y="518" width="284" height="54" fill="#FFFFFF"/>
+  <text x="36" y="540" font-size="14" fill="#111111">Open standards and regulation</text>
+  <text x="36" y="560" font-size="14" fill="#111111">push towards interoperability</text>
+</svg>

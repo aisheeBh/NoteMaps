@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Comparing two cases compared with studying them separately</title>
+  <desc>Schematic of Gentner, Loewenstein and Thompson (2003): negotiators who compared two cases were two to three times as likely to use the taught strategy in a later live negotiation as those who studied the same cases one at a time; studying them separately was little better than no cases.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The same two cases teach far more when they are compared</text>
+
+  <line x1="130" y1="420" x2="880" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <line x1="130" y1="420" x2="130" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="76" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 76 250)">Used the strategy in a live negotiation</text>
+
+  <rect x="200" y="350" width="140" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="420" y="340" width="140" height="80" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="640" y="215" width="140" height="205" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+
+  <g text-anchor="middle" fill="#111111">
+    <text x="270" y="450" font-size="16" font-weight="bold">No cases</text>
+    <text x="270" y="470" font-size="14">untrained negotiators</text>
+    <text x="490" y="450" font-size="16" font-weight="bold">Two cases, separately</text>
+    <text x="490" y="470" font-size="14">each analysed on its own</text>
+    <text x="710" y="450" font-size="16" font-weight="bold">Two cases, compared</text>
+    <text x="710" y="470" font-size="14">"what do they share?"</text>
+  </g>
+
+  <rect x="350" y="120" width="250" height="64" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="362" y="144" font-size="14" fill="#111111">Comparers were two to three</text>
+  <text x="362" y="162" font-size="14" fill="#111111">times as likely to use the</text>
+  <text x="362" y="180" font-size="14" fill="#111111">strategy as separate studiers</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the reported pattern; bar heights are illustrative, not data.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Knowledge-telling versus knowledge-building</title>
+<desc>Two panels explaining why bond prices fall when interest rates rise. The left panel restates the fact; the right panel generates reasons, an example and a self-check.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Two explanations of the same idea</text>
+<text x="480.0" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Why do bond prices fall when interest rates rise?</text>
+<rect x="50" y="100" width="410" height="380" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="255" y="135" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">KNOWLEDGE-TELLING</text>
+<text x="75" y="180.0" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">"Bond prices and interest rates</text>
+<text x="75" y="200.8" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">move in opposite directions.</text>
+<text x="75" y="221.6" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">When rates go up, prices go</text>
+<text x="75" y="242.4" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">down. That is the rule."</text>
+<text x="75" y="320.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">What the explainer did:</text>
+<text x="75" y="339.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">restated the source</text>
+<text x="75" y="359.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">no reasons, no example</text>
+<text x="75" y="378.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">no self-monitoring</text>
+<rect x="500" y="100" width="410" height="380" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="705" y="135" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">KNOWLEDGE-BUILDING</text>
+<text x="525" y="180.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">"A new bond now pays 6%, mine pays</text>
+<text x="525" y="199.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">4%. Nobody buys mine at full price,</text>
+<text x="525" y="219.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">so its price must fall until it yields</text>
+<text x="525" y="238.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">about 6%. Wait - does a longer bond</text>
+<text x="525" y="258.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">fall more? Yes: it pays the low rate</text>
+<text x="525" y="277.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">for longer."</text>
+<text x="525" y="340.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">What the explainer did:</text>
+<text x="525" y="359.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">generated a reason and an example</text>
+<text x="525" y="379.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">asked and answered own question</text>
+<text x="525" y="398.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">extended to a new case</text>
+<text x="255" y="515" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">little learning for the explainer</text>
+<text x="705" y="515" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">substantial learning for the explainer</text>
+</svg>

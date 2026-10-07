@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Calibrated trust in AI</title>
+  <desc>A square chart with the tool's actual reliability for a task on the horizontal axis and the user's trust on the vertical axis. The diagonal is calibrated trust. Above the diagonal is over-trust, where automation bias leads to accepted errors. Below it is under-trust, where algorithm aversion wastes a useful tool. Example points mark fabricated citations as over-trusted and well-tested arithmetic as under-trusted.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Trust should follow reliability, task by task</text>
+
+  <!-- plot square 200..640 x, 80..520 y -->
+  <polygon points="200,520 200,80 640,80" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <polygon points="200,520 640,520 640,80" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <line x1="200" y1="520" x2="640" y2="80" stroke="#1E5E24" stroke-width="5"/>
+  <rect x="200" y="80" width="440" height="440" fill="none" stroke="#222222" stroke-width="2"/>
+
+  <rect x="214" y="110" width="200" height="50" fill="#FFFFFF"/>
+  <text x="224" y="132" font-size="16" font-weight="bold" fill="#111111">OVER-TRUST</text>
+  <text x="224" y="152" font-size="14" fill="#111111">automation bias</text>
+  <rect x="420" y="440" width="206" height="50" fill="#FFFFFF"/>
+  <text x="430" y="462" font-size="16" font-weight="bold" fill="#111111">UNDER-TRUST</text>
+  <text x="430" y="482" font-size="14" fill="#111111">algorithm aversion</text>
+  <rect x="404" y="252" width="170" height="26" fill="#FFFFFF" transform="rotate(-45 489 265)"/>
+  <text x="489" y="271" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(-45 489 265)">calibrated trust</text>
+
+  <circle cx="300" cy="200" r="8" fill="#000000"/>
+  <circle cx="600" cy="420" r="8" fill="#000000"/>
+
+  <text x="420" y="552" text-anchor="middle" font-size="16" fill="#111111">Actual reliability of the tool for this task</text>
+  <text x="170" y="300" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 170 300)">User's trust</text>
+  <text x="200" y="540" text-anchor="middle" font-size="14" fill="#111111">low</text>
+  <text x="640" y="540" text-anchor="middle" font-size="14" fill="#111111">high</text>
+
+  <!-- right-hand notes -->
+  <g font-size="15" fill="#111111">
+    <circle cx="680" cy="150" r="8" fill="#000000"/>
+    <text x="698" y="146">Upper point: trusting</text>
+    <text x="698" y="166">chatbot references</text>
+    <text x="698" y="186">without checking</text>
+    <circle cx="680" cy="400" r="8" fill="#000000"/>
+    <text x="698" y="396">Lower point: re-doing</text>
+    <text x="698" y="416">by hand a calculation</text>
+    <text x="698" y="436">the tool already passes</text>
+    <text x="698" y="456">tests on reliably</text>
+  </g>
+  <text x="480" y="574" text-anchor="middle" font-size="13" fill="#333333">Conceptual diagram; positions are illustrative.</text>
+</svg>

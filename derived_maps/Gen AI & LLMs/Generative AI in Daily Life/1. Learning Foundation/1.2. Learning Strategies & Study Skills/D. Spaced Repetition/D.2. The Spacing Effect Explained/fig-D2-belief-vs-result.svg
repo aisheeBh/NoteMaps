@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Learners' judgements contradict their results</title>
+  <desc>Most learners judge massed study to be more effective, yet for most of the same learners spaced study produced better recall on the later test.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">What learners believe versus what happens</text>
+  <rect x="80" y="90" width="380" height="330" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="500" y="90" width="380" height="330" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="270" y="125" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Judgement after studying</text>
+  <text x="690" y="125" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Recall on the later test</text>
+  <rect x="130" y="160" width="110" height="230" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="185" y="150" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">higher</text>
+  <rect x="300" y="260" width="110" height="130" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="355" y="250" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">lower</text>
+  <text x="185" y="410" text-anchor="middle" font-size="15" fill="#111111">massed</text>
+  <text x="355" y="410" text-anchor="middle" font-size="15" fill="#111111">spaced</text>
+  <rect x="550" y="280" width="110" height="110" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="605" y="270" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">lower</text>
+  <rect x="720" y="160" width="110" height="230" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="775" y="150" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">higher</text>
+  <text x="605" y="410" text-anchor="middle" font-size="15" fill="#111111">massed</text>
+  <text x="775" y="410" text-anchor="middle" font-size="15" fill="#111111">spaced</text>
+  <line x1="80" y1="390" x2="460" y2="390" stroke="#222222" stroke-width="2"/>
+  <line x1="500" y1="390" x2="880" y2="390" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="465" text-anchor="middle" font-size="16" fill="#111111">Fluency during massed study feels like learning; the later test shows the reverse.</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Nate Kornell (2009) and earlier studies of judgements of learning.</text>
+</svg>

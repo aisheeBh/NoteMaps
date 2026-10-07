@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Wi-Fi bands: range and capacity</title>
+  <desc>An access point at the left emits three coverage zones. The 2.4 GHz zone reaches furthest but carries least data; the 5 GHz zone is intermediate; the 6 GHz zone is shortest but carries the most. A brick wall cuts across the 5 GHz zone.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Wi-Fi bands from one access point: reach versus capacity</text>
+  <path d="M100 110.0 A 700 210.0 0 0 1 100 530.0" fill="none" stroke="#666666" stroke-width="3" stroke-dasharray="2 4"/>
+  <path d="M100 176.0 A 480 144.0 0 0 1 100 464.0" fill="none" stroke="#7A5200" stroke-width="3" stroke-dasharray="8 4"/>
+  <path d="M100 236.0 A 280 84.0 0 0 1 100 404.0" fill="none" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="40" y="290" width="100" height="60" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="90.0" y="315.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Access</text>
+  <text x="90.0" y="334.4" text-anchor="middle" font-size="14" fill="#FFFFFF">point</text>
+  <rect x="348.0" y="296" width="54.0" height="23" fill="#FFFFFF"/>
+  <text x="375" y="312" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">6 GHz</text>
+  <rect x="308.4" y="321" width="133.20000000000002" height="21" fill="#FFFFFF"/>
+  <text x="375" y="335" text-anchor="middle" font-size="14" fill="#111111">highest capacity</text>
+  <rect x="548.0" y="296" width="54.0" height="23" fill="#FFFFFF"/>
+  <text x="575" y="312" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">5 GHz</text>
+  <rect x="519.95" y="321" width="110.10000000000001" height="21" fill="#FFFFFF"/>
+  <text x="575" y="335" text-anchor="middle" font-size="14" fill="#111111">high capacity</text>
+  <rect x="759.2" y="296" width="71.60000000000001" height="23" fill="#FFFFFF"/>
+  <text x="795" y="312" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2.4 GHz</text>
+  <rect x="732.25" y="321" width="125.50000000000001" height="21" fill="#FFFFFF"/>
+  <text x="795" y="335" text-anchor="middle" font-size="14" fill="#111111">lowest capacity</text>
+  <rect x="520" y="370" width="16" height="110" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="556.5" y="416" width="87.0" height="21" fill="#FFFFFF"/>
+  <text x="600" y="430" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">brick wall</text>
+  <rect x="560" y="548" width="380" height="58" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="750.0" y="572.25" text-anchor="middle" font-size="15" fill="#111111">Behind walls and far away, only the lower</text>
+  <text x="750.0" y="592.25" text-anchor="middle" font-size="15" fill="#111111">bands still connect, at much lower speeds</text>
+  <text x="480.0" y="628" text-anchor="middle" font-size="13" fill="#333333">Schematic; actual range depends on power, antennas, building materials and interference.</text>
+</svg>

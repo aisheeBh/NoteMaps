@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Automaticity grows with repetition</title>
+  <desc>Schematic asymptotic curve of automaticity against days of repetition, rising steeply then levelling; a marker at about 66 days shows the median time to near-maximum automaticity, with a shaded band from 18 to 254 days showing the individual range. A small dip shows that a missed day barely affects the curve.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Habits form gradually - and at very different speeds</text>
+  <line x1="120" y1="420" x2="900" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="420" x2="120" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510.0" y="454" text-anchor="middle" font-size="16" fill="#111111"></text>
+  <text x="62" y="255.0" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 255.0)">Automaticity</text>
+  <text x="510" y="466" text-anchor="middle" font-size="16" fill="#111111">Days of repetition in the same context</text>
+  <line x1="130.0" y1="420" x2="130.0" y2="426" stroke="#222222" stroke-width="2"/>
+  <text x="130.0" y="442" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="276.2" y1="420" x2="276.2" y2="426" stroke="#222222" stroke-width="2"/>
+  <text x="276.2" y="442" text-anchor="middle" font-size="14" fill="#111111">50</text>
+  <line x1="422.3" y1="420" x2="422.3" y2="426" stroke="#222222" stroke-width="2"/>
+  <text x="422.3" y="442" text-anchor="middle" font-size="14" fill="#111111">100</text>
+  <line x1="568.5" y1="420" x2="568.5" y2="426" stroke="#222222" stroke-width="2"/>
+  <text x="568.5" y="442" text-anchor="middle" font-size="14" fill="#111111">150</text>
+  <line x1="714.6" y1="420" x2="714.6" y2="426" stroke="#222222" stroke-width="2"/>
+  <text x="714.6" y="442" text-anchor="middle" font-size="14" fill="#111111">200</text>
+  <line x1="860.8" y1="420" x2="860.8" y2="426" stroke="#222222" stroke-width="2"/>
+  <text x="860.8" y="442" text-anchor="middle" font-size="14" fill="#111111">250</text>
+  <rect x="182.6" y="100" width="689.8" height="316" rx="0" fill="#F2F2F2" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="633.0" y="353" width="163.2" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="714.6" y="370" text-anchor="middle" font-size="14" fill="#111111">individual range</text>
+  <text x="714.6" y="388" text-anchor="middle" font-size="14" fill="#111111">about 18 to 254 days</text>
+  <path d="M130.0 400.0 L132.9 388.0 L135.8 376.5 L138.8 365.6 L141.7 355.1 L144.6 345.1 L147.5 335.6 L150.5 326.4 L153.4 317.7 L156.3 309.3 L159.2 301.4 L162.2 293.8 L165.1 286.5 L168.0 279.5 L170.9 272.9 L173.8 266.5 L176.8 260.5 L179.7 254.7 L182.6 249.1 L185.5 243.8 L188.5 238.8 L191.4 233.9 L194.3 229.3 L197.2 224.9 L200.2 220.7 L203.1 216.7 L206.0 212.8 L208.9 209.1 L211.8 205.6 L214.8 202.3 L217.7 207.1 L220.6 204.1 L223.5 201.1 L226.5 198.3 L229.4 187.6 L232.3 185.0 L235.2 182.6 L238.2 180.2 L241.1 178.0 L244.0 175.9 L246.9 173.8 L249.8 171.9 L252.8 170.0 L255.7 168.2 L258.6 166.5 L261.5 164.9 L264.5 163.4 L267.4 161.9 L270.3 160.5 L273.2 159.1 L276.2 157.8 L279.1 156.6 L282.0 155.4 L284.9 154.3 L287.8 153.2 L290.8 152.2 L293.7 151.2 L296.6 150.2 L299.5 149.3 L302.5 148.5 L305.4 147.7 L308.3 146.9 L311.2 146.1 L314.2 145.4 L317.1 144.7 L320.0 144.1 L322.9 143.4 L325.8 142.8 L328.8 142.3 L331.7 141.7 L334.6 141.2 L337.5 140.7 L340.5 140.2 L343.4 139.8 L346.3 139.3 L349.2 138.9 L352.2 138.5 L355.1 138.2 L358.0 137.8 L360.9 137.4 L363.8 137.1 L366.8 136.8 L369.7 136.5 L372.6 136.2 L375.5 135.9 L378.5 135.7 L381.4 135.4 L384.3 135.2 L387.2 134.9 L390.2 134.7 L393.1 134.5 L396.0 134.3 L398.9 134.1 L401.8 133.9 L404.8 133.8 L407.7 133.6 L410.6 133.4 L413.5 133.3 L416.5 133.1 L419.4 133.0 L422.3 132.9 L425.2 132.7 L428.2 132.6 L431.1 132.5 L434.0 132.4 L436.9 132.3 L439.8 132.2 L442.8 132.1 L445.7 132.0 L448.6 131.9 L451.5 131.8 L454.5 131.7 L457.4 131.7 L460.3 131.6 L463.2 131.5 L466.2 131.4 L469.1 131.4 L472.0 131.3 L474.9 131.3 L477.8 131.2 L480.8 131.2 L483.7 131.1 L486.6 131.1 L489.5 131.0 L492.5 131.0 L495.4 130.9 L498.3 130.9 L501.2 130.8 L504.2 130.8 L507.1 130.8 L510.0 130.7 L512.9 130.7 L515.8 130.7 L518.8 130.6 L521.7 130.6 L524.6 130.6 L527.5 130.6 L530.5 130.5 L533.4 130.5 L536.3 130.5 L539.2 130.5 L542.2 130.4 L545.1 130.4 L548.0 130.4 L550.9 130.4 L553.8 130.4 L556.8 130.4 L559.7 130.3 L562.6 130.3 L565.5 130.3 L568.5 130.3 L571.4 130.3 L574.3 130.3 L577.2 130.3 L580.2 130.2 L583.1 130.2 L586.0 130.2 L588.9 130.2 L591.8 130.2 L594.8 130.2 L597.7 130.2 L600.6 130.2 L603.5 130.2 L606.5 130.2 L609.4 130.2 L612.3 130.1 L615.2 130.1 L618.2 130.1 L621.1 130.1 L624.0 130.1 L626.9 130.1 L629.8 130.1 L632.8 130.1 L635.7 130.1 L638.6 130.1 L641.5 130.1 L644.5 130.1 L647.4 130.1 L650.3 130.1 L653.2 130.1 L656.2 130.1 L659.1 130.1 L662.0 130.1 L664.9 130.1 L667.8 130.1 L670.8 130.1 L673.7 130.1 L676.6 130.1 L679.5 130.1 L682.5 130.1 L685.4 130.0 L688.3 130.0 L691.2 130.0 L694.2 130.0 L697.1 130.0 L700.0 130.0 L702.9 130.0 L705.8 130.0 L708.8 130.0 L711.7 130.0 L714.6 130.0 L717.5 130.0 L720.5 130.0 L723.4 130.0 L726.3 130.0 L729.2 130.0 L732.2 130.0 L735.1 130.0 L738.0 130.0 L740.9 130.0 L743.8 130.0 L746.8 130.0 L749.7 130.0 L752.6 130.0 L755.5 130.0 L758.5 130.0 L761.4 130.0 L764.3 130.0 L767.2 130.0 L770.2 130.0 L773.1 130.0 L776.0 130.0 L778.9 130.0 L781.8 130.0 L784.8 130.0 L787.7 130.0 L790.6 130.0 L793.5 130.0 L796.5 130.0 L799.4 130.0 L802.3 130.0 L805.2 130.0 L808.2 130.0 L811.1 130.0 L814.0 130.0 L816.9 130.0 L819.8 130.0 L822.8 130.0 L825.7 130.0 L828.6 130.0 L831.5 130.0 L834.5 130.0 L837.4 130.0 L840.3 130.0 L843.2 130.0 L846.2 130.0 L849.1 130.0 L852.0 130.0 L854.9 130.0 L857.8 130.0 L860.8 130.0 L863.7 130.0 L866.6 130.0 L869.5 130.0 L872.5 130.0 L875.4 130.0 L878.3 130.0 L881.2 130.0 L884.2 130.0 L887.1 130.0 L890.0 130.0" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <line x1="322.9" y1="100" x2="322.9" y2="420" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <rect x="324.9" y="283" width="163.2" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="330.9" y="300" font-size="14" fill="#111111">median about 66 days</text>
+  <rect x="218.6" y="227.5" width="201.5" height="25" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="224.6" y="243.5" font-size="13" fill="#111111">a missed day: little effect</text>
+  <text x="480.0" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Lally and colleagues (2010); not their data.</text>
+</svg>

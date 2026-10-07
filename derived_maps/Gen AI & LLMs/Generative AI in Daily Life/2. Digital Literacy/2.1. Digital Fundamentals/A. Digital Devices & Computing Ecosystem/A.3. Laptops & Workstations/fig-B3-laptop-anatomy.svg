@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The layers of a typical thin laptop</title>
+  <desc>An exploded stack of laptop layers from top to bottom: the lid with display, webcam and antennas; the keyboard deck with touchpad; the mainboard with processor, memory and storage beside heat pipes and fan; the battery occupying most of the base; and the bottom cover with vents.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Inside a thin laptop, layer by layer</text>
+
+  <!-- lid -->
+  <polygon points="120,70 520,70 560,130 160,130" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="340" cy="82" r="4" fill="#FFFFFF"/>
+  <text x="590" y="96" font-size="16" font-weight="bold" fill="#111111">Lid</text>
+  <text x="590" y="116" font-size="14" fill="#111111">display, webcam, wireless antennas</text>
+
+  <!-- keyboard deck -->
+  <polygon points="120,165 520,165 560,225 160,225" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="270" y="178" width="140" height="22" fill="#FFFFFF" stroke="#1F3B5C"/>
+  <text x="340" y="194" text-anchor="middle" font-size="13" fill="#111111">keyboard</text>
+  <rect x="300" y="204" width="80" height="16" fill="#FFFFFF" stroke="#1F3B5C"/>
+  <text x="590" y="190" font-size="16" font-weight="bold" fill="#111111">Keyboard deck</text>
+  <text x="590" y="210" font-size="14" fill="#111111">keys, touchpad, fingerprint reader</text>
+
+  <!-- mainboard + cooling -->
+  <polygon points="120,260 520,260 560,320 160,320" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="175" y="270" width="150" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="185" y="279" width="130" height="22" fill="#FFFFFF"/>
+  <text x="250" y="295" text-anchor="middle" font-size="13" fill="#111111">CPU, RAM, SSD</text>
+  <rect x="345" y="276" width="110" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="355" y="282" width="90" height="18" fill="#FFFFFF"/>
+  <text x="400" y="296" text-anchor="middle" font-size="13" fill="#111111">heat pipe, fan</text>
+  <text x="590" y="285" font-size="16" font-weight="bold" fill="#111111">Mainboard and cooling</text>
+  <text x="590" y="305" font-size="14" fill="#111111">memory and storage often soldered</text>
+
+  <!-- battery -->
+  <polygon points="120,355 520,355 560,415 160,415" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="270" y="372" width="140" height="24" fill="#FFFFFF"/>
+  <text x="340" y="389" text-anchor="middle" font-size="14" fill="#111111">battery cells</text>
+  <text x="590" y="380" font-size="16" font-weight="bold" fill="#111111">Battery</text>
+  <text x="590" y="400" font-size="14" fill="#111111">largest part; often glued in</text>
+
+  <!-- bottom -->
+  <polygon points="120,450 520,450 560,510 160,510" fill="#E6E6E6" stroke="#666666" stroke-width="2"/>
+  <g stroke="#666666" stroke-width="2"><line x1="230" y1="470" x2="260" y2="470"/><line x1="230" y1="480" x2="260" y2="480"/><line x1="230" y1="490" x2="260" y2="490"/></g>
+  <text x="590" y="475" font-size="16" font-weight="bold" fill="#111111">Bottom cover</text>
+  <text x="590" y="495" font-size="14" fill="#111111">air intake vents; keep unblocked</text>
+
+  <g stroke="#555555" stroke-width="1.5" stroke-dasharray="4 4">
+    <line x1="140" y1="130" x2="140" y2="165"/><line x1="140" y1="225" x2="140" y2="260"/>
+    <line x1="140" y1="320" x2="140" y2="355"/><line x1="140" y1="415" x2="140" y2="450"/>
+  </g>
+  <text x="920" y="570" text-anchor="end" font-size="13" fill="#111111">Schematic; layouts differ between models.</text>
+</svg>

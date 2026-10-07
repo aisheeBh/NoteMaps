@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Sample week</title>
+  <desc>Grid of a week in the middle phase: four short weekday sessions combining new learning and mixed sets, a minimum session option, and a weekly mixed check on Saturday.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">A middle-phase week: about six hours</text>
+  <text x="116.0" y="80" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Mon</text>
+  <rect x="60" y="95" width="112" height="124" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="66" y="134.0" width="100" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="116.0" y="152.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">New: risk</text>
+  <rect x="60" y="225" width="112" height="124" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="66" y="264.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="116.0" y="282.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Mixed set</text>
+  <text x="116.0" y="300.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">20 items</text>
+  <text x="236.0" y="80" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Tue</text>
+  <rect x="180" y="95" width="112" height="254" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="186" y="199.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="236.0" y="217.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Mixed set</text>
+  <text x="236.0" y="235.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">30 items</text>
+  <text x="356.0" y="80" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Wed</text>
+  <rect x="300" y="95" width="112" height="124" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="306" y="134.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="356.0" y="152.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">New:</text>
+  <text x="356.0" y="170.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">procurement</text>
+  <rect x="300" y="225" width="112" height="124" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="306" y="264.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="356.0" y="282.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Mixed set</text>
+  <text x="356.0" y="300.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">20 items</text>
+  <text x="476.0" y="80" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Thu</text>
+  <rect x="420" y="95" width="112" height="124" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="426" y="134.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="476.0" y="152.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">15-min</text>
+  <text x="476.0" y="170.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">minimum</text>
+  <text x="596.0" y="80" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Fri</text>
+  <rect x="540" y="95" width="112" height="254" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="546" y="199.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="596.0" y="217.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Mixed set</text>
+  <text x="596.0" y="235.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">30 items</text>
+  <text x="716.0" y="80" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Sat</text>
+  <rect x="660" y="95" width="112" height="124" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="2"/>
+  <rect x="666" y="134.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="716.0" y="152.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Weekly</text>
+  <text x="716.0" y="170.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">check</text>
+  <rect x="660" y="225" width="112" height="124" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="666" y="264.0" width="100" height="48" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="716.0" y="282.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Confusion</text>
+  <text x="716.0" y="300.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">review</text>
+  <text x="836.0" y="80" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Sun</text>
+  <rect x="780" y="95" width="112" height="124" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="786" y="134.0" width="100" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="836.0" y="152.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Rest</text>
+  <rect x="60" y="380" width="26" height="20" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <text x="96" y="396" font-size="15" text-anchor="start" fill="#111111">New learning (short block)</text>
+  <rect x="360" y="380" width="26" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <text x="396" y="396" font-size="15" text-anchor="start" fill="#111111">Mixed, unlabelled set</text>
+  <rect x="60" y="420" width="26" height="20" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <text x="96" y="436" font-size="15" text-anchor="start" fill="#111111">Weekly unseen mixed check</text>
+  <rect x="360" y="420" width="26" height="20" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="396" y="436" font-size="15" text-anchor="start" fill="#111111">Minimum session for busy days</text>
+  <text x="480.0" y="505" font-size="13" text-anchor="middle" fill="#333333">Illustrative timetable.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The stakes spectrum</title>
+  <desc>Five boxes from no stakes to high stakes. Moving right, consequences grow, frequency falls, anxiety and cheating incentives rise, and the purpose shifts from learning to judgement.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">From learning event to judgement</text>
+  <rect x="60" y="100" width="150" height="120" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="59" y="126" width="152" height="67" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="135" y="146" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">No stakes</text>
+  <text x="135" y="165" text-anchor="middle" font-size="15" fill="#111111">self-scored,</text>
+  <text x="135" y="184" text-anchor="middle" font-size="15" fill="#111111">nothing recorded</text>
+  <rect x="232" y="100" width="150" height="120" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="307" y="146" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Very low</text>
+  <text x="307" y="165" text-anchor="middle" font-size="15" fill="#111111">completion</text>
+  <text x="307" y="184" text-anchor="middle" font-size="15" fill="#111111">credit only</text>
+  <rect x="404" y="100" width="150" height="120" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="479" y="146" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Low</text>
+  <text x="479" y="165" text-anchor="middle" font-size="15" fill="#111111">many small</text>
+  <text x="479" y="184" text-anchor="middle" font-size="15" fill="#111111">graded quizzes</text>
+  <rect x="576" y="100" width="150" height="120" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="651" y="146" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Medium</text>
+  <text x="651" y="165" text-anchor="middle" font-size="15" fill="#111111">mid-term,</text>
+  <text x="651" y="184" text-anchor="middle" font-size="15" fill="#111111">20% weight</text>
+  <rect x="748" y="100" width="150" height="120" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="751" y="126" width="144" height="67" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="823" y="146" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">High</text>
+  <text x="823" y="165" text-anchor="middle" font-size="15" fill="#111111">licence, final</text>
+  <text x="823" y="184" text-anchor="middle" font-size="15" fill="#111111">exam, promotion</text>
+  <line x1="70" y1="258" x2="890" y2="258" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="288" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Consequences for the learner increase</text>
+  <text x="60" y="335" text-anchor="start" font-size="15" fill="#111111">daily or weekly</text>
+  <text x="480" y="335" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Frequency</text>
+  <text x="900" y="335" text-anchor="end" font-size="15" fill="#111111">once a term or career stage</text>
+  <text x="60" y="373" text-anchor="start" font-size="15" fill="#111111">neutral, curious</text>
+  <text x="480" y="373" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Typical emotion</text>
+  <text x="900" y="373" text-anchor="end" font-size="15" fill="#111111">anxious</text>
+  <text x="60" y="411" text-anchor="start" font-size="15" fill="#111111">regular, spread out</text>
+  <text x="480" y="411" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Preparation induced</text>
+  <text x="900" y="411" text-anchor="end" font-size="15" fill="#111111">cramming</text>
+  <text x="60" y="449" text-anchor="start" font-size="15" fill="#111111">minimal</text>
+  <text x="480" y="449" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Cheating incentive</text>
+  <text x="900" y="449" text-anchor="end" font-size="15" fill="#111111">strong</text>
+  <text x="60" y="487" text-anchor="start" font-size="15" fill="#111111">promote learning</text>
+  <text x="480" y="487" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Main purpose</text>
+  <text x="900" y="487" text-anchor="end" font-size="15" fill="#111111">certify and select</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Conceptual spectrum; real assessments may sit between these points.</text>
+</svg>

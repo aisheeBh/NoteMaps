@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Question timing and what is learned</title>
+  <desc>A two-by-two grid. Columns: content that was asked about, content that was not asked about. Rows: questions before reading, questions after reading. Pre-questions: strong benefit for asked content, little or possibly reduced for unasked. Post-questions: strong benefit for asked content, smaller benefit for related unasked content.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">When questions come, and what they help</text>
+  <text x="380" y="92" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Content asked about</text>
+  <text x="700" y="92" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Content not asked about</text>
+  <text x="150" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Questions</text>
+  <text x="150" y="195" text-anchor="middle" font-size="15" fill="#111111">BEFORE reading</text>
+  <text x="150" y="355" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Questions</text>
+  <text x="150" y="375" text-anchor="middle" font-size="15" fill="#111111">AFTER reading</text>
+  <rect x="230" y="110" width="300" height="160" rx="4" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="274.6" y="167" width="210.7" height="49" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="380" y="186" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Better learning</text>
+  <text x="380" y="207" text-anchor="middle" font-size="16" fill="#111111">attention focused on it</text>
+  <rect x="540" y="110" width="300" height="160" rx="4" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="614.9" y="167" width="150.2" height="49" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="690" y="186" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Little benefit</text>
+  <text x="690" y="207" text-anchor="middle" font-size="16" fill="#111111">possibly reduced</text>
+  <rect x="230" y="290" width="300" height="160" rx="4" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="309.2" y="347" width="141.6" height="49" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="380" y="366" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Better learning</text>
+  <text x="380" y="387" text-anchor="middle" font-size="16" fill="#111111">requires recall</text>
+  <rect x="540" y="290" width="300" height="160" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="601.9" y="347" width="176.2" height="49" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="690" y="366" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Some benefit</text>
+  <text x="690" y="387" text-anchor="middle" font-size="16" fill="#111111">for related content</text>
+  <text x="480.0" y="520" text-anchor="middle" font-size="13" fill="#333333">General pattern from research on adjunct questions; recent studies are mixed on the cost to unasked content.</text>
+</svg>

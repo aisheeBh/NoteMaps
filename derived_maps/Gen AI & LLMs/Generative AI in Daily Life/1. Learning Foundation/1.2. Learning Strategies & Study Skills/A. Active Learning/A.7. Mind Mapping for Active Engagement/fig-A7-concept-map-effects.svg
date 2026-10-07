@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Concept map effect sizes</title>
+<desc>Three bars: overall effect g 0.58, studying provided maps g 0.43, constructing own maps g 0.72.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Learning with concept maps</text>
+<text x="480.0" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Average effect sizes (g) from Schroeder et al. (2018)</text>
+<line x1="120" y1="380" x2="860" y2="380" stroke="#333333" stroke-width="2"/>
+<rect x="170" y="251.0" width="140" height="129.0" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="196.92" y="221.0" width="86.16000000000001" height="26.1" fill="#FFFFFF" stroke="none"/>
+<text x="240" y="239.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">g = 0.43</text>
+<text x="240" y="406.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Studying a map</text>
+<text x="240" y="425.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">made by others</text>
+<rect x="420" y="206.0" width="140" height="174.0" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="446.92" y="176.0" width="86.16000000000001" height="26.1" fill="#FFFFFF" stroke="none"/>
+<text x="490" y="194.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">g = 0.58</text>
+<text x="490" y="406.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">All concept-map</text>
+<text x="490" y="425.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">conditions</text>
+<rect x="670" y="164.0" width="140" height="216.0" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="696.92" y="134.0" width="86.16000000000001" height="26.1" fill="#FFFFFF" stroke="none"/>
+<text x="740" y="152.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">g = 0.72</text>
+<text x="740" y="406.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Constructing</text>
+<text x="740" y="425.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">one's own map</text>
+</svg>

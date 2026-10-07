@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Anatomy of a sketchnote</title>
+  <desc>A mock sketchnote page on a talk about pricing for value, with a title block, containers holding key ideas, arrows connecting them along a path, simple icons, a star figure with a speech bubble, a warning triangle and a takeaway box. Callouts on the right name each element.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The parts of a sketchnote</text>
+
+  <rect x="30" y="55" width="640" height="560" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <rect x="50" y="70" width="600" height="64" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="140" y="78" width="420" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="350" y="104" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">PRICING FOR VALUE</text>
+  <text x="350" y="121" text-anchor="middle" font-size="13" fill="#111111">keynote, March, speaker A. Rao</text>
+
+  <rect x="60" y="160" width="200" height="90" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="160" y="188" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">THE PROBLEM</text>
+  <text x="160" y="214" text-anchor="middle" font-size="15" fill="#111111">cost + margin</text>
+  <line x1="105" y1="208" x2="215" y2="208" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="160" y="238" text-anchor="middle" font-size="14" fill="#111111">ignores customer value</text>
+
+  <line x1="260" y1="205" x2="345" y2="205" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="350" y="150" width="290" height="110" rx="14" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="495" y="178" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">VALUE-BASED PRICING</text>
+  <line x1="440" y1="225" x2="550" y2="215" stroke="#222222" stroke-width="2.5"/>
+  <line x1="495" y1="220" x2="495" y2="248" stroke="#222222" stroke-width="2.5"/>
+  <rect x="425" y="226" width="34" height="18" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="442" y="240" text-anchor="middle" font-size="13" fill="#111111">price</text>
+  <rect x="530" y="196" width="40" height="18" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="550" y="210" text-anchor="middle" font-size="13" fill="#111111">value</text>
+
+  <line x1="495" y1="260" x2="495" y2="295" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="330" y="300" width="100" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <path d="M360 318h40v18h-28l-8 8v-8h-4z" fill="none" stroke="#222222" stroke-width="1.5"/>
+    <text x="380" y="362">interviews</text>
+    <rect x="445" y="300" width="100" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <path d="M475 314h40v28h-40zM488 314v28M502 314v28M475 328h40" fill="none" stroke="#222222" stroke-width="1.5"/>
+    <text x="495" y="362">conjoint</text>
+    <rect x="560" y="300" width="100" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <text x="595" y="335" font-size="18" font-weight="bold">A</text><line x1="610" y1="316" x2="610" y2="342" stroke="#222222" stroke-width="1.5"/><text x="625" y="335" font-size="18" font-weight="bold">B</text>
+    <text x="610" y="362">price tests</text>
+  </g>
+
+  <path d="M90 420 L130 350 L170 420 Z" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="130" y="410" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">!</text>
+  <text x="185" y="380" font-size="14" fill="#111111">discounts erode</text>
+  <text x="185" y="398" font-size="14" fill="#111111">the reference price</text>
+
+  <circle cx="110" cy="475" r="12" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <path d="M110 487 L92 530 M110 487 L128 530 M110 497 L88 485 M110 497 L132 485" stroke="#222222" stroke-width="2.5" fill="none"/>
+  <path d="M150 450 h200 a10 10 0 0 1 10 10 v36 a10 10 0 0 1 -10 10 h-180 l-14 14 v-14 h-6 a10 10 0 0 1 -10 -10 v-36 a10 10 0 0 1 10 -10z" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="255" y="476" text-anchor="middle" font-size="14" fill="#111111">"We raised price 20%</text>
+  <text x="255" y="494" text-anchor="middle" font-size="14" fill="#111111">and churn barely moved."</text>
+
+  <rect x="400" y="450" width="250" height="60" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="525" y="475" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TAKEAWAY</text>
+  <text x="525" y="497" text-anchor="middle" font-size="14" fill="#111111">price from value, test, protect</text>
+  <line x1="50" y1="545" x2="650" y2="545" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="350" y="580" text-anchor="middle" font-size="14" fill="#111111">My action: interview five customers before the next price review</text>
+
+  <g font-size="15" fill="#111111">
+    <text x="700" y="100" font-weight="bold">Title block</text>
+    <text x="700" y="200" font-weight="bold">Containers</text>
+    <text x="700" y="220">group an idea and details</text>
+    <text x="700" y="280" font-weight="bold">Connectors</text>
+    <text x="700" y="300">show the path of argument</text>
+    <text x="700" y="345" font-weight="bold">Icons</text>
+    <text x="700" y="365">stand for recurring concepts</text>
+    <text x="700" y="410" font-weight="bold">Warning symbol</text>
+    <text x="700" y="430">marks risks and cautions</text>
+    <text x="700" y="480" font-weight="bold">Takeaway box</text>
+    <text x="700" y="500">the point in one line</text>
+    <text x="255" y="535" text-anchor="middle" font-size="14" font-style="italic">figure and speech bubble: a quotation</text>
+    <text x="700" y="575" font-weight="bold">Reflection line</text>
+    <text x="700" y="595">added after the session</text>
+  </g>
+  <g stroke="#555555" stroke-width="1.2">
+    <line x1="650" y1="96" x2="694" y2="96"/>
+    <line x1="640" y1="205" x2="694" y2="205"/>
+    <line x1="495" y1="280" x2="694" y2="285"/>
+    <line x1="660" y1="340" x2="694" y2="340"/>
+    <line x1="325" y1="392" x2="694" y2="405"/>
+    <line x1="650" y1="485" x2="694" y2="485"/>
+    <line x1="650" y1="575" x2="694" y2="575"/>
+  </g>
+</svg>

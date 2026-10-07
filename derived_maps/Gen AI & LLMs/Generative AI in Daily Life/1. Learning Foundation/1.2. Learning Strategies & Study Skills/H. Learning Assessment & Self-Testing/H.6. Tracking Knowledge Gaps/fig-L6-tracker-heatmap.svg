@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Gap tracker status by element over eight weeks</title>
+  <desc>A grid of eight platform elements against weeks 1 to 8. Each cell shows the evidenced status level from 0 to 5; darker cells are higher levels. The required level for each element is shown on the right; cells that have reached the required level are outlined in bold. Most elements rise steadily; disaster recovery stays at level 1 for most of the period, showing a gap that is not closing.</desc>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Evidenced status by week: which gaps are closing?</text>
+  <text x="578" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Week</text>
+  <text x="361" y="104" text-anchor="middle" font-size="15" fill="#111111">1</text>
+  <text x="423" y="104" text-anchor="middle" font-size="15" fill="#111111">2</text>
+  <text x="485" y="104" text-anchor="middle" font-size="15" fill="#111111">3</text>
+  <text x="547" y="104" text-anchor="middle" font-size="15" fill="#111111">4</text>
+  <text x="609" y="104" text-anchor="middle" font-size="15" fill="#111111">5</text>
+  <text x="671" y="104" text-anchor="middle" font-size="15" fill="#111111">6</text>
+  <text x="733" y="104" text-anchor="middle" font-size="15" fill="#111111">7</text>
+  <text x="795" y="104" text-anchor="middle" font-size="15" fill="#111111">8</text>
+  <text x="886" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Required</text>
+  <text x="318" y="136" text-anchor="end" font-size="15" fill="#111111">Ingestion architecture</text>
+  <rect x="332" y="112" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="394" y="112" width="58" height="38" fill="#D9D9D9" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <rect x="456" y="112" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="518" y="112" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="547" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="580" y="112" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="609" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="642" y="112" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="671" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="704" y="112" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="733" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="766" y="112" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="795" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="886" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">4</text>
+  <text x="318" y="178" text-anchor="end" font-size="15" fill="#111111">Schema-change procedure</text>
+  <rect x="332" y="154" width="58" height="38" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">0</text>
+  <rect x="394" y="154" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="456" y="154" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="518" y="154" width="58" height="38" fill="#D9D9D9" stroke="#888888" stroke-width="1"/>
+  <text x="547" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <rect x="580" y="154" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="609" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="642" y="154" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="671" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="704" y="154" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="733" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="766" y="154" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="795" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="886" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">4</text>
+  <text x="318" y="220" text-anchor="end" font-size="15" fill="#111111">Data-quality alerts</text>
+  <rect x="332" y="196" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="394" y="196" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="456" y="196" width="58" height="38" fill="#D9D9D9" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <rect x="518" y="196" width="58" height="38" fill="#A9C4E0" stroke="#000000" stroke-width="3.5"/>
+  <text x="547" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="580" y="196" width="58" height="38" fill="#A9C4E0" stroke="#000000" stroke-width="3.5"/>
+  <text x="609" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="642" y="196" width="58" height="38" fill="#A9C4E0" stroke="#000000" stroke-width="3.5"/>
+  <text x="671" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="704" y="196" width="58" height="38" fill="#A9C4E0" stroke="#000000" stroke-width="3.5"/>
+  <text x="733" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="766" y="196" width="58" height="38" fill="#A9C4E0" stroke="#000000" stroke-width="3.5"/>
+  <text x="795" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <text x="886" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <text x="318" y="262" text-anchor="end" font-size="15" fill="#111111">Card-data handling</text>
+  <rect x="332" y="238" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="394" y="238" width="58" height="38" fill="#D9D9D9" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <rect x="456" y="238" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="518" y="238" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="547" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="580" y="238" width="58" height="38" fill="#5F87B0" stroke="#888888" stroke-width="1"/>
+  <text x="609" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="642" y="238" width="58" height="38" fill="#5F87B0" stroke="#888888" stroke-width="1"/>
+  <text x="671" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="704" y="238" width="58" height="38" fill="#5F87B0" stroke="#888888" stroke-width="1"/>
+  <text x="733" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="766" y="238" width="58" height="38" fill="#1F3B5C" stroke="#000000" stroke-width="3.5"/>
+  <text x="795" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="886" y="263" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">5</text>
+  <text x="318" y="304" text-anchor="end" font-size="15" fill="#111111">Backfill procedure</text>
+  <rect x="332" y="280" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="394" y="280" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="456" y="280" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="518" y="280" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="547" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="580" y="280" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="609" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="642" y="280" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="671" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="704" y="280" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="733" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="766" y="280" width="58" height="38" fill="#5F87B0" stroke="#000000" stroke-width="3.5"/>
+  <text x="795" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="886" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">4</text>
+  <text x="318" y="346" text-anchor="end" font-size="15" fill="#111111">Warehouse cost controls</text>
+  <rect x="332" y="322" width="58" height="38" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">0</text>
+  <rect x="394" y="322" width="58" height="38" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">0</text>
+  <rect x="456" y="322" width="58" height="38" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">0</text>
+  <rect x="518" y="322" width="58" height="38" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <text x="547" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">0</text>
+  <rect x="580" y="322" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="609" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="642" y="322" width="58" height="38" fill="#D9D9D9" stroke="#888888" stroke-width="1"/>
+  <text x="671" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <rect x="704" y="322" width="58" height="38" fill="#A9C4E0" stroke="#000000" stroke-width="3.5"/>
+  <text x="733" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="766" y="322" width="58" height="38" fill="#A9C4E0" stroke="#000000" stroke-width="3.5"/>
+  <text x="795" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <text x="886" y="347" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <text x="318" y="388" text-anchor="end" font-size="15" fill="#111111">On-call escalation</text>
+  <rect x="332" y="364" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="394" y="364" width="58" height="38" fill="#D9D9D9" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <rect x="456" y="364" width="58" height="38" fill="#A9C4E0" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="518" y="364" width="58" height="38" fill="#5F87B0" stroke="#888888" stroke-width="1"/>
+  <text x="547" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <rect x="580" y="364" width="58" height="38" fill="#1F3B5C" stroke="#000000" stroke-width="3.5"/>
+  <text x="609" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">5</text>
+  <rect x="642" y="364" width="58" height="38" fill="#1F3B5C" stroke="#000000" stroke-width="3.5"/>
+  <text x="671" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">5</text>
+  <rect x="704" y="364" width="58" height="38" fill="#1F3B5C" stroke="#000000" stroke-width="3.5"/>
+  <text x="733" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">5</text>
+  <rect x="766" y="364" width="58" height="38" fill="#1F3B5C" stroke="#000000" stroke-width="3.5"/>
+  <text x="795" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="886" y="389" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">5</text>
+  <text x="318" y="430" text-anchor="end" font-size="15" fill="#111111">Disaster recovery</text>
+  <rect x="332" y="406" width="58" height="38" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <text x="361" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">0</text>
+  <rect x="394" y="406" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="423" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="456" y="406" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="518" y="406" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="547" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="580" y="406" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="609" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="642" y="406" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="671" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="704" y="406" width="58" height="38" fill="#F2F2F2" stroke="#888888" stroke-width="1"/>
+  <text x="733" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="766" y="406" width="58" height="38" fill="#D9D9D9" stroke="#888888" stroke-width="1"/>
+  <text x="795" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <text x="886" y="431" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">4</text>
+  <text x="60" y="476" font-size="15" font-weight="bold" fill="#111111">Status levels</text>
+  <rect x="60" y="488" width="34" height="26" fill="#FFFFFF" stroke="#888888"/>
+  <text x="102" y="506" font-size="14" fill="#111111">0 not met</text>
+  <rect x="200" y="488" width="34" height="26" fill="#F2F2F2" stroke="#888888"/>
+  <text x="242" y="506" font-size="14" fill="#111111">1 exposed</text>
+  <rect x="340" y="488" width="34" height="26" fill="#D9D9D9" stroke="#888888"/>
+  <text x="382" y="506" font-size="14" fill="#111111">2 with support</text>
+  <rect x="480" y="488" width="34" height="26" fill="#A9C4E0" stroke="#888888"/>
+  <text x="522" y="506" font-size="14" fill="#111111">3 unaided</text>
+  <rect x="620" y="488" width="34" height="26" fill="#5F87B0" stroke="#888888"/>
+  <text x="662" y="506" font-size="14" fill="#111111">4 applies</text>
+  <rect x="760" y="488" width="34" height="26" fill="#1F3B5C" stroke="#888888"/>
+  <text x="802" y="506" font-size="14" fill="#111111">5 fluent</text>
+  <rect x="60" y="528" width="34" height="26" fill="#FFFFFF" stroke="#000000" stroke-width="3.5"/>
+  <text x="102" y="546" font-size="14" fill="#111111">bold outline: required level reached</text>
+  <text x="520" y="546" font-size="14" fill="#111111">Disaster recovery: stalled at level 1 for six weeks</text>
+</svg>

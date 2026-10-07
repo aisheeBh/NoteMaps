@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 670" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Leverage points in a learning system</title>
+  <desc>A horizontal arrow from low leverage on the left to high leverage on the right, with nine boxes: parameters, buffers, delays, balancing loops, reinforcing loops, information flows, rules, goals and paradigms, each with a learning example.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where to intervene: low to high leverage</text>
+  <rect x="90" y="80" width="420" height="46" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="300" y="108" text-anchor="middle" font-size="15" fill="#222222">1. Parameters: study hours, app settings</text>
+  <rect x="130" y="136" width="420" height="46" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="340" y="164" text-anchor="middle" font-size="15" fill="#222222">2. Buffers: spare time and energy</text>
+  <rect x="170" y="192" width="420" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="380" y="220" text-anchor="middle" font-size="15" fill="#111111">3. Delays: test tomorrow, not next month</text>
+  <rect x="210" y="248" width="420" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="420" y="276" text-anchor="middle" font-size="15" fill="#111111">4. Balancing loops: tests and critique</text>
+  <rect x="250" y="304" width="420" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="460" y="332" text-anchor="middle" font-size="15" fill="#000000">5. Reinforcing loops: stretch builds confidence</text>
+  <rect x="290" y="360" width="420" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="500" y="388" text-anchor="middle" font-size="15" fill="#000000">6. Information flows: visible week-later recall</text>
+  <rect x="330" y="416" width="420" height="46" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="380" y="430" width="320" height="20" fill="#FFFFFF"/>
+  <text x="540" y="444" text-anchor="middle" font-size="15" fill="#111111">7. Rules: no new chapter until recalled</text>
+  <rect x="370" y="472" width="420" height="46" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="428" y="486" width="304" height="20" fill="#FFFFFF"/>
+  <text x="580" y="500" text-anchor="middle" font-size="15" fill="#111111">8. Goals: use ideas, not finish books</text>
+  <rect x="410" y="528" width="420" height="46" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="620" y="556" text-anchor="middle" font-size="15" fill="#FFFFFF">9. Paradigms: retrieval and use are learning</text>
+  <line x1="70" y1="590" x2="890" y2="590" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="110" y="618" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">lower leverage</text>
+  <text x="880" y="618" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">higher leverage</text>
+  <text x="640" y="98" text-anchor="start" font-size="14" font-style="italic" fill="#111111">easy to change, little effect</text>
+  <text x="395" y="556" text-anchor="end" font-size="14" font-style="italic" fill="#111111">hard to change, large effect</text>
+  <text x="480" y="652" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">Simplified from Donella Meadows (1999).</text>
+</svg>

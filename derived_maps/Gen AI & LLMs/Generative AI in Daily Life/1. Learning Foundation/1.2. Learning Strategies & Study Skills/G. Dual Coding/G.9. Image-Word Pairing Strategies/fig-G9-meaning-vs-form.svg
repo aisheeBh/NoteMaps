@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Meaning versus word form</title>
+  <desc>Learning a new foreign word needs two links: meaning, which a picture supplies easily, and the unfamiliar word form, which a picture does not supply. A keyword, saying the word aloud and retrieval practice build the word-form link.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">A picture teaches the meaning, not the new word</text>
+
+  <rect x="380" y="70" width="200" height="70" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">New word</text>
+  <text x="480" y="124" text-anchor="middle" font-size="15" fill="#FFFFFF">e.g. Swahili "kitabu"</text>
+
+  <rect x="80" y="230" width="300" height="110" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="230" y="262" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Meaning: "book"</text>
+  <text x="230" y="290" text-anchor="middle" font-size="15" fill="#111111">a picture conveys it at once</text>
+  <text x="230" y="314" text-anchor="middle" font-size="15" fill="#111111">and feels easy, so confidence rises</text>
+
+  <rect x="580" y="230" width="300" height="110" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="730" y="262" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Word form: k-i-t-a-b-u</text>
+  <text x="730" y="290" text-anchor="middle" font-size="15" fill="#111111">a picture does not supply it;</text>
+  <text x="730" y="314" text-anchor="middle" font-size="15" fill="#111111">this is the hard part</text>
+
+  <line x1="430" y1="140" x2="280" y2="226" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="530" y1="140" x2="680" y2="226" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="250" y="164" width="120" height="24" fill="#FFFFFF"/>
+  <text x="310" y="182" text-anchor="middle" font-size="14" fill="#111111">link 1: easy</text>
+  <rect x="590" y="164" width="120" height="24" fill="#FFFFFF"/>
+  <text x="650" y="182" text-anchor="middle" font-size="14" fill="#111111">link 2: hard</text>
+
+  <rect x="580" y="370" width="300" height="70" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="730" y="398" text-anchor="middle" font-size="15" fill="#111111">build it with a keyword, saying it</text>
+  <text x="730" y="420" text-anchor="middle" font-size="15" fill="#111111">aloud and retrieval practice</text>
+  <line x1="730" y1="368" x2="730" y2="344" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="470" text-anchor="middle" font-size="13" fill="#333333">Illustration of the distinction drawn by Carpenter and Olson (2012).</text>
+</svg>

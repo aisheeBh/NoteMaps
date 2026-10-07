@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A ladder of evidence for self-assessment</title>
+  <desc>Five rungs rising from weakest to strongest evidence: a feeling of knowing; a self-rating on a scale; an unaided self-test marked against a key; a criterion-referenced review of real work using exemplars; and a judgement triangulated with external evidence such as mentor review or outcome data. Value and effort both rise up the ladder.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What is the self-judgement based on?</text>
+  <line x1="80" y1="540" x2="80" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="50" y="310" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 310)">Strength of evidence (and effort)</text>
+  <g font-size="15" fill="#111111">
+    <rect x="120" y="460" width="420" height="70" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+    <text x="140" y="490" font-size="18" font-weight="bold">1. Feeling of knowing</text>
+    <text x="140" y="515">"It seems familiar; I think I have got it"</text>
+    <rect x="200" y="375" width="460" height="70" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="220" y="405" font-size="18" font-weight="bold">2. Self-rating on a scale</text>
+    <text x="220" y="430">"I am about a 3 out of 5 on regression"</text>
+    <rect x="280" y="290" width="520" height="70" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="300" y="320" font-size="18" font-weight="bold">3. Unaided self-test, marked strictly</text>
+    <text x="300" y="345">"I solved 7 of 10 past-paper items after a 3-day delay"</text>
+    <rect x="360" y="205" width="540" height="70" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="372" y="213" width="516" height="54" fill="#FFFFFF"/>
+    <text x="384" y="235" font-size="18" font-weight="bold">4. Criterion-referenced review of real work</text>
+    <text x="384" y="258">a draft judged against criteria and exemplars</text>
+    <rect x="420" y="100" width="500" height="90" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="440" y="132" font-size="18" font-weight="bold">5. Triangulated judgement</text>
+    <text x="440" y="157">own judgement compared with mentor review,</text>
+    <text x="440" y="178">mock examinations or outcome data</text>
+  </g>
+  <text x="570" y="500" font-size="14" fill="#333333">bottom rungs: cheap, fast, often wrong</text>
+  <text x="120" y="580" font-size="14" fill="#333333">Higher rungs cost more effort and are worth more.</text>
+</svg>

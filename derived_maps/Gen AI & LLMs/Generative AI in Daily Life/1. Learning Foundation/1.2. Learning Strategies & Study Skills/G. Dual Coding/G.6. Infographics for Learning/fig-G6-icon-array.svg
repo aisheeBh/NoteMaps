@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Icon array of a risk reduction</title>
+  <desc>Two grids of 100 figures. Without treatment, 2 of 100 are shaded (have a stroke). With treatment, 1 of 100 is shaded. The relative reduction is 50 per cent; the absolute reduction is 1 in 100.</desc>
+  <defs>
+    <pattern id="lines" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#F6CACA"/><path d="M0 3H6" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <g id="p"><circle cx="0" cy="-9" r="5"/><rect x="-6" y="-3" width="12" height="15" rx="3"/></g>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">"Halves the risk" shown as people</text>
+
+  <text x="240" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Without the drug</text>
+  <text x="720" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">With the drug</text>
+
+  <g id="gridA" fill="#FFFFFF" stroke="#333333" stroke-width="1.2">
+    <g transform="translate(105,110)">
+      <use href="#p" x="0" y="0"/><use href="#p" x="30" y="0"/><use href="#p" x="60" y="0"/><use href="#p" x="90" y="0"/><use href="#p" x="120" y="0"/><use href="#p" x="150" y="0"/><use href="#p" x="180" y="0"/><use href="#p" x="210" y="0"/><use href="#p" x="240" y="0"/><use href="#p" x="270" y="0"/>
+      <use href="#p" x="0" y="34"/><use href="#p" x="30" y="34"/><use href="#p" x="60" y="34"/><use href="#p" x="90" y="34"/><use href="#p" x="120" y="34"/><use href="#p" x="150" y="34"/><use href="#p" x="180" y="34"/><use href="#p" x="210" y="34"/><use href="#p" x="240" y="34"/><use href="#p" x="270" y="34"/>
+      <use href="#p" x="0" y="68"/><use href="#p" x="30" y="68"/><use href="#p" x="60" y="68"/><use href="#p" x="90" y="68"/><use href="#p" x="120" y="68"/><use href="#p" x="150" y="68"/><use href="#p" x="180" y="68"/><use href="#p" x="210" y="68"/><use href="#p" x="240" y="68"/><use href="#p" x="270" y="68"/>
+      <use href="#p" x="0" y="102"/><use href="#p" x="30" y="102"/><use href="#p" x="60" y="102"/><use href="#p" x="90" y="102"/><use href="#p" x="120" y="102"/><use href="#p" x="150" y="102"/><use href="#p" x="180" y="102"/><use href="#p" x="210" y="102"/><use href="#p" x="240" y="102"/><use href="#p" x="270" y="102"/>
+      <use href="#p" x="0" y="136"/><use href="#p" x="30" y="136"/><use href="#p" x="60" y="136"/><use href="#p" x="90" y="136"/><use href="#p" x="120" y="136"/><use href="#p" x="150" y="136"/><use href="#p" x="180" y="136"/><use href="#p" x="210" y="136"/><use href="#p" x="240" y="136"/><use href="#p" x="270" y="136"/>
+      <use href="#p" x="0" y="170"/><use href="#p" x="30" y="170"/><use href="#p" x="60" y="170"/><use href="#p" x="90" y="170"/><use href="#p" x="120" y="170"/><use href="#p" x="150" y="170"/><use href="#p" x="180" y="170"/><use href="#p" x="210" y="170"/><use href="#p" x="240" y="170"/><use href="#p" x="270" y="170"/>
+      <use href="#p" x="0" y="204"/><use href="#p" x="30" y="204"/><use href="#p" x="60" y="204"/><use href="#p" x="90" y="204"/><use href="#p" x="120" y="204"/><use href="#p" x="150" y="204"/><use href="#p" x="180" y="204"/><use href="#p" x="210" y="204"/><use href="#p" x="240" y="204"/><use href="#p" x="270" y="204"/>
+      <use href="#p" x="0" y="238"/><use href="#p" x="30" y="238"/><use href="#p" x="60" y="238"/><use href="#p" x="90" y="238"/><use href="#p" x="120" y="238"/><use href="#p" x="150" y="238"/><use href="#p" x="180" y="238"/><use href="#p" x="210" y="238"/><use href="#p" x="240" y="238"/><use href="#p" x="270" y="238"/>
+      <use href="#p" x="0" y="272"/><use href="#p" x="30" y="272"/><use href="#p" x="60" y="272"/><use href="#p" x="90" y="272"/><use href="#p" x="120" y="272"/><use href="#p" x="150" y="272"/><use href="#p" x="180" y="272"/><use href="#p" x="210" y="272"/><use href="#p" x="240" y="272"/><use href="#p" x="270" y="272"/>
+      <use href="#p" x="0" y="306"/><use href="#p" x="30" y="306"/><use href="#p" x="60" y="306"/><use href="#p" x="90" y="306"/><use href="#p" x="120" y="306"/><use href="#p" x="150" y="306"/><use href="#p" x="180" y="306"/><use href="#p" x="210" y="306"/><use href="#p" x="240" y="306"/><use href="#p" x="270" y="306"/>
+    </g>
+  </g>
+  <g fill="url(#lines)" stroke="#8B0000" stroke-width="2">
+    <use href="#p" x="105" y="110"/><use href="#p" x="135" y="110"/>
+  </g>
+
+  <g fill="#FFFFFF" stroke="#333333" stroke-width="1.2">
+    <use href="#gridA" x="480" y="0"/>
+  </g>
+  <g fill="url(#lines)" stroke="#8B0000" stroke-width="2">
+    <use href="#p" x="585" y="110"/>
+  </g>
+
+  <rect x="90" y="440" width="300" height="40" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="240" y="466" text-anchor="middle" font-size="16" fill="#111111"><tspan font-weight="bold">2 in 100</tspan> have a stroke</text>
+  <rect x="570" y="440" width="300" height="40" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="720" y="466" text-anchor="middle" font-size="16" fill="#111111"><tspan font-weight="bold">1 in 100</tspan> has a stroke</text>
+
+  <rect x="200" y="495" width="560" height="36" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="519" text-anchor="middle" font-size="15" fill="#111111">Relative reduction: 50%   |   Absolute reduction: 1 percentage point</text>
+  <text x="480" y="552" text-anchor="middle" font-size="13" fill="#333333">Illustrative numbers; shaded figures represent people who have the outcome.</text>
+</svg>

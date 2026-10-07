@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Interval growth under SM-2 for three ease factors</title>
+  <desc>Intervals after successive successful reviews for ease factors 2.5, 1.8 and 1.3. With 2.5 the sixth interval exceeds a year; with 1.3 it is under a month.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">SM-2: the ease factor sets how fast intervals grow</text>
+  <line x1="150" y1="420" x2="860" y2="420" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="307" x2="860" y2="307" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="193" x2="860" y2="193" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="130" x2="860" y2="130" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="80" x2="860" y2="80" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="420" x2="870" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="150" y="444" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <line x1="268" y1="420" x2="268" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="268" y="444" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <line x1="387" y1="420" x2="387" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="387" y="444" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <line x1="505" y1="420" x2="505" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="505" y="444" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <line x1="623" y1="420" x2="623" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="623" y="444" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <line x1="742" y1="420" x2="742" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="742" y="444" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <line x1="860" y1="420" x2="860" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="860" y="444" text-anchor="middle" font-size="14" fill="#111111">7</text>
+  <line x1="144" y1="420" x2="150" y2="420" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="425" text-anchor="end" font-size="14" fill="#111111">1</text>
+  <line x1="144" y1="307" x2="150" y2="307" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="312" text-anchor="end" font-size="14" fill="#111111">10</text>
+  <line x1="144" y1="193" x2="150" y2="193" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="198" text-anchor="end" font-size="14" fill="#111111">100</text>
+  <line x1="144" y1="130" x2="150" y2="130" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="135" text-anchor="end" font-size="14" fill="#111111">365</text>
+  <line x1="144" y1="80" x2="150" y2="80" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="85" text-anchor="end" font-size="14" fill="#111111">1000</text>
+  <text x="505" y="472" text-anchor="middle" font-size="16" fill="#111111">Successful review number</text>
+  <text x="88" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 88 250)">Interval (days, logarithmic)</text>
+  <path d="M150.0 420.0 L268.3 331.8 L386.7 286.7 L505.0 241.6 L623.3 196.5 L741.7 151.4 L860.0 106.3" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <circle cx="150.0" cy="420.0" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="268.3" cy="331.8" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="386.7" cy="286.7" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="505.0" cy="241.6" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="623.3" cy="196.5" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="741.7" cy="151.4" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="860.0" cy="106.3" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="705" y="76" width="151" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="850" y="92" text-anchor="end" font-size="14" fill="#111111">ease 2.5: 586 days</text>
+  <path d="M150.0 420.0 L268.3 331.8 L386.7 302.9 L505.0 273.9 L623.3 245.0 L741.7 216.1 L860.0 187.2" fill="none" stroke="#7A5200" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <circle cx="150.0" cy="420.0" r="5" fill="#FFFFFF" stroke="#7A5200" stroke-width="2.5"/>
+  <circle cx="268.3" cy="331.8" r="5" fill="#FFFFFF" stroke="#7A5200" stroke-width="2.5"/>
+  <circle cx="386.7" cy="302.9" r="5" fill="#FFFFFF" stroke="#7A5200" stroke-width="2.5"/>
+  <circle cx="505.0" cy="273.9" r="5" fill="#FFFFFF" stroke="#7A5200" stroke-width="2.5"/>
+  <circle cx="623.3" cy="245.0" r="5" fill="#FFFFFF" stroke="#7A5200" stroke-width="2.5"/>
+  <circle cx="741.7" cy="216.1" r="5" fill="#FFFFFF" stroke="#7A5200" stroke-width="2.5"/>
+  <circle cx="860.0" cy="187.2" r="5" fill="#FFFFFF" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="705" y="157" width="151" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="850" y="173" text-anchor="end" font-size="14" fill="#111111">ease 1.8: 113 days</text>
+  <path d="M150.0 420.0 L268.3 331.8 L386.7 318.9 L505.0 306.0 L623.3 293.1 L741.7 280.2 L860.0 267.2" fill="none" stroke="#8B0000" stroke-width="3.5" stroke-dasharray="2 4"/>
+  <circle cx="150.0" cy="420.0" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <circle cx="268.3" cy="331.8" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <circle cx="386.7" cy="318.9" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <circle cx="505.0" cy="306.0" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <circle cx="623.3" cy="293.1" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <circle cx="741.7" cy="280.2" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <circle cx="860.0" cy="267.2" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <rect x="713" y="281" width="143" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="850" y="297" text-anchor="end" font-size="14" fill="#111111">ease 1.3: 22 days</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Computed from the SM-2 rule: 1 day, 6 days, then each interval times the ease factor.</text>
+</svg>

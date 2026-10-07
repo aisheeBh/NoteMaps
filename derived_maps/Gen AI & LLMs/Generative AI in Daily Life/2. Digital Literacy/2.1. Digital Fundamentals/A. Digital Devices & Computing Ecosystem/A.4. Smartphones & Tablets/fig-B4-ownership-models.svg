@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Device ownership models by control and personal freedom</title>
+  <desc>A two-by-two chart. Horizontal axis: organisational control, low to high. Vertical axis: personal freedom on the device, low to high. BYOD sits at high freedom, low control. CYOD and COPE sit at moderate to high freedom with high control. COBO sits at low freedom, highest control. The low-control, low-freedom corner is empty.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Who owns the work phone: control against freedom</text>
+  <rect x="160" y="70" width="330" height="210" fill="#FFFFFF" stroke="#555555"/>
+  <rect x="490" y="70" width="330" height="210" fill="#F2F2F2" stroke="#555555"/>
+  <rect x="160" y="280" width="330" height="210" fill="#F2F2F2" stroke="#555555"/>
+  <rect x="490" y="280" width="330" height="210" fill="#FFFFFF" stroke="#555555"/>
+  <line x1="160" y1="490" x2="850" y2="490" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="160" y1="490" x2="160" y2="60" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="490" y="530" text-anchor="middle" font-size="16" fill="#111111">Organisational control over the device</text>
+  <text x="100" y="280" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 100 280)">Personal freedom on the device</text>
+
+  <circle cx="250" cy="130" r="9" fill="#111111"/>
+  <text x="268" y="128" font-size="17" font-weight="bold" fill="#111111">BYOD</text>
+  <text x="268" y="148" font-size="14" fill="#111111">personal phone,</text>
+  <text x="268" y="166" font-size="14" fill="#111111">work profile only</text>
+
+  <circle cx="560" cy="150" r="9" fill="#111111"/>
+  <text x="578" y="148" font-size="17" font-weight="bold" fill="#111111">CYOD</text>
+  <text x="578" y="168" font-size="14" fill="#111111">company phone, chosen from a list</text>
+
+  <circle cx="640" cy="215" r="9" fill="#111111"/>
+  <text x="658" y="213" font-size="17" font-weight="bold" fill="#111111">COPE</text>
+  <text x="658" y="233" font-size="14" fill="#111111">company phone,</text>
+  <text x="658" y="251" font-size="14" fill="#111111">personal use allowed</text>
+
+  <circle cx="760" cy="420" r="9" fill="#111111"/>
+  <text x="742" y="400" font-size="17" font-weight="bold" fill="#111111" text-anchor="end">COBO</text>
+  <text x="742" y="420" font-size="14" fill="#111111" text-anchor="end">company phone, work only,</text>
+  <text x="742" y="438" font-size="14" fill="#111111" text-anchor="end">often kiosk mode</text>
+
+  <text x="325" y="380" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Little control and little freedom:</text>
+  <text x="325" y="400" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">no sensible model sits here</text>
+  <text x="920" y="580" text-anchor="end" font-size="13" fill="#111111">Schematic; positions are illustrative.</text>
+</svg>

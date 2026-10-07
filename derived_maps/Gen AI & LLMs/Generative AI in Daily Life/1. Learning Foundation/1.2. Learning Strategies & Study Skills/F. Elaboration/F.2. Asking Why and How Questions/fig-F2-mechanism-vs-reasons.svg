@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Explaining how compared with listing reasons why</title>
+  <desc>Schematic of Fernbach and colleagues (2013): people who explained how a policy would work lowered their rated understanding and moderated their positions; people who listed reasons for their position did not.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Explaining the mechanism punctures false understanding; listing reasons does not</text>
+
+  <!-- axes -->
+  <line x1="120" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="440" x2="120" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="70" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 70 270)">Self-rated understanding</text>
+
+  <!-- group 1: mechanism -->
+  <rect x="190" y="150" width="90" height="290" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="300" y="250" width="90" height="190" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="290" y="475" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Asked to explain HOW</text>
+  <text x="290" y="495" text-anchor="middle" font-size="14" fill="#111111">the policy would work</text>
+
+  <!-- group 2: reasons -->
+  <rect x="580" y="150" width="90" height="290" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="690" y="155" width="90" height="285" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="680" y="475" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Asked to list reasons WHY</text>
+  <text x="680" y="495" text-anchor="middle" font-size="14" fill="#111111">they held their position</text>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="235" y="140">before</text>
+    <rect x="300" y="216" width="90" height="24" fill="#FFFFFF"/>
+    <text x="345" y="233">after</text>
+    <text x="625" y="140">before</text>
+    <text x="735" y="145">after</text>
+  </g>
+
+  <rect x="395" y="300" width="160" height="64" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="407" y="324" font-size="14" fill="#111111">clear drop, and</text>
+  <text x="407" y="342" font-size="14" fill="#111111">more moderate</text>
+  <text x="407" y="360" font-size="14" fill="#111111">positions</text>
+
+  <rect x="790" y="200" width="120" height="46" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="800" y="220" font-size="14" fill="#111111">little or no</text>
+  <text x="800" y="238" font-size="14" fill="#111111">change</text>
+
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic of the direction of the reported effects; bar heights are illustrative, not data.</text>
+</svg>

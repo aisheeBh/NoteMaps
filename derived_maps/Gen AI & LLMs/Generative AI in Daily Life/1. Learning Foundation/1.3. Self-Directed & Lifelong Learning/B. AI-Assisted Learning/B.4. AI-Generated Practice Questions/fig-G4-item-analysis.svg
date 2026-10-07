@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Reading item difficulty and discrimination</title>
+  <desc>A chart with item difficulty, the proportion correct, on the horizontal axis and discrimination on the vertical axis. A central upper zone of moderate difficulty and discrimination above 0.3 marks useful items. Items near zero discrimination are weak or ambiguous. Items with negative discrimination suggest a wrong key. Items answered correctly by almost everyone are too easy.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What item statistics reveal</text>
+
+  <!-- plot area x 120..880 (p 0..1), y: D from +0.8 (y=70) to -0.4 (y=490); D=0 at y=350 -->
+  <rect x="120" y="70" width="760" height="420" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <!-- good zone: p 0.3-0.85, D 0.3-0.8 -->
+  <rect x="348" y="70" width="418" height="175" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="420" y="130" width="270" height="52" fill="#FFFFFF"/>
+  <text x="555" y="152" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">USEFUL ITEMS</text>
+  <text x="555" y="172" text-anchor="middle" font-size="14" fill="#111111">moderate difficulty, D above 0.3</text>
+  <!-- weak zone around zero -->
+  <rect x="121" y="290" width="758" height="60" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="300" y="302" width="400" height="36" fill="#FFFFFF"/>
+  <text x="500" y="326" text-anchor="middle" font-size="15" fill="#111111">D near zero: weak or ambiguous item</text>
+  <!-- negative zone -->
+  <rect x="121" y="350" width="758" height="139" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="280" y="400" width="440" height="44" fill="#FFFFFF"/>
+  <text x="500" y="420" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">NEGATIVE D: weaker learners do better</text>
+  <text x="500" y="438" text-anchor="middle" font-size="14" fill="#111111">check for a wrong key or misleading stem</text>
+  <!-- too easy -->
+  <rect x="790" y="90" width="84" height="80" fill="#FFFFFF" stroke="#333333"/>
+  <text x="832" y="114" text-anchor="middle" font-size="14" fill="#111111">too easy:</text>
+  <text x="832" y="134" text-anchor="middle" font-size="14" fill="#111111">almost all</text>
+  <text x="832" y="154" text-anchor="middle" font-size="14" fill="#111111">correct</text>
+  <!-- too hard -->
+  <rect x="130" y="90" width="100" height="80" fill="#FFFFFF" stroke="#333333"/>
+  <text x="180" y="114" text-anchor="middle" font-size="14" fill="#111111">very hard:</text>
+  <text x="180" y="134" text-anchor="middle" font-size="14" fill="#111111">check it is</text>
+  <text x="180" y="154" text-anchor="middle" font-size="14" fill="#111111">answerable</text>
+
+  <!-- zero line -->
+  <line x1="120" y1="350" x2="880" y2="350" stroke="#222222" stroke-width="2"/>
+  <!-- axis labels -->
+  <g font-size="14" fill="#111111">
+    <text x="110" y="75" text-anchor="end">+0.8</text>
+    <text x="110" y="250" text-anchor="end">+0.3</text>
+    <text x="110" y="355" text-anchor="end">0</text>
+    <text x="110" y="494" text-anchor="end">-0.4</text>
+    <text x="120" y="512" text-anchor="middle">0</text>
+    <text x="500" y="512" text-anchor="middle">0.5</text>
+    <text x="880" y="512" text-anchor="middle">1.0</text>
+  </g>
+  <text x="500" y="540" text-anchor="middle" font-size="16" fill="#111111">Difficulty index p (proportion answering correctly)</text>
+  <text x="44" y="280" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 44 280)">Discrimination D</text>
+  <!-- example point -->
+  <circle cx="690" cy="196" r="7" fill="#000000"/>
+  <text x="480" y="568" text-anchor="middle" font-size="13" fill="#333333">Zones follow common rules of thumb; thresholds vary between testing programmes. Dot: worked example, p = 0.75, D = 0.44.</text>
+</svg>

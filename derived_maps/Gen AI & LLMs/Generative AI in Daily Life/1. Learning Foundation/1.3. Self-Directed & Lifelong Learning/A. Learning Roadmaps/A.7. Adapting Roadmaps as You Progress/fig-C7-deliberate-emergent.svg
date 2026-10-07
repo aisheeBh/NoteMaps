@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Intended, deliberate, emergent and realised routes in a learning roadmap</title>
+  <desc>Adapted from Mintzberg and Waters. A broad arrow for the intended roadmap enters from the left. Part of it is dropped as unrealised. The remainder continues as the deliberate route. Unplanned emergent elements join it from below. Together they form the realised roadmap on the right.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The realised roadmap: deliberate plus emergent</text>
+  <polygon points="40,150 300,150 300,120 350,190 300,260 300,230 40,230" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="80" y="175" width="180" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="170" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">INTENDED roadmap</text>
+  <path d="M360 190 C 420 190, 430 110, 520 90" fill="none" stroke="#666666" stroke-width="3" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="530" y="62" width="230" height="56" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="645" y="84" text-anchor="middle" font-size="14" fill="#111111">UNREALISED</text>
+  <text x="645" y="102" text-anchor="middle" font-size="14" fill="#111111">e.g. a tool dropped as unneeded</text>
+  <polygon points="360,170 640,170 640,150 700,195 640,240 640,220 360,220" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="400" y="182" width="200" height="26" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="500" y="201" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">DELIBERATE route</text>
+  <path d="M420 380 C 420 320, 450 290, 480 240" fill="none" stroke="#7A5200" stroke-width="3" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <text x="420" y="400" text-anchor="middle" font-size="14" fill="#111111">a project</text>
+  <text x="420" y="418" text-anchor="middle" font-size="14" fill="#111111">opportunity</text>
+  <path d="M540 380 C 540 320, 570 290, 600 240" fill="none" stroke="#7A5200" stroke-width="3" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <text x="540" y="400" text-anchor="middle" font-size="14" fill="#111111">a tool the</text>
+  <text x="540" y="418" text-anchor="middle" font-size="14" fill="#111111">team adopted</text>
+  <path d="M650 380 C 650 320, 680 290, 710 240" fill="none" stroke="#7A5200" stroke-width="3" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <text x="650" y="400" text-anchor="middle" font-size="14" fill="#111111">a mentor's</text>
+  <text x="650" y="418" text-anchor="middle" font-size="14" fill="#111111">suggestion</text>
+  <text x="540" y="460" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">EMERGENT elements: unplanned, adopted in response to events</text>
+  <polygon points="720,150 860,150 860,120 930,195 860,270 860,240 720,240" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="736" y="170" width="120" height="50" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="796" y="191" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">REALISED</text>
+  <text x="796" y="209" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">roadmap</text>
+  <text x="936" y="500" text-anchor="end" font-size="13" fill="#333333">Adapted from Mintzberg and Waters (1985).</text>
+</svg>

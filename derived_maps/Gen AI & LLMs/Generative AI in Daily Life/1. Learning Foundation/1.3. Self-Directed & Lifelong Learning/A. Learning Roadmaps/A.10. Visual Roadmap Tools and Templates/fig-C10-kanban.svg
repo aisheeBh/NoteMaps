@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A kanban board for learning, with work-in-progress limits</title>
+  <desc>Four columns: to learn, with five cards; learning, limited to two cards; practising, limited to three cards; evidenced, with milestone results. Cards move from left to right only when the next column has room.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Working view: finish before starting</text>
+  <rect x="24" y="60" width="214" height="400" rx="8" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="131" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">TO LEARN</text>
+  <rect x="36" y="124" width="190" height="44" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="44" y="134" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="131" y="151" text-anchor="middle" font-size="14" fill="#111111">Pipelines</text>
+  <rect x="36" y="180" width="190" height="44" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="44" y="190" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="131" y="207" text-anchor="middle" font-size="14" fill="#111111">Monitoring</text>
+  <rect x="36" y="236" width="190" height="44" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="44" y="246" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="131" y="263" text-anchor="middle" font-size="14" fill="#111111">Cost management</text>
+  <rect x="36" y="292" width="190" height="44" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="44" y="302" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="131" y="319" text-anchor="middle" font-size="14" fill="#111111">Incident response</text>
+  <rect x="36" y="348" width="190" height="44" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="44" y="358" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="131" y="375" text-anchor="middle" font-size="14" fill="#111111">Security controls</text>
+  <rect x="256" y="60" width="214" height="400" rx="8" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="363" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">LEARNING</text>
+  <text x="363" y="108" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">limit 2</text>
+  <rect x="268" y="124" width="190" height="44" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="276" y="134" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="363" y="151" text-anchor="middle" font-size="14" fill="#111111">Infrastructure as code</text>
+  <rect x="268" y="180" width="190" height="44" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="276" y="190" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="363" y="207" text-anchor="middle" font-size="14" fill="#111111">Identity and access</text>
+  <rect x="488" y="60" width="214" height="400" rx="8" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="595" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">PRACTISING</text>
+  <text x="595" y="108" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">limit 3</text>
+  <rect x="500" y="124" width="190" height="44" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="508" y="134" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="595" y="151" text-anchor="middle" font-size="14" fill="#111111">Compute services</text>
+  <rect x="500" y="180" width="190" height="44" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="508" y="190" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="595" y="207" text-anchor="middle" font-size="14" fill="#111111">Storage services</text>
+  <rect x="500" y="236" width="190" height="44" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="508" y="246" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="595" y="263" text-anchor="middle" font-size="14" fill="#111111">Scripting</text>
+  <rect x="720" y="60" width="214" height="400" rx="8" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="827" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">EVIDENCED</text>
+  <rect x="732" y="124" width="190" height="44" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="740" y="134" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="827" y="151" text-anchor="middle" font-size="14" fill="#111111">Networking: M1 passed</text>
+  <rect x="732" y="180" width="190" height="44" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="740" y="190" width="174" height="24" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="827" y="207" text-anchor="middle" font-size="14" fill="#111111">Linux: M1 passed</text>
+  <line x1="236" y1="84" x2="254" y2="84" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="468" y1="84" x2="486" y2="84" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="700" y1="84" x2="718" y2="84" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="494" text-anchor="middle" font-size="13" fill="#333333">Cards move right only when the next column has a free slot.</text>
+</svg>

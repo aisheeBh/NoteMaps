@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Discovery learning effects</title>
+<desc>Horizontal bar chart around zero: unassisted discovery d = -0.38 compared with explicit instruction; enhanced discovery d = +0.30 compared with other instruction.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Discovery learning: it depends on guidance</text>
+<text x="480.0" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Effect sizes (d) from Alfieri et al. (2011)</text>
+<line x1="480" y1="120" x2="480" y2="360" stroke="#333333" stroke-width="2"/>
+<text x="480" y="385" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">0</text>
+<line x1="240.0" y1="360" x2="240.0" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="240.0" y="385" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">-0.4</text>
+<line x1="360.0" y1="360" x2="360.0" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="360.0" y="385" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">-0.2</text>
+<line x1="600.0" y1="360" x2="600.0" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="600.0" y="385" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">+0.2</text>
+<line x1="720.0" y1="360" x2="720.0" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="720.0" y="385" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">+0.4</text>
+<rect x="252.0" y="150" width="228.0" height="70" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="189.4" y="174" width="57.6" height="26.1" fill="#FFFFFF" stroke="none"/>
+<text x="242.0" y="192.0" font-size="17" text-anchor="end" font-weight="bold" fill="#111111">-0.38</text>
+<text x="494" y="180" font-size="16" text-anchor="start" font-weight="bold" fill="#111111">Unassisted discovery</text>
+<text x="494" y="202" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">vs explicit instruction: worse</text>
+<rect x="480" y="260" width="180.0" height="70" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="665.0" y="284" width="57.6" height="26.1" fill="#FFFFFF" stroke="none"/>
+<text x="670.0" y="302.0" font-size="17" text-anchor="start" font-weight="bold" fill="#111111">+0.30</text>
+<text x="466" y="290" font-size="16" text-anchor="end" font-weight="bold" fill="#111111">Enhanced discovery</text>
+<text x="466" y="312" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">vs other instruction: better</text>
+<text x="330" y="410" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">favours the comparison</text>
+<text x="630" y="410" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">favours discovery</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Swimlane flowchart of an expense claim</title>
+  <desc>Three lanes: employee, line manager and finance. The employee submits a claim with receipts; the line manager checks policy and either approves or returns it; finance checks receipts and either pays or queries. Hand-offs between lanes are marked, with typical waiting times shown at each hand-off.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Where the claim waits: hand-offs between lanes</text>
+
+  <rect x="30" y="55" width="900" height="140" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <rect x="30" y="195" width="900" height="140" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <rect x="30" y="335" width="900" height="140" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <g font-size="16" font-weight="bold" fill="#111111">
+    <text x="45" y="80">Employee</text><text x="45" y="220">Line manager</text><text x="45" y="360">Finance</text>
+  </g>
+
+  <rect x="45" y="100" width="140" height="50" rx="25" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="115" y="121" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="bold">Expense</text>
+  <text x="115" y="139" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="bold">incurred</text>
+  <rect x="215" y="100" width="150" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="290" y="122" text-anchor="middle" font-size="14" fill="#111111">Submit claim</text>
+  <text x="290" y="140" text-anchor="middle" font-size="14" fill="#111111">with receipts</text>
+  <line x1="185" y1="125" x2="213" y2="125" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <path d="M470 225 L540 265 L470 305 L400 265 Z" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <text x="470" y="262" text-anchor="middle" font-size="14" fill="#111111">Within</text>
+  <text x="470" y="279" text-anchor="middle" font-size="14" fill="#111111">policy?</text>
+  <path d="M290 150 L290 265 L398 265" fill="none" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="300" y="196" width="80" height="22" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="340" y="212" text-anchor="middle" font-size="13" fill="#111111">waits 4 days</text>
+
+  <path d="M470 225 L470 125 L370 125" fill="none" stroke="#222222" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+  <text x="478" y="170" font-size="14" fill="#111111">no: returned</text>
+
+  <rect x="590" y="240" width="140" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="660" y="270" text-anchor="middle" font-size="14" fill="#111111">Approve</text>
+  <line x1="540" y1="265" x2="588" y2="265" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="555" y="255" font-size="14" fill="#111111">yes</text>
+
+  <path d="M660 290 L660 405 L688 405" fill="none" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="570" y="336" width="85" height="22" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="612" y="352" text-anchor="middle" font-size="13" fill="#111111">waits 6 days</text>
+
+  <path d="M760 365 L830 405 L760 445 L690 405 Z" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <text x="760" y="402" text-anchor="middle" font-size="14" fill="#111111">Receipts</text>
+  <text x="760" y="419" text-anchor="middle" font-size="14" fill="#111111">valid?</text>
+  <rect x="850" y="380" width="70" height="50" rx="25" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="885" y="410" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Paid</text>
+  <line x1="830" y1="405" x2="848" y2="405" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M760 365 L760 70 L340 70 L340 98" fill="none" stroke="#222222" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+  <rect x="680" y="60" width="160" height="22" fill="#FFFFFF"/>
+  <text x="760" y="76" text-anchor="middle" font-size="14" fill="#111111">no: query to employee</text>
+
+  <rect x="120" y="490" width="720" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="480" y="517" text-anchor="middle" font-size="15" fill="#111111">Most of the elapsed time is spent waiting between lanes, not doing the work.</text>
+  <text x="480" y="552" text-anchor="middle" font-size="13" fill="#333333">Invented process; waiting times are illustrative.</text>
+</svg>

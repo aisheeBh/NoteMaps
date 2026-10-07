@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Nation's four strands of a language programme</title>
+  <desc>Four equal quadrants: meaning-focused input, meaning-focused output, language-focused learning and fluency development. Spaced-repetition review belongs mainly in language-focused learning, about a quarter of the time, and supports the other three.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Four strands: where spaced repetition fits</text>
+  <rect x="80" y="80" width="390" height="180" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="100" y="110" width="350" height="120" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="275" y="145" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Meaning-focused input</text>
+  <text x="275" y="177" text-anchor="middle" font-size="15" fill="#111111">reading, listening for meaning</text>
+  <text x="275" y="201" text-anchor="middle" font-size="15" fill="#111111">graded readers, podcasts</text>
+  <rect x="490" y="80" width="390" height="180" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="510" y="110" width="350" height="120" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="685" y="145" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Meaning-focused output</text>
+  <text x="685" y="177" text-anchor="middle" font-size="15" fill="#111111">speaking, writing to communicate</text>
+  <text x="685" y="201" text-anchor="middle" font-size="15" fill="#111111">conversation, messages</text>
+  <rect x="80" y="280" width="390" height="180" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="100" y="310" width="350" height="120" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="275" y="345" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Language-focused learning</text>
+  <text x="275" y="377" text-anchor="middle" font-size="15" fill="#111111">deliberate study of words, grammar</text>
+  <text x="275" y="401" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">SPACED REPETITION LIVES HERE</text>
+  <rect x="490" y="280" width="390" height="180" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="510" y="310" width="350" height="120" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="685" y="345" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Fluency development</text>
+  <text x="685" y="377" text-anchor="middle" font-size="15" fill="#111111">fast use of known language</text>
+  <text x="685" y="401" text-anchor="middle" font-size="15" fill="#111111">timed reading, repeated talks</text>
+  <text x="480" y="495" text-anchor="middle" font-size="15" fill="#111111">Roughly equal time for each strand is the usual recommendation.</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">After Paul Nation's framework for balanced language programmes.</text>
+</svg>

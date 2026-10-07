@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four uses of an AI summary</title>
+  <desc>Four boxes along a line from supports learning to replaces learning: orientation before reading, triage to choose what to read, review of material already understood, and substitute for reading. Under each box, what the learner still does.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What an AI summary is used for</text>
+
+  <line x1="60" y1="90" x2="900" y2="90" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="60" y="76" font-size="15" font-weight="bold" fill="#111111">Supports learning</text>
+  <text x="900" y="76" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Replaces learning</text>
+
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <rect x="40" y="120" width="200" height="120" rx="10" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="56" y="134" width="168" height="92" fill="#FFFFFF"/>
+    <text x="140" y="160" font-size="18" font-weight="bold">ORIENTATION</text>
+    <text x="140" y="186">a map of the field</text>
+    <text x="140" y="206">before reading</text>
+
+    <rect x="270" y="120" width="200" height="120" rx="10" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="286" y="134" width="168" height="92" fill="#FFFFFF"/>
+    <text x="370" y="160" font-size="18" font-weight="bold">TRIAGE</text>
+    <text x="370" y="186">choosing which</text>
+    <text x="370" y="206">sources to read</text>
+
+    <rect x="500" y="120" width="200" height="120" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="516" y="134" width="168" height="92" fill="#FFFFFF"/>
+    <text x="600" y="160" font-size="18" font-weight="bold">REVIEW</text>
+    <text x="600" y="186">refreshing what was</text>
+    <text x="600" y="206">read and understood</text>
+
+    <rect x="730" y="120" width="200" height="120" rx="10" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <rect x="746" y="134" width="168" height="92" fill="#FFFFFF"/>
+    <text x="830" y="160" font-size="18" font-weight="bold">SUBSTITUTE</text>
+    <text x="830" y="186">instead of reading</text>
+    <text x="830" y="206">the source</text>
+
+    <text x="140" y="280" font-weight="bold">Learner then:</text>
+    <text x="140" y="302">reads key sources</text>
+    <text x="140" y="322">with the map in mind</text>
+    <text x="370" y="280" font-weight="bold">Learner then:</text>
+    <text x="370" y="302">reads the chosen</text>
+    <text x="370" y="322">sources in full</text>
+    <text x="600" y="280" font-weight="bold">Learner then:</text>
+    <text x="600" y="302">recalls first, uses</text>
+    <text x="600" y="322">summary to check</text>
+    <text x="830" y="280" font-weight="bold">Learner then:</text>
+    <text x="830" y="302">relies on content</text>
+    <text x="830" y="322">never checked</text>
+  </g>
+  <rect x="140" y="370" width="680" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480" y="398" text-anchor="middle" font-size="16" fill="#111111">A summary saves reading time, not learning time.</text>
+  <text x="480" y="422" text-anchor="middle" font-size="16" fill="#111111">Substitution suits only low-stakes material that need not be understood.</text>
+</svg>

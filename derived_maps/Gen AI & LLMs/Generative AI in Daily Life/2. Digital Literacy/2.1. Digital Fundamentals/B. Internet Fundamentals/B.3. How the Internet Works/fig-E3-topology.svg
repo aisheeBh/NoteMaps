@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Shape of Internet interconnection</title>
+  <desc>Homes and businesses connect to access ISPs. Access ISPs buy transit from regional carriers, which buy transit from global backbone carriers. Networks also peer directly at an Internet exchange point. Content and cloud networks peer with access ISPs and place caches inside them.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">How networks interconnect</text>
+  <rect x="300" y="70" width="360" height="70" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480.0" y="100.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Global backbone carriers</text>
+  <text x="480.0" y="120.25" text-anchor="middle" font-size="15" fill="#FFFFFF">span continents; sell transit</text>
+  <rect x="60" y="200" width="250" height="70" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="185.0" y="230.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Regional carrier A</text>
+  <text x="185.0" y="250.25" text-anchor="middle" font-size="15" fill="#111111">national routes</text>
+  <rect x="650" y="200" width="250" height="70" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="775.0" y="230.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Regional carrier B</text>
+  <text x="775.0" y="250.25" text-anchor="middle" font-size="15" fill="#111111">national routes</text>
+  <rect x="355" y="210" width="250" height="70" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="380.125" y="225.25" width="199.75000000000003" height="21" fill="#FFFFFF"/>
+  <text x="480.0" y="240.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Internet exchange point</text>
+  <rect x="371.875" y="245.25" width="216.25000000000003" height="21" fill="#FFFFFF"/>
+  <text x="480.0" y="260.25" text-anchor="middle" font-size="15" fill="#111111">shared switch for peering</text>
+  <rect x="40" y="350" width="190" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="135.0" y="380.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Access ISP 1</text>
+  <text x="135.0" y="400.25" text-anchor="middle" font-size="15" fill="#111111">homes, offices</text>
+  <rect x="270" y="350" width="190" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="365.0" y="380.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Access ISP 2</text>
+  <text x="365.0" y="400.25" text-anchor="middle" font-size="15" fill="#111111">mobile users</text>
+  <rect x="500" y="350" width="190" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="595.0" y="380.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Access ISP 3</text>
+  <text x="595.0" y="400.25" text-anchor="middle" font-size="15" fill="#111111">fibre provider</text>
+  <rect x="730" y="350" width="190" height="70" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="774.625" y="365.25" width="100.75000000000001" height="21" fill="#FFFFFF"/>
+  <text x="825.0" y="380.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Content and</text>
+  <rect x="766.375" y="385.25" width="117.25000000000001" height="21" fill="#FFFFFF"/>
+  <text x="825.0" y="400.25" text-anchor="middle" font-size="15" fill="#111111">cloud network</text>
+  <rect x="60" y="480" width="840" height="50" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="480.0" y="510.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#222222">End users: homes, businesses, phones, devices</text>
+  <line x1="185" y1="198" x2="360" y2="142" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="775" y1="198" x2="600" y2="142" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="135" y1="348" x2="160" y2="272" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="365" y1="348" x2="230" y2="272" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="595" y1="348" x2="720" y2="272" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="365" y1="348" x2="430" y2="282" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <line x1="595" y1="348" x2="530" y2="282" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <line x1="825" y1="348" x2="590" y2="282" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <path d="M825 348 C 825 330 700 330 690 360" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <line x1="135" y1="478" x2="135" y2="422" stroke="#222222" stroke-width="2"/>
+  <line x1="365" y1="478" x2="365" y2="422" stroke="#222222" stroke-width="2"/>
+  <line x1="595" y1="478" x2="595" y2="422" stroke="#222222" stroke-width="2"/>
+  <line x1="825" y1="478" x2="825" y2="422" stroke="#222222" stroke-width="2"/>
+  <rect x="194.95" y="156" width="110.10000000000001" height="21" fill="#FFFFFF"/>
+  <text x="250" y="170" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">transit: paid</text>
+  <rect x="400.7" y="311" width="148.60000000000002" height="21" fill="#FFFFFF"/>
+  <text x="475" y="325" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">peering at the IXP</text>
+  <rect x="698.75" y="311" width="202.50000000000003" height="21" fill="#FFFFFF"/>
+  <text x="800" y="325" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">direct peering and caches</text>
+  <text x="480.0" y="585" text-anchor="middle" font-size="13" fill="#333333">Arrows point from a customer network to the provider it pays for transit; unarrowed links are peering. Simplified schematic.</text>
+</svg>

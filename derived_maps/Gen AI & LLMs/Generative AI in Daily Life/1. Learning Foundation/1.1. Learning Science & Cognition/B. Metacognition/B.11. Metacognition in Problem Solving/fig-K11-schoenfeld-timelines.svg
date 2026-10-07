@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Novice and expert problem-solving time-lines</title>
+  <desc>Two horizontal time-lines over twenty minutes. The novice reads briefly then spends almost the whole session exploring one approach with no monitoring and does not solve the problem. The expert alternates reading, analysis, exploration, planning, implementation and verification, with frequent monitoring points marked by triangles, and solves the problem.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Same twenty minutes, very different management</text>
+
+  <!-- time axis: x = 160 + minutes*36 (0..20 -> 160..880) -->
+  <line x1="160" y1="430" x2="880" y2="430" stroke="#222222" stroke-width="2"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="160" y="452">0</text><text x="340" y="452">5</text><text x="520" y="452">10</text><text x="700" y="452">15</text><text x="880" y="452">20 min</text>
+  </g>
+
+  <!-- novice -->
+  <text x="40" y="146" font-size="18" font-weight="bold" fill="#111111">NOVICE</text>
+  <text x="40" y="168" font-size="14" fill="#111111">not solved</text>
+  <rect x="160" y="120" width="36" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="196" y="120" width="684" height="60" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="420" y="136" width="260" height="28" fill="#FFFFFF"/>
+  <text x="550" y="156" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">explore one idea, unchecked</text>
+  <text x="178" y="206" text-anchor="middle" font-size="14" fill="#111111">read</text>
+
+  <!-- expert -->
+  <text x="40" y="306" font-size="18" font-weight="bold" fill="#111111">EXPERT</text>
+  <text x="40" y="328" font-size="14" fill="#111111">solved</text>
+  <!-- read 0-1.5 -->
+  <rect x="160" y="280" width="54" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <!-- analyse 1.5-6 -->
+  <rect x="214" y="280" width="162" height="60" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <!-- explore 6-9 -->
+  <rect x="376" y="280" width="108" height="60" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <!-- plan 9-12 -->
+  <rect x="484" y="280" width="108" height="60" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <!-- implement 12-17 -->
+  <rect x="592" y="280" width="180" height="60" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <!-- verify 17-20 -->
+  <rect x="772" y="280" width="108" height="60" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="187" y="366">read</text>
+    <text x="295" y="366">analyse</text>
+    <text x="430" y="366">explore</text>
+    <text x="538" y="366">plan</text>
+    <text x="682" y="366">implement</text>
+    <text x="826" y="366">verify</text>
+  </g>
+
+  <!-- monitoring markers (triangles) above expert -->
+  <g fill="#111111">
+    <path d="M232 262 L242 246 L252 262 Z"/>
+    <path d="M330 262 L340 246 L350 262 Z"/>
+    <path d="M410 262 L420 246 L430 262 Z"/>
+    <path d="M474 262 L484 246 L494 262 Z"/>
+    <path d="M580 262 L590 246 L600 262 Z"/>
+    <path d="M680 262 L690 246 L700 262 Z"/>
+    <path d="M790 262 L800 246 L810 262 Z"/>
+  </g>
+  <text x="520" y="236" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">monitoring points: "Is this working? Why am I doing it?"</text>
+  <text x="520" y="206" text-anchor="middle" font-size="14" fill="#111111">(none in the novice's session)</text>
+
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Schematic, after the episode time-lines reported by Schoenfeld (1985, 1992); durations are illustrative.</text>
+</svg>

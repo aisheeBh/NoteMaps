@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>IoT devices on a separate network segment</title>
+  <desc>A router connects to the internet and to two separate zones. The trusted zone holds laptops, phones and a file server. The IoT zone holds cameras, a thermostat, smart plugs, a television and a printer. Both zones can reach the internet. Traffic from the IoT zone into the trusted zone is blocked, so a compromised camera cannot reach the file server.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Separating connected devices from sensitive computers</text>
+
+  <rect x="400" y="70" width="160" height="50" rx="25" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="101" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Internet</text>
+  <rect x="400" y="170" width="160" height="60" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="480" y="197" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Router and</text>
+  <text x="480" y="217" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">firewall</text>
+  <line x1="480" y1="122" x2="480" y2="166" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  <!-- trusted -->
+  <rect x="60" y="290" width="360" height="200" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="80" y="305" width="320" height="170" fill="#FFFFFF"/>
+  <text x="240" y="333" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Trusted zone</text>
+  <text x="240" y="365" text-anchor="middle" font-size="15" fill="#111111">staff laptops and phones</text>
+  <text x="240" y="390" text-anchor="middle" font-size="15" fill="#111111">file server, accounts system</text>
+  <text x="240" y="430" text-anchor="middle" font-size="14" fill="#111111">holds sensitive data</text>
+
+  <!-- iot -->
+  <rect x="540" y="290" width="360" height="200" rx="10" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="560" y="305" width="320" height="170" fill="#FFFFFF"/>
+  <text x="720" y="333" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">IoT zone</text>
+  <text x="720" y="365" text-anchor="middle" font-size="15" fill="#111111">cameras, doorbell, thermostat</text>
+  <text x="720" y="390" text-anchor="middle" font-size="15" fill="#111111">smart plugs, television, printer</text>
+  <text x="720" y="430" text-anchor="middle" font-size="14" fill="#111111">internet access only</text>
+
+  <line x1="440" y1="232" x2="300" y2="286" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="520" y1="232" x2="660" y2="286" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- blocked -->
+  <line x1="536" y1="460" x2="426" y2="460" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+  <circle cx="481" cy="460" r="16" fill="#FFFFFF" stroke="#8B0000" stroke-width="3"/>
+  <line x1="470" y1="449" x2="492" y2="471" stroke="#8B0000" stroke-width="3"/>
+  <rect x="400" y="500" width="160" height="40" fill="#FFFFFF"/>
+  <text x="480" y="516" text-anchor="middle" font-size="14" fill="#111111">blocked: IoT cannot</text>
+  <text x="480" y="534" text-anchor="middle" font-size="14" fill="#111111">reach trusted zone</text>
+</svg>

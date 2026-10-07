@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Declarative, procedural and conditional knowledge</title>
+  <desc>A three-step staircase. The lowest step is declarative knowledge, knowing that a strategy exists. The middle step is procedural knowledge, knowing how to carry it out. The top step is conditional knowledge, knowing when and why to use it. Each step adds to the one below.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">From naming a strategy to judging when to use it</text>
+
+  <!-- step 1 -->
+  <rect x="60" y="360" width="280" height="120" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="200" y="392" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">DECLARATIVE</text>
+  <text x="200" y="416" text-anchor="middle" font-size="16" fill="#111111">knowing THAT</text>
+  <text x="200" y="444" text-anchor="middle" font-size="14" fill="#111111">"Self-testing improves</text>
+  <text x="200" y="462" text-anchor="middle" font-size="14" fill="#111111">memory."</text>
+
+  <!-- step 2 -->
+  <rect x="340" y="250" width="280" height="230" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="356" y="266" width="248" height="112" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="480" y="294" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">PROCEDURAL</text>
+  <text x="480" y="318" text-anchor="middle" font-size="16" fill="#111111">knowing HOW</text>
+  <text x="480" y="344" text-anchor="middle" font-size="14" fill="#111111">writing recall questions</text>
+  <text x="480" y="362" text-anchor="middle" font-size="14" fill="#111111">and answering unaided</text>
+
+  <!-- step 3 -->
+  <rect x="620" y="140" width="280" height="340" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="636" y="156" width="248" height="134" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="760" y="184" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">CONDITIONAL</text>
+  <text x="760" y="208" text-anchor="middle" font-size="16" fill="#111111">knowing WHEN and WHY</text>
+  <text x="760" y="234" text-anchor="middle" font-size="14" fill="#111111">use it for material needed</text>
+  <text x="760" y="252" text-anchor="middle" font-size="14" fill="#111111">for months; it works by</text>
+  <text x="760" y="270" text-anchor="middle" font-size="14" fill="#111111">strengthening retrieval</text>
+
+  <!-- rising arrow -->
+  <line x1="120" y1="320" x2="600" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="190" y="196" width="250" height="26" fill="#FFFFFF"/>
+  <text x="200" y="215" font-size="15" font-weight="bold" fill="#111111">growing usefulness in action</text>
+
+  <text x="480" y="515" text-anchor="middle" font-size="14" fill="#333333">After Paris, Lipson and Wixson (1983). Each form builds on the one below; novices often stop at the first.</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Sustainable new cards per day for a daily time budget</title>
+  <desc>A straight line relating minutes available per day to the number of new cards that can be added sustainably, assuming about eight seconds per review and about ten reviews per daily new card at steady state. Ten minutes supports about eight new cards a day, twenty minutes about fifteen, forty minutes about thirty.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Start from the time budget, not from ambition</text>
+  <line x1="150" y1="420" x2="860" y2="420" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="352" x2="860" y2="352" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="284" x2="860" y2="284" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="216" x2="860" y2="216" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="148" x2="860" y2="148" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="80" x2="860" y2="80" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="420" x2="870" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="150" y="444" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="268" y1="420" x2="268" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="268" y="444" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <line x1="387" y1="420" x2="387" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="387" y="444" text-anchor="middle" font-size="14" fill="#111111">20</text>
+  <line x1="505" y1="420" x2="505" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="505" y="444" text-anchor="middle" font-size="14" fill="#111111">30</text>
+  <line x1="623" y1="420" x2="623" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="623" y="444" text-anchor="middle" font-size="14" fill="#111111">40</text>
+  <line x1="742" y1="420" x2="742" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="742" y="444" text-anchor="middle" font-size="14" fill="#111111">50</text>
+  <line x1="860" y1="420" x2="860" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="860" y="444" text-anchor="middle" font-size="14" fill="#111111">60</text>
+  <line x1="144" y1="420" x2="150" y2="420" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="425" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="144" y1="352" x2="150" y2="352" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="357" text-anchor="end" font-size="14" fill="#111111">10</text>
+  <line x1="144" y1="284" x2="150" y2="284" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="289" text-anchor="end" font-size="14" fill="#111111">20</text>
+  <line x1="144" y1="216" x2="150" y2="216" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="221" text-anchor="end" font-size="14" fill="#111111">30</text>
+  <line x1="144" y1="148" x2="150" y2="148" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="153" text-anchor="end" font-size="14" fill="#111111">40</text>
+  <line x1="144" y1="80" x2="150" y2="80" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="85" text-anchor="end" font-size="14" fill="#111111">50</text>
+  <text x="505" y="472" text-anchor="middle" font-size="16" fill="#111111">Minutes available for review each day</text>
+  <text x="88" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 88 250)">Sustainable new cards per day</text>
+  <path d="M150.0 420.0 L164.5 413.8 L179.0 407.5 L193.5 401.3 L208.0 395.0 L222.4 388.8 L236.9 382.5 L251.4 376.3 L265.9 370.0 L280.4 363.8 L294.9 357.6 L309.4 351.3 L323.9 345.1 L338.4 338.8 L352.9 332.6 L367.3 326.3 L381.8 320.1 L396.3 313.8 L410.8 307.6 L425.3 301.3 L439.8 295.1 L454.3 288.9 L468.8 282.6 L483.3 276.4 L497.8 270.1 L512.2 263.9 L526.7 257.6 L541.2 251.4 L555.7 245.1 L570.2 238.9 L584.7 232.7 L599.2 226.4 L613.7 220.2 L628.2 213.9 L642.7 207.7 L657.1 201.4 L671.6 195.2 L686.1 188.9 L700.6 182.7 L715.1 176.4 L729.6 170.2 L744.1 164.0 L758.6 157.7 L773.1 151.5 L787.6 145.2 L802.0 139.0 L816.5 132.7 L831.0 126.5 L845.5 120.2 L860.0 114.0" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <circle cx="268" cy="369" r="6" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <rect x="278" y="379" width="205" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="284" y="395" text-anchor="start" font-size="14" fill="#111111">10 min: about 8 new cards</text>
+  <circle cx="387" cy="318" r="6" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <rect x="397" y="328" width="212" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="403" y="344" text-anchor="start" font-size="14" fill="#111111">20 min: about 15 new cards</text>
+  <circle cx="623" cy="216" r="6" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <rect x="633" y="226" width="212" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="639" y="242" text-anchor="start" font-size="14" fill="#111111">40 min: about 30 new cards</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Assumes about 8 seconds per review and about 10 daily reviews per daily new card once the deck is established.</text>
+</svg>

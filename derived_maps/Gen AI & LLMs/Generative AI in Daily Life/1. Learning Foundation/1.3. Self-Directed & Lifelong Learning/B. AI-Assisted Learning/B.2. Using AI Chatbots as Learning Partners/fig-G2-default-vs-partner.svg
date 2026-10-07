@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Default chatbot behaviour compared with a good learning partner</title>
+  <desc>Two columns of six paired behaviours. Default chatbot: answers at once, explains at length, rarely asks, agrees when pushed, sounds equally sure whether right or wrong, never fades help. Good learning partner: waits for an attempt, explains only what is missing, asks for reasoning, holds a correct position, signals uncertainty, withdraws help as competence grows.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What a chatbot does by default, and what a learner needs</text>
+
+  <rect x="40" y="60" width="380" height="460" rx="10" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="540" y="60" width="380" height="460" rx="10" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="60" y="72" width="340" height="34" fill="#FFFFFF"/>
+  <text x="230" y="96" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">DEFAULT CHATBOT</text>
+  <rect x="560" y="72" width="340" height="34" fill="#FFFFFF"/>
+  <text x="730" y="96" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">GOOD LEARNING PARTNER</text>
+
+  <g font-size="15" fill="#111111">
+    <rect x="60" y="124" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="76" y="155">Answers at once</text>
+    <rect x="60" y="188" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="76" y="219">Explains everything, at length</text>
+    <rect x="60" y="252" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="76" y="283">Rarely asks what the learner thinks</text>
+    <rect x="60" y="316" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="76" y="347">Agrees when the learner pushes back</text>
+    <rect x="60" y="380" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="76" y="411">Sounds equally sure, right or wrong</text>
+    <rect x="60" y="444" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="76" y="475">Never withdraws help</text>
+
+    <rect x="560" y="124" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="576" y="155">Waits for an attempt first</text>
+    <rect x="560" y="188" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="576" y="219">Explains only what is missing</text>
+    <rect x="560" y="252" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="576" y="283">Asks for the learner's reasoning</text>
+    <rect x="560" y="316" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="576" y="347">Holds a correct position</text>
+    <rect x="560" y="380" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="576" y="411">Signals uncertainty honestly</text>
+    <rect x="560" y="444" width="340" height="50" fill="#FFFFFF" stroke="#333333"/><text x="576" y="475">Fades help as skill grows</text>
+  </g>
+  <g stroke="#222222" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="410" y1="149" x2="550" y2="149"/>
+    <line x1="410" y1="213" x2="550" y2="213"/>
+    <line x1="410" y1="277" x2="550" y2="277"/>
+    <line x1="410" y1="341" x2="550" y2="341"/>
+    <line x1="410" y1="405" x2="550" y2="405"/>
+    <line x1="410" y1="469" x2="550" y2="469"/>
+  </g>
+  <text x="480" y="548" text-anchor="middle" font-size="15" fill="#111111">Role prompts, engagement rules and learning modes move the conversation from left to right.</text>
+</svg>

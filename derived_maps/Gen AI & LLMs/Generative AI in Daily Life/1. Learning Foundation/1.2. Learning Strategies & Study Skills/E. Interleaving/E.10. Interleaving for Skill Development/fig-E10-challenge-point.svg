@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Challenge point</title>
+  <desc>Schematic: learning as an inverted-U function of practice difficulty, with the peak further to the right for a skilled learner than for a beginner.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">The best amount of difficulty rises with skill</text>
+  <line x1="110" y1="420" x2="830" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="420" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="470.0" y="454" font-size="15" text-anchor="middle" fill="#111111">Difficulty of practice (blocked, serial, random, under pressure)</text>
+  <text x="70" y="250.0" font-size="16" text-anchor="middle" fill="#111111" transform="rotate(-90 70 250.0)">Learning</text>
+  <path d="M110.0 376.0 L117.2 370.7 L124.4 364.9 L131.6 358.6 L138.8 351.9 L146.0 344.8 L153.2 337.2 L160.4 329.3 L167.6 320.9 L174.8 312.2 L182.0 303.3 L189.2 294.0 L196.4 284.6 L203.6 275.0 L210.8 265.3 L218.0 255.7 L225.2 246.1 L232.4 236.7 L239.6 227.5 L246.8 218.7 L254.0 210.2 L261.2 202.3 L268.4 195.0 L275.6 188.3 L282.8 182.3 L290.0 177.2 L297.2 172.8 L304.4 169.4 L311.6 167.0 L318.8 165.5 L326.0 165.0 L333.2 165.5 L340.4 167.0 L347.6 169.4 L354.8 172.8 L362.0 177.2 L369.2 182.3 L376.4 188.3 L383.6 195.0 L390.8 202.3 L398.0 210.2 L405.2 218.7 L412.4 227.5 L419.6 236.7 L426.8 246.1 L434.0 255.7 L441.2 265.3 L448.4 275.0 L455.6 284.6 L462.8 294.0 L470.0 303.3 L477.2 312.2 L484.4 320.9 L491.6 329.3 L498.8 337.2 L506.0 344.8 L513.2 351.9 L520.4 358.6 L527.6 364.9 L534.8 370.7 L542.0 376.0 L549.2 381.0 L556.4 385.5 L563.6 389.6 L570.8 393.3 L578.0 396.7 L585.2 399.7 L592.4 402.4 L599.6 404.8 L606.8 406.9 L614.0 408.8 L621.2 410.4 L628.4 411.9 L635.6 413.1 L642.8 414.2 L650.0 415.1 L657.2 415.9 L664.4 416.6 L671.6 417.2 L678.8 417.7 L686.0 418.1 L693.2 418.4 L700.4 418.7 L707.6 418.9 L714.8 419.1 L722.0 419.3 L729.2 419.4 L736.4 419.6 L743.6 419.6 L750.8 419.7 L758.0 419.8 L765.2 419.8 L772.4 419.9 L779.6 419.9 L786.8 419.9 L794.0 419.9 L801.2 419.9 L808.4 420.0 L815.6 420.0 L822.8 420.0 L830.0 420.0" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M110.0 419.9 L117.2 419.9 L124.4 419.8 L131.6 419.8 L138.8 419.7 L146.0 419.7 L153.2 419.6 L160.4 419.5 L167.6 419.4 L174.8 419.3 L182.0 419.1 L189.2 418.9 L196.4 418.7 L203.6 418.4 L210.8 418.0 L218.0 417.6 L225.2 417.2 L232.4 416.6 L239.6 416.0 L246.8 415.2 L254.0 414.3 L261.2 413.3 L268.4 412.1 L275.6 410.8 L282.8 409.3 L290.0 407.5 L297.2 405.5 L304.4 403.3 L311.6 400.8 L318.8 398.0 L326.0 394.8 L333.2 391.4 L340.4 387.5 L347.6 383.2 L354.8 378.6 L362.0 373.5 L369.2 368.0 L376.4 362.0 L383.6 355.5 L390.8 348.6 L398.0 341.2 L405.2 333.3 L412.4 325.0 L419.6 316.2 L426.8 307.0 L434.0 297.5 L441.2 287.5 L448.4 277.3 L455.6 266.8 L462.8 256.1 L470.0 245.3 L477.2 234.4 L484.4 223.5 L491.6 212.7 L498.8 202.0 L506.0 191.6 L513.2 181.5 L520.4 171.8 L527.6 162.6 L534.8 154.0 L542.0 146.1 L549.2 138.9 L556.4 132.5 L563.6 127.0 L570.8 122.4 L578.0 118.7 L585.2 116.1 L592.4 114.5 L599.6 114.0 L606.8 114.5 L614.0 116.1 L621.2 118.7 L628.4 122.4 L635.6 127.0 L642.8 132.5 L650.0 138.9 L657.2 146.1 L664.4 154.0 L671.6 162.6 L678.8 171.8 L686.0 181.5 L693.2 191.6 L700.4 202.0 L707.6 212.7 L714.8 223.5 L722.0 234.4 L729.2 245.3 L736.4 256.1 L743.6 266.8 L750.8 277.3 L758.0 287.5 L765.2 297.5 L772.4 307.0 L779.6 316.2 L786.8 325.0 L794.0 333.3 L801.2 341.2 L808.4 348.6 L815.6 355.5 L822.8 362.0 L830.0 368.0" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <line x1="326.0" y1="420" x2="326.0" y2="165.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <line x1="599.6" y1="420" x2="599.6" y2="114.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="206.0" y="107.0" width="200" height="44" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="216.0" y="127.0" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Beginner</text>
+  <text x="216.0" y="145.0" font-size="14" text-anchor="start" fill="#111111">peak at low interference</text>
+  <rect x="700" y="66" width="220" height="44" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="710" y="86" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Skilled learner</text>
+  <text x="710" y="104" font-size="14" text-anchor="start" fill="#111111">peak at high interference</text>
+  <text x="130" y="410" font-size="14" text-anchor="start" fill="#111111" font-style="italic">too easy</text>
+  <text x="810" y="410" font-size="14" text-anchor="end" fill="#111111" font-style="italic">too hard</text>
+  <text x="480.0" y="525" font-size="13" text-anchor="middle" fill="#333333">Schematic after Guadagnoli and Lee's challenge point framework; not plotted from data.</text>
+</svg>

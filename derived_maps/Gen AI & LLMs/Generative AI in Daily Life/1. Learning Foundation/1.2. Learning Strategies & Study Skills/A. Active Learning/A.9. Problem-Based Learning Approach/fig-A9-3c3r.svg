@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>3C3R model</title>
+<desc>Two groups of three boxes. Core components: content, context, connection. Processing components: researching, reasoning, reflecting. Both feed a well-designed problem.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The 3C3R model of problem design</text>
+<text x="480.0" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">After Woei Hung (2006)</text>
+<rect x="330" y="220" width="300" height="80" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="480.0" y="254.89999999999998" font-size="17" text-anchor="middle" font-weight="normal" fill="#FFFFFF">A well-designed</text>
+<text x="480.0" y="277.0" font-size="17" text-anchor="middle" font-weight="normal" fill="#FFFFFF">PBL problem</text>
+<text x="150" y="100" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Core components</text>
+<text x="810" y="100" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Processing components</text>
+<rect x="40" y="120" width="220" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="150.0" y="160.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">CONTENT</text>
+<text x="150.0" y="180.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">knowledge it must lead to</text>
+<line x1="260" y1="165" x2="330" y2="260" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="240" width="220" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="150.0" y="280.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">CONTEXT</text>
+<text x="150.0" y="300.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">the realistic setting</text>
+<line x1="260" y1="285" x2="330" y2="260" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="360" width="220" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="150.0" y="400.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">CONNECTION</text>
+<text x="150.0" y="420.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">links to other concepts</text>
+<line x1="260" y1="405" x2="330" y2="260" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="700" y="120" width="220" height="90" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="711.25" y="141.5" width="197.50000000000003" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="810.0" y="160.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">RESEARCHING</text>
+<text x="810.0" y="180.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">what must be found out</text>
+<line x1="700" y1="165" x2="630" y2="260" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="700" y="240" width="220" height="90" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="708.0" y="261.5" width="204" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="810.0" y="280.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">REASONING</text>
+<text x="810.0" y="300.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">thinking needed to apply it</text>
+<line x1="700" y1="285" x2="630" y2="260" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="700" y="360" width="220" height="90" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="708.0" y="381.5" width="204" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="810.0" y="400.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">REFLECTING</text>
+<text x="810.0" y="420.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">evaluating what was learned</text>
+<line x1="700" y1="405" x2="630" y2="260" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

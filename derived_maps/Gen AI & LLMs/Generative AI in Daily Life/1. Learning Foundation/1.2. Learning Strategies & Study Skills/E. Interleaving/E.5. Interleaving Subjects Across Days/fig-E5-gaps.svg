@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Gaps between study of one subject</title>
+  <desc>Two six-week timelines. Blocked: economics studied every day in weeks one and two, then not until the exam. Rotation: economics studied every second or third day throughout.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">When is economics studied? Two six-week plans</text>
+  <text x="154" y="110" font-size="17" text-anchor="end" fill="#111111" font-weight="bold">Blocked</text>
+  <line x1="170" y1="126" x2="900" y2="126" stroke="#222222" stroke-width="2"/>
+  <rect x="172.0" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="196.33333333333334" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="220.66666666666666" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="245.0" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="269.3333333333333" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="293.6666666666667" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="318.0" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="342.33333333333337" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="366.66666666666663" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="391.0" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="415.33333333333337" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="439.6666666666667" y="94" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <line x1="170.0" y1="126" x2="170.0" y2="136" stroke="#222222" stroke-width="1.5"/>
+  <line x1="291.6666666666667" y1="126" x2="291.6666666666667" y2="136" stroke="#222222" stroke-width="1.5"/>
+  <line x1="413.33333333333337" y1="126" x2="413.33333333333337" y2="136" stroke="#222222" stroke-width="1.5"/>
+  <line x1="535.0" y1="126" x2="535.0" y2="136" stroke="#222222" stroke-width="1.5"/>
+  <line x1="656.6666666666667" y1="126" x2="656.6666666666667" y2="136" stroke="#222222" stroke-width="1.5"/>
+  <line x1="778.3333333333334" y1="126" x2="778.3333333333334" y2="136" stroke="#222222" stroke-width="1.5"/>
+  <line x1="900.0" y1="126" x2="900.0" y2="136" stroke="#222222" stroke-width="1.5"/>
+  <text x="154" y="240" font-size="17" text-anchor="end" fill="#111111" font-weight="bold">Rotation</text>
+  <line x1="170" y1="256" x2="900" y2="256" stroke="#222222" stroke-width="2"/>
+  <rect x="172.0" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="220.66666666666666" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="293.6666666666667" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="342.33333333333337" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="415.33333333333337" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="464.0" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="537.0" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="585.6666666666667" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="658.6666666666667" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="707.3333333333334" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="780.3333333333334" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="829.0" y="224" width="20.333333333333332" height="30" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <line x1="170.0" y1="256" x2="170.0" y2="266" stroke="#222222" stroke-width="1.5"/>
+  <line x1="291.6666666666667" y1="256" x2="291.6666666666667" y2="266" stroke="#222222" stroke-width="1.5"/>
+  <line x1="413.33333333333337" y1="256" x2="413.33333333333337" y2="266" stroke="#222222" stroke-width="1.5"/>
+  <line x1="535.0" y1="256" x2="535.0" y2="266" stroke="#222222" stroke-width="1.5"/>
+  <line x1="656.6666666666667" y1="256" x2="656.6666666666667" y2="266" stroke="#222222" stroke-width="1.5"/>
+  <line x1="778.3333333333334" y1="256" x2="778.3333333333334" y2="266" stroke="#222222" stroke-width="1.5"/>
+  <line x1="900.0" y1="256" x2="900.0" y2="266" stroke="#222222" stroke-width="1.5"/>
+  <text x="230.83333333333334" y="300" font-size="14" text-anchor="middle" fill="#111111">Week 1</text>
+  <text x="352.5" y="300" font-size="14" text-anchor="middle" fill="#111111">Week 2</text>
+  <text x="474.1666666666667" y="300" font-size="14" text-anchor="middle" fill="#111111">Week 3</text>
+  <text x="595.8333333333333" y="300" font-size="14" text-anchor="middle" fill="#111111">Week 4</text>
+  <text x="717.5" y="300" font-size="14" text-anchor="middle" fill="#111111">Week 5</text>
+  <text x="839.1666666666666" y="300" font-size="14" text-anchor="middle" fill="#111111">Week 6</text>
+  <line x1="466.0" y1="160" x2="896" y2="160" stroke="#222222" stroke-width="2" stroke-dasharray="10 6"/>
+  <rect x="500" y="146" width="300" height="26" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="650" y="165" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">more than three weeks with no study</text>
+  <text x="316.0" y="180" font-size="15" text-anchor="middle" fill="#111111">intense burst</text>
+  <rect x="170" y="330" width="26" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <text x="206" y="346" font-size="15" text-anchor="start" fill="#111111">a day on which economics is studied</text>
+  <text x="900" y="346" font-size="15" text-anchor="end" fill="#111111" font-style="italic">exam at end of week 6</text>
+  <text x="480" y="400" font-size="16" text-anchor="middle" fill="#111111">Same total days of economics in both plans; only their distribution differs.</text>
+  <text x="480.0" y="450" font-size="13" text-anchor="middle" fill="#333333">Illustrative schedule.</text>
+</svg>

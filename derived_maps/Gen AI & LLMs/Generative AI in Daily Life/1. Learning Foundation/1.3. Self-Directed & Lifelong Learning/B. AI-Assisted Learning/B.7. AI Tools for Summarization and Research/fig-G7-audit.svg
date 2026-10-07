@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Problems found in AI assistant news responses, 2025 audit</title>
+  <desc>Horizontal bars showing the share of more than 3,000 AI assistant responses with problems: 45% had at least one significant issue, 31% had significant sourcing problems, 20% had major accuracy problems and 14% lacked necessary context.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Share of AI news answers with significant problems</text>
+  <!-- scale: 0..60% => x 300..860 (9.333 px per %) -->
+  <line x1="300" y1="70" x2="300" y2="370" stroke="#222222" stroke-width="2"/>
+  <g font-size="16" fill="#111111">
+    <text x="285" y="112" text-anchor="end" font-weight="bold">Any significant issue</text>
+    <rect x="300" y="88" width="420" height="40" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5"/>
+    <text x="732" y="114" font-weight="bold">45%</text>
+
+    <text x="285" y="182" text-anchor="end">Sourcing problems</text>
+    <rect x="300" y="158" width="289" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="601" y="184">31%</text>
+
+    <text x="285" y="252" text-anchor="end">Major accuracy problems</text>
+    <rect x="300" y="228" width="187" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="499" y="254">20%</text>
+
+    <text x="285" y="322" text-anchor="end">Missing context</text>
+    <rect x="300" y="298" width="131" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="443" y="324">14%</text>
+  </g>
+  <line x1="300" y1="370" x2="860" y2="370" stroke="#222222" stroke-width="2"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="300" y="390">0%</text><text x="487" y="390">20%</text><text x="673" y="390">40%</text><text x="860" y="390">60%</text>
+  </g>
+  <text x="480" y="420" text-anchor="middle" font-size="14" fill="#111111">Categories overlap: one response can have several problems.</text>
+  <text x="480" y="444" text-anchor="middle" font-size="13" fill="#333333">Source: European Broadcasting Union and BBC audit of over 3,000 responses from four assistants, 18 countries, October 2025.</text>
+</svg>

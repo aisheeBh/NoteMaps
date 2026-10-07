@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Cloze deletion and image occlusion</title>
+  <desc>Left: a cloze card showing a sentence about breach notification with the number of hours hidden, and its answer. Right: an image occlusion card showing a three-tier web architecture diagram with the middle tier masked, and its answer.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Two ways to hide an answer inside its context</text>
+  <text x="240" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">CLOZE DELETION</text>
+  <rect x="40" y="100" width="400" height="170" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="60" y="126" font-size="13" font-weight="bold" fill="#111111">FRONT</text>
+  <text x="240" y="165" text-anchor="middle" font-size="16" fill="#111111">A personal-data breach must</text>
+  <text x="240" y="189" text-anchor="middle" font-size="16" fill="#111111">normally be reported to the</text>
+  <text x="240" y="213" text-anchor="middle" font-size="16" fill="#111111">supervisory authority within</text>
+  <rect x="195" y="226" width="90" height="30" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="300" y="247" font-size="16" fill="#111111">hours.</text>
+  <rect x="40" y="290" width="400" height="110" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="60" y="316" font-size="13" font-weight="bold" fill="#111111">BACK</text>
+  <text x="240" y="352" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">72 hours</text>
+  <text x="240" y="378" text-anchor="middle" font-size="14" fill="#111111">(the sentence stays as context)</text>
+  <text x="720" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">IMAGE OCCLUSION</text>
+  <rect x="520" y="100" width="400" height="300" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="540" y="126" font-size="13" font-weight="bold" fill="#111111">FRONT</text>
+  <rect x="620" y="140" width="200" height="50" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="720.0" y="170.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Browser</text>
+  <rect x="620" y="220" width="200" height="50" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="653.2" y="233" width="133.5" height="27" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="720" y="251" text-anchor="middle" font-size="15" fill="#111111">What sits here?</text>
+  <rect x="620" y="300" width="200" height="50" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="720.0" y="330.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Database</text>
+  <line x1="720" y1="190" x2="720" y2="218" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="720" y1="270" x2="720" y2="298" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="720" y="380" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Back: application server</text>
+  <text x="480" y="450" text-anchor="middle" font-size="15" fill="#111111">Both keep the hidden item in its setting, so recall is tied to how the knowledge is used.</text>
+  <text x="480" y="474" text-anchor="middle" font-size="15" fill="#111111">Risk: the shape of the sentence or picture can give the answer away.</text>
+</svg>

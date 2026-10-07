@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Error categories across three mock papers</title>
+  <desc>Grouped bars for five error categories across three mocks. Knowledge gap: 6, 4, 2. Misconception: 5, 4, 1. Misreading: 4, 1, 1. Slip: 2, 2, 1. Time pressure: 3, 1, 0. Misreading falls sharply after one change; misconceptions barely move until targeted contrast exercises after the second mock.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Which kinds of error are shrinking?</text>
+  <line x1="100" y1="420" x2="900" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <line x1="100" y1="420" x2="100" y2="80" stroke="#222222" stroke-width="2.5"/>
+  <g stroke="#DDDDDD" stroke-width="1">
+    <line x1="100" y1="370" x2="900" y2="370"/><line x1="100" y1="320" x2="900" y2="320"/>
+    <line x1="100" y1="270" x2="900" y2="270"/><line x1="100" y1="220" x2="900" y2="220"/>
+    <line x1="100" y1="170" x2="900" y2="170"/><line x1="100" y1="120" x2="900" y2="120"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="90" y="425">0</text><text x="90" y="375">1</text><text x="90" y="325">2</text><text x="90" y="275">3</text>
+    <text x="90" y="225">4</text><text x="90" y="175">5</text><text x="90" y="125">6</text>
+  </g>
+  <text x="44" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 44 250)">Number of errors</text>
+  <!-- groups: centres at 180, 340, 500, 660, 820; bar width 40 -->
+  <g stroke="#111111" stroke-width="1.5">
+    <rect x="120" y="120" width="40" height="300" fill="#FFFFFF"/><rect x="160" y="220" width="40" height="200" fill="url(#hatch)"/><rect x="200" y="320" width="40" height="100" fill="#1F3B5C"/>
+    <rect x="280" y="170" width="40" height="250" fill="#FFFFFF"/><rect x="320" y="220" width="40" height="200" fill="url(#hatch)"/><rect x="360" y="370" width="40" height="50" fill="#1F3B5C"/>
+    <rect x="440" y="220" width="40" height="200" fill="#FFFFFF"/><rect x="480" y="370" width="40" height="50" fill="url(#hatch)"/><rect x="520" y="370" width="40" height="50" fill="#1F3B5C"/>
+    <rect x="600" y="320" width="40" height="100" fill="#FFFFFF"/><rect x="640" y="320" width="40" height="100" fill="url(#hatch)"/><rect x="680" y="370" width="40" height="50" fill="#1F3B5C"/>
+    <rect x="760" y="270" width="40" height="150" fill="#FFFFFF"/><rect x="800" y="370" width="40" height="50" fill="url(#hatch)"/>
+  </g>
+  <line x1="840" y1="420" x2="880" y2="420" stroke="#1F3B5C" stroke-width="4"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="140" y="114">6</text><text x="180" y="214">4</text><text x="220" y="314">2</text>
+    <text x="300" y="164">5</text><text x="340" y="214">4</text><text x="380" y="364">1</text>
+    <text x="460" y="214">4</text><text x="500" y="364">1</text><text x="540" y="364">1</text>
+    <text x="620" y="314">2</text><text x="660" y="314">2</text><text x="700" y="364">1</text>
+    <text x="780" y="264">3</text><text x="820" y="364">1</text><text x="860" y="414">0</text>
+  </g>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="180" y="446">Knowledge gap</text><text x="340" y="446">Misconception</text><text x="500" y="446">Misreading</text>
+    <text x="660" y="446">Slip</text><text x="820" y="446">Time pressure</text>
+  </g>
+  <rect x="160" y="480" width="26" height="22" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <text x="194" y="497" font-size="14" fill="#111111">Mock 1</text>
+  <rect x="290" y="480" width="26" height="22" fill="url(#hatch)" stroke="#111111" stroke-width="1.5"/>
+  <text x="324" y="497" font-size="14" fill="#111111">Mock 2</text>
+  <rect x="420" y="480" width="26" height="22" fill="#1F3B5C" stroke="#111111" stroke-width="1.5"/>
+  <text x="454" y="497" font-size="14" fill="#111111">Mock 3</text>
+  <rect x="300" y="84" width="300" height="24" fill="url(#dots)" stroke="#7A5200" stroke-dasharray="8 4"/>
+  <rect x="306" y="88" width="288" height="16" fill="#FFFFFF"/>
+  <text x="450" y="101" text-anchor="middle" font-size="13" fill="#111111">misconceptions fell only after contrast exercises</text>
+  <text x="100" y="540" font-size="13" fill="#333333">Data from the trainee accountant's error log.</text>
+</svg>

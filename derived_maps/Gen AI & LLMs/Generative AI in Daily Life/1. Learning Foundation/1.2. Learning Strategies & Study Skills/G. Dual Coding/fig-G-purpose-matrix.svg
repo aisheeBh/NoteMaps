@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Purpose matrix for visuals</title>
+  <desc>A two-by-two matrix. Columns: goal is understanding (schematic visuals) or recognition (realistic visuals). Rows: visual provided or constructed by the learner. Provided and understanding: simplified labelled diagrams. Provided and recognition: many varied real images with feedback. Constructed and understanding: drawing diagrams from memory, then checking. Constructed and recognition: annotating real images and photographs with features.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Choose the visual by purpose and by who makes it</text>
+
+  <text x="390" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Goal: understanding</text>
+  <text x="390" y="100" text-anchor="middle" font-size="14" fill="#111111">schematic, simplified</text>
+  <text x="730" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Goal: recognition</text>
+  <text x="730" y="100" text-anchor="middle" font-size="14" fill="#111111">realistic, varied</text>
+  <text x="110" y="215" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Provided</text>
+  <text x="110" y="237" text-anchor="middle" font-size="14" fill="#111111">first encounters</text>
+  <text x="110" y="415" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Constructed</text>
+  <text x="110" y="437" text-anchor="middle" font-size="14" fill="#111111">consolidation</text>
+
+  <rect x="220" y="115" width="340" height="200" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="560" y="115" width="340" height="200" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <rect x="220" y="315" width="340" height="200" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <rect x="560" y="315" width="340" height="200" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+
+  <g font-size="16" fill="#111111" text-anchor="middle">
+    <text x="390" y="170" font-weight="bold">Simplified labelled diagrams</text>
+    <text x="390" y="198">labels where they apply;</text>
+    <text x="390" y="220">explained in speech</text>
+    <text x="390" y="262" font-style="italic" font-size="14">e.g. a schematic of the circulation</text>
+
+    <text x="730" y="170" font-weight="bold">Many varied real images</text>
+    <text x="730" y="198">quick classification</text>
+    <text x="730" y="220">with feedback</text>
+    <text x="730" y="262" font-style="italic" font-size="14">e.g. skin lesions, weld faults, X-rays</text>
+
+    <text x="390" y="370" font-weight="bold">Draw from memory, then check</text>
+    <text x="390" y="398">labelled links; explain aloud;</text>
+    <text x="390" y="420">redraw after days</text>
+    <text x="390" y="462" font-style="italic" font-size="14">e.g. a system's architecture sketch</text>
+
+    <text x="730" y="370" font-weight="bold">Annotate real cases</text>
+    <text x="730" y="398">mark the features that</text>
+    <text x="730" y="420">distinguish each case</text>
+    <text x="730" y="462" font-style="italic" font-size="14">e.g. circling indicators on a real email</text>
+  </g>
+  <rect x="220" y="535" width="680" height="40" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="560" y="561" text-anchor="middle" font-size="15" fill="#111111">Typical path: start in the top row, move to the bottom row as knowledge grows.</text>
+</svg>

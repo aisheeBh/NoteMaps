@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Transfer-appropriate processing</title>
+  <desc>Schematic of Morris, Bransford and Franks (1977): words processed for meaning were better recognised on a standard recognition test, but words processed for rhyme were better recognised on a rhyming recognition test, so the best encoding depends on the test.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">"Deep" is best only when the test asks for meaning</text>
+
+  <line x1="140" y1="430" x2="860" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <line x1="140" y1="430" x2="140" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="90" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 90 255)">Words recognised</text>
+
+  <text x="280" y="462" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Standard recognition test</text>
+  <text x="280" y="482" text-anchor="middle" font-size="14" fill="#111111">"Was this word on the list?"</text>
+  <text x="720" y="462" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Rhyming recognition test</text>
+  <text x="720" y="482" text-anchor="middle" font-size="14" fill="#111111">"Does this rhyme with a list word?"</text>
+
+  <!-- semantic encoding: solid -->
+  <line x1="280" y1="150" x2="720" y2="330" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="280" cy="150" r="8" fill="#1F3B5C"/>
+  <circle cx="720" cy="330" r="8" fill="#1F3B5C"/>
+  <!-- rhyme encoding: dashed -->
+  <line x1="280" y1="300" x2="720" y2="190" stroke="#222222" stroke-width="4" stroke-dasharray="10 6"/>
+  <rect x="272" y="292" width="16" height="16" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <rect x="712" y="182" width="16" height="16" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <rect x="300" y="100" width="250" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="312" y="120" font-size="15" font-weight="bold" fill="#111111">Processed for meaning</text>
+  <text x="312" y="137" font-size="14" fill="#111111">wins on the standard test</text>
+
+  <rect x="660" y="120" width="230" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="672" y="140" font-size="15" font-weight="bold" fill="#111111">Processed for rhyme</text>
+  <text x="672" y="157" font-size="14" fill="#111111">wins on the rhyme test</text>
+
+  <text x="480" y="535" text-anchor="middle" font-size="13" fill="#333333">Schematic of the reported crossover; positions are illustrative, not data.</text>
+</svg>

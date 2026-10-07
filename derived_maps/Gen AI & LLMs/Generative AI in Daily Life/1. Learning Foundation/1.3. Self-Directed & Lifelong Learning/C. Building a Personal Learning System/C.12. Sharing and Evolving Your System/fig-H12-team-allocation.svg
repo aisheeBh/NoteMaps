@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Allocation of a team's sixteen weekly learning hours</title>
+  <desc>Horizontal bars in person-hours per week: pairing on unfamiliar tasks 8; individual study of shared material 3; decision records and guide updates 2; talk attendance 2; preparing the monthly talk 1. Total 16.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Sixteen person-hours a week, by practice</text>
+  <text x="316" y="108" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Pairing on unfamiliar tasks</text>
+  <rect x="330" y="80" width="400" height="40" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="742" y="100" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">8 h</text>
+  <text x="742" y="118" text-anchor="start" font-size="13" fill="#111111">practice: socialisation</text>
+  <text x="316" y="178" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Individual study</text>
+  <rect x="330" y="150" width="150" height="40" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="492" y="170" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">3 h</text>
+  <text x="492" y="188" text-anchor="start" font-size="13" fill="#111111">input and practice: internalisation</text>
+  <text x="316" y="248" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Decision records and guides</text>
+  <rect x="330" y="220" width="100" height="40" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="442" y="240" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">2 h</text>
+  <text x="442" y="258" text-anchor="start" font-size="13" fill="#111111">output: externalisation, combination</text>
+  <text x="316" y="318" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Talk attendance</text>
+  <rect x="330" y="290" width="100" height="40" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="442" y="310" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">2 h</text>
+  <text x="442" y="328" text-anchor="start" font-size="13" fill="#111111">input</text>
+  <text x="316" y="388" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Preparing the monthly talk</text>
+  <rect x="330" y="360" width="50" height="40" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="392" y="380" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">1 h</text>
+  <text x="392" y="398" text-anchor="start" font-size="13" fill="#111111">output: externalisation</text>
+  <line x1="330" y1="70" x2="330" y2="430" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="455" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">8 people x 2 hours = 16 person-hours, about 5% of each person's week</text>
+</svg>

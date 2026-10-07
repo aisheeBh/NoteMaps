@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Storage and retrieval strength</title>
+  <desc>Two panels. Blocked: method retrieved repeatedly while highly accessible, small storage gains. Interleaved: method retrieved after partial forgetting, larger storage gains.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Easy repeats add little; effortful retrievals add more</text>
+  <rect x="40" y="70" width="420" height="430" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="250" y="98" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Blocked: A A A A</text>
+  <text x="60" y="130" font-size="14" text-anchor="start" fill="#111111">Retrieval strength before each use of method A</text>
+  <text x="60" y="330" font-size="14" text-anchor="start" fill="#111111">Gain in storage strength from each use</text>
+  <rect x="80" y="210.0" width="54" height="90.0" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="84" y="186.0" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="107" y="202.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">mid</text>
+  <rect x="80" y="392" width="54" height="78" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="107" y="490" font-size="14" text-anchor="middle" fill="#111111">use 1</text>
+  <rect x="172" y="157.5" width="54" height="142.5" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="176" y="133.5" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="199" y="149.5" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">high</text>
+  <rect x="172" y="444" width="54" height="26" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="199" y="490" font-size="14" text-anchor="middle" fill="#111111">use 2</text>
+  <rect x="264" y="154.5" width="54" height="145.5" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="268" y="130.5" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="291" y="146.5" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">high</text>
+  <rect x="264" y="449.2" width="54" height="20.8" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="291" y="490" font-size="14" text-anchor="middle" fill="#111111">use 3</text>
+  <rect x="356" y="153.0" width="54" height="147.0" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="360" y="129.0" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="383" y="145.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">high</text>
+  <rect x="356" y="451.8" width="54" height="18.2" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="383" y="490" font-size="14" text-anchor="middle" fill="#111111">use 4</text>
+  <line x1="60" y1="300" x2="440" y2="300" stroke="#222222" stroke-width="1.5"/>
+  <line x1="60" y1="470" x2="440" y2="470" stroke="#222222" stroke-width="1.5"/>
+  <text x="250" y="520" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Total storage gain: small</text>
+  <rect x="500" y="70" width="420" height="430" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="710" y="98" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Interleaved: A . . A . . A . . A</text>
+  <text x="520" y="130" font-size="14" text-anchor="start" fill="#111111">Retrieval strength before each use of method A</text>
+  <text x="520" y="330" font-size="14" text-anchor="start" fill="#111111">Gain in storage strength from each use</text>
+  <rect x="540" y="210.0" width="54" height="90.0" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="544" y="186.0" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="567" y="202.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">mid</text>
+  <rect x="540" y="392" width="54" height="78" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="567" y="490" font-size="14" text-anchor="middle" fill="#111111">use 1</text>
+  <rect x="632" y="237.0" width="54" height="63.0" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="636" y="213.0" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="659" y="229.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">low</text>
+  <rect x="632" y="360.8" width="54" height="109.2" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="659" y="490" font-size="14" text-anchor="middle" fill="#111111">use 2</text>
+  <rect x="724" y="225.0" width="54" height="75.0" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="728" y="201.0" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="751" y="217.0" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">mid</text>
+  <rect x="724" y="371.2" width="54" height="98.8" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="751" y="490" font-size="14" text-anchor="middle" fill="#111111">use 3</text>
+  <rect x="816" y="217.5" width="54" height="82.5" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="820" y="193.5" width="46" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="843" y="209.5" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">mid</text>
+  <rect x="816" y="376.4" width="54" height="93.60000000000001" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <text x="843" y="490" font-size="14" text-anchor="middle" fill="#111111">use 4</text>
+  <line x1="520" y1="300" x2="900" y2="300" stroke="#222222" stroke-width="1.5"/>
+  <line x1="520" y1="470" x2="900" y2="470" stroke="#222222" stroke-width="1.5"/>
+  <text x="710" y="520" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Total storage gain: larger</text>
+  <text x="480.0" y="566" font-size="13" text-anchor="middle" fill="#333333">Schematic based on Bjork and Bjork's new theory of disuse; bar heights are illustrative, not measured.</text>
+</svg>

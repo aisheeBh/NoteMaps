@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The recurring cycle of educational technology</title>
+  <desc>A schematic curve of expectations over time: a steep rise to a peak of inflated promise, a fall to disappointment when average results are modest, then a slow climb to a plateau of narrower but proven uses. A dashed line shows the much steadier growth of evidence-backed impact.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Promise and proof in educational technology</text>
+
+  <line x1="80" y1="460" x2="900" y2="460" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="80" y1="460" x2="80" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="890" y="488" text-anchor="end" font-size="15" fill="#111111">Time since a technology arrives</text>
+  <text x="60" y="270" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 60 270)">Expectations and impact</text>
+
+  <!-- Expectation curve -->
+  <path d="M90 440 C 160 420, 200 120, 260 110 C 320 100, 360 380, 440 390 C 520 400, 600 300, 880 270" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- Evidence-backed impact -->
+  <path d="M90 450 C 300 430, 500 360, 880 300" fill="none" stroke="#7A5200" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <!-- Labels -->
+  <rect x="270" y="80" width="250" height="50" fill="#FFFFFF"/>
+  <text x="280" y="100" font-size="15" font-weight="bold" fill="#111111">Inflated promise</text>
+  <text x="280" y="120" font-size="14" fill="#111111">"this will transform learning"</text>
+
+  <rect x="370" y="402" width="230" height="46" fill="#FFFFFF"/>
+  <text x="380" y="420" font-size="15" font-weight="bold" fill="#111111">Disappointment</text>
+  <text x="380" y="440" font-size="14" fill="#111111">average results modest</text>
+
+  <rect x="650" y="215" width="240" height="46" fill="#FFFFFF"/>
+  <text x="660" y="233" font-size="15" font-weight="bold" fill="#111111">Plateau of proven uses</text>
+  <text x="660" y="253" font-size="14" fill="#111111">narrower, well-designed</text>
+
+  <rect x="640" y="318" width="250" height="26" fill="#FFFFFF"/>
+  <text x="650" y="336" font-size="15" fill="#111111">Evidence-backed impact (dashed)</text>
+
+  <!-- Examples -->
+  <text x="100" y="512" font-size="14" fill="#111111">Repeated for radio, television, computers in schools, MOOCs, adaptive platforms and now generative AI.</text>
+  <text x="480" y="532" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

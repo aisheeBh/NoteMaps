@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Browser fingerprint</title>
+  <desc>Six ordinary attributes, each shared by many browsers: screen size, time zone, language, installed fonts, graphics hardware and browser version. Arrows lead to a combined fingerprint that may be unique.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Ordinary attributes combine into a near-unique fingerprint</text>
+  <rect x="40.0" y="80.0" width="260.0" height="80.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="170.0" y="114.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Screen 1920 x 1080</text>
+  <text x="170.0" y="134.2" text-anchor="middle" font-size="15" fill="#000000">very common</text>
+  <line x1="302.0" y1="120.0" x2="368.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="40.0" y="205.0" width="260.0" height="80.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="170.0" y="239.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Time zone UTC+05:30</text>
+  <text x="170.0" y="259.2" text-anchor="middle" font-size="15" fill="#000000">millions share it</text>
+  <line x1="302.0" y1="245.0" x2="368.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="40.0" y="330.0" width="260.0" height="80.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="170.0" y="364.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Language en-GB, hi</text>
+  <text x="170.0" y="384.2" text-anchor="middle" font-size="15" fill="#000000">common</text>
+  <line x1="302.0" y1="370.0" x2="368.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="660.0" y="80.0" width="260.0" height="80.0" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="716.8" y="97.8" width="146.5" height="45.0" fill="#FFFFFF"/>
+  <text x="790.0" y="114.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Installed fonts</text>
+  <text x="790.0" y="134.2" text-anchor="middle" font-size="15" fill="#111111">varies widely</text>
+  <line x1="658.0" y1="120.0" x2="592.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="660.0" y="205.0" width="260.0" height="80.0" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="699.4" y="222.8" width="181.3" height="45.0" fill="#FFFFFF"/>
+  <text x="790.0" y="239.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Graphics card model</text>
+  <text x="790.0" y="259.2" text-anchor="middle" font-size="15" fill="#111111">varies</text>
+  <line x1="658.0" y1="245.0" x2="592.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="660.0" y="330.0" width="260.0" height="80.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="790.0" y="364.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Browser and version</text>
+  <text x="790.0" y="384.2" text-anchor="middle" font-size="15" fill="#000000">common</text>
+  <line x1="658.0" y1="370.0" x2="592.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="370.0" y="240.0" width="220.0" height="110.0" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480.0" y="268.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Combined</text>
+  <text x="480.0" y="289.4" text-anchor="middle" font-size="16" fill="#FFFFFF">fingerprint</text>
+  <text x="480.0" y="310.2" text-anchor="middle" font-size="16" fill="#FFFFFF">often unique:</text>
+  <text x="480.0" y="331.0" text-anchor="middle" font-size="16" fill="#FFFFFF">no cookie needed</text>
+  <text x="480.0" y="490.0" text-anchor="middle" font-size="13" fill="#333333">Each attribute alone reveals little; together they can single out one browser among hundreds of thousands.</text>
+</svg>

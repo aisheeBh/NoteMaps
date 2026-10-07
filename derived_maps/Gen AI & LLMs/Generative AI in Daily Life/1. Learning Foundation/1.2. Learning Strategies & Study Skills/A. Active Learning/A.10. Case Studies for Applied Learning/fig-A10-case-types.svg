@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Case types matrix</title>
+<desc>A two-by-two matrix. Horizontal axis: outcome known versus outcome open. Vertical axis: purpose of building understanding versus building judgement. Case types placed in each quadrant.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Kinds of case by purpose and openness</text>
+<rect x="170" y="90" width="360" height="200" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="350.0" y="175.75" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">JUDGE A PAST DECISION</text>
+<text x="350.0" y="195.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Appraisal case</text>
+<text x="350.0" y="214.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">evaluate a decision already taken</text>
+<rect x="550" y="90" width="360" height="200" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="730.0" y="175.75" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">MAKE THE DECISION</text>
+<text x="730.0" y="195.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Decision case, live case</text>
+<text x="730.0" y="214.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">decide what to do now</text>
+<rect x="170" y="310" width="360" height="200" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="350.0" y="395.75" font-size="15" text-anchor="middle" font-weight="bold" fill="#222222">EXPLAIN WHAT HAPPENED</text>
+<text x="350.0" y="415.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#222222">Descriptive case, failure analysis</text>
+<text x="350.0" y="434.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#222222">how a principle or failure played out</text>
+<rect x="550" y="310" width="360" height="200" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="598.25" y="376.75" width="263.5" height="66.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="730.0" y="395.75" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">INTERPRET A MOMENT</text>
+<text x="730.0" y="415.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Critical incident</text>
+<text x="730.0" y="434.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">what was happening, what next?</text>
+<line x1="170" y1="545" x2="910" y2="545" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="540" y="572" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">OUTCOME KNOWN  to  OUTCOME OPEN</text>
+<line x1="130" y1="510" x2="130" y2="90" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="108" y="300" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111" transform="rotate(-90 108 300)">UNDERSTANDING  to  JUDGEMENT</text>
+</svg>

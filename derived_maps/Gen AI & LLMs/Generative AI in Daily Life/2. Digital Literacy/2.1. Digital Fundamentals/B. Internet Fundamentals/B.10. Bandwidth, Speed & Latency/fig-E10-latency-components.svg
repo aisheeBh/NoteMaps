@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Components of latency</title>
+  <desc>A stacked horizontal bar for a 60 ms round trip from an office to a cloud region: propagation 40 ms, queuing 12 ms, processing 5 ms, transmission 3 ms. A second bar for the same path when congested shows queuing rising to 150 ms.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where the milliseconds go (illustrative round trip)</text>
+  <text x="186" y="130" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Quiet network</text>
+  <rect x="200" y="100" width="128.0" height="48" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="239.75" y="116" width="48.5" height="21" fill="#FFFFFF"/>
+  <text x="264.0" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">40 ms</text>
+  <rect x="328.0" y="100" width="38.400000000000006" height="48" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="366.4" y="100" width="16.0" height="48" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="382.4" y="100" width="9.600000000000001" height="48" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="402.0" y="130" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">60 ms</text>
+  <text x="186" y="250" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Congested</text>
+  <rect x="200" y="220" width="128.0" height="48" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="239.75" y="236" width="48.5" height="21" fill="#FFFFFF"/>
+  <text x="264.0" y="250" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">40 ms</text>
+  <rect x="328.0" y="220" width="480.0" height="48" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="539.9" y="236" width="56.2" height="21" fill="#FFFFFF"/>
+  <text x="568.0" y="250" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">150 ms</text>
+  <rect x="808.0" y="220" width="16.0" height="48" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="824.0" y="220" width="9.600000000000001" height="48" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="843.6" y="250" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">198 ms</text>
+  <rect x="200" y="330" width="40" height="24" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="255" y="348" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Propagation</text>
+  <text x="385" y="348" text-anchor="start" font-size="15" fill="#111111">distance; fixed by physics</text>
+  <rect x="200" y="366" width="40" height="24" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="255" y="384" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Queuing</text>
+  <text x="385" y="384" text-anchor="start" font-size="15" fill="#111111">waiting in buffers; varies with load</text>
+  <rect x="200" y="402" width="40" height="24" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="255" y="420" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Processing</text>
+  <text x="385" y="420" text-anchor="start" font-size="15" fill="#111111">routers and servers</text>
+  <rect x="200" y="438" width="40" height="24" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="255" y="456" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Transmission</text>
+  <text x="385" y="456" text-anchor="start" font-size="15" fill="#111111">putting bits onto the link</text>
+  <text x="480.0" y="488" text-anchor="middle" font-size="13" fill="#333333">Illustrative values for a regional path; queuing is usually the most variable part.</text>
+</svg>

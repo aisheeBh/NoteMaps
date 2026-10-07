@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>One hour, two designs</title>
+<desc>Two horizontal bars of 60 minutes. Passive design: 55 minutes presenter, 5 minutes questions. Active design alternates short explanations with learner production and feedback.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">How the same hour is spent</text>
+<text x="185" y="175" font-size="16" text-anchor="end" font-weight="bold" fill="#111111">Passive design</text>
+<rect x="200" y="140" width="660" height="70" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="530.0" y="179.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#222222">Presenter explains: 55 min</text>
+<rect x="860" y="140" width="60" height="70" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="890.0" y="128" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Q&amp;A</text>
+<text x="185" y="315" font-size="16" text-anchor="end" font-weight="bold" fill="#111111">Active design</text>
+<rect x="200" y="280" width="96" height="70" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="248.0" y="319.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#222222">Explain</text>
+<rect x="296" y="280" width="84" height="70" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="338.0" y="319.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">Predict</text>
+<rect x="380" y="280" width="36" height="70" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="416" y="280" width="96" height="70" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="464.0" y="319.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#222222">Explain</text>
+<rect x="512" y="280" width="120" height="70" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="572.0" y="319.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">Solve in pairs</text>
+<rect x="632" y="280" width="48" height="70" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="680" y="280" width="108" height="70" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="734.0" y="319.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#222222">Explain</text>
+<rect x="788" y="280" width="96" height="70" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="836.0" y="319.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">Explain back</text>
+<rect x="884" y="280" width="36" height="70" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<line x1="200" y1="360" x2="200" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="200" y="386" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">0</text>
+<line x1="320" y1="360" x2="320" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="320" y="386" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">10</text>
+<line x1="440" y1="360" x2="440" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="440" y="386" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">20</text>
+<line x1="560" y1="360" x2="560" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="560" y="386" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">30</text>
+<line x1="680" y1="360" x2="680" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="680" y="386" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">40</text>
+<line x1="800" y1="360" x2="800" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="800" y="386" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">50</text>
+<line x1="920" y1="360" x2="920" y2="368" stroke="#333333" stroke-width="1.5"/>
+<text x="920" y="386" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">60</text>
+<line x1="200" y1="360" x2="920" y2="360" stroke="#333333" stroke-width="1.5"/>
+<text x="560" y="410" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">minutes</text>
+<rect x="200" y="70" width="22" height="22" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="230" y="87" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">learners receive</text>
+<rect x="380" y="70" width="22" height="22" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="410" y="87" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">learners produce</text>
+<rect x="560" y="70" width="22" height="22" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="590" y="87" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">feedback on learner thinking</text>
+<text x="480.0" y="440" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Illustrative session plans.</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Main parts and sensors of a typical smartphone</title>
+  <desc>A phone outline with labelled regions. At the top, front camera, proximity and light sensors and earpiece. In the upper body, the system-on-a-chip with memory and storage, and the modem. The battery fills the middle and lower body. At the bottom, the USB-C port, microphone and speaker. Labels on the left list radios and the SIM; labels on the right list motion and position sensors and the secure element.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What is inside a smartphone</text>
+
+  <rect x="380" y="60" width="200" height="520" rx="30" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <!-- top strip -->
+  <rect x="400" y="80" width="160" height="40" rx="8" fill="#E6E6E6" stroke="#666666"/>
+  <circle cx="480" cy="100" r="7" fill="#111111"/>
+  <!-- SoC -->
+  <rect x="400" y="135" width="160" height="90" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="480" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">System-on-a-chip</text>
+  <text x="480" y="188" text-anchor="middle" font-size="13" fill="#FFFFFF">CPU, GPU, NPU,</text>
+  <text x="480" y="206" text-anchor="middle" font-size="13" fill="#FFFFFF">memory, storage</text>
+  <!-- battery -->
+  <rect x="400" y="240" width="160" height="250" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="420" y="350" width="120" height="30" fill="#FFFFFF"/>
+  <text x="480" y="371" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Battery</text>
+  <!-- bottom -->
+  <rect x="400" y="505" width="160" height="55" rx="8" fill="url(#hatch)" stroke="#1F3B5C"/>
+  <rect x="420" y="520" width="120" height="26" fill="#FFFFFF"/>
+  <text x="480" y="538" text-anchor="middle" font-size="13" fill="#111111">USB-C, mic, speaker</text>
+
+  <!-- left labels -->
+  <g font-size="15" fill="#111111" text-anchor="end">
+    <text x="340" y="96" font-weight="bold">Front camera,</text>
+    <text x="340" y="116">proximity and light sensors</text>
+    <text x="340" y="176" font-weight="bold">Modem and radios</text>
+    <text x="340" y="196">mobile, Wi-Fi, Bluetooth,</text>
+    <text x="340" y="216">NFC, GNSS, ultra-wideband</text>
+    <text x="340" y="300" font-weight="bold">SIM or eSIM</text>
+    <text x="340" y="320">subscriber identity</text>
+    <text x="340" y="420" font-weight="bold">Antennas</text>
+    <text x="340" y="440">in the frame edges</text>
+  </g>
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="345" y1="100" x2="398" y2="100"/>
+    <line x1="345" y1="185" x2="398" y2="185"/>
+    <line x1="345" y1="305" x2="398" y2="305"/>
+    <line x1="345" y1="425" x2="380" y2="425"/>
+  </g>
+  <!-- right labels -->
+  <g font-size="15" fill="#111111">
+    <text x="620" y="96" font-weight="bold">Rear cameras</text>
+    <text x="620" y="116">several lenses (on the back)</text>
+    <text x="620" y="176" font-weight="bold">Secure element</text>
+    <text x="620" y="196">payment keys, biometrics</text>
+    <text x="620" y="300" font-weight="bold">Motion and position</text>
+    <text x="620" y="320">accelerometer, gyroscope,</text>
+    <text x="620" y="340">magnetometer, barometer</text>
+    <text x="620" y="440" font-weight="bold">Display and touch layer</text>
+    <text x="620" y="460">covering the whole front</text>
+  </g>
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="562" y1="100" x2="615" y2="100"/>
+    <line x1="562" y1="185" x2="615" y2="185"/>
+    <line x1="562" y1="315" x2="615" y2="315"/>
+    <line x1="582" y1="450" x2="615" y2="450"/>
+  </g>
+  <text x="920" y="605" text-anchor="end" font-size="13" fill="#111111">Schematic; positions vary between models.</text>
+</svg>

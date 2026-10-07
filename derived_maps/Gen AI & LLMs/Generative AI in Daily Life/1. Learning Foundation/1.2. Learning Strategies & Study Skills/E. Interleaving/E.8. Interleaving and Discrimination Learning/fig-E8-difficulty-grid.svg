@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Difficulty grid</title>
+  <desc>Two by two grid: between-category similarity low or high against within-category variability low or high, with the schedule each tends to favour.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">What makes categories hard to learn?</text>
+  <rect x="250" y="280" width="330" height="200" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="415.0" y="357.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Easy</text>
+  <text x="415.0" y="381.0" font-size="15" text-anchor="middle" fill="#111111">dissimilar, consistent</text>
+  <text x="415.0" y="401.0" font-size="15" text-anchor="middle" fill="#111111">e.g. apples versus bananas</text>
+  <text x="415.0" y="421.0" font-size="15" text-anchor="middle" fill="#111111">any schedule works</text>
+  <rect x="580" y="280" width="330" height="200" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="604.4" y="337.0" width="281.2" height="90" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="745.0" y="357.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Hard to tell apart</text>
+  <text x="745.0" y="381.0" font-size="15" text-anchor="middle" fill="#111111">similar, consistent</text>
+  <text x="745.0" y="401.0" font-size="15" text-anchor="middle" fill="#111111">e.g. two near-identical forms</text>
+  <text x="745.0" y="421.0" font-size="15" text-anchor="middle" fill="#111111">interleave or compare side by side</text>
+  <rect x="250" y="80" width="330" height="200" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="288.2" y="137.0" width="253.60000000000002" height="90" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="415.0" y="157.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Hard to see the category</text>
+  <text x="415.0" y="181.0" font-size="15" text-anchor="middle" fill="#111111">dissimilar, variable</text>
+  <text x="415.0" y="201.0" font-size="15" text-anchor="middle" fill="#111111">e.g. many faces of one disease</text>
+  <text x="415.0" y="221.0" font-size="15" text-anchor="middle" fill="#111111">blocking can help first</text>
+  <rect x="580" y="80" width="330" height="200" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="3.5"/>
+  <rect x="616.1" y="137.0" width="257.8" height="90" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="745.0" y="157.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Hardest</text>
+  <text x="745.0" y="181.0" font-size="15" text-anchor="middle" fill="#111111">similar and variable</text>
+  <text x="745.0" y="201.0" font-size="15" text-anchor="middle" fill="#111111">e.g. painters of one school</text>
+  <text x="745.0" y="221.0" font-size="15" text-anchor="middle" fill="#111111">interleave with varied examples</text>
+  <text x="415.0" y="510" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Low between-category similarity</text>
+  <text x="745.0" y="510" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">High between-category similarity</text>
+  <text x="234" y="180.0" font-size="15" text-anchor="end" fill="#111111" font-weight="bold">High within-</text>
+  <text x="234" y="200.0" font-size="15" text-anchor="end" fill="#111111" font-weight="bold">category variability</text>
+  <text x="234" y="380.0" font-size="15" text-anchor="end" fill="#111111" font-weight="bold">Low within-</text>
+  <text x="234" y="400.0" font-size="15" text-anchor="end" fill="#111111" font-weight="bold">category variability</text>
+  <text x="480.0" y="580" font-size="13" text-anchor="middle" fill="#333333">Conceptual summary of findings on similarity and schedule; the quadrant boundaries are not sharp.</text>
+</svg>

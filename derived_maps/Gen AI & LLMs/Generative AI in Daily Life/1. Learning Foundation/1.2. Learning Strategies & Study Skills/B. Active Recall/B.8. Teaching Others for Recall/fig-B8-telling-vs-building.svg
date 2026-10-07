@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Knowledge-telling versus knowledge-building</title>
+  <desc>Two columns. Knowledge-telling: tutee asks a shallow question, tutor restates the textbook, little new learning for the tutor. Knowledge-building: tutee asks why or shows confusion, tutor infers, connects and checks, producing new understanding for the tutor.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Two ways a teacher can explain</text>
+  <rect x="60" y="70" width="400" height="50" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="260.0" y="101.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#222222">KNOWLEDGE-TELLING</text>
+  <rect x="60" y="140" width="400" height="74" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="260" y="172" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Learner asks:</text>
+  <text x="260" y="194" text-anchor="middle" font-size="15" fill="#111111">'What is the formula?'</text>
+  <line x1="260" y1="214" x2="260" y2="236" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="60" y="236" width="400" height="74" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="260" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teacher:</text>
+  <text x="260" y="290" text-anchor="middle" font-size="15" fill="#111111">restates it as learned</text>
+  <line x1="260" y1="310" x2="260" y2="332" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="60" y="332" width="400" height="74" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="260" y="364" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teacher's thinking:</text>
+  <text x="260" y="386" text-anchor="middle" font-size="15" fill="#111111">retrieval of the same words</text>
+  <line x1="260" y1="406" x2="260" y2="428" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="60" y="428" width="400" height="74" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="260" y="460" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teacher's gain:</text>
+  <text x="260" y="482" text-anchor="middle" font-size="15" fill="#111111">little</text>
+  <rect x="500" y="70" width="400" height="50" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="700.0" y="101.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">KNOWLEDGE-BUILDING</text>
+  <rect x="500" y="140" width="400" height="74" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="700" y="172" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Learner asks:</text>
+  <text x="700" y="194" text-anchor="middle" font-size="15" fill="#111111">'Why does it work that way?'</text>
+  <line x1="700" y1="214" x2="700" y2="236" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="500" y="236" width="400" height="74" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="700" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teacher:</text>
+  <text x="700" y="290" text-anchor="middle" font-size="15" fill="#111111">infers, connects, tests an example</text>
+  <line x1="700" y1="310" x2="700" y2="332" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="500" y="332" width="400" height="74" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="700" y="364" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teacher's thinking:</text>
+  <text x="700" y="386" text-anchor="middle" font-size="15" fill="#111111">new links, errors noticed and fixed</text>
+  <line x1="700" y1="406" x2="700" y2="428" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="500" y="428" width="400" height="74" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="580" y="442" width="240" height="46" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="700" y="460" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teacher's gain:</text>
+  <text x="700" y="482" text-anchor="middle" font-size="15" fill="#111111">substantial</text>
+  <text x="480.0" y="545" text-anchor="middle" font-size="13" fill="#333333">Distinction from Roscoe and Chi (2007); deep questions and visible confusion trigger knowledge-building.</text>
+</svg>

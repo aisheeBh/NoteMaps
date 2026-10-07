@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Downtime permitted by availability level</title>
+  <desc>Bars on a logarithmic scale of hours per year: 99 percent allows about 87.6 hours, 99.9 percent 8.76 hours, 99.95 percent 4.38 hours, 99.99 percent about 53 minutes, 99.999 percent about 5 minutes.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Each extra nine cuts permitted downtime by ten</text>
+  <text x="186" y="120" text-anchor="end" font-size="17" font-weight="bold" fill="#111111">99%</text>
+  <rect x="200" y="98" width="590.1435610573853" height="34" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="813.8935610573853" y="106" width="92.5" height="22" fill="#FFFFFF"/>
+  <text x="860.1435610573853" y="121" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">87.6 hours</text>
+  <text x="186" y="192" text-anchor="end" font-size="17" font-weight="bold" fill="#111111">99.9%</text>
+  <rect x="200" y="170" width="418.7149896288138" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="642.4649896288138" y="178" width="92.5" height="22" fill="#FFFFFF"/>
+  <text x="688.7149896288138" y="193" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">8.76 hours</text>
+  <text x="186" y="264" text-anchor="end" font-size="17" font-weight="bold" fill="#111111">99.95%</text>
+  <rect x="200" y="242" width="367.10984751498853" height="34" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="590.8598475149886" y="250" width="92.5" height="22" fill="#FFFFFF"/>
+  <text x="637.1098475149886" y="265" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">4.38 hours</text>
+  <text x="186" y="336" text-anchor="end" font-size="17" font-weight="bold" fill="#111111">99.99%</text>
+  <rect x="200" y="314" width="247.28641820024242" height="34" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="462.78641820024245" y="322" width="109.00000000000001" height="22" fill="#FFFFFF"/>
+  <text x="517.2864182002425" y="337" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">52.6 minutes</text>
+  <text x="186" y="408" text-anchor="end" font-size="17" font-weight="bold" fill="#111111">99.999%</text>
+  <rect x="200" y="386" width="75.85784677167099" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="295.482846771671" y="394" width="100.75000000000001" height="22" fill="#FFFFFF"/>
+  <text x="345.857846771671" y="409" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">5.3 minutes</text>
+  <line x1="200" y1="85" x2="200" y2="455" stroke="#222222" stroke-width="2"/>
+  <text x="80" y="250" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 80 250)">Availability</text>
+  <text x="500" y="480" text-anchor="middle" font-size="15" fill="#111111">Permitted downtime per year (logarithmic scale)</text>
+  <text x="480.0" y="525" text-anchor="middle" font-size="13" fill="#333333">Downtime = (1 - availability) x 8,760 hours.</text>
+</svg>

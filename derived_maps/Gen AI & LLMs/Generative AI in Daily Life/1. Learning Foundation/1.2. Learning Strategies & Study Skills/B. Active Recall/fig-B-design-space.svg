@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The design space of recall methods</title>
+  <desc>A grid with cue support on the horizontal axis, from high support on the left to low support on the right, and grain on the vertical axis, from single items at the bottom to whole structures at the top. Method types are placed: recognition quizzes bottom left, cards and short questions bottom middle, cue-free questions bottom right, structured summaries top middle, blank-page recall and diagrams top right, explaining and teaching top far right, scenario recall middle right.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Two of the dimensions: cue support and grain</text>
+  <rect x="120" y="80" width="780" height="420" rx="0" fill="#FAFAFA" stroke="#333333" stroke-width="1.5"/>
+  <rect x="549.0" y="80" width="351.0" height="210.0" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <line x1="120" y1="500" x2="910" y2="500" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="120" y1="500" x2="120" y2="70" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="120" y="528" font-size="14" fill="#111111">high support</text>
+  <text x="900" y="528" text-anchor="end" font-size="14" fill="#111111">low support</text>
+  <text x="510" y="552" text-anchor="middle" font-size="16" fill="#111111">Cue support: from options shown to a heading only</text>
+  <text x="98" y="300" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 98 300)">Grain: single item to whole structure</text>
+  <rect x="150" y="412" width="160" height="56" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="230.0" y="435.9" text-anchor="middle" font-size="14" fill="#222222">Recognition</text>
+  <text x="230.0" y="453.9" text-anchor="middle" font-size="14" fill="#222222">quiz</text>
+  <rect x="340" y="412" width="160" height="56" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="420.0" y="435.9" text-anchor="middle" font-size="14" fill="#000000">Cards and short</text>
+  <text x="420.0" y="453.9" text-anchor="middle" font-size="14" fill="#000000">questions</text>
+  <rect x="580" y="412" width="160" height="56" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="660.0" y="435.9" text-anchor="middle" font-size="14" fill="#000000">Cue-free, reworded</text>
+  <text x="660.0" y="453.9" text-anchor="middle" font-size="14" fill="#000000">questions</text>
+  <rect x="700" y="302" width="160" height="56" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="780.0" y="325.9" text-anchor="middle" font-size="14" fill="#000000">Scenario</text>
+  <text x="780.0" y="343.9" text-anchor="middle" font-size="14" fill="#000000">recall</text>
+  <rect x="340" y="172" width="160" height="56" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="420.0" y="195.9" text-anchor="middle" font-size="14" fill="#000000">Summary from</text>
+  <text x="420.0" y="213.9" text-anchor="middle" font-size="14" fill="#000000">memory</text>
+  <rect x="570" y="102" width="160" height="56" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="650.0" y="125.9" text-anchor="middle" font-size="14" fill="#FFFFFF">Blank page or</text>
+  <text x="650.0" y="143.9" text-anchor="middle" font-size="14" fill="#FFFFFF">diagram from memory</text>
+  <rect x="740" y="182" width="160" height="56" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="820.0" y="205.9" text-anchor="middle" font-size="14" fill="#FFFFFF">Explaining or</text>
+  <text x="820.0" y="223.9" text-anchor="middle" font-size="14" fill="#FFFFFF">teaching</text>
+  <rect x="170" y="192" width="160" height="56" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="250.0" y="215.9" text-anchor="middle" font-size="14" fill="#222222">Copying an</text>
+  <text x="250.0" y="233.9" text-anchor="middle" font-size="14" fill="#222222">outline</text>
+  <rect x="645.3" y="258" width="159.4" height="25" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="725" y="274" text-anchor="middle" font-size="13" fill="#111111">most demanding region</text>
+  <text x="480.0" y="588" text-anchor="middle" font-size="13" fill="#333333">Placement is approximate; output channel, audience and timing are further dimensions not shown.</text>
+</svg>

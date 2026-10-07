@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A metro-map roadmap: specialist lines sharing foundation stations</title>
+  <desc>Three lines start together at shared foundation stations: networking and Linux, scripting, and cloud core services. At an interchange they split. The platform line continues to infrastructure as code and pipelines. The security line continues to identity and access and threat detection. The data line continues to storage and data pipelines. Each line ends at its own destination role.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Metro view: shared stations, separate destinations</text>
+  <polyline points="80,262 440,262" fill="none" stroke="#1F3B5C" stroke-width="5"/>
+  <polyline points="80,270 440,270" fill="none" stroke="#1F3B5C" stroke-width="5" stroke-dasharray="12 6"/>
+  <polyline points="80,278 440,278" fill="none" stroke="#1F3B5C" stroke-width="5" stroke-dasharray="3 5"/>
+  <polyline points="440,262 470,262 590,140 840,140" fill="none" stroke="#1F3B5C" stroke-width="6"/>
+  <polyline points="440,270 840,270" fill="none" stroke="#1F3B5C" stroke-width="6" stroke-dasharray="12 6"/>
+  <polyline points="440,278 470,278 590,400 840,400" fill="none" stroke="#1F3B5C" stroke-width="6" stroke-dasharray="3 5"/>
+  <circle cx="100" cy="270" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="100" y="306" text-anchor="middle" font-size="14" fill="#111111">Networking</text>
+  <text x="100" y="324" text-anchor="middle" font-size="14" fill="#111111">and Linux</text>
+  <circle cx="220" cy="270" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="220" y="306" text-anchor="middle" font-size="14" fill="#111111">Scripting</text>
+  <circle cx="340" cy="270" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="340" y="306" text-anchor="middle" font-size="14" fill="#111111">Cloud core</text>
+  <text x="340" y="324" text-anchor="middle" font-size="14" fill="#111111">services</text>
+  <circle cx="440" cy="270" r="16" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <text x="440" y="306" text-anchor="middle" font-size="14" fill="#111111">Interchange:</text>
+  <text x="440" y="324" text-anchor="middle" font-size="14" fill="#111111">choose a line</text>
+  <circle cx="640" cy="140" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="640" y="98" text-anchor="middle" font-size="14" fill="#111111">Infrastructure</text>
+  <text x="640" y="116" text-anchor="middle" font-size="14" fill="#111111">as code</text>
+  <circle cx="760" cy="140" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="760" y="116" text-anchor="middle" font-size="14" fill="#111111">Pipelines</text>
+  <rect x="846" y="126" width="28" height="28" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="860" y="176" text-anchor="middle" font-size="14" fill="#111111"></text>
+  <text x="860" y="186" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Platform engineer</text>
+  <circle cx="640" cy="270" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="640" y="306" text-anchor="middle" font-size="14" fill="#111111">Identity</text>
+  <text x="640" y="324" text-anchor="middle" font-size="14" fill="#111111">and access</text>
+  <circle cx="760" cy="270" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="760" y="306" text-anchor="middle" font-size="14" fill="#111111">Threat</text>
+  <text x="760" y="324" text-anchor="middle" font-size="14" fill="#111111">detection</text>
+  <rect x="846" y="256" width="28" height="28" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="860" y="306" text-anchor="middle" font-size="14" fill="#111111"></text>
+  <text x="860" y="316" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Cloud security</text>
+  <circle cx="640" cy="400" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="640" y="436" text-anchor="middle" font-size="14" fill="#111111">Storage</text>
+  <text x="640" y="454" text-anchor="middle" font-size="14" fill="#111111">design</text>
+  <circle cx="760" cy="400" r="10" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="760" y="436" text-anchor="middle" font-size="14" fill="#111111">Data</text>
+  <text x="760" y="454" text-anchor="middle" font-size="14" fill="#111111">pipelines</text>
+  <rect x="846" y="386" width="28" height="28" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="860" y="436" text-anchor="middle" font-size="14" fill="#111111"></text>
+  <text x="860" y="446" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Data engineer</text>
+  <text x="700" y="168" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">PLATFORM LINE</text>
+  <text x="700" y="254" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">SECURITY LINE</text>
+  <text x="700" y="386" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">DATA LINE</text>
+  <rect x="70" y="340" width="300" height="110" rx="8" fill="#FFFFFF" stroke="#555555" stroke-width="1.2"/>
+  <text x="86" y="366" text-anchor="start" font-size="14" fill="#111111">Stations: milestones of evidence</text>
+  <text x="86" y="390" text-anchor="start" font-size="14" fill="#111111">Interchange: shared skills, a choice</text>
+  <text x="86" y="414" text-anchor="start" font-size="14" fill="#111111">Squares: destination roles</text>
+  <text x="86" y="438" text-anchor="start" font-size="14" fill="#111111">Shared track: common foundations</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Items recalled over the minutes of a brain dump</title>
+  <desc>Schematic cumulative recall curve: rapid rise in the first minutes, flattening to an apparent stop; a dashed continuation shows further items recovered after self-prompts, while the dotted line shows stopping at the first pause.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Recall slows, stops - and restarts with prompts</text>
+  <line x1="120" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="440" x2="120" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510.0" y="474" text-anchor="middle" font-size="16" fill="#111111"></text>
+  <text x="62" y="260.0" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 260.0)">Items written (cumulative)</text>
+  <text x="510" y="490" text-anchor="middle" font-size="16" fill="#111111">Minutes into the dump</text>
+  <text x="120" y="460" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="270" y="460" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <text x="420" y="460" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <text x="570" y="460" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <text x="720" y="460" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <text x="870" y="460" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <path d="M120.0 440.0 L127.5 423.6 L135.0 408.3 L142.5 393.8 L150.0 380.3 L157.5 367.5 L165.0 355.6 L172.5 344.3 L180.0 333.8 L187.5 323.8 L195.0 314.5 L202.5 305.8 L210.0 297.5 L217.5 289.8 L225.0 282.6 L232.5 275.7 L240.0 269.3 L247.5 263.3 L255.0 257.7 L262.5 252.3 L270.0 247.4 L277.5 242.7 L285.0 238.3 L292.5 234.1 L300.0 230.2 L307.5 226.6 L315.0 223.2 L322.5 219.9 L330.0 216.9 L337.5 214.1 L345.0 211.4 L352.5 208.9 L360.0 206.5 L367.5 204.3 L375.0 202.2 L382.5 200.3 L390.0 198.5 L397.5 196.7 L405.0 195.1 L412.5 193.6 L420.0 192.2 L427.5 190.8 L435.0 189.6 L442.5 188.4 L450.0 187.3 L457.5 186.2 L465.0 185.2 L472.5 184.3 L480.0 183.4 L487.5 182.6 L495.0 181.9" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M495 181.9 L870 181.9" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="2 4"/>
+  <path d="M495.0 181.9 L502.5 175.1 L510.0 168.8 L517.5 162.8 L525.0 157.3 L532.5 152.1 L540.0 147.2 L547.5 142.7 L555.0 138.5 L562.5 134.5 L570.0 130.8 L577.5 127.3 L585.0 124.0 L592.5 121.0 L600.0 118.2 L607.5 115.5 L615.0 113.0 L622.5 110.7 L630.0 108.5 L637.5 106.4 L645.0 104.5 L652.5 102.8 L660.0 101.1 L667.5 99.5 L675.0 98.1 L682.5 96.7 L690.0 95.4 L697.5 94.2 L705.0 93.1 L712.5 92.1 L720.0 91.1 L727.5 90.2 L735.0 89.3 L742.5 88.5 L750.0 87.7 L757.5 87.0 L765.0 86.4 L772.5 85.8 L780.0 85.2 L787.5 84.7 L795.0 84.2 L802.5 83.7 L810.0 83.2 L817.5 82.8 L825.0 82.5 L832.5 82.1 L840.0 81.8 L847.5 81.4 L855.0 81.1 L862.5 80.9 L870.0 80.6" fill="none" stroke="#222222" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <circle cx="495" cy="181.9" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="428.5" y="193" width="133.0" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="495" y="210" text-anchor="middle" font-size="14" fill="#111111">first stop:</text>
+  <text x="495" y="228" text-anchor="middle" font-size="14" fill="#111111">mind seems empty</text>
+  <rect x="608.2" y="125" width="223.7" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="720" y="142" text-anchor="middle" font-size="14" fill="#111111">self-prompts: parts, causes,</text>
+  <text x="720" y="160" text-anchor="middle" font-size="14" fill="#111111">examples, exceptions</text>
+  <rect x="698.4" y="198" width="163.2" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="780" y="215" text-anchor="middle" font-size="14" fill="#111111">stopping here</text>
+  <text x="780" y="233" text-anchor="middle" font-size="14" fill="#111111">loses the late items</text>
+  <rect x="256.0" y="363" width="148.1" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="330" y="380" text-anchor="middle" font-size="14" fill="#111111">fast start:</text>
+  <text x="330" y="398" text-anchor="middle" font-size="14" fill="#111111">best-learned items</text>
+  <text x="480.0" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic; the shape reflects typical free-recall patterns, not a single dataset.</text>
+</svg>

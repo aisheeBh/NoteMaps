@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Review workload against desired retention</title>
+  <desc>A curve of relative review frequency for an item, rising slowly between 70% and 90% desired retention and then very steeply towards 99%. Marked points at 80%, 90% and 95% are labelled fewer reviews with more forgetting, a common default, and high-stakes facts.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The last few points of retention are the most expensive</text>
+  <line x1="110" y1="460" x2="900" y2="460" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="110" y1="460" x2="110" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="110.0" y1="460" x2="110.0" y2="467" stroke="#222222" stroke-width="2"/><text x="110.0" y="486" text-anchor="middle" font-size="14" fill="#111111">70%</text><line x1="375.5" y1="460" x2="375.5" y2="467" stroke="#222222" stroke-width="2"/><text x="375.5" y="486" text-anchor="middle" font-size="14" fill="#111111">80%</text><line x1="641.0" y1="460" x2="641.0" y2="467" stroke="#222222" stroke-width="2"/><text x="641.0" y="486" text-anchor="middle" font-size="14" fill="#111111">90%</text><line x1="773.8" y1="460" x2="773.8" y2="467" stroke="#222222" stroke-width="2"/><text x="773.8" y="486" text-anchor="middle" font-size="14" fill="#111111">95%</text><line x1="880.0" y1="460" x2="880.0" y2="467" stroke="#222222" stroke-width="2"/><text x="880.0" y="486" text-anchor="middle" font-size="14" fill="#111111">99%</text>
+  <text x="500" y="514" text-anchor="middle" font-size="16" fill="#111111">Desired retention</text>
+  <text x="40" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 40 270)">Reviews per item per month</text>
+  <text x="100" y="88" text-anchor="end" font-size="14" fill="#111111">more</text>
+  <text x="100" y="450" text-anchor="end" font-size="14" fill="#111111">fewer</text>
+  <polyline points="110.0,452.6 123.3,452.4 136.6,452.2 149.8,451.9 163.1,451.7 176.4,451.5 189.7,451.2 202.9,450.9 216.2,450.7 229.5,450.4 242.8,450.1 256.0,449.8 269.3,449.4 282.6,449.1 295.9,448.8 309.1,448.4 322.4,448.0 335.7,447.6 349.0,447.2 362.2,446.7 375.5,446.3 388.8,445.8 402.1,445.3 415.3,444.7 428.6,444.2 441.9,443.6 455.2,442.9 468.4,442.2 481.7,441.5 495.0,440.7 508.3,439.9 521.6,439.0 534.8,438.1 548.1,437.1 561.4,436.0 574.7,434.8 587.9,433.5 601.2,432.1 614.5,430.6 627.8,428.9 641.0,427.1 654.3,425.1 667.6,422.8 680.9,420.3 694.1,417.5 707.4,414.3 720.7,410.6 734.0,406.4 747.2,401.4 760.5,395.6 773.8,388.6 787.1,380.0 800.3,369.3 813.6,355.5 826.9,337.2 840.2,311.5 853.4,272.9 866.7,208.6 880.0,80.0" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="375.5" cy="446.3" r="7" fill="#000000"/><rect x="125.5" y="410.3" width="240" height="24" fill="#FFFFFF"/><text x="361.5" y="428.3" text-anchor="end" font-size="15" fill="#111111">Fewer reviews, more forgetting</text><circle cx="641.0" cy="427.1" r="7" fill="#000000"/><rect x="391.0" y="391.1" width="240" height="24" fill="#FFFFFF"/><text x="627.0" y="409.1" text-anchor="end" font-size="15" fill="#111111">A common default</text><circle cx="773.8" cy="388.6" r="7" fill="#000000"/><rect x="523.8" y="352.6" width="240" height="24" fill="#FFFFFF"/><text x="759.8" y="370.6" text-anchor="end" font-size="15" fill="#111111">High-stakes facts</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Relative review rate for one item from the FSRS interval formula; ignores lapses, so real workloads differ. Schematic of shape, not of exact counts.</text>
+</svg>

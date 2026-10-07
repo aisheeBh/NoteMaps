@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>What the four answer buttons mean</title>
+  <desc>Four buttons. Again: the answer was not recalled; the card is relearned and its interval shrinks. Hard: recalled with serious effort; a slightly longer interval than before. Good: recalled with normal effort; the standard interval increase. Easy: recalled instantly; a much longer interval.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Four answer buttons and what each tells the scheduler</text>
+  <rect x="50" y="90" width="200" height="70" rx="10" fill="url(#lines)" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <rect x="100" y="105" width="100" height="40" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="150" y="132" text-anchor="middle" font-size="20" fill="#111111" font-weight="bold">Again</text>
+  <rect x="50" y="190" width="200" height="90" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="230" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Meaning</text>
+  <text x="150" y="249" text-anchor="middle" font-size="14" fill="#111111">not recalled, or wrong</text>
+  <rect x="50" y="310" width="200" height="100" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="346" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Effect</text>
+  <text x="150" y="365" text-anchor="middle" font-size="14" fill="#111111">relearn soon;</text>
+  <text x="150" y="384" text-anchor="middle" font-size="14" fill="#111111">interval shrinks</text>
+  <rect x="270" y="90" width="200" height="70" rx="10" fill="url(#dots)" stroke="#7A5200" stroke-width="3" stroke-dasharray="8 4"/>
+  <rect x="320" y="105" width="100" height="40" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="370" y="132" text-anchor="middle" font-size="20" fill="#111111" font-weight="bold">Hard</text>
+  <rect x="270" y="190" width="200" height="90" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="370" y="230" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Meaning</text>
+  <text x="370" y="249" text-anchor="middle" font-size="14" fill="#111111">recalled, with real struggle</text>
+  <rect x="270" y="310" width="200" height="100" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="370" y="346" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Effect</text>
+  <text x="370" y="365" text-anchor="middle" font-size="14" fill="#111111">a little longer</text>
+  <text x="370" y="384" text-anchor="middle" font-size="14" fill="#111111">than last time</text>
+  <rect x="490" y="90" width="200" height="70" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="540" y="105" width="100" height="40" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="590" y="132" text-anchor="middle" font-size="20" fill="#111111" font-weight="bold">Good</text>
+  <rect x="490" y="190" width="200" height="90" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="590" y="230" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Meaning</text>
+  <text x="590" y="249" text-anchor="middle" font-size="14" fill="#111111">recalled with normal effort</text>
+  <rect x="490" y="310" width="200" height="100" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="590" y="346" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Effect</text>
+  <text x="590" y="365" text-anchor="middle" font-size="14" fill="#111111">standard growth:</text>
+  <text x="590" y="384" text-anchor="middle" font-size="14" fill="#111111">the usual choice</text>
+  <rect x="710" y="90" width="200" height="70" rx="10" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="760" y="105" width="100" height="40" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="810" y="132" text-anchor="middle" font-size="20" fill="#111111" font-weight="bold">Easy</text>
+  <rect x="710" y="190" width="200" height="90" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="810" y="230" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Meaning</text>
+  <text x="810" y="249" text-anchor="middle" font-size="14" fill="#111111">recalled instantly, trivially</text>
+  <rect x="710" y="310" width="200" height="100" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="810" y="346" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Effect</text>
+  <text x="810" y="365" text-anchor="middle" font-size="14" fill="#111111">much longer;</text>
+  <text x="810" y="384" text-anchor="middle" font-size="14" fill="#111111">use sparingly</text>
+  <text x="480" y="455" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Passing grades are Hard, Good and Easy. Any failure to recall is Again.</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Effects are qualitative; exact intervals depend on the scheduler and the card's history.</text>
+</svg>

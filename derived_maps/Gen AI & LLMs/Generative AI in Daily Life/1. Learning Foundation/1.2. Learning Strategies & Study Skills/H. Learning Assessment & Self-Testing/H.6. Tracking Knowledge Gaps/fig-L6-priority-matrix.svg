@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Gap priority matrix</title>
+  <desc>A two by two matrix. Horizontal axis: current strength, weak to strong. Vertical axis: importance to the role, low to high. Important and weak: close first. Important and strong: maintain with periodic checks. Less important and weak: schedule later or accept. Less important and strong: leave. Example elements from a data-engineering role are placed in each quadrant.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Which gaps to close first</text>
+  <rect x="180" y="70" width="340" height="220" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="520" y="70" width="340" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="180" y="290" width="340" height="220" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="520" y="290" width="340" height="220" fill="#F2F2F2" stroke="#666666" stroke-width="1.5"/>
+  <g font-size="15" fill="#111111">
+    <rect x="205" y="95" width="290" height="170" fill="#FFFFFF" stroke="#8B0000"/>
+    <text x="350" y="122" text-anchor="middle" font-size="18" font-weight="bold">Close first</text>
+    <text x="220" y="150">important and weak</text>
+    <text x="220" y="180">e.g. card-data handling rules;</text>
+    <text x="220" y="200">backfill procedure;</text>
+    <text x="220" y="220">disaster recovery</text>
+    <rect x="545" y="95" width="290" height="170" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+    <text x="690" y="122" text-anchor="middle" font-size="18" font-weight="bold">Maintain</text>
+    <text x="560" y="150">important and strong</text>
+    <text x="560" y="180">e.g. ingestion architecture;</text>
+    <text x="560" y="200">on-call escalation</text>
+    <text x="560" y="230">periodic re-checks only</text>
+    <rect x="205" y="315" width="290" height="170" fill="#FFFFFF" stroke="#7A5200"/>
+    <text x="350" y="342" text-anchor="middle" font-size="18" font-weight="bold">Schedule later</text>
+    <text x="220" y="370">less important and weak</text>
+    <text x="220" y="400">e.g. warehouse cost controls</text>
+    <text x="220" y="430">close when time allows,</text>
+    <text x="220" y="450">or accept the gap</text>
+    <rect x="545" y="315" width="290" height="170" fill="#FFFFFF" stroke="#666666"/>
+    <text x="690" y="342" text-anchor="middle" font-size="18" font-weight="bold">Leave</text>
+    <text x="560" y="370">less important and strong</text>
+    <text x="560" y="400">no study time needed;</text>
+    <text x="560" y="420">resist the comfort of</text>
+    <text x="560" y="440">revisiting it</text>
+  </g>
+  <text x="350" y="540" text-anchor="middle" font-size="16" fill="#111111">Weak</text>
+  <text x="690" y="540" text-anchor="middle" font-size="16" fill="#111111">Strong</text>
+  <text x="520" y="575" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Current demonstrated strength</text>
+  <text x="165" y="185" text-anchor="end" font-size="16" fill="#111111">High</text>
+  <text x="165" y="405" text-anchor="end" font-size="16" fill="#111111">Lower</text>
+  <text x="50" y="290" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111" transform="rotate(-90 50 290)">Importance and cost of error</text>
+</svg>

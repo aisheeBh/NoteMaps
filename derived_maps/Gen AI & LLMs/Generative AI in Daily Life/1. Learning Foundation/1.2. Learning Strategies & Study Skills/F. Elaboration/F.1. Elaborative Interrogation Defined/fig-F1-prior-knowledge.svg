@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Prior knowledge and the benefit of elaborative interrogation</title>
+  <desc>Schematic: recall after reading only and after answering why-questions, for low and high prior knowledge. Both rise with knowledge; the gap from why-questions is larger at high knowledge, and high-knowledge readers who only read still beat low-knowledge questioners.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Why-questions pay off most where the learner already knows something</text>
+
+  <line x1="110" y1="450" x2="900" y2="450" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="450" x2="110" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="60" y="265" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 265)">Facts recalled later</text>
+
+  <!-- groups -->
+  <text x="300" y="480" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Facts from an unfamiliar domain</text>
+  <text x="300" y="500" text-anchor="middle" font-size="14" fill="#111111">(low prior knowledge)</text>
+  <text x="700" y="480" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Facts from a familiar domain</text>
+  <text x="700" y="500" text-anchor="middle" font-size="14" fill="#111111">(high prior knowledge)</text>
+
+  <!-- bars low -->
+  <rect x="200" y="380" width="80" height="70" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="320" y="330" width="80" height="120" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <!-- bars high -->
+  <rect x="600" y="260" width="80" height="190" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="720" y="140" width="80" height="310" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="240" y="370">read only</text>
+    <rect x="300" y="296" width="120" height="24" fill="#FFFFFF"/>
+    <text x="360" y="313">asked why</text>
+    <text x="640" y="250">read only</text>
+    <rect x="700" y="106" width="120" height="24" fill="#FFFFFF"/>
+    <text x="760" y="123">asked why</text>
+  </g>
+
+  <!-- gap annotations -->
+  <line x1="420" y1="380" x2="420" y2="330" stroke="#222222" stroke-width="1.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="432" y="360" font-size="14" fill="#111111">smaller gain</text>
+  <line x1="820" y1="260" x2="820" y2="140" stroke="#222222" stroke-width="1.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="832" y="205" font-size="14" fill="#111111">larger</text>
+  <text x="832" y="223" font-size="14" fill="#111111">gain</text>
+
+  <rect x="440" y="150" width="230" height="64" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="452" y="174" font-size="14" fill="#111111">Knowledgeable readers who</text>
+  <text x="452" y="192" font-size="14" fill="#111111">only read still beat novices</text>
+  <text x="452" y="210" font-size="14" fill="#111111">who asked why</text>
+
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Woloshyn, Pressley and Schneider (1992); bar heights are illustrative, not data.</text>
+</svg>

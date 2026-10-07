@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Measurement error bands around a pass mark</title>
+  <desc>A score axis from 40 to 100 with a pass mark at 70. Three candidates are shown with 95 percent bands of about plus or minus 6 points. Candidate A scores 62 with a band from 56 to 68, wholly below the pass mark. Candidate B scores 68 with a band from 62 to 74, straddling the pass mark. Candidate C scores 80 with a band from 74 to 86, wholly above it.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Test score with SD 10 and reliability 0.90: SEM about 3.2 points</text>
+  <line x1="120" y1="420" x2="840" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <line x1="120" y1="420" x2="120" y2="428" stroke="#222222" stroke-width="2"/><text x="120" y="448">40</text>
+    <line x1="240" y1="420" x2="240" y2="428" stroke="#222222" stroke-width="2"/><text x="240" y="448">50</text>
+    <line x1="360" y1="420" x2="360" y2="428" stroke="#222222" stroke-width="2"/><text x="360" y="448">60</text>
+    <line x1="480" y1="420" x2="480" y2="428" stroke="#222222" stroke-width="2"/><text x="480" y="448">70</text>
+    <line x1="600" y1="420" x2="600" y2="428" stroke="#222222" stroke-width="2"/><text x="600" y="448">80</text>
+    <line x1="720" y1="420" x2="720" y2="428" stroke="#222222" stroke-width="2"/><text x="720" y="448">90</text>
+    <line x1="840" y1="420" x2="840" y2="428" stroke="#222222" stroke-width="2"/><text x="840" y="448">100</text>
+  </g>
+  <text x="480" y="478" text-anchor="middle" font-size="16" fill="#111111">Observed score</text>
+  <line x1="480" y1="70" x2="480" y2="420" stroke="#111111" stroke-width="3"/>
+  <rect x="490" y="70" width="110" height="24" fill="#FFFFFF"/>
+  <text x="495" y="88" font-size="16" font-weight="bold" fill="#111111">Pass mark 70</text>
+  <rect x="312" y="130" width="144" height="40" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="384" cy="150" r="8" fill="#111111"/>
+  <text x="300" y="155" text-anchor="end" font-size="16" fill="#111111">Candidate A: 62</text>
+  <text x="300" y="175" text-anchor="end" font-size="14" fill="#111111">clear fail</text>
+  <rect x="384" y="230" width="144" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="456" cy="250" r="8" fill="#111111"/>
+  <text x="372" y="255" text-anchor="end" font-size="16" fill="#111111">Candidate B: 68</text>
+  <text x="540" y="246" font-size="14" fill="#111111">band straddles the pass mark:</text>
+  <text x="540" y="264" font-size="14" fill="#111111">true score may be above 70</text>
+  <rect x="528" y="330" width="144" height="40" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <circle cx="600" cy="350" r="8" fill="#111111"/>
+  
+  <text x="684" y="355" font-size="16" fill="#111111">Candidate C: 80, clear pass</text>
+  <text x="120" y="512" font-size="13" fill="#333333">Each band spans the observed score plus or minus about 6 points (2 SEM), roughly a 95% range for the true score.</text>
+</svg>

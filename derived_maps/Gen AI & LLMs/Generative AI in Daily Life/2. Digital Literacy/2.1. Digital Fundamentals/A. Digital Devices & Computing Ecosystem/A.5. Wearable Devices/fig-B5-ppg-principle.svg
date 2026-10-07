@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How an optical heart-rate sensor works</title>
+  <desc>Left: cross-section of a watch on the wrist. A light source shines into the skin; light reflects from tissue and blood vessels back to a photodetector. Right: the detected signal rises and falls with each heartbeat; counting peaks per minute gives heart rate. A noisy section shows how arm movement corrupts the signal.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Photoplethysmography: counting pulses with light</text>
+
+  <!-- watch cross-section -->
+  <rect x="60" y="100" width="340" height="60" rx="10" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="230" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">watch body</text>
+  <rect x="140" y="160" width="40" height="16" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <rect x="280" y="160" width="40" height="16" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="150" y="198" text-anchor="end" font-size="14" fill="#111111">light</text>
+  <text x="318" y="198" text-anchor="start" font-size="14" fill="#111111">detector</text>
+  <!-- skin -->
+  <rect x="60" y="210" width="340" height="230" fill="#F2F2F2" stroke="#555555"/>
+  <text x="72" y="232" font-size="14" fill="#111111">skin and tissue</text>
+  <ellipse cx="230" cy="360" rx="110" ry="28" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="170" y="349" width="120" height="22" fill="#FFFFFF"/>
+  <text x="230" y="365" text-anchor="middle" font-size="14" fill="#111111">blood vessel</text>
+  <path d="M160 180 L215 330" fill="none" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M245 330 L300 182" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="72" y="400" width="316" height="30" fill="#FFFFFF"/>
+  <text x="230" y="420" text-anchor="middle" font-size="14" fill="#111111">more blood in each pulse → less light returns</text>
+
+  <!-- signal -->
+  <line x1="470" y1="400" x2="920" y2="400" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="470" y1="400" x2="470" y2="100" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="690" y="440" text-anchor="middle" font-size="15" fill="#111111">time (seconds)</text>
+  <text x="440" y="250" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 440 250)">detected signal</text>
+  <path d="M470 280 C 490 280, 495 180, 510 180 C 525 180, 530 280, 560 280 C 580 280, 585 180, 600 180 C 615 180, 620 280, 650 280 C 670 280, 675 180, 690 180 C 705 180, 710 280, 740 280" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <path d="M740 280 L752 210 L762 330 L774 160 L786 300 L798 230 L810 340 L822 190 L834 290 L846 250 L858 320 L880 260" fill="none" stroke="#8B0000" stroke-width="3" stroke-dasharray="2 4"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="510" y="170">beat</text><text x="600" y="170">beat</text><text x="690" y="170">beat</text>
+  </g>
+  <rect x="740" y="110" width="170" height="44" fill="#FFFFFF" stroke="#BBBBBB"/>
+  <text x="825" y="128" text-anchor="middle" font-size="14" fill="#111111">arm movement:</text>
+  <text x="825" y="146" text-anchor="middle" font-size="14" fill="#111111">signal corrupted</text>
+  <text x="600" y="480" text-anchor="middle" font-size="15" fill="#111111">heart rate = peaks counted per minute</text>
+  <text x="920" y="540" text-anchor="end" font-size="13" fill="#111111">Schematic; not to scale.</text>
+</svg>

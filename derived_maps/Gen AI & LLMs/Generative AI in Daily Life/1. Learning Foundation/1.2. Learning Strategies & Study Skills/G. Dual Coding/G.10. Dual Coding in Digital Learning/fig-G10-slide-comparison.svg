@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Bullet slide versus assertion-evidence slide</title>
+  <desc>Left: a slide titled Results with five bullet phrases about corrosion and humidity and a decorative clip-art icon. Right: a slide with the sentence headline "Corrosion doubles when humidity exceeds 70%" and a line graph of corrosion rate rising sharply after 70% humidity, with the threshold marked.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Topic and bullets, or claim and evidence</text>
+
+  <rect x="30" y="60" width="430" height="300" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="55" y="100" font-size="22" font-weight="bold" fill="#111111">Results</text>
+  <g font-size="15" fill="#111111">
+    <text x="60" y="140">• Humidity tested 30–90%</text>
+    <text x="60" y="172">• Corrosion measured weekly</text>
+    <text x="60" y="204">• Higher humidity, more corrosion</text>
+    <text x="60" y="236">• Some non-linearity observed</text>
+    <text x="60" y="268">• Further work recommended</text>
+  </g>
+  <circle cx="400" cy="160" r="30" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <path d="M385 160 l10 10 l20 -22" stroke="#666666" stroke-width="3" fill="none"/>
+  <text x="245" y="345" text-anchor="middle" font-size="14" fill="#111111">key relationship hidden in bullet four</text>
+
+  <rect x="500" y="60" width="430" height="300" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="520" y="96" font-size="18" font-weight="bold" fill="#111111">Corrosion doubles when humidity</text>
+  <text x="520" y="120" font-size="18" font-weight="bold" fill="#111111">exceeds 70%</text>
+  <line x1="560" y1="320" x2="900" y2="320" stroke="#222222" stroke-width="2"/>
+  <line x1="560" y1="320" x2="560" y2="140" stroke="#222222" stroke-width="2"/>
+  <polyline points="570,300 640,293 710,284 770,275 810,235 850,190 890,150" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <line x1="770" y1="145" x2="770" y2="320" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="705" y="150" width="60" height="22" fill="#FFFFFF"/>
+  <text x="735" y="166" text-anchor="middle" font-size="14" fill="#111111">70%</text>
+  <text x="730" y="342" text-anchor="middle" font-size="14" fill="#111111">relative humidity</text>
+  <text x="548" y="230" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 548 230)">corrosion rate</text>
+
+  <rect x="30" y="385" width="430" height="80" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="245" y="415" text-anchor="middle" font-size="15" fill="#111111">Title names a topic; phrases compete with speech;</text>
+  <text x="245" y="440" text-anchor="middle" font-size="15" fill="#111111">decoration adds nothing.</text>
+  <rect x="500" y="385" width="430" height="80" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="715" y="415" text-anchor="middle" font-size="15" fill="#111111">Headline states the claim; the graph is the evidence;</text>
+  <text x="715" y="440" text-anchor="middle" font-size="15" fill="#111111">the speaker explains.</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Invented example; the graph is schematic.</text>
+</svg>

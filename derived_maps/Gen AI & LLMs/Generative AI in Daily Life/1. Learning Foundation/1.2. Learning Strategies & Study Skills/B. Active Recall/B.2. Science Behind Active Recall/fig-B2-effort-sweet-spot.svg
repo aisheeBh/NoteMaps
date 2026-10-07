@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Difficulty of a recall attempt and long-term benefit</title>
+  <desc>Schematic curve: benefit rises as successful recall becomes more effortful, peaks where recall is hard but still succeeds, then falls when recall fails; with feedback after failure a dashed line shows benefit remains moderate.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Hard but successful recall gives the largest gain</text>
+  <line x1="120" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="440" x2="120" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510.0" y="474" text-anchor="middle" font-size="16" fill="#111111">Difficulty of the recall attempt</text>
+  <text x="62" y="265.0" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 265.0)">Long-term benefit</text>
+  <rect x="130" y="100" width="230" height="330" rx="0" fill="#F2F2F2" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="360" y="100" width="250" height="330" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="610" y="100" width="280" height="330" rx="0" fill="#FBE5E5" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="163.4" y="111" width="163.2" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="245" y="128" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">TOO EASY</text>
+  <text x="245" y="146" text-anchor="middle" font-size="14" fill="#111111">answer still in mind</text>
+  <rect x="414.7" y="111" width="140.5" height="44" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="485" y="128" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">DESIRABLE</text>
+  <text x="485" y="146" text-anchor="middle" font-size="14" fill="#111111">effortful success</text>
+  <rect x="698.6" y="111" width="102.7" height="44" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="750" y="128" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">TOO HARD</text>
+  <text x="750" y="146" text-anchor="middle" font-size="14" fill="#111111">recall fails</text>
+  <path d="M130.0 404.0 L137.6 403.7 L145.2 403.0 L152.8 402.2 L160.4 401.1 L168.0 399.8 L175.6 398.4 L183.2 396.9 L190.8 395.2 L198.4 393.3 L206.0 391.4 L213.6 389.3 L221.2 387.1 L228.8 384.8 L236.4 382.4 L244.0 379.8 L251.6 377.2 L259.2 374.5 L266.8 371.7 L274.4 368.7 L282.0 365.7 L289.6 362.6 L297.2 359.4 L304.8 356.1 L312.4 352.7 L320.0 349.3 L327.6 345.7 L335.2 342.1 L342.8 338.4 L350.4 334.6 L358.0 330.8 L365.6 326.8 L373.2 322.8 L380.8 318.7 L388.4 314.5 L396.0 310.3 L403.6 305.9 L411.2 301.6 L418.8 297.1 L426.4 292.5 L434.0 287.9 L441.6 283.3 L449.2 278.5 L456.8 273.7 L464.4 268.8 L472.0 263.9 L479.6 258.9 L487.2 253.8 L494.8 248.6 L502.4 243.4 L510.0 238.1 L517.6 232.8 L525.2 227.4 L532.8 221.9 L540.4 216.4 L548.0 210.8 L555.6 205.2 L563.2 199.5 L570.8 193.7 L578.4 187.9 L586.0 182.0 L593.6 176.0 L601.2 170.0 L608.8 171.8 L616.4 177.0 L624.0 185.4 L631.6 196.8 L639.2 210.6 L646.8 226.4 L654.4 243.5 L662.0 261.5 L669.6 279.7 L677.2 297.7 L684.8 314.9 L692.4 331.2 L700.0 346.1 L707.6 359.6 L715.2 371.5 L722.8 381.9 L730.4 390.7 L738.0 398.1 L745.6 404.2 L753.2 409.1 L760.8 413.1 L768.4 416.2 L776.0 418.5 L783.6 420.3 L791.2 421.7 L798.8 422.7 L806.4 423.4 L814.0 423.9 L821.6 424.3 L829.2 424.5 L836.8 424.7 L844.4 424.8 L852.0 424.9 L859.6 424.9 L867.2 424.9 L874.8 425.0 L882.4 425.0 L890.0 425.0" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M601.2 170.0 L608.8 171.9 L616.4 177.4 L624.0 186.4 L631.6 198.4 L639.2 213.0 L646.8 229.7 L654.4 247.9 L662.0 266.9 L669.6 286.2 L677.2 295.3 L684.8 301.8 L692.4 306.4 L700.0 309.4 L707.6 311.4 L715.2 312.5 L722.8 313.2 L730.4 313.6 L738.0 313.8 L745.6 313.9 L753.2 314.0 L760.8 314.0 L768.4 314.0 L776.0 314.0 L783.6 314.0 L791.2 314.0 L798.8 314.0 L806.4 314.0 L814.0 314.0 L821.6 314.0 L829.2 314.0 L836.8 314.0 L844.4 314.0 L852.0 314.0 L859.6 314.0 L867.2 314.0 L874.8 314.0 L882.4 314.0 L890.0 314.0" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="744.9" y="283" width="110.3" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="800" y="300" text-anchor="middle" font-size="14" fill="#111111">with feedback</text>
+  <text x="800" y="318" text-anchor="middle" font-size="14" fill="#111111">after failure</text>
+  <rect x="772.4" y="383" width="95.2" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="820" y="400" text-anchor="middle" font-size="14" fill="#111111">no feedback</text>
+  <rect x="259.7" y="313" width="140.5" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="330" y="330" text-anchor="middle" font-size="14" fill="#111111">successful recall</text>
+  <text x="480.0" y="545" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of the desirable-difficulty principle; not plotted from a single dataset.</text>
+</svg>

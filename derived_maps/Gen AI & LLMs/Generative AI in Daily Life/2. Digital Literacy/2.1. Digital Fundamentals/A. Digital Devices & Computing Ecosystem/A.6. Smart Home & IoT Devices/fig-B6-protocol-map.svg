@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>IoT connection technologies by range and data rate</title>
+  <desc>A chart with range on the horizontal axis, from metres to kilometres, and data rate on the vertical axis, from bytes to high bandwidth. Wi-Fi sits at short range and high data rate. Bluetooth LE sits at short range and low to moderate rate. Zigbee, Z-Wave and Thread mesh networks sit at short to medium range with low rate. LoRaWAN sits at long range with very low rate. NB-IoT and LTE-M sit at long range with low rate. 5G covers long range with high rate but more power.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Choosing an IoT link: range against data rate</text>
+  <line x1="130" y1="480" x2="900" y2="480" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="480" x2="130" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="515" y="520" text-anchor="middle" font-size="16" fill="#111111">Range (metres → tens of metres → kilometres)</text>
+  <text x="70" y="275" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 70 275)">Data rate</text>
+
+  <rect x="160" y="90" width="190" height="70" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="255" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Wi-Fi</text>
+  <text x="255" y="142" text-anchor="middle" font-size="14" fill="#FFFFFF">cameras; high power</text>
+
+  <rect x="160" y="250" width="190" height="70" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="255" y="280" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Bluetooth LE</text>
+  <text x="255" y="302" text-anchor="middle" font-size="14" fill="#111111">locks, trackers</text>
+
+  <rect x="300" y="350" width="260" height="70" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="430" y="380" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Zigbee, Z-Wave, Thread</text>
+  <text x="430" y="402" text-anchor="middle" font-size="14" fill="#111111">mesh: range grows per hop</text>
+
+  <rect x="660" y="400" width="200" height="60" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="760" y="426" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">LoRaWAN</text>
+  <text x="760" y="447" text-anchor="middle" font-size="14" fill="#111111">kilometres, tiny data</text>
+
+  <rect x="640" y="290" width="220" height="60" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="750" y="316" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">NB-IoT, LTE-M</text>
+  <text x="750" y="337" text-anchor="middle" font-size="14" fill="#111111">mobile network coverage</text>
+
+  <rect x="640" y="100" width="220" height="60" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="750" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">5G</text>
+  <text x="750" y="147" text-anchor="middle" font-size="14" fill="#111111">industrial, high power</text>
+
+  <text x="920" y="560" text-anchor="end" font-size="13" fill="#111111">Schematic; positions show typical relative ranges and rates, not specifications.</text>
+</svg>

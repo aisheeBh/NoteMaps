@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A first-draft explanation with gaps marked</title>
+  <desc>A short draft explanation of HTTPS with problem phrases boxed and labelled: basically encrypts (hedge), SSL certificates (undefined jargon), handshake (undefined jargon), agree on keys (leap), everything is secure (over-claim). Side notes give the question each gap raises.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where the explanation hides what is not understood</text>
+  <rect x="40" y="70" width="880" height="170" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="64" y="100" font-size="15" font-weight="bold" fill="#111111">DRAFT 1 (from memory)</text>
+  <text x="64" y="142" font-size="18" fill="#111111">HTTPS </text>
+  <rect x="133.7" y="122" width="159.2" height="28" rx="3" fill="none" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="137.7" y="142" font-size="18" fill="#111111">basically encrypts</text>
+  <text x="296.9" y="142" font-size="18" fill="#111111"> the connection using </text>
+  <rect x="482.7" y="122" width="141.4" height="28" rx="3" fill="none" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="486.7" y="142" font-size="18" fill="#111111">SSL certificates</text>
+  <text x="628.1" y="142" font-size="18" fill="#111111"> so hackers</text>
+  <text x="64" y="176" font-size="18" fill="#111111">can't read the data. The browser and server do a </text>
+  <rect x="470.7" y="156" width="97.1" height="28" rx="3" fill="none" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="474.7" y="176" font-size="18" fill="#111111">handshake</text>
+  <text x="571.8" y="176" font-size="18" fill="#111111"> and </text>
+  <rect x="616.3" y="156" width="128.6" height="28" rx="3" fill="none" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="620.3" y="176" font-size="18" fill="#111111">agree on keys,</text>
+  <text x="64" y="210" font-size="18" fill="#111111">and then </text>
+  <rect x="143.6" y="190" width="179.9" height="28" rx="3" fill="none" stroke="#666666" stroke-width="2.5" stroke-dasharray="2 4"/>
+  <text x="147.6" y="210" font-size="18" fill="#111111">everything is secure.</text>
+  <rect x="40" y="270" width="160" height="48" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="120" y="300" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">HEDGE</text>
+  <text x="220" y="300" font-size="16" fill="#111111">basically encrypts -&gt; what does encryption do?</text>
+  <rect x="40" y="334" width="160" height="48" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="120" y="364" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">JARGON</text>
+  <text x="220" y="364" font-size="16" fill="#111111">SSL certificates, handshake -&gt; what are they?</text>
+  <rect x="40" y="398" width="160" height="48" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="120" y="428" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">LEAP</text>
+  <text x="220" y="428" font-size="16" fill="#111111">agree on keys -&gt; how, over a public network?</text>
+  <rect x="40" y="462" width="160" height="48" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2.5" stroke-dasharray="2 4"/>
+  <text x="120" y="492" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">OVER-CLAIM</text>
+  <text x="220" y="492" font-size="16" fill="#111111">everything is secure -&gt; what is not protected?</text>
+  <text x="480.0" y="545" text-anchor="middle" font-size="13" fill="#333333">Each marked phrase becomes a question to answer from the source before the explanation is rewritten.</text>
+</svg>

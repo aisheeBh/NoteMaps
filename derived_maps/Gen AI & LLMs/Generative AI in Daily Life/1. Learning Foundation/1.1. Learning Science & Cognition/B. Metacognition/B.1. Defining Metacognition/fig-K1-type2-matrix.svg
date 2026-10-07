@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Confidence crossed with correctness</title>
+  <desc>A two-by-two grid. Columns: answer correct or incorrect. Rows: high or low confidence. High confidence and correct is a type 2 hit; low confidence and incorrect is a correct rejection; high confidence and incorrect is a false alarm, the dangerous cell; low confidence and correct is a type 2 miss, wasted doubt.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Is confidence tracking correctness?</text>
+
+  <text x="425" y="86" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Answer CORRECT</text>
+  <text x="725" y="86" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Answer INCORRECT</text>
+  <text x="150" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">HIGH</text>
+  <text x="150" y="222" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">confidence</text>
+  <text x="150" y="420" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">LOW</text>
+  <text x="150" y="442" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">confidence</text>
+
+  <rect x="280" y="104" width="290" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="580" y="104" width="290" height="210" fill="url(#lines)" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <rect x="280" y="324" width="290" height="210" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="580" y="324" width="290" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+
+  <rect x="300" y="150" width="250" height="118" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="425" y="182" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">TYPE 2 HIT</text>
+  <text x="425" y="208" text-anchor="middle" font-size="15" fill="#111111">sure and right</text>
+  <text x="425" y="232" text-anchor="middle" font-size="14" fill="#111111">act on it without</text>
+  <text x="425" y="250" text-anchor="middle" font-size="14" fill="#111111">further checking</text>
+
+  <rect x="600" y="150" width="250" height="118" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="725" y="182" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">FALSE ALARM</text>
+  <text x="725" y="208" text-anchor="middle" font-size="15" fill="#111111">sure but wrong</text>
+  <text x="725" y="232" text-anchor="middle" font-size="14" fill="#111111">the dangerous cell:</text>
+  <text x="725" y="250" text-anchor="middle" font-size="14" fill="#111111">errors go unchecked</text>
+
+  <rect x="300" y="370" width="250" height="118" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="425" y="402" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">TYPE 2 MISS</text>
+  <text x="425" y="428" text-anchor="middle" font-size="15" fill="#111111">unsure but right</text>
+  <text x="425" y="452" text-anchor="middle" font-size="14" fill="#111111">wasted doubt: extra</text>
+  <text x="425" y="470" text-anchor="middle" font-size="14" fill="#111111">checks, lost chances</text>
+
+  <rect x="600" y="370" width="250" height="118" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="725" y="402" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">CORRECT REJECTION</text>
+  <text x="725" y="428" text-anchor="middle" font-size="15" fill="#111111">unsure and wrong</text>
+  <text x="725" y="452" text-anchor="middle" font-size="14" fill="#111111">doubt prompts a check</text>
+  <text x="725" y="470" text-anchor="middle" font-size="14" fill="#111111">that catches the error</text>
+
+  <text x="480" y="570" text-anchor="middle" font-size="14" fill="#333333">Good metacognition puts most judgements on the diagonal from top left to bottom right.</text>
+</svg>
