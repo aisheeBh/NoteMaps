@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Johnstone's triangle for the reaction of hydrogen and oxygen</title>
+  <desc>A triangle with three corners. Macroscopic: a flame and droplets of water form. Submicroscopic: two hydrogen molecules and one oxygen molecule rearrange into two water molecules. Symbolic: the equation 2H2 + O2 gives 2H2O. Two-way arrows along each side indicate translation between levels.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">One reaction at three levels</text>
+
+  <line x1="455" y1="170" x2="250" y2="360" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="505" y1="170" x2="710" y2="360" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="330" y1="430" x2="630" y2="430" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  <rect x="340" y="60" width="280" height="110" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="355" y="70" width="250" height="90" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="480" y="94" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">MACROSCOPIC</text>
+  <text x="480" y="120" text-anchor="middle" font-size="15" fill="#111111">a flame; droplets of water</text>
+  <text x="480" y="142" text-anchor="middle" font-size="15" fill="#111111">form on a cold surface</text>
+
+  <rect x="40" y="360" width="290" height="140" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="52" y="370" width="266" height="120" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="185" y="394" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">SUBMICROSCOPIC</text>
+  <g stroke="#222222" stroke-width="1.5">
+    <circle cx="80" cy="430" r="9" fill="#FFFFFF"/><circle cx="96" cy="430" r="9" fill="#FFFFFF"/>
+    <circle cx="80" cy="460" r="9" fill="#FFFFFF"/><circle cx="96" cy="460" r="9" fill="#FFFFFF"/>
+    <circle cx="128" cy="445" r="12" fill="#1F3B5C"/><circle cx="150" cy="445" r="12" fill="#1F3B5C"/>
+    <circle cx="225" cy="430" r="12" fill="#1F3B5C"/><circle cx="210" cy="420" r="8" fill="#FFFFFF"/><circle cx="240" cy="420" r="8" fill="#FFFFFF"/>
+    <circle cx="275" cy="462" r="12" fill="#1F3B5C"/><circle cx="260" cy="452" r="8" fill="#FFFFFF"/><circle cx="290" cy="452" r="8" fill="#FFFFFF"/>
+  </g>
+  <line x1="168" y1="445" x2="198" y2="445" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="185" y="484" text-anchor="middle" font-size="13" fill="#111111">white = hydrogen; dark = oxygen</text>
+
+  <rect x="630" y="360" width="290" height="140" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="642" y="370" width="266" height="120" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="775" y="394" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">SYMBOLIC</text>
+  <text x="775" y="440" text-anchor="middle" font-size="22" fill="#111111">2H₂ + O₂ → 2H₂O</text>
+  <text x="775" y="472" text-anchor="middle" font-size="14" fill="#111111">balanced equation</text>
+
+  <rect x="210" y="245" width="170" height="26" fill="#FFFFFF"/>
+  <text x="295" y="263" text-anchor="middle" font-size="14" fill="#111111">what particles explain it</text>
+  <rect x="585" y="245" width="170" height="26" fill="#FFFFFF"/>
+  <text x="670" y="263" text-anchor="middle" font-size="14" fill="#111111">what is written for it</text>
+  <rect x="390" y="440" width="180" height="26" fill="#FFFFFF"/>
+  <text x="480" y="458" text-anchor="middle" font-size="14" fill="#111111">particles counted in symbols</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">After Alex Johnstone's three levels of chemical representation; particle sizes are schematic.</text>
+</svg>

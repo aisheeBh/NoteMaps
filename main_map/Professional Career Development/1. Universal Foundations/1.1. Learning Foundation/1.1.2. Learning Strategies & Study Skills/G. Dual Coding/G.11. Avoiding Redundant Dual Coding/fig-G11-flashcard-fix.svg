@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Fixing a flashcard that gives the answer away</title>
+  <desc>Before: the front of a card shows the question "Term for the heart's pumping chambers?" together with a labelled heart picture that already shows the word ventricles. After: the front shows only the question; the back shows the answer "ventricles" with the labelled picture.</desc>
+  <defs>
+    <g id="heart">
+      <path d="M0 30 C -40 -10, -30 -50, 0 -25 C 30 -50, 40 -10, 0 30 Z" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+      <line x1="-22" y1="0" x2="22" y2="0" stroke="#222222" stroke-width="1.5"/>
+      <line x1="0" y1="-25" x2="0" y2="28" stroke="#222222" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Make the card ask, not tell</text>
+
+  <text x="240" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Before: the cue gives the answer</text>
+  <rect x="40" y="100" width="400" height="230" rx="10" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="60" y="128" font-size="13" fill="#333333">FRONT</text>
+  <text x="240" y="160" text-anchor="middle" font-size="16" fill="#111111">Term for the heart's lower</text>
+  <text x="240" y="182" text-anchor="middle" font-size="16" fill="#111111">pumping chambers?</text>
+  <use href="#heart" x="180" y="255" transform="scale(1)"/>
+  <line x1="190" y1="268" x2="290" y2="285" stroke="#555555" stroke-width="1.2"/>
+  <text x="295" y="290" font-size="15" font-weight="bold" fill="#111111">ventricles</text>
+  <text x="240" y="355" text-anchor="middle" font-size="15" fill="#111111">learner reads the label: no retrieval</text>
+
+  <text x="720" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">After: retrieve, then see</text>
+  <rect x="520" y="100" width="190" height="230" rx="10" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="535" y="128" font-size="13" fill="#333333">FRONT</text>
+  <text x="615" y="190" text-anchor="middle" font-size="15" fill="#111111">Term for the</text>
+  <text x="615" y="212" text-anchor="middle" font-size="15" fill="#111111">heart's lower</text>
+  <text x="615" y="234" text-anchor="middle" font-size="15" fill="#111111">pumping chambers?</text>
+  <rect x="730" y="100" width="190" height="230" rx="10" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="745" y="128" font-size="13" fill="#333333">BACK</text>
+  <text x="825" y="165" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">ventricles</text>
+  <use href="#heart" x="800" y="250"/>
+  <line x1="810" y1="263" x2="860" y2="290" stroke="#555555" stroke-width="1.2"/>
+  <text x="864" y="296" font-size="13" fill="#111111">here</text>
+  <text x="720" y="355" text-anchor="middle" font-size="15" fill="#111111">learner retrieves first; image confirms</text>
+
+  <rect x="120" y="390" width="720" height="80" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="480" y="418" text-anchor="middle" font-size="15" fill="#111111">Training recognition from images? Put the unlabelled image on the front.</text>
+  <text x="480" y="444" text-anchor="middle" font-size="15" fill="#111111">Training recall of a term? Keep any image that shows the answer on the back.</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Simplified heart outline used for illustration only.</text>
+</svg>

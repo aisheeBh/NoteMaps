@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The visual vocabulary of diagrams</title>
+  <desc>Six panels illustrate common diagram marks: nodes for things or ideas; lines for connection; arrows for direction, cause or sequence; enclosing boxes for categories; proximity for relatedness; and vertical and horizontal position for hierarchy, quantity and time.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Marks that carry meaning</text>
+  <g fill="none" stroke="#222222" stroke-width="2">
+    <rect x="30" y="65" width="285" height="200"/><rect x="337" y="65" width="285" height="200"/><rect x="645" y="65" width="285" height="200"/>
+    <rect x="30" y="290" width="285" height="200"/><rect x="337" y="290" width="285" height="200"/><rect x="645" y="290" width="285" height="200"/>
+  </g>
+
+  <circle cx="110" cy="150" r="22" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="235" cy="150" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="172" y="225" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Node</text>
+  <text x="172" y="248" text-anchor="middle" font-size="15" fill="#111111">a thing, place or idea</text>
+
+  <circle cx="410" cy="150" r="16" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="550" cy="150" r="16" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <line x1="426" y1="150" x2="534" y2="150" stroke="#222222" stroke-width="3"/>
+  <text x="480" y="225" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Line</text>
+  <text x="480" y="248" text-anchor="middle" font-size="15" fill="#111111">connected, related</text>
+
+  <rect x="680" y="132" width="80" height="36" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="820" y="132" width="80" height="36" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <line x1="760" y1="150" x2="818" y2="150" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="787" y="225" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Arrow</text>
+  <text x="787" y="248" text-anchor="middle" font-size="15" fill="#111111">causes, leads to, moves to</text>
+
+  <rect x="60" y="310" width="225" height="110" fill="#FAFAFA" stroke="#1F3B5C" stroke-width="3"/>
+  <circle cx="110" cy="365" r="14" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="172" cy="365" r="14" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="234" cy="365" r="14" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="172" y="450" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Enclosure</text>
+  <text x="172" y="473" text-anchor="middle" font-size="15" fill="#111111">belongs to one category</text>
+
+  <circle cx="380" cy="350" r="13" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="410" cy="365" r="13" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="385" cy="385" r="13" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="555" cy="345" r="13" fill="#FFFFFF" stroke="#222222" stroke-width="2" stroke-dasharray="3 3"/>
+  <circle cx="580" cy="385" r="13" fill="#FFFFFF" stroke="#222222" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="480" y="450" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Proximity</text>
+  <text x="480" y="473" text-anchor="middle" font-size="15" fill="#111111">close together, related</text>
+
+  <line x1="690" y1="425" x2="690" y2="315" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="705" y="330" font-size="14" fill="#111111">more, higher</text>
+  <line x1="690" y1="425" x2="900" y2="425" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="895" y="415" font-size="14" fill="#111111" text-anchor="end">later in time</text>
+  <rect x="715" y="375" width="22" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="750" y="355" width="22" height="70" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="785" y="340" width="22" height="85" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="787" y="450" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Position</text>
+  <text x="787" y="473" text-anchor="middle" font-size="15" fill="#111111">up = more; left to right = time</text>
+
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">After Barbara Tversky's work on spatial meanings in diagrams; left-to-right time holds mainly in left-to-right writing cultures.</text>
+</svg>

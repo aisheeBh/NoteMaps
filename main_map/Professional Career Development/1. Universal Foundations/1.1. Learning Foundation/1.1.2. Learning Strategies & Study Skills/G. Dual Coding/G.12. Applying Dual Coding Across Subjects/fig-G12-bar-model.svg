@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Bar model for a discount problem</title>
+  <desc>The original price is a bar of five equal parts, each 20 per cent. The discount is one part; the sale price of 4,000 rupees is the other four parts. So one part is 1,000 rupees and the original price is 5,000 rupees.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="30" text-anchor="middle" font-size="21" font-weight="bold" fill="#111111">"₹4,000 after a 20% discount: what was the original price?"</text>
+
+  <text x="60" y="110" font-size="16" font-weight="bold" fill="#111111">Original price</text>
+  <g stroke="#1F3B5C" stroke-width="2.5">
+    <rect x="200" y="85" width="140" height="50" fill="url(#hatch)"/>
+    <rect x="340" y="85" width="140" height="50" fill="url(#hatch)"/>
+    <rect x="480" y="85" width="140" height="50" fill="url(#hatch)"/>
+    <rect x="620" y="85" width="140" height="50" fill="url(#hatch)"/>
+  </g>
+  <rect x="760" y="85" width="140" height="50" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="235" y="98" width="70" height="24" fill="#FFFFFF"/><text x="270" y="115">20%</text>
+    <rect x="375" y="98" width="70" height="24" fill="#FFFFFF"/><text x="410" y="115">20%</text>
+    <rect x="515" y="98" width="70" height="24" fill="#FFFFFF"/><text x="550" y="115">20%</text>
+    <rect x="655" y="98" width="70" height="24" fill="#FFFFFF"/><text x="690" y="115">20%</text>
+    <rect x="785" y="98" width="90" height="24" fill="#FFFFFF"/><text x="830" y="115">discount</text>
+  </g>
+
+  <path d="M200 150 v12 h560 v-12" fill="none" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="188" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">sale price = 4 parts = ₹4,000</text>
+  <path d="M200 75 v-12 h700 v12" fill="none" stroke="#222222" stroke-width="2"/>
+  <text x="550" y="56" text-anchor="middle" font-size="15" fill="#111111">original = 5 parts</text>
+
+  <rect x="140" y="230" width="680" height="120" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <g font-size="17" fill="#111111">
+    <text x="170" y="265">1 part = ₹4,000 ÷ 4 = ₹1,000</text>
+    <text x="170" y="298">original = 5 parts = <tspan font-weight="bold">₹5,000</tspan></text>
+    <text x="170" y="331">check: 20% of ₹5,000 = ₹1,000; ₹5,000 − ₹1,000 = ₹4,000</text>
+  </g>
+  <rect x="140" y="370" width="680" height="50" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="480" y="401" text-anchor="middle" font-size="15" fill="#111111">Common error prevented: adding 20% of ₹4,000 gives ₹4,800</text>
+  <text x="480" y="448" text-anchor="middle" font-size="13" fill="#333333">The model method represents the whole before writing any equation.</text>
+</svg>

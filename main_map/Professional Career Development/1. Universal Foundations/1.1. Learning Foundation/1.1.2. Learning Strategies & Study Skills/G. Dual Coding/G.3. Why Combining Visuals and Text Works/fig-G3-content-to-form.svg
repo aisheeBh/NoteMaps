@@ -1,0 +1,70 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Matching visual form to content</title>
+  <desc>Five panels: a structure of parts suits a labelled part diagram or tree; a process suits a sequence of boxes with arrows; a comparison suits a matrix; changing quantities suit a graph; an abstract term suits a concrete case or visual analogy.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Match the visual to the relationship</text>
+
+  <g font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="110" y="85">Structure</text><text x="300" y="85">Process</text><text x="490" y="85">Comparison</text><text x="680" y="85">Quantity</text><text x="860" y="85">Abstract term</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="110" y="107">parts and arrangement</text><text x="300" y="107">steps or causes</text><text x="490" y="107">options by features</text><text x="680" y="107">change and size</text><text x="860" y="107">a single idea</text>
+  </g>
+  <g fill="none" stroke="#222222" stroke-width="2">
+    <rect x="20" y="125" width="180" height="250"/><rect x="210" y="125" width="180" height="250"/><rect x="400" y="125" width="180" height="250"/><rect x="590" y="125" width="180" height="250"/><rect x="780" y="125" width="160" height="250"/>
+  </g>
+
+  <rect x="80" y="150" width="60" height="32" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <rect x="35" y="230" width="60" height="32" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="125" y="230" width="60" height="32" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="35" y="310" width="60" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="125" y="310" width="60" height="32" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <g stroke="#222222" stroke-width="2"><line x1="110" y1="182" x2="65" y2="230"/><line x1="110" y1="182" x2="155" y2="230"/><line x1="65" y1="262" x2="65" y2="310"/><line x1="155" y1="262" x2="155" y2="310"/></g>
+
+  <g fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2">
+    <rect x="240" y="145" width="120" height="36"/><rect x="240" y="220" width="120" height="36"/><rect x="240" y="295" width="120" height="36"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle"><text x="300" y="168">step 1</text><text x="300" y="243">step 2</text><text x="300" y="318">step 3</text></g>
+  <line x1="300" y1="181" x2="300" y2="218" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="256" x2="300" y2="293" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g stroke="#222222" stroke-width="1.5" fill="#FFFFFF">
+    <rect x="415" y="150" width="150" height="200"/>
+    <line x1="415" y1="190" x2="565" y2="190"/><line x1="415" y1="240" x2="565" y2="240"/><line x1="415" y1="290" x2="565" y2="290"/>
+    <line x1="465" y1="150" x2="465" y2="350"/><line x1="515" y1="150" x2="515" y2="350"/>
+  </g>
+  <rect x="465" y="150" width="100" height="40" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="1.5"/>
+  <g font-size="14" fill="#111111" text-anchor="middle"><text x="490" y="175">A</text><text x="540" y="175">B</text><text x="440" y="220">cost</text><text x="440" y="270">risk</text><text x="440" y="320">speed</text></g>
+
+  <line x1="615" y1="345" x2="755" y2="345" stroke="#222222" stroke-width="2"/>
+  <line x1="615" y1="345" x2="615" y2="150" stroke="#222222" stroke-width="2"/>
+  <polyline points="625,320 660,300 690,250 720,215 750,170" fill="none" stroke="#1F3B5C" stroke-width="3"/>
+  <polyline points="625,300 660,305 690,290 720,300 750,295" fill="none" stroke="#7A5200" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="700" y="200" font-size="14" fill="#111111" text-anchor="end">revenue</text>
+  <text x="740" y="325" font-size="14" fill="#111111" text-anchor="end">cost</text>
+
+  <rect x="800" y="150" width="120" height="44" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="860" y="177" font-size="14" text-anchor="middle" fill="#111111">"materiality"</text>
+  <line x1="860" y1="194" x2="860" y2="236" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="795" y="240" width="130" height="100" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <line x1="805" y1="300" x2="915" y2="300" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="860" y="290" font-size="14" text-anchor="middle" fill="#111111">threshold</text>
+  <text x="860" y="325" font-size="14" text-anchor="middle" fill="#111111">errors below</text>
+
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="110" y="405">tree or labelled</text><text x="110" y="425">part diagram</text>
+    <text x="300" y="405">sequence or</text><text x="300" y="425">flow diagram</text>
+    <text x="490" y="405">matrix or</text><text x="490" y="425">comparison table</text>
+    <text x="680" y="405">graph or</text><text x="680" y="425">scaled chart</text>
+    <text x="860" y="405">concrete case or</text><text x="860" y="425">visual analogy</text>
+  </g>
+  <rect x="120" y="460" width="720" height="70" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="480" y="490" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Unconnected list of facts?</text>
+  <text x="480" y="515" text-anchor="middle" font-size="15" fill="#111111">A visual may add little; words and retrieval practice may serve better.</text>
+  <text x="480" y="570" text-anchor="middle" font-size="13" fill="#333333">Thumbnails are schematic examples of each form.</text>
+</svg>

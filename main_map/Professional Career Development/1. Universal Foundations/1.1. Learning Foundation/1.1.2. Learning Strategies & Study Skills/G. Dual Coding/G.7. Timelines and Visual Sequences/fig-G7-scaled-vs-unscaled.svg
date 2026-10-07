@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Scaled and unscaled timelines</title>
+  <desc>Five events in a dispute: notice on 1 March, reply on 4 March, meeting on 6 March, termination on 1 June, claim on 10 June. On the scaled timeline the first three cluster together and a long gap follows. On the unscaled timeline all five are equally spaced and the 87-day gap disappears.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Equal spacing hides the gaps that matter</text>
+
+  <text x="60" y="90" font-size="18" font-weight="bold" fill="#111111">Scaled: distance matches time</text>
+  <line x1="80" y1="170" x2="900" y2="170" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <g fill="#1F3B5C" stroke="#000000" stroke-width="1.5">
+    <circle cx="100" cy="170" r="9"/><circle cx="123" cy="170" r="9"/><circle cx="138" cy="170" r="9"/><circle cx="799" cy="170" r="9"/><circle cx="867" cy="170" r="9"/>
+  </g>
+  <g font-size="14" fill="#111111">
+    <text x="92" y="148" text-anchor="end">notice 1 Mar</text>
+    <line x1="123" y1="160" x2="160" y2="125" stroke="#555555"/><text x="164" y="122">reply 4 Mar</text>
+    <line x1="138" y1="180" x2="175" y2="210" stroke="#555555"/><text x="179" y="216">meeting 6 Mar</text>
+    <text x="790" y="148" text-anchor="middle">termination 1 Jun</text>
+    <text x="867" y="200" text-anchor="middle">claim 10 Jun</text>
+  </g>
+  <line x1="150" y1="250" x2="788" y2="250" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <rect x="380" y="236" width="180" height="26" fill="#FFFFFF"/>
+  <text x="470" y="255" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">87 days of silence</text>
+
+  <text x="60" y="310" font-size="18" font-weight="bold" fill="#111111">Unscaled: order only</text>
+  <line x1="80" y1="380" x2="900" y2="380" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <g fill="#FFFFFF" stroke="#222222" stroke-width="2" stroke-dasharray="3 3">
+    <circle cx="140" cy="380" r="9"/><circle cx="320" cy="380" r="9"/><circle cx="500" cy="380" r="9"/><circle cx="680" cy="380" r="9"/><circle cx="860" cy="380" r="9"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="140" y="360">notice 1 Mar</text><text x="320" y="360">reply 4 Mar</text><text x="500" y="360">meeting 6 Mar</text><text x="680" y="360">termination 1 Jun</text><text x="860" y="360">claim 10 Jun</text>
+  </g>
+  <text x="480" y="425" text-anchor="middle" font-size="15" fill="#111111">a 2-day gap and an 87-day gap look identical</text>
+  <text x="480" y="480" text-anchor="middle" font-size="13" fill="#333333">Invented dispute dates used for illustration; scaled axis runs 1 March to 10 June.</text>
+</svg>

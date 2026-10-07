@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Cash-flow timeline</title>
+  <desc>A horizontal time axis from year 0 to year 3. At year 0 an outflow of 1,000 is drawn below the line. At years 1, 2 and 3 inflows of 400 each are drawn above the line. Beneath each inflow is its present value at a 10 per cent discount rate: 363.6, 330.6 and 300.5. The net present value is minus 5.3.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">When the money moves, and what it is worth today</text>
+  <line x1="100" y1="200" x2="900" y2="200" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <line x1="150" y1="192" x2="150" y2="208" stroke="#222222" stroke-width="2"/><text x="125" y="225">Year 0</text>
+    <line x1="380" y1="192" x2="380" y2="208" stroke="#222222" stroke-width="2"/><text x="380" y="225">Year 1</text>
+    <line x1="610" y1="192" x2="610" y2="208" stroke="#222222" stroke-width="2"/><text x="610" y="225">Year 2</text>
+    <line x1="840" y1="192" x2="840" y2="208" stroke="#222222" stroke-width="2"/><text x="840" y="225">Year 3</text>
+  </g>
+
+  <rect x="165" y="200" width="50" height="150" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="225" y="300" font-size="16" font-weight="bold" fill="#111111">−1,000</text>
+  <text x="225" y="322" font-size="14" fill="#111111">outflow</text>
+
+  <rect x="355" y="140" width="50" height="60" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="585" y="140" width="50" height="60" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="815" y="140" width="50" height="60" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <g font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="380" y="130">+400</text><text x="610" y="130">+400</text><text x="840" y="130">+400</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="380" y="262">PV = 400 ÷ 1.1</text><text x="380" y="282">= 363.6</text>
+    <text x="610" y="262">PV = 400 ÷ 1.1²</text><text x="610" y="282">= 330.6</text>
+    <text x="840" y="262">PV = 400 ÷ 1.1³</text><text x="840" y="282">= 300.5</text>
+  </g>
+  <rect x="380" y="320" width="460" height="64" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="610" y="347" text-anchor="middle" font-size="16" fill="#111111">Net present value at 10%:</text>
+  <text x="610" y="371" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">−1,000 + 363.6 + 330.6 + 300.5 = −5.3</text>
+  <text x="480" y="420" text-anchor="middle" font-size="13" fill="#333333">Inflows above the line, outflows below; illustrative figures, rounded to one decimal place.</text>
+</svg>
