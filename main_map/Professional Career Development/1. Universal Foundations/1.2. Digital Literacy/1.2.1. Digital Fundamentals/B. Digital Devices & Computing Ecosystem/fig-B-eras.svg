@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Eras of computing</title>
+  <desc>Five overlapping eras along a timeline from the 1950s to the 2020s: shared machine, personal machine, connected machine, mobile and cloud, and ambient and intelligent. Each band continues to the right edge, showing that earlier device types remain in use. Beneath, a rising line shows the number of computers per person growing from a tiny fraction to dozens.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Eras of computing: each one adds, none disappears</text>
+  <!-- time axis x: 1950=100, 2025=900 ; ~10.67 px/yr -->
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="100" y="70">1950</text><text x="313" y="70">1970</text><text x="527" y="70">1990</text><text x="740" y="70">2010</text><text x="900" y="70">2025</text>
+  </g>
+  <g stroke="#BBBBBB" stroke-dasharray="3 4"><line x1="100" y1="78" x2="100" y2="340"/><line x1="313" y1="78" x2="313" y2="340"/><line x1="527" y1="78" x2="527" y2="340"/><line x1="740" y1="78" x2="740" y2="340"/><line x1="900" y1="78" x2="900" y2="340"/></g>
+
+  <rect x="100" y="90" width="800" height="40" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="112" y="116" font-size="15" font-weight="bold" fill="#FFFFFF">Shared machine: mainframes and terminals</text>
+  <rect x="393" y="140" width="507" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="400" y="148" width="290" height="24" fill="#FFFFFF"/>
+  <text x="406" y="166" font-size="15" font-weight="bold" fill="#111111">Personal machine: PCs on desks</text>
+  <rect x="527" y="190" width="373" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="535" y="216" font-size="15" font-weight="bold" fill="#111111">Connected: internet, email, web</text>
+  <rect x="713" y="240" width="187" height="40" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="718" y="248" width="176" height="24" fill="#FFFFFF"/>
+  <text x="724" y="266" font-size="15" font-weight="bold" fill="#111111">Mobile and cloud</text>
+  <rect x="793" y="290" width="107" height="40" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="798" y="298" width="96" height="24" fill="#FFFFFF"/>
+  <text x="804" y="316" font-size="14" font-weight="bold" fill="#111111">Ambient, AI</text>
+
+  <!-- devices per person -->
+  <line x1="100" y1="500" x2="910" y2="500" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="500" x2="100" y2="370" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M100 495 C 400 494, 600 485, 700 465 C 780 448, 850 420, 900 385" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <g font-size="14" fill="#111111">
+    <text x="110" y="385">computers per person</text>
+    <text x="130" y="488">a tiny fraction</text>
+    <text x="560" y="456">about one</text>
+    <text x="770" y="400" text-anchor="end">dozens</text>
+  </g>
+  <text x="920" y="540" text-anchor="end" font-size="13" fill="#111111">Schematic; dates of eras are approximate and overlapping.</text>
+</svg>

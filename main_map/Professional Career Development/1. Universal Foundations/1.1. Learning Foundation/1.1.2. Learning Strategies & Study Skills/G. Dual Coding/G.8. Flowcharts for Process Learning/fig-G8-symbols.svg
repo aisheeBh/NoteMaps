@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Standard flowchart symbols</title>
+  <desc>Eight symbols with names and meanings: terminator (rounded) for start or end; process (rectangle) for an action; decision (diamond) for a question; input or output (parallelogram); document (wavy base); predefined process (double side bars); connector (small circle); and flow line (arrow).</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The basic vocabulary of flowcharts</text>
+
+  <rect x="60" y="80" width="160" height="60" rx="30" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="140" y="116" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="bold">Start / End</text>
+  <rect x="290" y="80" width="160" height="60" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="370" y="116" text-anchor="middle" font-size="15" fill="#111111">Do an action</text>
+  <path d="M600 70 L680 110 L600 150 L520 110 Z" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <text x="600" y="115" text-anchor="middle" font-size="15" fill="#111111">Question?</text>
+  <path d="M770 80 H910 L880 140 H740 Z" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="825" y="116" text-anchor="middle" font-size="15" fill="#111111">Data in / out</text>
+
+  <g font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="140" y="172">Terminator</text><text x="370" y="172">Process</text><text x="600" y="172">Decision</text><text x="825" y="172">Input or output</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="140" y="194">where the process begins or ends</text><text x="370" y="194">one step someone performs</text><text x="600" y="194">labelled exits, e.g. yes / no</text><text x="825" y="194">form, file or data entering</text>
+  </g>
+
+  <path d="M60 270 H220 V320 C190 305, 160 335, 130 320 C100 305, 80 330, 60 320 Z" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="140" y="300" text-anchor="middle" font-size="15" fill="#111111">Document</text>
+  <rect x="290" y="265" width="160" height="60" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <line x1="306" y1="265" x2="306" y2="325" stroke="#1F3B5C" stroke-width="2.5"/>
+  <line x1="434" y1="265" x2="434" y2="325" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="370" y="301" text-anchor="middle" font-size="15" fill="#111111">Sub-process</text>
+  <circle cx="600" cy="295" r="26" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="600" y="301" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">A</text>
+  <line x1="760" y1="295" x2="890" y2="295" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="140" y="362">Document</text><text x="370" y="362">Predefined process</text><text x="600" y="362">Connector</text><text x="825" y="362">Flow line</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="140" y="384">a report or form produced</text><text x="370" y="384">detailed on another chart</text><text x="600" y="384">continues at matching letter</text><text x="825" y="384">direction of the sequence</text>
+  </g>
+
+  <rect x="120" y="420" width="720" height="56" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="480" y="445" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Every decision has labelled exits; every path reaches an end.</text>
+  <text x="480" y="466" text-anchor="middle" font-size="14" fill="#111111">Shapes follow the conventions codified in ISO 5807 (1985).</text>
+</svg>

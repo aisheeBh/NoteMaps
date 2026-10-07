@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Cloud service models responsibility</title>
+  <desc>Four columns - on-premises, IaaS, PaaS, SaaS - each with eight stacked layers from networking and hardware at the bottom up to data and users at the top. Layers managed by the customer are shaded with hatching; layers managed by the provider are solid dark. Moving right, the provider manages more layers, but data and users always remain the customer's responsibility.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Who manages what: customer versus provider</text>
+  <text x="295.0" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">On-premises</text>
+  <rect x="210" y="95" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="227.8" y="109.55" width="124.4" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="122.55" text-anchor="middle" font-size="13" fill="#111111">Users and access</text>
+  <rect x="210" y="147" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="270.7" y="161.55" width="38.6" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="174.55" text-anchor="middle" font-size="13" fill="#111111">Data</text>
+  <rect x="210" y="199" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="242.1" y="213.55" width="95.80000000000001" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="226.55" text-anchor="middle" font-size="13" fill="#111111">Applications</text>
+  <rect x="210" y="251" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="206.35" y="265.55" width="167.3" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="278.55" text-anchor="middle" font-size="13" fill="#111111">Runtime and middleware</text>
+  <rect x="210" y="303" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="227.8" y="317.55" width="124.4" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="330.55" text-anchor="middle" font-size="13" fill="#111111">Operating system</text>
+  <rect x="210" y="355" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="234.95" y="369.55" width="110.10000000000001" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="382.55" text-anchor="middle" font-size="13" fill="#111111">Virtualisation</text>
+  <rect x="210" y="407" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="217.075" y="421.55" width="145.85000000000002" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="434.55" text-anchor="middle" font-size="13" fill="#111111">Servers and storage</text>
+  <rect x="210" y="459" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="195.625" y="473.55" width="188.75000000000003" height="19" fill="#FFFFFF"/>
+  <text x="290.0" y="486.55" text-anchor="middle" font-size="13" fill="#111111">Networking and facilities</text>
+  <text x="475.0" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">IaaS</text>
+  <rect x="390" y="95" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="407.8" y="109.55" width="124.4" height="19" fill="#FFFFFF"/>
+  <text x="470.0" y="122.55" text-anchor="middle" font-size="13" fill="#111111">Users and access</text>
+  <rect x="390" y="147" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="450.7" y="161.55" width="38.6" height="19" fill="#FFFFFF"/>
+  <text x="470.0" y="174.55" text-anchor="middle" font-size="13" fill="#111111">Data</text>
+  <rect x="390" y="199" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="422.1" y="213.55" width="95.80000000000001" height="19" fill="#FFFFFF"/>
+  <text x="470.0" y="226.55" text-anchor="middle" font-size="13" fill="#111111">Applications</text>
+  <rect x="390" y="251" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="386.35" y="265.55" width="167.3" height="19" fill="#FFFFFF"/>
+  <text x="470.0" y="278.55" text-anchor="middle" font-size="13" fill="#111111">Runtime and middleware</text>
+  <rect x="390" y="303" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="407.8" y="317.55" width="124.4" height="19" fill="#FFFFFF"/>
+  <text x="470.0" y="330.55" text-anchor="middle" font-size="13" fill="#111111">Operating system</text>
+  <rect x="390" y="355" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="470.0" y="382.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Virtualisation</text>
+  <rect x="390" y="407" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="470.0" y="434.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Servers and storage</text>
+  <rect x="390" y="459" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="470.0" y="486.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Networking and facilities</text>
+  <text x="655.0" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">PaaS</text>
+  <rect x="570" y="95" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="587.8" y="109.55" width="124.4" height="19" fill="#FFFFFF"/>
+  <text x="650.0" y="122.55" text-anchor="middle" font-size="13" fill="#111111">Users and access</text>
+  <rect x="570" y="147" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="630.7" y="161.55" width="38.6" height="19" fill="#FFFFFF"/>
+  <text x="650.0" y="174.55" text-anchor="middle" font-size="13" fill="#111111">Data</text>
+  <rect x="570" y="199" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="602.1" y="213.55" width="95.80000000000001" height="19" fill="#FFFFFF"/>
+  <text x="650.0" y="226.55" text-anchor="middle" font-size="13" fill="#111111">Applications</text>
+  <rect x="570" y="251" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="650.0" y="278.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Runtime and middleware</text>
+  <rect x="570" y="303" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="650.0" y="330.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Operating system</text>
+  <rect x="570" y="355" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="650.0" y="382.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Virtualisation</text>
+  <rect x="570" y="407" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="650.0" y="434.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Servers and storage</text>
+  <rect x="570" y="459" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="650.0" y="486.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Networking and facilities</text>
+  <text x="835.0" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">SaaS</text>
+  <rect x="750" y="95" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="767.8" y="109.55" width="124.4" height="19" fill="#FFFFFF"/>
+  <text x="830.0" y="122.55" text-anchor="middle" font-size="13" fill="#111111">Users and access</text>
+  <rect x="750" y="147" width="160" height="46" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="810.7" y="161.55" width="38.6" height="19" fill="#FFFFFF"/>
+  <text x="830.0" y="174.55" text-anchor="middle" font-size="13" fill="#111111">Data</text>
+  <rect x="750" y="199" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="830.0" y="226.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Applications</text>
+  <rect x="750" y="251" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="830.0" y="278.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Runtime and middleware</text>
+  <rect x="750" y="303" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="830.0" y="330.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Operating system</text>
+  <rect x="750" y="355" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="830.0" y="382.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Virtualisation</text>
+  <rect x="750" y="407" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="830.0" y="434.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Servers and storage</text>
+  <rect x="750" y="459" width="160" height="46" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="830.0" y="486.55" text-anchor="middle" font-size="13" fill="#FFFFFF">Networking and facilities</text>
+  <rect x="20" y="140" width="170" height="70" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="67.0" y="155.25" width="76.0" height="21" fill="#FFFFFF"/>
+  <text x="105.0" y="170.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Customer</text>
+  <rect x="71.125" y="175.25" width="67.75" height="21" fill="#FFFFFF"/>
+  <text x="105.0" y="190.25" text-anchor="middle" font-size="15" fill="#111111">manages</text>
+  <rect x="20" y="240" width="170" height="70" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="105.0" y="270.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Provider</text>
+  <text x="105.0" y="290.25" text-anchor="middle" font-size="15" fill="#FFFFFF">manages</text>
+  <text x="105" y="360" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Data and users</text>
+  <text x="105" y="380" text-anchor="middle" font-size="14" fill="#111111">are always the</text>
+  <text x="105" y="400" text-anchor="middle" font-size="14" fill="#111111">customer's job</text>
+  <text x="480.0" y="585" text-anchor="middle" font-size="13" fill="#333333">Simplified view of the shared-responsibility model; exact boundaries vary by provider and service.</text>
+</svg>

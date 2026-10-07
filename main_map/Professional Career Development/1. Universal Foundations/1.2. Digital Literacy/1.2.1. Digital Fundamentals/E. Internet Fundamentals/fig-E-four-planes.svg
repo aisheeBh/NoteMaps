@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four planes of the Internet</title>
+  <desc>Four stacked horizontal planes. Institutional plane at the top: standards bodies, registries, regulators, courts, contracts. Service plane: naming, web, email, cloud platforms, AI models. Logical plane: addresses, packets, routing between networks. Physical plane at the bottom: cables, radio, satellites, routers, data centres. Arrows show that each plane rests on the one below and that the institutional plane shapes all of them.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The Internet in four planes</text>
+  <rect x="60" y="75" width="640" height="82" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="380.0" y="111.1" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">Institutional plane</text>
+  <text x="380.0" y="132.1" text-anchor="middle" font-size="16" fill="#222222">rules and who makes them</text>
+  <rect x="720" y="85" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="832.5" y="111.4" text-anchor="middle" font-size="14" fill="#111111">standards bodies, registries,</text>
+  <text x="832.5" y="130.4" text-anchor="middle" font-size="14" fill="#111111">regulators, courts, contracts</text>
+  <line x1="380" y1="159" x2="380" y2="175" stroke="#222222" stroke-width="2"/>
+  <rect x="78" y="180" width="604" height="82" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="317.8" y="200.1" width="124.4" height="22" fill="#FFFFFF"/>
+  <text x="380.0" y="216.1" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Service plane</text>
+  <rect x="251.79999999999998" y="221.1" width="256.40000000000003" height="22" fill="#FFFFFF"/>
+  <text x="380.0" y="237.1" text-anchor="middle" font-size="16" fill="#111111">what people and programs use</text>
+  <rect x="720" y="190" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="832.5" y="216.4" text-anchor="middle" font-size="14" fill="#111111">naming, web, email, streaming,</text>
+  <text x="832.5" y="235.4" text-anchor="middle" font-size="14" fill="#111111">cloud platforms, AI models</text>
+  <line x1="380" y1="264" x2="380" y2="280" stroke="#222222" stroke-width="2"/>
+  <rect x="96" y="285" width="568" height="82" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="317.8" y="305.1" width="124.4" height="22" fill="#FFFFFF"/>
+  <text x="380.0" y="321.1" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Logical plane</text>
+  <rect x="260.6" y="326.1" width="238.8" height="22" fill="#FFFFFF"/>
+  <text x="380.0" y="342.1" text-anchor="middle" font-size="16" fill="#111111">how packets find their way</text>
+  <rect x="720" y="295" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="832.5" y="321.4" text-anchor="middle" font-size="14" fill="#111111">addresses, packets, routing</text>
+  <text x="832.5" y="340.4" text-anchor="middle" font-size="14" fill="#111111">between independent networks</text>
+  <line x1="380" y1="369" x2="380" y2="385" stroke="#222222" stroke-width="2"/>
+  <rect x="114" y="390" width="532" height="82" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="380.0" y="426.1" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Physical plane</text>
+  <text x="380.0" y="447.1" text-anchor="middle" font-size="16" fill="#FFFFFF">where signals travel</text>
+  <rect x="720" y="400" width="225" height="62" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="832.5" y="426.4" text-anchor="middle" font-size="14" fill="#111111">cables, radio, satellites,</text>
+  <text x="832.5" y="445.4" text-anchor="middle" font-size="14" fill="#111111">routers, data centres</text>
+  <path d="M50 120 C 20 200 20 330 50 420" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/>
+  <text x="30" y="470" text-anchor="start" font-size="13" font-weight="bold" fill="#111111">rules shape</text>
+  <text x="30" y="488" text-anchor="start" font-size="13" fill="#111111">every plane</text>
+  <text x="480.0" y="548" text-anchor="middle" font-size="13" fill="#333333">Each plane rests on the one below; most real problems involve more than one plane.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four Internet scenarios for 2035</title>
+  <desc>A two-by-two matrix. Horizontal axis from fragmented on the left to open and interoperable on the right. Vertical axis from concentrated at the bottom to distributed at the top. Quadrants: top right open and distributed; bottom right open but concentrated; top left fragmented and distributed; bottom left fragmented and concentrated.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Two uncertainties, four futures</text>
+  <rect x="150" y="80" width="350.0" height="220.0" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <rect x="500.0" y="80" width="350.0" height="220.0" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="150" y="300.0" width="350.0" height="220.0" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="500.0" y="300.0" width="350.0" height="220.0" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <text x="675.0" y="170.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Open and distributed</text>
+  <text x="675.0" y="196.0" text-anchor="middle" font-size="14" fill="#111111">global interoperability;</text>
+  <text x="675.0" y="216.0" text-anchor="middle" font-size="14" fill="#111111">many providers, open protocols</text>
+  <text x="675.0" y="390.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Open but concentrated</text>
+  <text x="675.0" y="416.0" text-anchor="middle" font-size="14" fill="#111111">global reach; a few platforms</text>
+  <text x="675.0" y="436.0" text-anchor="middle" font-size="14" fill="#111111">and clouds dominate</text>
+  <text x="325.0" y="170.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Fragmented and distributed</text>
+  <text x="325.0" y="196.0" text-anchor="middle" font-size="14" fill="#111111">regional blocs with own rules;</text>
+  <text x="325.0" y="216.0" text-anchor="middle" font-size="14" fill="#111111">competition inside each</text>
+  <text x="325.0" y="390.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Fragmented and concentrated</text>
+  <text x="325.0" y="416.0" text-anchor="middle" font-size="14" fill="#111111">national networks led by</text>
+  <text x="325.0" y="436.0" text-anchor="middle" font-size="14" fill="#111111">a few state-aligned champions</text>
+  <line x1="150" y1="550" x2="850" y2="550" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="150" y="575" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">fragmented</text>
+  <text x="850" y="575" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">open and interoperable</text>
+  <line x1="110" y1="520" x2="110" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="95" y="300.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(-90 95 300.0)">concentrated  to  distributed</text>
+  <text x="480.0" y="635" text-anchor="middle" font-size="13" fill="#333333">Scenarios are tools for testing strategies, not predictions.</text>
+</svg>

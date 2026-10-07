@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Visible and hidden costs of a business device</title>
+  <desc>An iceberg. Above the waterline, the small visible part: purchase price, accessories and software licences. Below the waterline, the larger hidden part: deployment and set-up, support time, downtime and lost productivity, security management and incidents, energy, and disposal with data sanitisation.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F2F2F2"/><path d="M0 5H10" stroke="#BBBBBB" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Total cost of ownership: most of it is below the surface</text>
+  <rect x="40" y="200" width="880" height="350" fill="url(#lines)"/>
+  <line x1="40" y1="200" x2="920" y2="200" stroke="#1F3B5C" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="900" y="192" text-anchor="end" font-size="14" fill="#111111">waterline</text>
+  <polygon points="420,80 540,80 600,200 360,200" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <polygon points="360,200 600,200 760,330 700,520 260,520 200,330" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="3"/>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="480" y="125" font-weight="bold">Visible</text>
+    <text x="480" y="148">purchase price</text>
+    <text x="480" y="168">accessories, licences</text>
+  </g>
+  <rect x="290" y="225" width="380" height="270" fill="#FFFFFF" stroke="#1F3B5C"/>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="480" y="255" font-weight="bold">Hidden</text>
+    <text x="480" y="285">deployment and set-up</text>
+    <text x="480" y="315">support and help-desk time</text>
+    <text x="480" y="345">downtime and lost productivity</text>
+    <text x="480" y="375">security management and incidents</text>
+    <text x="480" y="405">energy</text>
+    <text x="480" y="435">repairs and replacements</text>
+    <text x="480" y="465">disposal and data sanitisation</text>
+  </g>
+  <text x="920" y="568" text-anchor="end" font-size="13" fill="#111111">Schematic; the proportions vary widely between organisations and devices.</text>
+</svg>

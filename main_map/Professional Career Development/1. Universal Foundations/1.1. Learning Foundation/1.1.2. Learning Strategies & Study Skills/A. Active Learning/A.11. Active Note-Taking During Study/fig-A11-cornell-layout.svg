@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Cornell note layout</title>
+<desc>A page divided into a narrow left cue column for questions added after the session, a wide right notes column for condensed notes taken during the session, and a bottom summary area.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The Cornell page</text>
+<rect x="120" y="80" width="720" height="480" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<rect x="120" y="80" width="220" height="380" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="132" y="92" width="196" height="356" fill="#FFFFFF"/>
+<rect x="340" y="80" width="500" height="380" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<rect x="120" y="460" width="720" height="100" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="140" y="472" width="680" height="76" fill="#FFFFFF"/>
+<text x="230" y="120.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">CUE COLUMN</text>
+<text x="230" y="139.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">after the session:</text>
+<text x="230" y="159.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">keywords and</text>
+<text x="230" y="178.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">questions</text>
+<text x="230" y="260.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">"Why does the new</text>
+<text x="230" y="278.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">model weight recent</text>
+<text x="230" y="296.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">defaults more?"</text>
+<text x="230" y="360.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Use: cover the notes</text>
+<text x="230" y="378.2" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">and answer from</text>
+<text x="230" y="396.4" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">memory (Recite)</text>
+<text x="590" y="120.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">NOTES COLUMN</text>
+<text x="590" y="139.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">during the session: condensed notes</text>
+<text x="590" y="159.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">in own words, structure, examples</text>
+<text x="370" y="230.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">- new PD model: 3 inputs, not 5</text>
+<text x="370" y="249.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">- recent defaults weighted x2</text>
+<text x="370" y="269.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">  (reason: faster regime changes)</text>
+<text x="370" y="288.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">- ? how is weighting validated</text>
+<text x="370" y="308.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">- applies to SME book - check</text>
+<text x="480" y="492.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">SUMMARY</text>
+<text x="480" y="511.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">after the session: three sentences stating what the page means</text>
+</svg>

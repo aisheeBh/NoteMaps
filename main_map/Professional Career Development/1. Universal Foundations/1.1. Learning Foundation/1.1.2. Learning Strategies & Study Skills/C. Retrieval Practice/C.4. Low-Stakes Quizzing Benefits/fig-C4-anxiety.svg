@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Practice tests and test anxiety</title>
+  <desc>Left: a bar showing the pooled reduction in test anxiety from practice tests, about g = -0.52 across 24 studies. Right: a schematic line showing that the reduction grows as success on the practice tests rises.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Quizzes lower test anxiety, especially when learners succeed</text>
+  <line x1="130" y1="130" x2="130" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <line x1="130" y1="140" x2="340" y2="140" stroke="#222222" stroke-width="2.5"/>
+  <text x="120" y="145" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="120" y="235" text-anchor="end" font-size="14" fill="#111111">−0.2</text>
+  <line x1="130" y1="230" x2="340" y2="230" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="120" y="325" text-anchor="end" font-size="14" fill="#111111">−0.4</text>
+  <line x1="130" y1="320" x2="340" y2="320" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="120" y="415" text-anchor="end" font-size="14" fill="#111111">−0.6</text>
+  <line x1="130" y1="410" x2="340" y2="410" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="66" y="290" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 66 290)">Change in anxiety (g)</text>
+  <rect x="185" y="140" width="100" height="234" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="190" y="393" width="90" height="25" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="235" y="408" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">g ≈ −0.52</text>
+  <text x="235" y="92" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Pooled effect</text>
+  <text x="235" y="111" text-anchor="middle" font-size="15" fill="#111111">24 studies</text>
+  <line x1="480" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <line x1="480" y1="120" x2="480" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <text x="470" y="135" text-anchor="end" font-size="14" fill="#111111">larger</text>
+  <text x="470" y="425" text-anchor="end" font-size="14" fill="#111111">smaller</text>
+  <text x="410" y="275" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 410 275.0)">Anxiety reduction</text>
+  <path d="M500.0 380.0 L700.0 280.0 L880.0 170.0" fill="none" stroke="#1F3B5C" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <circle cx="500" cy="380" r="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="700" cy="280" r="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="880" cy="170" r="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="690" y="460" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Success rate on practice tests  (low → high)</text>
+  <rect x="518" y="126" width="265" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="650" y="140" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Easier quizzes, bigger reduction</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Pooled value from Yang and colleagues (2023); the right panel is a schematic of their meta-regression trend.</text>
+</svg>

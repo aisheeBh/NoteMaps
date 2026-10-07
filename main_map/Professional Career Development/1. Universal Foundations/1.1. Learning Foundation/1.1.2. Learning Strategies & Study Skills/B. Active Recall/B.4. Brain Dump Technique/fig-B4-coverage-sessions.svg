@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Recall coverage across three dumps</title>
+  <desc>Bar chart from the worked example: coverage 40 percent on day 2, 64 percent on day 6 and 84 percent on day 14, with the main type of gap shifting from missing items, to unconnected ideas, to fine detail.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Coverage rises and the gaps change character</text>
+  <line x1="130" y1="410" x2="880" y2="410" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="410" x2="130" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="505.0" y="444" text-anchor="middle" font-size="16" fill="#111111"></text>
+  <text x="72" y="245.0" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 72 245.0)">Recall coverage (%)</text>
+  <line x1="130" y1="335.0" x2="860" y2="335.0" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="120" y="340.0" text-anchor="end" font-size="14" fill="#111111">25</text>
+  <line x1="130" y1="260.0" x2="860" y2="260.0" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="120" y="265.0" text-anchor="end" font-size="14" fill="#111111">50</text>
+  <line x1="130" y1="185.0" x2="860" y2="185.0" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="120" y="190.0" text-anchor="end" font-size="14" fill="#111111">75</text>
+  <line x1="130" y1="110.0" x2="860" y2="110.0" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="120" y="115.0" text-anchor="end" font-size="14" fill="#111111">100</text>
+  <rect x="210" y="290.0" width="140" height="120.0" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="261.9" y="258.0" width="36.3" height="27" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="280" y="276.0" text-anchor="middle" font-size="15" fill="#111111">40%</text>
+  <text x="280" y="436" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Day 2</text>
+  <text x="280" y="456" text-anchor="middle" font-size="14" fill="#111111">mostly MISSING</text>
+  <rect x="430" y="218.0" width="140" height="192.0" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="481.9" y="186.0" width="36.3" height="27" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="500" y="204.0" text-anchor="middle" font-size="15" fill="#111111">64%</text>
+  <text x="500" y="436" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Day 6</text>
+  <text x="500" y="456" text-anchor="middle" font-size="14" fill="#111111">mostly UNCONNECTED</text>
+  <rect x="650" y="158.0" width="140" height="252.0" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="701.9" y="126.0" width="36.3" height="27" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="720" y="144.0" text-anchor="middle" font-size="15" fill="#111111">84%</text>
+  <text x="720" y="436" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Day 14</text>
+  <text x="720" y="456" text-anchor="middle" font-size="14" fill="#111111">fine DETAIL</text>
+  <text x="480.0" y="505" text-anchor="middle" font-size="13" fill="#333333">Values from the worked example in the text (25 idea units).</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Mixing and time gaps</title>
+  <desc>Two by two grid: mixing related types (no or yes) against time gaps between repeats of a type (no or yes).</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Interleaving combines two ingredients: mixing and gaps</text>
+  <rect x="230" y="90" width="330" height="200" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="395.0" y="167.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Massed and blocked</text>
+  <text x="395.0" y="191.0" font-size="15" text-anchor="middle" fill="#111111">AAAA, then BBBB</text>
+  <text x="395.0" y="211.0" font-size="15" text-anchor="middle" fill="#111111">no mixing, no gaps</text>
+  <text x="395.0" y="231.0" font-size="15" text-anchor="middle" fill="#111111">smooth, fast-fading</text>
+  <rect x="560" y="90" width="330" height="200" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <rect x="596.1" y="147.0" width="257.8" height="90" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="725.0" y="167.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Side-by-side comparison</text>
+  <text x="725.0" y="191.0" font-size="15" text-anchor="middle" fill="#111111">A next to B at once</text>
+  <text x="725.0" y="211.0" font-size="15" text-anchor="middle" fill="#111111">mixing without delay</text>
+  <text x="725.0" y="231.0" font-size="15" text-anchor="middle" fill="#111111">strong for spotting differences</text>
+  <rect x="230" y="290" width="330" height="200" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="288.0" y="347.0" width="214.00000000000003" height="90" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="395.0" y="367.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Spaced but not mixed</text>
+  <text x="395.0" y="391.0" font-size="15" text-anchor="middle" fill="#111111">A ... filler ... A</text>
+  <text x="395.0" y="411.0" font-size="15" text-anchor="middle" fill="#111111">gaps, no comparison</text>
+  <text x="395.0" y="431.0" font-size="15" text-anchor="middle" fill="#111111">retention benefit only</text>
+  <rect x="560" y="290" width="330" height="200" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="3"/>
+  <rect x="615.6" y="347.0" width="218.8" height="90" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="725.0" y="367.0" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">Interleaved</text>
+  <text x="725.0" y="391.0" font-size="15" text-anchor="middle" fill="#111111">A B C B A C</text>
+  <text x="725.0" y="411.0" font-size="15" text-anchor="middle" fill="#111111">mixing and gaps together</text>
+  <text x="725.0" y="431.0" font-size="15" text-anchor="middle" fill="#111111">discrimination + retention</text>
+  <text x="395.0" y="520" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">No mixing of types</text>
+  <text x="725.0" y="520" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Related types mixed</text>
+  <text x="210" y="195.0" font-size="16" text-anchor="end" fill="#111111" font-weight="bold">No gaps</text>
+  <text x="210" y="395.0" font-size="16" text-anchor="end" fill="#111111" font-weight="bold">Gaps between</text>
+  <text x="210" y="415.0" font-size="16" text-anchor="end" fill="#111111" font-weight="bold">repeats</text>
+  <line x1="230" y1="540" x2="890" y2="540" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="560" y="562" font-size="15" text-anchor="middle" fill="#111111">more mixing</text>
+  <text x="480.0" y="585" font-size="13" text-anchor="middle" fill="#333333">Conceptual grid; experiments separate the two ingredients by comparing these schedules.</text>
+</svg>

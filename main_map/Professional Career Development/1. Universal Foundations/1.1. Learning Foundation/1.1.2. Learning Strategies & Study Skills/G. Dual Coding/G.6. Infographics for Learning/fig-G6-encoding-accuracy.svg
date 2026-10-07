@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Accuracy of visual encodings</title>
+  <desc>Six rows, ordered from most to least accurate for judging quantities: position on a common scale, position on non-aligned scales, length, angle and slope, area, and volume or colour shade. Each row shows a small example comparing two values, 40 and 60.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Some encodings are read far more accurately than others</text>
+  <line x1="50" y1="80" x2="50" y2="540" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="38" y="90" text-anchor="end" font-size="14" fill="#111111" transform="rotate(-90 38 90)">more accurate</text>
+  <text x="38" y="540" text-anchor="start" font-size="14" fill="#111111" transform="rotate(-90 38 540)">less</text>
+
+  <g font-size="17" font-weight="bold" fill="#111111">
+    <text x="80" y="110">1. Position, common scale</text>
+    <text x="80" y="185">2. Position, non-aligned scales</text>
+    <text x="80" y="260">3. Length</text>
+    <text x="80" y="335">4. Angle and slope</text>
+    <text x="80" y="410">5. Area</text>
+    <text x="80" y="485">6. Volume and colour shade</text>
+  </g>
+  <g font-size="14" fill="#111111">
+    <text x="80" y="132">dot plot, aligned bar chart</text>
+    <text x="80" y="207">small multiples on separate axes</text>
+    <text x="80" y="282">unaligned bars, stacked segments</text>
+    <text x="80" y="357">pie slices, line slopes</text>
+    <text x="80" y="432">bubbles, proportional icons</text>
+    <text x="80" y="507">3-D shapes, shaded maps</text>
+  </g>
+
+  <line x1="470" y1="125" x2="870" y2="125" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="630" cy="110" r="9" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="710" cy="110" r="9" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <line x1="630" y1="125" x2="630" y2="130" stroke="#222222"/><line x1="710" y1="125" x2="710" y2="130" stroke="#222222"/>
+  <text x="630" y="146" text-anchor="middle" font-size="13" fill="#111111">40</text><text x="710" y="146" text-anchor="middle" font-size="13" fill="#111111">60</text>
+
+  <line x1="470" y1="200" x2="640" y2="200" stroke="#222222" stroke-width="1.5"/>
+  <line x1="700" y1="200" x2="870" y2="200" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="538" cy="185" r="9" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="802" cy="180" r="9" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <rect x="470" y="245" width="160" height="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="680" y="255" width="240" height="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+
+  <path d="M560 345 L560 305 A40 40 0 0 1 598 357 Z" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M760 345 L760 305 A40 40 0 1 1 722 357 Z" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="620" y="330" font-size="13" fill="#111111">40</text><text x="815" y="330" font-size="13" fill="#111111">60</text>
+
+  <circle cx="560" cy="415" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="760" cy="415" r="27" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="595" y="420" font-size="13" fill="#111111">40</text><text x="800" y="420" font-size="13" fill="#111111">60</text>
+
+  <rect x="540" y="472" width="40" height="40" fill="#E6E6E6" stroke="#222222" stroke-width="1.5"/>
+  <rect x="740" y="472" width="40" height="40" fill="#9A9A9A" stroke="#222222" stroke-width="1.5"/>
+  <text x="595" y="497" font-size="13" fill="#111111">40</text><text x="795" y="497" font-size="13" fill="#111111">60</text>
+
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Ranking after Cleveland and McGill (1984); each example compares the values 40 and 60.</text>
+</svg>

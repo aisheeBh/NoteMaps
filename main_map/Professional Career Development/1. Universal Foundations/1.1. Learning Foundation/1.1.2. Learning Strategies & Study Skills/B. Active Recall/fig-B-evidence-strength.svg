@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Strength of support for claims about active recall</title>
+  <desc>Horizontal bars grading claims from well established to open: retention advantage over restudy, advantage grows with delay, feedback improves effects, better self-assessment, transfer to new problems, benefit for complex material with novices, benefit of AI-assisted recall.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What is settled, what is variable, what is open</text>
+  <text x="330" y="107" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Better retention than restudy</text>
+  <rect x="345" y="86" width="540" height="34" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="330" y="163" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Advantage grows with delay</text>
+  <rect x="345" y="142" width="540" height="34" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="330" y="219" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Feedback strengthens the effect</text>
+  <rect x="345" y="198" width="540" height="34" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="330" y="275" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Better self-assessment</text>
+  <rect x="345" y="254" width="486.0" height="34" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="330" y="331" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Transfer to new problems</text>
+  <rect x="345" y="310" width="324.0" height="34" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="330" y="387" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Complex material, novices</text>
+  <rect x="345" y="366" width="202.5" height="34" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="330" y="443" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">AI-assisted recall</text>
+  <rect x="345" y="422" width="135.0" height="34" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="345" y="492" text-anchor="middle" font-size="14" fill="#111111">open</text>
+  <text x="480" y="492" text-anchor="middle" font-size="14" fill="#111111">contested</text>
+  <text x="615" y="492" text-anchor="middle" font-size="14" fill="#111111">variable</text>
+  <text x="750" y="492" text-anchor="middle" font-size="14" fill="#111111">strong</text>
+  <text x="885" y="492" text-anchor="middle" font-size="14" fill="#111111">established</text>
+  <line x1="345" y1="470" x2="885" y2="470" stroke="#222222" stroke-width="2"/>
+  <line x1="345" y1="466" x2="345" y2="474" stroke="#222222" stroke-width="2"/>
+  <line x1="480" y1="466" x2="480" y2="474" stroke="#222222" stroke-width="2"/>
+  <line x1="615" y1="466" x2="615" y2="474" stroke="#222222" stroke-width="2"/>
+  <line x1="750" y1="466" x2="750" y2="474" stroke="#222222" stroke-width="2"/>
+  <line x1="885" y1="466" x2="885" y2="474" stroke="#222222" stroke-width="2"/>
+  <text x="615" y="515" text-anchor="middle" font-size="15" fill="#111111">Strength of evidence (qualitative)</text>
+  <text x="480.0" y="545" text-anchor="middle" font-size="13" fill="#333333">Qualitative summary of the research literature; not a formal meta-analytic rating.</text>
+</svg>

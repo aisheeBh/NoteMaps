@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Prioritising knowledge for retrieval practice</title>
+  <desc>A two-by-two matrix. Horizontal axis: frequency of use, rare to frequent. Vertical axis: cost of failing to recall, low to high. High cost and rare use: top priority for retrieval practice. High cost and frequent use: practise to fluency, then maintain. Low cost and rare use: look it up. Low cost and frequent use: learned through use.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">What deserves a place in the system?</text>
+  <rect x="170" y="90" width="350.0" height="200.0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="520.0" y="90" width="350.0" height="200.0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="170" y="290.0" width="350.0" height="200.0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="520.0" y="290.0" width="350.0" height="200.0" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="195" y="122" width="300" height="136" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="345" y="150" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">TOP PRIORITY</text>
+  <text x="345" y="174" text-anchor="middle" font-size="15" fill="#111111">practise and keep practising</text>
+  <text x="345" y="202" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">e.g. emergency procedures,</text>
+  <text x="345" y="224" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">rare serious presentations</text>
+  <rect x="545" y="133" width="300" height="114" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="695" y="161" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Practise to fluency</text>
+  <text x="695" y="185" text-anchor="middle" font-size="15" fill="#111111">then light maintenance</text>
+  <text x="695" y="213" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">e.g. core daily procedures</text>
+  <rect x="195" y="333" width="300" height="114" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="345" y="361" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Look it up</text>
+  <text x="345" y="385" text-anchor="middle" font-size="15" fill="#111111">know where to find it</text>
+  <text x="345" y="413" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">e.g. detailed reference tables</text>
+  <rect x="545" y="333" width="300" height="114" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="695" y="361" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Learned through use</text>
+  <text x="695" y="385" text-anchor="middle" font-size="15" fill="#111111">little deliberate practice</text>
+  <text x="695" y="413" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">e.g. routine tool shortcuts</text>
+  <text x="520" y="522" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Frequency of use:  rare  →  frequent</text>
+  <text x="130" y="290" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold" transform="rotate(-90 130 290.0)">Cost of failing to recall:  low  →  high</text>
+  <text x="480" y="565" text-anchor="middle" font-size="13" fill="#333333">Prioritisation heuristic; speed of need, foundation value and stability also matter.</text>
+</svg>

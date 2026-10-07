@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Mapping known concepts onto a new domain</title>
+  <desc>A career changer from logistics maps familiar warehouse concepts onto new software-container concepts; three mappings hold well, one holds partly and one breaks, and the breaks are where new learning is needed.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Old knowledge as a bridge into a new field - and where the bridge breaks</text>
+
+  <text x="200" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">KNOWN: running a warehouse</text>
+  <text x="760" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">NEW: running software containers</text>
+
+  <g font-size="15" fill="#111111">
+    <!-- row 1 -->
+    <rect x="60" y="105" width="280" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="76" y="139">Standard shipping container</text>
+    <rect x="620" y="105" width="280" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="636" y="139">Container image</text>
+    <line x1="340" y1="133" x2="620" y2="133" stroke="#1E5E24" stroke-width="3.5" marker-end="url(#arrow)"/>
+    <rect x="410" y="118" width="140" height="26" fill="#FFFFFF"/><text x="480" y="137" text-anchor="middle" font-size="14">holds well</text>
+
+    <!-- row 2 -->
+    <rect x="60" y="190" width="280" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="76" y="224">Dock with loading bays</text>
+    <rect x="620" y="190" width="280" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="636" y="224">Server node</text>
+    <line x1="340" y1="218" x2="620" y2="218" stroke="#1E5E24" stroke-width="3.5" marker-end="url(#arrow)"/>
+    <rect x="410" y="203" width="140" height="26" fill="#FFFFFF"/><text x="480" y="222" text-anchor="middle" font-size="14">holds well</text>
+
+    <!-- row 3 -->
+    <rect x="60" y="275" width="280" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="76" y="309">Yard scheduler</text>
+    <rect x="620" y="275" width="280" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="636" y="309">Orchestrator</text>
+    <line x1="340" y1="303" x2="620" y2="303" stroke="#1E5E24" stroke-width="3.5" marker-end="url(#arrow)"/>
+    <rect x="410" y="288" width="140" height="26" fill="#FFFFFF"/><text x="480" y="307" text-anchor="middle" font-size="14">holds well</text>
+
+    <!-- row 4 partial -->
+    <rect x="60" y="360" width="280" height="56" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="76" y="394">Moving stock between sites</text>
+    <rect x="620" y="360" width="280" height="56" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="636" y="394">Rescheduling a container</text>
+    <line x1="340" y1="388" x2="620" y2="388" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+    <rect x="390" y="373" width="180" height="26" fill="#FFFFFF"/><text x="480" y="392" text-anchor="middle" font-size="14">partly: replaced, not moved</text>
+
+    <!-- row 5 breaks -->
+    <rect x="60" y="445" width="280" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="76" y="479">Stock persists on the shelf</text>
+    <rect x="620" y="445" width="280" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="636" y="471">Container data vanishes</text>
+    <text x="636" y="490">on restart unless stored</text>
+    <line x1="340" y1="473" x2="460" y2="473" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="2 4"/>
+    <line x1="500" y1="473" x2="620" y2="473" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="2 4"/>
+    <text x="480" y="479" text-anchor="middle" font-size="22" font-weight="bold">X</text>
+    <text x="480" y="518" text-anchor="middle" font-size="14">breaks: learn this as new</text>
+  </g>
+
+  <text x="480" y="570" text-anchor="middle" font-size="14" fill="#111111">The breaks are where errors will come from, so they deserve the most study time.</text>
+</svg>

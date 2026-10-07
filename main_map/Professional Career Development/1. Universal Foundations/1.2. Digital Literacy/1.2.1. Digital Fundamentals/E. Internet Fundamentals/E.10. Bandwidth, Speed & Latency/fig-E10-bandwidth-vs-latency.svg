@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Page load versus bandwidth and latency</title>
+  <desc>Two schematic panels. Left: page-load time falls steeply as bandwidth rises from 1 to about 5 megabits per second, then flattens. Right: page-load time rises roughly in a straight line as round-trip time increases.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Bandwidth helps up to a point; latency keeps mattering</text>
+  <line x1="130" y1="420" x2="460" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="420" x2="130" y2="120" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="295.0" y="460" text-anchor="middle" font-size="15" fill="#111111">Bandwidth (Mbit/s)</text>
+  <text x="105" y="270.0" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 105 270.0)">Page-load time</text>
+  <text x="295.0" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">More bandwidth: diminishing returns</text>
+  <path d="M130.0 144.0 L133.3 158.0 L136.6 171.1 L139.9 183.5 L143.2 195.2 L146.5 206.2 L149.8 216.6 L153.1 226.3 L156.4 235.5 L159.7 244.1 L163.0 252.3 L166.3 260.0 L169.6 267.2 L172.9 274.0 L176.2 280.4 L179.5 286.4 L182.8 292.1 L186.1 297.5 L189.4 302.5 L192.7 307.2 L196.0 311.7 L199.3 315.9 L202.6 319.9 L205.9 323.6 L209.2 327.1 L212.5 330.4 L215.8 333.6 L219.1 336.5 L222.4 339.3 L225.7 341.9 L229.0 344.3 L232.3 346.6 L235.6 348.8 L238.9 350.9 L242.2 352.8 L245.5 354.6 L248.8 356.3 L252.1 357.9 L255.4 359.5 L258.7 360.9 L262.0 362.2 L265.3 363.5 L268.6 364.7 L271.9 365.8 L275.2 366.9 L278.5 367.9 L281.8 368.8 L285.1 369.7 L288.4 370.5 L291.7 371.3 L295.0 372.1 L298.3 372.7 L301.6 373.4 L304.9 374.0 L308.2 374.6 L311.5 375.1 L314.8 375.7 L318.1 376.1 L321.4 376.6 L324.7 377.0 L328.0 377.4 L331.3 377.8 L334.6 378.2 L337.9 378.5 L341.2 378.8 L344.5 379.1 L347.8 379.4 L351.1 379.7 L354.4 379.9 L357.7 380.2 L361.0 380.4 L364.3 380.6 L367.6 380.8 L370.9 381.0 L374.2 381.2 L377.5 381.3 L380.8 381.5 L384.1 381.6 L387.4 381.8 L390.7 381.9 L394.0 382.0 L397.3 382.1 L400.6 382.2 L403.9 382.4 L407.2 382.4 L410.5 382.5 L413.8 382.6 L417.1 382.7 L420.4 382.8 L423.7 382.8 L427.0 382.9 L430.3 383.0 L433.6 383.0 L436.9 383.1 L440.2 383.1 L443.5 383.2 L446.8 383.2 L450.1 383.3 L453.4 383.3 L456.7 383.4 L460.0 383.4" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <text x="130" y="440" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <text x="179.5" y="440" text-anchor="middle" font-size="14" fill="#111111">about 5</text>
+  <text x="460" y="440" text-anchor="middle" font-size="14" fill="#111111">high</text>
+  <rect x="237.20000000000002" y="331.0" width="194.8" height="21" fill="#FFFFFF"/>
+  <text x="334.6" y="345.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">flattens beyond the knee</text>
+  <line x1="570" y1="420" x2="900" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="570" y1="420" x2="570" y2="120" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="735.0" y="460" text-anchor="middle" font-size="15" fill="#111111">Round-trip time (ms)</text>
+  <text x="545" y="270.0" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 545 270.0)">Page-load time</text>
+  <text x="735.0" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Lower latency: steady gains</text>
+  <path d="M570.0 384.0 L573.3 381.7 L576.6 379.3 L579.9 377.0 L583.2 374.6 L586.5 372.3 L589.8 370.0 L593.1 367.6 L596.4 365.3 L599.7 362.9 L603.0 360.6 L606.3 358.3 L609.6 355.9 L612.9 353.6 L616.2 351.2 L619.5 348.9 L622.8 346.6 L626.1 344.2 L629.4 341.9 L632.7 339.5 L636.0 337.2 L639.3 334.9 L642.6 332.5 L645.9 330.2 L649.2 327.8 L652.5 325.5 L655.8 323.2 L659.1 320.8 L662.4 318.5 L665.7 316.1 L669.0 313.8 L672.3 311.5 L675.6 309.1 L678.9 306.8 L682.2 304.4 L685.5 302.1 L688.8 299.8 L692.1 297.4 L695.4 295.1 L698.7 292.7 L702.0 290.4 L705.3 288.1 L708.6 285.7 L711.9 283.4 L715.2 281.0 L718.5 278.7 L721.8 276.4 L725.1 274.0 L728.4 271.7 L731.7 269.3 L735.0 267.0 L738.3 264.7 L741.6 262.3 L744.9 260.0 L748.2 257.6 L751.5 255.3 L754.8 253.0 L758.1 250.6 L761.4 248.3 L764.7 245.9 L768.0 243.6 L771.3 241.3 L774.6 238.9 L777.9 236.6 L781.2 234.2 L784.5 231.9 L787.8 229.6 L791.1 227.2 L794.4 224.9 L797.7 222.5 L801.0 220.2 L804.3 217.9 L807.6 215.5 L810.9 213.2 L814.2 210.8 L817.5 208.5 L820.8 206.2 L824.1 203.8 L827.4 201.5 L830.7 199.1 L834.0 196.8 L837.3 194.5 L840.6 192.1 L843.9 189.8 L847.2 187.4 L850.5 185.1 L853.8 182.8 L857.1 180.4 L860.4 178.1 L863.7 175.7 L867.0 173.4 L870.3 171.1 L873.6 168.7 L876.9 166.4 L880.2 164.0 L883.5 161.7 L886.8 159.4 L890.1 157.0 L893.4 154.7 L896.7 152.3 L900.0 150.0" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="570" y="440" text-anchor="middle" font-size="14" fill="#111111">low</text>
+  <text x="900" y="440" text-anchor="middle" font-size="14" fill="#111111">high</text>
+  <rect x="692.6" y="181.0" width="117.80000000000001" height="21" fill="#FFFFFF"/>
+  <text x="751.5" y="195.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">roughly linear</text>
+  <text x="480.0" y="505" text-anchor="middle" font-size="13" fill="#333333">Schematic after Belshe (2010); not plotted from his data. The bandwidth knee is higher for today's heavier pages.</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Success, failure and feedback</title>
+  <desc>A two-by-two grid. Columns: retrieval easy or hard. Rows: success, or failure. Hard and successful is the strongest outcome. Hard failure with feedback is productive; hard failure without feedback is wasted. Easy success gives a small benefit.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Difficulty helps when retrieval succeeds — or feedback rescues it</text>
+  <text x="370" y="110" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Easy retrieval</text>
+  <text x="710" y="110" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Hard retrieval</text>
+  <text x="130" y="220" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold" transform="rotate(-90 130 220.0)">Succeeds</text>
+  <text x="130" y="400" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold" transform="rotate(-90 130 400.0)">Fails</text>
+  <rect x="200" y="130" width="340" height="180" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="370" y="206" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Small benefit</text>
+  <text x="370" y="226" text-anchor="middle" font-size="16" fill="#111111">recall of what is</text>
+  <text x="370" y="246" text-anchor="middle" font-size="16" fill="#111111">still fresh</text>
+  <rect x="540" y="130" width="340" height="180" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="598" y="185" width="224" height="70" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="710" y="206" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Strongest benefit</text>
+  <text x="710" y="226" text-anchor="middle" font-size="16" fill="#111111">effortful success</text>
+  <text x="710" y="246" text-anchor="middle" font-size="16" fill="#111111">builds storage strength</text>
+  <rect x="200" y="310" width="340" height="180" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="370" y="386" text-anchor="middle" font-size="16" fill="#222222" font-weight="bold">Rare</text>
+  <text x="370" y="406" text-anchor="middle" font-size="16" fill="#222222">if easy retrieval fails,</text>
+  <text x="370" y="426" text-anchor="middle" font-size="16" fill="#222222">reteach first</text>
+  <rect x="540" y="310" width="170" height="180" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="625" y="386" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">With</text>
+  <text x="625" y="405" text-anchor="middle" font-size="15" fill="#111111">feedback:</text>
+  <text x="625" y="424" text-anchor="middle" font-size="15" fill="#111111">productive</text>
+  <rect x="710" y="310" width="170" height="180" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="748" y="366" width="94" height="67" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="795" y="386" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">No</text>
+  <text x="795" y="405" text-anchor="middle" font-size="15" fill="#111111">feedback:</text>
+  <text x="795" y="424" text-anchor="middle" font-size="15" fill="#111111">wasted</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Conceptual summary; the size of each benefit varies with material and learner.</text>
+</svg>

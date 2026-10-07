@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Anatomy of an analytic rubric</title>
+  <desc>A grid for a data-analysis report. Rows are criteria: question framing, method, interpretation and communication. Columns are performance levels from 1 beginning to 4 exemplary. Each cell holds a descriptor; one cell, method at level 3, is filled in as an example. Callouts name the criteria, the performance levels, a descriptor and the scoring strategy.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">An analytic rubric for a data-analysis report</text>
+  <g stroke="#333333" stroke-width="1.5" fill="#FFFFFF">
+    <rect x="60" y="110" width="200" height="50" fill="#F2F2F2"/>
+    <rect x="260" y="110" width="150" height="50" fill="#F2F2F2"/><rect x="410" y="110" width="150" height="50" fill="#F2F2F2"/>
+    <rect x="560" y="110" width="150" height="50" fill="#F2F2F2"/><rect x="710" y="110" width="150" height="50" fill="#F2F2F2"/>
+    <rect x="60" y="160" width="200" height="70" fill="url(#hatch)"/><rect x="60" y="230" width="200" height="70" fill="url(#hatch)"/>
+    <rect x="60" y="300" width="200" height="70" fill="url(#hatch)"/><rect x="60" y="370" width="200" height="70" fill="url(#hatch)"/>
+    <rect x="260" y="160" width="150" height="70"/><rect x="410" y="160" width="150" height="70"/><rect x="560" y="160" width="150" height="70"/><rect x="710" y="160" width="150" height="70"/>
+    <rect x="260" y="230" width="150" height="70"/><rect x="410" y="230" width="150" height="70"/><rect x="560" y="230" width="150" height="70" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/><rect x="710" y="230" width="150" height="70"/>
+    <rect x="260" y="300" width="150" height="70"/><rect x="410" y="300" width="150" height="70"/><rect x="560" y="300" width="150" height="70"/><rect x="710" y="300" width="150" height="70"/>
+    <rect x="260" y="370" width="150" height="70"/><rect x="410" y="370" width="150" height="70"/><rect x="560" y="370" width="150" height="70"/><rect x="710" y="370" width="150" height="70"/>
+  </g>
+  <g font-size="15" fill="#111111">
+    <text x="160" y="140" text-anchor="middle" font-weight="bold">Criterion</text>
+    <text x="335" y="132" text-anchor="middle" font-weight="bold">1</text><text x="335" y="150" text-anchor="middle">Beginning</text>
+    <text x="485" y="132" text-anchor="middle" font-weight="bold">2</text><text x="485" y="150" text-anchor="middle">Developing</text>
+    <text x="635" y="132" text-anchor="middle" font-weight="bold">3</text><text x="635" y="150" text-anchor="middle">Proficient</text>
+    <text x="785" y="132" text-anchor="middle" font-weight="bold">4</text><text x="785" y="150" text-anchor="middle">Exemplary</text>
+    <rect x="72" y="182" width="176" height="26" fill="#FFFFFF"/><text x="80" y="200" font-weight="bold">Question framing</text>
+    <rect x="72" y="252" width="176" height="26" fill="#FFFFFF"/><text x="80" y="270" font-weight="bold">Method</text>
+    <rect x="72" y="322" width="176" height="26" fill="#FFFFFF"/><text x="80" y="340" font-weight="bold">Interpretation</text>
+    <rect x="72" y="392" width="176" height="26" fill="#FFFFFF"/><text x="80" y="410" font-weight="bold">Communication</text>
+    <text x="568" y="252" font-size="14">Method suits the</text>
+    <text x="568" y="270" font-size="14">question; key</text>
+    <text x="568" y="288" font-size="14">assumptions stated</text>
+  </g>
+  <g font-size="14" fill="#555555" text-anchor="middle">
+    <text x="335" y="200">...</text><text x="485" y="200">...</text><text x="635" y="200">...</text><text x="785" y="200">...</text>
+    <text x="335" y="270">...</text><text x="485" y="270">...</text><text x="785" y="270">...</text>
+    <text x="335" y="340">...</text><text x="485" y="340">...</text><text x="635" y="340">...</text><text x="785" y="340">...</text>
+    <text x="335" y="410">...</text><text x="485" y="410">...</text><text x="635" y="410">...</text><text x="785" y="410">...</text>
+  </g>
+  <g font-size="15" fill="#111111">
+    <line x1="160" y1="470" x2="160" y2="444" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="60" y="490" font-weight="bold">Criteria</text><text x="60" y="510">dimensions of quality</text>
+    <line x1="560" y1="80" x2="560" y2="106" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="380" y="72" font-weight="bold">Performance levels</text><text x="530" y="72">the scale for every criterion</text>
+    <line x1="690" y1="470" x2="650" y2="304" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="600" y="490" font-weight="bold">Descriptor</text><text x="600" y="510">what work at this level looks like</text>
+    <rect x="300" y="530" width="560" height="50" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+    <text x="316" y="553" font-weight="bold">Scoring strategy:</text>
+    <text x="316" y="572">one score per criterion; optional weights; total or profile</text>
+  </g>
+</svg>

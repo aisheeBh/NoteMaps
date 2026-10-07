@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A discovery story arc for learning a concept</title>
+  <desc>The concept of handwashing to prevent infection told as a story arc: a puzzle (high deaths in one ward), failed explanations, a clue (a colleague's death after a cut), the insight (contamination from autopsies), the test (chlorine washing cuts deaths), and resistance and later vindication.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">A concept told as the story of its discovery</text>
+  <text x="480" y="60" text-anchor="middle" font-size="15" fill="#111111">Ignaz Semmelweis and handwashing, Vienna, 1840s</text>
+
+  <!-- arc path -->
+  <path d="M80 440 C 220 420, 300 330, 400 260 S 600 110, 700 130 S 840 300, 900 330" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+
+  <g font-size="14" fill="#111111">
+    <circle cx="90" cy="438" r="8" fill="#1F3B5C"/>
+    <rect x="40" y="460" width="215" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="52" y="480" font-weight="bold">1. PUZZLE</text>
+    <text x="52" y="498">one maternity ward has</text>
+    <text x="52" y="514">far more deaths than another</text>
+
+    <circle cx="270" cy="370" r="8" fill="#1F3B5C"/>
+    <rect x="250" y="390" width="200" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="262" y="410" font-weight="bold">2. FAILED EXPLANATIONS</text>
+    <text x="262" y="428">crowding, climate, fear -</text>
+    <text x="262" y="444">none differ between wards</text>
+
+    <circle cx="420" cy="245" r="8" fill="#1F3B5C"/>
+    <rect x="300" y="150" width="190" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="312" y="170" font-weight="bold">3. CLUE</text>
+    <text x="312" y="188">a colleague cut in an</text>
+    <text x="312" y="204">autopsy dies the same way</text>
+
+    <circle cx="640" cy="122" r="9" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <rect x="690" y="70" width="230" height="64" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="702" y="90" font-weight="bold">4. INSIGHT</text>
+    <text x="702" y="108">doctors carry "cadaverous</text>
+    <text x="702" y="124">particles" from autopsies</text>
+
+    <circle cx="790" cy="200" r="8" fill="#1F3B5C"/>
+    <rect x="560" y="230" width="210" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="572" y="250" font-weight="bold">5. TEST</text>
+    <text x="572" y="268">chlorine handwashing:</text>
+    <text x="572" y="284">deaths fall sharply</text>
+
+    <circle cx="895" cy="328" r="8" fill="#1F3B5C"/>
+    <rect x="700" y="360" width="220" height="80" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="712" y="380" font-weight="bold">6. RESISTANCE, THEN</text>
+    <text x="712" y="396" font-weight="bold">VINDICATION</text>
+    <text x="712" y="414">rejected in his lifetime;</text>
+    <text x="712" y="430">later explained by germ theory</text>
+  </g>
+
+  <text x="480" y="548" text-anchor="middle" font-size="13" fill="#333333">Simplified historical sequence; the "story" structure is the study device.</text>
+</svg>

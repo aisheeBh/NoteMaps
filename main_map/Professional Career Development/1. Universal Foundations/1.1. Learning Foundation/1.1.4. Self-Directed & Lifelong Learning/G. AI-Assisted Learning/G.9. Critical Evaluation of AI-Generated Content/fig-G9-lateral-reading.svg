@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Vertical and lateral reading of an AI answer</title>
+  <desc>Left: vertical reading stays inside the AI answer, judging it by fluency, structure and confident tone, which signal nothing about accuracy. Right: lateral reading takes each key claim out to independent sources such as official statistics, the original paper, current legislation and an expert, and accepts the claim only when they agree.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Judging an AI answer from inside and from outside</text>
+  <line x1="400" y1="60" x2="400" y2="500" stroke="#555555" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- Vertical -->
+  <text x="200" y="78" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">VERTICAL READING</text>
+  <rect x="60" y="100" width="280" height="300" rx="10" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="76" y="114" width="248" height="272" fill="#FFFFFF"/>
+  <g font-size="15" fill="#111111">
+    <text x="90" y="142" font-weight="bold">The AI answer</text>
+    <text x="90" y="172">Is it fluent?</text>
+    <text x="90" y="198">Is it well structured?</text>
+    <text x="90" y="224">Does it sound confident?</text>
+    <text x="90" y="250">Does it cite something?</text>
+    <text x="90" y="290" font-weight="bold">All of these can be true</text>
+    <text x="90" y="312" font-weight="bold">of a wrong answer.</text>
+  </g>
+  <path d="M200 400 C 200 440, 200 440, 200 450" fill="none" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="200" y="476" text-anchor="middle" font-size="15" fill="#111111">Judgement rests on surface cues</text>
+
+  <!-- Lateral -->
+  <text x="680" y="78" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">LATERAL READING</text>
+  <rect x="440" y="200" width="160" height="100" rx="10" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="520" y="236" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Key claim</text>
+  <text x="520" y="258" text-anchor="middle" font-size="15" fill="#FFFFFF">from the</text>
+  <text x="520" y="278" text-anchor="middle" font-size="15" fill="#FFFFFF">AI answer</text>
+  <g font-size="15" fill="#111111">
+    <rect x="690" y="100" width="230" height="48" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/><rect x="700" y="110" width="210" height="28" fill="#FFFFFF"/><text x="710" y="130">Official statistics</text>
+    <rect x="690" y="180" width="230" height="48" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/><rect x="700" y="190" width="210" height="28" fill="#FFFFFF"/><text x="710" y="210">The original paper</text>
+    <rect x="690" y="260" width="230" height="48" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/><rect x="700" y="270" width="210" height="28" fill="#FFFFFF"/><text x="710" y="290">Current legislation</text>
+    <rect x="690" y="340" width="230" height="48" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/><rect x="700" y="350" width="210" height="28" fill="#FFFFFF"/><text x="710" y="370">A qualified expert</text>
+  </g>
+  <g stroke="#222222" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="600" y1="225" x2="686" y2="126"/>
+    <line x1="600" y1="240" x2="686" y2="204"/>
+    <line x1="600" y1="262" x2="686" y2="284"/>
+    <line x1="600" y1="280" x2="686" y2="362"/>
+  </g>
+  <text x="680" y="440" text-anchor="middle" font-size="15" fill="#111111">Accept the claim only when</text>
+  <text x="680" y="462" text-anchor="middle" font-size="15" fill="#111111">independent sources agree</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">After the fact-checking strategies described by Wineburg and McGrew.</text>
+</svg>

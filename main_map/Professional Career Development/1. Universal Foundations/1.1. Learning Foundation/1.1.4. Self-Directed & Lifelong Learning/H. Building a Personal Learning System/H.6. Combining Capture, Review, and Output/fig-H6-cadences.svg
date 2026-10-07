@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Nested cadences over one month</title>
+  <desc>Five rows over four weeks. Capture: continuous marks every day. Review: a short mark six days a week. Processing: three marks a week. Output fragment: one mark each week. Finished output: one mark at the end of the month, with pruning noted as quarterly.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Cadences of the loop across one month</text>
+  <text x="330" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Week 1</text>
+  <line x1="250" y1="100" x2="250" y2="450" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="492" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Week 2</text>
+  <line x1="411" y1="100" x2="411" y2="450" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="652" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Week 3</text>
+  <line x1="572" y1="100" x2="572" y2="450" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="814" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Week 4</text>
+  <line x1="733" y1="100" x2="733" y2="450" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="894" y1="100" x2="894" y2="450" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="236" y="137" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Capture</text>
+  <text x="236" y="157" text-anchor="end" font-size="13" fill="#111111">continuous</text>
+  <rect x="252" y="123" width="640" height="34" rx="4" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="236" y="203" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Short review</text>
+  <text x="236" y="223" text-anchor="end" font-size="13" fill="#111111">six days a week</text>
+  <rect x="255" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="278" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="301" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="324" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="347" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="370" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="416" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="439" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="462" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="485" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="508" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="531" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="577" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="600" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="623" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="646" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="669" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="692" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="738" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="761" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="784" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="807" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="830" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="853" y="191" width="13" height="30" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="236" y="269" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Processing</text>
+  <text x="236" y="289" text-anchor="end" font-size="13" fill="#111111">3 times a week</text>
+  <rect x="275" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="321" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="367" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="436" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="482" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="528" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="597" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="643" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="689" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="758" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="804" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="850" y="253" width="19" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="236" y="335" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Output fragment</text>
+  <text x="236" y="355" text-anchor="end" font-size="13" fill="#111111">weekly</text>
+  <rect x="332" y="317" width="43" height="42" rx="3" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="493" y="317" width="43" height="42" rx="3" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="654" y="317" width="43" height="42" rx="3" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="815" y="317" width="43" height="42" rx="3" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="236" y="401" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Finished output</text>
+  <text x="236" y="421" text-anchor="end" font-size="13" fill="#111111">monthly</text>
+  <rect x="825" y="381" width="69" height="46" rx="3" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="480" y="470" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Pruning of stale captures and unused review items: once a quarter</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">Illustrative cadence; exact days vary with the routine.</text>
+</svg>

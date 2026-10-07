@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Teaching helps when it requires retrieval</title>
+  <desc>Schematic bar chart of one-week comprehension in four groups: control activity low, teaching with notes low, teaching without notes high, retrieval practice only high.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Teaching helped only when it required retrieval</text>
+  <line x1="130" y1="410" x2="900" y2="410" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="410" x2="130" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="515.0" y="444" text-anchor="middle" font-size="16" fill="#111111"></text>
+  <text x="72" y="250.0" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 72 250.0)">Comprehension a week later</text>
+  <rect x="190" y="294.0" width="120" height="116.0" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="250" y="436" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Control</text>
+  <text x="250" y="456" text-anchor="middle" font-size="14" fill="#111111">unrelated task</text>
+  <rect x="365" y="285.3" width="120" height="124.7" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="425" y="436" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teach WITH</text>
+  <text x="425" y="456" text-anchor="middle" font-size="14" fill="#111111">notes available</text>
+  <rect x="540" y="207.0" width="120" height="203.0" rx="0" fill="url(#hatch)" stroke="#000000" stroke-width="2"/>
+  <text x="600" y="436" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Teach WITHOUT</text>
+  <text x="600" y="456" text-anchor="middle" font-size="14" fill="#111111">notes</text>
+  <rect x="715" y="212.8" width="120" height="197.2" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="775" y="436" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Retrieval</text>
+  <text x="775" y="456" text-anchor="middle" font-size="14" fill="#111111">practice only</text>
+  <rect x="241.1" y="143" width="117.8" height="44" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="300" y="160" text-anchor="middle" font-size="14" fill="#111111">no retrieval:</text>
+  <text x="300" y="178" text-anchor="middle" font-size="14" fill="#111111">little benefit</text>
+  <rect x="593.3" y="113" width="193.4" height="26" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="690" y="130" text-anchor="middle" font-size="14" fill="#111111">retrieval: clear benefit</text>
+  <text x="480.0" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Koh, Lee and Lim (2018); bar heights illustrative.</text>
+</svg>

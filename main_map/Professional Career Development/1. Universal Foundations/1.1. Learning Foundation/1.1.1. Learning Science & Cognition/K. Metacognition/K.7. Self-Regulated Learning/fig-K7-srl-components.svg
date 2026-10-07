@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of self-regulated learning</title>
+  <desc>Nested layers. At the centre, cognitive strategies work on the material: rehearsal, elaboration, organisation. Around them, metacognitive strategies plan, monitor and regulate the thinking. Around those, resource management handles time, environment, effort, help and peers. The outermost layer is motivational and emotional regulation.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Regulating the material, the thinking, the conditions and the self</text>
+
+  <!-- outer: motivation -->
+  <rect x="40" y="64" width="880" height="500" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="160" y="72" width="640" height="46" fill="#FFFFFF"/>
+  <text x="480" y="92" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">MOTIVATIONAL AND EMOTIONAL REGULATION</text>
+  <text x="480" y="112" text-anchor="middle" font-size="14" fill="#111111">proximal goals · self-rewards · reminders of value · managing anxiety</text>
+
+  <!-- resource management -->
+  <rect x="100" y="128" width="760" height="416" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">RESOURCE MANAGEMENT</text>
+  <text x="480" y="180" text-anchor="middle" font-size="15" fill="#111111">time and study environment · effort regulation · help-seeking · peer learning</text>
+
+  <!-- metacognitive -->
+  <rect x="170" y="200" width="620" height="324" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="190" y="212" width="580" height="60" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="238" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">METACOGNITIVE STRATEGIES</text>
+  <text x="480" y="262" text-anchor="middle" font-size="15" fill="#111111">planning · monitoring · regulating the thinking</text>
+
+  <!-- cognitive core -->
+  <rect x="260" y="300" width="440" height="200" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="344" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">COGNITIVE STRATEGIES</text>
+  <text x="480" y="372" text-anchor="middle" font-size="15" fill="#FFFFFF">working on the material itself</text>
+  <text x="480" y="410" text-anchor="middle" font-size="16" fill="#FFFFFF">rehearsal</text>
+  <text x="480" y="436" text-anchor="middle" font-size="16" fill="#FFFFFF">elaboration</text>
+  <text x="480" y="462" text-anchor="middle" font-size="16" fill="#FFFFFF">organisation</text>
+
+  <text x="480" y="588" text-anchor="middle" font-size="13" fill="#333333">After the strategy families measured by the Motivated Strategies for Learning Questionnaire (Pintrich and colleagues, 1991).</text>
+</svg>

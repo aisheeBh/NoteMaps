@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Immediate versus delayed judgements of learning</title>
+  <desc>Two bars compare how well judgements of learning predict later recall. Judgements made immediately after study are only modestly accurate because the answer is still in working memory. Judgements made after a delay, by trying to retrieve from the cue alone, are far more accurate.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Judge later, and judge by trying to recall</text>
+
+  <line x1="140" y1="440" x2="860" y2="440" stroke="#222222" stroke-width="2.5"/>
+  <line x1="140" y1="440" x2="140" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="130" y="445" text-anchor="end" font-size="14" fill="#111111">chance</text>
+  <text x="128" y="112" text-anchor="end" font-size="14" fill="#111111">near</text>
+  <text x="128" y="130" text-anchor="end" font-size="14" fill="#111111">perfect</text>
+  <line x1="140" y1="116" x2="860" y2="116" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="44" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 44 270)">How well judgements predict recall</text>
+
+  <!-- immediate bar -->
+  <rect x="240" y="320" width="200" height="120" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="210" y="200" width="260" height="96" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="340" y="226" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">IMMEDIATE JOL</text>
+  <text x="340" y="250" text-anchor="middle" font-size="14" fill="#111111">made with the answer still</text>
+  <text x="340" y="268" text-anchor="middle" font-size="14" fill="#111111">in working memory: everything</text>
+  <text x="340" y="286" text-anchor="middle" font-size="14" fill="#111111">feels known</text>
+
+  <!-- delayed bar -->
+  <rect x="560" y="120" width="200" height="320" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="530" y="200" width="260" height="96" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="660" y="226" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">DELAYED JOL</text>
+  <text x="660" y="250" text-anchor="middle" font-size="14" fill="#111111">made minutes later from the</text>
+  <text x="660" y="268" text-anchor="middle" font-size="14" fill="#111111">cue alone: a real retrieval</text>
+  <text x="660" y="286" text-anchor="middle" font-size="14" fill="#111111">attempt reveals what is stored</text>
+
+  <text x="340" y="468" text-anchor="middle" font-size="16" fill="#111111">Judged right after study</text>
+  <text x="660" y="468" text-anchor="middle" font-size="16" fill="#111111">Judged after a delay</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Nelson and Dunlosky (1991) and replicated many times; bar heights are illustrative.</text>
+</svg>

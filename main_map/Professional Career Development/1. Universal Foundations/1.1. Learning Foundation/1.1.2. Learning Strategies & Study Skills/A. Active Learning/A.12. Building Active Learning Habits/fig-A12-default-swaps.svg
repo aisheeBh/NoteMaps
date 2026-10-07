@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Default swaps</title>
+<desc>Four rows. Each row shows an existing cue, the passive default routine, and the active replacement routine attached to the same cue.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Same cue, different routine</text>
+<text x="170" y="100" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">EXISTING CUE</text>
+<text x="470" y="100" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">PASSIVE DEFAULT</text>
+<text x="780" y="100" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">ACTIVE SWAP</text>
+<rect x="50" y="120" width="240" height="80" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="170.0" y="165.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#FFFFFF">Finish an article</text>
+<rect x="350" y="120" width="240" height="80" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="382.8" y="145.6" width="174.4" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="470.0" y="165.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">Re-read, highlight</text>
+<rect x="660" y="120" width="250" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="671.4" y="145.6" width="227.20000000000002" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="785.0" y="165.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">Close it; write 3 points</text>
+<line x1="290" y1="160" x2="350" y2="160" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+<line x1="590" y1="160" x2="660" y2="160" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="50" y="225" width="240" height="80" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="170.0" y="270.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#FFFFFF">Meeting starts</text>
+<rect x="350" y="225" width="240" height="80" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="396.0" y="250.6" width="148.0" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="470.0" y="270.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">Wait and listen</text>
+<rect x="660" y="225" width="250" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="702.2" y="250.6" width="165.60000000000002" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="785.0" y="270.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">Write 2 questions</text>
+<line x1="290" y1="265" x2="350" y2="265" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+<line x1="590" y1="265" x2="660" y2="265" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="50" y="330" width="240" height="80" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="170.0" y="375.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#FFFFFF">Need an answer</text>
+<rect x="350" y="330" width="240" height="80" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="391.6" y="355.6" width="156.8" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="470.0" y="375.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">Search or ask AI</text>
+<rect x="660" y="330" width="250" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="680.2" y="355.6" width="209.60000000000002" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="785.0" y="375.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">Write own answer first</text>
+<line x1="290" y1="370" x2="350" y2="370" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+<line x1="590" y1="370" x2="660" y2="370" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="50" y="435" width="240" height="80" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="170.0" y="480.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#FFFFFF">Meeting ends</text>
+<rect x="350" y="435" width="240" height="80" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="387.2" y="460.6" width="165.60000000000002" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="470.0" y="480.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">File notes unread</text>
+<rect x="660" y="435" width="250" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="706.6" y="460.6" width="156.8" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="785.0" y="480.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">2-minute summary</text>
+<line x1="290" y1="475" x2="350" y2="475" stroke="#222222" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+<line x1="590" y1="475" x2="660" y2="475" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="480.0" y="545" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Replace the routine, keep the cue: no new study sessions are needed.</text>
+</svg>

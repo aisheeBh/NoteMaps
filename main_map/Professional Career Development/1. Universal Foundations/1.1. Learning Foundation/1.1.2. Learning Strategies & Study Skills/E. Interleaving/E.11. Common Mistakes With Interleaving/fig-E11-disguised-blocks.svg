@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Blocked in disguise</title>
+  <desc>Four rows of items. Labels visible; predictable rotation ABCD; long runs; and a genuinely interleaved row with hidden labels and unpredictable order.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Looks mixed, still blocked</text>
+  <text x="60" y="84" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Labels visible</text>
+  <rect x="60" y="96" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="78.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="88.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="60" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="88" y="169" font-size="13" text-anchor="middle" fill="#111111">type A</text>
+  <rect x="126" y="96" width="56" height="56" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="144.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="154.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+  <rect x="126" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="154" y="169" font-size="13" text-anchor="middle" fill="#111111">type C</text>
+  <rect x="192" y="96" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="210.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="220.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="192" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="220" y="169" font-size="13" text-anchor="middle" fill="#111111">type B</text>
+  <rect x="258" y="96" width="56" height="56" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="276.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="286.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+  <rect x="258" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="286" y="169" font-size="13" text-anchor="middle" fill="#111111">type D</text>
+  <rect x="324" y="96" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="342.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="352.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="324" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="352" y="169" font-size="13" text-anchor="middle" fill="#111111">type B</text>
+  <rect x="390" y="96" width="56" height="56" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="408.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="418.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+  <rect x="390" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="418" y="169" font-size="13" text-anchor="middle" fill="#111111">type C</text>
+  <rect x="456" y="96" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="474.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="484.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="456" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="484" y="169" font-size="13" text-anchor="middle" fill="#111111">type A</text>
+  <rect x="522" y="96" width="56" height="56" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="540.0" y="113.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="550.0" y="130.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+  <rect x="522" y="154" width="56" height="20" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="550" y="169" font-size="13" text-anchor="middle" fill="#111111">type D</text>
+  <text x="620" y="130" font-size="15" text-anchor="start" fill="#111111" font-style="italic">the tag announces each type</text>
+  <path d="M590 110 l14 14 M604 110 l-14 14" stroke="#8B0000" stroke-width="3"/>
+  <text x="60" y="204" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Predictable rotation</text>
+  <rect x="60" y="216" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="78.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="88.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="126" y="216" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="144.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="154.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="192" y="216" width="56" height="56" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="210.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="220.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+  <rect x="258" y="216" width="56" height="56" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="276.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="286.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+  <rect x="324" y="216" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="342.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="352.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="390" y="216" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="408.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="418.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="456" y="216" width="56" height="56" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="474.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="484.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+  <rect x="522" y="216" width="56" height="56" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="540.0" y="233.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="550.0" y="250.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+  <text x="620" y="250" font-size="15" text-anchor="start" fill="#111111" font-style="italic">the next type can be anticipated</text>
+  <path d="M590 230 l14 14 M604 230 l-14 14" stroke="#8B0000" stroke-width="3"/>
+  <text x="60" y="324" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Long runs</text>
+  <rect x="60" y="336" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="78.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="88.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="126" y="336" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="144.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="154.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="192" y="336" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="210.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="220.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="258" y="336" width="56" height="56" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="276.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="286.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="324" y="336" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="342.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="352.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="390" y="336" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="408.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="418.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="456" y="336" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="474.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="484.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="522" y="336" width="56" height="56" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="540.0" y="353.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="550.0" y="370.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <text x="620" y="370" font-size="15" text-anchor="start" fill="#111111" font-style="italic">type known after the first of each run</text>
+  <path d="M590 350 l14 14 M604 350 l-14 14" stroke="#8B0000" stroke-width="3"/>
+  <text x="60" y="444" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Genuinely interleaved</text>
+  <rect x="60" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="88" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <rect x="126" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="154" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <rect x="192" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="220" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <rect x="258" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="286" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <rect x="324" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="352" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <rect x="390" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="418" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <rect x="456" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="484" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <rect x="522" y="456" width="56" height="56" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="550" y="490" font-size="20" text-anchor="middle" fill="#111111" font-weight="bold">?</text>
+  <text x="620" y="490" font-size="15" text-anchor="start" fill="#111111" font-style="italic">no labels; order unpredictable</text>
+  <path d="M588 478 l8 10 l16 -20" stroke="#1E5E24" stroke-width="3.5" fill="none"/>
+  <text x="60" y="540" font-size="14" text-anchor="start" fill="#111111">Each square is one practice item; '?' means its type is not revealed until feedback.</text>
+  <rect x="60" y="560" width="26" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <text x="96" y="576" font-size="15" text-anchor="start" fill="#111111">Type A</text>
+  <rect x="220" y="560" width="26" height="20" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <text x="256" y="576" font-size="15" text-anchor="start" fill="#111111">Type B</text>
+  <rect x="380" y="560" width="26" height="20" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <text x="416" y="576" font-size="15" text-anchor="start" fill="#111111">Type C</text>
+  <rect x="540" y="560" width="26" height="20" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <text x="576" y="576" font-size="15" text-anchor="start" fill="#111111">Type D</text>
+</svg>

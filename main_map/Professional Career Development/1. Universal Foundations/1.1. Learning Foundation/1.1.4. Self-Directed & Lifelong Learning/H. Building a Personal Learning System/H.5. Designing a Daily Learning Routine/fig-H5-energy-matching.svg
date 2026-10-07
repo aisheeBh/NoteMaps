@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Matching session types to a daily energy pattern</title>
+  <desc>A schematic curve of alertness across a working day, from 6 a.m. to 10 p.m.: rising to a morning peak, dipping after lunch, a smaller late-afternoon recovery, then falling in the evening. Labels place practise and produce at the morning peak, process and acquire in the late morning and late afternoon, review in the post-lunch dip and transit, and reflect in the early evening.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Placing session types on a typical energy curve</text>
+  <line x1="110" y1="470" x2="910" y2="470" stroke="#222222" stroke-width="2.5"/>
+  <line x1="110" y1="470" x2="110" y2="90" stroke="#222222" stroke-width="2.5"/>
+  <polyline points="110.0,365.5 122.3,359.6 134.7,352.1 147.0,342.6 159.4,331.0 171.7,317.0 184.1,300.9 196.4,282.8 208.8,263.2 221.1,242.5 233.4,221.7 245.8,201.6 258.1,183.3 270.5,167.8 282.8,155.9 295.2,148.5 307.5,146.0 319.8,148.5 332.2,155.9 344.5,167.8 356.9,183.3 369.2,201.6 381.6,221.7 393.9,242.7 406.2,263.9 418.6,284.7 430.9,305.2 443.3,325.6 455.6,345.9 468.0,365.6 480.3,382.9 492.7,395.4 505.0,400.8 517.3,398.2 529.7,388.4 542.0,373.5 554.4,356.2 566.7,338.1 579.1,320.4 591.4,303.5 603.8,287.8 616.1,274.1 628.4,263.3 640.8,256.3 653.1,254.0 665.5,256.4 677.8,263.3 690.2,274.1 702.5,287.5 714.8,306.7 727.2,326.1 739.5,344.5 751.9,361.3 764.2,376.1 776.6,388.7 788.9,399.3 801.2,408.2 813.6,415.7 825.9,422.1 838.3,427.9 850.6,433.1 863.0,438.0 875.3,442.8 887.7,447.4 900.0,451.9" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <line x1="110.0" y1="470" x2="110.0" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="494" text-anchor="middle" font-size="13" fill="#111111">06:00</text>
+  <line x1="208.75" y1="470" x2="208.75" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="209" y="494" text-anchor="middle" font-size="13" fill="#111111">08:00</text>
+  <line x1="307.5" y1="470" x2="307.5" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="308" y="494" text-anchor="middle" font-size="13" fill="#111111">10:00</text>
+  <line x1="406.25" y1="470" x2="406.25" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="406" y="494" text-anchor="middle" font-size="13" fill="#111111">12:00</text>
+  <line x1="505.0" y1="470" x2="505.0" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="505" y="494" text-anchor="middle" font-size="13" fill="#111111">14:00</text>
+  <line x1="603.75" y1="470" x2="603.75" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="604" y="494" text-anchor="middle" font-size="13" fill="#111111">16:00</text>
+  <line x1="702.5" y1="470" x2="702.5" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="702" y="494" text-anchor="middle" font-size="13" fill="#111111">18:00</text>
+  <line x1="801.25" y1="470" x2="801.25" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="801" y="494" text-anchor="middle" font-size="13" fill="#111111">20:00</text>
+  <line x1="900.0" y1="470" x2="900.0" y2="476" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="494" text-anchor="middle" font-size="13" fill="#111111">22:00</text>
+  <text x="62" y="290" text-anchor="middle" font-size="15" fill="#111111">Alertness</text>
+  <circle cx="308" cy="146" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <line x1="307.5" y1="137.99997079429806" x2="307.5" y2="101.99997079429806" stroke="#555555" stroke-width="1.5"/>
+  <rect x="231" y="80" width="154" height="19" fill="#FFFFFF"/>
+  <text x="308" y="94" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">PRACTISE / PRODUCE</text>
+  <rect x="240" y="99" width="134" height="18" fill="#FFFFFF"/>
+  <text x="308" y="112" text-anchor="middle" font-size="13" fill="#111111">highest-value work</text>
+  <circle cx="169" cy="320" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <line x1="169.25" y1="328.00807293536263" x2="169.25" y2="346.00807293536263" stroke="#555555" stroke-width="1.5"/>
+  <rect x="136" y="350" width="66" height="19" fill="#FFFFFF"/>
+  <text x="169" y="364" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">PROCESS</text>
+  <rect x="133" y="369" width="72" height="18" fill="#FFFFFF"/>
+  <text x="169" y="382" text-anchor="middle" font-size="13" fill="#111111">own words</text>
+  <circle cx="416" cy="281" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <line x1="416.12499999999994" y1="272.59686060564957" x2="416.12499999999994" y2="236.59686060564957" stroke="#555555" stroke-width="1.5"/>
+  <rect x="383" y="215" width="66" height="19" fill="#FFFFFF"/>
+  <text x="416" y="229" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">ACQUIRE</text>
+  <rect x="370" y="234" width="93" height="18" fill="#FFFFFF"/>
+  <text x="416" y="247" text-anchor="middle" font-size="13" fill="#111111">hard reading</text>
+  <circle cx="515" cy="399" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <line x1="514.875" y1="407.35488754176515" x2="514.875" y2="425.35488754176515" stroke="#555555" stroke-width="1.5"/>
+  <rect x="486" y="429" width="58" height="19" fill="#FFFFFF"/>
+  <text x="515" y="443" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">REVIEW</text>
+  <rect x="472" y="448" width="86" height="18" fill="#FFFFFF"/>
+  <text x="515" y="461" text-anchor="middle" font-size="13" fill="#111111">short slots</text>
+  <circle cx="653" cy="254" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <line x1="653.125" y1="245.9580491958986" x2="653.125" y2="209.9580491958986" stroke="#555555" stroke-width="1.5"/>
+  <rect x="580" y="188" width="146" height="19" fill="#FFFFFF"/>
+  <text x="653" y="202" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">ACQUIRE / PROCESS</text>
+  <rect x="610" y="207" width="86" height="18" fill="#FFFFFF"/>
+  <text x="653" y="220" text-anchor="middle" font-size="13" fill="#111111">second peak</text>
+  <circle cx="791" cy="401" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <line x1="791.375" y1="409.19309598186294" x2="791.375" y2="427.19309598186294" stroke="#555555" stroke-width="1.5"/>
+  <rect x="758" y="431" width="66" height="19" fill="#FFFFFF"/>
+  <text x="791" y="445" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">REFLECT</text>
+  <rect x="735" y="450" width="113" height="18" fill="#FFFFFF"/>
+  <text x="791" y="463" text-anchor="middle" font-size="13" fill="#111111">brief look back</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">Schematic; individual energy patterns vary and should be taken from one's own audit.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Training efficiency versus calendar time in the postal-worker study</title>
+  <desc>Left panel: hours of training needed to reach the target were fewest for one hour a day and most for two sessions of two hours a day. Right panel: calendar days needed were fewest for the most intensive schedule and most for one hour a day.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Distributed practice saves hours; massed practice saves days</text>
+  <text x="260" y="85" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Training hours to reach target</text>
+  <line x1="80" y1="420" x2="460" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <rect x="100" y="220" width="70" height="200" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="135" y="444" text-anchor="middle" font-size="14" fill="#111111">1 h x 1</text>
+  <rect x="190" y="190" width="70" height="230" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="225" y="444" text-anchor="middle" font-size="14" fill="#111111">1 h x 2</text>
+  <rect x="280" y="180" width="70" height="240" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="315" y="444" text-anchor="middle" font-size="14" fill="#111111">2 h x 1</text>
+  <rect x="370" y="140" width="70" height="280" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="405" y="444" text-anchor="middle" font-size="14" fill="#111111">2 h x 2</text>
+  <text x="260" y="470" text-anchor="middle" font-size="15" fill="#111111" font-style="italic">fewest with 1 hour a day</text>
+  <text x="710" y="85" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Calendar days to reach target</text>
+  <line x1="530" y1="420" x2="910" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <rect x="550" y="140" width="70" height="280" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="585" y="444" text-anchor="middle" font-size="14" fill="#111111">1 h x 1</text>
+  <rect x="640" y="250" width="70" height="170" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="675" y="444" text-anchor="middle" font-size="14" fill="#111111">1 h x 2</text>
+  <rect x="730" y="260" width="70" height="160" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="765" y="444" text-anchor="middle" font-size="14" fill="#111111">2 h x 1</text>
+  <rect x="820" y="320" width="70" height="100" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="855" y="444" text-anchor="middle" font-size="14" fill="#111111">2 h x 2</text>
+  <text x="710" y="470" text-anchor="middle" font-size="15" fill="#111111" font-style="italic">fewest with 4 hours a day</text>
+  <text x="480" y="498" text-anchor="middle" font-size="14" fill="#111111">Schedules: hours per session x sessions per day.</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Baddeley and Longman (1978); bar heights are relative, not their data.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Conditions for learning by drawing</title>
+  <desc>A balance: on the left, conditions that strengthen the drawing benefit (enough prior knowledge, provided elements or prompts, focus on relationships, comparison with an expert drawing, tests of understanding). On the right, conditions that weaken it (very high drawing load, very little prior knowledge, decoration and artistry, copying, tests of verbatim recall).</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">When drawing helps learning, and when it does not</text>
+
+  <rect x="40" y="70" width="420" height="360" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="60" y="85" width="380" height="40" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="250" y="112" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">STRENGTHENS the benefit</text>
+  <g font-size="16" fill="#111111">
+    <rect x="60" y="140" width="380" height="270" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+    <text x="80" y="175">+ enough prior knowledge to choose</text>
+    <text x="96" y="197">the key elements</text>
+    <text x="80" y="232">+ provided elements, partial drawings</text>
+    <text x="96" y="254">or prompts</text>
+    <text x="80" y="289">+ attention on relationships, not art</text>
+    <text x="80" y="324">+ comparing with an expert drawing</text>
+    <text x="80" y="359">+ redrawing from memory, then checking</text>
+    <text x="80" y="394">+ tests of understanding and transfer</text>
+  </g>
+
+  <rect x="500" y="70" width="420" height="360" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="520" y="85" width="380" height="40" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="710" y="112" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">WEAKENS the benefit</text>
+  <g font-size="16" fill="#111111">
+    <rect x="520" y="140" width="380" height="270" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+    <text x="540" y="175">− heavy drawing demands, little support</text>
+    <text x="540" y="210">− too little knowledge to know what</text>
+    <text x="556" y="232">matters</text>
+    <text x="540" y="267">− time spent on shading and decoration</text>
+    <text x="540" y="302">− copying a provided diagram exactly</text>
+    <text x="540" y="337">− no check against the source</text>
+    <text x="540" y="372">− tests of verbatim wording only</text>
+  </g>
+
+  <rect x="230" y="455" width="500" height="60" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="480" y="481" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Average benefit across studies</text>
+  <text x="480" y="503" text-anchor="middle" font-size="15" fill="#111111">about d = 0.70 for drawing from science texts (Fiorella and Zhang, 2018)</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Summary of boundary conditions reported in reviews of learner-generated drawing.</text>
+</svg>

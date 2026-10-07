@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four levels of reflective writing</title>
+  <desc>Four stacked steps rising from left to right, after Hatton and Smith. Descriptive writing reports what happened. Descriptive reflection gives a reason from one perspective. Dialogic reflection weighs alternative explanations, including unflattering ones. Critical reflection places the event in its organisational or ethical context. Each step carries a short example from a project manager's entry about a late release. Self-assessment begins at the dialogic level.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">From reporting events to assessing oneself</text>
+  <g font-size="15" fill="#111111">
+    <rect x="40" y="440" width="420" height="120" fill="#E6E6E6" stroke="#666666" stroke-dasharray="2 4"/>
+    <text x="56" y="468" font-size="18" font-weight="bold">1. Descriptive writing</text>
+    <text x="56" y="494">reports what happened</text>
+    <text x="56" y="524" font-style="italic">"The release slipped two weeks.</text>
+    <text x="56" y="544" font-style="italic">I held a team meeting."</text>
+    <rect x="200" y="320" width="440" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="216" y="348" font-size="18" font-weight="bold">2. Descriptive reflection</text>
+    <text x="216" y="374">gives a reason, from one viewpoint</text>
+    <text x="216" y="404" font-style="italic">"Testing started late; I should have</text>
+    <text x="216" y="424" font-style="italic">scheduled it earlier."</text>
+    <rect x="360" y="190" width="460" height="120" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+    <rect x="372" y="200" width="436" height="100" fill="#FFFFFF"/>
+    <text x="384" y="224" font-size="18" font-weight="bold">3. Dialogic reflection</text>
+    <text x="384" y="248">weighs alternatives, including unflattering ones</text>
+    <text x="384" y="274" font-style="italic">"Perhaps I accepted scope changes without</text>
+    <text x="384" y="294" font-style="italic">re-planning, and the team felt unable to push back."</text>
+    <rect x="500" y="70" width="440" height="110" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="516" y="98" font-size="18" font-weight="bold">4. Critical reflection</text>
+    <text x="516" y="122">places it in a wider context</text>
+    <text x="516" y="150" font-style="italic">"Fixed-price contracts reward quiet scope</text>
+    <text x="516" y="170" font-style="italic">creep; I have raised this with the director."</text>
+  </g>
+  <line x1="40" y1="300" x2="330" y2="300" stroke="#1F3B5C" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <text x="40" y="290" font-size="15" font-weight="bold" fill="#111111">self-assessment starts here</text>
+  <text x="40" y="584" font-size="13" fill="#333333">After Hatton and Smith (1995).</text>
+</svg>

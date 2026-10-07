@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A recall-centred study block</title>
+  <desc>Six stages left to right: pretest, encode, recall, feedback, elaborate, return later. Recall is central and largest; a curved arrow from return back to recall shows the cycle repeating in later sessions.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Pretest, Encode, Recall, Feedback, Elaborate, Return</text>
+  <rect x="44" y="135" width="128" height="120" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="108.0" y="180.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">PRETEST</text>
+  <text x="108.0" y="200.2" text-anchor="middle" font-size="15" fill="#222222">a few cold</text>
+  <text x="108.0" y="220.2" text-anchor="middle" font-size="15" fill="#222222">questions</text>
+  <line x1="174" y1="195" x2="186" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="188" y="135" width="128" height="120" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="252.0" y="180.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">ENCODE</text>
+  <text x="252.0" y="200.2" text-anchor="middle" font-size="15" fill="#000000">study; worked</text>
+  <text x="252.0" y="220.2" text-anchor="middle" font-size="15" fill="#000000">examples</text>
+  <line x1="318" y1="195" x2="330" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="332" y="120" width="150" height="150" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="407.0" y="180.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">RECALL</text>
+  <text x="407.0" y="200.2" text-anchor="middle" font-size="15" fill="#FFFFFF">produce from</text>
+  <text x="407.0" y="220.2" text-anchor="middle" font-size="15" fill="#FFFFFF">memory</text>
+  <line x1="484" y1="195" x2="496" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="498" y="135" width="128" height="120" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="562.0" y="180.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">FEEDBACK</text>
+  <text x="562.0" y="200.2" text-anchor="middle" font-size="15" fill="#000000">compare,</text>
+  <text x="562.0" y="220.2" text-anchor="middle" font-size="15" fill="#000000">correct</text>
+  <line x1="628" y1="195" x2="640" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="642" y="135" width="128" height="120" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="706.0" y="180.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">ELABORATE</text>
+  <text x="706.0" y="200.2" text-anchor="middle" font-size="15" fill="#000000">explain the</text>
+  <text x="706.0" y="220.2" text-anchor="middle" font-size="15" fill="#000000">hardest items</text>
+  <line x1="772" y1="195" x2="784" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="786" y="135" width="128" height="120" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="850.0" y="180.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">RETURN</text>
+  <text x="850.0" y="200.2" text-anchor="middle" font-size="15" fill="#000000">mixed recall</text>
+  <text x="850.0" y="220.2" text-anchor="middle" font-size="15" fill="#000000">days later</text>
+  <path d="M850.0 255 C 850.0 360, 407.0 360, 407.0 274" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="505.3" y="363" width="246.4" height="26" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="628.5" y="380" text-anchor="middle" font-size="14" fill="#111111">later sessions return to recall</text>
+</svg>

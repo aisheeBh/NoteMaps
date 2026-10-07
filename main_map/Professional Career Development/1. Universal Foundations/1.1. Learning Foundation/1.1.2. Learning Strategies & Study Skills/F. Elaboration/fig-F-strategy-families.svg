@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three families of cognitive learning strategy</title>
+  <desc>Rehearsal, organisation and elaboration strategies compared: rehearsal repeats material as given; organisation restructures the material internally; elaboration connects it outward to prior knowledge, examples and implications. Examples of each are given for simple and complex material.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Three things a learner can do with new material</text>
+
+  <!-- column headers -->
+  <rect x="40" y="70" width="280" height="90" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="180" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">REHEARSAL</text>
+  <text x="180" y="124" text-anchor="middle" font-size="14" fill="#111111">repeat the material</text>
+  <text x="180" y="142" text-anchor="middle" font-size="14" fill="#111111">as it was given</text>
+
+  <rect x="340" y="70" width="280" height="90" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="352" y="80" width="256" height="70" fill="#FFFFFF"/>
+  <text x="480" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">ORGANISATION</text>
+  <text x="480" y="124" text-anchor="middle" font-size="14" fill="#111111">restructure the material</text>
+  <text x="480" y="142" text-anchor="middle" font-size="14" fill="#111111">from within</text>
+
+  <rect x="640" y="70" width="280" height="90" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="652" y="80" width="256" height="70" fill="#FFFFFF"/>
+  <text x="780" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">ELABORATION</text>
+  <text x="780" y="124" text-anchor="middle" font-size="14" fill="#111111">connect the material outward</text>
+  <text x="780" y="142" text-anchor="middle" font-size="14" fill="#111111">to what is already known</text>
+
+  <!-- row labels -->
+  <text x="40" y="196" font-size="15" font-weight="bold" fill="#111111">Simple material (a list of risk categories)</text>
+  <text x="40" y="356" font-size="15" font-weight="bold" fill="#111111">Complex material (a chapter on credit risk)</text>
+
+  <g font-size="14" fill="#111111">
+    <rect x="40" y="208" width="280" height="110" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+    <text x="54" y="232">Say the list over</text>
+    <text x="54" y="252">and over; copy it out</text>
+    <text x="54" y="282" font-style="italic">Keeps it available now;</text>
+    <text x="54" y="300" font-style="italic">little durable memory</text>
+
+    <rect x="340" y="208" width="280" height="110" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+    <text x="354" y="232">Group the categories into</text>
+    <text x="354" y="252">internal and external risks</text>
+    <text x="354" y="282" font-style="italic">Builds structure among</text>
+    <text x="354" y="300" font-style="italic">the items themselves</text>
+
+    <rect x="640" y="208" width="280" height="110" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="654" y="232">Link each category to an</text>
+    <text x="654" y="252">incident seen at work</text>
+    <text x="654" y="282" font-style="italic">Links the items to</text>
+    <text x="654" y="300" font-style="italic">rich prior knowledge</text>
+
+    <rect x="40" y="368" width="280" height="130" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+    <text x="54" y="392">Re-read the chapter;</text>
+    <text x="54" y="412">highlight key lines</text>
+    <text x="54" y="442" font-style="italic">Fluency without</text>
+    <text x="54" y="460" font-style="italic">understanding</text>
+
+    <rect x="340" y="368" width="280" height="130" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+    <text x="354" y="392">Outline the chapter; build</text>
+    <text x="354" y="412">a table of risk types and</text>
+    <text x="354" y="432">their measures</text>
+    <text x="354" y="462" font-style="italic">Clear structure of what</text>
+    <text x="354" y="480" font-style="italic">the text says</text>
+
+    <rect x="640" y="368" width="280" height="130" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="654" y="392">Ask why each measure works;</text>
+    <text x="654" y="412">find a client example; compare</text>
+    <text x="654" y="432">with a mortgage you know</text>
+    <text x="654" y="462" font-style="italic">Understanding that can be</text>
+    <text x="654" y="480" font-style="italic">applied to new cases</text>
+  </g>
+
+  <line x1="60" y1="530" x2="900" y2="530" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480" y="556" text-anchor="middle" font-size="14" fill="#111111">more meaning added, more effort, more durable and transferable learning</text>
+</svg>

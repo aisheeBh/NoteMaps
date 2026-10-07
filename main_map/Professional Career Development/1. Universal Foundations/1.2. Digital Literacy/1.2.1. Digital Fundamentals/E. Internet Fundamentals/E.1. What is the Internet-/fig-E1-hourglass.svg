@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The Internet hourglass</title>
+  <desc>Many applications at the top and many physical network technologies at the bottom all meet at a single common protocol, IP, in the narrow middle; transport protocols sit just above it.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The hourglass: everything meets at IP</text>
+  <path d="M140 70 L820 70 L560 270 L560 330 L820 530 L140 530 L400 330 L400 270 Z" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <rect x="170" y="85" width="620" height="60" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="110.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Applications</text>
+  <text x="480.0" y="130.25" text-anchor="middle" font-size="15" fill="#111111">web, email, video calls, streaming, games, DNS, AI services</text>
+  <rect x="300" y="175" width="360" height="50" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480.0" y="195.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Transport</text>
+  <text x="480.0" y="215.25" text-anchor="middle" font-size="15" fill="#111111">TCP, UDP, QUIC</text>
+  <rect x="405" y="268" width="150" height="64" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480.0" y="294.95" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">IP</text>
+  <text x="480.0" y="316.95" text-anchor="middle" font-size="17" fill="#FFFFFF">one protocol</text>
+  <rect x="300" y="375" width="360" height="50" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480.0" y="395.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Link technologies</text>
+  <text x="480.0" y="415.25" text-anchor="middle" font-size="15" fill="#111111">Ethernet, Wi-Fi, 4G and 5G</text>
+  <rect x="170" y="455" width="620" height="60" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="417.25" y="465.25" width="125.50000000000001" height="21" fill="#FFFFFF"/>
+  <text x="480.0" y="480.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Physical media</text>
+  <rect x="252.24999999999997" y="485.25" width="455.50000000000006" height="21" fill="#FFFFFF"/>
+  <text x="480.0" y="500.25" text-anchor="middle" font-size="15" fill="#111111">copper, coaxial cable, optical fibre, radio, satellite</text>
+  <text x="870" y="120" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">many</text>
+  <text x="870" y="140" text-anchor="start" font-size="15" fill="#111111">above</text>
+  <text x="870" y="300" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">one</text>
+  <text x="870" y="320" text-anchor="start" font-size="15" fill="#111111">waist</text>
+  <text x="870" y="480" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">many</text>
+  <text x="870" y="500" text-anchor="start" font-size="15" fill="#111111">below</text>
+  <text x="480.0" y="575" text-anchor="middle" font-size="13" fill="#333333">New applications and new physical networks can join independently because both only need to work with IP.</text>
+</svg>

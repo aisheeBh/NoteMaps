@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Who does the thinking</title>
+  <desc>A horizontal band divided into five zones by the share of cognitive work done by the learner versus the AI. From left: learner alone, AI as questioner, AI as critic and explainer after an attempt, AI drafts and learner edits, AI does the work. The first three zones are labelled augmentation and the last two substitution. Below, a curve shows expected learning highest in the middle-left zones and lowest at the far right.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Who does the thinking decides what is learned</text>
+
+  <!-- arrow of share -->
+  <line x1="40" y1="74" x2="920" y2="74" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="40" y="62" font-size="15" fill="#111111">Learner does the cognitive work</text>
+  <text x="920" y="62" text-anchor="end" font-size="15" fill="#111111">AI does the cognitive work</text>
+
+  <!-- zones -->
+  <rect x="40" y="96" width="168" height="44" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="124" y="124" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">NO AI</text>
+  <rect x="216" y="96" width="352" height="44" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="297" y="104" width="190" height="28" fill="#FFFFFF"/>
+  <text x="392" y="124" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">AUGMENTATION</text>
+  <rect x="568" y="96" width="352" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="650" y="104" width="190" height="28" fill="#FFFFFF"/>
+  <text x="745" y="124" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">SUBSTITUTION</text>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="40" y="156" width="168" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="124" y="182" font-size="15" font-weight="bold">Learner alone</text>
+    <text x="124" y="204">reads, practises,</text>
+    <text x="124" y="222">no AI</text>
+    <rect x="216" y="156" width="168" height="110" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+    <text x="300" y="182" font-size="15" font-weight="bold">AI questions</text>
+    <text x="300" y="204">quizzes, Socratic</text>
+    <text x="300" y="222">hints, simulations</text>
+    <rect x="392" y="156" width="168" height="110" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+    <text x="476" y="182" font-size="15" font-weight="bold">AI critiques</text>
+    <text x="476" y="204">explains or gives</text>
+    <text x="476" y="222">feedback after</text>
+    <text x="476" y="240">an attempt</text>
+    <rect x="568" y="156" width="168" height="110" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="652" y="182" font-size="15" font-weight="bold">AI drafts</text>
+    <text x="652" y="204">learner edits</text>
+    <text x="652" y="222">the output</text>
+    <rect x="744" y="156" width="176" height="110" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="832" y="182" font-size="15" font-weight="bold">AI does it</text>
+    <text x="832" y="204">learner submits</text>
+    <text x="832" y="222">or reads</text>
+  </g>
+
+  <!-- learning curve -->
+  <line x1="40" y1="520" x2="920" y2="520" stroke="#222222" stroke-width="2"/>
+  <line x1="40" y1="520" x2="40" y2="300" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="54" y="314" font-size="15" fill="#111111">Expected durable learning</text>
+  <path d="M124 400 C 220 330, 330 320, 430 335 C 560 360, 650 450, 832 505" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <text x="480" y="548" text-anchor="middle" font-size="15" fill="#111111">Well-designed AI help can beat studying alone; production by AI teaches least.</text>
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of experimental findings; not plotted from a single dataset.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Wi-Fi bands: range against speed</title>
+  <desc>Three horizontal bars start at an access point on the left and extend to show typical reach. The 6 gigahertz bar is shortest but labelled fastest and least crowded. The 5 gigahertz bar reaches further at high speed. The 2.4 gigahertz bar reaches furthest and passes through walls best but is slowest and most crowded. A wall crossing all bars weakens the higher bands more, shown by the bars thinning after the wall.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Higher frequency: faster, but shorter reach</text>
+  <rect x="40" y="90" width="90" height="330" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="85" y="250" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Access</text>
+  <text x="85" y="270" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">point</text>
+
+  <!-- wall -->
+  <rect x="420" y="80" width="24" height="350" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <text x="432" y="455" text-anchor="middle" font-size="14" fill="#111111">interior wall</text>
+
+  <!-- 6 GHz -->
+  <rect x="130" y="110" width="290" height="50" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <rect x="444" y="125" width="80" height="20" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="150" y="141" font-size="16" font-weight="bold" fill="#FFFFFF">6 GHz</text>
+  <text x="540" y="132" font-size="15" fill="#111111">fastest, least crowded;</text>
+  <text x="540" y="151" font-size="15" fill="#111111">shortest reach; newer devices only</text>
+
+  <!-- 5 GHz -->
+  <rect x="130" y="220" width="290" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="444" y="230" width="210" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="145" y="232" width="70" height="26" fill="#FFFFFF"/>
+  <text x="150" y="251" font-size="16" font-weight="bold" fill="#111111">5 GHz</text>
+  <text x="670" y="242" font-size="15" fill="#111111">fast; moderate reach;</text>
+  <text x="670" y="261" font-size="15" fill="#111111">good for video calls</text>
+
+  <!-- 2.4 GHz -->
+  <rect x="130" y="330" width="290" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="2.5"/>
+  <rect x="444" y="335" width="330" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="150" y="361" font-size="16" font-weight="bold" fill="#111111">2.4 GHz</text>
+  <text x="460" y="361" font-size="15" fill="#111111">longest reach, best through walls</text>
+  <text x="790" y="352" font-size="15" fill="#111111">slowest;</text>
+  <text x="790" y="371" font-size="15" fill="#111111">most crowded</text>
+
+  <text x="480" y="500" text-anchor="middle" font-size="16" fill="#111111">Distance from the access point →</text>
+  <text x="920" y="528" text-anchor="end" font-size="13" fill="#111111">Schematic; real coverage depends on building, power and devices.</text>
+</svg>

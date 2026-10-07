@@ -47,7 +47,7 @@ META_PATTERNS = [
     (r"\b(the|this) (next|previous|following|preceding) note\b", "pointer to another note"),
     (r"\b(sub)?topic [A-Z]\b|\bnotes? [A-Z]\.\d+\b|\b[A-Z]\.\d+\b(?= (covers|explains|discusses))", "pointer to another note"),
     (r"\b(see|covered in|discussed in|explained in|refer to) (section|chapter|note|subtopic|topic|pillar)\b", "cross-reference"),
-    (r"\b(further reading|recommended reading|reading list|suggested reading|watch the (talk|video))\b", "look-it-up pointer"),
+    (r"\b(further reading|recommended reading|suggested reading|watch the (talk|video))\b", "look-it-up pointer"),
 ]
 
 US_SPELLINGS = re.compile(
@@ -232,7 +232,8 @@ def check_file(path, args):
 
     # Prose only (Mermaid/CSS uses 'color'); proper nouns keep their own spelling.
     us_text = re.sub(r"(World Health Organization|Center for Creative Leadership|"
-                     r"International Labor|Organization for Economic|Centers for Disease)",
+                     r"International Labor|Organization for Economic|Centers for Disease|"
+                     r"(?:[A-Z][\w&.-]* )+Center\b)",
                      "", prose)
     us = sorted({m.group(0).lower() for m in US_SPELLINGS.finditer(us_text)})
     if us:

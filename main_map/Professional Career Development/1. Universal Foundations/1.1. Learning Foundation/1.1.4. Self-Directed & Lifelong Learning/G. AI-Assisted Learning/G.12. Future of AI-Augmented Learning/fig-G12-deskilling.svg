@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Unaided skill over time with and without deliberate practice</title>
+  <desc>Three lines of unaided skill over time after an AI tool is introduced. With routine reliance only, skill drifts downwards. With reliance plus scheduled unaided practice, skill is maintained and slowly grows. For a newcomer who relied on the tool from the start, skill stays low: never-skilling.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Unaided skill after an AI tool becomes routine</text>
+  <line x1="110" y1="430" x2="890" y2="430" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="110" y1="430" x2="110" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="500" y="466" text-anchor="middle" font-size="16" fill="#111111">Time since the tool became routine</text>
+  <text x="60" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 250)">Skill without the tool</text>
+  <line x1="200" y1="430" x2="200" y2="80" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="206" y="96" font-size="14" fill="#111111">Tool introduced</text>
+
+  <!-- experienced: before tool flat high, then two paths -->
+  <path d="M120 170 L200 170" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M200 170 C 380 175, 560 150, 870 120" fill="none" stroke="#1E5E24" stroke-width="4"/>
+  <path d="M200 170 C 380 210, 560 270, 870 300" fill="none" stroke="#1F3B5C" stroke-width="4" stroke-dasharray="10 6"/>
+  <!-- newcomer -->
+  <path d="M200 400 C 400 385, 600 380, 870 375" fill="none" stroke="#8B0000" stroke-width="3" stroke-dasharray="2 4"/>
+
+  <rect x="560" y="96" width="320" height="26" fill="#FFFFFF"/>
+  <text x="570" y="115" font-size="15" font-weight="bold" fill="#111111">Reliance plus unaided practice</text>
+  <rect x="560" y="300" width="320" height="26" fill="#FFFFFF"/>
+  <text x="570" y="319" font-size="15" font-weight="bold" fill="#111111">Routine reliance only: deskilling</text>
+  <rect x="560" y="340" width="320" height="26" fill="#FFFFFF"/>
+  <text x="570" y="359" font-size="15" font-weight="bold" fill="#111111">Newcomer always using the tool</text>
+  <text x="570" y="398" font-size="14" fill="#111111">never-skilling</text>
+
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. Direction consistent with aviation and colonoscopy findings.</text>
+</svg>

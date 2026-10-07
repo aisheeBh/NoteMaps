@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The expertise reversal effect</title>
+  <desc>Learning benefit plotted against the learner's prior knowledge. The worked-example line starts high for novices and falls as knowledge grows. The problem-solving line starts low and rises. They cross at intermediate knowledge, where faded examples fit best.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The best support changes as knowledge grows</text>
+
+  <line x1="100" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="100" y1="440" x2="100" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="490" y="478" text-anchor="middle" font-size="16" fill="#111111">Learner's prior knowledge in the topic</text>
+  <text x="120" y="462" font-size="14" fill="#111111">Novice</text>
+  <text x="860" y="462" text-anchor="end" font-size="14" fill="#111111">Expert</text>
+  <text x="70" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 70 255)">Learning benefit</text>
+
+  <!-- worked examples line: solid, falling -->
+  <path d="M110 110 C 300 130, 520 300, 860 390" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- problem solving: dashed, rising -->
+  <path d="M110 400 C 320 380, 520 230, 860 120" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+
+  <rect x="130" y="80" width="300" height="26" fill="#FFFFFF"/>
+  <text x="140" y="99" font-size="16" font-weight="bold" fill="#111111">Studying worked examples</text>
+  <rect x="610" y="96" width="250" height="26" fill="#FFFFFF"/>
+  <text x="620" y="115" font-size="16" font-weight="bold" fill="#111111">Solving bare problems</text>
+
+  <!-- crossing zone -->
+  <rect x="400" y="230" width="190" height="96" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="495" y="256" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Crossover zone</text>
+  <text x="495" y="278" text-anchor="middle" font-size="14" fill="#111111">faded examples:</text>
+  <text x="495" y="297" text-anchor="middle" font-size="14" fill="#111111">steps removed</text>
+  <text x="495" y="316" text-anchor="middle" font-size="14" fill="#111111">one by one</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic after Kalyuga and colleagues (2003); not plotted from a single dataset.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Tool types by response demand and scheduling</title>
+  <desc>A two-by-two matrix. Horizontal axis: what the learner must do, from recognise to produce. Vertical axis: scheduling, from none or fixed to adaptive. Live polls sit at recognise and no scheduling; LMS quizzes in the middle; question banks at recognise with learner-chosen scheduling; typed flashcard apps at produce and adaptive; workplace microlearning at moderate production with push scheduling; AI tutors at produce with variable scheduling.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">What the learner must do, and when the item returns</text>
+  <rect x="150" y="90" width="360.0" height="205.0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <rect x="510.0" y="90" width="360.0" height="205.0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="150" y="295.0" width="360.0" height="205.0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="510.0" y="295.0" width="360.0" height="205.0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="510" y="530" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Learner must recognise  →  learner must produce</text>
+  <text x="120" y="295" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold" transform="rotate(-90 120 295.0)">No or fixed schedule  →  adaptive return</text>
+  <text x="162" y="114" text-anchor="start" font-size="14" fill="#111111" font-style="italic">Scheduled recognition</text>
+  <text x="858" y="114" text-anchor="end" font-size="14" fill="#111111" font-style="italic">Scheduled production — strongest</text>
+  <text x="162" y="488" text-anchor="start" font-size="14" fill="#111111" font-style="italic">Unscheduled recognition — weakest</text>
+  <text x="858" y="488" text-anchor="end" font-size="14" fill="#111111" font-style="italic">Unscheduled production</text>
+  <circle cx="250" cy="450" r="8" fill="#000000"/>
+  <rect x="204" y="422" width="92" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="250" y="436" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Live polls</text>
+  <circle cx="320" cy="215" r="8" fill="#000000"/>
+  <rect x="266" y="187" width="108" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="320" y="201" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Adaptive MCQ</text>
+  <circle cx="400" cy="330" r="8" fill="#000000"/>
+  <rect x="338" y="302" width="124" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="400" y="316" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Question banks</text>
+  <circle cx="560" cy="350" r="8" fill="#000000"/>
+  <rect x="510" y="322" width="100" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="560" y="336" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">LMS quizzes</text>
+  <circle cx="640" cy="230" r="8" fill="#000000"/>
+  <rect x="582" y="202" width="116" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="640" y="216" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Microlearning</text>
+  <circle cx="770" cy="150" r="8" fill="#000000"/>
+  <rect x="700" y="122" width="139" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="770" y="136" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Typed flashcards</text>
+  <circle cx="720" cy="420" r="8" fill="#000000"/>
+  <rect x="646" y="392" width="147" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="720" y="406" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">AI tutor sessions</text>
+  <circle cx="745" cy="265" r="8" fill="#000000"/>
+  <rect x="656" y="237" width="179" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="745" y="251" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Self-rated flashcards</text>
+  <text x="480" y="585" text-anchor="middle" font-size="13" fill="#333333">Positions are typical, not fixed: configuration and the way a tool is used can move it in either direction.</text>
+</svg>

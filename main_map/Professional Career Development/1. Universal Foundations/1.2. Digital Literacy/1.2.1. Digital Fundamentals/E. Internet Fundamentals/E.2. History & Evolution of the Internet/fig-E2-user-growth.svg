@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Approximate Internet users, 2000 to 2025</title>
+  <desc>Bar chart of approximate worldwide Internet users in billions: 2000 about 0.4, 2005 about 1.0, 2010 about 2.0, 2015 about 3.2, 2019 about 4.1, 2021 about 4.9, 2023 about 5.4, 2025 about 6.0.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Internet users worldwide (billions, approximate)</text>
+  <line x1="120" y1="450" x2="900" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="108" y="455.0" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="108" y="344.2307692307692" text-anchor="end" font-size="14" fill="#111111">2</text>
+  <line x1="120" y1="339.2307692307692" x2="900" y2="339.2307692307692" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="108" y="233.46153846153845" text-anchor="end" font-size="14" fill="#111111">4</text>
+  <line x1="120" y1="228.46153846153845" x2="900" y2="228.46153846153845" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="108" y="122.69230769230768" text-anchor="end" font-size="14" fill="#111111">6</text>
+  <line x1="120" y1="117.69230769230768" x2="900" y2="117.69230769230768" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="60" y="260" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 60 260)">Users (billions)</text>
+  <rect x="150" y="427.84615384615387" width="64" height="22.153846153846153" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="164.625" y="402.84615384615387" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="182.0" y="417.84615384615387" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">0.4</text>
+  <text x="182.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2000</text>
+  <rect x="242" y="394.61538461538464" width="64" height="55.38461538461539" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="256.625" y="369.61538461538464" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="274.0" y="384.61538461538464" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">1.0</text>
+  <text x="274.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2005</text>
+  <rect x="334" y="339.2307692307692" width="64" height="110.76923076923077" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="348.625" y="314.2307692307692" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="366.0" y="329.2307692307692" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">2.0</text>
+  <text x="366.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2010</text>
+  <rect x="426" y="272.7692307692308" width="64" height="177.23076923076923" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="440.625" y="247.76923076923077" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="458.0" y="262.7692307692308" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">3.2</text>
+  <text x="458.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2015</text>
+  <rect x="518" y="222.92307692307696" width="64" height="227.07692307692304" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="532.625" y="197.92307692307696" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="550.0" y="212.92307692307696" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">4.1</text>
+  <text x="550.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2019</text>
+  <rect x="610" y="178.61538461538458" width="64" height="271.3846153846154" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="624.625" y="153.61538461538458" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="642.0" y="168.61538461538458" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">4.9</text>
+  <text x="642.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2021</text>
+  <rect x="702" y="150.9230769230769" width="64" height="299.0769230769231" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="716.625" y="125.9230769230769" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="734.0" y="140.9230769230769" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">5.4</text>
+  <text x="734.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2023</text>
+  <rect x="794" y="117.69230769230768" width="64" height="332.3076923076923" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="808.625" y="92.69230769230768" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="826.0" y="107.69230769230768" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">6.0</text>
+  <text x="826.0" y="474" text-anchor="middle" font-size="15" fill="#111111">2025</text>
+  <text x="480.0" y="515" text-anchor="middle" font-size="13" fill="#333333">Rounded estimates in line with International Telecommunication Union series; 2025 is about three-quarters of the world's population.</text>
+</svg>

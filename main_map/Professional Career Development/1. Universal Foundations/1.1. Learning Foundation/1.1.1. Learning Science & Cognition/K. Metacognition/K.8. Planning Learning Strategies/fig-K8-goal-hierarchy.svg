@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A goal hierarchy</title>
+  <desc>A tree with a distal goal at the top, pass the certification in week thirteen, three intermediate goals beneath it for successive phases with mock-exam checkpoints, and session-level goals beneath one phase, such as twenty networking questions or one lab completed unaided.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Direction from the top, traction from the bottom</text>
+
+  <!-- level labels -->
+  <text x="40" y="112" font-size="15" font-weight="bold" fill="#111111">DISTAL</text>
+  <text x="40" y="132" font-size="14" fill="#111111">months</text>
+  <text x="40" y="262" font-size="15" font-weight="bold" fill="#111111">INTERMEDIATE</text>
+  <text x="40" y="282" font-size="14" fill="#111111">weeks</text>
+  <text x="40" y="432" font-size="15" font-weight="bold" fill="#111111">PROXIMAL</text>
+  <text x="40" y="452" font-size="14" fill="#111111">single sessions</text>
+
+  <!-- distal -->
+  <rect x="330" y="70" width="380" height="80" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="520" y="104" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Pass the certification</text>
+  <text x="520" y="128" text-anchor="middle" font-size="15" fill="#FFFFFF">at 80% or more, week 13</text>
+
+  <!-- intermediate -->
+  <rect x="190" y="220" width="200" height="80" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="290" y="252" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Weeks 1 to 5</text>
+  <text x="290" y="276" text-anchor="middle" font-size="14" fill="#111111">mock exam 60%+</text>
+  <rect x="420" y="220" width="200" height="80" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="520" y="252" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Weeks 6 to 9</text>
+  <text x="520" y="276" text-anchor="middle" font-size="14" fill="#111111">mock exam 72%+</text>
+  <rect x="650" y="220" width="200" height="80" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="750" y="252" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Weeks 10 to 12</text>
+  <text x="750" y="276" text-anchor="middle" font-size="14" fill="#111111">mock exam 80%+</text>
+
+  <line x1="450" y1="152" x2="300" y2="216" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="520" y1="152" x2="520" y2="216" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="590" y1="152" x2="740" y2="216" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- proximal under weeks 1-5 -->
+  <rect x="150" y="390" width="170" height="80" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="235" y="422" text-anchor="middle" font-size="15" fill="#111111">20 networking</text>
+  <text x="235" y="444" text-anchor="middle" font-size="15" fill="#111111">questions</text>
+  <rect x="340" y="390" width="170" height="80" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="425" y="422" text-anchor="middle" font-size="15" fill="#111111">one lab done</text>
+  <text x="425" y="444" text-anchor="middle" font-size="15" fill="#111111">unaided</text>
+  <rect x="530" y="390" width="170" height="80" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="615" y="422" text-anchor="middle" font-size="15" fill="#111111">explain a topic</text>
+  <text x="615" y="444" text-anchor="middle" font-size="15" fill="#111111">from memory</text>
+
+  <line x1="260" y1="302" x2="235" y2="386" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="302" x2="420" y2="386" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="340" y1="302" x2="600" y2="386" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- feedback arrow -->
+  <path d="M708 430 C 930 430, 930 110, 716 110" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="724" y="470" width="200" height="44" fill="#FFFFFF"/>
+  <text x="824" y="488" text-anchor="middle" font-size="14" fill="#111111">each completed step is</text>
+  <text x="824" y="506" text-anchor="middle" font-size="14" fill="#111111">evidence of progress</text>
+</svg>

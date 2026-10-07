@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Tensions in Internet decisions</title>
+  <desc>Six horizontal balance bars, each with one pull on the left and the opposite pull on the right: openness and security; decentralisation and concentration; global reach and sovereignty; neutrality and traffic management; privacy and visibility; stability and change. A marker in the middle of each bar shows that decisions sit somewhere between the poles.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Six tensions: decisions sit between the poles</text>
+  <text x="250" y="101" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Openness</text>
+  <text x="710" y="101" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Security</text>
+  <line x1="270" y1="95" x2="690" y2="95" stroke="#333333" stroke-width="4"/>
+  <circle cx="270" cy="95" r="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="690" cy="95" r="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <path d="M448.0 73 L470.0 73 L459.0 91 Z" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="250" y="171" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Decentralisation</text>
+  <text x="710" y="171" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Concentration</text>
+  <line x1="270" y1="165" x2="690" y2="165" stroke="#333333" stroke-width="4"/>
+  <circle cx="270" cy="165" r="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="690" cy="165" r="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <path d="M519.4 143 L541.4 143 L530.4 161 Z" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="250" y="241" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Global reach</text>
+  <text x="710" y="241" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Sovereignty</text>
+  <line x1="270" y1="235" x2="690" y2="235" stroke="#333333" stroke-width="4"/>
+  <circle cx="270" cy="235" r="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="690" cy="235" r="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <path d="M427.0 213 L449.0 213 L438.0 231 Z" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="250" y="311" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Neutrality</text>
+  <text x="710" y="311" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Traffic management</text>
+  <line x1="270" y1="305" x2="690" y2="305" stroke="#333333" stroke-width="4"/>
+  <circle cx="270" cy="305" r="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="690" cy="305" r="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <path d="M490.0 283 L512.0 283 L501.0 301 Z" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="250" y="381" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Privacy</text>
+  <text x="710" y="381" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Visibility</text>
+  <line x1="270" y1="375" x2="690" y2="375" stroke="#333333" stroke-width="4"/>
+  <circle cx="270" cy="375" r="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="690" cy="375" r="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <path d="M469.0 353 L491.0 353 L480.0 371 Z" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="250" y="451" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Stability</text>
+  <text x="710" y="451" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Change</text>
+  <line x1="270" y1="445" x2="690" y2="445" stroke="#333333" stroke-width="4"/>
+  <circle cx="270" cy="445" r="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="690" cy="445" r="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <path d="M406.0 423 L428.0 423 L417.0 441 Z" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="480.0" y="540" text-anchor="middle" font-size="13" fill="#333333">Marker positions are illustrative: where the balance sits depends on the organisation, the purpose and the jurisdiction.</text>
+</svg>

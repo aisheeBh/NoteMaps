@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three ways to card a seven-item list</title>
+  <desc>A single card asking for all seven items is hard to grade and keeps failing. Overlapping cloze cards each hide one item while showing its neighbours. Ordered cards ask what comes after each item. The second and third approaches give focused, gradable prompts.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Carding a list: one big card versus focused cards</text>
+  <text x="180" y="90" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">One big card</text>
+  <rect x="40" y="105" width="280" height="230" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="52" y="117" width="256" height="206" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="180" y="155" text-anchor="middle" font-size="15" fill="#111111">Name all seven layers</text>
+  <text x="180" y="185" text-anchor="middle" font-size="15" fill="#111111">of the OSI model.</text>
+  <text x="180" y="215" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="180" y="245" text-anchor="middle" font-size="15" fill="#111111">Answer: seven items</text>
+  <text x="180" y="275" text-anchor="middle" font-size="15" fill="#111111">graded as all or nothing</text>
+  <text x="480" y="90" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Overlapping cloze</text>
+  <rect x="340" y="105" width="280" height="230" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="352" y="117" width="256" height="206" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="155" text-anchor="middle" font-size="15" fill="#111111">Physical, Data link, [...],</text>
+  <text x="480" y="185" text-anchor="middle" font-size="15" fill="#111111">Transport ...</text>
+  <text x="480" y="215" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="480" y="245" text-anchor="middle" font-size="15" fill="#111111">One card per layer,</text>
+  <text x="480" y="275" text-anchor="middle" font-size="15" fill="#111111">neighbours as context</text>
+  <text x="780" y="90" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Ordered pairs</text>
+  <rect x="640" y="105" width="280" height="230" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="652" y="117" width="256" height="206" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="780" y="155" text-anchor="middle" font-size="15" fill="#111111">Which OSI layer comes</text>
+  <text x="780" y="185" text-anchor="middle" font-size="15" fill="#111111">directly above Network?</text>
+  <text x="780" y="215" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="780" y="245" text-anchor="middle" font-size="15" fill="#111111">Answer: Transport</text>
+  <text x="780" y="275" text-anchor="middle" font-size="15" fill="#111111">one link per card</text>
+  <rect x="40" y="370" width="280" height="80" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="180" y="405" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Result</text>
+  <text x="180" y="425" text-anchor="middle" font-size="15" fill="#111111">frequent lapses, leech</text>
+  <rect x="340" y="370" width="280" height="80" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="405" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Result</text>
+  <text x="480" y="425" text-anchor="middle" font-size="15" fill="#111111">focused, gradable</text>
+  <rect x="640" y="370" width="280" height="80" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="780" y="405" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Result</text>
+  <text x="780" y="425" text-anchor="middle" font-size="15" fill="#111111">focused, builds sequence</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative cards; brackets mark the hidden item on a cloze card.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Interleaving effect by language material</title>
+  <desc>Horizontal scale from blocking better to interleaving better. Word lists and spelling-to-sound rule discovery lie on the blocking side; new similar words also; known near-synonyms and grammar choices lie on the interleaving side.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Which way does mixing push learning?</text>
+  <line x1="80" y1="110" x2="880" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="880" y1="110" x2="80" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="480" y1="95" x2="480" y2="500" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="150" y="90" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Blocking or separation better</text>
+  <text x="810" y="90" font-size="16" text-anchor="end" fill="#111111" font-weight="bold">Interleaving better</text>
+  <text x="480" y="520" font-size="14" text-anchor="middle" fill="#111111" font-style="italic">no clear effect</text>
+  <rect x="110" y="160" width="330" height="64" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="165.8" y="170.5" width="218.4" height="47" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="275.0" y="188.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Spelling-to-sound rules</text>
+  <text x="275.0" y="211.5" font-size="14" text-anchor="middle" fill="#111111">discovery of one pattern</text>
+  <rect x="110" y="240" width="330" height="64" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="152.6" y="250.5" width="244.8" height="47" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="275.0" y="268.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">New similar words together</text>
+  <text x="275.0" y="291.5" font-size="14" text-anchor="middle" fill="#111111">interference at first exposure</text>
+  <rect x="110" y="320" width="330" height="64" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="186.92000000000002" y="330.5" width="176.16" height="47" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="275.0" y="348.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Word lists</text>
+  <text x="275.0" y="371.5" font-size="14" text-anchor="middle" fill="#111111">negative pooled effect</text>
+  <rect x="520" y="160" width="330" height="64" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="540.6" y="170.5" width="288.8" height="47" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="685.0" y="188.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Grammar choices across sessions</text>
+  <text x="685.0" y="211.5" font-size="14" text-anchor="middle" fill="#111111">Spanish tenses, English structures</text>
+  <rect x="520" y="240" width="330" height="64" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="564.16" y="250.5" width="241.68" height="47" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="685.0" y="268.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Known near-synonyms</text>
+  <text x="685.0" y="291.5" font-size="14" text-anchor="middle" fill="#111111">ser / estar, savoir / connaître</text>
+  <rect x="520" y="320" width="330" height="64" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2.5"/>
+  <rect x="538.6800000000001" y="330.5" width="292.64" height="47" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="685.0" y="348.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Sound categories</text>
+  <text x="685.0" y="371.5" font-size="14" text-anchor="middle" fill="#111111">identify minimal pairs, varied talkers</text>
+  <rect x="330" y="410" width="300" height="64" rx="0" fill="#F2F2F2" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="480.0" y="438.5" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Unrelated new vocabulary</text>
+  <text x="480.0" y="461.5" font-size="14" text-anchor="middle" fill="#111111">spacing matters, mixing does not</text>
+  <text x="480.0" y="548" font-size="13" text-anchor="middle" fill="#333333">Schematic summary of the studies described; positions are approximate and not effect sizes.</text>
+</svg>

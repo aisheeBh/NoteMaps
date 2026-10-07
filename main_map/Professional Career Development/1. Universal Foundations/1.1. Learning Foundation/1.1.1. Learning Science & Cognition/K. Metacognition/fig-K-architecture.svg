@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The architecture of metacognition</title>
+  <desc>Metacognitive knowledge in long-term memory sits across the top and feeds three phases of a task. Before the task, planning sets goals, strategies and checkpoints. During the task, monitoring and control steer the work in a loop, fed by metacognitive experiences such as fluency and confusion. After the task, evaluation compares the outcome with the standard and updates knowledge. The object-level task runs along the bottom.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Knowledge, monitoring and control across a task</text>
+
+  <!-- knowledge band -->
+  <rect x="40" y="60" width="880" height="80" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="92" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">METACOGNITIVE KNOWLEDGE</text>
+  <text x="480" y="118" text-anchor="middle" font-size="15" fill="#FFFFFF">beliefs about persons, tasks and strategies, held in long-term memory</text>
+
+  <!-- phase headings -->
+  <g font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="175" y="180">BEFORE</text><text x="480" y="180">DURING</text><text x="785" y="180">AFTER</text>
+  </g>
+
+  <!-- planning -->
+  <rect x="60" y="196" width="230" height="150" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="76" y="210" width="198" height="122" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="175" y="238" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">PLANNING</text>
+  <text x="175" y="264" text-anchor="middle" font-size="14" fill="#111111">goals and standards</text>
+  <text x="175" y="284" text-anchor="middle" font-size="14" fill="#111111">strategy choice</text>
+  <text x="175" y="304" text-anchor="middle" font-size="14" fill="#111111">checkpoints, if-then plans</text>
+
+  <!-- monitoring and control -->
+  <rect x="340" y="196" width="280" height="150" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="356" y="210" width="110" height="122" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="411" y="246" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">MONITOR</text>
+  <text x="411" y="272" text-anchor="middle" font-size="14" fill="#111111">do I know?</text>
+  <text x="411" y="292" text-anchor="middle" font-size="14" fill="#111111">is it working?</text>
+  <rect x="494" y="210" width="110" height="122" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="549" y="246" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">CONTROL</text>
+  <text x="549" y="272" text-anchor="middle" font-size="14" fill="#111111">continue, stop,</text>
+  <text x="549" y="292" text-anchor="middle" font-size="14" fill="#111111">switch, ask</text>
+  <path d="M466 240 L 490 240" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M494 304 L 470 304" stroke="#222222" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+
+  <!-- evaluation -->
+  <rect x="670" y="196" width="230" height="150" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="686" y="210" width="198" height="122" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="785" y="238" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">EVALUATION</text>
+  <text x="785" y="264" text-anchor="middle" font-size="14" fill="#111111">outcome vs standard</text>
+  <text x="785" y="284" text-anchor="middle" font-size="14" fill="#111111">causes, attributions</text>
+  <text x="785" y="304" text-anchor="middle" font-size="14" fill="#111111">what to change</text>
+
+  <!-- phase arrows -->
+  <line x1="292" y1="270" x2="336" y2="270" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="622" y1="270" x2="666" y2="270" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- knowledge feeds down -->
+  <line x1="175" y1="142" x2="175" y2="164" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="480" y1="142" x2="480" y2="164" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- evaluation updates knowledge -->
+  <path d="M900 270 C 940 270, 940 100, 924 100" fill="none" stroke="#1E5E24" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+
+  <!-- experiences -->
+  <rect x="290" y="370" width="250" height="64" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="302" y="380" width="226" height="44" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="415" y="398" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">METACOGNITIVE EXPERIENCES</text>
+  <text x="415" y="416" text-anchor="middle" font-size="14" fill="#111111">fluency, familiarity, confusion</text>
+  <line x1="411" y1="368" x2="411" y2="336" stroke="#7A5200" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- object-level task -->
+  <rect x="40" y="470" width="880" height="80" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="502" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">OBJECT-LEVEL TASK</text>
+  <text x="480" y="528" text-anchor="middle" font-size="15" fill="#111111">reading, calculating, coding, diagnosing, deciding</text>
+  <line x1="580" y1="346" x2="580" y2="466" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="240" y1="468" x2="296" y2="438" stroke="#222222" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+
+  <rect x="590" y="430" width="120" height="24" fill="#FFFFFF"/>
+  <text x="596" y="447" font-size="14" fill="#111111">control acts</text>
+  <rect x="60" y="440" width="170" height="24" fill="#FFFFFF"/>
+  <text x="66" y="457" font-size="14" fill="#111111">task gives rise to cues</text>
+  <text x="842" y="164" font-size="14" fill="#111111">updates</text>
+  <text x="842" y="182" font-size="14" fill="#111111">knowledge</text>
+
+  <text x="480" y="590" text-anchor="middle" font-size="13" fill="#333333">Integrates Flavell's components with the Nelson and Narens monitoring-control model and the regulatory cycle.</text>
+</svg>

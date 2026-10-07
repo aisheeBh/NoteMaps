@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Capability as a stock with inflow and outflow</title>
+  <desc>A central box labelled capability, the stock of knowledge and skill. A pipe from the left labelled learning flows in, regulated by a valve labelled study, practice and processing. A pipe to the right labelled forgetting and obsolescence flows out, regulated by a valve slowed by spaced review, regular use and connection.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Capability as a stock</text>
+  <path d="M40 240 Q 70 210 100 240 Q 70 270 40 240 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="70" y="296" text-anchor="middle" font-size="13" fill="#111111">sources</text>
+  <line x1="100" y1="240" x2="360" y2="240" stroke="#555555" stroke-width="10"/>
+  <polygon points="340,226 368,240 340,254" fill="#555555"/>
+  <polygon points="205,215 245,240 205,265" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <polygon points="285,215 245,240 285,265" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="245" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">LEARNING (inflow)</text>
+  <rect x="130" y="300" width="230" height="80" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="245" y="326" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Regulated by</text>
+  <text x="245" y="345" text-anchor="middle" font-size="14" fill="#000000">study, practice,</text>
+  <text x="245" y="363" text-anchor="middle" font-size="14" fill="#000000">processing</text>
+  <line x1="245" y1="266" x2="245" y2="298" stroke="#222222" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="370" y="150" width="220" height="180" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="224" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">CAPABILITY</text>
+  <text x="480" y="246" text-anchor="middle" font-size="17" fill="#FFFFFF">stock of knowledge</text>
+  <text x="480" y="268" text-anchor="middle" font-size="17" fill="#FFFFFF">and skill</text>
+  <line x1="590" y1="240" x2="850" y2="240" stroke="#555555" stroke-width="10"/>
+  <polygon points="850,226 878,240 850,254" fill="#555555"/>
+  <polygon points="695,215 735,240 695,265" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <polygon points="775,215 735,240 775,265" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="735" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">FORGETTING (outflow)</text>
+  <rect x="610" y="300" width="250" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="692" y="312" width="87" height="20" fill="#FFFFFF"/>
+  <text x="735" y="326" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Slowed by</text>
+  <rect x="648" y="332" width="173" height="18" fill="#FFFFFF"/>
+  <text x="735" y="345" text-anchor="middle" font-size="14" fill="#111111">spaced review, regular</text>
+  <rect x="674" y="350" width="121" height="18" fill="#FFFFFF"/>
+  <text x="735" y="363" text-anchor="middle" font-size="14" fill="#111111">use, connection</text>
+  <line x1="735" y1="266" x2="735" y2="298" stroke="#222222" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="735" y="410" text-anchor="middle" font-size="14" fill="#111111">also obsolescence as the field changes</text>
+  <text x="480" y="460" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">The stock rises only while inflow exceeds outflow.</text>
+</svg>

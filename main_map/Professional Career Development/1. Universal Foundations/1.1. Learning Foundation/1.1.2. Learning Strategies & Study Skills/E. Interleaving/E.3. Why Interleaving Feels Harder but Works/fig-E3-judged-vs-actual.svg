@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Judged versus actual</title>
+  <desc>Bar chart schematic: learners judge blocked practice as more effective, but delayed test performance is higher after interleaved practice.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">What learners believe versus what happens</text>
+  <line x1="140" y1="430" x2="700" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <line x1="140" y1="430" x2="140" y2="80" stroke="#222222" stroke-width="2.5"/>
+  <line x1="134" y1="430.0" x2="140" y2="430.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="435.0" font-size="14" text-anchor="end" fill="#111111">0</text>
+  <line x1="134" y1="345.0" x2="140" y2="345.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="350.0" font-size="14" text-anchor="end" fill="#111111">25</text>
+  <line x1="140" y1="345.0" x2="700" y2="345.0" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="134" y1="260.0" x2="140" y2="260.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="265.0" font-size="14" text-anchor="end" fill="#111111">50</text>
+  <line x1="140" y1="260.0" x2="700" y2="260.0" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="134" y1="175.0" x2="140" y2="175.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="180.0" font-size="14" text-anchor="end" fill="#111111">75</text>
+  <line x1="140" y1="175.0" x2="700" y2="175.0" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="134" y1="90.0" x2="140" y2="90.0" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="95.0" font-size="14" text-anchor="end" fill="#111111">100</text>
+  <line x1="140" y1="90.0" x2="700" y2="90.0" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="90" y="260.0" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 90 260.0)">Relative level (illustrative)</text>
+  <rect x="187.0" y="158.0" width="90" height="272.0" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="208.0" y="132.0" width="48" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="232.0" y="148.0" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">80</text>
+  <rect x="283.0" y="277.0" width="90" height="153.0" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="304.0" y="251.0" width="48" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="328.0" y="267.0" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">45</text>
+  <text x="280.0" y="454" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Judged effectiveness</text>
+  <rect x="467.0" y="294.0" width="90" height="136.0" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="488.0" y="268.0" width="48" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="512.0" y="284.0" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">40</text>
+  <rect x="563.0" y="209.0" width="90" height="221.0" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="584.0" y="183.0" width="48" height="20" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="608.0" y="199.0" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">65</text>
+  <text x="560.0" y="454" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Delayed test score</text>
+  <rect x="730" y="200" width="26" height="20" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <text x="766" y="216" font-size="15" text-anchor="start" fill="#111111">Blocked practice</text>
+  <rect x="730" y="240" width="26" height="20" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <text x="766" y="256" font-size="15" text-anchor="start" fill="#111111">Interleaved practice</text>
+  <text x="730" y="300" font-size="14" text-anchor="start" fill="#111111">Judgements follow fluency;</text>
+  <text x="730" y="320" font-size="14" text-anchor="start" fill="#111111">delayed scores follow</text>
+  <text x="730" y="340" font-size="14" text-anchor="start" fill="#111111">learning</text>
+  <text x="480.0" y="520" font-size="13" text-anchor="middle" fill="#333333">Schematic of a pattern reported in several studies; values are illustrative, not from one dataset.</text>
+</svg>

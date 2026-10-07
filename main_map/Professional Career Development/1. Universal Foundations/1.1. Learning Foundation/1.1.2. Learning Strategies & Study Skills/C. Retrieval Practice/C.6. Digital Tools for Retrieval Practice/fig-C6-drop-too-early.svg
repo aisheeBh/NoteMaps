@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Retention by number of correct recalls before an item is dropped</title>
+  <desc>Schematic bars: one-week retention rises steeply from one correct recall before dropping to three or more correct recalls across sessions. Most students in surveys drop after one.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Stopping after the first correct answer wastes most of the work</text>
+  <line x1="140" y1="420" x2="700" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <line x1="140" y1="420" x2="140" y2="77" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="82" y="258" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 82 257.5)">Recalled a week later (%)</text>
+  <text x="131" y="425" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="131" y="344" text-anchor="end" font-size="14" fill="#111111">25</text>
+  <line x1="140" y1="339" x2="700" y2="339" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="131" y="262" text-anchor="end" font-size="14" fill="#111111">50</text>
+  <line x1="140" y1="258" x2="700" y2="258" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="131" y="181" text-anchor="end" font-size="14" fill="#111111">75</text>
+  <line x1="140" y1="176" x2="700" y2="176" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="131" y="100" text-anchor="end" font-size="14" fill="#111111">100</text>
+  <line x1="140" y1="95" x2="700" y2="95" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="233" y="446" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">1 correct</text>
+  <text x="420" y="446" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">2 correct</text>
+  <text x="607" y="446" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">3 correct,</text>
+  <text x="607" y="465" text-anchor="middle" font-size="15" fill="#111111">across sessions</text>
+  <rect x="178" y="306" width="110" height="114" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="365" y="241" width="110" height="179" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="552" y="176" width="110" height="244" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="725" y="120" width="215" height="120" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="748" y="146" width="169" height="67" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="832" y="166" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Common habit</text>
+  <text x="832" y="185" text-anchor="middle" font-size="15" fill="#111111">drop a card after</text>
+  <text x="832" y="204" text-anchor="middle" font-size="15" fill="#111111">one correct recall</text>
+  <rect x="725" y="270" width="215" height="120" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="832" y="316" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Better habit</text>
+  <text x="832" y="335" text-anchor="middle" font-size="15" fill="#111111">keep it until correct</text>
+  <text x="832" y="354" text-anchor="middle" font-size="15" fill="#111111">several times, spaced</text>
+  <text x="420" y="495" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Correct recalls before the item is retired</text>
+  <text x="480" y="528" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern in criterion research (Rawson and colleagues); heights are illustrative.</text>
+</svg>

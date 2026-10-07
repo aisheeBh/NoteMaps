@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Sixty minute session</title>
+  <desc>Timeline of a sixty-minute interleaved session: warm-up 5 minutes, new type 10, mixed practice 35, review 10.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">A sixty-minute interleaved session</text>
+  <rect x="60.0" y="110" width="70.0" height="120" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="130.0" y="110" width="140.0" height="120" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+  <rect x="270.0" y="110" width="490.0" height="120" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="760.0" y="110" width="140.0" height="120" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="2"/>
+  <line x1="95.0" y1="230" x2="95.0" y2="262" stroke="#222222" stroke-width="1.5"/>
+  <text x="95.0" y="280" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Warm-up</text>
+  <text x="95.0" y="299" font-size="14" text-anchor="middle" fill="#111111">mixed recall</text>
+  <text x="95.0" y="317" font-size="14" text-anchor="middle" fill="#111111">of older types</text>
+  <line x1="200.0" y1="230" x2="200.0" y2="332" stroke="#222222" stroke-width="1.5"/>
+  <text x="200.0" y="350" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">New type</text>
+  <text x="200.0" y="369" font-size="14" text-anchor="middle" fill="#111111">worked example</text>
+  <text x="200.0" y="387" font-size="14" text-anchor="middle" fill="#111111">+ 2 blocked items</text>
+  <rect x="345.0" y="135" width="340" height="70" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="515.0" y="158" font-size="17" text-anchor="middle" fill="#111111" font-weight="bold">Interleaved core</text>
+  <text x="515.0" y="180" font-size="14" text-anchor="middle" fill="#111111">10 to 14 unlabelled items, 3 to 4 types</text>
+  <text x="515.0" y="198" font-size="14" text-anchor="middle" fill="#111111">feedback after each item</text>
+  <line x1="830.0" y1="230" x2="830.0" y2="332" stroke="#222222" stroke-width="1.5"/>
+  <text x="830.0" y="350" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Review</text>
+  <text x="830.0" y="369" font-size="14" text-anchor="middle" fill="#111111">confusions,</text>
+  <text x="830.0" y="387" font-size="14" text-anchor="middle" fill="#111111">contrast notes</text>
+  <line x1="60.0" y1="230" x2="60.0" y2="242" stroke="#222222" stroke-width="1.5"/>
+  <text x="60.0" y="100" font-size="14" text-anchor="middle" fill="#111111">0 min</text>
+  <line x1="130.0" y1="230" x2="130.0" y2="242" stroke="#222222" stroke-width="1.5"/>
+  <text x="130.0" y="100" font-size="14" text-anchor="middle" fill="#111111">5 min</text>
+  <line x1="270.0" y1="230" x2="270.0" y2="242" stroke="#222222" stroke-width="1.5"/>
+  <text x="270.0" y="100" font-size="14" text-anchor="middle" fill="#111111">15 min</text>
+  <line x1="760.0" y1="230" x2="760.0" y2="242" stroke="#222222" stroke-width="1.5"/>
+  <text x="760.0" y="100" font-size="14" text-anchor="middle" fill="#111111">50 min</text>
+  <line x1="900.0" y1="230" x2="900.0" y2="242" stroke="#222222" stroke-width="1.5"/>
+  <text x="900.0" y="100" font-size="14" text-anchor="middle" fill="#111111">60 min</text>
+  <rect x="290.0" y="400" width="26" height="26" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="293.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="303.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="320.0" y="400" width="26" height="26" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="323.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="333.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+  <rect x="350.0" y="400" width="26" height="26" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="353.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="363.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="380.0" y="400" width="26" height="26" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="383.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="393.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+  <rect x="410.0" y="400" width="26" height="26" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="413.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="423.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="440.0" y="400" width="26" height="26" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="443.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="453.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="470.0" y="400" width="26" height="26" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="473.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="483.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+  <rect x="500.0" y="400" width="26" height="26" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="503.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="513.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+  <rect x="530.0" y="400" width="26" height="26" rx="0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="533.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="543.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+  <rect x="560.0" y="400" width="26" height="26" rx="0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="563.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="573.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+  <rect x="590.0" y="400" width="26" height="26" rx="0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="593.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="603.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+  <rect x="620.0" y="400" width="26" height="26" rx="0" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="623.0" y="402.0" width="20" height="22" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="633.0" y="419.0" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+  <text x="290.0" y="390" font-size="14" text-anchor="start" fill="#111111">order inside the core (A to D = four types)</text>
+</svg>

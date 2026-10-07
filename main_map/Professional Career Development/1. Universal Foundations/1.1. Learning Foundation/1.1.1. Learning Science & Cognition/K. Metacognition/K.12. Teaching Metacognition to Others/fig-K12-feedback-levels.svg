@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four levels of feedback</title>
+  <desc>Four stacked bands. Task feedback about the product fixes the current error. Process feedback about the method improves similar tasks. Self-regulation feedback about the learner's monitoring builds independent checking. Self feedback, praise of the person, carries little information for improvement and is shown set apart.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Where feedback is aimed decides what it builds</text>
+
+  <!-- self-regulation (top) -->
+  <rect x="200" y="70" width="560" height="100" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="220" y="82" width="520" height="76" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="480" y="106" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">SELF-REGULATION</text>
+  <text x="480" y="128" text-anchor="middle" font-size="14" fill="#111111">"What check would have told you this figure was wrong?"</text>
+  <text x="480" y="148" text-anchor="middle" font-size="14" fill="#111111">builds the learner's own monitoring</text>
+
+  <!-- process -->
+  <rect x="200" y="180" width="560" height="100" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="220" y="192" width="520" height="76" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="216" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">PROCESS</text>
+  <text x="480" y="238" text-anchor="middle" font-size="14" fill="#111111">"Reconciling with last month's totals would catch this."</text>
+  <text x="480" y="258" text-anchor="middle" font-size="14" fill="#111111">improves the method for similar tasks</text>
+
+  <!-- task -->
+  <rect x="200" y="290" width="560" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="480" y="326" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">TASK</text>
+  <text x="480" y="348" text-anchor="middle" font-size="14" fill="#111111">"The total in the third table is wrong."</text>
+  <text x="480" y="368" text-anchor="middle" font-size="14" fill="#111111">fixes this product; transfers little</text>
+
+  <!-- self, set apart -->
+  <rect x="200" y="430" width="560" height="90" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="480" y="464" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">SELF</text>
+  <text x="480" y="486" text-anchor="middle" font-size="14" fill="#111111">"Well done, you're a natural."</text>
+  <text x="480" y="506" text-anchor="middle" font-size="14" fill="#111111">little information on how to improve</text>
+
+  <!-- arrow showing durability -->
+  <line x1="820" y1="390" x2="820" y2="80" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="840" y="230" font-size="15" font-weight="bold" fill="#111111">more</text>
+  <text x="840" y="250" font-size="15" font-weight="bold" fill="#111111">durable,</text>
+  <text x="840" y="270" font-size="15" font-weight="bold" fill="#111111">more</text>
+  <text x="840" y="290" font-size="15" font-weight="bold" fill="#111111">transferable</text>
+
+  <text x="480" y="560" text-anchor="middle" font-size="13" fill="#333333">After Hattie and Timperley (2007).</text>
+</svg>

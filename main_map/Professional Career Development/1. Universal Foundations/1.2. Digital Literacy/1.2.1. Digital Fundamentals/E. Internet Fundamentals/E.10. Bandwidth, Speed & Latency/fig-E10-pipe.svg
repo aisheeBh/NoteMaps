@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Bandwidth and latency as a pipe</title>
+  <desc>Two pipes. A short narrow pipe: low bandwidth, low latency - small amounts arrive quickly. A long wide pipe: high bandwidth, high latency - large amounts can flow but each item takes longer to arrive. A note says that conversations of many small exchanges are limited by the pipe's length.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Width is bandwidth; length is latency</text>
+  <rect x="80" y="110" width="260" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="210" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Short, narrow pipe</text>
+  <text x="210" y="180" text-anchor="middle" font-size="15" fill="#111111">low bandwidth, low latency</text>
+  <text x="210" y="200" text-anchor="middle" font-size="14" fill="#111111">small items arrive quickly</text>
+  <rect x="420" y="90" width="480" height="90" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="660" y="75" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Long, wide pipe</text>
+  <text x="660" y="210" text-anchor="middle" font-size="15" fill="#111111">high bandwidth, high latency</text>
+  <text x="660" y="230" text-anchor="middle" font-size="14" fill="#111111">much can flow, but each item takes longer</text>
+  <line x1="420" y1="255" x2="900" y2="255" stroke="#222222" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <rect x="477.9" y="248" width="364.20000000000005" height="21" fill="#FFFFFF"/>
+  <text x="660" y="262" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">length = latency (time for one item to arrive)</text>
+  <line x1="405" y1="90" x2="405" y2="180" stroke="#222222" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <rect x="589.55" y="126" width="140.9" height="21" fill="#FFFFFF"/>
+  <text x="660" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">width = bandwidth</text>
+  <rect x="80" y="310" width="800" height="150" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="480.0" y="360.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Why the analogy misleads</text>
+  <text x="480.0" y="380.25" text-anchor="middle" font-size="15" fill="#111111">A web page load is a conversation: request, wait for reply, request again.</text>
+  <text x="480.0" y="400.25" text-anchor="middle" font-size="15" fill="#111111">Each exchange pays the full length of the pipe, however wide it is.</text>
+  <text x="480.0" y="420.25" text-anchor="middle" font-size="15" fill="#111111">Widening the pipe speeds bulk transfers; shortening it speeds conversations.</text>
+  <text x="480.0" y="505" text-anchor="middle" font-size="13" fill="#333333">Conceptual illustration.</text>
+</svg>

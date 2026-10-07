@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The assistance dilemma</title>
+  <desc>Two inverted-U curves of learning against the amount of help given. For a novice the peak lies towards more help; for an experienced learner the peak lies towards less help. Too little help leads to floundering; too much help removes the effort that builds learning.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">How much help produces the most learning?</text>
+  <line x1="110" y1="440" x2="890" y2="440" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="500" y="478" text-anchor="middle" font-size="16" fill="#111111">Amount of help given, from a pump to the full answer</text>
+  <text x="130" y="462" font-size="14" fill="#111111">None</text>
+  <text x="870" y="462" text-anchor="end" font-size="14" fill="#111111">Full answer</text>
+  <text x="60" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 255)">Learning</text>
+
+  <!-- experienced learner: peak at low help, solid -->
+  <path d="M120 300 C 200 120, 300 110, 380 170 C 480 250, 650 360, 870 410" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- novice: peak at more help, dashed -->
+  <path d="M120 420 C 300 400, 460 150, 580 150 C 690 150, 780 280, 870 360" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+
+  <rect x="200" y="84" width="230" height="26" fill="#FFFFFF"/>
+  <text x="210" y="103" font-size="15" font-weight="bold" fill="#111111">Experienced learner</text>
+  <rect x="560" y="112" width="160" height="26" fill="#FFFFFF"/>
+  <text x="570" y="131" font-size="15" font-weight="bold" fill="#111111">Novice</text>
+
+  <text x="120" y="504" font-size="14" fill="#111111">Left: too little help, floundering and time lost</text>
+  <text x="880" y="504" text-anchor="end" font-size="14" fill="#111111">Right: too much help, effort skipped</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic after Koedinger and Aleven (2007); not plotted from a single dataset.</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Weekly confidence and accuracy in a calibration log</title>
+  <desc>Paired bars for four weeks. Mean confidence is 86, 80, 76 and 78 percent; the proportion of judgements confirmed correct is 64, 68, 72 and 76 percent. The gap, or overconfidence, shrinks from 22 points in week 1 to 2 points in week 4.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Confidence and accuracy converge over four weeks</text>
+
+  <!-- axis: y = 430 - (v-50)*8 for v in 50..100 -->
+  <g stroke="#DDDDDD" stroke-width="1">
+    <line x1="120" y1="350" x2="860" y2="350"/><line x1="120" y1="270" x2="860" y2="270"/>
+    <line x1="120" y1="190" x2="860" y2="190"/><line x1="120" y1="110" x2="860" y2="110"/>
+  </g>
+  <line x1="120" y1="430" x2="860" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="430" x2="120" y2="90" stroke="#222222" stroke-width="2.5"/>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="110" y="435">50%</text><text x="110" y="355">60%</text><text x="110" y="275">70%</text>
+    <text x="110" y="195">80%</text><text x="110" y="115">90%</text>
+  </g>
+
+  <!-- week 1: conf 86 -> y=142, h=288 ; acc 64 -> y=318, h=112 -->
+  <rect x="160" y="142" width="70" height="288" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="235" y="318" width="70" height="112" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <!-- week 2: 80 -> 190 ; 68 -> 286 -->
+  <rect x="340" y="190" width="70" height="240" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="415" y="286" width="70" height="144" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <!-- week 3: 76 -> 222 ; 72 -> 254 -->
+  <rect x="520" y="222" width="70" height="208" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="595" y="254" width="70" height="176" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <!-- week 4: 78 -> 206 ; 76 -> 222 -->
+  <rect x="700" y="206" width="70" height="224" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="775" y="222" width="70" height="208" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+
+  <g font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="232" y="456">Week 1</text><text x="412" y="456">Week 2</text><text x="592" y="456">Week 3</text><text x="772" y="456">Week 4</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="232" y="476">gap +22</text><text x="412" y="476">gap +12</text><text x="592" y="476">gap +4</text><text x="772" y="476">gap +2</text>
+  </g>
+
+  <!-- legend with patterns and words -->
+  <rect x="560" y="70" width="28" height="20" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="596" y="86" font-size="15" fill="#111111">mean confidence</text>
+  <rect x="740" y="70" width="28" height="20" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="776" y="86" font-size="15" fill="#111111">proportion correct</text>
+  <text x="195" y="135" text-anchor="middle" font-size="13" fill="#111111">conf.</text>
+  <text x="270" y="311" text-anchor="middle" font-size="13" fill="#111111">correct</text>
+
+  <text x="480" y="515" text-anchor="middle" font-size="13" fill="#333333">Data from the worked example: 25 judgements per week. The vertical axis starts at 50%.</text>
+</svg>

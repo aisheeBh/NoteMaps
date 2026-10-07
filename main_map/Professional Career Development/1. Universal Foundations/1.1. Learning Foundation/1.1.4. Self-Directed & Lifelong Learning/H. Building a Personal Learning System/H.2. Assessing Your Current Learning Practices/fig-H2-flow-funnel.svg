@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Flow audit of twenty captured items</title>
+  <desc>Horizontal bars shrinking from 20 items captured to 7 reopened, 4 processed, 2 practised, 2 reviewed and 1 used. The largest proportional drop is between captured and reopened, and a second large drop between reopened and processed.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where captured material stalls</text>
+  <text x="250" y="116" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Captured</text>
+  <rect x="270" y="80" width="600" height="52" rx="4" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="884" y="113" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">20</text>
+  <text x="250" y="186" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Reopened</text>
+  <rect x="270" y="150" width="210" height="52" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="494" y="183" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">7</text>
+  <text x="250" y="256" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Processed</text>
+  <rect x="270" y="220" width="120" height="52" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="404" y="253" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">4</text>
+  <text x="250" y="326" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Practised</text>
+  <rect x="270" y="290" width="60" height="52" rx="4" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="344" y="323" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">2</text>
+  <text x="250" y="396" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Reviewed</text>
+  <rect x="270" y="360" width="60" height="52" rx="4" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="344" y="393" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">2</text>
+  <text x="250" y="466" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Used in real work</text>
+  <rect x="270" y="430" width="30" height="52" rx="4" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="314" y="463" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">1</text>
+  <text x="780" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">largest drop:</text>
+  <text x="780" y="192" text-anchor="middle" font-size="15" fill="#111111">65% never reopened</text>
+  <text x="780" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">second drop:</text>
+  <text x="780" y="290" text-anchor="middle" font-size="15" fill="#111111">reopened but not processed</text>
+  <text x="480" y="520" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Conversion rate = 1 used / 20 captured = 5%</text>
+  <text x="480" y="546" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">Illustrative numbers from a single audit.</text>
+</svg>

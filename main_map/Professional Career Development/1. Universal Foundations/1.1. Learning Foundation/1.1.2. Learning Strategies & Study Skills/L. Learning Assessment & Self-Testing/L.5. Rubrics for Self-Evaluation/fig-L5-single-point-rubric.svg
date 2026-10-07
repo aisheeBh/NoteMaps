@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A single-point rubric for a pull request</title>
+  <desc>Three columns. The middle column lists the proficient standard for five criteria of a pull request: correctness, tests, readability, security and change description. The left column is for notes on where the work falls short; the right column for notes on where it goes beyond. Two example notes are filled in: tests lack a failure case; the change description includes a helpful rollback plan.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Single-point rubric: the standard in the middle, comments on either side</text>
+  <rect x="40" y="60" width="250" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="290" y="60" width="380" height="44" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <rect x="670" y="60" width="250" height="44" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="80" y="70" width="170" height="26" fill="#FFFFFF"/>
+  <text x="165" y="89" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Falls short: notes</text>
+  <text x="480" y="89" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Proficient standard</text>
+  <rect x="710" y="70" width="170" height="26" fill="#FFFFFF"/>
+  <text x="795" y="89" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Goes beyond: notes</text>
+  <g stroke="#333333" stroke-width="1.5" fill="#FFFFFF">
+    <rect x="40" y="104" width="250" height="80"/><rect x="290" y="104" width="380" height="80"/><rect x="670" y="104" width="250" height="80"/>
+    <rect x="40" y="184" width="250" height="80"/><rect x="290" y="184" width="380" height="80"/><rect x="670" y="184" width="250" height="80"/>
+    <rect x="40" y="264" width="250" height="80"/><rect x="290" y="264" width="380" height="80"/><rect x="670" y="264" width="250" height="80"/>
+    <rect x="40" y="344" width="250" height="80"/><rect x="290" y="344" width="380" height="80"/><rect x="670" y="344" width="250" height="80"/>
+    <rect x="40" y="424" width="250" height="80"/><rect x="290" y="424" width="380" height="80"/><rect x="670" y="424" width="250" height="80"/>
+  </g>
+  <g font-size="15" fill="#111111">
+    <text x="302" y="130" font-weight="bold">Correctness</text>
+    <text x="302" y="152">Meets the ticket's acceptance criteria;</text><text x="302" y="171">edge cases handled</text>
+    <text x="302" y="210" font-weight="bold">Tests</text>
+    <text x="302" y="232">New behaviour covered, including at</text><text x="302" y="251">least one failure case</text>
+    <text x="302" y="290" font-weight="bold">Readability</text>
+    <text x="302" y="312">Names explain intent; functions do</text><text x="302" y="331">one thing; no dead code</text>
+    <text x="302" y="370" font-weight="bold">Security</text>
+    <text x="302" y="392">Inputs validated; no secrets in code;</text><text x="302" y="411">permissions checked</text>
+    <text x="302" y="450" font-weight="bold">Change description</text>
+    <text x="302" y="472">Explains why, what changed and how</text><text x="302" y="491">to verify it</text>
+  </g>
+  <g font-size="14" fill="#111111" font-style="italic">
+    <text x="52" y="214">Only happy-path tests;</text><text x="52" y="233">no test for an expired</text><text x="52" y="252">token</text>
+    <text x="682" y="454">Includes a rollback plan</text><text x="682" y="473">and a screenshot of the</text><text x="682" y="492">new error message</text>
+  </g>
+  <text x="40" y="535" font-size="14" fill="#333333">Comments, not boxes: the user writes what is missing or exceptional against each criterion.</text>
+</svg>

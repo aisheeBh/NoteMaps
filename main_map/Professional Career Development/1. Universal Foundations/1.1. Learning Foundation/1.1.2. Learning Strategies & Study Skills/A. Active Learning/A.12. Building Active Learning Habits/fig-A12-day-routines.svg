@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>A day of routines</title>
+<desc>A horizontal timeline of a working day from 8:00 to 18:00 with three short active routines attached to existing events: questions before the 9:00 call, recall after reading a report, and a summary after the 16:00 meeting.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Three small routines in a working day</text>
+<line x1="70" y1="230" x2="890" y2="230" stroke="#222222" stroke-width="3"/>
+<line x1="70.0" y1="224" x2="70.0" y2="236" stroke="#333333" stroke-width="2"/>
+<text x="70.0" y="258" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">8:00</text>
+<line x1="234.0" y1="224" x2="234.0" y2="236" stroke="#333333" stroke-width="2"/>
+<text x="234.0" y="258" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">10:00</text>
+<line x1="398.0" y1="224" x2="398.0" y2="236" stroke="#333333" stroke-width="2"/>
+<text x="398.0" y="258" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">12:00</text>
+<line x1="562.0" y1="224" x2="562.0" y2="236" stroke="#333333" stroke-width="2"/>
+<text x="562.0" y="258" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">14:00</text>
+<line x1="726.0" y1="224" x2="726.0" y2="236" stroke="#333333" stroke-width="2"/>
+<text x="726.0" y="258" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">16:00</text>
+<line x1="890.0" y1="224" x2="890.0" y2="236" stroke="#333333" stroke-width="2"/>
+<text x="890.0" y="258" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">18:00</text>
+<rect x="62.0" y="90" width="180" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="152.0" y="120.80000000000001" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">Existing event</text>
+<text x="152.0" y="139.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">9:00 call</text>
+<line x1="152.0" y1="160" x2="152.0" y2="222" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="47.0" y="280" width="210" height="80" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="55.44999999999999" y="297.8" width="193.10000000000002" height="44.4" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="152.0" y="315.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Active routine</text>
+<text x="152.0" y="333.99999999999994" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">write 2 questions first</text>
+<line x1="152.0" y1="266" x2="152.0" y2="280" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="365.3999999999999" y="90" width="180" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="455.3999999999999" y="120.80000000000001" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">Existing event</text>
+<text x="455.3999999999999" y="139.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">read a report</text>
+<line x1="455.3999999999999" y1="160" x2="455.3999999999999" y2="222" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="350.3999999999999" y="280" width="210" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="358.3999999999999" y="297.8" width="194" height="44.4" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="455.3999999999999" y="315.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Active routine</text>
+<text x="455.3999999999999" y="333.99999999999994" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">close it; recall 3 points</text>
+<line x1="455.3999999999999" y1="266" x2="455.3999999999999" y2="280" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="636.0" y="90" width="180" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="726.0" y="120.80000000000001" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">Existing event</text>
+<text x="726.0" y="139.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">project meeting</text>
+<line x1="726.0" y1="160" x2="726.0" y2="222" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="621.0" y="280" width="210" height="80" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="637.15" y="297.8" width="177.70000000000002" height="44.4" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="726.0" y="315.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Active routine</text>
+<text x="726.0" y="333.99999999999994" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">summarise from memory</text>
+<line x1="726.0" y1="266" x2="726.0" y2="280" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="480.0" y="420" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Total added time: under ten minutes a day.</text>
+</svg>

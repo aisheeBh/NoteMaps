@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>One USB-C connector, many capabilities</title>
+  <desc>Three identical-looking USB-C ports are compared in a grid. A basic port carries USB 2.0 data and charging only. A mid-range port adds fast USB data and DisplayPort video. A full-featured port supports USB4 or Thunderbolt at 40 gigabits per second or more, video to two monitors and up to 240 watts of charging. Ticks and crosses show which capabilities each supports.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Same shape, different abilities</text>
+  <!-- ports -->
+  <g>
+    <rect x="345" y="70" width="110" height="34" rx="17" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+    <rect x="370" y="82" width="60" height="10" rx="5" fill="#111111"/>
+    <rect x="545" y="70" width="110" height="34" rx="17" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+    <rect x="570" y="82" width="60" height="10" rx="5" fill="#111111"/>
+    <rect x="745" y="70" width="110" height="34" rx="17" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+    <rect x="770" y="82" width="60" height="10" rx="5" fill="#111111"/>
+  </g>
+  <g font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="400" y="132">Basic port</text><text x="600" y="132">Mid-range port</text><text x="800" y="132">Full-featured port</text>
+  </g>
+  <!-- grid -->
+  <g stroke="#555555" stroke-width="1.5" fill="none">
+    <rect x="60" y="150" width="840" height="350"/>
+    <line x1="300" y1="150" x2="300" y2="500"/><line x1="500" y1="150" x2="500" y2="500"/><line x1="700" y1="150" x2="700" y2="500"/>
+    <line x1="60" y1="220" x2="900" y2="220"/><line x1="60" y1="290" x2="900" y2="290"/><line x1="60" y1="360" x2="900" y2="360"/><line x1="60" y1="430" x2="900" y2="430"/>
+  </g>
+  <g font-size="15" fill="#111111">
+    <text x="72" y="182" font-weight="bold">Data speed</text><text x="72" y="202">USB 2.0 to USB4</text>
+    <text x="72" y="252" font-weight="bold">Video output</text><text x="72" y="272">to a monitor</text>
+    <text x="72" y="322" font-weight="bold">Charging power</text><text x="72" y="342">to the laptop</text>
+    <text x="72" y="392" font-weight="bold">Thunderbolt</text><text x="72" y="412">docks and drives</text>
+    <text x="72" y="462" font-weight="bold">Two 4K monitors</text><text x="72" y="482">from one port</text>
+  </g>
+  <!-- cells: good = cross pattern rect + text; no = white with "no" -->
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="400" y="192">480 Mb/s</text>
+    <rect x="510" y="160" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="545" y="173" width="110" height="24" fill="#FFFFFF"/><text x="600" y="191">10 Gb/s</text>
+    <rect x="710" y="160" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="735" y="173" width="130" height="24" fill="#FFFFFF"/><text x="800" y="191">40–80 Gb/s</text>
+
+    <text x="400" y="262">no</text>
+    <rect x="510" y="230" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="545" y="243" width="110" height="24" fill="#FFFFFF"/><text x="600" y="261">yes</text>
+    <rect x="710" y="230" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="745" y="243" width="110" height="24" fill="#FFFFFF"/><text x="800" y="261">yes</text>
+
+    <text x="400" y="332">low, phone level</text>
+    <rect x="510" y="300" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="535" y="313" width="130" height="24" fill="#FFFFFF"/><text x="600" y="331">up to 100 W</text>
+    <rect x="710" y="300" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="735" y="313" width="130" height="24" fill="#FFFFFF"/><text x="800" y="331">up to 240 W</text>
+
+    <text x="400" y="402">no</text>
+    <text x="600" y="402">no</text>
+    <rect x="710" y="370" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="745" y="383" width="110" height="24" fill="#FFFFFF"/><text x="800" y="401">yes</text>
+
+    <text x="400" y="472">no</text>
+    <text x="600" y="472">often one only</text>
+    <rect x="710" y="440" width="180" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/><rect x="745" y="453" width="110" height="24" fill="#FFFFFF"/><text x="800" y="471">yes</text>
+  </g>
+  <text x="920" y="540" text-anchor="end" font-size="13" fill="#111111">Illustrative combinations; check the device's port labels and specifications.</text>
+</svg>

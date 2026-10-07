@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Overlapping phases of a transition over time</title>
+  <desc>Three curves over time. Endings start high and decline. The neutral zone rises in the middle and falls. New beginnings start low and rise. The curves overlap: a person can be ending, in the neutral zone and beginning at the same time.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Endings, the neutral zone and new beginnings overlap</text>
+  <polyline points="110,95 123,96 136,97 150,99 163,101 176,103 189,106 202,109 215,113 228,117 242,123 255,129 268,137 281,145 294,155 308,166 321,179 334,192 347,207 360,222 373,239 386,255 400,271 413,288 426,303 439,318 452,331 466,344 479,355 492,365 505,373 518,381 531,387 544,393 558,397 571,401 584,404 597,407 610,409 624,411 637,413 650,414 663,415 676,416 689,417 702,417 716,418 729,418 742,419 755,419 768,419 782,419 795,419 808,419 821,420 834,420 847,420 860,420 874,420 887,420 900,420" fill="none" stroke="#111111" stroke-width="4"/>
+  <polyline points="110,420 123,420 136,420 150,420 163,420 176,419 189,419 202,418 215,417 228,416 242,414 255,411 268,408 281,403 294,396 308,388 321,377 334,365 347,350 360,332 373,313 386,291 400,268 413,245 426,222 439,199 452,179 466,163 479,150 492,142 505,140 518,142 531,150 544,163 558,179 571,199 584,222 597,245 610,268 624,291 637,313 650,332 663,350 676,365 689,377 702,388 716,396 729,403 742,408 755,411 768,414 782,416 795,417 808,418 821,419 834,419 847,420 860,420 874,420 887,420 900,420" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <polyline points="110,420 123,420 136,420 150,420 163,420 176,420 189,420 202,420 215,420 228,419 242,419 255,419 268,419 281,419 294,418 308,418 321,418 334,417 347,417 360,416 373,415 386,414 400,412 413,411 426,409 439,407 452,404 466,400 479,396 492,392 505,386 518,379 531,372 544,363 558,353 571,341 584,329 597,315 610,300 624,284 637,268 650,252 663,235 676,219 689,204 702,190 716,176 729,164 742,153 755,144 768,135 782,128 795,122 808,116 821,112 834,108 847,105 860,102 874,100 887,98 900,97" fill="none" stroke="#1F3B5C" stroke-width="4" stroke-dasharray="2 5"/>
+  <line x1="110" y1="420" x2="910" y2="420" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="110" y1="420" x2="110" y2="80" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="60" y="255" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 60 255)">Prominence in experience</text>
+  <text x="505" y="450" text-anchor="middle" font-size="15" fill="#111111">Time through the transition</text>
+  <text x="134" y="189" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">ENDINGS</text>
+  <text x="134" y="209" text-anchor="start" font-size="14" fill="#111111">letting go of the old</text>
+  <text x="134" y="227" text-anchor="start" font-size="14" fill="#111111">identity and competence</text>
+  <text x="505" y="124" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">NEUTRAL ZONE</text>
+  <text x="505" y="265" text-anchor="middle" font-size="14" fill="#111111">uncertain, uncomfortable,</text>
+  <text x="505" y="283" text-anchor="middle" font-size="14" fill="#111111">often creative</text>
+  <text x="892" y="189" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">NEW BEGINNINGS</text>
+  <text x="892" y="209" text-anchor="end" font-size="14" fill="#111111">commitment to the</text>
+  <text x="892" y="227" text-anchor="end" font-size="14" fill="#111111">new role and identity</text>
+  <text x="936" y="500" text-anchor="end" font-size="13" fill="#333333">Schematic, after William Bridges (1980).</text>
+</svg>

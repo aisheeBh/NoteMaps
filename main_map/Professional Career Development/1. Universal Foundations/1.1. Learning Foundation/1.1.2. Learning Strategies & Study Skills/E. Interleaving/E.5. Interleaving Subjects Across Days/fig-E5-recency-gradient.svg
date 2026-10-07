@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Recency gradient</title>
+  <desc>Schematic line chart of exam performance by topic in study order. Blocked plan: early topics low, later topics high. Rotation plan: roughly flat and higher for early topics.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" font-size="24" text-anchor="middle" fill="#111111" font-weight="bold">Exam performance by topic, in the order first studied</text>
+  <line x1="130" y1="420" x2="830" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="420" x2="130" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="80" y="255.0" font-size="16" text-anchor="middle" fill="#111111" transform="rotate(-90 80 255.0)">Exam performance</text>
+  <path d="M200 304.5 L340 281.4 L480 238.5 L620 182.4 L760 156.0" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M200 202.2 L340 195.6 L480 198.9 L620 189.0 L760 185.7" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="200" cy="304.5" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="340" cy="281.4" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="480" cy="238.5" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="620" cy="182.4" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="760" cy="156.0" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="200" cy="202.2" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="340" cy="195.6" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="480" cy="198.9" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="620" cy="189.0" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <circle cx="760" cy="185.7" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="200" y="444" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Revenue</text>
+  <text x="340" y="444" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Leases</text>
+  <text x="480" y="444" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Instruments</text>
+  <text x="620" y="444" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Groups</text>
+  <text x="760" y="444" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Impairment</text>
+  <text x="480.0" y="472" font-size="15" text-anchor="middle" fill="#111111">Topics in the order first studied (earliest on the left)</text>
+  <rect x="150" y="345" width="200" height="44" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="160" y="364" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Blocked plan</text>
+  <text x="160" y="382" font-size="14" text-anchor="start" fill="#111111">earliest topics weakest</text>
+  <rect x="160" y="110" width="210" height="44" rx="0" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="170" y="129" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Rotation plan</text>
+  <text x="170" y="147" font-size="14" text-anchor="start" fill="#111111">flatter, early topics kept</text>
+  <text x="480.0" y="525" font-size="13" text-anchor="middle" fill="#333333">Schematic of the recency gradient; values are illustrative, not measured.</text>
+</svg>

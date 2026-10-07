@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The example space of a concept</title>
+  <desc>The concept "conflict of interest" drawn as a region: typical examples near the centre, boundary examples near the edge, near misses just outside, and clear non-examples far outside.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The example space of "conflict of interest"</text>
+
+  <!-- concept region -->
+  <ellipse cx="400" cy="320" rx="300" ry="215" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <ellipse cx="400" cy="320" rx="150" ry="95" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="300" y="146" width="200" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/><text x="400" y="165" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">INSIDE THE CONCEPT</text>
+
+  <g font-size="14" fill="#111111">
+    <!-- typical -->
+    <text x="400" y="282" text-anchor="middle" font-weight="bold">TYPICAL</text>
+    <text x="400" y="304" text-anchor="middle">buyer awards a contract</text>
+    <text x="400" y="322" text-anchor="middle">to a firm owned by</text>
+    <text x="400" y="340" text-anchor="middle">their brother</text>
+
+    <!-- boundary -->
+    <rect x="130" y="420" width="250" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+    <text x="142" y="440" font-weight="bold">BOUNDARY (still inside)</text>
+    <text x="142" y="458">reviewer of a grant is a</text>
+    <text x="142" y="474">former co-author of applicant</text>
+
+    <rect x="430" y="420" width="240" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+    <text x="442" y="440" font-weight="bold">BOUNDARY (still inside)</text>
+    <text x="442" y="458">manager rates a direct</text>
+    <text x="442" y="474">report who is a close friend</text>
+  </g>
+
+  <!-- near misses outside the edge -->
+  <g font-size="14" fill="#111111">
+    <rect x="725" y="150" width="215" height="80" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="737" y="172" font-weight="bold">NEAR MISS (outside)</text>
+    <text x="737" y="192">brother's firm bids, but</text>
+    <text x="737" y="210">the buyer declares and</text>
+    <text x="737" y="226">steps aside</text>
+
+    <rect x="725" y="260" width="215" height="80" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="737" y="282" font-weight="bold">NEAR MISS (outside)</text>
+    <text x="737" y="302">buyer once met the</text>
+    <text x="737" y="320">supplier at a conference;</text>
+    <text x="737" y="336">no ongoing interest</text>
+
+    <rect x="725" y="420" width="215" height="62" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+    <text x="737" y="442" font-weight="bold">CLEAR NON-EXAMPLE</text>
+    <text x="737" y="462">buyer chooses the</text>
+    <text x="737" y="478">cheapest unrelated bid</text>
+  </g>
+
+  <line x1="700" y1="190" x2="725" y2="190" stroke="#7A5200" stroke-width="2"/>
+  <line x1="702" y1="300" x2="725" y2="300" stroke="#7A5200" stroke-width="2"/>
+
+  <text x="60" y="545" font-size="15" fill="#111111">Critical features: a personal interest - that could influence - a duty owed to someone else - undeclared or unmanaged.</text>
+  <text x="60" y="570" font-size="15" fill="#111111">Near misses differ from the concept in exactly one critical feature, which makes them the most instructive.</text>
+</svg>

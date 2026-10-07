@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Seven principles for ethical AI use in learning</title>
+  <desc>Seven boxes arranged around a central box labelled the learner using AI. Each box names a principle and the question it poses: honesty, agency, privacy, fairness, respect for creators, accountability and wellbeing.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Seven questions before using AI to learn</text>
+  <g stroke="#333333" stroke-width="2">
+    <line x1="480" y1="320" x2="480" y2="140"/>
+    <line x1="480" y1="320" x2="770" y2="200"/>
+    <line x1="480" y1="320" x2="810" y2="400"/>
+    <line x1="480" y1="320" x2="640" y2="530"/>
+    <line x1="480" y1="320" x2="320" y2="530"/>
+    <line x1="480" y1="320" x2="150" y2="400"/>
+    <line x1="480" y1="320" x2="190" y2="200"/>
+  </g>
+  <rect x="370" y="280" width="220" height="80" rx="12" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="315" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">THE LEARNER</text>
+  <text x="480" y="339" text-anchor="middle" font-size="15" fill="#FFFFFF">using AI</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="370" y="60" width="220" height="80" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="382" y="70" width="196" height="60" fill="#FFFFFF"/>
+    <text x="480" y="92" font-size="16" font-weight="bold">HONESTY</text>
+    <text x="480" y="114">Would I disclose this use?</text>
+
+    <rect x="680" y="150" width="250" height="80" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="692" y="160" width="226" height="60" fill="#FFFFFF"/>
+    <text x="805" y="182" font-size="16" font-weight="bold">AGENCY</text>
+    <text x="805" y="204">Does it build my capability?</text>
+
+    <rect x="690" y="360" width="250" height="80" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="702" y="370" width="226" height="60" fill="#FFFFFF"/>
+    <text x="815" y="392" font-size="16" font-weight="bold">PRIVACY</text>
+    <text x="815" y="414">Whose data, going where?</text>
+
+    <rect x="520" y="500" width="250" height="80" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="532" y="510" width="226" height="60" fill="#FFFFFF"/>
+    <text x="645" y="532" font-size="16" font-weight="bold">FAIRNESS</text>
+    <text x="645" y="554">Could this disadvantage anyone?</text>
+
+    <rect x="190" y="500" width="250" height="80" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="202" y="510" width="226" height="60" fill="#FFFFFF"/>
+    <text x="315" y="532" font-size="16" font-weight="bold">RESPECT FOR CREATORS</text>
+    <text x="315" y="554">Am I entitled to use this?</text>
+
+    <rect x="20" y="360" width="250" height="80" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="32" y="370" width="226" height="60" fill="#FFFFFF"/>
+    <text x="145" y="392" font-size="16" font-weight="bold">ACCOUNTABILITY</text>
+    <text x="145" y="414">Have I checked it?</text>
+
+    <rect x="30" y="150" width="250" height="80" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="42" y="160" width="226" height="60" fill="#FFFFFF"/>
+    <text x="155" y="182" font-size="16" font-weight="bold">WELLBEING</text>
+    <text x="155" y="204">Is my use healthy?</text>
+  </g>
+  <text x="480" y="606" text-anchor="middle" font-size="13" fill="#333333">A use that fails any one question needs to be changed, disclosed or abandoned.</text>
+</svg>
