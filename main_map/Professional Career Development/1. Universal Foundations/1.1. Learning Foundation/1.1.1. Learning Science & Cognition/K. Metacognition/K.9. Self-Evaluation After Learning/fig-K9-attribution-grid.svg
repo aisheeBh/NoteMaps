@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Attributions for a disappointing result</title>
+  <desc>A two-by-two grid crossing controllability with stability. Controllable and unstable, such as wrong strategy or too little practice, leads to adaptation and persistence. Controllable and stable, such as a habit of not checking, leads to deliberate habit change. Uncontrollable and unstable, such as bad luck or illness, leads to waiting and trying again. Uncontrollable and stable, such as believing one lacks ability, leads to giving up.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">How the explanation of a setback shapes the next step</text>
+
+  <text x="425" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">UNSTABLE cause</text>
+  <text x="725" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">STABLE cause</text>
+  <text x="150" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">CONTROLLABLE</text>
+  <text x="150" y="420" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">UNCONTROLLABLE</text>
+
+  <rect x="280" y="100" width="290" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="580" y="100" width="290" height="210" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="280" y="320" width="290" height="210" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="580" y="320" width="290" height="210" fill="url(#lines)" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+
+  <rect x="300" y="130" width="250" height="150" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="425" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">"Wrong strategy;</text>
+  <text x="425" y="180" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">too little practice"</text>
+  <text x="425" y="212" text-anchor="middle" font-size="14" fill="#111111">tends to produce:</text>
+  <text x="425" y="234" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">ADAPTATION,</text>
+  <text x="425" y="254" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">PERSISTENCE</text>
+
+  <rect x="600" y="130" width="250" height="150" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="725" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">"I never check</text>
+  <text x="725" y="180" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">my work"</text>
+  <text x="725" y="212" text-anchor="middle" font-size="14" fill="#111111">tends to produce:</text>
+  <text x="725" y="234" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">DELIBERATE</text>
+  <text x="725" y="254" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">HABIT CHANGE</text>
+
+  <rect x="300" y="350" width="250" height="150" fill="#FFFFFF" stroke="#666666" stroke-width="1.5"/>
+  <text x="425" y="380" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">"Bad luck;</text>
+  <text x="425" y="400" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">I was ill that day"</text>
+  <text x="425" y="432" text-anchor="middle" font-size="14" fill="#111111">tends to produce:</text>
+  <text x="425" y="454" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TRY AGAIN,</text>
+  <text x="425" y="474" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">LITTLE LEARNING</text>
+
+  <rect x="600" y="350" width="250" height="150" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="725" y="380" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">"I'm just not good</text>
+  <text x="725" y="400" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">at this"</text>
+  <text x="725" y="432" text-anchor="middle" font-size="14" fill="#111111">tends to produce:</text>
+  <text x="725" y="454" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">GIVING UP,</text>
+  <text x="725" y="474" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">AVOIDANCE</text>
+
+  <text x="480" y="570" text-anchor="middle" font-size="14" fill="#333333">After Weiner's attribution dimensions. The useful explanation is the true one that points to something controllable.</text>
+</svg>

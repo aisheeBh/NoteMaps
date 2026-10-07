@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Zimmerman's cyclical model of self-regulated learning</title>
+  <desc>Three phases arranged in a cycle. Forethought, with task analysis and self-motivation beliefs, leads to performance, with self-control and self-observation, which leads to self-reflection, with self-judgement and self-reaction, which feeds back into forethought for the next cycle.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Plan, perform while watching, reflect, and plan again</text>
+
+  <!-- forethought (top) -->
+  <rect x="320" y="64" width="320" height="150" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="336" y="78" width="288" height="122" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="480" y="104" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">1. FORETHOUGHT</text>
+  <text x="480" y="130" text-anchor="middle" font-size="15" fill="#111111">task analysis: goals, plans</text>
+  <text x="480" y="152" text-anchor="middle" font-size="15" fill="#111111">self-motivation: self-efficacy,</text>
+  <text x="480" y="172" text-anchor="middle" font-size="15" fill="#111111">value, interest, goal orientation</text>
+
+  <!-- performance (bottom right) -->
+  <rect x="600" y="370" width="320" height="160" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="616" y="384" width="288" height="132" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="760" y="410" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">2. PERFORMANCE</text>
+  <text x="760" y="436" text-anchor="middle" font-size="15" fill="#111111">self-control: strategies, attention,</text>
+  <text x="760" y="456" text-anchor="middle" font-size="15" fill="#111111">time, environment, help-seeking</text>
+  <text x="760" y="482" text-anchor="middle" font-size="15" fill="#111111">self-observation: monitoring,</text>
+  <text x="760" y="502" text-anchor="middle" font-size="15" fill="#111111">recording progress</text>
+
+  <!-- self-reflection (bottom left) -->
+  <rect x="40" y="370" width="320" height="160" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="56" y="384" width="288" height="132" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="200" y="410" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">3. SELF-REFLECTION</text>
+  <text x="200" y="436" text-anchor="middle" font-size="15" fill="#111111">self-judgement: evaluation</text>
+  <text x="200" y="456" text-anchor="middle" font-size="15" fill="#111111">against standards, attribution</text>
+  <text x="200" y="482" text-anchor="middle" font-size="15" fill="#111111">self-reaction: satisfaction;</text>
+  <text x="200" y="502" text-anchor="middle" font-size="15" fill="#111111">adaptive or defensive</text>
+
+  <!-- cycle arrows -->
+  <path d="M650 160 C 760 190, 800 270, 780 362" fill="none" stroke="#222222" stroke-width="3.5" marker-end="url(#arrow)"/>
+  <path d="M592 470 C 520 520, 440 520, 368 470" fill="none" stroke="#222222" stroke-width="3.5" marker-end="url(#arrow)"/>
+  <path d="M180 362 C 160 270, 200 190, 312 160" fill="none" stroke="#222222" stroke-width="3.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+
+  <rect x="790" y="240" width="140" height="44" fill="#FFFFFF"/>
+  <text x="800" y="258" font-size="14" fill="#111111">plans guide</text>
+  <text x="800" y="276" font-size="14" fill="#111111">the work</text>
+  <rect x="400" y="532" width="160" height="44" fill="#FFFFFF"/>
+  <text x="480" y="550" text-anchor="middle" font-size="14" fill="#111111">observations feed</text>
+  <text x="480" y="568" text-anchor="middle" font-size="14" fill="#111111">the judgement</text>
+  <rect x="20" y="240" width="160" height="44" fill="#FFFFFF"/>
+  <text x="30" y="258" font-size="14" fill="#111111">lessons shape</text>
+  <text x="30" y="276" font-size="14" fill="#111111">the next plan</text>
+
+  <text x="480" y="604" text-anchor="middle" font-size="13" fill="#333333">After Zimmerman (2000, 2002).</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Calibration curve</title>
+  <desc>Proportion correct plotted against stated confidence from 50 to 100 percent. The diagonal shows perfect calibration. An overconfident judge's curve lies below the diagonal; an underconfident judge's curve lies above it.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">When I say I am X% sure, how often am I right?</text>
+
+  <!-- gridlines -->
+  <g stroke="#DDDDDD" stroke-width="1">
+    <line x1="120" y1="80" x2="820" y2="80"/>
+    <line x1="120" y1="143.3" x2="820" y2="143.3"/>
+    <line x1="120" y1="206.7" x2="820" y2="206.7"/>
+    <line x1="120" y1="270" x2="820" y2="270"/>
+    <line x1="120" y1="333.3" x2="820" y2="333.3"/>
+    <line x1="120" y1="396.7" x2="820" y2="396.7"/>
+  </g>
+  <!-- axes -->
+  <line x1="120" y1="460" x2="850" y2="460" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="460" x2="120" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="120" y="482">50%</text><text x="260" y="482">60%</text><text x="400" y="482">70%</text>
+    <text x="540" y="482">80%</text><text x="680" y="482">90%</text><text x="820" y="482">100%</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="110" y="465">40%</text><text x="110" y="401">50%</text><text x="110" y="338">60%</text>
+    <text x="110" y="275">70%</text><text x="110" y="211">80%</text><text x="110" y="148">90%</text><text x="110" y="85">100%</text>
+  </g>
+  <text x="470" y="510" text-anchor="middle" font-size="16" fill="#111111">Stated confidence</text>
+  <text x="40" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 40 270)">Proportion actually correct</text>
+
+  <!-- perfect -->
+  <line x1="120" y1="396.7" x2="820" y2="80" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4"/>
+  <!-- underconfident -->
+  <polyline points="120,333.3 260,257.3 400,194 540,143.3 680,111.7 820,92.7" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- overconfident -->
+  <polyline points="120,409 260,377.7 400,346 540,314.3 680,282.7 820,251" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <g fill="#1F3B5C"><circle cx="120" cy="409" r="5"/><circle cx="260" cy="377.7" r="5"/><circle cx="400" cy="346" r="5"/><circle cx="540" cy="314.3" r="5"/><circle cx="680" cy="282.7" r="5"/><circle cx="820" cy="251" r="5"/></g>
+
+  <!-- labels -->
+  <rect x="170" y="150" width="220" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="182" y="168" font-size="15" font-weight="bold" fill="#111111">Underconfident</text>
+  <text x="182" y="186" font-size="14" fill="#111111">right more often than claimed</text>
+  <line x1="300" y1="194" x2="300" y2="236" stroke="#555555" stroke-width="1"/>
+
+  <rect x="640" y="190" width="200" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="652" y="208" font-size="15" font-weight="bold" fill="#111111">Perfect calibration</text>
+  <text x="652" y="226" font-size="14" fill="#111111">confidence = accuracy</text>
+  <line x1="700" y1="190" x2="700" y2="140" stroke="#555555" stroke-width="1"/>
+
+  <rect x="560" y="360" width="240" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="572" y="378" font-size="15" font-weight="bold" fill="#111111">Overconfident</text>
+  <text x="572" y="396" font-size="14" fill="#111111">right less often than claimed</text>
+  <line x1="640" y1="360" x2="640" y2="296" stroke="#555555" stroke-width="1"/>
+
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. Each point groups all judgements made at one confidence level.</text>
+</svg>

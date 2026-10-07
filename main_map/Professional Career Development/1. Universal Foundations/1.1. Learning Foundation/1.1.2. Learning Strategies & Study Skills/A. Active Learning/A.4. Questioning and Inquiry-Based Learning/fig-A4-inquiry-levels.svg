@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Levels of inquiry</title>
+<desc>A grid with four levels of inquiry as rows and three columns: question, method, answer. Filled cells show what is provided to learners; open cells show what learners must decide.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Four levels of inquiry</text>
+<text x="480.0" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Shaded: provided to the learner.  White: decided by the learner.</text>
+<text x="420.0" y="124" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Question</text>
+<text x="600.0" y="124" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Method</text>
+<text x="780.0" y="124" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Answer</text>
+<text x="310" y="183.5" font-size="17" text-anchor="end" font-weight="bold" fill="#111111">Confirmation</text>
+<rect x="336" y="146" width="168" height="63" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="381.2" y="164.4" width="77.60000000000001" height="26.2" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="420.0" y="182.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">PROVIDED</text>
+<rect x="516" y="146" width="168" height="63" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="561.2" y="164.4" width="77.60000000000001" height="26.2" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="600.0" y="182.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">PROVIDED</text>
+<rect x="696" y="146" width="168" height="63" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="741.2" y="164.4" width="77.60000000000001" height="26.2" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="780.0" y="182.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">PROVIDED</text>
+<text x="310" y="258.5" font-size="17" text-anchor="end" font-weight="bold" fill="#111111">Structured</text>
+<rect x="336" y="221" width="168" height="63" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="381.2" y="239.4" width="77.60000000000001" height="26.2" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="420.0" y="257.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">PROVIDED</text>
+<rect x="516" y="221" width="168" height="63" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="561.2" y="239.4" width="77.60000000000001" height="26.2" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="600.0" y="257.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">PROVIDED</text>
+<rect x="696" y="221" width="168" height="63" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="780.0" y="257.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">learner decides</text>
+<text x="310" y="333.5" font-size="17" text-anchor="end" font-weight="bold" fill="#111111">Guided</text>
+<rect x="336" y="296" width="168" height="63" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="381.2" y="314.4" width="77.60000000000001" height="26.2" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="420.0" y="332.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">PROVIDED</text>
+<rect x="516" y="296" width="168" height="63" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="600.0" y="332.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">learner decides</text>
+<rect x="696" y="296" width="168" height="63" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="780.0" y="332.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">learner decides</text>
+<text x="310" y="408.5" font-size="17" text-anchor="end" font-weight="bold" fill="#111111">Open</text>
+<rect x="336" y="371" width="168" height="63" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="420.0" y="407.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">learner decides</text>
+<rect x="516" y="371" width="168" height="63" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="600.0" y="407.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">learner decides</text>
+<rect x="696" y="371" width="168" height="63" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="780.0" y="407.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">learner decides</text>
+<line x1="900" y1="150" x2="900" y2="430" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="925" y="290" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111" transform="rotate(90 925 290)">more learner autonomy</text>
+<text x="480.0" y="500" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">After Banchi and Bell (2008).</text>
+</svg>

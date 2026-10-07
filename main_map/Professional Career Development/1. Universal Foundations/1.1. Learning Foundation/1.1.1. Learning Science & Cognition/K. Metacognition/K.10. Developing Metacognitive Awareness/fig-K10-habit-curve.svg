@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Habit automaticity over time</title>
+  <desc>Automaticity of a new daily behaviour rises quickly at first and then levels off. A fast former plateaus within about three weeks, a typical person around nine to ten weeks, and a slow former only after many months.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Repetition in a stable context makes a routine automatic</text>
+
+  <line x1="120" y1="430" x2="880" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="430" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="470" text-anchor="middle" font-size="16" fill="#111111">Days of daily repetition</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="120" y="450">0</text><text x="250" y="450">20</text><text x="380" y="450">40</text>
+    <text x="510" y="450">60</text><text x="640" y="450">80</text><text x="770" y="450">100</text>
+  </g>
+  <text x="60" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 250)">How automatic it feels</text>
+
+  <!-- fast: dotted -->
+  <path d="M120 420 C 160 220, 220 130, 300 118 L 860 112" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="2 4"/>
+  <!-- median: solid -->
+  <path d="M120 420 C 240 300, 420 160, 560 140 L 860 132" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- slow: dashed -->
+  <path d="M120 420 C 360 390, 620 300, 860 230" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <line x1="549" y1="430" x2="549" y2="146" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="470" y="360" width="160" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="550" y="378" text-anchor="middle" font-size="14" fill="#111111">median about</text>
+  <text x="550" y="396" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">66 days</text>
+
+  <rect x="230" y="80" width="190" height="26" fill="#FFFFFF"/>
+  <text x="236" y="99" font-size="15" font-weight="bold" fill="#111111">fast: about 3 weeks</text>
+  <rect x="640" y="146" width="210" height="26" fill="#FFFFFF"/>
+  <text x="646" y="165" font-size="15" font-weight="bold" fill="#111111">typical person</text>
+  <rect x="660" y="318" width="200" height="44" fill="#FFFFFF"/>
+  <text x="666" y="336" font-size="15" font-weight="bold" fill="#111111">slow: still rising</text>
+  <text x="666" y="354" font-size="14" fill="#111111">after many months</text>
+
+  <text x="480" y="515" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Lally and colleagues (2010); curves are illustrative, not fitted to their data.</text>
+</svg>

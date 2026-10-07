@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Compression ladder</title>
+<desc>Four shrinking boxes: a 20-page report, a one-page summary, a three-sentence abstract, and a single sentence stating the central claim, each with the choice it forces.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Compressing a source forces harder choices</text>
+<rect x="100.0" y="90" width="760" height="80" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="480.0" y="125.19999999999999" font-size="16" text-anchor="middle" font-weight="bold" fill="#222222">20-page report</text>
+<text x="480.0" y="146.0" font-size="16" text-anchor="middle" font-weight="normal" fill="#222222">all ideas, evidence and detail</text>
+<line x1="480" y1="170" x2="480" y2="195" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="200.0" y="195" width="560" height="80" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="480.0" y="230.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#000000">One-page summary</text>
+<text x="480.0" y="251.0" font-size="16" text-anchor="middle" font-weight="normal" fill="#000000">main ideas and how they relate</text>
+<line x1="480" y1="275" x2="480" y2="300" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="290.0" y="300" width="380" height="80" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="335.20000000000005" font-size="16" text-anchor="middle" font-weight="bold" fill="#000000">Three-sentence abstract</text>
+<text x="480.0" y="356.00000000000006" font-size="16" text-anchor="middle" font-weight="normal" fill="#000000">claim, main reason, main limit</text>
+<line x1="480" y1="380" x2="480" y2="405" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="360.0" y="405" width="240" height="80" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="480.0" y="440.20000000000005" font-size="16" text-anchor="middle" font-weight="bold" fill="#FFFFFF">One sentence</text>
+<text x="480.0" y="461.00000000000006" font-size="16" text-anchor="middle" font-weight="normal" fill="#FFFFFF">the central claim</text>
+<text x="630" y="462.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">The understanding test:</text>
+<text x="630" y="481.5" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">can the source be stated</text>
+<text x="630" y="501.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">in one accurate sentence?</text>
+<text x="480.0" y="528" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Each step requires deciding what matters most.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Analogical encoding</title>
+<desc>Two learning conditions. Separate: two cases analysed one at a time, leading to less use of the principle later. Compare: two cases analysed together, extracting a common principle, leading to more use later.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Studying cases separately or comparing them</text>
+<text x="480.0" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Pattern reported by Gentner, Loewenstein and Thompson (2003)</text>
+<rect x="60" y="110" width="150" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="135.0" y="150.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#000000">Case A</text>
+<rect x="240" y="110" width="150" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="315.0" y="150.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#000000">Case B</text>
+<text x="225" y="215" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">SEPARATE</text>
+<text x="225" y="240.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">each analysed alone;</text>
+<text x="225" y="258.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">lessons stay tied to stories</text>
+<rect x="540" y="110" width="150" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="615.0" y="150.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#000000">Case A</text>
+<rect x="750" y="110" width="150" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="825.0" y="150.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#000000">Case B</text>
+<line x1="690" y1="145" x2="750" y2="145" stroke="#222222" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="720" y="215" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">COMPARE</text>
+<text x="720" y="240.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">analysed together;</text>
+<text x="720" y="258.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">common principle abstracted</text>
+<line x1="60" y1="480" x2="900" y2="480" stroke="#333333" stroke-width="2"/>
+<rect x="150" y="420" width="150" height="60" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="178.0" y="394" width="94.00000000000001" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="225" y="410.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">less often</text>
+<rect x="645" y="350" width="150" height="130" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="614.2" y="324" width="211.60000000000002" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="720" y="340.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">substantially more often</text>
+<text x="480" y="300" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Later use of the principle in a new negotiation</text>
+<text x="480.0" y="528" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Schematic: shows direction of the difference, not exact values.</text>
+</svg>

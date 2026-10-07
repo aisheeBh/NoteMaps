@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>PBL outcome pattern</title>
+<desc>Diverging horizontal bars showing PBL relative to conventional teaching: slightly lower on short-term knowledge tests; higher on long-term retention, application and skills, understanding of principles and satisfaction.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">PBL compared with conventional teaching</text>
+<text x="480.0" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Typical direction of effects across meta-analyses</text>
+<line x1="430" y1="110" x2="430" y2="440" stroke="#333333" stroke-width="2"/>
+<rect x="328.0" y="125" width="102.0" height="40" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="444" y="151" font-size="16" text-anchor="start" font-weight="bold" fill="#111111">Short-term knowledge tests</text>
+<rect x="430" y="187" width="204.0" height="40" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<text x="416" y="213" font-size="16" text-anchor="end" font-weight="bold" fill="#111111">Long-term retention</text>
+<rect x="430" y="249" width="272.0" height="40" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<text x="416" y="275" font-size="16" text-anchor="end" font-weight="bold" fill="#111111">Application and skills</text>
+<rect x="430" y="311" width="237.99999999999997" height="40" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<text x="416" y="337" font-size="16" text-anchor="end" font-weight="bold" fill="#111111">Understanding principles</text>
+<rect x="430" y="373" width="306.0" height="40" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<text x="416" y="399" font-size="16" text-anchor="end" font-weight="bold" fill="#111111">Satisfaction</text>
+<text x="320" y="470" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">favours conventional</text>
+<text x="570" y="470" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">favours PBL</text>
+<text x="480.0" y="505" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Schematic: bar lengths show direction and rough relative size, not pooled estimates.</text>
+</svg>
