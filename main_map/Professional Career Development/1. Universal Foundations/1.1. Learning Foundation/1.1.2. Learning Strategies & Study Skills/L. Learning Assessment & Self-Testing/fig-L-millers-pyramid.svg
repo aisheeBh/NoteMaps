@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Miller's pyramid of competence</title>
+  <desc>A pyramid with four levels. From the base: knows, assessed by knowledge questions; knows how, assessed by case-based questions; shows how, assessed by simulations and structured practical examinations; does, at the top, assessed by observation at work and outcomes. To the right, each level lists typical evidence. An arrow beside the pyramid shows fidelity and cost rising towards the top.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What each level of competence needs as evidence</text>
+  <g transform="translate(40,0)">
+  <polygon points="290,80 360,180 220,180" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <polygon points="220,180 360,180 430,290 150,290" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <polygon points="150,290 430,290 500,400 80,400" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <polygon points="80,400 500,400 570,510 10,510" fill="#F2F2F2" stroke="#333333" stroke-width="1.5"/>
+  <text x="290" y="160" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">DOES</text>
+  <rect x="230" y="222" width="120" height="28" fill="#FFFFFF"/>
+  <text x="290" y="243" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">SHOWS HOW</text>
+  <text x="290" y="352" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">KNOWS HOW</text>
+  <text x="290" y="462" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">KNOWS</text>
+  </g>
+  <g font-size="15" fill="#111111">
+    <line x1="360" y1="130" x2="600" y2="130" stroke="#555555" stroke-width="1.5"/>
+    <text x="610" y="124" font-weight="bold">Performance in real work</text>
+    <text x="610" y="144">observation at work, outcomes, feedback</text>
+    <line x1="420" y1="235" x2="600" y2="235" stroke="#555555" stroke-width="1.5"/>
+    <text x="610" y="229" font-weight="bold">Performance in controlled settings</text>
+    <text x="610" y="249">simulations, structured practicals, role-play</text>
+    <line x1="490" y1="345" x2="600" y2="345" stroke="#555555" stroke-width="1.5"/>
+    <text x="610" y="339" font-weight="bold">Applying knowledge to problems</text>
+    <text x="610" y="359">case questions, worked problems</text>
+    <line x1="560" y1="455" x2="600" y2="455" stroke="#555555" stroke-width="1.5"/>
+    <text x="610" y="449" font-weight="bold">Having the knowledge</text>
+    <text x="610" y="469">recall and recognition questions</text>
+  </g>
+  <text x="50" y="580" font-size="14" fill="#111111">Fidelity, validity for real work and cost rise towards the top; most organisational testing stays at the base.</text>
+  <text x="610" y="540" font-size="13" fill="#333333">After George Miller (1990).</text>
+</svg>

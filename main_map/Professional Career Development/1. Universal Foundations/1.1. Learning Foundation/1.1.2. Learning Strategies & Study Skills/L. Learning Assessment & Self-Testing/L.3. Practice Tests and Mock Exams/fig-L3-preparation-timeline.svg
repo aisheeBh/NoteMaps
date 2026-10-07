@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A ten-week preparation timeline with practice tests</title>
+  <desc>Schematic. Weeks 10 to 0 run left to right. A diagnostic test at week 10 scores well below the pass mark. Topic tests run through the middle weeks. Full mocks at weeks 6, 3 and 1 on unseen items show the score rising from just below the pass mark to a comfortable margin above it. Each mock is followed by a period of targeted work. The examination is at week 0.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Practice tests across ten weeks of preparation</text>
+  <line x1="100" y1="400" x2="890" y2="400" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="400" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="44" y="240" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 44 240)">Score on unseen items</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="130" y="422">wk 10</text><text x="200" y="422">9</text><text x="270" y="422">8</text><text x="340" y="422">7</text>
+    <text x="410" y="422">6</text><text x="480" y="422">5</text><text x="550" y="422">4</text><text x="620" y="422">3</text>
+    <text x="690" y="422">2</text><text x="760" y="422">1</text><text x="840" y="422">exam</text>
+  </g>
+  <line x1="100" y1="200" x2="870" y2="200" stroke="#111111" stroke-width="2" stroke-dasharray="10 6"/>
+  <rect x="104" y="180" width="96" height="18" fill="#FFFFFF"/>
+  <text x="108" y="194" font-size="14" font-weight="bold" fill="#111111">Pass mark</text>
+  <rect x="420" y="150" width="190" height="230" fill="url(#dots)" opacity="0.55"/>
+  <rect x="630" y="150" width="120" height="230" fill="url(#dots)" opacity="0.55"/>
+  <rect x="440" y="340" width="150" height="24" fill="#FFFFFF"/>
+  <text x="515" y="357" text-anchor="middle" font-size="14" fill="#111111">targeted work</text>
+  <rect x="640" y="340" width="100" height="24" fill="#FFFFFF"/>
+  <text x="690" y="357" text-anchor="middle" font-size="14" fill="#111111">targeted work</text>
+  <polyline points="130,320 410,214 620,176 760,152" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <circle cx="130" cy="320" r="9" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <rect x="401" y="205" width="18" height="18" fill="#111111"/>
+  <rect x="611" y="167" width="18" height="18" fill="#111111"/>
+  <rect x="751" y="143" width="18" height="18" fill="#111111"/>
+  <text x="146" y="314" font-size="14" fill="#111111">diagnostic test</text>
+  <text x="146" y="332" font-size="14" fill="#111111">sets the baseline</text>
+  <text x="395" y="262" text-anchor="end" font-size="14" fill="#111111">mock 1: just below</text>
+  <text x="580" y="140" text-anchor="end" font-size="14" fill="#111111">mock 2: small margin</text>
+  <text x="770" y="128" text-anchor="end" font-size="14" fill="#111111">mock 3: clear margin</text>
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="200" y1="400" x2="200" y2="388"/><line x1="270" y1="400" x2="270" y2="388"/>
+    <line x1="340" y1="400" x2="340" y2="388"/><line x1="480" y1="400" x2="480" y2="388"/>
+    <line x1="550" y1="400" x2="550" y2="388"/><line x1="690" y1="400" x2="690" y2="388"/>
+  </g>
+  <rect x="160" y="450" width="640" height="70" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="190" cy="472" r="8" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <text x="206" y="477" font-size="14" fill="#111111">short diagnostic</text>
+  <rect x="352" y="463" width="16" height="16" fill="#111111"/>
+  <text x="376" y="477" font-size="14" fill="#111111">full timed mock, unseen items</text>
+  <line x1="182" y1="503" x2="198" y2="503" stroke="#333333" stroke-width="1.5"/>
+  <text x="206" y="508" font-size="14" fill="#111111">tick marks: short topic tests and mixed sets</text>
+  <text x="100" y="560" font-size="13" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

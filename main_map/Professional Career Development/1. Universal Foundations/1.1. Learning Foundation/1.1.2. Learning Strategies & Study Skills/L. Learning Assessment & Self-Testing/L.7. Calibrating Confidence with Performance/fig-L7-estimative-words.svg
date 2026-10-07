@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Words of estimative probability</title>
+  <desc>A probability scale from 0 to 100 percent with five verbal terms and their approximate ranges after Sherman Kent: almost certainly not, about 2 to 12 percent; probably not, about 20 to 40 percent; chances about even, about 40 to 60 percent; probable, about 63 to 87 percent; almost certain, about 87 to 99 percent.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What the words should mean: approximate ranges</text>
+  <line x1="100" y1="370" x2="860" y2="370" stroke="#222222" stroke-width="2.5"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="100" y="392">0%</text><text x="252" y="392">20%</text><text x="404" y="392">40%</text>
+    <text x="556" y="392">60%</text><text x="708" y="392">80%</text><text x="860" y="392">100%</text>
+  </g>
+  <g stroke="#DDDDDD" stroke-width="1">
+    <line x1="252" y1="70" x2="252" y2="370"/><line x1="404" y1="70" x2="404" y2="370"/>
+    <line x1="556" y1="70" x2="556" y2="370"/><line x1="708" y1="70" x2="708" y2="370"/>
+  </g>
+  <g font-size="16" fill="#111111">
+    <rect x="115" y="310" width="76" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="200" y="334">Almost certainly not (about 2 to 12%)</text>
+    <rect x="252" y="255" width="152" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="414" y="279">Probably not (about 20 to 40%)</text>
+    <rect x="404" y="200" width="152" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="566" y="224">Chances about even (40 to 60%)</text>
+    <rect x="579" y="145" width="182" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/><rect x="340" y="152" width="230" height="22" fill="#FFFFFF"/>
+    <text x="570" y="169" text-anchor="end">Probable (about 63 to 87%)</text>
+    <rect x="761" y="90" width="91" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="752" y="114" text-anchor="end">Almost certain (about 87 to 99%)</text>
+  </g>
+  <text x="100" y="430" font-size="13" fill="#333333">After Sherman Kent (1964). Organisations publish their own scales; the point is that each word maps to an agreed range.</text>
+</svg>

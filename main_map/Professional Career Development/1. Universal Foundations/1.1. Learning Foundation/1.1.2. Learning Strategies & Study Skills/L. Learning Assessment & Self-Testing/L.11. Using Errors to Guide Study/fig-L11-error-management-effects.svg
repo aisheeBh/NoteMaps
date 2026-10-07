@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Effect sizes for error management training</title>
+  <desc>Horizontal bars showing effect sizes reported by Keith and Frese in 2008 for error management training compared with error-avoidant training. Overall: d about 0.44. Post-training transfer: d about 0.56. Adaptive transfer to structurally different tasks: d about 0.80. Reference lines mark Cohen's conventional small, medium and large values of 0.2, 0.5 and 0.8.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The further from training, the larger the advantage</text>
+  <!-- scale: d 0..1 -> x 320..880 -->
+  <line x1="320" y1="380" x2="880" y2="380" stroke="#222222" stroke-width="2.5"/>
+  <line x1="320" y1="80" x2="320" y2="380" stroke="#222222" stroke-width="2.5"/>
+  <g stroke="#555555" stroke-width="1.5" stroke-dasharray="2 4">
+    <line x1="432" y1="80" x2="432" y2="380"/><line x1="600" y1="80" x2="600" y2="380"/><line x1="768" y1="80" x2="768" y2="380"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="320" y="402">0</text><text x="432" y="402">0.2</text><text x="600" y="402">0.5</text><text x="768" y="402">0.8</text><text x="880" y="402">1.0</text>
+    <text x="432" y="420">small</text><text x="600" y="420">medium</text><text x="768" y="420">large</text>
+  </g>
+  <text x="600" y="450" text-anchor="middle" font-size="16" fill="#111111">Effect size (Cohen's d)</text>
+  <rect x="320" y="110" width="246" height="50" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+  <rect x="320" y="200" width="314" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="320" y="290" width="448" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <g font-size="16" fill="#111111">
+    <text x="305" y="132" text-anchor="end" font-weight="bold">All outcomes</text>
+    <text x="305" y="152" text-anchor="end">24 studies</text>
+    <text x="305" y="222" text-anchor="end" font-weight="bold">Post-training transfer</text>
+    <text x="305" y="242" text-anchor="end">performance after training</text>
+    <text x="305" y="312" text-anchor="end" font-weight="bold">Adaptive transfer</text>
+    <text x="305" y="332" text-anchor="end">structurally new tasks</text>
+    <text x="576" y="141" font-weight="bold">0.44</text>
+    <text x="644" y="231" font-weight="bold">0.56</text>
+    <rect x="776" y="306" width="50" height="22" fill="#FFFFFF"/>
+    <text x="780" y="322" font-weight="bold">0.80</text>
+  </g>
+  <text x="40" y="485" font-size="13" fill="#333333">Values as reported in the meta-analysis by Keith and Frese (2008); error management training compared with error-avoidant training.</text>
+</svg>

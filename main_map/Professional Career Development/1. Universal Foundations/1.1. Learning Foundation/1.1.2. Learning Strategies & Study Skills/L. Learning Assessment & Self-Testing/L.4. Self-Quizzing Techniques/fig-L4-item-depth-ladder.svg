@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Item types ordered by depth of knowledge tested</title>
+  <desc>Seven stacked bars, widening upwards. From bottom to top: recognition, choosing the right option; recall, producing the answer without cues; explanation, saying why; application, using it on a case; discrimination, telling close cases apart; error spotting, evaluating work; transfer, adapting to a new context. Deeper items are harder to answer by recognition and reveal more when answered wrongly.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What each kind of item makes the learner do</text>
+  <line x1="70" y1="580" x2="70" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="40" y="330" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 40 330)">Depth of knowledge tested</text>
+  <g font-size="15" fill="#111111">
+    <rect x="100" y="510" width="420" height="58" fill="#E6E6E6" stroke="#666666" stroke-dasharray="2 4"/>
+    <text x="116" y="536" font-size="17" font-weight="bold">Recognition</text><text x="116" y="557">pick the right option from a list</text>
+    <rect x="100" y="442" width="480" height="58" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="116" y="468" font-size="17" font-weight="bold">Recall</text><text x="116" y="489">produce the answer with no options</text>
+    <rect x="100" y="374" width="540" height="58" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="116" y="400" font-size="17" font-weight="bold">Explanation</text><text x="116" y="421">say why the answer is right</text>
+    <rect x="100" y="306" width="600" height="58" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="116" y="332" font-size="17" font-weight="bold">Application</text><text x="116" y="353">use the idea on a specific case</text>
+    <rect x="100" y="238" width="660" height="58" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="116" y="264" font-size="17" font-weight="bold">Discrimination</text><text x="116" y="285">tell apart cases that look alike</text>
+    <rect x="100" y="170" width="720" height="58" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="116" y="196" font-size="17" font-weight="bold">Error spotting</text><text x="116" y="217">find what is wrong in someone's work</text>
+    <rect x="100" y="102" width="780" height="58" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="116" y="128" font-size="17" font-weight="bold">Transfer</text><text x="116" y="149">adapt the knowledge to an unfamiliar situation</text>
+  </g>
+  <g font-size="14" fill="#111111">
+    <text x="540" y="545">easy to pass by familiarity alone</text>
+    <text x="660" y="409">shows understanding of purpose</text>
+    <text x="772" y="273">exposes vague concepts</text>
+  </g>
+  <text x="100" y="604" font-size="13" fill="#333333">A balanced self-quiz draws items from several rungs, matched to how the knowledge will be used.</text>
+</svg>

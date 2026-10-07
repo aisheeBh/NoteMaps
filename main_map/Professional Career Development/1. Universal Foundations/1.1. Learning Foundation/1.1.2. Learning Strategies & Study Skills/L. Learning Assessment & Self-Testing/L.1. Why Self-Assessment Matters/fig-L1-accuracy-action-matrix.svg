@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Accuracy and action in self-assessment</title>
+  <desc>A two by two matrix. Horizontal axis: accuracy of the self-judgement, low or high. Vertical axis: whether the judgement leads to action. Low accuracy without action is complacency; low accuracy with action is misdirected effort; high accuracy without action is informed but idle; high accuracy with action is productive self-regulation.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Self-assessment helps only when it is accurate and acted upon</text>
+  <rect x="180" y="70" width="340" height="220" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="520" y="70" width="340" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="180" y="290" width="340" height="220" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="520" y="290" width="340" height="220" fill="#F2F2F2" stroke="#666666" stroke-width="1.5"/>
+  <g font-size="15" fill="#111111">
+    <rect x="210" y="120" width="280" height="120" fill="#FFFFFF" stroke="#7A5200"/>
+    <text x="350" y="148" text-anchor="middle" font-size="18" font-weight="bold">Misdirected effort</text>
+    <text x="350" y="175" text-anchor="middle">works hard on the wrong things;</text>
+    <text x="350" y="196" text-anchor="middle">restudies what is already secure</text>
+    <text x="350" y="222" text-anchor="middle">and skips real gaps</text>
+    <rect x="550" y="120" width="280" height="120" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+    <text x="690" y="148" text-anchor="middle" font-size="18" font-weight="bold">Productive self-regulation</text>
+    <text x="690" y="175" text-anchor="middle">finds the true gaps and</text>
+    <text x="690" y="196" text-anchor="middle">closes them, then checks</text>
+    <text x="690" y="222" text-anchor="middle">again later</text>
+    <rect x="210" y="340" width="280" height="120" fill="#FFFFFF" stroke="#8B0000"/>
+    <text x="350" y="368" text-anchor="middle" font-size="18" font-weight="bold">Complacency</text>
+    <text x="350" y="395" text-anchor="middle">believes all is well and does</text>
+    <text x="350" y="416" text-anchor="middle">nothing; gaps surface in the</text>
+    <text x="350" y="437" text-anchor="middle">exam or with the client</text>
+    <rect x="550" y="340" width="280" height="120" fill="#FFFFFF" stroke="#666666"/>
+    <text x="690" y="368" text-anchor="middle" font-size="18" font-weight="bold">Informed but idle</text>
+    <text x="690" y="395" text-anchor="middle">knows exactly what is weak</text>
+    <text x="690" y="416" text-anchor="middle">but changes nothing; the</text>
+    <text x="690" y="437" text-anchor="middle">judgement is wasted</text>
+  </g>
+  <text x="350" y="540" text-anchor="middle" font-size="16" fill="#111111">Low accuracy</text>
+  <text x="690" y="540" text-anchor="middle" font-size="16" fill="#111111">High accuracy</text>
+  <text x="520" y="575" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Accuracy of the self-judgement</text>
+  <text x="165" y="185" text-anchor="end" font-size="16" fill="#111111">Acted on</text>
+  <text x="165" y="405" text-anchor="end" font-size="16" fill="#111111">Not acted on</text>
+  <text x="40" y="290" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111" transform="rotate(-90 40 290)">Follow-up action</text>
+</svg>
