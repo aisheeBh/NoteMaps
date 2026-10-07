@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 565" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Levels of human involvement</title>
+  <desc>Five levels of human involvement in an automated task, from most to least: the person does the task with AI suggestions; AI prepares and the person approves each action; AI acts and the person reviews exceptions; AI acts and reports afterwards; AI acts with no routine human view.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Levels of human involvement</text>
+  <rect x="130" y="82" width="790" height="80" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="148" y="128" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">1. AI suggests</text>
+  <text x="400" y="127" text-anchor="start" font-size="15" fill="#000000">The person does the task; AI offers drafts or options.</text>
+  <rect x="130" y="170" width="790" height="80" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="148" y="217" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">2. Approve each action</text>
+  <text x="400" y="206" text-anchor="start" font-size="15" fill="#000000">AI prepares the action; nothing happens until a person</text>
+  <text x="400" y="225" text-anchor="start" font-size="15" fill="#000000">approves.</text>
+  <rect x="130" y="259" width="790" height="80" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="140" y="267" width="770" height="64" fill="#FFFFFF" rx="4"/>
+  <text x="148" y="305" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">3. Review exceptions</text>
+  <text x="400" y="294" text-anchor="start" font-size="15" fill="#111111">AI acts on routine cases; unusual or low-confidence cases</text>
+  <text x="400" y="314" text-anchor="start" font-size="15" fill="#111111">go to a person.</text>
+  <rect x="130" y="347" width="790" height="80" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="148" y="393" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">4. Act and report</text>
+  <text x="400" y="383" text-anchor="start" font-size="15" fill="#000000">AI acts; a person sees a log or summary afterwards and can</text>
+  <text x="400" y="402" text-anchor="start" font-size="15" fill="#000000">reverse.</text>
+  <rect x="130" y="436" width="790" height="80" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="148" y="482" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">5. Act silently</text>
+  <text x="400" y="471" text-anchor="start" font-size="15" fill="#000000">AI acts with no routine human view; errors surface only</text>
+  <text x="400" y="490" text-anchor="start" font-size="15" fill="#000000">through consequences.</text>
+  <line x1="85" y1="88" x2="85" y2="510" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="62" y="299" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(-90 62 299)">Less human involvement</text>
+  <text x="480" y="551" text-anchor="middle" font-size="13" fill="#333333">Higher-consequence, harder-to-reverse actions belong nearer the top.</text>
+</svg>

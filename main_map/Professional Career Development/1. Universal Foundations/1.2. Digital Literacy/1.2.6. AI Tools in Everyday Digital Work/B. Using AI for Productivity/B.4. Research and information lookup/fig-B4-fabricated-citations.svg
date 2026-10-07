@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Fabricated references in AI-written literature reviews (Walters and Wilder, 2023)</title>
+  <desc>Bar chart: when two versions of ChatGPT were asked to write short literature reviews with references, about 55 per cent of references from the older model and about 18 per cent from the newer model did not exist.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Fabricated references in AI-written literature reviews (Walters and Wilder, 2023)</text>
+  <text x="328" y="131" text-anchor="end" font-size="15" fill="#111111">Older model (GPT-3.5)</text>
+  <rect x="340" y="107" width="322" height="38" rx="2" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="672" y="131" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 55% did not exist</text>
+  <text x="328" y="224" text-anchor="end" font-size="15" fill="#111111">Newer model (GPT-4)</text>
+  <rect x="340" y="200" width="105" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="455" y="224" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 18% did not exist</text>
+  <line x1="340" y1="74" x2="340" y2="269" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="269" x2="750" y2="269" stroke="#222222" stroke-width="1.5"/>
+  <line x1="340" y1="269" x2="340" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="340" y="291" text-anchor="middle" font-size="13" fill="#111111">0</text>
+  <line x1="457" y1="269" x2="457" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="457" y="291" text-anchor="middle" font-size="13" fill="#111111">20</text>
+  <line x1="574" y1="269" x2="574" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="574" y="291" text-anchor="middle" font-size="13" fill="#111111">40</text>
+  <line x1="691" y1="269" x2="691" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="691" y="291" text-anchor="middle" font-size="13" fill="#111111">60</text>
+  <text x="545" y="313" text-anchor="middle" font-size="14" fill="#111111">Share of references that were fabricated (per cent)</text>
+  <text x="480" y="346" text-anchor="middle" font-size="13" fill="#333333">Many of the real references also contained errors in details such as page numbers or dates.</text>
+</svg>

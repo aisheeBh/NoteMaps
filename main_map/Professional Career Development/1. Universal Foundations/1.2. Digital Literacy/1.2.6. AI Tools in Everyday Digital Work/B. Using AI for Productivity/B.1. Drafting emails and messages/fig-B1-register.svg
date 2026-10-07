@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Register: from familiar to formal</title>
+  <desc>A horizontal scale of register from familiar to formal, with five example messages placed along it: a team chat reply, an internal email to a colleague, a message to a senior stakeholder, a client email and a formal complaint response.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Register: from familiar to formal</text>
+  <line x1="60" y1="275" x2="905" y2="275" stroke="#222222" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="60" y1="265" x2="60" y2="285" stroke="#222222" stroke-width="4"/>
+  <text x="60" y="303" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Familiar</text>
+  <text x="905" y="303" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Formal</text>
+  <circle cx="86" cy="275" r="9" fill="#111111"/>
+  <line x1="86" y1="266" x2="86" y2="235" stroke="#222222" stroke-width="1.5"/>
+  <rect x="26" y="115" width="200" height="120" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="126" y="167" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Team chat</text>
+  <text x="126" y="191" text-anchor="middle" font-size="13.5" fill="#111111">"Done, pushed the fix."</text>
+  <circle cx="291" cy="275" r="9" fill="#111111"/>
+  <line x1="291" y1="284" x2="291" y2="320" stroke="#222222" stroke-width="1.5"/>
+  <rect x="191" y="320" width="200" height="120" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="291" y="364" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Colleague email</text>
+  <text x="291" y="388" text-anchor="middle" font-size="13.5" fill="#000000">Plain, friendly, short;</text>
+  <text x="291" y="405" text-anchor="middle" font-size="13.5" fill="#000000">first names</text>
+  <circle cx="480" cy="275" r="9" fill="#111111"/>
+  <line x1="480" y1="266" x2="480" y2="235" stroke="#222222" stroke-width="1.5"/>
+  <rect x="380" y="115" width="200" height="120" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="388" y="130" width="184" height="89" fill="#FFFFFF" stroke="none" rx="4"/>
+  <text x="480" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Senior stakeholder</text>
+  <text x="480" y="174" text-anchor="middle" font-size="13.5" fill="#111111">Bottom line first;</text>
+  <text x="480" y="191" text-anchor="middle" font-size="13.5" fill="#111111">decision needed; no</text>
+  <text x="480" y="209" text-anchor="middle" font-size="13.5" fill="#111111">padding</text>
+  <circle cx="669" cy="275" r="9" fill="#111111"/>
+  <line x1="669" y1="284" x2="669" y2="320" stroke="#222222" stroke-width="1.5"/>
+  <rect x="569" y="320" width="200" height="120" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="669" y="364" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Client email</text>
+  <text x="669" y="388" text-anchor="middle" font-size="13.5" fill="#000000">Courteous, precise;</text>
+  <text x="669" y="405" text-anchor="middle" font-size="13.5" fill="#000000">commitments checked</text>
+  <circle cx="874" cy="275" r="9" fill="#111111"/>
+  <line x1="874" y1="266" x2="874" y2="235" stroke="#222222" stroke-width="1.5"/>
+  <rect x="734" y="115" width="200" height="120" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="834" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Formal complaint</text>
+  <text x="834" y="159" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">reply</text>
+  <text x="834" y="183" text-anchor="middle" font-size="13.5" fill="#FFFFFF">Structured; policy-</text>
+  <text x="834" y="201" text-anchor="middle" font-size="13.5" fill="#FFFFFF">exact; reviewed before</text>
+  <text x="834" y="218" text-anchor="middle" font-size="13.5" fill="#FFFFFF">sending</text>
+  <text x="480" y="506" text-anchor="middle" font-size="13" fill="#333333">Unbriefed AI drafts tend to settle near the formal middle, whatever the channel.</text>
+</svg>

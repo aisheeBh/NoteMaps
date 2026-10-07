@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 565" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Checks on an AI-assisted analysis</title>
+  <desc>Five stacked checks from quickest to most thorough: row counts and totals; spot-checks of a few records by hand; reading and rerunning the code; reaching the same result by a different method; and independent review by another analyst.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Checks on an AI-assisted analysis</text>
+  <rect x="130" y="82" width="790" height="80" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="148" y="128" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">1. Counts and totals</text>
+  <text x="400" y="118" text-anchor="start" font-size="15" fill="#111111">Rows in and out of every step; totals match a known figure</text>
+  <text x="400" y="137" text-anchor="start" font-size="15" fill="#111111">such as the finance ledger.</text>
+  <rect x="130" y="170" width="790" height="80" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="148" y="217" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">2. Spot-checks</text>
+  <text x="400" y="206" text-anchor="start" font-size="15" fill="#111111">Follow three to five individual records through every</text>
+  <text x="400" y="225" text-anchor="start" font-size="15" fill="#111111">transformation by hand.</text>
+  <rect x="130" y="259" width="790" height="80" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="148" y="305" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">3. Read and rerun the code</text>
+  <text x="400" y="294" text-anchor="start" font-size="15" fill="#000000">Understand each step; rerun from raw data; results</text>
+  <text x="400" y="314" text-anchor="start" font-size="15" fill="#000000">identical.</text>
+  <rect x="130" y="347" width="790" height="80" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="140" y="355" width="770" height="64" fill="#FFFFFF" rx="4"/>
+  <text x="148" y="393" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">4. Second method</text>
+  <text x="400" y="383" text-anchor="start" font-size="15" fill="#111111">Reach the key number another way: a pivot table, a</text>
+  <text x="400" y="402" text-anchor="start" font-size="15" fill="#111111">different query, a simpler model.</text>
+  <rect x="130" y="436" width="790" height="80" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="148" y="482" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">5. Independent review</text>
+  <text x="400" y="471" text-anchor="start" font-size="15" fill="#FFFFFF">Another analyst examines the question, choices, code and</text>
+  <text x="400" y="490" text-anchor="start" font-size="15" fill="#FFFFFF">conclusions.</text>
+  <line x1="85" y1="88" x2="85" y2="510" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="62" y="299" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(-90 62 299)">More thorough</text>
+  <text x="480" y="551" text-anchor="middle" font-size="13" fill="#333333">Higher-consequence results justify climbing further.</text>
+</svg>

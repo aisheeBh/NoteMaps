@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Expected, perceived and measured effect of AI (METR, 2025)</title>
+  <desc>Bar chart from a 2025 randomised trial with 16 experienced open-source developers: before the study they expected AI to make them about 24 per cent faster; afterwards they believed it had made them about 20 per cent faster; measured task times were about 19 per cent longer with AI.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Expected, perceived and measured effect of AI (METR, 2025)</text>
+  <text x="288" y="119" text-anchor="end" font-size="15" fill="#111111">Expected before the trial</text>
+  <rect x="300" y="95" width="309" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="619" y="119" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">24% faster</text>
+  <text x="288" y="187" text-anchor="end" font-size="15" fill="#111111">Believed after the trial</text>
+  <rect x="300" y="163" width="257" height="38" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="567" y="187" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">20% faster</text>
+  <text x="288" y="256" text-anchor="end" font-size="15" fill="#111111">Measured in the trial</text>
+  <rect x="300" y="232" width="244" height="38" rx="2" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="554" y="256" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">19% slower</text>
+  <line x1="300" y1="74" x2="300" y2="289" stroke="#222222" stroke-width="2"/>
+  <line x1="300" y1="289" x2="750" y2="289" stroke="#222222" stroke-width="1.5"/>
+  <line x1="300" y1="289" x2="300" y2="295" stroke="#222222" stroke-width="1.5"/>
+  <text x="300" y="311" text-anchor="middle" font-size="13" fill="#111111">0</text>
+  <line x1="429" y1="289" x2="429" y2="295" stroke="#222222" stroke-width="1.5"/>
+  <text x="429" y="311" text-anchor="middle" font-size="13" fill="#111111">10</text>
+  <line x1="557" y1="289" x2="557" y2="295" stroke="#222222" stroke-width="1.5"/>
+  <text x="557" y="311" text-anchor="middle" font-size="13" fill="#111111">20</text>
+  <line x1="686" y1="289" x2="686" y2="295" stroke="#222222" stroke-width="1.5"/>
+  <text x="686" y="311" text-anchor="middle" font-size="13" fill="#111111">30</text>
+  <text x="525" y="333" text-anchor="middle" font-size="14" fill="#111111">Size of effect in per cent (direction stated on each bar)</text>
+  <text x="480" y="366" text-anchor="middle" font-size="13" fill="#333333">16 developers, 246 tasks, February to June 2025. METR now describes this result as historical.</text>
+</svg>

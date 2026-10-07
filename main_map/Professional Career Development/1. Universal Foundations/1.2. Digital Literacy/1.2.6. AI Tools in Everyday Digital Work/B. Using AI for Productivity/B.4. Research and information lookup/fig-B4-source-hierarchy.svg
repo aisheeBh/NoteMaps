@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 485" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Distance from the evidence</title>
+  <desc>Four stacked bands from closest to furthest from the original evidence: primary sources such as laws, datasets, original studies and official filings; secondary sources such as reviews, analyses and quality journalism; tertiary sources such as encyclopaedias and textbooks; and AI answers, which paraphrase all of these without guaranteed attribution.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Distance from the evidence</text>
+  <rect x="130" y="82" width="790" height="82" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="148" y="129" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">Primary sources</text>
+  <text x="400" y="119" text-anchor="start" font-size="15" fill="#FFFFFF">Legislation, judgments, datasets, original studies,</text>
+  <text x="400" y="138" text-anchor="start" font-size="15" fill="#FFFFFF">official filings, standards, direct records.</text>
+  <rect x="130" y="172" width="790" height="82" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="148" y="220" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">Secondary sources</text>
+  <text x="400" y="209" text-anchor="start" font-size="15" fill="#000000">Systematic reviews, analyses, expert commentary, quality</text>
+  <text x="400" y="228" text-anchor="start" font-size="15" fill="#000000">journalism interpreting primary sources.</text>
+  <rect x="130" y="263" width="790" height="82" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="148" y="310" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Tertiary sources</text>
+  <text x="400" y="300" text-anchor="start" font-size="15" fill="#111111">Encyclopaedias, textbooks, guides: summaries of established</text>
+  <text x="400" y="319" text-anchor="start" font-size="15" fill="#111111">knowledge.</text>
+  <rect x="130" y="354" width="790" height="82" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="140" y="362" width="770" height="66" fill="#FFFFFF" rx="4"/>
+  <text x="148" y="401" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">AI answers</text>
+  <text x="400" y="390" text-anchor="start" font-size="15" fill="#111111">Paraphrases of any of the above, mixed with model memory;</text>
+  <text x="400" y="409" text-anchor="start" font-size="15" fill="#111111">attribution not guaranteed.</text>
+  <line x1="85" y1="430" x2="85" y2="88" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="62" y="259" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(-90 62 259)">Closer to the evidence</text>
+  <text x="480" y="471" text-anchor="middle" font-size="13" fill="#333333">Each step away from the evidence adds convenience and adds room for distortion.</text>
+</svg>
