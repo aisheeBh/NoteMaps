@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A nine-month milestone sequence for learning German for a posting abroad</title>
+  <desc>Five milestones at months one, three, five, seven and nine grow from a restaurant role-play to a twenty-minute social conversation. The month-three milestone is a gate. Beneath, weekly tutor conversations and spaced vocabulary practice run throughout, email reading runs from month four to six, and work topics are revisited at months one, three, five and seven.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Milestones that grow in authenticity: German in nine months</text>
+  <line x1="170" y1="250" x2="920" y2="250" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="170" y1="244" x2="170" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="170" y="296" text-anchor="middle" font-size="13" fill="#111111">0</text>
+  <line x1="251" y1="244" x2="251" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="251" y="296" text-anchor="middle" font-size="13" fill="#111111">1</text>
+  <line x1="332" y1="244" x2="332" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="332" y="296" text-anchor="middle" font-size="13" fill="#111111">2</text>
+  <line x1="413" y1="244" x2="413" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="413" y="296" text-anchor="middle" font-size="13" fill="#111111">3</text>
+  <line x1="494" y1="244" x2="494" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="494" y="296" text-anchor="middle" font-size="13" fill="#111111">4</text>
+  <line x1="576" y1="244" x2="576" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="576" y="296" text-anchor="middle" font-size="13" fill="#111111">5</text>
+  <line x1="657" y1="244" x2="657" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="657" y="296" text-anchor="middle" font-size="13" fill="#111111">6</text>
+  <line x1="738" y1="244" x2="738" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="738" y="296" text-anchor="middle" font-size="13" fill="#111111">7</text>
+  <line x1="819" y1="244" x2="819" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="819" y="296" text-anchor="middle" font-size="13" fill="#111111">8</text>
+  <line x1="900" y1="244" x2="900" y2="256" stroke="#222222" stroke-width="2"/>
+  <text x="900" y="296" text-anchor="middle" font-size="13" fill="#111111">9</text>
+  <text x="24" y="296" font-size="14" font-weight="bold" fill="#111111">Month</text>
+  <rect x="239" y="238" width="24" height="24" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" transform="rotate(45 251 250)"/>
+  <line x1="251" y1="230" x2="251" y2="184" stroke="#555555" stroke-width="1.2"/>
+  <text x="251" y="152" text-anchor="middle" font-size="14" fill="#111111">Self-introduction;</text>
+  <text x="251" y="170" text-anchor="middle" font-size="14" fill="#111111">restaurant role-play</text>
+  <rect x="406" y="220" width="14" height="60" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <line x1="413" y1="300" x2="413" y2="306" stroke="#555555" stroke-width="1.2"/>
+  <text x="413" y="326" text-anchor="middle" font-size="14" fill="#111111">10-minute tutor call,</text>
+  <text x="413" y="344" text-anchor="middle" font-size="14" fill="#111111">no notes</text>
+  <rect x="564" y="238" width="24" height="24" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" transform="rotate(45 576 250)"/>
+  <line x1="576" y1="230" x2="576" y2="184" stroke="#555555" stroke-width="1.2"/>
+  <text x="576" y="152" text-anchor="middle" font-size="14" fill="#111111">Draft replies to</text>
+  <text x="576" y="170" text-anchor="middle" font-size="14" fill="#111111">three client emails</text>
+  <rect x="726" y="238" width="24" height="24" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" transform="rotate(45 738 250)"/>
+  <line x1="738" y1="300" x2="738" y2="306" stroke="#555555" stroke-width="1.2"/>
+  <text x="738" y="326" text-anchor="middle" font-size="14" fill="#111111">Summarise a recorded</text>
+  <text x="738" y="344" text-anchor="middle" font-size="14" fill="#111111">internal meeting</text>
+  <circle cx="900" cy="250" r="16" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <line x1="900" y1="230" x2="900" y2="184" stroke="#555555" stroke-width="1.2"/>
+  <text x="936" y="152" text-anchor="end" font-size="14" fill="#111111">20-minute social</text>
+  <text x="936" y="170" text-anchor="end" font-size="14" fill="#111111">conversation</text>
+  <text x="413" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">GATE</text>
+  <text x="936" y="122" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">DESTINATION</text>
+  <text x="24" y="190" font-size="14" font-weight="bold" fill="#111111">Milestones</text>
+  <text x="24" y="397" font-size="14" font-weight="bold" fill="#111111">Tutor conversation</text>
+  <rect x="170" y="380" width="730" height="24" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="431" y="382" width="208" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="535" y="397" text-anchor="middle" font-size="13" fill="#111111">weekly, simplified at first</text>
+  <text x="24" y="437" font-size="14" font-weight="bold" fill="#111111">Spaced vocabulary</text>
+  <rect x="170" y="420" width="730" height="24" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="420" y="422" width="230" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="535" y="437" text-anchor="middle" font-size="13" fill="#111111">genders, verb endings, phrases</text>
+  <text x="24" y="477" font-size="14" font-weight="bold" fill="#111111">Email reading</text>
+  <rect x="494" y="460" width="162" height="24" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="515" y="462" width="122" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="576" y="477" text-anchor="middle" font-size="13" fill="#111111">placed in slack</text>
+  <text x="24" y="517" font-size="14" font-weight="bold" fill="#111111">Spiral: work topics</text>
+  <circle cx="251" cy="512" r="7" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="413" cy="512" r="9" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="576" cy="512" r="11" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="738" cy="512" r="13" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="819" y="517" text-anchor="middle" font-size="13" fill="#111111">richer each pass</text>
+</svg>

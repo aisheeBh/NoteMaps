@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 574" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A skills heat map comparing current and target proficiency</title>
+  <desc>Seven skills of a junior pricing analyst, each rated on a five-level scale. Hatched cells show current proficiency; a heavy outlined cell marked T shows the target. The gap and the evidence behind each rating are listed on the right. The largest gaps are in elasticity estimation, anomaly judgement and test design.</desc>
+  <defs><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern></defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Skills heat map: where the learner is, and where the role needs them</text>
+  <text x="339.0" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">1</text>
+  <text x="339.0" y="91" text-anchor="middle" font-size="13" fill="#111111">Novice</text>
+  <text x="417.0" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">2</text>
+  <text x="417.0" y="91" text-anchor="middle" font-size="13" fill="#111111">Adv. beginner</text>
+  <text x="495.0" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">3</text>
+  <text x="495.0" y="91" text-anchor="middle" font-size="13" fill="#111111">Competent</text>
+  <text x="573.0" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">4</text>
+  <text x="573.0" y="91" text-anchor="middle" font-size="13" fill="#111111">Proficient</text>
+  <text x="651.0" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">5</text>
+  <text x="651.0" y="91" text-anchor="middle" font-size="13" fill="#111111">Expert</text>
+  <text x="710" y="91" font-size="14" font-weight="bold" fill="#111111">Gap</text>
+  <text x="760" y="91" font-size="14" font-weight="bold" fill="#111111">Evidence behind rating</text>
+  <text x="24" y="91" font-size="14" font-weight="bold" fill="#111111">Skill</text>
+  <line x1="24" y1="100" x2="936" y2="100" stroke="#555555" stroke-width="1.5"/>
+  <text x="24" y="118" font-size="13" font-weight="bold" fill="#333333">DATA PREPARATION</text>
+  <text x="24" y="138" font-size="14" fill="#111111">Cleaning transaction data</text>
+  <rect x="303" y="108" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="381" y="108" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="108" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="108" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="108" width="72" height="38" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="562.0" y="116" width="22" height="22" fill="#FFFFFF" stroke="none"/>
+  <text x="573.0" y="133" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">T</text>
+  <rect x="615" y="108" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="722" y="133" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <text x="760" y="133" font-size="14" fill="#111111">Two reviewed data sets</text>
+  <text x="24" y="190" font-size="14" fill="#111111">SQL for joins and aggregates</text>
+  <rect x="303" y="160" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="381" y="160" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="160" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="160" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="160" width="72" height="38" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="562.0" y="168" width="22" height="22" fill="#FFFFFF" stroke="none"/>
+  <text x="573.0" y="185" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">T</text>
+  <rect x="615" y="160" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="722" y="185" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <text x="760" y="185" font-size="14" fill="#111111">Course project only</text>
+  <line x1="24" y1="204" x2="936" y2="204" stroke="#555555" stroke-width="1.5"/>
+  <text x="24" y="222" font-size="13" font-weight="bold" fill="#333333">ANALYTICAL METHODS</text>
+  <text x="24" y="242" font-size="14" fill="#111111">Estimating price elasticity</text>
+  <rect x="303" y="212" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="381" y="212" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="212" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="212" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="212" width="72" height="38" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="562.0" y="220" width="22" height="22" fill="#FFFFFF" stroke="none"/>
+  <text x="573.0" y="237" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">T</text>
+  <rect x="615" y="212" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="722" y="237" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <text x="760" y="237" font-size="14" fill="#111111">None yet</text>
+  <text x="24" y="294" font-size="14" fill="#111111">Judging data anomalies</text>
+  <rect x="303" y="264" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="381" y="264" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="264" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="264" width="72" height="38" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="484.0" y="272" width="22" height="22" fill="#FFFFFF" stroke="none"/>
+  <text x="495.0" y="289" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">T</text>
+  <rect x="537" y="264" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="615" y="264" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="722" y="289" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <text x="760" y="289" font-size="14" fill="#111111">None yet</text>
+  <line x1="24" y1="308" x2="936" y2="308" stroke="#555555" stroke-width="1.5"/>
+  <text x="24" y="326" font-size="13" font-weight="bold" fill="#333333">EXPERIMENTATION</text>
+  <text x="24" y="346" font-size="14" fill="#111111">Designing a price test</text>
+  <rect x="303" y="316" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="381" y="316" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="316" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="316" width="72" height="38" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="484.0" y="324" width="22" height="22" fill="#FFFFFF" stroke="none"/>
+  <text x="495.0" y="341" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">T</text>
+  <rect x="537" y="316" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="615" y="316" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="722" y="341" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <text x="760" y="341" font-size="14" fill="#111111">None yet</text>
+  <line x1="24" y1="360" x2="936" y2="360" stroke="#555555" stroke-width="1.5"/>
+  <text x="24" y="378" font-size="13" font-weight="bold" fill="#333333">COMMUNICATION</text>
+  <text x="24" y="398" font-size="14" fill="#111111">Writing a pricing recommendation</text>
+  <rect x="303" y="368" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="381" y="368" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="368" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="368" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="537" y="368" width="72" height="38" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="562.0" y="376" width="22" height="22" fill="#FFFFFF" stroke="none"/>
+  <text x="573.0" y="393" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">T</text>
+  <rect x="615" y="368" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="722" y="393" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <text x="760" y="393" font-size="14" fill="#111111">One memo with feedback</text>
+  <text x="24" y="450" font-size="14" fill="#111111">Presenting to category managers</text>
+  <rect x="303" y="420" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="381" y="420" width="72" height="38" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="420" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="459" y="420" width="72" height="38" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="484.0" y="428" width="22" height="22" fill="#FFFFFF" stroke="none"/>
+  <text x="495.0" y="445" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">T</text>
+  <rect x="537" y="420" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="615" y="420" width="72" height="38" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="722" y="445" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <text x="760" y="445" font-size="14" fill="#111111">University presentations</text>
+  <rect x="24" y="484" width="40" height="24" fill="url(#hatch)" stroke="#999999"/>
+  <text x="74" y="501" font-size="14" fill="#111111">current level (evidence-anchored)</text>
+  <rect x="330" y="484" width="40" height="24" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <text x="350" y="501" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">T</text>
+  <text x="380" y="501" font-size="14" fill="#111111">target level for the role</text>
+  <text x="936" y="534" text-anchor="end" font-size="13" fill="#333333">Illustrative ratings for one learner.</text>
+</svg>

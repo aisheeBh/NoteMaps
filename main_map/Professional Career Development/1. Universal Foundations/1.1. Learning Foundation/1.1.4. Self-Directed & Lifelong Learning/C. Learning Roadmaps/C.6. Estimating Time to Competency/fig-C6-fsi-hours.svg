@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Approximate class hours to professional working proficiency for native English speakers</title>
+  <desc>Horizontal bars: Category I languages such as Spanish and French about 600 to 750 class hours; Category II such as German about 900; Category III such as Russian and Hindi about 1,100; Category IV, Arabic, Chinese, Japanese and Korean, about 2,200.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Distance from English roughly triples the time needed</text>
+  <text x="284" y="94" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Category I</text>
+  <text x="284" y="114" text-anchor="end" font-size="13" fill="#111111">Spanish, French, Dutch</text>
+  <rect x="300" y="78" width="150" height="40" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="450" y="78" width="38" height="40" rx="0" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="500" y="103" text-anchor="start" font-size="14" fill="#111111">600–750 hours, 24–30 weeks</text>
+  <text x="284" y="184" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Category II</text>
+  <text x="284" y="204" text-anchor="end" font-size="13" fill="#111111">German, Indonesian, Swahili</text>
+  <rect x="300" y="168" width="225" height="40" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="537" y="193" text-anchor="start" font-size="14" fill="#111111">about 900 hours, 36 weeks</text>
+  <text x="284" y="274" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Category III</text>
+  <text x="284" y="294" text-anchor="end" font-size="13" fill="#111111">Russian, Hindi, Turkish</text>
+  <rect x="300" y="258" width="275" height="40" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5"/>
+  <text x="587" y="283" text-anchor="start" font-size="14" fill="#111111">about 1,100 hours, 44 weeks</text>
+  <text x="284" y="364" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Category IV</text>
+  <text x="284" y="384" text-anchor="end" font-size="13" fill="#111111">Arabic, Chinese, Japanese, Korean</text>
+  <rect x="300" y="348" width="550" height="40" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5"/>
+  <rect x="600" y="356" width="236" height="24" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+  <text x="830" y="373" text-anchor="end" font-size="14" fill="#111111">about 2,200 hours, 88 weeks</text>
+  <line x1="300" y1="440" x2="910" y2="440" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="440" x2="300" y2="446" stroke="#222222" stroke-width="2"/>
+  <text x="300" y="464" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="400" y1="440" x2="400" y2="446" stroke="#222222" stroke-width="2"/>
+  <text x="400" y="464" text-anchor="middle" font-size="14" fill="#111111">400</text>
+  <line x1="500" y1="440" x2="500" y2="446" stroke="#222222" stroke-width="2"/>
+  <text x="500" y="464" text-anchor="middle" font-size="14" fill="#111111">800</text>
+  <line x1="600" y1="440" x2="600" y2="446" stroke="#222222" stroke-width="2"/>
+  <text x="600" y="464" text-anchor="middle" font-size="14" fill="#111111">1,200</text>
+  <line x1="700" y1="440" x2="700" y2="446" stroke="#222222" stroke-width="2"/>
+  <text x="700" y="464" text-anchor="middle" font-size="14" fill="#111111">1,600</text>
+  <line x1="800" y1="440" x2="800" y2="446" stroke="#222222" stroke-width="2"/>
+  <text x="800" y="464" text-anchor="middle" font-size="14" fill="#111111">2,000</text>
+  <line x1="900" y1="440" x2="900" y2="446" stroke="#222222" stroke-width="2"/>
+  <text x="900" y="464" text-anchor="middle" font-size="14" fill="#111111">2,400</text>
+  <text x="600" y="488" text-anchor="middle" font-size="15" fill="#111111">Approximate class hours to professional working proficiency</text>
+  <text x="936" y="516" text-anchor="end" font-size="13" fill="#333333">Intensive, expert-taught classes for motivated adults; study outside class not included.</text>
+</svg>

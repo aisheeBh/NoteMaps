@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A one-page layered learning roadmap built from the quarterly template</title>
+  <desc>Four quarters across, four layers down. Purpose: junior cloud engineer within twelve to fifteen months. Capabilities by quarter: foundations; core services and identity; infrastructure as code and pipelines; operations, cost and security. Activities: one course spine and one lab project per quarter, certification in the third quarter. Enablers: mentor reviews, six hours a week, monthly near-peer conversation. A milestone diamond closes each quarter.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Layered view: purpose, capabilities, activities, enablers</text>
+  <rect x="24" y="70" width="160" height="70" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="104" y="111" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">PURPOSE</text>
+  <rect x="24" y="150" width="160" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="104" y="211" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">CAPABILITIES</text>
+  <rect x="24" y="270" width="160" height="120" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="104" y="336" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">ACTIVITIES</text>
+  <rect x="24" y="400" width="160" height="110" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="104" y="461" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">ENABLERS</text>
+  <text x="292" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Quarter 1</text>
+  <line x1="200" y1="66" x2="200" y2="520" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="476" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Quarter 2</text>
+  <line x1="384" y1="66" x2="384" y2="520" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="660" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Quarter 3</text>
+  <line x1="568" y1="66" x2="568" y2="520" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="844" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Quarter 4</text>
+  <line x1="752" y1="66" x2="752" y2="520" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="206" y="76" width="724" height="58" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="568" y="103" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Junior cloud engineer within 12–15 months</text>
+  <text x="568" y="123" text-anchor="middle" font-size="14" fill="#111111">independently build, deploy and operate a small production service</text>
+  <rect x="208" y="156" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="292" y="182" text-anchor="middle" font-size="14" fill="#111111">Foundations:</text>
+  <text x="292" y="200" text-anchor="middle" font-size="14" fill="#111111">networking, Linux,</text>
+  <text x="292" y="218" text-anchor="middle" font-size="14" fill="#111111">scripting</text>
+  <rect x="208" y="276" width="168" height="108" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="292" y="302" text-anchor="middle" font-size="14" fill="#111111">Course spine 1</text>
+  <text x="292" y="320" text-anchor="middle" font-size="14" fill="#111111">Lab project 1</text>
+  <rect x="208" y="406" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+  <text x="292" y="438" text-anchor="middle" font-size="14" fill="#111111">Mentor review</text>
+  <text x="292" y="456" text-anchor="middle" font-size="14" fill="#111111">Near-peer monthly</text>
+  <rect x="369" y="539" width="22" height="22" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" transform="rotate(45 380 550)"/>
+  <text x="360" y="556" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">M1</text>
+  <rect x="392" y="156" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="476" y="182" text-anchor="middle" font-size="14" fill="#111111">Core services</text>
+  <text x="476" y="200" text-anchor="middle" font-size="14" fill="#111111">and identity</text>
+  <rect x="392" y="276" width="168" height="108" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="476" y="302" text-anchor="middle" font-size="14" fill="#111111">Course spine 2</text>
+  <text x="476" y="320" text-anchor="middle" font-size="14" fill="#111111">Lab project 2</text>
+  <rect x="392" y="406" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+  <text x="476" y="438" text-anchor="middle" font-size="14" fill="#111111">Mentor review</text>
+  <text x="476" y="456" text-anchor="middle" font-size="14" fill="#111111">6 hours a week</text>
+  <rect x="553" y="539" width="22" height="22" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" transform="rotate(45 564 550)"/>
+  <text x="544" y="556" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">M2</text>
+  <rect x="576" y="156" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="660" y="182" text-anchor="middle" font-size="14" fill="#111111">Infrastructure</text>
+  <text x="660" y="200" text-anchor="middle" font-size="14" fill="#111111">as code and</text>
+  <text x="660" y="218" text-anchor="middle" font-size="14" fill="#111111">pipelines</text>
+  <rect x="576" y="276" width="168" height="108" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="660" y="302" text-anchor="middle" font-size="14" fill="#111111">Course spine 3</text>
+  <text x="660" y="320" text-anchor="middle" font-size="14" fill="#111111">Lab project 3</text>
+  <text x="660" y="338" text-anchor="middle" font-size="14" fill="#111111">Associate exam</text>
+  <rect x="576" y="406" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+  <text x="660" y="438" text-anchor="middle" font-size="14" fill="#111111">Mentor review</text>
+  <text x="660" y="456" text-anchor="middle" font-size="14" fill="#111111">Exam voucher</text>
+  <rect x="737" y="539" width="22" height="22" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" transform="rotate(45 748 550)"/>
+  <text x="728" y="556" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">M3</text>
+  <rect x="760" y="156" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="844" y="182" text-anchor="middle" font-size="14" fill="#111111">Operations,</text>
+  <text x="844" y="200" text-anchor="middle" font-size="14" fill="#111111">cost and security</text>
+  <rect x="760" y="276" width="168" height="108" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="844" y="302" text-anchor="middle" font-size="14" fill="#111111">Course spine 4</text>
+  <text x="844" y="320" text-anchor="middle" font-size="14" fill="#111111">Capstone service</text>
+  <rect x="760" y="406" width="168" height="98" rx="6" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+  <text x="844" y="438" text-anchor="middle" font-size="14" fill="#111111">Mentor review</text>
+  <text x="844" y="456" text-anchor="middle" font-size="14" fill="#111111">Sponsor intro</text>
+  <rect x="921" y="539" width="22" height="22" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" transform="rotate(45 932 550)"/>
+  <text x="912" y="556" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">M4</text>
+  <text x="104" y="556" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">MILESTONES</text>
+  <text x="936" y="590" text-anchor="end" font-size="13" fill="#333333">Version 1, dated; revised each quarter.</text>
+</svg>

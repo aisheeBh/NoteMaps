@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The range of a time-to-competency estimate narrows as milestones are reached</title>
+  <desc>A funnel: at the start the plausible total time ranges from about half to about double the central estimate. At each milestone the range narrows, until at the destination it equals the actual time.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The cone of uncertainty in a learning estimate</text>
+  <polygon points="160,110 304,165 448,216 592,246 736,268 880,280 880,280 736,290 592,306 448,335 304,386 160,450" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <line x1="160" y1="280" x2="880" y2="280" stroke="#111111" stroke-width="3"/>
+  <line x1="160" y1="90" x2="160" y2="470" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="115" text-anchor="end" font-size="14" fill="#111111">2 × estimate</text>
+  <line x1="156" y1="110" x2="160" y2="110" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="186" text-anchor="end" font-size="14" fill="#111111">1.5 ×</text>
+  <line x1="156" y1="181" x2="160" y2="181" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="285" text-anchor="end" font-size="14" fill="#111111">central</text>
+  <line x1="156" y1="280" x2="160" y2="280" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="383" text-anchor="end" font-size="14" fill="#111111">0.67 ×</text>
+  <line x1="156" y1="378" x2="160" y2="378" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="455" text-anchor="end" font-size="14" fill="#111111">0.5 ×</text>
+  <line x1="156" y1="450" x2="160" y2="450" stroke="#222222" stroke-width="2"/>
+  <line x1="160" y1="470" x2="900" y2="470" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="160" y1="470" x2="160" y2="478" stroke="#222222" stroke-width="2"/>
+  <text x="160" y="498" text-anchor="middle" font-size="14" fill="#111111">Start</text>
+  <line x1="304" y1="470" x2="304" y2="478" stroke="#222222" stroke-width="2"/>
+  <text x="304" y="498" text-anchor="middle" font-size="14" fill="#111111">Milestone 1</text>
+  <line x1="448" y1="470" x2="448" y2="478" stroke="#222222" stroke-width="2"/>
+  <text x="448" y="498" text-anchor="middle" font-size="14" fill="#111111">Milestone 2</text>
+  <line x1="592" y1="470" x2="592" y2="478" stroke="#222222" stroke-width="2"/>
+  <text x="592" y="498" text-anchor="middle" font-size="14" fill="#111111">Milestone 3</text>
+  <line x1="736" y1="470" x2="736" y2="478" stroke="#222222" stroke-width="2"/>
+  <text x="736" y="498" text-anchor="middle" font-size="14" fill="#111111">Milestone 4</text>
+  <line x1="880" y1="470" x2="880" y2="478" stroke="#222222" stroke-width="2"/>
+  <text x="880" y="498" text-anchor="middle" font-size="14" fill="#111111">Destination</text>
+  <text x="200" y="76" text-anchor="start" font-size="14" fill="#111111">Wide at the start: the field, the learner's rate</text>
+  <text x="200" y="94" text-anchor="start" font-size="14" fill="#111111">and hidden difficulties are still unknown</text>
+  <text x="880" y="250" text-anchor="end" font-size="14" fill="#111111">Narrow: rate observed</text>
+  <text x="936" y="528" text-anchor="end" font-size="13" fill="#333333">Schematic; the width of the range varies by field and learner.</text>
+</svg>
