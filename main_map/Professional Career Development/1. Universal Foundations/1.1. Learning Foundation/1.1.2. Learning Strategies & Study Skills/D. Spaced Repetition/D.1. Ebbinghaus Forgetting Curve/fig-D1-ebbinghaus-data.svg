@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Ebbinghaus's 1885 savings data</title>
+  <desc>Savings for lists of nonsense syllables after seven delays from 20 minutes to 31 days. Savings fall from about 58 percent after 20 minutes to about 34 percent after one day and about 21 percent after 31 days: steep early loss followed by very slow loss.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">Ebbinghaus (1885): savings after delays</text>
+  <line x1="140" y1="430" x2="900" y2="430" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="140" y1="330" x2="900" y2="330" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="140" y1="230" x2="900" y2="230" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="140" y1="130" x2="900" y2="130" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="140" y1="430" x2="910" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="430" x2="140" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="185" y1="430" x2="185" y2="436" stroke="#222222" stroke-width="1.5"/>
+  <text x="185" y="454" text-anchor="middle" font-size="14" fill="#111111">20 min</text>
+  <line x1="284" y1="430" x2="284" y2="436" stroke="#222222" stroke-width="1.5"/>
+  <text x="284" y="454" text-anchor="middle" font-size="14" fill="#111111">1 h</text>
+  <line x1="478" y1="430" x2="478" y2="436" stroke="#222222" stroke-width="1.5"/>
+  <text x="478" y="454" text-anchor="middle" font-size="14" fill="#111111">9 h</text>
+  <line x1="567" y1="430" x2="567" y2="436" stroke="#222222" stroke-width="1.5"/>
+  <text x="567" y="454" text-anchor="middle" font-size="14" fill="#111111">1 d</text>
+  <line x1="727" y1="430" x2="727" y2="436" stroke="#222222" stroke-width="1.5"/>
+  <text x="727" y="454" text-anchor="middle" font-size="14" fill="#111111">6 d</text>
+  <line x1="874" y1="430" x2="874" y2="436" stroke="#222222" stroke-width="1.5"/>
+  <text x="874" y="454" text-anchor="middle" font-size="14" fill="#111111">31 d</text>
+  <line x1="134" y1="430" x2="140" y2="430" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="435" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="134" y1="330" x2="140" y2="330" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="335" text-anchor="end" font-size="14" fill="#111111">20</text>
+  <line x1="134" y1="230" x2="140" y2="230" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="235" text-anchor="end" font-size="14" fill="#111111">40</text>
+  <line x1="134" y1="130" x2="140" y2="130" stroke="#222222" stroke-width="1.5"/>
+  <text x="130" y="135" text-anchor="end" font-size="14" fill="#111111">60</text>
+  <text x="520" y="482" text-anchor="middle" font-size="16" fill="#111111">Delay since learning (hours, logarithmic scale)</text>
+  <text x="78" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 78 255)">Savings in relearning (%)</text>
+  <path d="M184.7 139.0 L283.6 209.0 L477.7 251.0 L567.2 261.5 L629.0 291.0 L727.1 303.0 L873.6 324.5" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <circle cx="184.7" cy="139.0" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="283.6" cy="209.0" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="477.7" cy="251.0" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="567.2" cy="261.5" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="629.0" cy="291.0" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="727.1" cy="303.0" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="873.6" cy="324.5" r="5" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="185" y="125" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">58.2</text>
+  <text x="284" y="195" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">44.2</text>
+  <text x="478" y="237" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">35.8</text>
+  <text x="567" y="248" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">33.7</text>
+  <text x="629" y="277" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">27.8</text>
+  <text x="727" y="289" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">25.4</text>
+  <text x="874" y="310" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">21.1</text>
+  <rect x="442" y="124" width="235" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="560" y="140" text-anchor="middle" font-size="14" fill="#111111">steep loss in the first hours</text>
+  <rect x="691" y="214" width="158" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="770" y="230" text-anchor="middle" font-size="14" fill="#111111">then very slow loss</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Values as reported by Ebbinghaus for 13-syllable lists; savings = share of original learning time saved when relearning.</text>
+</svg>

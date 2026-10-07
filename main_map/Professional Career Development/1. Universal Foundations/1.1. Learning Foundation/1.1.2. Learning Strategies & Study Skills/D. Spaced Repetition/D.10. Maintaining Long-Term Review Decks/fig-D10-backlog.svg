@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two ways to recover from a backlog</title>
+  <desc>After a three-week break about 2,000 reviews are overdue. Doing everything in one or two days produces sessions of over a thousand reviews. Capping overdue reviews at about 250 a day clears the backlog in about ten days with manageable sessions.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Recovering from a three-week break</text>
+  <line x1="150" y1="420" x2="860" y2="420" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="335" x2="860" y2="335" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="250" x2="860" y2="250" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="165" x2="860" y2="165" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="80" x2="860" y2="80" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="420" x2="870" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="150" y="444" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="251" y1="420" x2="251" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="251" y="444" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <line x1="353" y1="420" x2="353" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="353" y="444" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <line x1="454" y1="420" x2="454" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="454" y="444" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <line x1="556" y1="420" x2="556" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="556" y="444" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <line x1="657" y1="420" x2="657" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="657" y="444" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <line x1="759" y1="420" x2="759" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="759" y="444" text-anchor="middle" font-size="14" fill="#111111">12</text>
+  <line x1="860" y1="420" x2="860" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="860" y="444" text-anchor="middle" font-size="14" fill="#111111">14</text>
+  <line x1="144" y1="420" x2="150" y2="420" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="425" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="144" y1="335" x2="150" y2="335" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="340" text-anchor="end" font-size="14" fill="#111111">300</text>
+  <line x1="144" y1="250" x2="150" y2="250" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="255" text-anchor="end" font-size="14" fill="#111111">600</text>
+  <line x1="144" y1="165" x2="150" y2="165" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="170" text-anchor="end" font-size="14" fill="#111111">900</text>
+  <line x1="144" y1="80" x2="150" y2="80" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="85" text-anchor="end" font-size="14" fill="#111111">1,200</text>
+  <text x="505" y="472" text-anchor="middle" font-size="16" fill="#111111">Days after returning</text>
+  <text x="88" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 88 250)">Reviews done that day</text>
+  <rect x="153" y="94" width="20" height="326" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="177" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="204" y="137" width="20" height="283" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="228" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="255" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="279" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="306" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="330" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="356" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="380" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="407" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="431" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="458" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="482" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="508" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="532" y="307" width="20" height="113" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="559" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="583" y="378" width="20" height="42" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="610" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="634" y="378" width="20" height="42" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="660" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="684" y="378" width="20" height="42" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="711" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="735" y="378" width="20" height="42" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="762" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="786" y="378" width="20" height="42" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="813" y="378" width="20" height="42" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="837" y="378" width="20" height="42" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="560" y="110" width="290" height="76" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="575" y="124" width="26" height="18" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="612" y="139" text-anchor="start" font-size="14" fill="#111111">all at once</text>
+  <rect x="575" y="156" width="26" height="18" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="612" y="171" text-anchor="start" font-size="14" fill="#111111">capped at 250 overdue a day</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative: about 2,000 overdue reviews plus about 150 newly due reviews each day; no new cards during recovery.</text>
+</svg>

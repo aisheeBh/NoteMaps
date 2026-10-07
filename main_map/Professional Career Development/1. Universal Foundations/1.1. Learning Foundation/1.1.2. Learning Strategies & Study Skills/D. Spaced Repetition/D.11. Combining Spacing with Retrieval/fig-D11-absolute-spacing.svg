@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Absolute spacing matters more than its pattern</title>
+  <desc>Final recall for three amounts of total spacing between retrievals, each with expanding, equal and contracting patterns. Recall rises clearly with the amount of spacing, while the three patterns within each amount give nearly the same recall.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">How much spacing matters more than its pattern</text>
+  <line x1="140" y1="420" x2="880" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <line x1="140" y1="420" x2="140" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="80" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 80 250)">Final recall</text>
+  <rect x="180" y="282" width="54" height="138" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="242" y="277" width="54" height="143" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="304" y="287" width="54" height="133" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="269" y="446" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">short spacing</text>
+  <rect x="420" y="208" width="54" height="212" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="482" y="204" width="54" height="216" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="544" y="213" width="54" height="207" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="509" y="446" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">medium spacing</text>
+  <rect x="660" y="135" width="54" height="285" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="722" y="130" width="54" height="290" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="784" y="144" width="54" height="276" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="749" y="446" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">long spacing</text>
+  <rect x="240" y="470" width="26" height="18" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="276" y="485" text-anchor="start" font-size="14" fill="#111111">expanding</text>
+  <rect x="440" y="470" width="26" height="18" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="476" y="485" text-anchor="start" font-size="14" fill="#111111">equal</text>
+  <rect x="640" y="470" width="26" height="18" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="676" y="485" text-anchor="start" font-size="14" fill="#111111">contracting</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Karpicke and Bauernschmidt (2011); heights are illustrative.</text>
+</svg>

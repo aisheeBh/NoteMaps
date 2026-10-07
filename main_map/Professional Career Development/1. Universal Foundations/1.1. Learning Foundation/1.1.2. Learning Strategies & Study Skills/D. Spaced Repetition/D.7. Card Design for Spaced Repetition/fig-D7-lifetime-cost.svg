@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Cumulative review time per card over ten years</title>
+  <desc>A well-designed card accumulates about twelve reviews and two minutes of review time over ten years. A poorly designed card that keeps lapsing accumulates around sixty reviews and about ten minutes, and is still being reviewed often at the end.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">A bad card costs several times a good one, for years</text>
+  <line x1="150" y1="420" x2="860" y2="420" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="363" x2="860" y2="363" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="307" x2="860" y2="307" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="250" x2="860" y2="250" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="193" x2="860" y2="193" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="137" x2="860" y2="137" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="80" x2="860" y2="80" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="420" x2="870" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="150" y="444" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="221" y1="420" x2="221" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="221" y="444" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <line x1="292" y1="420" x2="292" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="292" y="444" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <line x1="363" y1="420" x2="363" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="363" y="444" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <line x1="434" y1="420" x2="434" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="434" y="444" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <line x1="505" y1="420" x2="505" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="505" y="444" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <line x1="576" y1="420" x2="576" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="576" y="444" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <line x1="647" y1="420" x2="647" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="647" y="444" text-anchor="middle" font-size="14" fill="#111111">7</text>
+  <line x1="718" y1="420" x2="718" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="718" y="444" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <line x1="789" y1="420" x2="789" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="789" y="444" text-anchor="middle" font-size="14" fill="#111111">9</text>
+  <line x1="860" y1="420" x2="860" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="860" y="444" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <line x1="144" y1="420" x2="150" y2="420" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="425" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="144" y1="363" x2="150" y2="363" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="368" text-anchor="end" font-size="14" fill="#111111">2</text>
+  <line x1="144" y1="307" x2="150" y2="307" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="312" text-anchor="end" font-size="14" fill="#111111">4</text>
+  <line x1="144" y1="250" x2="150" y2="250" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="255" text-anchor="end" font-size="14" fill="#111111">6</text>
+  <line x1="144" y1="193" x2="150" y2="193" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="198" text-anchor="end" font-size="14" fill="#111111">8</text>
+  <line x1="144" y1="137" x2="150" y2="137" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="142" text-anchor="end" font-size="14" fill="#111111">10</text>
+  <line x1="144" y1="80" x2="150" y2="80" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="85" text-anchor="end" font-size="14" fill="#111111">12</text>
+  <text x="505" y="472" text-anchor="middle" font-size="16" fill="#111111">Years since the card was created</text>
+  <text x="88" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 88 250)">Cumulative review time (minutes)</text>
+  <path d="M150.0 420.0 L150.2 416.2 L150.7 412.4 L152.0 408.7 L155.4 404.9 L164.3 401.1 L187.4 389.8 L193.2 378.4 L194.7 374.7 L198.4 370.9 L208.2 367.1 L233.6 363.3 L299.6 359.6 L471.2 355.8 L860.0 352.0" fill="none" stroke="#1F3B5C" stroke-width="3"/>
+  <path d="M150.0 420.0 L150.2 403.0 L150.4 397.3 L150.8 391.7 L151.6 386.0 L153.1 380.3 L156.2 363.3 L157.0 346.3 L157.2 340.7 L157.6 335.0 L158.4 318.0 L158.6 312.3 L158.9 306.7 L159.7 301.0 L161.3 295.3 L164.4 289.7 L170.6 272.7 L172.2 267.0 L175.3 261.3 L181.5 255.7 L194.0 250.0 L218.9 244.3 L268.7 227.3 L281.1 221.7 L306.0 216.0 L355.8 210.3 L455.4 193.3 L480.3 187.7 L530.1 182.0 L629.7 176.3 L828.9 170.7 L860.0 165.0" fill="none" stroke="#8B0000" stroke-width="3.5" stroke-dasharray="2 4"/>
+  <rect x="448" y="320" width="328" height="24" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="612" y="336" text-anchor="middle" font-size="14" fill="#111111">focused card: about 2 minutes, 14 reviews</text>
+  <rect x="374" y="135" width="405" height="24" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="576" y="151" text-anchor="middle" font-size="14" fill="#111111">vague, overloaded card: about 9 minutes, 31 reviews</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Simulation with illustrative parameters: review seconds, interval growth and lapse rates differ between the two cards.</text>
+</svg>

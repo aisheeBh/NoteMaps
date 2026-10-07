@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Receptive, productive and listening cards for one word</title>
+  <desc>Three cards built from the Spanish word aprovechar. The receptive card shows the Spanish word in a sentence and asks for its meaning. The productive card gives an English cue with a gapped Spanish sentence and asks for the Spanish word. The listening card plays audio and asks what was heard.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Three cards from one word: aprovechar</text>
+  <text x="180" y="90" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Receptive</text>
+  <rect x="40" y="105" width="280" height="300" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="52" y="117" width="256" height="276" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="180" y="160" text-anchor="middle" font-size="15" fill="#111111">Quiero aprovechar el viaje.</text>
+  <text x="180" y="188" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="180" y="216" text-anchor="middle" font-size="15" fill="#111111">What does aprovechar mean?</text>
+  <line x1="70" y1="300" x2="290" y2="300" stroke="#999999" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="180" y="335" text-anchor="middle" font-size="14" fill="#111111">Answer:</text>
+  <text x="180" y="362" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">to make the most of</text>
+  <text x="480" y="90" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Productive</text>
+  <rect x="340" y="105" width="280" height="300" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="352" y="117" width="256" height="276" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="480" y="160" text-anchor="middle" font-size="15" fill="#111111">Make the most of (Spanish):</text>
+  <text x="480" y="188" text-anchor="middle" font-size="15" fill="#111111">Quiero ____ el viaje.</text>
+  <text x="480" y="216" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <line x1="370" y1="300" x2="590" y2="300" stroke="#999999" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="480" y="335" text-anchor="middle" font-size="14" fill="#111111">Answer:</text>
+  <text x="480" y="362" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">aprovechar</text>
+  <text x="780" y="90" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">Listening</text>
+  <rect x="640" y="105" width="280" height="300" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="652" y="117" width="256" height="276" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="780" y="160" text-anchor="middle" font-size="15" fill="#111111">[audio of the sentence]</text>
+  <text x="780" y="188" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="780" y="216" text-anchor="middle" font-size="15" fill="#111111">What did you hear, and</text>
+  <text x="780" y="244" text-anchor="middle" font-size="15" fill="#111111">what does it mean?</text>
+  <line x1="670" y1="300" x2="890" y2="300" stroke="#999999" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="780" y="335" text-anchor="middle" font-size="14" fill="#111111">Answer:</text>
+  <text x="780" y="362" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Quiero aprovechar el viaje.</text>
+  <text x="480" y="450" text-anchor="middle" font-size="16" fill="#111111">Recognition is easier; production and listening are harder and needed for real use.</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative cards; the sentence means "I want to make the most of the trip".</text>
+</svg>

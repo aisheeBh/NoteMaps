@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Spacing and retrieval combined</title>
+  <desc>Delayed test performance for four conditions. Massed restudy is lowest, spaced restudy and massed retrieval are intermediate, and spaced retrieval is highest by a clear margin.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Spacing and retrieval each help; together they help most</text>
+  <line x1="140" y1="430" x2="880" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <line x1="140" y1="430" x2="140" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="80" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 80 255)">Delayed test performance</text>
+  <rect x="190" y="320" width="120" height="110" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="250" y="455" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Massed</text>
+  <text x="250" y="476" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">restudy</text>
+  <rect x="360" y="245" width="120" height="185" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="420" y="455" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Spaced</text>
+  <text x="420" y="476" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">restudy</text>
+  <rect x="530" y="232" width="120" height="198" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="590" y="455" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Massed</text>
+  <text x="590" y="476" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">retrieval</text>
+  <rect x="700" y="131" width="120" height="299" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="760" y="455" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Spaced</text>
+  <text x="760" y="476" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">retrieval</text>
+  <rect x="700" y="101" width="120" height="24" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="760" y="117" text-anchor="middle" font-size="14" fill="#111111">largest effect</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the typical pattern in studies crossing spacing with retrieval; heights are illustrative, not from one study.</text>
+</svg>

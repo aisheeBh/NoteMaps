@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The cost of missed days</title>
+  <desc>The number of reviews due on the day of return after missing one, three or seven days, for a deck that normally has 120 reviews a day: about 240 after one missed day, about 480 after three and about 960 after seven.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Missed days compound: the next session grows quickly</text>
+  <line x1="150" y1="420" x2="860" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <line x1="150" y1="420" x2="150" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="90" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 90 250)">Reviews due on the day of return</text>
+  <line x1="144" y1="420" x2="150" y2="420" stroke="#222222" stroke-width="1.5"/>
+  <text x="138" y="425" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="144" y1="340" x2="150" y2="340" stroke="#222222" stroke-width="1.5"/>
+  <text x="138" y="345" text-anchor="end" font-size="14" fill="#111111">250</text>
+  <line x1="150" y1="340" x2="860" y2="340" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="144" y1="260" x2="150" y2="260" stroke="#222222" stroke-width="1.5"/>
+  <text x="138" y="265" text-anchor="end" font-size="14" fill="#111111">500</text>
+  <line x1="150" y1="260" x2="860" y2="260" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="144" y1="180" x2="150" y2="180" stroke="#222222" stroke-width="1.5"/>
+  <text x="138" y="185" text-anchor="end" font-size="14" fill="#111111">750</text>
+  <line x1="150" y1="180" x2="860" y2="180" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="144" y1="100" x2="150" y2="100" stroke="#222222" stroke-width="1.5"/>
+  <text x="138" y="105" text-anchor="end" font-size="14" fill="#111111">1,000</text>
+  <line x1="150" y1="100" x2="860" y2="100" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="200" y="382" width="110" height="38" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="255" y="372" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">about 120</text>
+  <text x="255" y="446" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">no missed day</text>
+  <rect x="365" y="343" width="110" height="77" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="420" y="333" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">about 240</text>
+  <text x="420" y="446" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">1 day missed</text>
+  <rect x="530" y="266" width="110" height="154" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="585" y="256" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">about 480</text>
+  <text x="585" y="446" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">3 days missed</text>
+  <rect x="695" y="113" width="110" height="307" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="750" y="103" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">about 960</text>
+  <text x="750" y="446" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">7 days missed</text>
+  <text x="480" y="480" text-anchor="middle" font-size="15" fill="#111111">Never miss twice: one missed day doubles the next session; a week multiplies it eightfold.</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Illustrative deck with about 120 reviews due per day; real backlogs also include extra lapses.</text>
+</svg>

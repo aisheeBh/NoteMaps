@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Optimal gap as a share of the retention interval</title>
+  <desc>The best gap expressed as a percentage of the retention interval falls from roughly twenty to forty percent for retention intervals of about a week to roughly five to ten percent for a retention interval of a year.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Longer goals need longer gaps, but a smaller share</text>
+  <line x1="150" y1="420" x2="860" y2="420" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="344" x2="860" y2="344" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="269" x2="860" y2="269" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="193" x2="860" y2="193" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="118" x2="860" y2="118" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="420" x2="870" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="420" x2="150" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="202" y1="420" x2="202" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="202" y="444" text-anchor="middle" font-size="14" fill="#111111">1 wk</text>
+  <line x1="450" y1="420" x2="450" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="450" y="444" text-anchor="middle" font-size="14" fill="#111111">5 wk</text>
+  <line x1="557" y1="420" x2="557" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="557" y="444" text-anchor="middle" font-size="14" fill="#111111">10 wk</text>
+  <line x1="702" y1="420" x2="702" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="702" y="444" text-anchor="middle" font-size="14" fill="#111111">6 mo</text>
+  <line x1="805" y1="420" x2="805" y2="426" stroke="#222222" stroke-width="1.5"/>
+  <text x="805" y="444" text-anchor="middle" font-size="14" fill="#111111">1 yr</text>
+  <line x1="144" y1="420" x2="150" y2="420" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="425" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="144" y1="344" x2="150" y2="344" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="349" text-anchor="end" font-size="14" fill="#111111">10</text>
+  <line x1="144" y1="269" x2="150" y2="269" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="274" text-anchor="end" font-size="14" fill="#111111">20</text>
+  <line x1="144" y1="193" x2="150" y2="193" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="198" text-anchor="end" font-size="14" fill="#111111">30</text>
+  <line x1="144" y1="118" x2="150" y2="118" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="123" text-anchor="end" font-size="14" fill="#111111">40</text>
+  <text x="505" y="472" text-anchor="middle" font-size="16" fill="#111111">Retention interval (days, logarithmic scale)</text>
+  <text x="88" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 88 250)">Best gap as % of retention interval</text>
+  <path d="M201.9 117.8 L209.4 120.6 L216.9 123.4 L224.4 126.3 L232.0 129.1 L239.5 131.9 L247.0 134.7 L254.5 137.6 L262.1 140.4 L269.6 143.2 L277.1 146.0 L284.6 148.9 L292.1 151.7 L299.7 154.5 L307.2 157.4 L314.7 160.2 L322.2 163.0 L329.8 165.8 L337.3 168.7 L344.8 171.5 L352.3 174.3 L359.8 177.1 L367.4 180.0 L374.9 182.8 L382.4 185.6 L389.9 188.5 L397.5 191.3 L405.0 194.1 L412.5 196.9 L420.0 199.8 L427.5 202.6 L435.1 205.4 L442.6 208.2 L450.1 211.1 L457.6 213.9 L465.2 216.7 L472.7 219.5 L480.2 222.4 L487.7 225.2 L495.2 228.0 L502.8 230.9 L510.3 233.7 L517.8 236.5 L525.3 239.3 L532.9 242.2 L540.4 245.0 L547.9 247.8 L555.4 250.6 L562.9 253.5 L570.5 256.3 L578.0 259.1 L585.5 262.0 L593.0 264.8 L600.6 267.6 L608.1 270.4 L615.6 273.3 L623.1 276.1 L630.6 278.9 L638.2 281.7 L645.7 284.6 L653.2 287.4 L660.7 290.2 L668.3 293.0 L675.8 295.9 L683.3 298.7 L690.8 301.5 L698.3 304.4 L705.9 307.2 L713.4 310.0 L720.9 312.8 L728.4 315.7 L736.0 318.5 L743.5 321.3 L751.0 324.1 L758.5 327.0 L766.0 329.8 L773.6 332.6 L781.1 335.5 L788.6 338.3 L796.1 341.1 L803.7 343.9 L803.7 382.1 L796.1 381.1 L788.6 380.2 L781.1 379.2 L773.6 378.3 L766.0 377.3 L758.5 376.4 L751.0 375.5 L743.5 374.5 L736.0 373.6 L728.4 372.6 L720.9 371.7 L713.4 370.7 L705.9 369.8 L698.3 368.9 L690.8 367.9 L683.3 367.0 L675.8 366.0 L668.3 365.1 L660.7 364.1 L653.2 363.2 L645.7 362.3 L638.2 361.3 L630.6 360.4 L623.1 359.4 L615.6 358.5 L608.1 357.6 L600.6 356.6 L593.0 355.7 L585.5 354.7 L578.0 353.8 L570.5 352.8 L562.9 351.9 L555.4 351.0 L547.9 350.0 L540.4 349.1 L532.9 348.1 L525.3 347.2 L517.8 346.2 L510.3 345.3 L502.8 344.4 L495.2 343.4 L487.7 342.5 L480.2 341.5 L472.7 340.6 L465.2 339.6 L457.6 338.7 L450.1 337.8 L442.6 336.8 L435.1 335.9 L427.5 334.9 L420.0 334.0 L412.5 333.1 L405.0 332.1 L397.5 331.2 L389.9 330.2 L382.4 329.3 L374.9 328.3 L367.4 327.4 L359.8 326.5 L352.3 325.5 L344.8 324.6 L337.3 323.6 L329.8 322.7 L322.2 321.7 L314.7 320.8 L307.2 319.9 L299.7 318.9 L292.1 318.0 L284.6 317.0 L277.1 316.1 L269.6 315.1 L262.1 314.2 L254.5 313.3 L247.0 312.3 L239.5 311.4 L232.0 310.4 L224.4 309.5 L216.9 308.6 L209.4 307.6 L201.9 306.7 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="346" y="123" width="160" height="25" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="426" y="140" text-anchor="middle" font-size="15" fill="#111111">range of best gaps</text>
+  <rect x="531" y="200" width="343" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="702" y="216" text-anchor="middle" font-size="14" fill="#111111">e.g. 1-year goal: gap of about 3 to 5 weeks</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic band summarising published estimates; individual studies and materials vary.</text>
+</svg>
