@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Assisted performance compared with later unaided performance</title>
+  <desc>Paired bars for three conditions relative to a no-AI baseline. Answer-giving assistant: large gain while assisted, loss when unaided. Hint-giving tutor: large gain while assisted, roughly baseline when unaided. Designed tutor used alongside teaching: gain both while assisted and when unaided.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Performance with the tool is not learning without it</text>
+
+  <!-- Legend -->
+  <rect x="250" y="58" width="26" height="18" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="284" y="73" font-size="15" fill="#111111">During practice, with AI</text>
+  <rect x="500" y="58" width="26" height="18" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="534" y="73" font-size="15" fill="#111111">Later test, without AI</text>
+
+  <!-- Axis: baseline at y=330 -->
+  <line x1="90" y1="110" x2="90" y2="460" stroke="#222222" stroke-width="2"/>
+  <line x1="90" y1="330" x2="900" y2="330" stroke="#222222" stroke-width="2"/>
+  <text x="80" y="335" text-anchor="end" font-size="14" fill="#111111">No-AI</text>
+  <text x="80" y="352" text-anchor="end" font-size="14" fill="#111111">baseline</text>
+  <text x="80" y="130" text-anchor="end" font-size="14" fill="#111111">Better</text>
+  <text x="80" y="455" text-anchor="end" font-size="14" fill="#111111">Worse</text>
+
+  <!-- Group 1: answer-giving -->
+  <rect x="130" y="210" width="90" height="120" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="230" y="330" width="90" height="70" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="233" y="352" width="84" height="24" fill="#FFFFFF"/>
+  <text x="275" y="369" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">LOSS</text>
+  <text x="225" y="490" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Answer-giving assistant</text>
+  <text x="225" y="510" text-anchor="middle" font-size="14" fill="#111111">used as a crutch</text>
+
+  <!-- Group 2: hint-giving -->
+  <rect x="390" y="140" width="90" height="190" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="490" y="322" width="90" height="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="535" y="310" text-anchor="middle" font-size="14" fill="#111111">no change</text>
+  <text x="535" y="292" text-anchor="middle" font-size="14" fill="#111111">about</text>
+  <text x="485" y="490" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Hint-giving tutor</text>
+  <text x="485" y="510" text-anchor="middle" font-size="14" fill="#111111">guardrails on answers</text>
+
+  <!-- Group 3: designed tutor complementing teaching -->
+  <rect x="650" y="190" width="90" height="140" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="750" y="220" width="90" height="110" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="753" y="262" width="84" height="24" fill="#FFFFFF"/>
+  <text x="795" y="279" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">GAIN</text>
+  <text x="745" y="490" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Pedagogically designed</text>
+  <text x="745" y="510" text-anchor="middle" font-size="14" fill="#111111">tutor alongside teaching</text>
+
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of the direction of results in 2024 to 2026 controlled studies; bar heights are illustrative, not plotted data.</text>
+</svg>

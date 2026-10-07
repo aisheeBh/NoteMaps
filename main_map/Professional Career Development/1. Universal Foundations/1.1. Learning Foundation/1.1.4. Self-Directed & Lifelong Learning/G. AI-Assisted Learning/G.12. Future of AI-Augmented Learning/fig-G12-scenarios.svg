@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four scenarios for learning with AI</title>
+  <desc>A two-by-two grid. Horizontal axis: human investment in genuine learning, weak to strong. Vertical axis: pace of AI progress, slower to rapid. Top right: augmented expertise. Top left: hollow competence. Bottom right: steady renewal. Bottom left: drift.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Four futures for learning with AI</text>
+
+  <!-- quadrants: x 160..880, y 70..510 -->
+  <rect x="160" y="70" width="360" height="220" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="520" y="70" width="360" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="160" y="290" width="360" height="220" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="520" y="290" width="360" height="220" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+
+  <g font-size="15" fill="#111111">
+    <rect x="180" y="100" width="320" height="160" fill="#FFFFFF"/>
+    <text x="340" y="130" text-anchor="middle" font-size="18" font-weight="bold">HOLLOW COMPETENCE</text>
+    <text x="196" y="160">High output, thinning understanding;</text>
+    <text x="196" y="182">errors harder to detect; few people</text>
+    <text x="196" y="204">able to work when tools fail</text>
+
+    <rect x="540" y="100" width="320" height="160" fill="#FFFFFF"/>
+    <text x="700" y="130" text-anchor="middle" font-size="18" font-weight="bold">AUGMENTED EXPERTISE</text>
+    <text x="556" y="160">AI tutors and simulations speed the</text>
+    <text x="556" y="182">making of experts, who direct and</text>
+    <text x="556" y="204">judge ever more capable systems</text>
+
+    <rect x="180" y="320" width="320" height="160" fill="#FFFFFF"/>
+    <text x="340" y="350" text-anchor="middle" font-size="18" font-weight="bold">DRIFT</text>
+    <text x="196" y="380">Modest tools used passively;</text>
+    <text x="196" y="402">little gain, some erosion</text>
+    <text x="196" y="424">of skill</text>
+
+    <rect x="540" y="320" width="320" height="160" fill="#FFFFFF"/>
+    <text x="700" y="350" text-anchor="middle" font-size="18" font-weight="bold">STEADY RENEWAL</text>
+    <text x="556" y="380">AI becomes one more well-used tool,</text>
+    <text x="556" y="402">like calculators and search; learning</text>
+    <text x="556" y="424">practices improve gradually</text>
+  </g>
+
+  <line x1="160" y1="540" x2="890" y2="540" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="520" y="568" text-anchor="middle" font-size="16" fill="#111111">Human investment in genuine learning: weak to strong (controllable)</text>
+  <line x1="130" y1="510" x2="130" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="100" y="290" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 100 290)">Pace of AI progress: slower to rapid</text>
+  <text x="480" y="592" text-anchor="middle" font-size="13" fill="#333333">Scenarios are planning tools, not predictions.</text>
+</svg>

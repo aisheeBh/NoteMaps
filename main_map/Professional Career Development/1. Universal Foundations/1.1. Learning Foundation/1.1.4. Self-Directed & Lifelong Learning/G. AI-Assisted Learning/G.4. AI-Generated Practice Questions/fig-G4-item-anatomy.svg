@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Anatomy of a multiple-choice item</title>
+  <desc>An example item about performance obligations, with callouts naming its parts: the stem posing one clear problem, the key, distractors each based on a named misconception, and the rationale explaining every option.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The parts of a good multiple-choice item</text>
+
+  <!-- Item card -->
+  <rect x="30" y="60" width="580" height="510" rx="10" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="50" y="78" width="540" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <g font-size="15" fill="#111111">
+    <text x="64" y="104">A software firm sells a licence, installation and</text>
+    <text x="64" y="126">two years of support for one price. Installation is</text>
+    <text x="64" y="148">routine and could be done by other providers. How</text>
+    <text x="64" y="170">many performance obligations are there, most likely?</text>
+  </g>
+  <rect x="50" y="204" width="540" height="40" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="64" y="230" font-size="15" fill="#111111">(a) One: the contract is sold as a package</text>
+  <rect x="50" y="252" width="540" height="40" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="64" y="278" font-size="15" fill="#111111">(b) Two: licence and services</text>
+  <rect x="50" y="300" width="540" height="40" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="58" y="307" width="524" height="26" fill="#FFFFFF"/>
+  <text x="64" y="326" font-size="15" font-weight="bold" fill="#111111">(c) Three: licence, installation, support</text>
+  <rect x="50" y="348" width="540" height="40" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="64" y="374" font-size="15" fill="#111111">(d) None until installation is complete</text>
+  <rect x="50" y="404" width="540" height="150" rx="6" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <g font-size="14" fill="#111111">
+    <text x="64" y="428">Why (c): routine installation others could provide is</text>
+    <text x="64" y="448">distinct, so it is a separate obligation.</text>
+    <text x="64" y="472">(a) confuses one contract with one obligation.</text>
+    <text x="64" y="494">(b) merges installation with support.</text>
+    <text x="64" y="516">(d) confuses identifying obligations with</text>
+    <text x="64" y="536">recognising revenue.</text>
+  </g>
+
+  <!-- Callouts -->
+  <g font-size="15" fill="#111111">
+    <text x="660" y="112" font-weight="bold">STEM</text>
+    <text x="660" y="134">one clear problem, answerable</text>
+    <text x="660" y="154">before reading the options</text>
+    <text x="660" y="226" font-weight="bold">DISTRACTORS</text>
+    <text x="660" y="248">each attracts a specific</text>
+    <text x="660" y="268">misconception; similar length</text>
+    <text x="660" y="318" font-weight="bold">KEY</text>
+    <text x="660" y="338">one defensible best answer</text>
+    <text x="660" y="374" font-weight="bold">DISTRACTOR</text>
+    <text x="660" y="450" font-weight="bold">RATIONALE</text>
+    <text x="660" y="472">explains the key and every</text>
+    <text x="660" y="492">distractor; cites the source</text>
+  </g>
+  <g stroke="#222222" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="650" y1="128" x2="598" y2="128"/>
+    <line x1="650" y1="222" x2="598" y2="222"/>
+    <line x1="650" y1="230" x2="598" y2="270"/>
+    <line x1="650" y1="320" x2="598" y2="320"/>
+    <line x1="650" y1="368" x2="598" y2="368"/>
+    <line x1="650" y1="466" x2="598" y2="466"/>
+  </g>
+  <text x="780" y="588" text-anchor="middle" font-size="13" fill="#333333">Illustrative item; not accounting advice.</text>
+</svg>

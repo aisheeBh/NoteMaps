@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Lost in the middle</title>
+  <desc>A U-shaped curve of answer accuracy against the position of the relevant document in a long context: high when it is first, lowest in the middle, and recovering when it is last.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Information in the middle of a long context is used least well</text>
+  <line x1="110" y1="420" x2="890" y2="420" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="110" y1="420" x2="110" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="500" y="460" text-anchor="middle" font-size="16" fill="#111111">Position of the relevant document in the context</text>
+  <text x="130" y="442" font-size="14" fill="#111111">First</text>
+  <text x="500" y="442" text-anchor="middle" font-size="14" fill="#111111">Middle</text>
+  <text x="870" y="442" text-anchor="end" font-size="14" fill="#111111">Last</text>
+  <text x="56" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 56 250)">Accuracy of the answer</text>
+
+  <path d="M130 110 C 260 300, 380 340, 500 345 C 620 340, 740 280, 870 160" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="130" cy="110" r="7" fill="#000000"/>
+  <circle cx="500" cy="345" r="7" fill="#000000"/>
+  <circle cx="870" cy="160" r="7" fill="#000000"/>
+  <rect x="150" y="96" width="250" height="26" fill="#FFFFFF"/>
+  <text x="160" y="115" font-size="15" fill="#111111">Highest when placed first</text>
+  <rect x="380" y="362" width="240" height="26" fill="#FFFFFF"/>
+  <text x="500" y="381" text-anchor="middle" font-size="15" fill="#111111">Lowest in the middle</text>
+  <rect x="610" y="122" width="240" height="26" fill="#FFFFFF"/>
+  <text x="845" y="141" text-anchor="end" font-size="15" fill="#111111">Recovers when placed last</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Liu and colleagues (2023); newer models show a weaker but often similar shape.</text>
+</svg>

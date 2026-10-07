@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Effect sizes of tutoring types compared with no tutoring</title>
+  <desc>Horizontal bars of approximate effect sizes from VanLehn's 2011 review: answer-based systems about 0.31, substep-based tutors about 0.40, step-based tutors about 0.76 and human tutors about 0.79. A dashed marker shows Bloom's two standard deviation benchmark far to the right, off the main scale.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">How much do different kinds of tutoring help?</text>
+  <!-- scale 0..1.0 => x 280..800 (520 px) -->
+  <line x1="280" y1="70" x2="280" y2="380" stroke="#222222" stroke-width="2"/>
+  <g font-size="16" fill="#111111">
+    <text x="265" y="104" text-anchor="end">Answer-based systems</text>
+    <rect x="280" y="80" width="161" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="453" y="106">0.31</text>
+
+    <text x="265" y="174" text-anchor="end">Substep-based tutors</text>
+    <rect x="280" y="150" width="208" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="500" y="176">0.40</text>
+
+    <text x="265" y="244" text-anchor="end" font-weight="bold">Step-based tutors</text>
+    <rect x="280" y="220" width="395" height="40" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <text x="687" y="246" font-weight="bold">0.76</text>
+
+    <text x="265" y="314" text-anchor="end" font-weight="bold">Human tutors</text>
+    <rect x="280" y="290" width="411" height="40" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <text x="703" y="316" font-weight="bold">0.79</text>
+  </g>
+  <line x1="280" y1="380" x2="820" y2="380" stroke="#222222" stroke-width="2"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="280" y="400">0</text><text x="410" y="400">0.25</text><text x="540" y="400">0.5</text><text x="670" y="400">0.75</text><text x="800" y="400">1.0</text>
+  </g>
+  <text x="540" y="426" text-anchor="middle" font-size="15" fill="#111111">Effect size in standard deviations, compared with no tutoring</text>
+  <line x1="860" y1="70" x2="860" y2="380" stroke="#7A5200" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="826" y="186" width="120" height="66" fill="#FFFFFF"/>
+  <text x="886" y="206" text-anchor="middle" font-size="14" fill="#111111">Bloom's</text>
+  <text x="886" y="224" text-anchor="middle" font-size="14" fill="#111111">2.0 benchmark</text>
+  <text x="886" y="242" text-anchor="middle" font-size="14" fill="#111111">(off scale)</text>
+  <text x="480" y="470" text-anchor="middle" font-size="13" fill="#333333">Approximate values from VanLehn (2011); individual studies vary widely around these averages.</text>
+</svg>

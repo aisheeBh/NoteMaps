@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The ICAP modes of engagement in a chatbot conversation</title>
+  <desc>A four-step staircase rising from Passive to Active to Constructive to Interactive, with expected learning increasing upwards. Each step gives a chatbot example: reading the answer, copying it, explaining it in one's own words, and defending an explanation while the AI probes it.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Four modes of engagement with a chatbot</text>
+
+  <line x1="50" y1="500" x2="50" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="34" y="300" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 34 300)">Expected learning</text>
+
+  <rect x="70" y="410" width="210" height="90" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="175" y="440" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">PASSIVE</text>
+  <text x="175" y="464" text-anchor="middle" font-size="14" fill="#111111">reads the answer</text>
+  <text x="175" y="484" text-anchor="middle" font-size="14" fill="#111111">and moves on</text>
+
+  <rect x="290" y="320" width="210" height="180" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="395" y="350" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">ACTIVE</text>
+  <text x="395" y="374" text-anchor="middle" font-size="14" fill="#111111">copies or highlights</text>
+  <text x="395" y="394" text-anchor="middle" font-size="14" fill="#111111">the answer</text>
+
+  <rect x="510" y="230" width="210" height="270" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="522" y="242" width="186" height="84" fill="#FFFFFF"/>
+  <text x="615" y="266" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">CONSTRUCTIVE</text>
+  <text x="615" y="290" text-anchor="middle" font-size="14" fill="#111111">explains it in own words;</text>
+  <text x="615" y="310" text-anchor="middle" font-size="14" fill="#111111">predicts the next step</text>
+
+  <rect x="730" y="140" width="210" height="360" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="742" y="152" width="186" height="84" fill="#FFFFFF"/>
+  <text x="835" y="176" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">INTERACTIVE</text>
+  <text x="835" y="200" text-anchor="middle" font-size="14" fill="#111111">defends an explanation</text>
+  <text x="835" y="220" text-anchor="middle" font-size="14" fill="#111111">while the AI probes it</text>
+
+  <text x="70" y="530" font-size="15" fill="#111111">Most default use stays on the two lowest steps.</text>
+  <text x="480" y="552" text-anchor="middle" font-size="13" fill="#333333">After Chi and Wylie (2014); step heights show the predicted order, not measured effect sizes.</text>
+</svg>
