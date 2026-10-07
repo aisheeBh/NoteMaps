@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Notes and questions shape the teacher's benefit</title>
+  <desc>Two-by-two grid. Columns: teaching with notes, teaching without notes. Rows: no questions from the audience, deep questions from the audience. With notes and no questions: least benefit, re-reading aloud. With notes and questions: some benefit from answering. Without notes, no questions: retrieval and organisation. Without notes, deep questions: most benefit, retrieval plus knowledge-building.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Two choices that decide what the teacher learns</text>
+  <text x="380" y="90" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Teaching WITH notes</text>
+  <text x="700" y="90" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Teaching WITHOUT notes</text>
+  <text x="140" y="175" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">No questions</text>
+  <text x="140" y="195" text-anchor="middle" font-size="15" fill="#111111">from audience</text>
+  <text x="140" y="355" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Deep questions</text>
+  <text x="140" y="375" text-anchor="middle" font-size="15" fill="#111111">from audience</text>
+  <rect x="230" y="110" width="300" height="160" rx="4" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="309.2" y="168" width="141.6" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="380" y="186" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">LEAST BENEFIT</text>
+  <text x="380" y="206" text-anchor="middle" font-size="15" fill="#111111">re-reading aloud</text>
+  <rect x="540" y="110" width="300" height="160" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="578.7" y="168" width="222.6" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="690" y="186" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">GOOD</text>
+  <text x="690" y="206" text-anchor="middle" font-size="15" fill="#111111">retrieval and organisation</text>
+  <rect x="230" y="290" width="300" height="160" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="268.7" y="348" width="222.6" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="380" y="366" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">SOME BENEFIT</text>
+  <text x="380" y="386" text-anchor="middle" font-size="15" fill="#111111">answering forces retrieval</text>
+  <rect x="540" y="290" width="300" height="160" rx="4" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="562.5" y="348" width="255.0" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="690" y="366" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">MOST BENEFIT</text>
+  <text x="690" y="386" text-anchor="middle" font-size="15" fill="#111111">retrieval + knowledge-building</text>
+  <text x="480.0" y="520" text-anchor="middle" font-size="13" fill="#333333">Summary of research on learning by teaching; cell labels are qualitative.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A checked brain dump page</title>
+  <desc>A notebook page headed Supply-chain risk with recalled items in plain text; during checking, a wrong item is struck through with a correction, missing items are added in a dotted box, a vague item is underlined with a note, and an unconnected pair is linked with a dashed arrow. A key on the right explains the four marks.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Checking: four marks for four kinds of gap</text>
+  <rect x="40" y="70" width="560" height="450" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="64" y="104" font-size="18" font-weight="bold" fill="#111111">Supply-chain risk - everything I remember</text>
+  <line x1="64" y1="114" x2="576" y2="114" stroke="#222222" stroke-width="1.5"/>
+  <text x="70" y="140" font-size="16" fill="#111111">- Supply risk: single supplier, quality failure</text>
+  <text x="70" y="176" font-size="16" fill="#111111">- Demand risk: forecast error, bullwhip effect</text>
+  <text x="70" y="212" font-size="16" fill="#111111">- Inventory turnover = inventory / sales</text>
+  <text x="70" y="284" font-size="16" fill="#111111">- Safety stock: something about demand</text>
+  <text x="70" y="320" font-size="16" fill="#111111">- Lead time: order to delivery</text>
+  <text x="70" y="356" font-size="16" fill="#111111">- Controls: dual sourcing, buffer stock</text>
+  <line x1="220" y1="207" x2="340" y2="207" stroke="#8B0000" stroke-width="2.5"/>
+  <rect x="84" y="227" width="367.3" height="26" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <text x="90" y="244" font-size="14" fill="#111111">WRONG -&gt; cost of goods sold / average inventory</text>
+  <line x1="200" y1="290" x2="360" y2="290" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4"/>
+  <text x="372" y="288" font-size="14" font-style="italic" fill="#111111">VAGUE: which factors?</text>
+  <path d="M64 316 C 46 310, 46 290, 62 282" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="64" y="378" width="512" height="70" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="151.5" y="391" width="337.1" height="44" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="320" y="408" text-anchor="middle" font-size="14" fill="#111111">MISSING: environmental and disruption risk;</text>
+  <text x="320" y="426" text-anchor="middle" font-size="14" fill="#111111">supplier concentration measures</text>
+  <rect x="125.0" y="471" width="390.0" height="26" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="320" y="488" text-anchor="middle" font-size="14" fill="#111111">UNCONNECTED: longer lead time -&gt; more safety stock</text>
+  <text x="640" y="104" font-size="17" font-weight="bold" fill="#111111">KEY</text>
+  <rect x="640" y="124" width="280" height="74" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="780.0" y="156.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">WRONG</text>
+  <text x="780.0" y="176.2" text-anchor="middle" font-size="15" fill="#000000">struck through, corrected</text>
+  <rect x="640" y="216" width="280" height="74" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="780.0" y="248.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">MISSING</text>
+  <text x="780.0" y="268.2" text-anchor="middle" font-size="15" fill="#000000">added in a dotted box</text>
+  <rect x="640" y="308" width="280" height="74" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="780.0" y="340.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">VAGUE</text>
+  <text x="780.0" y="360.2" text-anchor="middle" font-size="15" fill="#222222">dotted underline, note</text>
+  <rect x="640" y="400" width="280" height="74" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="780.0" y="432.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">UNCONNECTED</text>
+  <text x="780.0" y="452.2" text-anchor="middle" font-size="15" fill="#000000">dashed link drawn</text>
+</svg>

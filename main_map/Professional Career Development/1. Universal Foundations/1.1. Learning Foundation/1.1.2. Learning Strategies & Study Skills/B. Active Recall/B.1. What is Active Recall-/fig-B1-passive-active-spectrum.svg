@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Spectrum from re-exposure to demanding recall</title>
+  <desc>Study activities placed along a horizontal scale from pure re-exposure on the left to demanding recall on the right: re-reading, highlighting, copying notes, recognition quizzes, flashcards, short-answer questions, blank-page recall, explaining or teaching without notes.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">From taking in to pulling out</text>
+  <text x="60" y="92" font-size="17" font-weight="bold" fill="#111111">RE-EXPOSURE</text>
+  <text x="60" y="112" font-size="14" fill="#111111">answer in view</text>
+  <text x="900" y="92" text-anchor="end" font-size="17" font-weight="bold" fill="#111111">ACTIVE RECALL</text>
+  <text x="900" y="112" text-anchor="end" font-size="14" fill="#111111">answer must be produced</text>
+  <rect x="60" y="130" width="380" height="46" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="440" y="130" width="180" height="46" rx="0" fill="url(#dots)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="620" y="130" width="280" height="46" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="223.8" y="141" width="52.5" height="27" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="250" y="159" text-anchor="middle" font-size="15" fill="#111111">input</text>
+  <rect x="487.6" y="141" width="84.9" height="27" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="530" y="159" text-anchor="middle" font-size="15" fill="#111111">selection</text>
+  <rect x="713.5" y="141" width="93.0" height="27" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="760" y="159" text-anchor="middle" font-size="15" fill="#111111">production</text>
+  <line x1="100" y1="176" x2="100" y2="208" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <circle cx="100" cy="176" r="6" fill="#111111" stroke="#000000" stroke-width="2"/>
+  <rect x="41.3" y="212" width="117.3" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="100" y="230" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Re-reading</text>
+  <text x="100" y="250" text-anchor="middle" font-size="15" fill="#111111">notes or text</text>
+  <line x1="210" y1="176" x2="210" y2="308" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <circle cx="210" cy="176" r="6" fill="#111111" stroke="#000000" stroke-width="2"/>
+  <rect x="151.3" y="312" width="117.3" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="210" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Highlighting</text>
+  <text x="210" y="350" text-anchor="middle" font-size="15" fill="#111111">while reading</text>
+  <line x1="330" y1="176" x2="330" y2="208" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <circle cx="330" cy="176" r="6" fill="#111111" stroke="#000000" stroke-width="2"/>
+  <rect x="271.4" y="212" width="117.3" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="330" y="230" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Copying notes</text>
+  <text x="330" y="250" text-anchor="middle" font-size="15" fill="#111111">from slides</text>
+  <line x1="520" y1="176" x2="520" y2="308" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <circle cx="520" cy="176" r="6" fill="#111111" stroke="#000000" stroke-width="2"/>
+  <rect x="453.2" y="312" width="133.5" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="520" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Recognition</text>
+  <text x="520" y="350" text-anchor="middle" font-size="15" fill="#111111">multiple choice</text>
+  <line x1="650" y1="176" x2="650" y2="208" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <circle cx="650" cy="176" r="6" fill="#111111" stroke="#000000" stroke-width="2"/>
+  <rect x="591.4" y="212" width="117.3" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="650" y="230" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Flashcards</text>
+  <text x="650" y="250" text-anchor="middle" font-size="15" fill="#111111">answer hidden</text>
+  <line x1="760" y1="176" x2="760" y2="308" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <circle cx="760" cy="176" r="6" fill="#111111" stroke="#000000" stroke-width="2"/>
+  <rect x="709.5" y="312" width="101.1" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="760" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Blank-page</text>
+  <text x="760" y="350" text-anchor="middle" font-size="15" fill="#111111">free recall</text>
+  <line x1="870" y1="176" x2="870" y2="208" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <circle cx="870" cy="176" r="6" fill="#111111" stroke="#000000" stroke-width="2"/>
+  <rect x="811.4" y="212" width="117.3" height="47" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="870" y="230" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Explaining</text>
+  <text x="870" y="250" text-anchor="middle" font-size="15" fill="#111111">without notes</text>
+  <line x1="60" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="60" y="456" font-size="15" font-weight="bold" fill="#111111">Feels easy and fluent</text>
+  <text x="900" y="456" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Feels effortful, exposes gaps</text>
+  <text x="480.0" y="494" text-anchor="middle" font-size="13" fill="#333333">Positions are approximate; any format can be used passively, for example by revealing a flashcard answer at once.</text>
+</svg>

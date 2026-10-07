@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The core cycle of active recall</title>
+  <desc>Four stages arranged in a cycle: cue with source hidden, effortful retrieval, produce the answer in full, check with feedback, then return later. Each stage has a note on what it contributes: focus, strengthening and new routes, honest evidence, correction, durability.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Hide, retrieve, produce, check - then return</text>
+  <rect x="375.0" y="93.0" width="210" height="84" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="121.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">CUE</text>
+  <text x="480.0" y="139.9" text-anchor="middle" font-size="14" fill="#000000">source hidden</text>
+  <text x="480.0" y="157.9" text-anchor="middle" font-size="14" fill="#000000">sets the target</text>
+  <rect x="645.0" y="258.0" width="210" height="84" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="750.0" y="286.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">RETRIEVE</text>
+  <text x="750.0" y="304.9" text-anchor="middle" font-size="14" fill="#FFFFFF">effortful search</text>
+  <text x="750.0" y="322.9" text-anchor="middle" font-size="14" fill="#FFFFFF">builds new routes</text>
+  <rect x="375.0" y="423.0" width="210" height="84" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="451.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">PRODUCE</text>
+  <text x="480.0" y="469.9" text-anchor="middle" font-size="14" fill="#000000">answer in full</text>
+  <text x="480.0" y="487.9" text-anchor="middle" font-size="14" fill="#000000">honest evidence</text>
+  <rect x="105.0" y="258.0" width="210" height="84" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="210.0" y="286.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">CHECK</text>
+  <text x="210.0" y="304.9" text-anchor="middle" font-size="14" fill="#000000">compare, correct</text>
+  <text x="210.0" y="322.9" text-anchor="middle" font-size="14" fill="#000000">errors repaired</text>
+  <path d="M590 135 Q 705 175 750 254" fill="none" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M750 346 Q 705 425 590 465" fill="none" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M370 465 Q 255 425 210 346" fill="none" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M210 254 Q 255 175 370 135" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="370" y="270" width="220" height="60" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="480.0" y="295.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">RETURN LATER</text>
+  <text x="480.0" y="313.9" text-anchor="middle" font-size="14" fill="#111111">failures sooner, successes later</text>
+  <rect x="376" y="276" width="208" height="48" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="480" y="296" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">RETURN LATER</text>
+  <text x="480" y="315" text-anchor="middle" font-size="13" fill="#111111">failures sooner, successes later</text>
+</svg>
