@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Levels at which learning is studied</title>
+  <desc>Five levels from cells and synapses up to organisations and society, each with its typical question and research methods; the lower levels explain mechanisms, the upper levels test and choose learning methods, and cognition is the bridge between them.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Five levels at which learning is studied</text>
+
+  <!-- column headings -->
+  <text x="185" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">LEVEL</text>
+  <text x="455" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TYPICAL QUESTION</text>
+  <text x="725" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TYPICAL METHODS</text>
+
+  <!-- band 1: organisation -->
+  <rect x="80" y="88" width="770" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="80" y="88" width="210" height="84" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="185" y="124" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Organisation</text>
+  <text x="185" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">and society</text>
+  <text x="305" y="124" font-size="15" fill="#111111">Does it change work, results and</text>
+  <text x="305" y="144" font-size="15" fill="#111111">careers at scale?</text>
+  <text x="600" y="124" font-size="15" fill="#111111">Field trials, programme</text>
+  <text x="600" y="144" font-size="15" fill="#111111">evaluation, workforce data</text>
+
+  <!-- band 2: classroom / workplace -->
+  <rect x="80" y="180" width="770" height="84" fill="#F2F2F2" stroke="#333333" stroke-width="1.5"/>
+  <rect x="80" y="180" width="210" height="84" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="185" y="216" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Classroom and</text>
+  <text x="185" y="238" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">workplace</text>
+  <text x="305" y="216" font-size="15" fill="#111111">Does it work with real learners,</text>
+  <text x="305" y="236" font-size="15" fill="#111111">real content and real time limits?</text>
+  <text x="600" y="216" font-size="15" fill="#111111">Classroom trials, quasi-</text>
+  <text x="600" y="236" font-size="15" fill="#111111">experiments, design research</text>
+
+  <!-- band 3: cognition (bridge) -->
+  <rect x="80" y="272" width="770" height="84" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="80" y="272" width="210" height="84" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="185" y="308" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Mind</text>
+  <text x="185" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">(cognition)</text>
+  <rect x="300" y="282" width="282" height="64" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="310" y="308" font-size="15" fill="#111111">Which mental processes make</text>
+  <text x="310" y="328" font-size="15" fill="#111111">learning durable and usable?</text>
+  <rect x="592" y="282" width="248" height="64" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="600" y="308" font-size="15" fill="#111111">Laboratory experiments,</text>
+  <text x="600" y="328" font-size="15" fill="#111111">computational models</text>
+
+  <!-- band 4: brain systems -->
+  <rect x="80" y="364" width="770" height="84" fill="#F2F2F2" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="80" y="364" width="210" height="84" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="185" y="400" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Brain</text>
+  <text x="185" y="422" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">systems</text>
+  <text x="305" y="400" font-size="15" fill="#111111">Which networks and regions</text>
+  <text x="305" y="420" font-size="15" fill="#111111">support the process?</text>
+  <text x="600" y="400" font-size="15" fill="#111111">Brain imaging, EEG,</text>
+  <text x="600" y="420" font-size="15" fill="#111111">studies of patients</text>
+
+  <!-- band 5: cells -->
+  <rect x="80" y="456" width="770" height="84" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="80" y="456" width="210" height="84" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="185" y="492" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Cells and</text>
+  <text x="185" y="514" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">synapses</text>
+  <text x="305" y="492" font-size="15" fill="#111111">What physically changes when</text>
+  <text x="305" y="512" font-size="15" fill="#111111">something is learned?</text>
+  <text x="600" y="492" font-size="15" fill="#111111">Animal studies, recordings</text>
+  <text x="600" y="512" font-size="15" fill="#111111">from neurons, molecular work</text>
+
+  <!-- right brackets -->
+  <path d="M862 92 H872 V350 H862" fill="none" stroke="#1E5E24" stroke-width="3"/>
+  <text x="886" y="221" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111" transform="rotate(90 886 221)">methods tested and chosen</text>
+  <path d="M856 278 H902 V536 H856" fill="none" stroke="#555555" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="918" y="407" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111" transform="rotate(90 918 407)">mechanisms explained</text>
+
+  <!-- scale arrow -->
+  <line x1="48" y1="536" x2="48" y2="96" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="34" y="316" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 34 316)">larger scale, longer time spans</text>
+
+  <text x="480" y="580" text-anchor="middle" font-size="14" fill="#111111">Cognition overlaps both groups: it is the level that connects brain mechanisms to teaching decisions.</text>
+  <text x="480" y="604" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of the field's levels of analysis.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Intellectual humility as calibrated confidence</title>
+  <desc>A spectrum of how confidence relates to evidence. At the left, intellectual arrogance: confidence greater than the evidence supports. In the centre, intellectual humility: confidence matched to the evidence and openness to revision. At the right, intellectual diffidence: confidence lower than the evidence supports. Typical statements are shown for each zone.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Intellectual humility is calibration, not low confidence</text>
+
+  <rect x="40" y="80" width="280" height="80" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="320" y="80" width="320" height="80" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="640" y="80" width="280" height="80" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="80" y="104" width="200" height="32" fill="#FFFFFF"/>
+  <text x="180" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">ARROGANCE</text>
+  <rect x="360" y="104" width="240" height="32" fill="#FFFFFF"/>
+  <text x="480" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">HUMILITY</text>
+  <rect x="680" y="104" width="200" height="32" fill="#FFFFFF"/>
+  <text x="780" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">DIFFIDENCE</text>
+
+  <line x1="40" y1="190" x2="920" y2="190" stroke="#222222" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="44" y="216" font-size="14" fill="#111111">confidence exceeds evidence</text>
+  <text x="480" y="216" text-anchor="middle" font-size="14" fill="#111111">confidence matches evidence</text>
+  <text x="916" y="216" text-anchor="end" font-size="14" fill="#111111">confidence below evidence</text>
+
+  <g font-size="14" fill="#111111">
+    <rect x="40" y="240" width="280" height="150" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+    <text x="56" y="266" font-weight="bold">Typical statements</text>
+    <text x="56" y="292">"I don't need to check that."</text>
+    <text x="56" y="316">"Their evidence must be wrong."</text>
+    <text x="56" y="346" font-weight="bold">Cost to learning</text>
+    <text x="56" y="370">stops seeking and updating</text>
+
+    <rect x="320" y="240" width="320" height="150" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="336" y="266" font-weight="bold">Typical statements</text>
+    <text x="336" y="292">"I'm fairly sure, but let me verify."</text>
+    <text x="336" y="316">"That changes my view."</text>
+    <text x="336" y="346" font-weight="bold">Effect on learning</text>
+    <text x="336" y="370">seeks evidence, updates in proportion</text>
+
+    <rect x="640" y="240" width="280" height="150" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+    <text x="656" y="266" font-weight="bold">Typical statements</text>
+    <text x="656" y="292">"Who am I to say?"</text>
+    <text x="656" y="316">"I'm probably wrong again."</text>
+    <text x="656" y="346" font-weight="bold">Cost to learning</text>
+    <text x="656" y="370">withholds knowledge, defers</text>
+  </g>
+
+  <rect x="40" y="410" width="880" height="56" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="434" text-anchor="middle" font-size="15" fill="#111111">The humble position holds well-supported views firmly and weakly supported views loosely,</text>
+  <text x="480" y="454" text-anchor="middle" font-size="15" fill="#111111">and changes them when the evidence changes.</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Conceptual spectrum; zones are descriptive, not measured.</text>
+</svg>

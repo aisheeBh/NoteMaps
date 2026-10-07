@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Occasional bursts compared with small daily routines</title>
+  <desc>Schematic over twelve weeks. Dashed line: two intensive training days, at week 0 and week 6, each produce a sharp rise in retained capability followed by steep decline, ending low. Solid line: small daily routines with weekly reviews produce a slow, steady, step-like rise that ends higher.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Small and regular outlasts big and occasional</text>
+
+  <!-- axes -->
+  <line x1="100" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="440" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="120" y="462">week 0</text>
+    <text x="300" y="462">week 3</text>
+    <text x="480" y="462">week 6</text>
+    <text x="660" y="462">week 9</text>
+    <text x="840" y="462">week 12</text>
+  </g>
+  <text x="500" y="490" text-anchor="middle" font-size="16" fill="#111111">Time</text>
+  <text x="50" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 260)">Capability retained, unaided</text>
+
+  <!-- burst: dashed -->
+  <path d="M120 420 L130 160 C 170 250, 230 340, 470 380 L480 150 C 520 250, 600 330, 860 365" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="860" cy="365" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- routine: solid step-like rise -->
+  <path d="M120 420 L180 405 L180 398 L240 386 L240 378 L300 366 L300 358 L360 346 L360 338 L420 326 L420 318 L480 306 L480 298 L540 286 L540 278 L600 266 L600 258 L660 246 L660 238 L720 226 L720 218 L780 206 L780 198 L860 186" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <circle cx="860" cy="186" r="6" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+
+  <!-- labels -->
+  <rect x="150" y="96" width="250" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="162" y="116" font-size="15" font-weight="bold" fill="#111111">Intensive training days</text>
+  <text x="162" y="134" font-size="14" fill="#111111">sharp gain, steep decline</text>
+
+  <rect x="590" y="110" width="270" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="602" y="130" font-size="15" font-weight="bold" fill="#111111">Daily routines, weekly review</text>
+  <text x="602" y="148" font-size="14" fill="#111111">small gains that accumulate</text>
+
+  <text x="760" y="395" text-anchor="middle" font-size="14" fill="#111111">ends lower</text>
+  <text x="800" y="176" text-anchor="middle" font-size="14" fill="#111111">ends higher</text>
+
+  <text x="480" y="524" text-anchor="middle" font-size="13" fill="#333333">Schematic of the spacing and retrieval pattern; not plotted from a single dataset.</text>
+</svg>

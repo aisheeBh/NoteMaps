@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Classical conditioning before, during and after pairing</title>
+  <desc>Before conditioning a bell produces no salivation while food produces salivation. During conditioning the bell is repeatedly followed by food. After conditioning the bell alone produces salivation. A workplace parallel shows a message tone paired with stressful demands coming to trigger anxiety on its own.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Classical conditioning: a signal comes to trigger a response</text>
+
+  <!-- column headings -->
+  <text x="180" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">1. BEFORE</text>
+  <text x="480" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">2. DURING (repeated pairing)</text>
+  <text x="780" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">3. AFTER</text>
+  <line x1="330" y1="66" x2="330" y2="400" stroke="#999999" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="630" y1="66" x2="630" y2="400" stroke="#999999" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- BEFORE pair 1 -->
+  <rect x="50" y="98" width="260" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="180" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Bell</text>
+  <text x="180" y="136" text-anchor="middle" font-size="14" fill="#111111">neutral stimulus</text>
+  <line x1="180" y1="144" x2="180" y2="170" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="50" y="174" width="260" height="36" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="180" y="198" text-anchor="middle" font-size="14" fill="#111111">no salivation</text>
+
+  <!-- BEFORE pair 2 -->
+  <rect x="50" y="236" width="260" height="46" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="62" y="242" width="236" height="34" fill="#FFFFFF"/>
+  <text x="180" y="257" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Food</text>
+  <text x="180" y="273" text-anchor="middle" font-size="14" fill="#111111">unconditioned stimulus</text>
+  <line x1="180" y1="282" x2="180" y2="308" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="50" y="312" width="260" height="46" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="180" y="332" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Salivation</text>
+  <text x="180" y="350" text-anchor="middle" font-size="14" fill="#111111">unconditioned response</text>
+
+  <!-- DURING -->
+  <rect x="350" y="170" width="260" height="66" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="362" y="178" width="236" height="50" fill="#FFFFFF"/>
+  <text x="480" y="198" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Bell, then food</text>
+  <text x="480" y="218" text-anchor="middle" font-size="14" fill="#111111">many times</text>
+  <line x1="480" y1="236" x2="480" y2="308" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="350" y="312" width="260" height="46" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="480" y="340" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Salivation</text>
+
+  <!-- AFTER -->
+  <rect x="650" y="170" width="260" height="66" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="780" y="198" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Bell alone</text>
+  <text x="780" y="218" text-anchor="middle" font-size="14" fill="#FFFFFF">now a conditioned stimulus</text>
+  <line x1="780" y1="236" x2="780" y2="308" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="650" y="312" width="260" height="46" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="780" y="332" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Salivation</text>
+  <text x="780" y="350" text-anchor="middle" font-size="14" fill="#111111">conditioned response</text>
+
+  <!-- workplace row -->
+  <text x="480" y="410" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">The same process at work</text>
+  <rect x="50" y="424" width="260" height="70" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="180" y="450" text-anchor="middle" font-size="14" fill="#111111">A chat-app tone means</text>
+  <text x="180" y="470" text-anchor="middle" font-size="14" fill="#111111">nothing in particular</text>
+  <rect x="350" y="424" width="260" height="70" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="480" y="450" text-anchor="middle" font-size="14" fill="#111111">The tone keeps arriving with</text>
+  <text x="480" y="470" text-anchor="middle" font-size="14" fill="#111111">urgent, critical demands</text>
+  <rect x="650" y="424" width="260" height="70" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="780" y="450" text-anchor="middle" font-size="14" fill="#111111">The tone alone now</text>
+  <text x="780" y="470" text-anchor="middle" font-size="14" fill="#111111">triggers a jolt of anxiety</text>
+
+  <line x1="312" y1="459" x2="346" y2="459" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="612" y1="459" x2="646" y2="459" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="480" y="530" text-anchor="middle" font-size="14" fill="#111111">If the signal later occurs repeatedly without the outcome, the response weakens (extinction) but can return.</text>
+  <text x="480" y="560" text-anchor="middle" font-size="13" fill="#333333">After Ivan Pavlov's experiments with dogs, early 1900s; workplace row is illustrative.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Daily, weekly and monthly learning routines</title>
+  <desc>Three nested panels. The innermost daily panel captures lessons through recall before looking, micro-reflection and a one-line log in about ten to fifteen minutes. The weekly panel around it makes lessons last through a spaced quiz from the log, a feedback harvest and one deliberate practice block in thirty to forty-five minutes. The outer monthly panel steers learning through a cold check, reading the log for patterns and reviewing goals and methods in about an hour.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Three time scales, three purposes</text>
+
+  <!-- monthly outer -->
+  <rect x="40" y="60" width="880" height="470" rx="18" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="60" y="74" width="840" height="74" rx="8" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="80" y="102" font-size="19" font-weight="bold" fill="#111111">MONTHLY · about 1 hour · STEER</text>
+  <text x="80" y="130" font-size="15" fill="#111111">cold check of last month's learning · read the log for patterns · review goals and methods</text>
+
+  <!-- weekly middle -->
+  <rect x="100" y="168" width="760" height="342" rx="14" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <rect x="120" y="182" width="720" height="74" rx="8" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="140" y="210" font-size="19" font-weight="bold" fill="#111111">WEEKLY · 30 to 45 minutes · MAKE IT LAST</text>
+  <text x="140" y="238" font-size="15" fill="#111111">spaced quiz from the log · feedback harvest · one deliberate practice block</text>
+
+  <!-- daily inner -->
+  <rect x="160" y="278" width="640" height="212" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="480" y="314" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">DAILY · 10 to 15 minutes · CAPTURE</text>
+  <g font-size="15" fill="#111111">
+    <text x="200" y="352">• recall before looking anything up</text>
+    <text x="200" y="380">• one protected focus block</text>
+    <text x="200" y="408">• two-minute reflection after key events</text>
+    <text x="200" y="436">• one-line lesson in the learning log</text>
+    <text x="200" y="464">• protect sleep after learning-heavy days</text>
+  </g>
+</svg>

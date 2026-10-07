@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Which learner differences justify tailoring instruction</title>
+  <desc>A two-by-two map. The horizontal axis asks whether a difference between learners can be measured reliably. The vertical axis asks whether tailoring instruction to that difference improves learning. Sensory learning styles sit low on both. Stated preferences are measurable but tailoring to them does not help. Spatial and verbal ability are measurable and tailoring helps only sometimes. Prior knowledge and access needs are measurable and tailoring to them clearly helps.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Which differences between learners justify tailoring?</text>
+
+  <!-- quadrants: plot x 150-850, y 70-510 -->
+  <rect x="150" y="70" width="350" height="220" fill="#F2F2F2" stroke="#555555" stroke-width="1"/>
+  <rect x="500" y="70" width="350" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="150" y="290" width="350" height="220" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="500" y="290" width="350" height="220" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+
+  <!-- quadrant names -->
+  <rect x="166" y="82" width="190" height="26" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="176" y="100" font-size="14" font-weight="bold" fill="#111111">No candidate found</text>
+  <rect x="634" y="82" width="200" height="26" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="644" y="100" font-size="14" font-weight="bold" fill="#111111">PERSONALISE HERE</text>
+  <rect x="166" y="472" width="160" height="26" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="176" y="490" font-size="14" font-weight="bold" fill="#111111">MYTH TERRITORY</text>
+  <rect x="604" y="472" width="230" height="26" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="614" y="490" font-size="14" font-weight="bold" fill="#111111">Real, but no basis to tailor</text>
+
+  <!-- items -->
+  <rect x="190" y="370" width="270" height="62" rx="6" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <text x="325" y="396" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Sensory "learning style"</text>
+  <text x="325" y="418" text-anchor="middle" font-size="14" fill="#111111">unstable measures, no matching gain</text>
+
+  <rect x="560" y="390" width="250" height="62" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="685" y="416" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Stated preference</text>
+  <text x="685" y="438" text-anchor="middle" font-size="14" fill="#111111">reliably reported, no matching gain</text>
+
+  <rect x="560" y="276" width="250" height="62" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="685" y="302" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Spatial or verbal ability</text>
+  <text x="685" y="324" text-anchor="middle" font-size="14" fill="#111111">measurable, modest gains at most</text>
+
+  <rect x="560" y="124" width="250" height="62" rx="6" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="685" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Prior knowledge</text>
+  <text x="685" y="172" text-anchor="middle" font-size="14" fill="#111111">strong, repeated tailoring gains</text>
+
+  <rect x="560" y="204" width="250" height="62" rx="6" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="685" y="230" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Access needs</text>
+  <text x="685" y="252" text-anchor="middle" font-size="14" fill="#111111">e.g. hearing loss, dyslexia</text>
+
+  <!-- axes -->
+  <line x1="150" y1="530" x2="860" y2="530" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="510" x2="130" y2="62" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="556" text-anchor="middle" font-size="16" fill="#111111">Can the difference be measured reliably?  (weak → strong)</text>
+  <text x="96" y="290" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 96 290)">Does tailoring to it improve learning?  (no → yes)</text>
+
+  <text x="480" y="600" text-anchor="middle" font-size="13" fill="#333333">Schematic placement summarising the direction of the evidence; positions are not measured values.</text>
+</svg>

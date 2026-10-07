@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>The power law of practice</title>
+  <desc>Time taken to perform a task falls steeply over the first practice trials and then ever more slowly; plotted on logarithmic axes the same relationship is a straight line.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The power law of practice</text>
+  <line x1="110" y1="440" x2="580" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="335" y="480" text-anchor="middle" font-size="16" fill="#111111">Number of practice trials</text>
+  <text x="60" y="265" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 265)">Time to complete the task</text>
+  <polyline points="110.0,107.5 114.5,196.6 119.1,237.2 123.6,261.8 128.2,278.8 132.7,291.5 137.3,301.5 141.8,309.6 146.4,316.3 150.9,322.0 155.5,327.0 160.0,331.3 164.5,335.2 169.1,338.6 173.6,341.7 178.2,344.5 182.7,347.1 187.3,349.4 191.8,351.6 196.4,353.6 200.9,355.5 205.5,357.3 210.0,358.9 214.5,360.4 219.1,361.9 223.6,363.3 228.2,364.5 232.7,365.8 237.3,366.9 241.8,368.0 246.4,369.1 250.9,370.1 255.5,371.1 260.0,372.0 264.5,372.9 269.1,373.7 273.6,374.5 278.2,375.3 282.7,376.1 287.3,376.8 291.8,377.5 296.4,378.2 300.9,378.8 305.5,379.4 310.0,380.0 314.5,380.6 319.1,381.2 323.6,381.8 328.2,382.3 332.7,382.8 337.3,383.3 341.8,383.8 346.4,384.3 350.9,384.8 355.5,385.2 360.0,385.7 364.5,386.1 369.1,386.5 373.6,386.9 378.2,387.3 382.7,387.7 387.3,388.1 391.8,388.5 396.4,388.8 400.9,389.2 405.5,389.5 410.0,389.9 414.5,390.2 419.1,390.5 423.6,390.9 428.2,391.2 432.7,391.5 437.3,391.8 441.8,392.1 446.4,392.4 450.9,392.6 455.5,392.9 460.0,393.2 464.5,393.5 469.1,393.7 473.6,394.0 478.2,394.2 482.7,394.5 487.3,394.7 491.8,395.0 496.4,395.2 500.9,395.4 505.5,395.7 510.0,395.9 514.5,396.1 519.1,396.3 523.6,396.5 528.2,396.8 532.7,397.0 537.3,397.2 541.8,397.4 546.4,397.6 550.9,397.8 555.5,398.0 560.0,398.1" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <rect x="190" y="110" width="230" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="200" y="130" font-size="15" font-weight="bold" fill="#111111">Early trials: large gains</text>
+  <text x="200" y="148" font-size="14" fill="#111111">each repetition helps a lot</text>
+  <rect x="300" y="300" width="250" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="310" y="320" font-size="15" font-weight="bold" fill="#111111">Later trials: small gains</text>
+  <text x="310" y="338" font-size="14" fill="#111111">improvement slows but continues</text>
+
+  <rect x="610" y="110" width="320" height="350" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="620" y="120" width="300" height="330" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="770" y="146" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Same data, logarithmic axes</text>
+  <line x1="650" y1="400" x2="910" y2="400" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="650" y1="400" x2="650" y2="160" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="658" y1="180" x2="890" y2="370" stroke="#1F3B5C" stroke-width="4"/>
+  <text x="775" y="428" text-anchor="middle" font-size="14" fill="#111111">log (trials)</text>
+  <text x="636" y="285" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 636 285)">log (time)</text>
+  <text x="795" y="250" font-size="14" fill="#111111">a straight line</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic: time = a × trials^(−b). Real learning curves vary in slope and often show plateaus.</text>
+</svg>

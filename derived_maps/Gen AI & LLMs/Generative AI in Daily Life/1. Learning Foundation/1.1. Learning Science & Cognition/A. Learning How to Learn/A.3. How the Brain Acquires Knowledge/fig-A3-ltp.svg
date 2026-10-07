@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Long-term potentiation of a synapse</title>
+  <desc>Schematic graph of synaptic response over time. After brief high-frequency stimulation the stimulated pathway's response rises and stays raised for hours; when protein synthesis is blocked the rise fades back to baseline within a few hours; an unstimulated pathway stays at baseline.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Long-term potentiation: a synapse that stays strengthened</text>
+
+  <!-- phase bands -->
+  <rect x="262" y="70" width="200" height="370" fill="#F2F2F2"/>
+  <text x="362" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">EARLY LTP</text>
+  <text x="362" y="110" text-anchor="middle" font-size="14" fill="#111111">existing proteins modified</text>
+  <text x="680" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">LATE LTP</text>
+  <text x="680" y="110" text-anchor="middle" font-size="14" fill="#111111">needs new proteins and structural change</text>
+
+  <!-- axes -->
+  <line x1="110" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="505" y="474" text-anchor="middle" font-size="16" fill="#111111">Time after stimulation (minutes to hours)</text>
+  <text x="54" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 54 255)">Synaptic response</text>
+  <text x="100" y="364" text-anchor="end" font-size="14" fill="#111111">baseline</text>
+  <line x1="104" y1="360" x2="110" y2="360" stroke="#222222" stroke-width="2"/>
+
+  <!-- stimulation marker -->
+  <line x1="262" y1="440" x2="262" y2="130" stroke="#222222" stroke-width="2"/>
+  <rect x="150" y="128" width="104" height="58" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="202" y="146" text-anchor="middle" font-size="14" fill="#111111">brief, intense</text>
+  <text x="202" y="163" text-anchor="middle" font-size="14" fill="#111111">stimulation</text>
+  <text x="202" y="180" text-anchor="middle" font-size="14" fill="#111111">here</text>
+
+  <!-- unstimulated pathway: dotted -->
+  <path d="M112 360 H880" fill="none" stroke="#555555" stroke-width="3" stroke-dasharray="2 4"/>
+
+  <!-- protein synthesis blocked: dashed -->
+  <path d="M112 360 H262 L270 170 C 330 190, 400 230, 470 300 C 520 345, 580 358, 880 358" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <!-- stimulated, normal: solid -->
+  <path d="M112 360 H262 L270 170 C 320 185, 380 205, 470 212 C 600 220, 750 222, 880 222" fill="none" stroke="#1F3B5C" stroke-width="4.5"/>
+
+  <!-- direct labels -->
+  <rect x="610" y="164" width="270" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="622" y="183" font-size="15" font-weight="bold" fill="#111111">Stimulated pathway</text>
+  <text x="622" y="200" font-size="14" fill="#111111">stays strengthened for hours or more</text>
+
+  <rect x="560" y="280" width="300" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="572" y="299" font-size="15" font-weight="bold" fill="#111111">Same, with protein synthesis blocked</text>
+  <text x="572" y="316" font-size="14" fill="#111111">strengthening fades back to baseline</text>
+
+  <rect x="560" y="378" width="300" height="44" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="572" y="397" font-size="15" font-weight="bold" fill="#111111">Unstimulated pathway</text>
+  <text x="572" y="414" font-size="14" fill="#111111">no change: the effect is input-specific</text>
+
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Short-term change uses existing molecules; lasting change needs new proteins, more receptors and new spines.</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic of classic findings from hippocampal recordings in animals; not plotted from a single dataset.</text>
+</svg>

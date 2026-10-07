@@ -508,7 +508,33 @@ Keep it short:
 
 ---
 
-## 13. Writing many notes
+## 13. Derived maps
+
+A derived map (e.g. `derived_maps/Gen AI & LLMs/`, defined by
+`source_json/Gen_AI_and_LLMs.json`) is a learning path built **only from
+main-map nodes**: renumbered titles, identical title text, and note content
+and figures that are **exact copies** of the main map.
+
+- **Never write or edit content inside `derived_maps/`.** Write the main-map
+  note, then re-sync:
+  ```bash
+  python scripts/sync_derived_map.py source_json/Gen_AI_and_LLMs.json "derived_maps/Gen AI & LLMs"
+  ```
+  The script copies notes and `fig-*.svg` files byte-for-byte, removes
+  anything stale and prints `IDENTICAL TO MAIN MAP` when done. Run it after
+  every batch of main-map writing, for every derived map.
+- Each derived JSON node has a `source` field (main-map title path); the
+  generator script (e.g. `scripts/derive_gen_ai_and_llms.py`) is the place to
+  change a derived map's selection or order.
+- If a derived map needs a node the main map lacks, add it to the **main**
+  JSON first (only where it genuinely belongs there), regenerate `main_map`,
+  then regenerate the derived map.
+- Validate content in `main_map/`, not in the derived copy: copied notes keep
+  their main-map H1 labels by design.
+- To find what to write next for a derived map, list its empty notes in learning order:
+  `python scripts/sync_derived_map.py <json> <dest> --todo` (prints each empty note with the main-map file to write).
+
+## 14. Writing many notes
 
 - Work one **subtopic** at a time (its leaves first, then its parent chapter),
   so vocabulary and figures stay consistent and overlap is easy to control.

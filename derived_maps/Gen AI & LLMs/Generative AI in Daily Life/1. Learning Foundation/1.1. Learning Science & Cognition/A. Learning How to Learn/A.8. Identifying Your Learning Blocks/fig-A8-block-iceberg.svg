@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Symptoms of learning blocks and their hidden causes</title>
+  <desc>An iceberg diagram. Above the surface are five symptoms people notice: putting off study, forgetting what was read, blanking in assessments, feeling lost in explanations and quitting courses. Beneath the surface are five families of causes: emotional, habit, cognitive, skill and environmental. Lines from putting off study to the emotional, habit and cognitive families show that one symptom can arise from several causes.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What people notice, and what needs fixing</text>
+  <text x="50" y="76" font-size="15" font-weight="bold" fill="#111111">SYMPTOMS: what people notice</text>
+
+
+  <!-- symptom boxes -->
+  <g stroke="#222222" stroke-width="2" fill="#FFFFFF">
+    <rect x="50" y="90" width="160" height="56" rx="6"/>
+    <rect x="225" y="90" width="160" height="56" rx="6"/>
+    <rect x="400" y="90" width="160" height="56" rx="6"/>
+    <rect x="575" y="90" width="160" height="56" rx="6"/>
+    <rect x="750" y="90" width="160" height="56" rx="6"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="130" y="113" font-weight="bold">Putting off</text><text x="130" y="132" font-weight="bold">study</text>
+    <text x="305" y="113">Forgetting what</text><text x="305" y="132">was read</text>
+    <text x="480" y="113">Blanking in</text><text x="480" y="132">assessments</text>
+    <text x="655" y="113">Lost in</text><text x="655" y="132">explanations</text>
+    <text x="830" y="113">Quitting</text><text x="830" y="132">courses</text>
+  </g>
+
+  <!-- surface -->
+  <path d="M24 200 Q 60 190 96 200 T 168 200 T 240 200 T 312 200 T 384 200 T 456 200 T 528 200 T 600 200 T 672 200 T 744 200 T 816 200 T 888 200 T 936 200" fill="none" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="936" y="190" text-anchor="end" font-size="14" font-style="italic" fill="#111111">surface</text>
+
+  <!-- submerged mass -->
+  <polygon points="120,206 840,206 900,560 60,560" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+
+  <!-- cause boxes -->
+  <g stroke="#1F3B5C" stroke-width="2.5" fill="#FFFFFF">
+    <rect x="110" y="250" width="230" height="86" rx="6"/>
+    <rect x="365" y="250" width="230" height="86" rx="6"/>
+    <rect x="620" y="250" width="230" height="86" rx="6"/>
+    <rect x="235" y="370" width="230" height="86" rx="6"/>
+    <rect x="500" y="370" width="230" height="86" rx="6"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="225" y="275" font-size="16" font-weight="bold">Emotional</text>
+    <text x="225" y="298">anxiety, fear of failure,</text><text x="225" y="318">low confidence, shame</text>
+    <text x="480" y="275" font-size="16" font-weight="bold">Habit</text>
+    <text x="480" y="298">avoidance, multitasking,</text><text x="480" y="318">cramming, tool reliance</text>
+    <text x="735" y="275" font-size="16" font-weight="bold">Cognitive</text>
+    <text x="735" y="298">missing prerequisites,</text><text x="735" y="318">misconceptions, overload</text>
+    <text x="350" y="395" font-size="16" font-weight="bold">Skill</text>
+    <text x="350" y="418">weak study methods,</text><text x="350" y="438">poor planning, monitoring</text>
+    <text x="615" y="395" font-size="16" font-weight="bold">Environmental</text>
+    <text x="615" y="418">interruptions, no time,</text><text x="615" y="438">poor sleep, unsafe climate</text>
+  </g>
+
+  <!-- one symptom, several causes -->
+  <g stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" fill="none">
+    <line x1="130" y1="146" x2="215" y2="250"/>
+    <line x1="150" y1="146" x2="470" y2="250"/>
+    <line x1="170" y1="146" x2="725" y2="250"/>
+  </g>
+
+  <rect x="250" y="488" width="460" height="34" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="480" y="511" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">CAUSES: what actually needs fixing</text>
+
+  <text x="480" y="592" text-anchor="middle" font-size="15" fill="#111111">Example: putting off study may stem from emotional, habit or cognitive causes;</text>
+  <text x="480" y="613" text-anchor="middle" font-size="15" fill="#111111">each needs a different remedy, so the cause must be found before the fix is chosen.</text>
+</svg>

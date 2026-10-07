@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Mathematics grades across a difficult school transition by implicit theory</title>
+  <desc>Schematic of the pattern reported by Blackwell, Trzesniewski and Dweck in 2007. Students holding an incremental theory and students holding an entity theory start the transition to a demanding new school with similar mathematics grades. Over the next two years the incremental group's grades rise gently while the entity group's grades stay flat or fall, so the gap widens.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Beliefs matter most when the work gets harder</text>
+
+  <line x1="120" y1="430" x2="700" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="430" x2="120" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="72" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 72 255)">Mathematics grades</text>
+  <text x="410" y="500" text-anchor="middle" font-size="16" fill="#111111">Time across a demanding two-year school transition</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="170" y="456">Term 1</text><text x="330" y="456">Term 2</text><text x="490" y="456">Term 3</text><text x="650" y="456">Term 4</text>
+  </g>
+  <g stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4">
+    <line x1="120" y1="200" x2="690" y2="200"/><line x1="120" y1="300" x2="690" y2="300"/>
+  </g>
+
+  <polyline points="170,260 330,248 490,232 650,215" fill="none" stroke="#1E5E24" stroke-width="4"/>
+  <polyline points="170,268 330,285 490,300 650,322" fill="none" stroke="#8B0000" stroke-width="4" stroke-dasharray="10 6"/>
+  <g fill="#1E5E24"><circle cx="170" cy="260" r="6"/><circle cx="330" cy="248" r="6"/><circle cx="490" cy="232" r="6"/><circle cx="650" cy="215" r="6"/></g>
+  <g fill="#FFFFFF" stroke="#8B0000" stroke-width="3"><rect x="164" y="262" width="12" height="12"/><rect x="324" y="279" width="12" height="12"/><rect x="484" y="294" width="12" height="12"/><rect x="644" y="316" width="12" height="12"/></g>
+
+  <text x="672" y="206" font-size="15" font-weight="bold" fill="#111111">Incremental theory</text>
+  <text x="672" y="226" font-size="14" fill="#111111">"ability can be developed"</text>
+  <text x="672" y="320" font-size="15" font-weight="bold" fill="#111111">Entity theory</text>
+  <text x="672" y="340" font-size="14" fill="#111111">"ability is fixed"</text>
+
+  <rect x="150" y="98" width="330" height="60" fill="#F2F2F2" stroke="#555555" stroke-width="1"/>
+  <text x="315" y="123" text-anchor="middle" font-size="15" fill="#111111">Similar grades at the start;</text>
+  <text x="315" y="144" text-anchor="middle" font-size="15" fill="#111111">the gap opens as difficulty rises</text>
+
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic of the direction of the published finding; not plotted from the study's data.</text>
+</svg>

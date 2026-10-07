@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From laboratory finding to workplace practice</title>
+  <desc>Four stages left to right: laboratory experiment, classroom or course study, self-directed study, and workplace practice. Bars beneath each show schematically declining experimental control and typical effect size. At each step something is added or lost: complex material and longer delays in classrooms; no teacher and drifting method in self-study; job demands, tools and weak measurement at work.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Each translation step adds realism and loses control</text>
+
+  <!-- stage boxes -->
+  <g font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">
+    <rect x="30" y="64" width="190" height="64" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+    <text x="125" y="92" fill="#FFFFFF">LABORATORY</text>
+    <text x="125" y="114" fill="#FFFFFF">EXPERIMENT</text>
+    <rect x="270" y="64" width="190" height="64" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+    <text x="365" y="92">CLASSROOM OR</text>
+    <text x="365" y="114">COURSE STUDY</text>
+    <rect x="510" y="64" width="190" height="64" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+    <text x="605" y="92">SELF-DIRECTED</text>
+    <text x="605" y="114">STUDY</text>
+    <rect x="750" y="64" width="190" height="64" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+    <text x="845" y="92">WORKPLACE</text>
+    <text x="845" y="114">PRACTICE</text>
+  </g>
+  <line x1="222" y1="96" x2="266" y2="96" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="462" y1="96" x2="506" y2="96" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="702" y1="96" x2="746" y2="96" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- bars: baseline y=380 -->
+  <text x="30" y="160" font-size="15" font-weight="bold" fill="#111111">Experimental control and typical effect size</text>
+  <line x1="30" y1="380" x2="940" y2="380" stroke="#222222" stroke-width="2"/>
+  <rect x="65" y="180" width="120" height="200" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="305" y="240" width="120" height="140" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="545" y="290" width="120" height="90" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="785" y="320" width="120" height="60" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="80" y="196" width="90" height="22" fill="#FFFFFF"/><text x="125" y="212">highest</text>
+    <rect x="320" y="256" width="90" height="22" fill="#FFFFFF"/><text x="365" y="272">lower</text>
+    <rect x="560" y="300" width="90" height="22" fill="#FFFFFF"/><text x="605" y="316">variable</text>
+    <rect x="800" y="330" width="90" height="22" fill="#FFFFFF"/><text x="845" y="346">lowest</text>
+  </g>
+
+  <!-- what changes -->
+  <text x="30" y="414" font-size="15" font-weight="bold" fill="#111111">What each step adds or loses</text>
+  <g font-size="14" fill="#111111">
+    <rect x="30" y="426" width="190" height="96" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="42" y="450">simple materials</text>
+    <text x="42" y="472">short delays</text>
+    <text x="42" y="494">mechanism isolated</text>
+    <rect x="270" y="426" width="190" height="96" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="282" y="450">+ real, complex content</text>
+    <text x="282" y="472">+ longer delays</text>
+    <text x="282" y="494">− teacher drift</text>
+    <rect x="510" y="426" width="190" height="96" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="522" y="450">− no teacher to</text>
+    <text x="534" y="472">enforce the method</text>
+    <text x="522" y="494">− fluency misleads</text>
+    <rect x="750" y="426" width="190" height="96" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <text x="762" y="450">+ outcomes that matter</text>
+    <text x="762" y="472">− tools, time pressure</text>
+    <text x="762" y="494">− weak measurement</text>
+  </g>
+
+  <text x="480" y="546" text-anchor="middle" font-size="13" fill="#333333">Schematic; bar heights are illustrative, not measured.</text>
+</svg>
