@@ -381,7 +381,7 @@ flowchart TD
 
 > **Key point:** combine techniques to **cover different goals** (memory, understanding, discrimination, transfer), not in the hope that every effect stacks.
 
-### Worked example: redesigning certification preparation
+### Worked example (illustrative): redesigning certification preparation
 
 - **Situation:** a consultant has eight weeks and about five hours a week to prepare for a professional cloud-architecture certification.
 
@@ -448,7 +448,7 @@ The gap between evidence and practice is wide, and its causes are well documente
 
 > **Key point:** with AI, the technique matters more than the tool. **The learner must do the retrieving, discriminating and explaining**; the AI should prompt, quiz, check and give feedback.
 
-### Case study: spaced scenario training for medication safety
+### Case study (illustrative): spaced scenario training for medication safety
 
 - **Situation:** a regional hospital group delivered annual half-day medication-safety training to nurses and junior doctors.
 - **Problem:** immediate post-course quizzes were excellent, but incident reviews kept finding the same errors — look-alike drug names, renal dose adjustments, high-risk infusion calculations.

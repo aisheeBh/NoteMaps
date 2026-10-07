@@ -251,7 +251,7 @@ flowchart TD
 
 > **Watch out:** the "Feynman technique" (explain it simply, find the gaps, simplify again) is a sound application of self-explanation, but the name is a modern popular label — the physicist Richard Feynman did not present it as a method.
 
-### Worked example: a junior solicitor's first quarter
+### Worked example (illustrative): a junior solicitor's first quarter
 
 - **Situation:** a newly qualified solicitor in a commercial property team wants to become independent on lease reviews within three months.
 
@@ -375,7 +375,7 @@ Teams rarely need new programmes; they need learning built into rituals that alr
 
 > **Remember:** measure **behaviour and outcomes**, not attendance or satisfaction. A learning routine that people like but that does not reduce repeat errors is not working.
 
-### Case study: protecting learning after an AI rollout in technical support
+### Case study (illustrative): protecting learning after an AI rollout in technical support
 
 - **Situation:** a software company gave its 120-person technical-support team an AI assistant that drafted replies and suggested fixes.
 - **Early result:** tickets resolved per hour rose quickly, especially among newer agents.

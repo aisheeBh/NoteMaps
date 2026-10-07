@@ -205,7 +205,7 @@ Popular culture credits the unconscious with powers far beyond the laboratory ev
   - automaticity develops through **extensive practice with consistent mappings** — the same stimulus always demanding the same response.
 - **The Stroop effect (John Ridley Stroop, 1935):** naming the ink colour of the word "RED" printed in blue is slow, because reading is so automatic it cannot be switched off.
 
-> **Example:** a new analyst consciously recalls each step of a spreadsheet model; a year later, she builds one while discussing the client's strategy — the procedure has moved from controlled to automatic processing.
+> **Example (illustrative):** a new analyst consciously recalls each step of a spreadsheet model; a year later, she builds one while discussing the client's strategy — the procedure has moved from controlled to automatic processing.
 
 **Figure 4.** How conscious and unconscious learning hand over to each other.
 
@@ -403,7 +403,7 @@ flowchart TD
 
 > **Remember:** rules first, then **volume**, **prediction**, **mixing**, **fast feedback** and periodic **articulation** — exposure alone builds confidence; exposure with feedback builds skill.
 
-### Worked example: a junior credit analyst building judgement
+### Worked example (illustrative): a junior credit analyst building judgement
 
 - **Situation:** a bank's new credit analysts took about two years to judge small-business loan applications reliably; most learned by reading policy manuals and occasionally comparing notes with seniors.
 
@@ -420,7 +420,7 @@ flowchart TD
 
 > **Watch out:** feedback must reflect the true outcome. If analysts were scored only on agreement with seniors, they would learn to imitate the seniors' biases rather than to predict repayment.
 
-### Case study: capturing incident-response expertise
+### Case study (illustrative): capturing incident-response expertise
 
 - **Situation:** at a software company, two senior site-reliability engineers handled most major incidents because they "just knew where to look"; junior engineers read the runbooks but froze during real outages.
 - **Problem:** both seniors were close to burnout, and one planned to leave within a year.

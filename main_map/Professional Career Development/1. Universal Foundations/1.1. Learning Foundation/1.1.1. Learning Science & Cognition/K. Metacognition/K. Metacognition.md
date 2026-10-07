@@ -360,7 +360,7 @@ flowchart TD
 - **Review successes as well as failures** — to escape outcome bias.
 - **Teach metacognition in the flow of work** — through mentoring, modelling and prompts that fade.
 
-### Worked example: a metacognitive audit of a team process
+### Worked example (illustrative): a metacognitive audit of a team process
 
 - **Situation:** a regulatory-compliance team reviews client documents for a bank; errors found by internal audit are rising. The team leader audits the process component by component.
 
@@ -381,7 +381,7 @@ flowchart TD
 
 > **Watch out:** adding forms without changing norms produces box-ticking. A confidence rating is useful only if honest "unsure" ratings are welcomed rather than penalised.
 
-### Case study: building calibrated judgement in a public-health analytics unit
+### Case study (illustrative): building calibrated judgement in a public-health analytics unit
 
 - **Situation:** a regional public-health agency's analytics unit advised officials on outbreaks, hospital capacity and vaccination uptake.
 - **Problem:** officials complained that forecasts were presented with false precision and that the unit was "always surprised"; analysts, mostly early-career, rarely voiced doubts in briefings.

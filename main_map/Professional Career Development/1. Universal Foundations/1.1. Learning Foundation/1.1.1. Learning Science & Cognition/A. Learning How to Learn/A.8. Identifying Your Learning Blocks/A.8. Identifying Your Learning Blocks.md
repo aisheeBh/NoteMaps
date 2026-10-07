@@ -192,7 +192,7 @@ Many learners work hard with techniques that build little durable learning. Thei
 - **Poor help-seeking.** Not knowing how to ask a precise question ("I don't get it" versus "why does the join duplicate rows?").
 - **Foundational skill gaps.** Reading dense text, basic numeracy, typing or digital fluency can block learning in an apparently unrelated field.
 
-> **Example:** a sales manager preparing for a finance certification spends twelve hours re-reading the textbook and highlighting. A diagnostic quiz shows recall below 40%. The block is a **skill** block — the method — not intelligence or motivation.
+> **Example (illustrative):** a sales manager preparing for a finance certification spends twelve hours re-reading the textbook and highlighting. A diagnostic quiz shows recall below 40%. The block is a **skill** block — the method — not intelligence or motivation.
 
 ### Habit blocks
 
@@ -354,7 +354,7 @@ flowchart TD
   - *e.g.* Why did I fail? → couldn't write loops. Why? → never practised writing them. Why? → copied tutorial code. Why? → felt slow and embarrassed typing my own. → emotional and skill causes found.
 - **Cause-and-effect (fishbone) diagram** — Kaoru Ishikawa's quality tool: list causes under each family, so none is overlooked.
 
-### Worked example: an analyst stuck learning Python
+### Worked example (illustrative): an analyst stuck learning Python
 
 - **Situation:** a financial analyst must automate monthly reports; she has failed the internal Python assessment twice.
 
@@ -432,7 +432,7 @@ flowchart TD
   - strong output, stagnant skill → tool over-reliance.
 - **Data sources:** completion and drop-off analytics, error patterns in assessments, short anonymous surveys, interviews with a sample of learners and their managers.
 
-### Case study: nurses and a new prescribing system
+### Case study (illustrative): nurses and a new prescribing system
 
 - **Situation:** a hospital introduced an electronic prescribing and medicines administration system. Three months after go-live, many nurses still used workarounds; managers reported "resistance to change".
 - **Diagnosis by the clinical education team:**

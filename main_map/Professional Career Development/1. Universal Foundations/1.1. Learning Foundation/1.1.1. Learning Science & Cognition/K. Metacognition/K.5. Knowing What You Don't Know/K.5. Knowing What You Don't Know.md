@@ -104,7 +104,7 @@ flowchart TD
     class C good
 ```
 
-### Worked example: the explanation test on a work topic
+### Worked example (illustrative): the explanation test on a work topic
 
 - **Situation:** a product manager believes she understands how her company's recommendation engine works.
 
@@ -203,7 +203,7 @@ The pattern is robust; its **interpretation** is contested.
 
 > **Definition — Curse of knowledge:** the difficulty that knowledgeable people have in imagining what it is like not to know what they know.
 
-> **Example:** a senior engineer writes onboarding documentation that skips "obvious" steps; new joiners repeatedly fail at the same point, which the author cannot see because the step is automatic for her.
+> **Example (illustrative):** a senior engineer writes onboarding documentation that skips "obvious" steps; new joiners repeatedly fail at the same point, which the author cannot see because the step is automatic for her.
 
 ### Expertise and the limits of competence
 
@@ -346,7 +346,7 @@ flowchart TD
 
 ---
 
-## Case Study: Mapping Unknowns in a Due-Diligence Team
+## Case Study (illustrative): Mapping Unknowns in a Due-Diligence Team
 
 - **Situation:** a consulting team had three weeks to assess an acquisition target in the medical-device industry, which no team member had worked in.
 - **Problem:** on a previous engagement in an unfamiliar sector, the team had missed a regulatory issue that later cost the client heavily; the partner wanted to avoid a repeat.

@@ -287,7 +287,7 @@ Mentors and managers can prompt metacognition with a small set of questions, use
 
 ---
 
-## Worked Example: A Four-Week Mentoring Sequence
+## Worked Example (illustrative): A Four-Week Mentoring Sequence
 
 - **Situation:** a senior consultant mentors a new analyst whose slide decks are accurate but poorly structured and unchecked; the goal is that within a month the analyst plans, checks and evaluates decks without prompting.
 
@@ -309,7 +309,7 @@ Mentors and managers can prompt metacognition with a small set of questions, use
 
 ---
 
-## Case Study: Making Senior Engineers' Thinking Visible
+## Case Study (illustrative): Making Senior Engineers' Thinking Visible
 
 - **Situation:** a software company's engineering organisation grew quickly; most engineers had under two years' experience, and production incidents traced to unchecked assumptions were rising.
 - **Problem:** senior engineers were skilled but their checking was **invisible**; code reviews consisted of brief approvals or terse corrections, and juniors learned what to fix but not **how to think about risk**.

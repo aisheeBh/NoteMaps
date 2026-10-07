@@ -217,7 +217,7 @@ flowchart TD
 - Later, before the next test, learners revisit their answers to question 3.
 - **Effect:** turns a score into **diagnostic information** and a **plan**; reported to improve students' study approaches over a course.
 
-### Worked example: an exam wrapper on a mock exam
+### Worked example (illustrative): an exam wrapper on a mock exam
 
 - **Situation:** a trainee actuary scores **58%** on a mock exam (pass mark 65%). She had predicted 70%.
 
@@ -229,6 +229,8 @@ flowchart TD
 | Lapse | 3 | Omitted a required assumption statement | Add "state assumptions" to her answer template |
 | Time failure | 11 | Left the last question half done | Timed practice; move on after the allotted minutes |
 | **Total** | **42** | | |
+
+*Illustrative figures.*
 
 1. **Accuracy of prediction:** predicted 70%, scored 58% → overconfident by **12 points**; she notes that her confidence came from re-reading notes.
 2. **Biggest lever:** knowledge gaps (12) and time (11) together account for over half the lost marks.
@@ -327,7 +329,7 @@ flowchart TD
   - fluent critique that misses domain-specific standards.
 - **Good practice:** evaluate first, then ask the tool, then reconcile the two — and check the tool's judgements against real outcomes over time.
 
-### Case study: win–loss reviews in a bid team
+### Case study (illustrative): win–loss reviews in a bid team
 
 - **Situation:** an engineering consultancy bid for public infrastructure contracts; it won about one bid in four.
 - **Problem:** reviews took place only after **losses**, concluded mostly that "price was too high" or "the client favoured the incumbent", and changed little.

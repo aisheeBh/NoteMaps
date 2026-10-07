@@ -77,7 +77,7 @@ Two people start the same job with the same degree. Twenty years later one is am
   - They recognise **what matters** faster.
   - They **monitor** their own performance more accurately.
 
-> **Example — one pharmacist, four layers:** *knows* which drugs interact (knowledge) → *calculates* paediatric doses accurately (skill) → *dispenses safely* in a busy hospital pharmacy (competence) → *spots a rare interaction* that standard checks miss (expertise).
+> **Example (illustrative) — one pharmacist, four layers:** *knows* which drugs interact (knowledge) → *calculates* paediatric doses accurately (skill) → *dispenses safely* in a busy hospital pharmacy (competence) → *spots a rare interaction* that standard checks miss (expertise).
 
 **Figure 1.** The layers of professional capability.
 
@@ -331,7 +331,7 @@ flowchart TD
 
 > **In practice:** a network is a structure of ties of varying strength across varying communities, maintained by **genuine contribution** — sharing knowledge, helping, doing visibly good work — not transactional contact.
 
-### Worked example: two development investments
+### Worked example (illustrative): two development investments
 
 - **Situation:** a 28-year-old financial analyst has ~300 study hours this year.
 
@@ -645,7 +645,7 @@ flowchart TD
   - a much smaller share in **professions**;
   - → starting knowledge, ability and feedback quality also matter.
 
-### Case study: two engineers, eleven years
+### Case study (illustrative): two engineers, eleven years
 
 - **Start:** Arjun and Meera join the same company in the same year with similar degrees.
 - **Arjun:**
@@ -706,7 +706,7 @@ flowchart TD
 
 > **Mnemonic — "A PAPER":** Assess, Prioritise, Plan, Act, Prove (evidence), Reflect.
 
-### Worked example: an individual development plan
+### Worked example (illustrative): an individual development plan
 
 - **Situation:** a data analyst, two years in, aims to be a senior analyst within two years.
 - **Gap 1 — framing business problems**
@@ -760,7 +760,7 @@ flowchart TD
 
 > **Watch out:** effective development often **feels harder** than ineffective development, so satisfaction scores can mislead.
 
-### Case study: rebuilding a career framework
+### Case study (illustrative): rebuilding a career framework
 
 - **Situation:** a professional services firm of ~2,000 people.
 - **Problem:** its best technical consultants left after 5–7 years.
