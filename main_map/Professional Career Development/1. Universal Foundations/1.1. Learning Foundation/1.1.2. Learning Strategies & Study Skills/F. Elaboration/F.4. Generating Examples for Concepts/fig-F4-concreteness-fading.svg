@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Concreteness fading</title>
+  <desc>Three steps from concrete to abstract for the concept of compound growth: a savings account with real amounts, a simple bar diagram, then the general formula.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Concreteness fading: from a familiar case to the general idea</text>
+
+  <!-- step 1 concrete -->
+  <rect x="40" y="300" width="270" height="170" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="175" y="326" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1. CONCRETE</text>
+  <g font-size="14" fill="#111111">
+    <text x="56" y="352">Rs 10,000 saved at 10% a year</text>
+    <text x="56" y="374">Year 1: 11,000</text>
+    <text x="56" y="394">Year 2: 12,100</text>
+    <text x="56" y="414">Year 3: 13,310</text>
+    <text x="56" y="440">Interest earns interest.</text>
+  </g>
+
+  <!-- step 2 iconic -->
+  <rect x="345" y="210" width="270" height="260" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="357" y="222" width="246" height="236" fill="#FFFFFF"/>
+  <text x="480" y="246" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2. ICONIC</text>
+  <rect x="385" y="380" width="40" height="60" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="445" y="374" width="40" height="66" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="505" y="367" width="40" height="73" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="565" y="359" width="30" height="81" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="276" text-anchor="middle" font-size="14" fill="#111111">each bar is the last</text>
+  <text x="480" y="294" text-anchor="middle" font-size="14" fill="#111111">bar times 1.1</text>
+  <text x="480" y="320" text-anchor="middle" font-size="14" fill="#111111">steps grow each year</text>
+
+  <!-- step 3 abstract -->
+  <rect x="650" y="120" width="270" height="350" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="785" y="150" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">3. ABSTRACT</text>
+  <text x="785" y="230" text-anchor="middle" font-size="24" font-weight="bold" fill="#FFFFFF">A = P(1 + r)^n</text>
+  <text x="785" y="280" text-anchor="middle" font-size="14" fill="#FFFFFF">applies to savings, debt,</text>
+  <text x="785" y="300" text-anchor="middle" font-size="14" fill="#FFFFFF">inflation, user growth,</text>
+  <text x="785" y="320" text-anchor="middle" font-size="14" fill="#FFFFFF">bacterial cultures</text>
+
+  <path d="M310 340 L340 320" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M615 260 L645 240" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <text x="480" y="505" text-anchor="middle" font-size="14" fill="#111111">Concrete first for meaning; abstract last for transfer to cases that look nothing alike.</text>
+</svg>

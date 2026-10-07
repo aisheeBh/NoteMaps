@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A worked example with principle-based self-explanations</title>
+  <desc>A net present value calculation shown as four steps on the left, each paired on the right with a self-explanation naming the principle that justifies it: time value of money, discounting, the decision rule, and a sensitivity check.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Each step of a worked example, explained by its principle</text>
+  <text x="480" y="62" text-anchor="middle" font-size="15" fill="#111111">Problem: pay 100,000 now for a machine that saves 40,000 a year for 3 years; cost of capital 10%.</text>
+
+  <text x="230" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">WORKED STEP</text>
+  <text x="710" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">SELF-EXPLANATION (why this step)</text>
+
+  <g font-size="14" fill="#111111">
+    <rect x="40" y="115" width="380" height="90" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="54" y="138" font-weight="bold">1. List cash flows by year</text>
+    <text x="54" y="160">Year 0: -100,000</text>
+    <text x="54" y="180">Years 1-3: +40,000 each</text>
+
+    <rect x="500" y="115" width="420" height="90" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="514" y="138" font-weight="bold">Principle: time value of money</text>
+    <text x="514" y="160">Money at different dates cannot simply be added;</text>
+    <text x="514" y="180">each amount must be tagged with when it arrives.</text>
+
+    <rect x="40" y="225" width="380" height="110" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="54" y="248" font-weight="bold">2. Discount each year's saving</text>
+    <text x="54" y="270">40,000 / 1.1 = 36,364</text>
+    <text x="54" y="290">40,000 / 1.21 = 33,058</text>
+    <text x="54" y="310">40,000 / 1.331 = 30,053</text>
+
+    <rect x="500" y="225" width="420" height="110" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="514" y="248" font-weight="bold">Principle: discounting at the cost of capital</text>
+    <text x="514" y="270">10% is what the money could earn elsewhere, so</text>
+    <text x="514" y="290">a saving in year 2 is worth less today - divide</text>
+    <text x="514" y="310">by 1.1 once for each year of waiting.</text>
+
+    <rect x="40" y="355" width="380" height="90" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="54" y="378" font-weight="bold">3. Sum and compare</text>
+    <text x="54" y="400">36,364 + 33,058 + 30,053 - 100,000</text>
+    <text x="54" y="420">= -525  (net present value)</text>
+
+    <rect x="500" y="355" width="420" height="90" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="514" y="378" font-weight="bold">Principle: the NPV decision rule</text>
+    <text x="514" y="400">A negative NPV means the machine earns slightly</text>
+    <text x="514" y="420">less than 10%; on these figures, do not buy.</text>
+
+    <rect x="40" y="465" width="380" height="90" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="54" y="488" font-weight="bold">4. Test the conclusion</text>
+    <text x="54" y="510">At 9%: NPV is about +1,250</text>
+    <text x="54" y="530">The decision flips near 9.7%</text>
+
+    <rect x="500" y="465" width="420" height="90" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="514" y="488" font-weight="bold">Principle: sensitivity to assumptions</text>
+    <text x="514" y="510">The answer is close to zero, so the decision</text>
+    <text x="514" y="530">depends on the rate - the real question is the rate.</text>
+  </g>
+
+  <g stroke="#222222" stroke-width="2">
+    <line x1="420" y1="160" x2="496" y2="160" marker-end="url(#arrow)"/>
+    <line x1="420" y1="280" x2="496" y2="280" marker-end="url(#arrow)"/>
+    <line x1="420" y1="400" x2="496" y2="400" marker-end="url(#arrow)"/>
+    <line x1="420" y1="510" x2="496" y2="510" marker-end="url(#arrow)"/>
+  </g>
+
+  <text x="480" y="595" text-anchor="middle" font-size="13" fill="#333333">Figures rounded to the nearest unit; the right-hand column is what a principle-based self-explainer adds.</text>
+</svg>

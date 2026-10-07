@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Separate images compared with an interactive image</title>
+  <desc>Left: two items imagined side by side without contact, a padlock and a cloud. Right: the same two items imagined interacting, a padlock locking the cloud shut, which links them in memory and here also carries the idea of encrypting data stored in the cloud.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Separate images are forgotten; interacting images are linked</text>
+
+  <line x1="480" y1="60" x2="480" y2="440" stroke="#555555" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <text x="240" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">SEPARATE: side by side</text>
+  <text x="720" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">INTERACTIVE: one acts on the other</text>
+
+  <!-- left: cloud and padlock apart -->
+  <g stroke="#222222" stroke-width="3" fill="#FFFFFF">
+    <path d="M90 270 C 70 270, 60 240, 85 228 C 85 200, 125 190, 140 210 C 155 185, 200 190, 205 220 C 235 220, 240 265, 210 270 Z"/>
+    <rect x="300" y="240" width="90" height="70" rx="8"/>
+    <path d="M318 240 L318 210 C 318 180, 372 180, 372 210 L372 240" fill="none"/>
+    <circle cx="345" cy="272" r="7" fill="#222222"/>
+  </g>
+  <text x="150" y="310" text-anchor="middle" font-size="15" fill="#111111">cloud</text>
+  <text x="345" y="335" text-anchor="middle" font-size="15" fill="#111111">padlock</text>
+  <text x="240" y="400" text-anchor="middle" font-size="15" fill="#111111">Recalling "cloud" does not</text>
+  <text x="240" y="420" text-anchor="middle" font-size="15" fill="#111111">bring back "padlock"</text>
+
+  <!-- right: padlock on cloud -->
+  <g stroke="#1F3B5C" stroke-width="3.5" fill="#BCD5EE">
+    <path d="M560 300 C 520 300, 505 250, 550 232 C 550 180, 625 165, 650 200 C 680 160, 770 170, 775 220 C 830 222, 840 296, 790 300 Z"/>
+  </g>
+  <g stroke="#000000" stroke-width="3.5" fill="#FFFFFF">
+    <rect x="640" y="250" width="80" height="62" rx="8"/>
+    <path d="M656 250 L656 222 C 656 194, 704 194, 704 222 L704 250" fill="none"/>
+    <circle cx="680" cy="280" r="7" fill="#000000"/>
+  </g>
+  <text x="720" y="355" text-anchor="middle" font-size="15" fill="#111111">a padlock clamped shut on the cloud</text>
+  <text x="720" y="400" text-anchor="middle" font-size="15" fill="#111111">Recalling "cloud" brings back "padlock" -</text>
+  <text x="720" y="420" text-anchor="middle" font-size="15" fill="#111111">and the idea: encrypt data stored in the cloud</text>
+
+  <text x="480" y="490" text-anchor="middle" font-size="13" fill="#333333">Illustration of the interactive-imagery principle; drawings are schematic.</text>
+</svg>

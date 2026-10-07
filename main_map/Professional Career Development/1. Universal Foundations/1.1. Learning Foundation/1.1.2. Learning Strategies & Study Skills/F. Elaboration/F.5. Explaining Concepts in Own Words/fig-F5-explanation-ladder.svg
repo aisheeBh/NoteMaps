@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four levels of putting something in one's own words</title>
+  <desc>A staircase from restating the text, through synonym swapping and connected paraphrase, to a principle-based explanation, each illustrated with a response to the sentence that raising interest rates tends to reduce inflation.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">"In your own words": four levels, from copying to explaining</text>
+  <text x="480" y="60" text-anchor="middle" font-size="15" fill="#111111">Source sentence: "Raising interest rates tends to reduce inflation."</text>
+
+  <g font-size="14" fill="#111111">
+    <rect x="40" y="450" width="430" height="80" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+    <text x="54" y="474" font-weight="bold" font-size="15">1. RESTATEMENT</text>
+    <text x="54" y="496">"Higher interest rates reduce inflation."</text>
+    <text x="54" y="516">Same idea, same words - nothing added.</text>
+
+    <rect x="170" y="345" width="450" height="80" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+    <text x="184" y="369" font-weight="bold" font-size="15">2. SYNONYM SWAP</text>
+    <text x="184" y="391">"Putting up borrowing costs brings price rises down."</text>
+    <text x="184" y="411">New words, but still no mechanism.</text>
+
+    <rect x="300" y="235" width="470" height="85" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="314" y="259" font-weight="bold" font-size="15">3. CONNECTED PARAPHRASE</text>
+    <text x="314" y="281">"Loans get dearer, so people and firms borrow and spend</text>
+    <text x="314" y="301">less, and with less demand, prices rise more slowly."</text>
+
+    <rect x="430" y="90" width="500" height="120" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="442" y="100" width="476" height="100" fill="#FFFFFF"/>
+    <text x="454" y="124" font-weight="bold" font-size="15">4. PRINCIPLE-BASED EXPLANATION</text>
+    <text x="454" y="146">"It works through demand: dearer credit cuts spending, so</text>
+    <text x="454" y="166">sellers cannot raise prices as easily. That is why it is slow</text>
+    <text x="454" y="186">and does little against a supply shock such as an oil price rise."</text>
+  </g>
+
+  <path d="M250 450 L250 428" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M400 345 L400 323" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M560 235 L560 213" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g font-size="14" fill="#111111">
+    <text x="660" y="380">Levels 3 and 4 are where</text>
+    <text x="660" y="398">learning happens: each adds</text>
+    <text x="660" y="416">causes, links and limits.</text>
+  </g>
+  <text x="480" y="560" text-anchor="middle" font-size="13" fill="#333333">Illustrative responses; the economic mechanism is simplified.</text>
+</svg>
