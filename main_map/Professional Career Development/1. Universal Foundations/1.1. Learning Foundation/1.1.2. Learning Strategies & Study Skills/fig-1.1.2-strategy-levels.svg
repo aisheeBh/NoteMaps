@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Tactics, strategies and study practices nested inside self-regulation</title>
+  <desc>Four nested rectangles. The outermost is self-regulation, which sets goals, monitors and adjusts. Inside it is the study practice, the organisation of strategies over weeks. Inside that is a strategy, a purposeful pattern of tactics. At the centre are tactics, single concrete actions. Examples are given for each level.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">From a single action to a regulated study practice</text>
+
+  <!-- Level 4: self-regulation -->
+  <rect x="30" y="64" width="900" height="510" rx="10" fill="#F2F2F2" stroke="#222222" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="54" y="96" font-size="20" font-weight="bold" fill="#111111">SELF-REGULATION</text>
+  <text x="54" y="120" font-size="15" fill="#111111">sets goals, chooses strategies, monitors results, adjusts</text>
+  <text x="54" y="142" font-size="14" font-style="italic" fill="#111111">e.g. noticing that recall of topic 3 is weak and moving it to an earlier review</text>
+
+  <!-- Level 3: study practice -->
+  <rect x="70" y="160" width="820" height="394" rx="10" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="88" y="172" width="784" height="72" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="104" y="198" font-size="20" font-weight="bold" fill="#111111">STUDY PRACTICE</text>
+  <text x="104" y="220" font-size="15" fill="#111111">strategies organised over days and weeks for a real goal</text>
+  <text x="104" y="238" font-size="14" font-style="italic" fill="#111111">e.g. weekday new material, Saturday mixed recall, fortnightly timed paper</text>
+
+  <!-- Level 2: strategy -->
+  <rect x="120" y="262" width="720" height="272" rx="10" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="138" y="274" width="684" height="72" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="154" y="300" font-size="20" font-weight="bold" fill="#111111">STRATEGY</text>
+  <text x="154" y="322" font-size="15" fill="#111111">a purposeful pattern of tactics aimed at a learning goal</text>
+  <text x="154" y="340" font-size="14" font-style="italic" fill="#111111">e.g. retrieval practice: recalling material from memory, then checking</text>
+
+  <!-- Level 1: tactics -->
+  <rect x="170" y="366" width="620" height="148" rx="10" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="398" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">TACTICS</text>
+  <text x="480" y="422" text-anchor="middle" font-size="15" fill="#FFFFFF">single concrete actions</text>
+  <rect x="196" y="440" width="176" height="56" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="284" y="464" text-anchor="middle" font-size="14" fill="#111111">cover the answer</text>
+  <text x="284" y="484" text-anchor="middle" font-size="14" fill="#111111">on a flashcard</text>
+  <rect x="392" y="440" width="176" height="56" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="480" y="464" text-anchor="middle" font-size="14" fill="#111111">write a blank-page</text>
+  <text x="480" y="484" text-anchor="middle" font-size="14" fill="#111111">recall of a lecture</text>
+  <rect x="588" y="440" width="176" height="56" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+  <text x="676" y="464" text-anchor="middle" font-size="14" fill="#111111">answer a past</text>
+  <text x="676" y="484" text-anchor="middle" font-size="14" fill="#111111">question unaided</text>
+</svg>
