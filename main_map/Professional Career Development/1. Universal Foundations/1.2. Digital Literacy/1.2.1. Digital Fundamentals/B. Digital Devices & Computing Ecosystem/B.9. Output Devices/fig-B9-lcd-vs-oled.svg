@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How LCD and OLED displays produce light</title>
+  <desc>Left: an LCD stack from back to front: a backlight that is always on, a liquid-crystal layer that blocks or passes light, colour filters and the front glass; black pixels still leak a little light. Right: an OLED stack: each pixel emits its own light; a black pixel is simply switched off, giving true black.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Filtered light against self-emitting pixels</text>
+  <text x="240" y="80" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">LCD</text>
+  <text x="720" y="80" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">OLED</text>
+
+  <!-- LCD layers (bottom = back) -->
+  <rect x="80" y="400" width="320" height="40" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="150" y="408" width="180" height="24" fill="#FFFFFF"/>
+  <text x="240" y="425" text-anchor="middle" font-size="14" fill="#111111">backlight, always on</text>
+  <rect x="80" y="330" width="320" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="140" y="338" width="200" height="24" fill="#FFFFFF"/>
+  <text x="240" y="355" text-anchor="middle" font-size="14" fill="#111111">liquid crystals: shutter</text>
+  <rect x="80" y="260" width="320" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="240" y="285" text-anchor="middle" font-size="14" fill="#111111">colour filters, red, green, blue</text>
+  <rect x="80" y="190" width="320" height="40" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <text x="240" y="215" text-anchor="middle" font-size="14" fill="#111111">front glass</text>
+  <line x1="140" y1="398" x2="140" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="150" y="125" font-size="14" fill="#111111">white pixel</text>
+  <line x1="320" y1="398" x2="320" y2="160" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <text x="330" y="150" font-size="14" fill="#111111">"black" leaks</text>
+
+  <!-- OLED -->
+  <rect x="560" y="400" width="320" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="720" y="425" text-anchor="middle" font-size="14" fill="#111111">backplane: switches each pixel</text>
+  <rect x="560" y="330" width="320" height="40" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="580" y="336" width="60" height="28" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="800" y="336" width="60" height="28" fill="#111111"/>
+  <text x="720" y="355" text-anchor="middle" font-size="14" fill="#111111">emitting layer</text>
+  <rect x="560" y="190" width="320" height="40" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <text x="720" y="215" text-anchor="middle" font-size="14" fill="#111111">front glass</text>
+  <line x1="610" y1="330" x2="610" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="620" y="125" font-size="14" fill="#111111">pixel lit</text>
+  
+  <text x="830" y="160" text-anchor="middle" font-size="14" fill="#111111">pixel off: true black</text>
+  <line x1="830" y1="332" x2="830" y2="175" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <text x="240" y="480" text-anchor="middle" font-size="15" fill="#111111">thicker; blacks glow slightly; no burn-in</text>
+  <text x="720" y="480" text-anchor="middle" font-size="15" fill="#111111">thinner; perfect blacks; burn-in possible</text>
+  <text x="920" y="525" text-anchor="end" font-size="13" fill="#111111">Schematic cross-sections; layers simplified.</text>
+</svg>

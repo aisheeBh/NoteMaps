@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>URI, URL and URN</title>
+  <desc>A large rounded region labelled URI contains two overlapping-free regions: URLs, which say where and how to fetch a resource, with examples of https and mailto addresses; and URNs, which give a persistent name independent of location, with an ISBN example.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">URLs and URNs are both kinds of URI</text>
+  <rect x="60" y="70" width="840" height="360" rx="30" fill="#F2F2F2" stroke="#222222" stroke-width="2.5"/>
+  <text x="480" y="105" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">URI: any identifier of a resource</text>
+  <ellipse cx="300" cy="270" rx="210" ry="125" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <ellipse cx="680" cy="270" rx="190" ry="115" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="150" y="190" width="300" height="40" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="300.0" y="215.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">URL: where and how to fetch it</text>
+  <rect x="170" y="250" width="260" height="32" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="300.0" y="270.9" text-anchor="middle" font-size="14" fill="#111111">https://www.example.org/about</text>
+  <rect x="170" y="295" width="260" height="32" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="300.0" y="315.9" text-anchor="middle" font-size="14" fill="#111111">mailto:help@example.org</text>
+  <rect x="535" y="200" width="290" height="40" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="680.0" y="225.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">URN: a persistent name</text>
+  <rect x="555" y="255" width="250" height="32" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="680.0" y="275.9" text-anchor="middle" font-size="14" fill="#111111">urn:isbn:9780140449136</text>
+  <rect x="555" y="298" width="250" height="32" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="680.0" y="318.9" text-anchor="middle" font-size="14" fill="#111111">same name wherever copies are</text>
+  <text x="480.0" y="470" text-anchor="middle" font-size="13" fill="#333333">Most identifiers met in daily use are URLs; URNs appear mainly in libraries, publishing and standards.</text>
+</svg>

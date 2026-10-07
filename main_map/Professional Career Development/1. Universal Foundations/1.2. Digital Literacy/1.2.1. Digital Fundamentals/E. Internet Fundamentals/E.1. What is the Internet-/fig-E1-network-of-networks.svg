@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The Internet as a network of networks</title>
+  <desc>Independently owned networks - a home network, an office, a mobile operator, two ISPs, a university and a cloud provider - connect to each other through transit carriers and an Internet exchange point, all speaking the common Internet Protocol.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Many independently owned networks, one Internet</text>
+  <rect x="380" y="230" width="200" height="90" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480.0" y="260.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Internet exchange</text>
+  <text x="480.0" y="280.25" text-anchor="middle" font-size="15" fill="#FFFFFF">point and transit</text>
+  <text x="480.0" y="300.25" text-anchor="middle" font-size="15" fill="#FFFFFF">carriers</text>
+  <rect x="40" y="80" width="200" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="140.0" y="110.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Home network</text>
+  <text x="140.0" y="130.25" text-anchor="middle" font-size="15" fill="#111111">household router</text>
+  <text x="140.0" y="150.25" text-anchor="middle" font-size="15" fill="#111111">laptops, phones, TV</text>
+  <rect x="380" y="70" width="200" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="100.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Mobile operator</text>
+  <text x="480.0" y="120.25" text-anchor="middle" font-size="15" fill="#111111">masts and core</text>
+  <text x="480.0" y="140.25" text-anchor="middle" font-size="15" fill="#111111">millions of phones</text>
+  <rect x="720" y="80" width="200" height="90" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="757.25" y="95.25" width="125.50000000000001" height="21" fill="#FFFFFF"/>
+  <text x="820.0" y="110.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Cloud provider</text>
+  <rect x="765.5" y="115.25" width="109.00000000000001" height="21" fill="#FFFFFF"/>
+  <text x="820.0" y="130.25" text-anchor="middle" font-size="15" fill="#111111">data centres</text>
+  <rect x="749.0" y="135.25" width="142.0" height="21" fill="#FFFFFF"/>
+  <text x="820.0" y="150.25" text-anchor="middle" font-size="15" fill="#111111">private backbone</text>
+  <rect x="40" y="390" width="200" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="140.0" y="420.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Office network</text>
+  <text x="140.0" y="440.25" text-anchor="middle" font-size="15" fill="#111111">company LAN</text>
+  <text x="140.0" y="460.25" text-anchor="middle" font-size="15" fill="#111111">Wi-Fi, servers</text>
+  <rect x="380" y="410" width="200" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="440.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">University network</text>
+  <text x="480.0" y="460.25" text-anchor="middle" font-size="15" fill="#111111">campus sites</text>
+  <text x="480.0" y="480.25" text-anchor="middle" font-size="15" fill="#111111">research links</text>
+  <rect x="720" y="390" width="200" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="820.0" y="420.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Content network</text>
+  <text x="820.0" y="440.25" text-anchor="middle" font-size="15" fill="#111111">video and web</text>
+  <text x="820.0" y="460.25" text-anchor="middle" font-size="15" fill="#111111">caches near users</text>
+  <rect x="150" y="235" width="150" height="80" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="225.0" y="270.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">ISP A</text>
+  <text x="225.0" y="290.25" text-anchor="middle" font-size="15" fill="#111111">access network</text>
+  <rect x="660" y="235" width="150" height="80" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="735.0" y="270.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">ISP B</text>
+  <text x="735.0" y="290.25" text-anchor="middle" font-size="15" fill="#111111">access network</text>
+  <line x1="140" y1="170" x2="200" y2="233" stroke="#222222" stroke-width="2"/>
+  <line x1="140" y1="388" x2="200" y2="317" stroke="#222222" stroke-width="2"/>
+  <line x1="300" y1="275" x2="378" y2="275" stroke="#222222" stroke-width="2"/>
+  <line x1="658" y1="275" x2="582" y2="275" stroke="#222222" stroke-width="2"/>
+  <line x1="480" y1="160" x2="480" y2="228" stroke="#222222" stroke-width="2"/>
+  <line x1="480" y1="408" x2="480" y2="322" stroke="#222222" stroke-width="2"/>
+  <line x1="820" y1="170" x2="760" y2="233" stroke="#222222" stroke-width="2"/>
+  <line x1="820" y1="388" x2="760" y2="317" stroke="#222222" stroke-width="2"/>
+  <path d="M720 125 C 600 125 600 210 560 228" fill="none" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="540" text-anchor="middle" font-size="14" fill="#333333">Each box is separately owned and managed; links between them are agreed commercially and all use the Internet Protocol.</text>
+</svg>

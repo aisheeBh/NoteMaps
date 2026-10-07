@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The memory hierarchy</title>
+  <desc>A pyramid with five levels. At the narrow top, processor registers: tiny and fastest. Below, cache: small and very fast. Then RAM: gigabytes, fast, volatile. Then SSD storage: hundreds of gigabytes to terabytes, slower, persistent. At the wide base, hard disks, network and cloud storage: largest, cheapest per gigabyte and slowest. Arrows show speed increasing upwards and capacity increasing downwards.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The memory hierarchy</text>
+  <polygon points="440,70 520,70 560,150 400,150" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="480" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Registers</text>
+  <polygon points="400,155 560,155 600,235 360,235" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="202" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Cache</text>
+  <polygon points="360,240 600,240 640,320 320,320" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="420" y="268" width="120" height="26" fill="#FFFFFF"/>
+  <text x="480" y="287" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">RAM</text>
+  <polygon points="320,325 640,325 680,405 280,405" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="480" y="372" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SSD storage</text>
+  <polygon points="280,410 680,410 720,490 240,490" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="480" y="456" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Hard disk, network, cloud</text>
+
+  <g font-size="14" fill="#111111">
+    <text x="580" y="105">bytes; fastest of all</text>
+    <text x="620" y="190">megabytes; on the chip</text>
+    <text x="660" y="275">gigabytes; lost at power-off</text>
+    <text x="700" y="360">terabytes; kept without power</text>
+    <text x="736" y="445">largest; cheapest per GB;</text>
+    <text x="736" y="463">slowest to reach</text>
+  </g>
+  <line x1="200" y1="480" x2="200" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="185" y="285" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 185 285)">faster and costlier per GB</text>
+  <line x1="120" y1="90" x2="120" y2="480" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="105" y="285" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 105 285)">larger capacity</text>
+  <text x="920" y="560" text-anchor="end" font-size="13" fill="#111111">Schematic; capacities are typical orders of magnitude.</text>
+</svg>

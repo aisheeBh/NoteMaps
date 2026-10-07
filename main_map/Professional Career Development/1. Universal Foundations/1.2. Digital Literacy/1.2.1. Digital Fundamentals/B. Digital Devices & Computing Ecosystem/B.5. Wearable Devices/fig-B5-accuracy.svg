@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Relative reliability of wearable measurements</title>
+  <desc>Horizontal bars rank common wearable measurements by typical reliability for decision-making. Resting heart rate and steps while walking are the most reliable; sleep duration and heart rate during intense exercise are moderate; sleep stages are limited; calories burned are the least reliable.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What a consumer wearable measures well, and what it does not</text>
+  <g font-size="16" fill="#111111" text-anchor="end">
+    <text x="300" y="105">Resting heart rate</text>
+    <text x="300" y="165">Steps while walking</text>
+    <text x="300" y="225">Sleep duration</text>
+    <text x="300" y="285">Heart rate, intense exercise</text>
+    <text x="300" y="345">Sleep stages</text>
+    <text x="300" y="405">Calories burned</text>
+  </g>
+  <rect x="320" y="82" width="520" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="320" y="142" width="480" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="320" y="202" width="360" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="320" y="262" width="330" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="320" y="322" width="210" height="34" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="320" y="382" width="140" height="34" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <g font-size="14" fill="#111111">
+    <text x="850" y="105">good</text>
+    <text x="810" y="165">good</text>
+    <text x="690" y="225">moderate</text>
+    <text x="660" y="285">moderate</text>
+    <text x="540" y="345">limited</text>
+    <text x="470" y="405">poor: rough guide only</text>
+  </g>
+  <line x1="320" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2"/>
+  <text x="600" y="470" text-anchor="middle" font-size="15" fill="#111111">Typical reliability for personal decisions (trend use)</text>
+  <text x="920" y="540" text-anchor="end" font-size="13" fill="#111111">Schematic ranking summarising validation studies; not a measured scale.</text>
+</svg>

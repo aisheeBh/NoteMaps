@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Global e-waste in 2022 and the share documented as recycled</title>
+  <desc>A single horizontal bar represents about 62 million tonnes of electronic waste generated worldwide in 2022. A segment of about 22 percent, roughly 14 million tonnes, is marked as documented as properly collected and recycled. The remaining 78 percent, about 48 million tonnes, is marked as not documented: stored, landfilled, burned or informally recycled.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Electronic waste in 2022: about 62 million tonnes</text>
+  <!-- total width 800 from x=80 -->
+  <rect x="80" y="130" width="178" height="100" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="258" y="130" width="622" height="100" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="92" y="160" width="154" height="40" fill="#FFFFFF"/>
+  <text x="169" y="186" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">≈ 22%</text>
+  <rect x="470" y="160" width="200" height="40" fill="#FFFFFF"/>
+  <text x="570" y="186" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">≈ 78%</text>
+  <g font-size="15" fill="#111111">
+    <text x="80" y="270" font-weight="bold">Documented as properly</text>
+    <text x="80" y="290" font-weight="bold">collected and recycled</text>
+    <text x="80" y="312">about 14 million tonnes</text>
+    <text x="440" y="270" font-weight="bold">Not documented</text>
+    <text x="440" y="292">about 48 million tonnes: kept in drawers, landfilled,</text>
+    <text x="440" y="312">burned, or recycled informally, often unsafely</text>
+  </g>
+  <text x="480" y="370" text-anchor="middle" font-size="15" fill="#111111">Generation is rising about five times faster than documented recycling.</text>
+  <text x="920" y="440" text-anchor="end" font-size="13" fill="#111111">Source data: Global E-waste Monitor 2024 (figures for 2022), rounded.</text>
+</svg>

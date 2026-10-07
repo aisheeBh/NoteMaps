@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of Internet governance</title>
+  <desc>Stacked layers from bottom to top: infrastructure; technical standards and identifiers; data; security; content and behaviour; economic issues; access and rights. Beside each layer, the bodies most active: telecom regulators and competition authorities; IETF, W3C, ICANN and RIRs; data-protection authorities; national security agencies and treaty bodies; legislatures, courts and platforms; trade and tax bodies; human-rights bodies, civil society and development agencies.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What is governed, and by whom</text>
+  <rect x="30" y="70" width="330" height="62" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="195.0" y="96.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#222222">Access and rights</text>
+  <text x="195.0" y="115.4" text-anchor="middle" font-size="14" fill="#222222">affordability, inclusion, shutdowns</text>
+  <line x1="362" y1="101" x2="395" y2="101" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="76" width="530" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="105.9" text-anchor="middle" font-size="14" fill="#111111">human-rights bodies, civil society, development agencies</text>
+  <rect x="30" y="140" width="330" height="62" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="195.0" y="166.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Economic</text>
+  <text x="195.0" y="185.4" text-anchor="middle" font-size="14" fill="#111111">competition, tax, trade, platform markets</text>
+  <line x1="362" y1="171" x2="395" y2="171" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="146" width="530" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="175.9" text-anchor="middle" font-size="14" fill="#111111">competition authorities, trade and tax bodies</text>
+  <rect x="30" y="210" width="330" height="62" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="109.14999999999999" y="222.4" width="171.70000000000002" height="20" fill="#FFFFFF"/>
+  <text x="195.0" y="236.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Content and behaviour</text>
+  <rect x="43.69999999999999" y="241.4" width="302.6" height="20" fill="#FFFFFF"/>
+  <text x="195.0" y="255.4" text-anchor="middle" font-size="14" fill="#111111">speech, copyright, fraud, child safety</text>
+  <line x1="362" y1="241" x2="395" y2="241" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="216" width="530" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="245.9" text-anchor="middle" font-size="14" fill="#111111">legislatures, courts, regulators, platforms</text>
+  <rect x="30" y="280" width="330" height="62" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="159.2" y="292.4" width="71.60000000000001" height="20" fill="#FFFFFF"/>
+  <text x="195.0" y="306.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Security</text>
+  <rect x="86.05" y="311.4" width="217.9" height="20" fill="#FFFFFF"/>
+  <text x="195.0" y="325.4" text-anchor="middle" font-size="14" fill="#111111">cybercrime, state behaviour</text>
+  <line x1="362" y1="311" x2="395" y2="311" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="286" width="530" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="315.9" text-anchor="middle" font-size="14" fill="#111111">law enforcement, security agencies, treaty bodies</text>
+  <rect x="30" y="350" width="330" height="62" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="195.0" y="376.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Data</text>
+  <text x="195.0" y="395.4" text-anchor="middle" font-size="14" fill="#111111">privacy, transfers, localisation</text>
+  <line x1="362" y1="381" x2="395" y2="381" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="356" width="530" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="385.9" text-anchor="middle" font-size="14" fill="#111111">data-protection authorities, legislatures</text>
+  <rect x="30" y="420" width="330" height="62" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="109.14999999999999" y="432.4" width="171.70000000000002" height="20" fill="#FFFFFF"/>
+  <text x="195.0" y="446.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Technical and logical</text>
+  <rect x="59.099999999999994" y="451.4" width="271.8" height="20" fill="#FFFFFF"/>
+  <text x="195.0" y="465.4" text-anchor="middle" font-size="14" fill="#111111">standards, names, numbers, routing</text>
+  <line x1="362" y1="451" x2="395" y2="451" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="426" width="530" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="455.9" text-anchor="middle" font-size="14" fill="#111111">IETF, W3C, ICANN, RIRs, root operators</text>
+  <rect x="30" y="490" width="330" height="62" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="195.0" y="516.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Infrastructure</text>
+  <text x="195.0" y="535.4" text-anchor="middle" font-size="14" fill="#FFFFFF">cables, spectrum, interconnection</text>
+  <line x1="362" y1="521" x2="395" y2="521" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="496" width="530" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="525.9" text-anchor="middle" font-size="14" fill="#111111">telecom regulators, operators, ITU</text>
+  <text x="480" y="580" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Lower layers rely mostly on global technical coordination; upper layers mostly on national law and policy.</text>
+  <text x="480.0" y="608" text-anchor="middle" font-size="13" fill="#333333">Simplified; many bodies act across several layers.</text>
+</svg>

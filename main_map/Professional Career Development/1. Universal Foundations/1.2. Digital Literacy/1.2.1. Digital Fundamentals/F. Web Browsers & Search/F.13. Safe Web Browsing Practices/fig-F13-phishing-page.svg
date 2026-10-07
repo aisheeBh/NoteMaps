@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Warning signs on a phishing page</title>
+  <desc>A schematic fake sign-in page with numbered callouts: 1 the address bar shows an unrelated registrable domain, 2 the password manager offers nothing to fill, 3 an urgent banner threatens suspension, 4 a perfect copied logo proves nothing, 5 a request to sign in again after following a link from a message.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Five warning signs on a sign-in page</text>
+  <rect x="40.0" y="60.0" width="600.0" height="500.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="40.0" y="60.0" width="600.0" height="56.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="60.0" y="72.0" width="560.0" height="34.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="340.0" y="93.5" text-anchor="middle" font-size="15" fill="#000000">docs-share-portal.example/onedrive/login</text>
+  <rect x="80.0" y="140.0" width="520.0" height="50.0" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="149.3" y="152.5" width="381.4" height="25.5" fill="#FFFFFF"/>
+  <text x="340.0" y="169.5" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Your account will be suspended in 24 hours</text>
+  <rect x="240.0" y="215.0" width="200.0" height="60.0" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="340.0" y="249.8" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">Copied logo</text>
+  <rect x="120.0" y="300.0" width="440.0" height="44.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="340.0" y="326.2" text-anchor="middle" font-size="14" fill="#000000">Email: a.sharma@firm.example</text>
+  <rect x="120.0" y="360.0" width="440.0" height="44.0" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="194.0" y="370.2" width="292.1" height="24.2" fill="#FFFFFF"/>
+  <text x="340.0" y="386.2" text-anchor="middle" font-size="14" fill="#111111">Password: (manager offers nothing)</text>
+  <rect x="250.0" y="425.0" width="180.0" height="44.0" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="340.0" y="451.5" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Sign in again</text>
+  <text x="340.0" y="510.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Reached from a link in a chat message</text>
+  <circle cx="680" cy="89" r="16" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="680.0" y="95.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">1</text>
+  <line x1="642.0" y1="89.0" x2="664.0" y2="89.0" stroke="#333333" stroke-width="1.5"/>
+  <text x="704.0" y="94.0" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Domain is not the provider's own</text>
+  <circle cx="680" cy="165" r="16" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="680.0" y="171.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">2</text>
+  <line x1="642.0" y1="165.0" x2="664.0" y2="165.0" stroke="#333333" stroke-width="1.5"/>
+  <text x="704.0" y="170.0" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Urgency and threat</text>
+  <circle cx="680" cy="245" r="16" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="680.0" y="251.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">3</text>
+  <line x1="642.0" y1="245.0" x2="664.0" y2="245.0" stroke="#333333" stroke-width="1.5"/>
+  <text x="704.0" y="250.0" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Perfect branding proves nothing</text>
+  <circle cx="680" cy="382" r="16" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="680.0" y="388.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4</text>
+  <line x1="642.0" y1="382.0" x2="664.0" y2="382.0" stroke="#333333" stroke-width="1.5"/>
+  <text x="704.0" y="387.0" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Password manager will not fill</text>
+  <circle cx="680" cy="505" r="16" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="680.0" y="511.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">5</text>
+  <line x1="642.0" y1="505.0" x2="664.0" y2="505.0" stroke="#333333" stroke-width="1.5"/>
+  <text x="704.0" y="510.0" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Unexpected sign-in after a link</text>
+</svg>

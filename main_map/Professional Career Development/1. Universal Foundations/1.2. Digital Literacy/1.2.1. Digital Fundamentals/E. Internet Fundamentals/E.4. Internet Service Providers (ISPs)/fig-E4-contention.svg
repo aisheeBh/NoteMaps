@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Contention at peak time</title>
+  <desc>Left: at 3 a.m. only a few households are active, so each gets close to its full line speed from the shared backhaul. Right: at 9 p.m. hundreds are active and the same shared capacity is divided among them, so each gets far less.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Same shared capacity, different number of active users</text>
+  <text x="210" y="85" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">3 a.m.: 3 of 24 homes active</text>
+  <path d="M70 121 L86 105 L102 121 L102 141 L70 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M118 121 L134 105 L150 121 L150 141 L118 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M166 121 L182 105 L198 121 L198 141 L166 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M214 121 L230 105 L246 121 L246 141 L214 141 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M262 121 L278 105 L294 121 L294 141 L262 141 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M310 121 L326 105 L342 121 L342 141 L310 141 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M70 167 L86 151 L102 167 L102 187 L70 187 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M118 167 L134 151 L150 167 L150 187 L118 187 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M166 167 L182 151 L198 167 L198 187 L166 187 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M214 167 L230 151 L246 167 L246 187 L214 187 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M262 167 L278 151 L294 167 L294 187 L262 187 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M310 167 L326 151 L342 167 L342 187 L310 187 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M70 213 L86 197 L102 213 L102 233 L70 233 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M118 213 L134 197 L150 213 L150 233 L118 233 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M166 213 L182 197 L198 213 L198 233 L166 233 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M214 213 L230 197 L246 213 L246 233 L214 233 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M262 213 L278 197 L294 213 L294 233 L262 233 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M310 213 L326 197 L342 213 L342 233 L310 233 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M70 259 L86 243 L102 259 L102 279 L70 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M118 259 L134 243 L150 259 L150 279 L118 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M166 259 L182 243 L198 259 L198 279 L166 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M214 259 L230 243 L246 259 L246 279 L214 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M262 259 L278 243 L294 259 L294 279 L262 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M310 259 L326 243 L342 259 L342 279 L310 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="90" y="330" width="250" height="56" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="215.0" y="353.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Shared backhaul</text>
+  <text x="215.0" y="373.25" text-anchor="middle" font-size="15" fill="#FFFFFF">fixed capacity</text>
+  <line x1="215" y1="300" x2="215" y2="328" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="215" y1="388" x2="215" y2="430" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="215" y="455" text-anchor="middle" font-size="15" fill="#111111">to the ISP core</text>
+  <rect x="36.75" y="480" width="356.5" height="22" fill="#FFFFFF"/>
+  <text x="215" y="495" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">each active home: close to full line speed</text>
+  <text x="700" y="85" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">9 p.m.: 20 of 24 homes active</text>
+  <path d="M560 121 L576 105 L592 121 L592 141 L560 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M608 121 L624 105 L640 121 L640 141 L608 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M656 121 L672 105 L688 121 L688 141 L656 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M704 121 L720 105 L736 121 L736 141 L704 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M752 121 L768 105 L784 121 L784 141 L752 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M800 121 L816 105 L832 121 L832 141 L800 141 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M560 167 L576 151 L592 167 L592 187 L560 187 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M608 167 L624 151 L640 167 L640 187 L608 187 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M656 167 L672 151 L688 167 L688 187 L656 187 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M704 167 L720 151 L736 167 L736 187 L704 187 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M752 167 L768 151 L784 167 L784 187 L752 187 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M800 167 L816 151 L832 167 L832 187 L800 187 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M560 213 L576 197 L592 213 L592 233 L560 233 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M608 213 L624 197 L640 213 L640 233 L608 233 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M656 213 L672 197 L688 213 L688 233 L656 233 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M704 213 L720 197 L736 213 L736 233 L704 233 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M752 213 L768 197 L784 213 L784 233 L752 233 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M800 213 L816 197 L832 213 L832 233 L800 233 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M560 259 L576 243 L592 259 L592 279 L560 279 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M608 259 L624 243 L640 259 L640 279 L608 279 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M656 259 L672 243 L688 259 L688 279 L656 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M704 259 L720 243 L736 259 L736 279 L704 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M752 259 L768 243 L784 259 L784 279 L752 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M800 259 L816 243 L832 259 L832 279 L800 279 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="580" y="330" width="250" height="56" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="705.0" y="353.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Shared backhaul</text>
+  <text x="705.0" y="373.25" text-anchor="middle" font-size="15" fill="#FFFFFF">fixed capacity</text>
+  <line x1="705" y1="300" x2="705" y2="328" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="705" y1="388" x2="705" y2="430" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="705" y="455" text-anchor="middle" font-size="15" fill="#111111">to the ISP core</text>
+  <rect x="522.625" y="480" width="364.75000000000006" height="22" fill="#FFFFFF"/>
+  <text x="705" y="495" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">each active home: a small share of the pipe</text>
+  <line x1="480" y1="80" x2="480" y2="510" stroke="#666666" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="70" y="535" text-anchor="start" font-size="14" fill="#333333">Filled houses: active; grey houses: idle.</text>
+  <text x="480.0" y="552" text-anchor="middle" font-size="13" fill="#333333">Schematic; real ratios vary by provider, technology and area.</text>
+</svg>

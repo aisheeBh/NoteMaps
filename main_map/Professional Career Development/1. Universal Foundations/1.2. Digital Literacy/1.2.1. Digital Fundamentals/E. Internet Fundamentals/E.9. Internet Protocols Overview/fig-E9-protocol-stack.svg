@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Protocols by layer</title>
+  <desc>Four horizontal layers. Application: HTTP, DNS, SMTP, IMAP, SSH, TLS-secured services. Transport: TCP, UDP, QUIC. Internet: IPv4, IPv6, ICMP. Link: Ethernet, Wi-Fi, mobile radio, ARP. Beside them the seven OSI layers are mapped: physical and data link to link; network to internet; transport to transport; session, presentation and application to application.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Common protocols arranged by layer</text>
+  <rect x="30" y="75" width="150" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="105.0" y="126.3" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Application</text>
+  <rect x="195.0" y="95" width="85.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="237.5" y="125.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">HTTP</text>
+  <rect x="290.0" y="95" width="85.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="332.5" y="125.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">DNS</text>
+  <rect x="385.0" y="95" width="85.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="427.5" y="125.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">SMTP</text>
+  <rect x="480.0" y="95" width="85.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="522.5" y="125.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">IMAP</text>
+  <rect x="575.0" y="95" width="85.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="617.5" y="125.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">SSH</text>
+  <rect x="670.0" y="95" width="85.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="712.5" y="125.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">NTP</text>
+  <rect x="770" y="85" width="170" height="70" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="855.0" y="115.4" text-anchor="middle" font-size="14" fill="#222222">OSI 5 to 7: session,</text>
+  <text x="855.0" y="134.4" text-anchor="middle" font-size="14" fill="#222222">presentation, application</text>
+  <rect x="30" y="180" width="150" height="90" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="105.0" y="231.3" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Transport</text>
+  <rect x="195.0" y="200" width="180.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="285.0" y="230.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TCP</text>
+  <rect x="385.0" y="200" width="180.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="475.0" y="230.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">UDP</text>
+  <rect x="575.0" y="200" width="180.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="230.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">QUIC</text>
+  <rect x="770" y="190" width="170" height="70" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="855.0" y="229.9" text-anchor="middle" font-size="14" fill="#222222">OSI 4: transport</text>
+  <rect x="30" y="285" width="150" height="90" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="105.0" y="336.3" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Internet</text>
+  <rect x="195.0" y="305" width="180.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="285.0" y="335.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">IPv4</text>
+  <rect x="385.0" y="305" width="180.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="475.0" y="335.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">IPv6</text>
+  <rect x="575.0" y="305" width="180.0" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="665.0" y="335.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">ICMP</text>
+  <rect x="770" y="295" width="170" height="70" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="855.0" y="334.9" text-anchor="middle" font-size="14" fill="#222222">OSI 3: network</text>
+  <rect x="30" y="390" width="150" height="90" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="80.2" y="423.3" width="49.6" height="24" fill="#FFFFFF"/>
+  <text x="105.0" y="441.3" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Link</text>
+  <rect x="195.0" y="410" width="132.5" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="261.25" y="440.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Ethernet</text>
+  <rect x="337.5" y="410" width="132.5" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="403.75" y="440.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Wi-Fi</text>
+  <rect x="480.0" y="410" width="132.5" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="546.25" y="440.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Mobile radio</text>
+  <rect x="622.5" y="410" width="132.5" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="688.75" y="440.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">ARP</text>
+  <rect x="770" y="400" width="170" height="70" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="855.0" y="430.4" text-anchor="middle" font-size="14" fill="#222222">OSI 1 and 2: physical,</text>
+  <text x="855.0" y="449.4" text-anchor="middle" font-size="14" fill="#222222">data link</text>
+  <text x="480" y="505" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">TLS sits between transport and application, securing HTTP (HTTPS), IMAP, SMTP and others.</text>
+  <text x="480.0" y="540" text-anchor="middle" font-size="13" fill="#333333">Simplified; many protocols span or blur layer boundaries.</text>
+</svg>

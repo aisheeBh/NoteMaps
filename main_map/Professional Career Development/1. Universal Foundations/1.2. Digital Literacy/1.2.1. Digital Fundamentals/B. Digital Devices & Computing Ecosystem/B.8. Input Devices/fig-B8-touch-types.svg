@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Resistive and capacitive touchscreens</title>
+  <desc>Left: a resistive screen in cross-section, a flexible top layer pressed down by a gloved finger or stylus until it touches the lower conductive layer, completing a circuit at that point. Right: a capacitive screen, a rigid glass surface over a grid of electrodes; a bare finger changes the electrical field at the touched point without pressure, and two fingers can be sensed at once.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Two ways a screen feels a touch</text>
+  <!-- resistive -->
+  <text x="240" y="80" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Resistive</text>
+  <path d="M60 160 L200 160 Q240 200 280 160 L420 160" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="60" y="205" width="360" height="10" fill="#1F3B5C"/>
+  <rect x="60" y="220" width="360" height="40" fill="#E6E6E6" stroke="#666666"/>
+  <text x="240" y="245" text-anchor="middle" font-size="14" fill="#111111">display beneath</text>
+  <rect x="215" y="100" width="50" height="60" rx="20" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <text x="290" y="125" font-size="14" fill="#111111">gloved finger or stylus</text>
+  <circle cx="240" cy="203" r="6" fill="#8B0000"/>
+  <text x="420" y="188" font-size="14" fill="#111111" text-anchor="end">flexible top layer</text>
+  <g font-size="15" fill="#111111">
+    <text x="60" y="300">• needs pressure; layers touch</text>
+    <text x="60" y="325">• works with gloves, any stylus</text>
+    <text x="60" y="350">• usually single touch</text>
+    <text x="60" y="375">• less clear image</text>
+  </g>
+  <!-- capacitive -->
+  <text x="720" y="80" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Capacitive</text>
+  <rect x="540" y="160" width="360" height="16" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <rect x="540" y="180" width="360" height="25" fill="url(#hatch)" stroke="#1F3B5C"/>
+  <rect x="540" y="220" width="360" height="40" fill="#E6E6E6" stroke="#666666"/>
+  <text x="720" y="245" text-anchor="middle" font-size="14" fill="#111111">display beneath</text>
+  <rect x="610" y="100" width="44" height="58" rx="20" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <rect x="770" y="100" width="44" height="58" rx="20" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <path d="M600 182 Q632 160 664 182" fill="none" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <path d="M760 182 Q792 160 824 182" fill="none" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="720" y="92" text-anchor="middle" font-size="14" fill="#111111">two bare fingers</text>
+  <text x="900" y="217" font-size="13" fill="#111111" text-anchor="end">electrode grid</text>
+  <g font-size="15" fill="#111111">
+    <text x="540" y="300">• light touch; senses electric field</text>
+    <text x="540" y="325">• multi-touch gestures</text>
+    <text x="540" y="350">• rigid, clear glass</text>
+    <text x="540" y="375">• not with ordinary gloves</text>
+  </g>
+  <text x="920" y="500" text-anchor="end" font-size="13" fill="#111111">Schematic cross-sections; layer thicknesses exaggerated.</text>
+</svg>

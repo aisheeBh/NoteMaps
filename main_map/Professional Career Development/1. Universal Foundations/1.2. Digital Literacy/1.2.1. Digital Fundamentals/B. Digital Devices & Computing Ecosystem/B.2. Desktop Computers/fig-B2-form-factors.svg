@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Desktop form factors by size and expansion room</title>
+  <desc>Five desktop shapes drawn to rough relative scale: a tall tower, a slim small-form-factor case, a mini PC, an all-in-one display and a thin client. Below each, a bar shows how much room for expansion it offers, from high for the tower to minimal for the thin client.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Desktop form factors: size against expansion room</text>
+  <line x1="40" y1="340" x2="920" y2="340" stroke="#222222" stroke-width="2"/>
+
+  <!-- tower -->
+  <rect x="80" y="110" width="110" height="230" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="135" cy="140" r="8" fill="#FFFFFF"/>
+  <rect x="95" y="170" width="80" height="6" fill="#FFFFFF"/>
+  <rect x="95" y="185" width="80" height="6" fill="#FFFFFF"/>
+  <text x="135" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Tower</text>
+
+  <!-- SFF -->
+  <rect x="260" y="200" width="70" height="140" rx="5" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="295" cy="222" r="6" fill="#1F3B5C"/>
+  <text x="295" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Small form</text>
+  <text x="295" y="390" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">factor</text>
+
+  <!-- mini PC -->
+  <rect x="400" y="300" width="80" height="40" rx="5" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <circle cx="418" cy="320" r="5" fill="#333333"/>
+  <text x="440" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Mini PC</text>
+
+  <!-- AIO -->
+  <rect x="540" y="150" width="200" height="130" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="556" y="164" width="168" height="102" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="640" y="210" text-anchor="middle" font-size="14" fill="#111111">computer built</text>
+  <text x="640" y="229" text-anchor="middle" font-size="14" fill="#111111">into the screen</text>
+  <path d="M620 280 L610 340 L670 340 L660 280 Z" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <text x="640" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">All-in-one</text>
+
+  <!-- thin client -->
+  <rect x="800" y="270" width="40" height="70" rx="4" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="820" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Thin client</text>
+
+  <!-- expansion bars -->
+  <text x="40" y="430" font-size="16" font-weight="bold" fill="#111111">Expansion room</text>
+  <g stroke="#222222" stroke-width="1.5">
+    <rect x="80" y="450" width="110" height="26" fill="#FFFFFF"/><rect x="80" y="450" width="110" height="26" fill="#1F3B5C"/>
+    <rect x="240" y="450" width="110" height="26" fill="#FFFFFF"/><rect x="240" y="450" width="66" height="26" fill="#1F3B5C"/>
+    <rect x="385" y="450" width="110" height="26" fill="#FFFFFF"/><rect x="385" y="450" width="30" height="26" fill="#1F3B5C"/>
+    <rect x="585" y="450" width="110" height="26" fill="#FFFFFF"/><rect x="585" y="450" width="18" height="26" fill="#1F3B5C"/>
+    <rect x="765" y="450" width="110" height="26" fill="#FFFFFF"/><rect x="765" y="450" width="6" height="26" fill="#1F3B5C"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="135" y="500">high</text>
+    <text x="295" y="500">moderate</text>
+    <text x="440" y="500">low</text>
+    <text x="640" y="500">very low</text>
+    <text x="820" y="500">minimal</text>
+  </g>
+  <text x="920" y="540" text-anchor="end" font-size="13" fill="#111111">Schematic; sizes are relative, not to exact scale.</text>
+</svg>
