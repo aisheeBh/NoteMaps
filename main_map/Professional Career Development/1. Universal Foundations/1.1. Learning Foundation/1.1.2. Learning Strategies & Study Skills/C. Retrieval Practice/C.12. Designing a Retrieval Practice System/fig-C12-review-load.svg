@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Review load over time</title>
+  <desc>Schematic line: daily reviews rise after new items begin at ten a day and level off near sixty; when additions rise to thirty a day the load climbs again towards about one hundred and eighty; when additions stop, load falls slowly.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Every new item creates future reviews</text>
+  <line x1="150" y1="430" x2="880" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <line x1="150" y1="430" x2="150" y2="77" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="92" y="262" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 92 262.5)">Reviews due per day</text>
+  <text x="141" y="435" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="141" y="351" text-anchor="end" font-size="14" fill="#111111">50</text>
+  <line x1="150" y1="346" x2="880" y2="346" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="141" y="268" text-anchor="end" font-size="14" fill="#111111">100</text>
+  <line x1="150" y1="262" x2="880" y2="262" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="141" y="184" text-anchor="end" font-size="14" fill="#111111">150</text>
+  <line x1="150" y1="179" x2="880" y2="179" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="141" y="100" text-anchor="end" font-size="14" fill="#111111">200</text>
+  <line x1="150" y1="95" x2="880" y2="95" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M150.0 430.0 L165.2 407.8 L180.4 390.5 L195.6 377.0 L210.8 366.5 L226.0 358.3 L241.2 351.9 L256.5 347.0 L271.7 343.1 L286.9 340.1 L302.1 337.7 L317.3 335.9 L332.5 334.5 L347.7 333.4 L362.9 332.5 L378.1 331.9 L393.3 331.3 L408.5 286.5 L423.8 251.5 L439.0 224.3 L454.2 203.1 L469.4 186.6 L484.6 173.8 L499.8 163.7 L515.0 156.0 L530.2 149.9 L545.4 145.2 L560.6 141.5 L575.8 138.6 L591.0 136.4 L606.2 134.6 L621.5 133.3 L636.7 132.2 L651.9 163.5 L667.1 191.6 L682.3 216.6 L697.5 239.1 L712.7 259.1 L727.9 277.1 L743.1 293.2 L758.3 307.6 L773.5 320.5 L788.8 332.0 L804.0 342.3 L819.2 351.5 L834.4 359.8 L849.6 367.1 L864.8 373.8 L880.0 379.7" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <text x="150" y="452" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="393" y="452" text-anchor="middle" font-size="14" fill="#111111">16</text>
+  <text x="637" y="452" text-anchor="middle" font-size="14" fill="#111111">32</text>
+  <text x="880" y="452" text-anchor="middle" font-size="14" fill="#111111">48</text>
+  <text x="515" y="482" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Weeks</text>
+  <line x1="393" y1="100" x2="393" y2="430" stroke="#666666" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <line x1="637" y1="100" x2="637" y2="430" stroke="#666666" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <rect x="218" y="240" width="108" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="272" y="254" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">10 new a day</text>
+  <rect x="461" y="84" width="108" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="515" y="98" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">30 new a day</text>
+  <rect x="720" y="165" width="108" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="774" y="179" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">no new items</text>
+  <rect x="214" y="286" width="116" height="23" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="272" y="299" text-anchor="middle" font-size="13" fill="#111111">levels near 60</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic: assumes about six reviews per item in its first months; real loads depend on item difficulty and scheduling.</text>
+</svg>

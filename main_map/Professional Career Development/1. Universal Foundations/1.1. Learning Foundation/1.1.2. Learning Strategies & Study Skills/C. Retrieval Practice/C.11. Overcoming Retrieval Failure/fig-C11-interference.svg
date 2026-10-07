@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Proactive and retroactive interference</title>
+  <desc>Two timelines. Proactive: learn A, then learn B, then try to recall B; arrow from A disrupting recall of B. Retroactive: learn A, then learn B, then try to recall A; arrow from B disrupting recall of A.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Which learning gets in the way of which?</text>
+  <text x="60" y="90" text-anchor="start" font-size="18" fill="#111111" font-weight="bold">Proactive: old disrupts new</text>
+  <rect x="60" y="130" width="190" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="91" y="141" width="127" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="155" y="161" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Learn A</text>
+  <text x="155" y="180" text-anchor="middle" font-size="15" fill="#111111">old procedure</text>
+  <rect x="330" y="130" width="190" height="70" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="425" y="161" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Learn B</text>
+  <text x="425" y="180" text-anchor="middle" font-size="15" fill="#111111">new procedure</text>
+  <rect x="620" y="130" width="260" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="750" y="161" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Recall B</text>
+  <text x="750" y="180" text-anchor="middle" font-size="15" fill="#111111">interference from A</text>
+  <line x1="250" y1="165" x2="328" y2="165" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="520" y1="165" x2="618" y2="165" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M155 200 C 155 245, 750 245, 750 202" fill="none" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <path d="M743 212L750 201L757 212z" fill="#8B0000"/>
+  <text x="480" y="260" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">e.g. typing the old password after it was changed</text>
+  <text x="60" y="310" text-anchor="start" font-size="18" fill="#111111" font-weight="bold">Retroactive: new disrupts old</text>
+  <rect x="60" y="350" width="190" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="91" y="361" width="127" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="155" y="381" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Learn A</text>
+  <text x="155" y="400" text-anchor="middle" font-size="15" fill="#111111">old procedure</text>
+  <rect x="330" y="350" width="190" height="70" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="425" y="381" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Learn B</text>
+  <text x="425" y="400" text-anchor="middle" font-size="15" fill="#111111">new procedure</text>
+  <rect x="620" y="350" width="260" height="70" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="750" y="381" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Recall A</text>
+  <text x="750" y="400" text-anchor="middle" font-size="15" fill="#111111">interference from B</text>
+  <line x1="250" y1="385" x2="328" y2="385" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="520" y1="385" x2="618" y2="385" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M425 420 C 425 465, 750 465, 750 422" fill="none" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <path d="M743 432L750 421L757 432z" fill="#8B0000"/>
+  <text x="480" y="480" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">e.g. forgetting the old system after learning the new one</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Conceptual diagram; interference is greatest when A and B are similar.</text>
+</svg>

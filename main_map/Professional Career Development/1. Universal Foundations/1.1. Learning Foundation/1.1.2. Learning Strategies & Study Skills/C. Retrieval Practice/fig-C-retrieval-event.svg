@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Anatomy of a retrieval event</title>
+  <desc>Five boxes in sequence: cue, search, output, feedback, re-encoding, with a return arrow from re-encoding to a later cue. Beneath each box, the main design choice: format and wording; cue strength and delay; produce or recognise; answer, explanation and timing; repetition, spacing and criterion.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">One retrieval event, five design decisions</text>
+  <rect x="40" y="100" width="160" height="110" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="120" y="141" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="bold">1. Cue</text>
+  <text x="120" y="160" text-anchor="middle" font-size="15" fill="#FFFFFF">question, case,</text>
+  <text x="120" y="179" text-anchor="middle" font-size="15" fill="#FFFFFF">situation</text>
+  <line x1="200" y1="155" x2="222" y2="155" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="224" y="100" width="160" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="304" y="141" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">2. Search</text>
+  <text x="304" y="160" text-anchor="middle" font-size="15" fill="#111111">memory activated</text>
+  <text x="304" y="179" text-anchor="middle" font-size="15" fill="#111111">and explored</text>
+  <line x1="384" y1="155" x2="406" y2="155" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="408" y="100" width="160" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="488" y="141" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">3. Output</text>
+  <text x="488" y="160" text-anchor="middle" font-size="15" fill="#111111">answer produced,</text>
+  <text x="488" y="179" text-anchor="middle" font-size="15" fill="#111111">chosen or performed</text>
+  <line x1="568" y1="155" x2="590" y2="155" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="592" y="100" width="160" height="110" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="672" y="141" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">4. Feedback</text>
+  <text x="672" y="160" text-anchor="middle" font-size="15" fill="#111111">right or wrong,</text>
+  <text x="672" y="179" text-anchor="middle" font-size="15" fill="#111111">answer and why</text>
+  <line x1="752" y1="155" x2="774" y2="155" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="776" y="100" width="160" height="110" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="856" y="141" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">5. Re-encoding</text>
+  <text x="856" y="160" text-anchor="middle" font-size="15" fill="#111111">memory strengthened,</text>
+  <text x="856" y="179" text-anchor="middle" font-size="15" fill="#111111">corrected, linked</text>
+  <path d="M 840 210 C 840 300, 120 300, 120 214" fill="none" stroke="#1F3B5C" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <path d="M113 222L120 210L127 222z" fill="#1F3B5C"/>
+  <rect x="289" y="278" width="382" height="24" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="292" text-anchor="middle" font-size="14" fill="#111111">later: the next retrieval of the same knowledge</text>
+  <text x="480" y="350" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Design choice at each stage</text>
+  <rect x="40" y="370" width="160" height="100" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="120" y="398" text-anchor="middle" font-size="14" fill="#111111">format</text>
+  <text x="120" y="416" text-anchor="middle" font-size="14" fill="#111111">wording</text>
+  <text x="120" y="434" text-anchor="middle" font-size="14" fill="#111111">context</text>
+  <rect x="224" y="370" width="160" height="100" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="304" y="398" text-anchor="middle" font-size="14" fill="#111111">cue strength</text>
+  <text x="304" y="416" text-anchor="middle" font-size="14" fill="#111111">delay since</text>
+  <text x="304" y="434" text-anchor="middle" font-size="14" fill="#111111">last retrieval</text>
+  <rect x="408" y="370" width="160" height="100" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="488" y="398" text-anchor="middle" font-size="14" fill="#111111">produce or</text>
+  <text x="488" y="416" text-anchor="middle" font-size="14" fill="#111111">recognise;</text>
+  <text x="488" y="434" text-anchor="middle" font-size="14" fill="#111111">explain or state</text>
+  <rect x="592" y="370" width="160" height="100" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="672" y="398" text-anchor="middle" font-size="14" fill="#111111">answer only or</text>
+  <text x="672" y="416" text-anchor="middle" font-size="14" fill="#111111">explanation;</text>
+  <text x="672" y="434" text-anchor="middle" font-size="14" fill="#111111">now or later</text>
+  <rect x="776" y="370" width="160" height="100" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="856" y="398" text-anchor="middle" font-size="14" fill="#111111">repeat until</text>
+  <text x="856" y="416" text-anchor="middle" font-size="14" fill="#111111">criterion;</text>
+  <text x="856" y="434" text-anchor="middle" font-size="14" fill="#111111">space; mix</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Conceptual model of a single act of retrieval practice.</text>
+</svg>

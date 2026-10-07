@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Free versus cued recall of categorised lists</title>
+  <desc>Schematic bar chart in the pattern of Tulving and Pearlstone 1966: for short, medium and long categorised lists, cued recall with category names exceeds free recall, and the gap widens as lists grow. The gap represents information available but not accessible.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Stored is not the same as retrievable</text>
+  <line x1="140" y1="430" x2="680" y2="430" stroke="#222222" stroke-width="2.5"/>
+  <line x1="140" y1="430" x2="140" y2="72" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="82" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 82 260.0)">Share of studied words recalled (%)</text>
+  <text x="131" y="435" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="131" y="350" text-anchor="end" font-size="14" fill="#111111">25</text>
+  <line x1="140" y1="345" x2="680" y2="345" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="131" y="265" text-anchor="end" font-size="14" fill="#111111">50</text>
+  <line x1="140" y1="260" x2="680" y2="260" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="131" y="180" text-anchor="end" font-size="14" fill="#111111">75</text>
+  <line x1="140" y1="175" x2="680" y2="175" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="131" y="95" text-anchor="end" font-size="14" fill="#111111">100</text>
+  <line x1="140" y1="90" x2="680" y2="90" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="161" y="219" width="66" height="211" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="233" y="158" width="66" height="272" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="230" y="456" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Short list</text>
+  <rect x="341" y="267" width="66" height="163" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="413" y="178" width="66" height="252" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="410" y="456" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Medium list</text>
+  <rect x="521" y="301" width="66" height="129" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="593" y="185" width="66" height="245" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="590" y="456" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Long list</text>
+  <line x1="270" y1="215" x2="270" y2="164" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="450" y1="263" x2="450" y2="184" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="297" x2="630" y2="191" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="710" y="110" width="28" height="22" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="748" y="127" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">Free recall</text>
+  <rect x="710" y="150" width="28" height="22" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="748" y="167" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">Cued recall</text>
+  <text x="748" y="187" text-anchor="start" font-size="14" fill="#111111">(category names given)</text>
+  <rect x="705" y="230" width="235" height="150" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="734" y="262" width="178" height="86" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="822" y="282" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Gap between bars</text>
+  <text x="822" y="301" text-anchor="middle" font-size="15" fill="#111111">available in memory</text>
+  <text x="822" y="320" text-anchor="middle" font-size="15" fill="#111111">but not accessible</text>
+  <text x="822" y="339" text-anchor="middle" font-size="15" fill="#111111">without the cue</text>
+  <text x="410" y="500" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Length of categorised list</text>
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">Schematic in the pattern reported by Tulving and Pearlstone (1966); bar heights are illustrative, not their data.</text>
+</svg>
