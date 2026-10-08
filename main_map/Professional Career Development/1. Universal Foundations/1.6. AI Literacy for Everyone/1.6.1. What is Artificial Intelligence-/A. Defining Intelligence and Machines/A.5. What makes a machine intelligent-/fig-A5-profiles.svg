@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Capability profiles</title>
+  <desc>A radar chart with five axes: perception, learning, generality, autonomy, adaptation to the new. A chess engine has a narrow spiky profile, high on autonomy within the game and near zero elsewhere. A general AI assistant has a broader profile, high on generality, moderate on perception and adaptation, low on autonomy.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Intelligence as a profile across capacities</text>
+  <polygon points="380.0,250.0 446.6,298.4 421.1,376.6 338.9,376.6 313.4,298.4" fill="none" stroke="#BBBBBB" stroke-width="1"/>
+  <polygon points="380.0,180.0 513.1,276.7 462.3,433.3 297.7,433.3 246.9,276.7" fill="none" stroke="#BBBBBB" stroke-width="1"/>
+  <polygon points="380.0,110.0 579.7,255.1 503.4,489.9 256.6,489.9 180.3,255.1" fill="none" stroke="#BBBBBB" stroke-width="1"/>
+  <line x1="380" y1="320" x2="380.0" y2="110.0" stroke="#888888" stroke-width="1.2"/>
+  <text x="380.0" y="87.7" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Perception</text>
+  <line x1="380" y1="320" x2="579.7" y2="255.1" stroke="#888888" stroke-width="1.2"/>
+  <text x="605.7" y="251.7" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Learning</text>
+  <line x1="380" y1="320" x2="503.4" y2="489.9" stroke="#888888" stroke-width="1.2"/>
+  <text x="519.5" y="517.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Generality</text>
+  <line x1="380" y1="320" x2="256.6" y2="489.9" stroke="#888888" stroke-width="1.2"/>
+  <text x="240.5" y="517.0" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Autonomy</text>
+  <line x1="380" y1="320" x2="180.3" y2="255.1" stroke="#888888" stroke-width="1.2"/>
+  <text x="154.3" y="251.7" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Adaptation</text>
+  <polygon points="380.0,179.3 445.9,298.6 503.4,489.9 339.3,376.1 246.2,276.5" fill="url(#hatch)" fill-opacity="0.6" stroke="#1F3B5C" stroke-width="3"/>
+  <polygon points="380.0,309.5 499.8,281.1 386.2,328.5 256.6,489.9 314.1,298.6" fill="none" stroke="#7A5200" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="680" y="360" width="250" height="70" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="805.0" y="380.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">General AI assistant</text>
+  <text x="805.0" y="399.9" text-anchor="middle" font-size="14" fill="#111111">broad: many tasks, waits</text>
+  <text x="805.0" y="418.9" text-anchor="middle" font-size="14" fill="#111111">to be asked</text>
+  <rect x="680" y="450" width="250" height="70" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="805.0" y="470.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Chess engine</text>
+  <text x="805.0" y="489.9" text-anchor="middle" font-size="14" fill="#111111">spiky: autonomous in one</text>
+  <text x="805.0" y="508.9" text-anchor="middle" font-size="14" fill="#111111">game, nothing else</text>
+  <text x="480" y="588" text-anchor="middle" font-size="13" fill="#333333">Illustrative ratings matching the worked example; not measured values.</text>
+</svg>

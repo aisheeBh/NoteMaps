@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A spoken request decomposed into domain, intent and slots</title>
+  <desc>The request Remind me to call the dentist at four tomorrow is shown as text. Brackets beneath it mark the intent, set reminder, and three slots: the task, call the dentist; the time, 16:00; and the date, tomorrow. Above it the domain is reminders. The structured result is shown as a small record ready for the reminders service.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">From words to an instruction a computer can carry out</text>
+  <rect x="70" y="70" width="790" height="50" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="465" y="100.6" text-anchor="middle" font-size="16" fill="#222222" font-weight="bold">DOMAIN: reminders</text>
+  <text x="145" y="180" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Remind me</text>
+  <path d="M76 196 L76 210 L214 210 L214 196" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <line x1="145" y1="210" x2="145" y2="240" stroke="#222222" stroke-width="2"/>
+  <rect x="74" y="240" width="142" height="70" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="145" y="270.25" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="bold">INTENT</text>
+  <text x="145" y="290.25" text-anchor="middle" font-size="15" fill="#FFFFFF">set reminder</text>
+  <text x="370" y="180" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">to call the dentist</text>
+  <path d="M236 196 L236 210 L504 210 L504 196" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <line x1="370" y1="210" x2="370" y2="240" stroke="#222222" stroke-width="2"/>
+  <rect x="234" y="240" width="272" height="70" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="370" y="270.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">SLOT: task</text>
+  <text x="370" y="290.25" text-anchor="middle" font-size="15" fill="#000000">call the dentist</text>
+  <text x="595" y="180" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">at four</text>
+  <path d="M526 196 L526 210 L664 210 L664 196" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <line x1="595" y1="210" x2="595" y2="240" stroke="#222222" stroke-width="2"/>
+  <rect x="524" y="240" width="142" height="70" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="595" y="270.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">SLOT: time</text>
+  <text x="595" y="290.25" text-anchor="middle" font-size="15" fill="#000000">16:00</text>
+  <text x="770" y="180" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">tomorrow</text>
+  <path d="M686 196 L686 210 L854 210 L854 196" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <line x1="770" y1="210" x2="770" y2="240" stroke="#222222" stroke-width="2"/>
+  <rect x="684" y="240" width="172" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="770" y="270.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">SLOT: date</text>
+  <text x="770" y="290.25" text-anchor="middle" font-size="15" fill="#000000">tomorrow</text>
+  <rect x="250" y="360" width="460" height="120" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="270" y="392" text-anchor="start" font-size="16" fill="#111111">intent:  set_reminder</text>
+  <text x="270" y="418" text-anchor="start" font-size="16" fill="#111111">task:    "call the dentist"</text>
+  <text x="270" y="444" text-anchor="start" font-size="16" fill="#111111">when:    tomorrow 16:00</text>
+  <text x="480" y="350" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Structured result passed to the reminders service</text>
+  <text x="480" y="505" text-anchor="middle" font-size="13" fill="#333333">Illustrative example; "four" is interpreted as 16:00 using context such as the usual hours for appointments.</text>
+</svg>

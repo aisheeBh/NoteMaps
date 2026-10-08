@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From raw records to training-ready data</title>
+  <desc>A funnel of five stages showing how a large volume of raw records shrinks as duplicates and errors are removed, irrelevant records are dropped, examples are labelled and checked, and a portion is held back for testing.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Most raw data never becomes training data</text>
+  <!-- stage bars -->
+  <rect x="80" y="70" width="560" height="62" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <rect x="130" y="150" width="460" height="62" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="200" y="230" width="320" height="62" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="260" y="310" width="200" height="62" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="320" y="390" width="80" height="62" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <!-- bar labels on white backing -->
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="360" y="107" font-weight="bold">Raw records collected</text>
+    <rect x="230" y="168" width="260" height="26" fill="#FFFFFF"/><text x="360" y="187" font-weight="bold">Duplicates and errors removed</text>
+    <rect x="250" y="248" width="220" height="26" fill="#FFFFFF"/><text x="360" y="267" font-weight="bold">Relevant to the task</text>
+    <rect x="270" y="328" width="180" height="26" fill="#FFFFFF"/><text x="360" y="347" font-weight="bold">Labelled and checked</text>
+  </g>
+  <!-- right-hand descriptions -->
+  <g font-size="15" fill="#111111">
+    <text x="670" y="98">10 million rows</text>
+    <text x="670" y="120">logs, forms, sensors</text>
+    <text x="670" y="178">6 million rows</text>
+    <text x="670" y="200">clean and de-duplicated</text>
+    <text x="670" y="258">2 million rows</text>
+    <text x="670" y="280">right period, right products</text>
+    <text x="670" y="338">200 thousand examples</text>
+    <text x="670" y="360">each with a correct answer</text>
+    <text x="670" y="418">20 thousand examples</text>
+    <text x="670" y="440">held back for honest testing</text>
+  </g>
+  <g stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4">
+    <line x1="640" y1="101" x2="662" y2="101"/>
+    <line x1="590" y1="181" x2="662" y2="181"/>
+    <line x1="520" y1="261" x2="662" y2="261"/>
+    <line x1="460" y1="341" x2="662" y2="341"/>
+    <line x1="400" y1="421" x2="662" y2="421"/>
+  </g>
+  <text x="360" y="482" font-size="15" fill="#111111" text-anchor="middle">Bar widths are not to scale; each stage removes data or adds human effort.</text>
+  <text x="480" y="530" font-size="13" fill="#333333" text-anchor="middle">Illustrative figures for a single business project; real proportions vary widely.</text>
+</svg>

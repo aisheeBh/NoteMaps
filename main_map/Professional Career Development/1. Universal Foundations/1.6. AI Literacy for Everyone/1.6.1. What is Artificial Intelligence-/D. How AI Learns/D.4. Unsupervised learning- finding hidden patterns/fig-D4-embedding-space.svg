@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Words placed in an embedding space</title>
+  <desc>A two-dimensional sketch of a word embedding space. Words with related meanings sit near each other, and consistent relationships appear as parallel arrows: man to woman parallels king to queen, and France to Paris parallels Italy to Rome.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Embeddings: meaning as position, relationships as direction</text>
+  <rect x="60" y="70" width="840" height="410" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <line x1="208" y1="372" x2="320" y2="260" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="428" y1="412" x2="540" y2="300" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="651" y1="164" x2="787" y2="206" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <line x1="631" y1="244" x2="767" y2="286" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <circle cx="200" cy="380" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="184" y="386" font-size="16" font-weight="bold" fill="#111111" text-anchor="end">man</text>
+  <circle cx="330" cy="250" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="346" y="256" font-size="16" font-weight="bold" fill="#111111">woman</text>
+  <circle cx="420" cy="420" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="404" y="426" font-size="16" font-weight="bold" fill="#111111" text-anchor="end">king</text>
+  <circle cx="550" cy="290" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="566" y="296" font-size="16" font-weight="bold" fill="#111111">queen</text>
+  <circle cx="640" cy="160" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="602" y="172" width="76" height="24" fill="#FFFFFF"/>
+  <text x="640" y="190" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">France</text>
+  <circle cx="800" cy="210" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="762" y="222" width="76" height="24" fill="#FFFFFF"/>
+  <text x="800" y="240" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Paris</text>
+  <circle cx="620" cy="240" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="582" y="252" width="76" height="24" fill="#FFFFFF"/>
+  <text x="620" y="270" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Italy</text>
+  <circle cx="780" cy="290" r="8" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="742" y="302" width="76" height="24" fill="#FFFFFF"/>
+  <text x="780" y="320" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Rome</text>
+  <rect x="90" y="96" width="330" height="48" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="102" y="116" font-size="15" fill="#111111">Same direction twice: man to</text>
+  <text x="102" y="136" font-size="15" fill="#111111">woman, and king to queen</text>
+  <rect x="540" y="400" width="340" height="48" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="552" y="420" font-size="15" fill="#111111">Same direction twice: France to</text>
+  <text x="552" y="440" font-size="15" fill="#111111">Paris, and Italy to Rome</text>
+  <text x="480" y="512" font-size="15" fill="#111111" text-anchor="middle">Real embeddings have hundreds of dimensions; this flat sketch keeps only the idea.</text>
+  <text x="480" y="545" font-size="13" fill="#333333" text-anchor="middle">Schematic; positions are not taken from a trained model.</text>
+</svg>

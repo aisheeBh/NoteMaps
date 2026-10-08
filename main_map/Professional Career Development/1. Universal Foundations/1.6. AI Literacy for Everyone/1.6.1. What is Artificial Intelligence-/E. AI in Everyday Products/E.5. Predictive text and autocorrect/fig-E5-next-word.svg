@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Next-word probabilities after See you</title>
+  <desc>A horizontal bar chart shows illustrative probabilities a keyboard language model gives to the next word after See you: tomorrow 31 per cent, soon 22 per cent, later 15 per cent, there 9 per cent, at 6 per cent, and all other words 17 per cent. The top three appear in the suggestion bar.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">After "See you", which word comes next?</text>
+  <rect x="250" y="90" width="465" height="44" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="236" y="119" text-anchor="end" font-size="17" fill="#111111" font-weight="bold">tomorrow</text>
+  <rect x="731.8" y="102" width="34.4" height="24" fill="#FFFFFF"/>
+  <text x="749" y="119" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">31%</text>
+  <rect x="250" y="152" width="330" height="44" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="236" y="181" text-anchor="end" font-size="17" fill="#111111" font-weight="bold">soon</text>
+  <rect x="596.8" y="164" width="34.4" height="24" fill="#FFFFFF"/>
+  <text x="614" y="181" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">22%</text>
+  <rect x="250" y="214" width="225" height="44" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="236" y="243" text-anchor="end" font-size="17" fill="#111111" font-weight="bold">later</text>
+  <rect x="491.8" y="226" width="34.4" height="24" fill="#FFFFFF"/>
+  <text x="509" y="243" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">15%</text>
+  <rect x="250" y="276" width="135" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="236" y="305" text-anchor="end" font-size="17" fill="#111111">there</text>
+  <rect x="406.2" y="288" width="25.6" height="24" fill="#FFFFFF"/>
+  <text x="419" y="305" text-anchor="middle" font-size="16" fill="#111111">9%</text>
+  <rect x="250" y="338" width="90" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="236" y="367" text-anchor="end" font-size="17" fill="#111111">at</text>
+  <rect x="361.2" y="350" width="25.6" height="24" fill="#FFFFFF"/>
+  <text x="374" y="367" text-anchor="middle" font-size="16" fill="#111111">6%</text>
+  <rect x="250" y="400" width="255" height="44" fill="#E6E6E6" stroke="#1F3B5C" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="236" y="429" text-anchor="end" font-size="17" fill="#111111">all other words</text>
+  <rect x="521.8" y="412" width="34.4" height="24" fill="#FFFFFF"/>
+  <text x="539" y="429" text-anchor="middle" font-size="16" fill="#111111">17%</text>
+  <line x1="250" y1="82" x2="250" y2="452" stroke="#222222" stroke-width="2"/>
+  <path d="M750 90 L770 90 L770 258 L750 258" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <rect x="795.2" y="144" width="129.6" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="860" y="160" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Shown in the</text>
+  <text x="860" y="179" text-anchor="middle" font-size="15" fill="#111111">suggestion bar</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures; real probabilities depend on the person, the conversation and the model.</text>
+</svg>

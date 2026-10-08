@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How the cost of an error and the ease of checking decide the use of an AI tool</title>
+  <desc>A two-by-two matrix. Horizontal axis: how easily the output can be checked, from hard to easy. Vertical axis: cost of an error, from low to high. Low cost and easy to check: delegate freely. Low cost and hard to check: delegate, treat as a draft. High cost and easy to check: delegate, then verify fully. High cost and hard to check: keep human-led and use AI only for checkable parts.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="510" y="38" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Stakes and verifiability</text>
+
+  <!-- Quadrants: x 120-900, y 60-540 -->
+  <!-- top-left: high cost, hard to check -->
+  <rect x="120" y="60" width="390" height="230" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <!-- top-right: high cost, easy -->
+  <rect x="510" y="60" width="390" height="230" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <!-- bottom-left: low cost, hard -->
+  <rect x="120" y="290" width="390" height="230" fill="#F2F2F2" stroke="#333333" stroke-width="1.5"/>
+  <!-- bottom-right: low cost, easy -->
+  <rect x="510" y="290" width="390" height="230" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+
+  <!-- backings -->
+  <rect x="140" y="78" width="350" height="194" fill="#FFFFFF"/>
+  <rect x="530" y="78" width="350" height="194" fill="#FFFFFF"/>
+  <rect x="140" y="308" width="350" height="194" fill="#FFFFFF"/>
+  <rect x="530" y="308" width="350" height="194" fill="#FFFFFF"/>
+
+  <g fill="#111111" text-anchor="middle">
+    <text x="315" y="112" font-size="20" font-weight="bold">Keep it human-led</text>
+    <text x="315" y="140" font-size="15">AI only for parts that</text>
+    <text x="315" y="160" font-size="15">can themselves be checked</text>
+    <text x="315" y="200" font-size="14" font-style="italic">e.g. advice to a client on an</text>
+    <text x="315" y="220" font-size="14" font-style="italic">unusual legal or tax position;</text>
+    <text x="315" y="240" font-size="14" font-style="italic">a judgement about a person</text>
+
+    <text x="705" y="112" font-size="20" font-weight="bold">Delegate, verify fully</text>
+    <text x="705" y="140" font-size="15">every claim checked against</text>
+    <text x="705" y="160" font-size="15">sources before use</text>
+    <text x="705" y="200" font-size="14" font-style="italic">e.g. figures in a board paper;</text>
+    <text x="705" y="220" font-size="14" font-style="italic">a formula feeding an invoice;</text>
+    <text x="705" y="240" font-size="14" font-style="italic">a contract clause comparison</text>
+
+    <text x="315" y="342" font-size="20" font-weight="bold">Delegate as a draft</text>
+    <text x="315" y="370" font-size="15">use as a starting point;</text>
+    <text x="315" y="390" font-size="15">never present as checked fact</text>
+    <text x="315" y="430" font-size="14" font-style="italic">e.g. brainstormed options;</text>
+    <text x="315" y="450" font-size="14" font-style="italic">a first outline of a talk;</text>
+    <text x="315" y="470" font-size="14" font-style="italic">a rough market overview</text>
+
+    <text x="705" y="342" font-size="20" font-weight="bold">Delegate freely</text>
+    <text x="705" y="370" font-size="15">a glance is enough;</text>
+    <text x="705" y="390" font-size="15">errors are obvious and cheap</text>
+    <text x="705" y="430" font-size="14" font-style="italic">e.g. rewording a routine note;</text>
+    <text x="705" y="450" font-size="14" font-style="italic">tidying a meeting agenda;</text>
+    <text x="705" y="470" font-size="14" font-style="italic">a caption for a team photo</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="120" y1="560" x2="900" y2="560" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="120" y="588" font-size="15" fill="#111111">Hard to check</text>
+  <text x="900" y="588" font-size="15" fill="#111111" text-anchor="end">Easy to check</text>
+  <text x="510" y="588" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Verifiability of the output</text>
+
+  <line x1="90" y1="520" x2="90" y2="64" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="80" y="300" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle" transform="rotate(-90 80 300)">Cost of an error</text>
+  <text x="66" y="80" font-size="14" fill="#111111" text-anchor="middle" transform="rotate(-90 66 80)">High</text>
+  <text x="66" y="510" font-size="14" fill="#111111" text-anchor="middle" transform="rotate(-90 66 510)">Low</text>
+
+  <text x="510" y="612" font-size="13" fill="#333333" text-anchor="middle">Schematic; real tasks sit on continua, and a task can be split so that its parts fall in different quadrants.</text>
+</svg>

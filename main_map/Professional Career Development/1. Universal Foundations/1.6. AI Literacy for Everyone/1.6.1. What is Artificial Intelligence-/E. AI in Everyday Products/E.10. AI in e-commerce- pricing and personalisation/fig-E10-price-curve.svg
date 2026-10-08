@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Revenue and profit at five prices</title>
+  <desc>A line chart with price from 8 to 16 pounds across and weekly pounds up the page. The revenue line, solid, peaks at 8,200 pounds at a price of 10 pounds. The profit line, dashed, peaks at 5,120 pounds at a price of 12 pounds. Both lines fall at higher prices.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">The best price depends on the objective</text>
+  <line x1="130" y1="450" x2="870" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="130" y1="450" x2="130" y2="80" stroke="#222222" stroke-width="2.5"/>
+  <line x1="130" y1="450" x2="130" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="130" y="474" text-anchor="middle" font-size="15" fill="#111111">£8</text>
+  <line x1="312.5" y1="450" x2="312.5" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="312.5" y="474" text-anchor="middle" font-size="15" fill="#111111">£10</text>
+  <line x1="495" y1="450" x2="495" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="495" y="474" text-anchor="middle" font-size="15" fill="#111111">£12</text>
+  <line x1="677.5" y1="450" x2="677.5" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="677.5" y="474" text-anchor="middle" font-size="15" fill="#111111">£14</text>
+  <line x1="860" y1="450" x2="860" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="860" y="474" text-anchor="middle" font-size="15" fill="#111111">£16</text>
+  <text x="120" y="455" text-anchor="end" font-size="14" fill="#111111">£0</text>
+  <text x="120" y="375" text-anchor="end" font-size="14" fill="#111111">£2,000</text>
+  <line x1="130" y1="370" x2="860" y2="370" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="120" y="295" text-anchor="end" font-size="14" fill="#111111">£4,000</text>
+  <line x1="130" y1="290" x2="860" y2="290" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="120" y="215" text-anchor="end" font-size="14" fill="#111111">£6,000</text>
+  <line x1="130" y1="210" x2="860" y2="210" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="120" y="135" text-anchor="end" font-size="14" fill="#111111">£8,000</text>
+  <line x1="130" y1="130" x2="860" y2="130" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="495" y="502" text-anchor="middle" font-size="15" fill="#111111">Price of the phone case</text>
+  <text x="40" y="270" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 40 270)">Per week</text>
+  <path d="M130.0 130.0 L312.5 122.0 L495.0 142.8 L677.5 186.8 L860.0 245.2" fill="none" stroke="#222222" stroke-width="3.5"/>
+  <path d="M130.0 290.0 L312.5 253.2 L495.0 245.2 L677.5 262.0 L860.0 296.4" fill="none" stroke="#222222" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <circle cx="130.0" cy="130.0" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="312.5" cy="122.0" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="495.0" cy="142.8" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="677.5" cy="186.8" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <circle cx="860.0" cy="245.2" r="7" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="124.0" y="284.0" width="12" height="12" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <rect x="306.5" y="247.2" width="12" height="12" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <rect x="489.0" y="239.2" width="12" height="12" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <rect x="671.5" y="256.0" width="12" height="12" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <rect x="854.0" y="290.4" width="12" height="12" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <rect x="200.66" y="85" width="223.68" height="24" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="312.5" y="100" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Revenue peak: £8,200 at £10</text>
+  <rect x="427.08" y="276.2" width="215.84" height="24" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="535" y="291.2" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Profit peak: £5,120 at £12</text>
+  <rect x="745" y="170" width="65.75" height="23" fill="#FFFFFF"/>
+  <text x="777.875" y="186" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">revenue</text>
+  <rect x="758.25" y="294" width="57.5" height="23" fill="#FFFFFF"/>
+  <text x="787" y="310" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">profit</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures from the worked example; real demand estimates carry uncertainty.</text>
+</svg>

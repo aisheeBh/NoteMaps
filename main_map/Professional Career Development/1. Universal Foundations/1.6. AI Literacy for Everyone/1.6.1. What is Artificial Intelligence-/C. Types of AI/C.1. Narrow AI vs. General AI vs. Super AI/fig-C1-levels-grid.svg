@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Performance and generality as separate dimensions</title>
+  <desc>A grid with five performance levels from emerging to superhuman as rows and two columns, narrow and general. Narrow systems are placed at every level, from simple rule-based systems to AlphaFold. In the general column only the emerging level is occupied, by the large chatbots of 2023; higher levels are not achieved.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#E6E6E6"/><line x1="0" y1="0" x2="0" y2="8" stroke="#777777" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">How good, and how broad? Two separate questions</text>
+
+  <rect x="40" y="70" width="250" height="50" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="165" y="101" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Performance level</text>
+  <rect x="290" y="70" width="315" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="447" y="101" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">NARROW (clear scope)</text>
+  <rect x="605" y="70" width="315" height="50" fill="#FFE6A8" stroke="#7A5200" stroke-width="2"/>
+  <text x="762" y="101" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">GENERAL (wide range)</text>
+
+  <g font-size="15" fill="#111111">
+    <rect x="40" y="120" width="250" height="80" fill="#F2F2F2" stroke="#333333"/>
+    <text x="56" y="152" font-weight="bold">5 Superhuman</text>
+    <text x="56" y="176">beats all humans</text>
+    <rect x="290" y="120" width="315" height="80" fill="#FFFFFF" stroke="#333333"/>
+    <text x="306" y="152">AlphaFold, AlphaZero,</text>
+    <text x="306" y="176">top chess engines</text>
+    <rect x="605" y="120" width="315" height="80" fill="url(#hatch)" stroke="#333333"/>
+    <rect x="680" y="146" width="165" height="28" fill="#FFFFFF"/>
+    <text x="762" y="166" text-anchor="middle">not achieved</text>
+
+    <rect x="40" y="200" width="250" height="80" fill="#FFFFFF" stroke="#333333"/>
+    <text x="56" y="232" font-weight="bold">4 Virtuoso</text>
+    <text x="56" y="256">at least 99th percentile</text>
+    <rect x="290" y="200" width="315" height="80" fill="#FFFFFF" stroke="#333333"/>
+    <text x="306" y="232">Deep Blue, AlphaGo</text>
+    <rect x="605" y="200" width="315" height="80" fill="url(#hatch)" stroke="#333333"/>
+    <rect x="680" y="226" width="165" height="28" fill="#FFFFFF"/>
+    <text x="762" y="246" text-anchor="middle">not achieved</text>
+
+    <rect x="40" y="280" width="250" height="80" fill="#F2F2F2" stroke="#333333"/>
+    <text x="56" y="312" font-weight="bold">3 Expert</text>
+    <text x="56" y="336">at least 90th percentile</text>
+    <rect x="290" y="280" width="315" height="80" fill="#FFFFFF" stroke="#333333"/>
+    <text x="306" y="312">grammar checkers,</text>
+    <text x="306" y="336">image generators</text>
+    <rect x="605" y="280" width="315" height="80" fill="url(#hatch)" stroke="#333333"/>
+    <rect x="680" y="306" width="165" height="28" fill="#FFFFFF"/>
+    <text x="762" y="326" text-anchor="middle">not achieved</text>
+
+    <rect x="40" y="360" width="250" height="80" fill="#FFFFFF" stroke="#333333"/>
+    <text x="56" y="392" font-weight="bold">2 Competent</text>
+    <text x="56" y="416">at least 50th percentile</text>
+    <rect x="290" y="360" width="315" height="80" fill="#FFFFFF" stroke="#333333"/>
+    <text x="306" y="392">voice assistants,</text>
+    <text x="306" y="416">toxicity detectors</text>
+    <rect x="605" y="360" width="315" height="80" fill="url(#hatch)" stroke="#333333"/>
+    <rect x="660" y="386" width="205" height="28" fill="#FFFFFF"/>
+    <text x="762" y="406" text-anchor="middle">not achieved (disputed)</text>
+
+    <rect x="40" y="440" width="250" height="80" fill="#F2F2F2" stroke="#333333"/>
+    <text x="56" y="472" font-weight="bold">1 Emerging</text>
+    <text x="56" y="496">about unskilled-human level</text>
+    <rect x="290" y="440" width="315" height="80" fill="#FFFFFF" stroke="#333333"/>
+    <text x="306" y="472">simple rule-based systems</text>
+    <rect x="605" y="440" width="315" height="80" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+    <text x="621" y="472" font-weight="bold">large chatbots of 2023</text>
+    <text x="621" y="496">broad, unevenly reliable</text>
+  </g>
+
+  <text x="480" y="560" text-anchor="middle" font-size="15" fill="#111111">Autonomy, from tool to independent agent, is rated separately as a deployment choice.</text>
+  <text x="480" y="598" text-anchor="middle" font-size="13" fill="#333333">Placements as proposed by Morris and colleagues (2023); they are judgements, and later systems are disputed.</text>
+</svg>

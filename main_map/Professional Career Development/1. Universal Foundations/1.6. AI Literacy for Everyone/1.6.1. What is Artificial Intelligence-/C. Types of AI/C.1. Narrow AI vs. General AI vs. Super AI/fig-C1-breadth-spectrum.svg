@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Narrow, general and super AI on a scale of breadth</title>
+  <desc>A horizontal scale of breadth of competence from one task to virtually all domains. Narrow AI occupies the left zone and exists today; general AI occupies the middle zone and is a goal; super AI occupies the right zone and is hypothetical. Current large models sit at a disputed position near the boundary between narrow and general.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The three categories measure breadth of competence</text>
+
+  <rect x="60" y="90" width="330" height="150" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="390" y="90" width="270" height="150" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="660" y="90" width="240" height="150" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <rect x="110" y="120" width="230" height="90" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="225" y="148" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">NARROW AI</text>
+  <text x="225" y="172" text-anchor="middle" font-size="15" fill="#111111">one task or a</text>
+  <text x="225" y="192" text-anchor="middle" font-size="15" fill="#111111">bounded family: EXISTS</text>
+
+  <rect x="420" y="120" width="210" height="90" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="525" y="148" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">GENERAL AI</text>
+  <text x="525" y="172" text-anchor="middle" font-size="15" fill="#111111">most cognitive tasks:</text>
+  <text x="525" y="192" text-anchor="middle" font-size="15" fill="#111111">A GOAL</text>
+
+  <rect x="680" y="120" width="200" height="90" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="780" y="148" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">SUPER AI</text>
+  <text x="780" y="172" text-anchor="middle" font-size="15" fill="#111111">far beyond humans</text>
+  <text x="780" y="192" text-anchor="middle" font-size="15" fill="#111111">HYPOTHETICAL</text>
+
+  <line x1="60" y1="280" x2="910" y2="280" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="60" y="306" font-size="15" fill="#111111">one task</text>
+  <text x="900" y="306" text-anchor="end" font-size="15" fill="#111111">virtually all domains</text>
+  <text x="560" y="306" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Breadth of competence</text>
+
+  <line x1="390" y1="250" x2="390" y2="340" stroke="#111111" stroke-width="2"/>
+  
+  <rect x="270" y="356" width="240" height="50" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="390" y="377" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Current large models</text>
+  <text x="390" y="396" text-anchor="middle" font-size="14" fill="#111111">position disputed</text>
+
+  <text x="60" y="448" font-size="15" font-weight="bold" fill="#111111">Examples</text>
+  <text x="60" y="472" font-size="14" fill="#111111">spam filter, face unlock,</text>
+  <text x="60" y="492" font-size="14" fill="#111111">chess engine, protein predictor</text>
+  <text x="545" y="472" text-anchor="middle" font-size="14" fill="#111111">none demonstrated</text>
+  <text x="780" y="472" text-anchor="middle" font-size="14" fill="#111111">philosophy and fiction only</text>
+
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Schematic. Zone widths are not to scale; performance depth within a zone is a separate dimension.</text>
+</svg>

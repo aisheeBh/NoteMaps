@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A two-dimensional taste space</title>
+  <desc>People and titles are placed on two learned dimensions: light and comic to dark and serious across, fiction to fact-based up the page. Priya sits in the upper right near a true-crime documentary, which receives the highest score; a romantic comedy sits in the opposite corner and receives the lowest.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">A taste space: closeness and direction predict interest</text>
+  <line x1="194.25" y1="320" x2="665.75" y2="320" stroke="#222222" stroke-width="2"/>
+  <line x1="430" y1="555.75" x2="430" y2="84.25" stroke="#222222" stroke-width="2"/>
+  <text x="665.75" y="346" text-anchor="end" font-size="14" fill="#111111">dark, serious →</text>
+  <text x="194.25" y="346" text-anchor="start" font-size="14" fill="#111111">← light, comic</text>
+  <text x="440" y="88.25" text-anchor="start" font-size="14" fill="#111111">fact-based ↑</text>
+  <text x="440" y="555.75" text-anchor="start" font-size="14" fill="#111111">fiction ↓</text>
+  <rect x="606.5" y="148" width="16" height="16" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="427.1" y="129" width="177.4" height="22" fill="#FFFFFF"/>
+  <text x="600.5" y="144" text-anchor="end" font-size="14" fill="#111111" font-weight="bold">True-crime documentary</text>
+  <rect x="511.8" y="165" width="92.7" height="22" fill="#FFFFFF"/>
+  <text x="600.5" y="180" text-anchor="end" font-size="14" fill="#111111">score +1.20</text>
+  <rect x="565.5" y="414.5" width="16" height="16" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="416.9" y="395.5" width="146.6" height="22" fill="#FFFFFF"/>
+  <text x="559.5" y="410.5" text-anchor="end" font-size="14" fill="#111111" font-weight="bold">Political thriller</text>
+  <rect x="470.8" y="431.5" width="92.7" height="22" fill="#FFFFFF"/>
+  <text x="559.5" y="446.5" text-anchor="end" font-size="14" fill="#111111">score +0.26</text>
+  <rect x="381" y="127.5" width="16" height="16" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="399" y="108.5" width="108.1" height="22" fill="#FFFFFF"/>
+  <text x="403" y="123.5" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">Nature series</text>
+  <rect x="399" y="144.5" width="92.7" height="22" fill="#FFFFFF"/>
+  <text x="403" y="159.5" text-anchor="start" font-size="14" fill="#111111">score +0.38</text>
+  <rect x="258" y="455.5" width="16" height="16" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="276" y="436.5" width="123.5" height="22" fill="#FFFFFF"/>
+  <text x="280" y="451.5" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">Romantic comedy</text>
+  <rect x="276" y="472.5" width="92.7" height="22" fill="#FFFFFF"/>
+  <text x="280" y="487.5" text-anchor="start" font-size="14" fill="#111111">score -1.06</text>
+  <line x1="430" y1="320" x2="588" y2="202" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <circle cx="594" cy="197" r="11" fill="#FFE6A8" stroke="#7A5200" stroke-width="3"/>
+  <rect x="608" y="187" width="140" height="23" fill="#FFFFFF"/>
+  <text x="612" y="203" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">Priya (0.8, 0.6)</text>
+  <rect x="730" y="420" width="210" height="120" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="745" y="440" width="16" height="16" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="772" y="454" text-anchor="start" font-size="14" fill="#111111">title (item vector)</text>
+  <circle cx="753" cy="485" r="9" fill="#FFE6A8" stroke="#7A5200" stroke-width="3"/>
+  <text x="772" y="490" text-anchor="start" font-size="14" fill="#111111">person (taste vector)</text>
+  <text x="745" y="520" text-anchor="start" font-size="14" fill="#111111">score = dot product</text>
+  <text x="480" y="584" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures; real models use many more dimensions, most without a tidy human meaning.</text>
+</svg>

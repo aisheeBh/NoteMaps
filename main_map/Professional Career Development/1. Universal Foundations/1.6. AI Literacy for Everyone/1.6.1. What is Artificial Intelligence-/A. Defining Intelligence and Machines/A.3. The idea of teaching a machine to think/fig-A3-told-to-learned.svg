@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From told to learned</title>
+  <desc>A horizontal spectrum. At the left, systems told everything: a tax calculator. Then a rule-based expert system, a spam filter mixing rules and learned scores, an image classifier learned from labelled examples, a self-play game program, and at the right a modern AI assistant learned mainly from data and feedback but also given written instructions.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The spectrum from machines that are told to machines that learn</text>
+  <line x1="70" y1="290" x2="900" y2="290" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="70" y1="290" x2="70" y2="290" stroke="#222222" stroke-width="2"/>
+  <text x="70" y="330" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">All behaviour written</text>
+  <text x="70" y="350" text-anchor="start" font-size="15" fill="#111111">by people</text>
+  <text x="900" y="245" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Behaviour mostly</text>
+  <text x="900" y="265" text-anchor="end" font-size="15" fill="#111111">learned from data</text>
+  <circle cx="120" cy="290" r="9" fill="#111111"/>
+  <line x1="120" y1="281" x2="120" y2="200" stroke="#222222" stroke-width="2"/>
+  <rect x="35" y="100" width="170" height="100" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="120.0" y="135.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Tax calculator</text>
+  <text x="120.0" y="154.9" text-anchor="middle" font-size="14" fill="#111111">every rule from</text>
+  <text x="120.0" y="173.9" text-anchor="middle" font-size="14" fill="#111111">the statute</text>
+  <circle cx="270" cy="290" r="9" fill="#111111"/>
+  <line x1="270" y1="299" x2="270" y2="380" stroke="#222222" stroke-width="2"/>
+  <rect x="185" y="380" width="170" height="100" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="270.0" y="415.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Rule-based</text>
+  <text x="270.0" y="434.9" text-anchor="middle" font-size="14" fill="#111111">expert system</text>
+  <text x="270.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">hundreds of rules</text>
+  <circle cx="420" cy="290" r="9" fill="#111111"/>
+  <line x1="420" y1="281" x2="420" y2="200" stroke="#222222" stroke-width="2"/>
+  <rect x="335" y="100" width="170" height="100" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="343" y="108" width="154" height="84" fill="#FFFFFF"/>
+  <text x="420.0" y="135.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Spam filter</text>
+  <text x="420.0" y="154.9" text-anchor="middle" font-size="14" fill="#111111">rules plus</text>
+  <text x="420.0" y="173.9" text-anchor="middle" font-size="14" fill="#111111">learned scores</text>
+  <circle cx="570" cy="290" r="9" fill="#111111"/>
+  <line x1="570" y1="299" x2="570" y2="380" stroke="#222222" stroke-width="2"/>
+  <rect x="485" y="380" width="170" height="100" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="493" y="388" width="154" height="84" fill="#FFFFFF"/>
+  <text x="570.0" y="415.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Image classifier</text>
+  <text x="570.0" y="434.9" text-anchor="middle" font-size="14" fill="#111111">learned from</text>
+  <text x="570.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">labelled examples</text>
+  <circle cx="700" cy="290" r="9" fill="#111111"/>
+  <line x1="700" y1="281" x2="700" y2="200" stroke="#222222" stroke-width="2"/>
+  <rect x="615" y="100" width="170" height="100" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="623" y="108" width="154" height="84" fill="#FFFFFF"/>
+  <text x="700.0" y="135.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Self-play game</text>
+  <text x="700.0" y="154.9" text-anchor="middle" font-size="14" fill="#111111">program, learned</text>
+  <text x="700.0" y="173.9" text-anchor="middle" font-size="14" fill="#111111">by reward</text>
+  <circle cx="830" cy="290" r="9" fill="#111111"/>
+  <line x1="830" y1="299" x2="830" y2="380" stroke="#222222" stroke-width="2"/>
+  <rect x="745" y="380" width="170" height="100" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="830.0" y="415.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">AI assistant</text>
+  <text x="830.0" y="434.9" text-anchor="middle" font-size="14" fill="#FFFFFF">learned, rewarded,</text>
+  <text x="830.0" y="453.9" text-anchor="middle" font-size="14" fill="#FFFFFF">plus instructions</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Positions are approximate; many real systems combine several modes of teaching.</text>
+</svg>

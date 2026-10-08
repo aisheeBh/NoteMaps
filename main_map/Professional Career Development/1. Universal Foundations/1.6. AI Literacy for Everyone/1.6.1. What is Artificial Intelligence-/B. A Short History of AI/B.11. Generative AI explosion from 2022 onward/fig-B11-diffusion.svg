@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Diffusion: from noise to image</title>
+  <desc>Two rows. In training, the top row shows a real image of a house being gradually covered in noise until it is pure noise; the model learns to predict and remove the noise at each step. In generation, the bottom row starts from pure random noise and removes noise step by step, guided by the prompt "a small house under a tree", until a new image emerges.</desc>
+  <defs>
+    <pattern id="noise1" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#F2F2F2"/><circle cx="3" cy="3" r="1.3" fill="#555555"/><circle cx="9" cy="8" r="1.3" fill="#555555"/>
+    </pattern>
+    <pattern id="noise2" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#DDDDDD"/><circle cx="2" cy="2" r="1.4" fill="#333333"/><circle cx="6" cy="5" r="1.4" fill="#333333"/><circle cx="3" cy="7" r="1" fill="#333333"/>
+    </pattern>
+    <pattern id="noise3" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#BBBBBB"/><circle cx="1.5" cy="1.5" r="1.3" fill="#111111"/><circle cx="4.5" cy="3.5" r="1.3" fill="#111111"/><circle cx="2" cy="5" r="0.9" fill="#111111"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <g id="house">
+      <rect x="-30" y="-5" width="60" height="45" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+      <path d="M-38 -5 L0 -38 L38 -5 Z" fill="#BCD5EE" stroke="#111111" stroke-width="3"/>
+      <rect x="-8" y="15" width="16" height="25" fill="#1F3B5C"/>
+      <circle cx="58" cy="-10" r="22" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+      <rect x="54" y="10" width="8" height="30" fill="#7A5200"/>
+    </g>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Learn to remove noise, then create by removing it</text>
+
+  <!-- training row -->
+  <text x="40" y="70" font-size="16" font-weight="bold" fill="#111111">Training: add noise to real images; learn to predict it</text>
+  <g stroke="#222222" stroke-width="2">
+    <rect x="60" y="85" width="150" height="120" fill="#FFFFFF"/>
+    <rect x="290" y="85" width="150" height="120" fill="#FFFFFF"/>
+    <rect x="520" y="85" width="150" height="120" fill="#FFFFFF"/>
+    <rect x="750" y="85" width="150" height="120" fill="url(#noise3)"/>
+  </g>
+  <use href="#house" transform="translate(120,150)"/>
+  <use href="#house" transform="translate(350,150)"/>
+  <rect x="291" y="86" width="148" height="118" fill="url(#noise1)" opacity="0.6"/>
+  <use href="#house" transform="translate(580,150)" opacity="0.35"/>
+  <rect x="521" y="86" width="148" height="118" fill="url(#noise2)" opacity="0.8"/>
+  <g stroke="#222222" stroke-width="2.5">
+    <line x1="212" y1="145" x2="286" y2="145" marker-end="url(#arrow)"/>
+    <line x1="442" y1="145" x2="516" y2="145" marker-end="url(#arrow)"/>
+    <line x1="672" y1="145" x2="746" y2="145" marker-end="url(#arrow)"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="135" y="225">real image</text><text x="365" y="225">a little noise</text><text x="595" y="225">more noise</text><text x="825" y="225">pure noise</text>
+  </g>
+
+  <!-- generation row -->
+  <text x="40" y="282" font-size="16" font-weight="bold" fill="#111111">Generation: start from noise; remove it step by step, guided by the prompt</text>
+  <g stroke="#000000" stroke-width="2.5">
+    <rect x="60" y="300" width="150" height="120" fill="url(#noise3)"/>
+    <rect x="290" y="300" width="150" height="120" fill="#FFFFFF"/>
+    <rect x="520" y="300" width="150" height="120" fill="#FFFFFF"/>
+    <rect x="750" y="300" width="150" height="120" fill="#FFFFFF"/>
+  </g>
+  <use href="#house" transform="translate(350,365)" opacity="0.35"/>
+  <rect x="291" y="301" width="148" height="118" fill="url(#noise2)" opacity="0.8"/>
+  <use href="#house" transform="translate(580,365)"/>
+  <rect x="521" y="301" width="148" height="118" fill="url(#noise1)" opacity="0.6"/>
+  <use href="#house" transform="translate(810,365)"/>
+  <g stroke="#1F3B5C" stroke-width="3">
+    <line x1="212" y1="360" x2="286" y2="360" marker-end="url(#arrow)"/>
+    <line x1="442" y1="360" x2="516" y2="360" marker-end="url(#arrow)"/>
+    <line x1="672" y1="360" x2="746" y2="360" marker-end="url(#arrow)"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="135" y="440">random noise</text><text x="365" y="440">rough shapes</text><text x="595" y="440">details appear</text><text x="825" y="440">new image</text>
+  </g>
+
+  <rect x="230" y="462" width="500" height="32" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480" y="484" text-anchor="middle" font-size="15" fill="#111111">Prompt guiding every step: "a small house under a tree"</text>
+
+  <text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Simplified drawing; real systems use dozens of steps, often working on a compressed version of the image.</text>
+</svg>

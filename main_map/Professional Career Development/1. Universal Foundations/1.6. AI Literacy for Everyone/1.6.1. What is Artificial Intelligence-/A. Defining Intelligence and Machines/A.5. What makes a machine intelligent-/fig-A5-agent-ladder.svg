@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A ladder of agents</title>
+  <desc>Five rungs from bottom to top: simple reflex agent such as a thermostat; model-based agent such as a robot vacuum that remembers rooms; goal-based agent such as a satnav; utility-based agent that trades off time, cost and risk; learning agent that improves from experience such as a spam filter.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">A ladder of agents: each rung adds an ingredient</text>
+  <rect x="80" y="490" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="260.0" y="520.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Simple reflex</text>
+  <text x="260.0" y="540.2" text-anchor="middle" font-size="15" fill="#111111">acts on what it senses now</text>
+  <text x="460" y="520" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">rules</text>
+  <text x="460" y="542" text-anchor="start" font-size="14" fill="#111111">e.g. thermostat</text>
+  <rect x="120" y="398" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="300.0" y="428.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Model-based</text>
+  <text x="300.0" y="448.2" text-anchor="middle" font-size="15" fill="#111111">remembers what it cannot see</text>
+  <text x="500" y="428" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">+ memory</text>
+  <text x="500" y="450" text-anchor="start" font-size="14" fill="#111111">e.g. robot vacuum with a map</text>
+  <rect x="160" y="306" width="360" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="168" y="314" width="344" height="54" fill="#FFFFFF"/>
+  <text x="340.0" y="336.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Goal-based</text>
+  <text x="340.0" y="356.2" text-anchor="middle" font-size="15" fill="#111111">plans actions to reach a goal</text>
+  <text x="540" y="336" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">+ planning</text>
+  <text x="540" y="358" text-anchor="start" font-size="14" fill="#111111">e.g. satnav to a destination</text>
+  <rect x="200" y="214" width="360" height="70" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="208" y="222" width="344" height="54" fill="#FFFFFF"/>
+  <text x="380.0" y="244.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Utility-based</text>
+  <text x="380.0" y="264.2" text-anchor="middle" font-size="15" fill="#111111">weighs how good outcomes are</text>
+  <text x="580" y="244" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">+ trade-offs</text>
+  <text x="580" y="266" text-anchor="start" font-size="14" fill="#111111">e.g. route planner weighing tolls</text>
+  <rect x="240" y="122" width="360" height="70" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="420.0" y="152.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Learning</text>
+  <text x="420.0" y="172.2" text-anchor="middle" font-size="15" fill="#FFFFFF">improves from experience</text>
+  <text x="620" y="152" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">+ improvement</text>
+  <text x="620" y="174" text-anchor="start" font-size="14" fill="#111111">e.g. spam filter updated by users</text>
+  <line x1="50" y1="560" x2="50" y2="110" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="30" y="335" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 30 335)">More capable in unforeseen situations</text>
+  <text x="480" y="588" text-anchor="middle" font-size="13" fill="#333333">After the agent types described by Russell and Norvig.</text>
+</svg>

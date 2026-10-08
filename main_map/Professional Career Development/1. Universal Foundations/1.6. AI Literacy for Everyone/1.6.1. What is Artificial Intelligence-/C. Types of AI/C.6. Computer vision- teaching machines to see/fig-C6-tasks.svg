@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Classification, detection and segmentation of one scene</title>
+  <desc>Three copies of a simple street scene with a car, a person and a road. Classification gives one label for the whole image. Detection draws a labelled box with a confidence around the car and around the person. Segmentation fills every pixel of the road, the car and the person with its class.</desc>
+
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Three questions about the same scene</text>
+  <rect x="30" y="70" width="270" height="220" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <path d="M30 220 L300 220 L300 290 L30 290 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1"/>
+  <path d="M60 235 L60 200 L90 175 L160 175 L185 200 L195 200 L195 235 Z" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <path d="M235 130 a14 14 0 1 1 0.1 0 Z M227 160 L243 160 L248 210 L243 245 L235 245 L235 210 L227 245 L219 245 L222 210 Z" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <text x="165" y="322" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Classification</text>
+  <text x="165" y="346" text-anchor="middle" font-size="15" fill="#111111">What is this image of?</text>
+  <rect x="340" y="70" width="270" height="220" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <path d="M340 220 L610 220 L610 290 L340 290 Z" fill="#E6E6E6" stroke="#666666" stroke-width="1"/>
+  <path d="M370 235 L370 200 L400 175 L470 175 L495 200 L505 200 L505 235 Z" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <path d="M545 130 a14 14 0 1 1 0.1 0 Z M537 160 L553 160 L558 210 L553 245 L545 245 L545 210 L537 245 L529 245 L532 210 Z" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <rect x="362" y="167" width="152" height="76" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <rect x="362" y="144" width="80" height="22" fill="#1F3B5C"/><text x="402" y="160" text-anchor="middle" font-size="14" fill="#FFFFFF">car 0.97</text>
+  <rect x="522" y="98" width="46" height="154" fill="none" stroke="#8B0000" stroke-width="3.5" stroke-dasharray="8 4"/>
+  <rect x="508" y="74" width="98" height="22" fill="#8B0000"/><text x="557" y="90" text-anchor="middle" font-size="14" fill="#FFFFFF">person 0.91</text>
+  <text x="475" y="322" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Detection</text>
+  <text x="475" y="346" text-anchor="middle" font-size="15" fill="#111111">What is where?</text>
+  <rect x="650" y="70" width="270" height="220" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <path d="M650 220 L920 220 L920 290 L650 290 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <path d="M680 235 L680 200 L710 175 L780 175 L805 200 L815 200 L815 235 Z" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5"/>
+  <path d="M855 130 a14 14 0 1 1 0.1 0 Z M847 160 L863 160 L868 210 L863 245 L855 245 L855 210 L847 245 L839 245 L842 210 Z" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="658" y="260" width="56" height="22" fill="#FFFFFF"/><text x="686" y="276" text-anchor="middle" font-size="14" fill="#111111">road</text>
+  <rect x="722" y="206" width="40" height="22" fill="#FFFFFF"/><text x="742" y="222" text-anchor="middle" font-size="14" fill="#111111">car</text>
+  <rect x="872" y="166" width="44" height="22" fill="#FFFFFF"/><text x="894" y="182" text-anchor="middle" font-size="14" fill="#111111">person</text>
+  <text x="785" y="322" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Segmentation</text>
+  <text x="785" y="346" text-anchor="middle" font-size="15" fill="#111111">What is each pixel?</text>
+  <rect x="72" y="360" width="186" height="30" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <text x="165" y="381" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">"street with car": 0.94</text>
+  <text x="475" y="381" text-anchor="middle" font-size="15" fill="#111111">boxes with confidences</text>
+  <text x="785" y="381" text-anchor="middle" font-size="15" fill="#111111">a class for every pixel</text>
+  <text x="480" y="424" text-anchor="middle" font-size="13" fill="#333333">Schematic scene; numbers are illustrative model confidences.</text>
+</svg>
