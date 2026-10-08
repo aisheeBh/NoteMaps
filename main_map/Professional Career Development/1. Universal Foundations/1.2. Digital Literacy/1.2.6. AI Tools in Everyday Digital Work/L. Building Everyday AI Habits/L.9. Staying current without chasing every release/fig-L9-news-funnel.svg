@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 610" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Filtering the flow of AI news</title>
+  <desc>A funnel with four stages. At the top, hundreds of announcements a month. A chosen information diet reduces these to a few dozen items read weekly. Triage leaves a short list of items that affect one's tools, rules or capability. Testing with a personal benchmark leaves one or two changes adopted per quarter.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">From many announcements to few actions</text>
+  <rect x="160" y="95" width="640" height="100" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="480" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Hundreds of announcements a month</text>
+  <text x="480" y="167" text-anchor="middle" font-size="15" fill="#111111">launches, benchmarks, commentary, social media</text>
+  <rect x="210" y="213" width="540" height="100" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="254" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">A few dozen items read weekly</text>
+  <text x="480" y="285" text-anchor="middle" font-size="15" fill="#111111">after choosing few, primary, batched sources</text>
+  <rect x="260" y="331" width="440" height="100" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="268" y="350" width="424" height="60" rx="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="372" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">A short list each month</text>
+  <text x="480" y="403" text-anchor="middle" font-size="15" fill="#111111">after triage: own tools, rules, new capability</text>
+  <rect x="310" y="449" width="340" height="100" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="490" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">One or two changes adopted</text>
+  <text x="480" y="521" text-anchor="middle" font-size="15" fill="#FFFFFF">after testing on a personal benchmark</text>
+  <rect x="20" y="223" width="140" height="80" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="90" y="245" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Filter 1</text>
+  <text x="90" y="273" text-anchor="middle" font-size="14" fill="#111111">information</text>
+  <text x="90" y="291" text-anchor="middle" font-size="14" fill="#111111">diet</text>
+  <line x1="162" y1="263" x2="204" y2="263" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="341" width="140" height="80" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="90" y="372" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Filter 2</text>
+  <text x="90" y="400" text-anchor="middle" font-size="14" fill="#111111">triage</text>
+  <line x1="162" y1="381" x2="254" y2="381" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="459" width="140" height="80" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="90" y="481" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Filter 3</text>
+  <text x="90" y="509" text-anchor="middle" font-size="14" fill="#111111">personal</text>
+  <text x="90" y="527" text-anchor="middle" font-size="14" fill="#111111">benchmark</text>
+  <line x1="162" y1="499" x2="304" y2="499" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480" y="594" text-anchor="middle" font-size="13" fill="#333333">Schematic; the volumes are indicative orders of magnitude, not counts.</text>
+</svg>

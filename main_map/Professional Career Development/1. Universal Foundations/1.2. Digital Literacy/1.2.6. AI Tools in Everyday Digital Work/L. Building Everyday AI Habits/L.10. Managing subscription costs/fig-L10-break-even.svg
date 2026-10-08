@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Flat subscription against paying per use</title>
+  <desc>A line chart of monthly cost against requests per month. The flat subscription is a horizontal line at 20. Pay-per-use at 0.25 per request rises in a straight line from zero. The lines cross at 80 requests a month: below that pay-per-use is cheaper, above it the flat rate is cheaper.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Flat subscription against paying per use</text>
+  <line x1="120" y1="450" x2="900" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="120" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="120" y="474" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="276" y1="450" x2="276" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="276" y="474" text-anchor="middle" font-size="14" fill="#111111">40</text>
+  <line x1="432" y1="450" x2="432" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="432" y="474" text-anchor="middle" font-size="14" fill="#111111">80</text>
+  <line x1="588" y1="450" x2="588" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="588" y="474" text-anchor="middle" font-size="14" fill="#111111">120</text>
+  <line x1="744" y1="450" x2="744" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="744" y="474" text-anchor="middle" font-size="14" fill="#111111">160</text>
+  <line x1="900" y1="450" x2="900" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="474" text-anchor="middle" font-size="14" fill="#111111">200</text>
+  <line x1="114" y1="450" x2="120" y2="450" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="455" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="114" y1="310" x2="120" y2="310" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="315" text-anchor="end" font-size="14" fill="#111111">20</text>
+  <line x1="114" y1="170" x2="120" y2="170" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="175" text-anchor="end" font-size="14" fill="#111111">40</text>
+  <text x="510" y="502" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Requests per month</text>
+  <text x="50" y="275" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 50 275.0)">Monthly cost</text>
+  <rect x="120" y="100" width="312" height="350" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="1"/>
+  <rect x="432" y="100" width="468" height="350" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="1"/>
+  <path d="M120.0 310.0 L900.0 310.0" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <rect x="139" y="258" width="253" height="25" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="146" y="275" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Flat subscription: 20 a month</text>
+  <path d="M120.0 450.0 L900.0 100.0" fill="none" stroke="#111111" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="506" y="111" width="253" height="25" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="513" y="128" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Pay per use: 0.25 per request</text>
+  <text x="276" y="205" text-anchor="middle" font-size="14" fill="#111111">pay-per-use</text>
+  <text x="276" y="223" text-anchor="middle" font-size="14" fill="#111111">cheaper</text>
+  <text x="705" y="362" text-anchor="middle" font-size="14" fill="#111111">flat rate cheaper</text>
+  <text x="487" y="345" text-anchor="start" font-size="14" fill="#111111">break-even at 80</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures; real per-request costs vary greatly with task size and model.</text>
+</svg>

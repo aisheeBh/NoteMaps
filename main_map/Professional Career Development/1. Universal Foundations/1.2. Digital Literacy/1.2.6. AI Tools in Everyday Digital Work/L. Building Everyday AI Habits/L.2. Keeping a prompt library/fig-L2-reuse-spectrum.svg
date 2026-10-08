@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From a single prompt to an automated workflow</title>
+  <desc>Five stages of reuse from left to right: one-off prompt, saved prompt, template, configured assistant, automated workflow. Reliability and consistency rise towards the right, while the instruction becomes less visible to the person using it.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The spectrum of reuse</text>
+  <rect x="30" y="110" width="158" height="190" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="109" y="187" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">One-off prompt</text>
+  <text x="109" y="217" text-anchor="middle" font-size="14" fill="#111111">Typed once, then</text>
+  <text x="109" y="235" text-anchor="middle" font-size="14" fill="#111111">lost in history</text>
+  <line x1="191" y1="205" x2="215" y2="205" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="218" y="110" width="158" height="190" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="297" y="178" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Saved prompt</text>
+  <text x="297" y="208" text-anchor="middle" font-size="14" fill="#111111">Copied into a</text>
+  <text x="297" y="226" text-anchor="middle" font-size="14" fill="#111111">note and reused</text>
+  <text x="297" y="244" text-anchor="middle" font-size="14" fill="#111111">unchanged</text>
+  <line x1="379" y1="205" x2="403" y2="205" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="406" y="110" width="158" height="190" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="485" y="178" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Template</text>
+  <text x="485" y="208" text-anchor="middle" font-size="14" fill="#111111">Placeholders for</text>
+  <text x="485" y="226" text-anchor="middle" font-size="14" fill="#111111">the parts that</text>
+  <text x="485" y="244" text-anchor="middle" font-size="14" fill="#111111">change</text>
+  <line x1="567" y1="205" x2="591" y2="205" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="594" y="110" width="158" height="190" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="602" y="147" width="142" height="115" rx="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="673" y="168" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Configured</text>
+  <text x="673" y="189" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">assistant</text>
+  <text x="673" y="218" text-anchor="middle" font-size="14" fill="#111111">Instructions and</text>
+  <text x="673" y="236" text-anchor="middle" font-size="14" fill="#111111">files stored in a</text>
+  <text x="673" y="255" text-anchor="middle" font-size="14" fill="#111111">tool</text>
+  <line x1="755" y1="205" x2="779" y2="205" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="782" y="110" width="158" height="190" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="861" y="168" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Automated</text>
+  <text x="861" y="189" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">workflow</text>
+  <text x="861" y="218" text-anchor="middle" font-size="14" fill="#FFFFFF">Runs on an event,</text>
+  <text x="861" y="236" text-anchor="middle" font-size="14" fill="#FFFFFF">with human review</text>
+  <text x="861" y="255" text-anchor="middle" font-size="14" fill="#FFFFFF">points</text>
+  <line x1="60" y1="360" x2="900" y2="360" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="350" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">More consistent and reliable output</text>
+  <line x1="900" y1="430" x2="60" y2="430" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="480" y="420" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Instruction easier to see, question and update</text>
+  <text x="480" y="475" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Moving right saves effort; moving right also lets an out-of-date instruction run unnoticed.</text>
+  <text x="480" y="524" text-anchor="middle" font-size="13" fill="#333333">Conceptual ordering; tools differ in which stages they support.</text>
+</svg>
