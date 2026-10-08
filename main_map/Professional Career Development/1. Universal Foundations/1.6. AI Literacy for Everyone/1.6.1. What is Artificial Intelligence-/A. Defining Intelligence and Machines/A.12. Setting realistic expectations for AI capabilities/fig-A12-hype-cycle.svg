@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The hype cycle</title>
+  <desc>Schematic curve of expectations over time: a rapid rise from a technology trigger to a peak of inflated expectations, a fall to a trough of disillusionment, then a gradual slope of enlightenment to a plateau of productivity.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The hype cycle (stylised)</text>
+  <line x1="110" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="880" y="474" text-anchor="end" font-size="16" fill="#111111">Time</text>
+  <text x="66" y="270.0" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 66 270.0)">Expectations</text>
+  <path d="M110.0 422.4 L111.9 422.3 L113.8 422.2 L115.8 422.0 L117.7 421.9 L119.6 421.7 L121.5 421.5 L123.5 421.3 L125.4 421.0 L127.3 420.7 L129.2 420.4 L131.2 420.0 L133.1 419.6 L135.0 419.1 L136.9 418.6 L138.9 418.0 L140.8 417.3 L142.7 416.6 L144.7 415.8 L146.6 414.9 L148.5 413.8 L150.4 412.7 L152.3 411.5 L154.3 410.1 L156.2 408.6 L158.1 407.0 L160.1 405.2 L162.0 403.2 L163.9 401.1 L165.8 398.8 L167.8 396.3 L169.7 393.6 L171.6 390.7 L173.5 387.5 L175.4 384.2 L177.4 380.6 L179.3 376.7 L181.2 372.6 L183.2 368.2 L185.1 363.6 L187.0 358.7 L188.9 353.6 L190.8 348.2 L192.8 342.5 L194.7 336.6 L196.6 330.4 L198.6 323.9 L200.5 317.2 L202.4 310.3 L204.3 303.1 L206.2 295.8 L208.2 288.2 L210.1 280.5 L212.0 272.7 L213.9 264.7 L215.9 256.6 L217.8 248.4 L219.7 240.3 L221.6 232.0 L223.6 223.9 L225.5 215.7 L227.4 207.7 L229.3 199.8 L231.3 192.0 L233.2 184.4 L235.1 177.1 L237.1 170.0 L239.0 163.3 L240.9 156.8 L242.8 150.8 L244.8 145.1 L246.7 139.9 L248.6 135.2 L250.5 130.9 L252.4 127.2 L254.4 124.0 L256.3 121.3 L258.2 119.3 L260.1 117.8 L262.1 116.9 L264.0 116.5 L265.9 116.8 L267.9 117.7 L269.8 119.2 L271.7 121.2 L273.6 123.8 L275.6 127.0 L277.5 130.7 L279.4 134.9 L281.3 139.6 L283.2 144.8 L285.2 150.4 L287.1 156.4 L289.0 162.8 L290.9 169.5 L292.9 176.6 L294.8 183.9 L296.7 191.4 L298.6 199.1 L300.6 207.0 L302.5 215.0 L304.4 223.1 L306.4 231.2 L308.3 239.4 L310.2 247.6 L312.1 255.7 L314.1 263.7 L316.0 271.6 L317.9 279.4 L319.8 287.1 L321.8 294.6 L323.7 301.9 L325.6 309.0 L327.5 315.9 L329.4 322.5 L331.4 328.9 L333.3 335.0 L335.2 340.9 L337.1 346.5 L339.1 351.9 L341.0 356.9 L342.9 361.8 L344.9 366.3 L346.8 370.6 L348.7 374.6 L350.6 378.4 L352.6 381.9 L354.5 385.2 L356.4 388.2 L358.3 391.0 L360.2 393.6 L362.2 396.0 L364.1 398.3 L366.0 400.3 L367.9 402.1 L369.9 403.8 L371.8 405.3 L373.7 406.7 L375.6 407.9 L377.6 409.0 L379.5 410.0 L381.4 410.9 L383.3 411.7 L385.3 412.4 L387.2 412.9 L389.1 413.5 L391.1 413.9 L393.0 414.2 L394.9 414.5 L396.8 414.8 L398.8 415.0 L400.7 415.1 L402.6 415.2 L404.5 415.2 L406.4 415.2 L408.4 415.2 L410.3 415.2 L412.2 415.1 L414.2 415.0 L416.1 414.8 L418.0 414.7 L419.9 414.5 L421.9 414.3 L423.8 414.1 L425.7 413.8 L427.6 413.6 L429.6 413.3 L431.5 413.0 L433.4 412.7 L435.3 412.4 L437.2 412.0 L439.2 411.7 L441.1 411.3 L443.0 410.9 L444.9 410.5 L446.9 410.1 L448.8 409.7 L450.7 409.2 L452.6 408.8 L454.6 408.3 L456.5 407.8 L458.4 407.3 L460.4 406.8 L462.3 406.3 L464.2 405.7 L466.1 405.2 L468.1 404.6 L470.0 404.0 L471.9 403.4 L473.8 402.7 L475.8 402.1 L477.7 401.4 L479.6 400.7 L481.5 400.0 L483.4 399.3 L485.4 398.5 L487.3 397.7 L489.2 397.0 L491.1 396.1 L493.1 395.3 L495.0 394.5 L496.9 393.6 L498.9 392.7 L500.8 391.8 L502.7 390.8 L504.6 389.9 L506.6 388.9 L508.5 387.9 L510.4 386.8 L512.3 385.8 L514.2 384.7 L516.2 383.6 L518.1 382.5 L520.0 381.4 L522.0 380.2 L523.9 379.0 L525.8 377.8 L527.7 376.5 L529.7 375.3 L531.6 374.0 L533.5 372.7 L535.4 371.4 L537.4 370.0 L539.3 368.7 L541.2 367.3 L543.1 365.9 L545.0 364.5 L547.0 363.0 L548.9 361.5 L550.8 360.1 L552.8 358.6 L554.7 357.0 L556.6 355.5 L558.5 354.0 L560.5 352.4 L562.4 350.8 L564.3 349.2 L566.2 347.6 L568.1 346.0 L570.1 344.4 L572.0 342.8 L573.9 341.1 L575.8 339.5 L577.8 337.8 L579.7 336.2 L581.6 334.5 L583.5 332.8 L585.5 331.2 L587.4 329.5 L589.3 327.8 L591.2 326.2 L593.2 324.5 L595.1 322.8 L597.0 321.2 L599.0 319.5 L600.9 317.9 L602.8 316.2 L604.7 314.6 L606.7 313.0 L608.6 311.4 L610.5 309.8 L612.4 308.2 L614.4 306.6 L616.3 305.0 L618.2 303.5 L620.1 302.0 L622.1 300.4 L624.0 298.9 L625.9 297.5 L627.8 296.0 L629.8 294.5 L631.7 293.1 L633.6 291.7 L635.5 290.3 L637.5 289.0 L639.4 287.6 L641.3 286.3 L643.2 285.0 L645.1 283.7 L647.1 282.5 L649.0 281.2 L650.9 280.0 L652.9 278.8 L654.8 277.6 L656.7 276.5 L658.6 275.4 L660.5 274.3 L662.5 273.2 L664.4 272.2 L666.3 271.1 L668.2 270.1 L670.2 269.1 L672.1 268.2 L674.0 267.2 L676.0 266.3 L677.9 265.4 L679.8 264.5 L681.7 263.7 L683.6 262.9 L685.6 262.0 L687.5 261.3 L689.4 260.5 L691.4 259.7 L693.3 259.0 L695.2 258.3 L697.1 257.6 L699.0 256.9 L701.0 256.3 L702.9 255.6 L704.8 255.0 L706.8 254.4 L708.7 253.8 L710.6 253.3 L712.5 252.7 L714.5 252.2 L716.4 251.7 L718.3 251.2 L720.2 250.7 L722.1 250.2 L724.1 249.7 L726.0 249.3 L727.9 248.8 L729.9 248.4 L731.8 248.0 L733.7 247.6 L735.6 247.2 L737.5 246.9 L739.5 246.5 L741.4 246.2 L743.3 245.8 L745.2 245.5 L747.2 245.2 L749.1 244.9 L751.0 244.6 L752.9 244.3 L754.9 244.0 L756.8 243.7 L758.7 243.5 L760.6 243.2 L762.6 243.0 L764.5 242.7 L766.4 242.5 L768.4 242.3 L770.3 242.1 L772.2 241.9 L774.1 241.7 L776.0 241.5 L778.0 241.3 L779.9 241.1 L781.8 240.9 L783.8 240.8 L785.7 240.6 L787.6 240.4 L789.5 240.3 L791.5 240.1 L793.4 240.0 L795.3 239.9 L797.2 239.7 L799.1 239.6 L801.1 239.5 L803.0 239.4 L804.9 239.2 L806.9 239.1 L808.8 239.0 L810.7 238.9 L812.6 238.8 L814.6 238.7 L816.5 238.6 L818.4 238.5 L820.3 238.5 L822.2 238.4 L824.2 238.3 L826.1 238.2 L828.0 238.1 L830.0 238.1 L831.9 238.0 L833.8 237.9 L835.7 237.8 L837.6 237.8 L839.6 237.7 L841.5 237.7 L843.4 237.6 L845.4 237.5 L847.3 237.5 L849.2 237.4 L851.1 237.4 L853.0 237.3 L855.0 237.3 L856.9 237.3 L858.8 237.2 L860.8 237.2 L862.7 237.1 L864.6 237.1 L866.5 237.0 L868.5 237.0 L870.4 237.0 L872.3 236.9 L874.2 236.9 L876.1 236.9 L878.1 236.8 L880.0 236.8" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <circle cx="156.2" cy="408.6" r="6" fill="#111111"/>
+  <rect x="176.2" y="363.6" width="150" height="46" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="251.2" y="382.0" text-anchor="middle" font-size="14" fill="#111111">Technology</text>
+  <text x="251.2" y="401.0" text-anchor="middle" font-size="14" fill="#111111">trigger</text>
+  <circle cx="264.0" cy="116.5" r="6" fill="#111111"/>
+  <rect x="279.0" y="106.5" width="150" height="46" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="354.0" y="124.9" text-anchor="middle" font-size="14" fill="#111111">Peak of inflated</text>
+  <text x="354.0" y="143.9" text-anchor="middle" font-size="14" fill="#111111">expectations</text>
+  <circle cx="418.0" cy="414.7" r="6" fill="#111111"/>
+  <rect x="343.0" y="304.7" width="150" height="46" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="418.0" y="323.1" text-anchor="middle" font-size="14" fill="#111111">Trough of</text>
+  <text x="418.0" y="342.1" text-anchor="middle" font-size="14" fill="#111111">disillusionment</text>
+  <circle cx="587.4" cy="329.5" r="6" fill="#111111"/>
+  <rect x="602.4" y="329.5" width="150" height="46" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="677.4" y="347.9" text-anchor="middle" font-size="14" fill="#111111">Slope of</text>
+  <text x="677.4" y="366.9" text-anchor="middle" font-size="14" fill="#111111">enlightenment</text>
+  <circle cx="803.0" cy="239.4" r="6" fill="#111111"/>
+  <rect x="688.0" y="129.4" width="150" height="46" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="763.0" y="147.8" text-anchor="middle" font-size="14" fill="#111111">Plateau of</text>
+  <text x="763.0" y="166.8" text-anchor="middle" font-size="14" fill="#111111">productivity</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Schematic of a model popularised by Gartner; many technologies do not follow this path.</text>
+</svg>

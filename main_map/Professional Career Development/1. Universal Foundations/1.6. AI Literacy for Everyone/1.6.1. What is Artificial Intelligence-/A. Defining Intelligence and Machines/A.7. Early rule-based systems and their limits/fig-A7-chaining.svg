@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Forward and backward chaining</title>
+  <desc>Two panels using the same loan rules. Left, forward chaining: facts about income, employment, credit score and defaults lead upward through stable income and good credit to the conclusion eligible. Right, backward chaining: the goal eligible is broken down into stable income and good credit, which in turn require questions about income, employment, score and defaults.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Same rules, two directions of reasoning</text>
+  <text x="240" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Forward: from facts</text>
+  <text x="720" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Backward: from a goal</text>
+  <line x1="480" y1="70" x2="480" y2="560" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="20" y="470" width="100" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="70.0" y="499.9" text-anchor="middle" font-size="14" fill="#111111">Income</text>
+  <rect x="130" y="470" width="100" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="180.0" y="499.9" text-anchor="middle" font-size="14" fill="#111111">Employed</text>
+  <rect x="240" y="470" width="100" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="290.0" y="499.9" text-anchor="middle" font-size="14" fill="#111111">Score</text>
+  <rect x="350" y="470" width="100" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="400.0" y="499.9" text-anchor="middle" font-size="14" fill="#111111">No defaults</text>
+  <rect x="70" y="320" width="160" height="56" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="150.0" y="343.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Stable income</text>
+  <text x="150.0" y="362.4" text-anchor="middle" font-size="14" fill="#111111">R1 fires</text>
+  <rect x="250" y="320" width="160" height="56" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="330.0" y="343.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Good credit</text>
+  <text x="330.0" y="362.4" text-anchor="middle" font-size="14" fill="#111111">R2 fires</text>
+  <rect x="150" y="150" width="180" height="64" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="240.0" y="177.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">ELIGIBLE</text>
+  <text x="240.0" y="197.2" text-anchor="middle" font-size="15" fill="#FFFFFF">R3 fires</text>
+  <line x1="70" y1="468" x2="150" y2="380" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="180" y1="468" x2="150" y2="380" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="290" y1="468" x2="330" y2="380" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="468" x2="330" y2="380" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="150" y1="318" x2="220" y2="218" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="330" y1="318" x2="260" y2="218" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="240" y="560" text-anchor="middle" font-size="15" fill="#111111">Start with what is known; see what follows</text>
+  <rect x="630" y="150" width="180" height="64" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="720.0" y="177.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Goal: eligible?</text>
+  <text x="720.0" y="197.2" text-anchor="middle" font-size="15" fill="#FFFFFF">try R3</text>
+  <rect x="550" y="320" width="160" height="56" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="630.0" y="343.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Stable income?</text>
+  <text x="630.0" y="362.4" text-anchor="middle" font-size="14" fill="#111111">try R1</text>
+  <rect x="730" y="320" width="160" height="56" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="810.0" y="343.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Good credit?</text>
+  <text x="810.0" y="362.4" text-anchor="middle" font-size="14" fill="#111111">try R2</text>
+  <rect x="500" y="470" width="100" height="50" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="508" y="478" width="84" height="34" fill="#FFFFFF"/>
+  <text x="550.0" y="499.6" text-anchor="middle" font-size="13" fill="#111111">Ask income</text>
+  <rect x="610" y="470" width="100" height="50" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="618" y="478" width="84" height="34" fill="#FFFFFF"/>
+  <text x="660.0" y="499.6" text-anchor="middle" font-size="13" fill="#111111">Ask years</text>
+  <rect x="720" y="470" width="100" height="50" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="728" y="478" width="84" height="34" fill="#FFFFFF"/>
+  <text x="770.0" y="499.6" text-anchor="middle" font-size="13" fill="#111111">Ask score</text>
+  <rect x="830" y="470" width="100" height="50" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="838" y="478" width="84" height="34" fill="#FFFFFF"/>
+  <text x="880.0" y="499.6" text-anchor="middle" font-size="13" fill="#111111">Ask defaults</text>
+  <line x1="700" y1="216" x2="630" y2="318" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="740" y1="216" x2="810" y2="318" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="378" x2="550" y2="468" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="630" y1="378" x2="660" y2="468" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="810" y1="378" x2="770" y2="468" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="810" y1="378" x2="880" y2="468" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="720" y="560" text-anchor="middle" font-size="15" fill="#111111">Start with a hypothesis; ask only what it needs</text>
+  <text x="480" y="590" text-anchor="middle" font-size="13" fill="#333333">Illustrative rule base from the worked example.</text>
+</svg>

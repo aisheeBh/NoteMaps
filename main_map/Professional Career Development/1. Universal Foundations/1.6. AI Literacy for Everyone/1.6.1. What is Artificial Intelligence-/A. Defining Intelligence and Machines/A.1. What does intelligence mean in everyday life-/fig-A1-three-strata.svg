@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The three-stratum picture of intelligence</title>
+  <desc>General intelligence g at the top; broad abilities such as fluid reasoning, crystallised knowledge, memory, visual and auditory processing and processing speed in the middle; many narrow abilities at the bottom.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Three strata of human ability</text>
+  <rect x="370" y="66" width="220" height="66" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480.0" y="94.1" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">General ability, g</text>
+  <text x="480.0" y="115.1" text-anchor="middle" font-size="16" fill="#FFFFFF">Stratum III</text>
+  <line x1="480" y1="132" x2="125.0" y2="226" stroke="#333333" stroke-width="1.8"/>
+  <rect x="61.0" y="226" width="128" height="68" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="69.0" y="234" width="112" height="52" fill="#FFFFFF"/>
+  <text x="125.0" y="255.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Fluid</text>
+  <text x="125.0" y="274.4" text-anchor="middle" font-size="14" fill="#111111">reasoning</text>
+  <line x1="125.0" y1="294" x2="125.0" y2="370" stroke="#666666" stroke-width="1.2" stroke-dasharray="2 4"/>
+  <rect x="69.0" y="370" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="125.0" y="395.9" text-anchor="middle" font-size="14" fill="#111111">Induction</text>
+  <rect x="69.0" y="428" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="125.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">Sequencing</text>
+  <line x1="480" y1="132" x2="267.0" y2="226" stroke="#333333" stroke-width="1.8"/>
+  <rect x="203.0" y="226" width="128" height="68" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="211.0" y="234" width="112" height="52" fill="#FFFFFF"/>
+  <text x="267.0" y="255.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Crystallised</text>
+  <text x="267.0" y="274.4" text-anchor="middle" font-size="14" fill="#111111">knowledge</text>
+  <line x1="267.0" y1="294" x2="267.0" y2="370" stroke="#666666" stroke-width="1.2" stroke-dasharray="2 4"/>
+  <rect x="211.0" y="370" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="267.0" y="395.9" text-anchor="middle" font-size="14" fill="#111111">Vocabulary</text>
+  <rect x="211.0" y="428" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="267.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">General facts</text>
+  <line x1="480" y1="132" x2="409.0" y2="226" stroke="#333333" stroke-width="1.8"/>
+  <rect x="345.0" y="226" width="128" height="68" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="353.0" y="234" width="112" height="52" fill="#FFFFFF"/>
+  <text x="409.0" y="255.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Memory</text>
+  <text x="409.0" y="274.4" text-anchor="middle" font-size="14" fill="#111111">and learning</text>
+  <line x1="409.0" y1="294" x2="409.0" y2="370" stroke="#666666" stroke-width="1.2" stroke-dasharray="2 4"/>
+  <rect x="353.0" y="370" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="409.0" y="395.9" text-anchor="middle" font-size="14" fill="#111111">Memory span</text>
+  <rect x="353.0" y="428" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="409.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">Associations</text>
+  <line x1="480" y1="132" x2="551.0" y2="226" stroke="#333333" stroke-width="1.8"/>
+  <rect x="487.0" y="226" width="128" height="68" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="495.0" y="234" width="112" height="52" fill="#FFFFFF"/>
+  <text x="551.0" y="255.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Visual</text>
+  <text x="551.0" y="274.4" text-anchor="middle" font-size="14" fill="#111111">processing</text>
+  <line x1="551.0" y1="294" x2="551.0" y2="370" stroke="#666666" stroke-width="1.2" stroke-dasharray="2 4"/>
+  <rect x="495.0" y="370" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="551.0" y="395.9" text-anchor="middle" font-size="14" fill="#111111">Spatial</text>
+  <rect x="495.0" y="428" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="551.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">Visualising</text>
+  <line x1="480" y1="132" x2="693.0" y2="226" stroke="#333333" stroke-width="1.8"/>
+  <rect x="629.0" y="226" width="128" height="68" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="637.0" y="234" width="112" height="52" fill="#FFFFFF"/>
+  <text x="693.0" y="255.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Auditory</text>
+  <text x="693.0" y="274.4" text-anchor="middle" font-size="14" fill="#111111">processing</text>
+  <line x1="693.0" y1="294" x2="693.0" y2="370" stroke="#666666" stroke-width="1.2" stroke-dasharray="2 4"/>
+  <rect x="637.0" y="370" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="693.0" y="395.9" text-anchor="middle" font-size="14" fill="#111111">Sound</text>
+  <rect x="637.0" y="428" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="693.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">Pitch</text>
+  <line x1="480" y1="132" x2="835.0" y2="226" stroke="#333333" stroke-width="1.8"/>
+  <rect x="771.0" y="226" width="128" height="68" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="779.0" y="234" width="112" height="52" fill="#FFFFFF"/>
+  <text x="835.0" y="255.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Processing</text>
+  <text x="835.0" y="274.4" text-anchor="middle" font-size="14" fill="#111111">speed</text>
+  <line x1="835.0" y1="294" x2="835.0" y2="370" stroke="#666666" stroke-width="1.2" stroke-dasharray="2 4"/>
+  <rect x="779.0" y="370" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="835.0" y="395.9" text-anchor="middle" font-size="14" fill="#111111">Perceptual</text>
+  <rect x="779.0" y="428" width="112" height="42" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="835.0" y="453.9" text-anchor="middle" font-size="14" fill="#111111">Decision</text>
+  <rect x="330" y="306" width="300" height="28" rx="6" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+  <text x="480.0" y="325.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111"></text>
+  <text x="480" y="325" text-anchor="middle" font-size="15" fill="#111111">Stratum II: about eight broad abilities</text>
+  <text x="480" y="512" text-anchor="middle" font-size="15" fill="#111111">Stratum I: dozens of narrow abilities, each measured by specific tasks</text>
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Simplified after Carroll (1993) and the Cattell–Horn–Carroll synthesis; only a selection of abilities is shown.</text>
+</svg>

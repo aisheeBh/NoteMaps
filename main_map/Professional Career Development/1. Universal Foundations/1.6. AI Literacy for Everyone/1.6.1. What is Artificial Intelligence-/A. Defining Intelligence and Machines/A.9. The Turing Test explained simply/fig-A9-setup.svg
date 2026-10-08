@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The three-party Turing Test set-up</title>
+  <desc>An interrogator in one room is connected by text-only links to two hidden witnesses in separate rooms: Witness 1 and Witness 2. One is a human and one is a machine; both try to seem human. After the conversation the interrogator names the human.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Three parties, text only, both witnesses hidden</text>
+  <rect x="60" y="200" width="250" height="150" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="185.0" y="250.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">INTERROGATOR</text>
+  <text x="185.0" y="270.2" text-anchor="middle" font-size="15" fill="#FFFFFF">asks anything for</text>
+  <text x="185.0" y="290.2" text-anchor="middle" font-size="15" fill="#FFFFFF">five minutes, then</text>
+  <text x="185.0" y="310.2" text-anchor="middle" font-size="15" fill="#FFFFFF">names the human</text>
+  <rect x="620" y="90" width="280" height="150" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="628" y="98" width="264" height="134" fill="#FFFFFF"/>
+  <text x="760.0" y="150.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">WITNESS 1</text>
+  <text x="760.0" y="170.2" text-anchor="middle" font-size="15" fill="#111111">hidden room</text>
+  <text x="760.0" y="190.2" text-anchor="middle" font-size="15" fill="#111111">human or machine?</text>
+  <rect x="620" y="320" width="280" height="150" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="628" y="328" width="264" height="134" fill="#FFFFFF"/>
+  <text x="760.0" y="380.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">WITNESS 2</text>
+  <text x="760.0" y="400.2" text-anchor="middle" font-size="15" fill="#111111">hidden room</text>
+  <text x="760.0" y="420.2" text-anchor="middle" font-size="15" fill="#111111">human or machine?</text>
+  <line x1="312" y1="250" x2="616" y2="170" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="312" y1="300" x2="616" y2="390" stroke="#222222" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <rect x="380" y="182" width="160" height="34" rx="6" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="460.0" y="203.9" text-anchor="middle" font-size="14" fill="#111111">text messages</text>
+  <rect x="380" y="330" width="160" height="34" rx="6" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="460.0" y="351.9" text-anchor="middle" font-size="14" fill="#111111">text messages</text>
+  <line x1="580" y1="70" x2="580" y2="500" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="580" y="520" text-anchor="middle" font-size="14" fill="#111111">wall: no sight or sound</text>
+  <rect x="60" y="400" width="250" height="80" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="68" y="408" width="234" height="64" fill="#FFFFFF"/>
+  <text x="185.0" y="425.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Verdict</text>
+  <text x="185.0" y="444.9" text-anchor="middle" font-size="14" fill="#111111">Witness 1 or Witness 2</text>
+  <text x="185.0" y="463.9" text-anchor="middle" font-size="14" fill="#111111">is the human</text>
+  <line x1="185" y1="350" x2="185" y2="400" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="548" text-anchor="middle" font-size="13" fill="#333333">One witness is a person and one a machine; the interrogator does not know which.</text>
+</svg>
