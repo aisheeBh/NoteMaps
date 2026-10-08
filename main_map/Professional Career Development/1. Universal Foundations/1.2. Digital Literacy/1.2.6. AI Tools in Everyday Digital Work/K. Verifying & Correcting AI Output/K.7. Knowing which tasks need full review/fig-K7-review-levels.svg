@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Six levels of review</title>
+  <desc>Six columns from left to right of increasing review effort: no review, glance, spot-check, targeted review, full review, and full review with an independent second reviewer, each with a typical use.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Six levels of review, from none to independent</text>
+  <rect x="28.0" y="72" width="142.3" height="250" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="99.15" y="105" text-anchor="middle" font-size="17" fill="#222222" font-weight="bold">No review</text>
+  <text x="99.15" y="128.0" text-anchor="middle" font-size="15" fill="#222222">Personal scratch</text>
+  <text x="99.15" y="148.2" text-anchor="middle" font-size="15" fill="#222222">work never</text>
+  <text x="99.15" y="168.4" text-anchor="middle" font-size="15" fill="#222222">shared</text>
+  <rect x="180.3" y="72" width="142.3" height="250" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="251.45000000000002" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Glance</text>
+  <text x="251.45000000000002" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Read once for</text>
+  <text x="251.45000000000002" y="148.2" text-anchor="middle" font-size="15" fill="#111111">obvious problems</text>
+  <text x="251.45000000000002" y="168.4" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="251.45000000000002" y="188.7" text-anchor="middle" font-size="15" fill="#111111">Brainstorms</text>
+  <rect x="332.7" y="72" width="142.3" height="250" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="403.85" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Spot-check</text>
+  <text x="403.85" y="128.0" text-anchor="middle" font-size="15" fill="#111111">A sample of</text>
+  <text x="403.85" y="148.2" text-anchor="middle" font-size="15" fill="#111111">claims or items</text>
+  <text x="403.85" y="168.4" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="403.85" y="188.7" text-anchor="middle" font-size="15" fill="#111111">Bulk low-risk</text>
+  <text x="403.85" y="208.9" text-anchor="middle" font-size="15" fill="#111111">outputs</text>
+  <rect x="485.0" y="72" width="142.3" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="556.15" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Targeted</text>
+  <text x="556.15" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Every claim of</text>
+  <text x="556.15" y="148.2" text-anchor="middle" font-size="15" fill="#111111">certain kinds:</text>
+  <text x="556.15" y="168.4" text-anchor="middle" font-size="15" fill="#111111">figures, names</text>
+  <text x="556.15" y="188.7" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="556.15" y="208.9" text-anchor="middle" font-size="15" fill="#111111">Internal reports</text>
+  <rect x="637.3" y="72" width="142.3" height="250" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="708.4499999999999" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Full</text>
+  <text x="708.4499999999999" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Every claim,</text>
+  <text x="708.4499999999999" y="148.2" text-anchor="middle" font-size="15" fill="#111111">figure and step</text>
+  <text x="708.4499999999999" y="168.4" text-anchor="middle" font-size="15" fill="#111111">against sources</text>
+  <text x="708.4499999999999" y="188.7" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="708.4499999999999" y="208.9" text-anchor="middle" font-size="15" fill="#111111">Client and</text>
+  <text x="708.4499999999999" y="229.2" text-anchor="middle" font-size="15" fill="#111111">public work</text>
+  <rect x="789.7" y="72" width="142.3" height="250" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="860.85" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Full plus</text>
+  <text x="860.85" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">independent</text>
+  <text x="860.85" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Full review and</text>
+  <text x="860.85" y="171.2" text-anchor="middle" font-size="15" fill="#111111">a second</text>
+  <text x="860.85" y="191.4" text-anchor="middle" font-size="15" fill="#111111">qualified</text>
+  <text x="860.85" y="211.7" text-anchor="middle" font-size="15" fill="#111111">reviewer</text>
+  <text x="860.85" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="860.85" y="252.2" text-anchor="middle" font-size="15" fill="#111111">Regulated, legal,</text>
+  <text x="860.85" y="272.4" text-anchor="middle" font-size="15" fill="#111111">safety-critical</text>
+  <line x1="60" y1="346" x2="900" y2="346" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480" y="374" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">more effort, lower chance that an error reaches the reader</text>
+  <text x="480.0" y="406" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Levels are points on a continuum; organisations define their own thresholds.</text>
+</svg>

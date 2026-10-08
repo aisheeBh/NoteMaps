@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 584" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The parts of a useful correction record</title>
+  <desc>A correction record shown as a card with labelled fields: date and tool, task and output, what was wrong, error type, severity, how it was found, how it was fixed, likely cause, and the change made to prevent it next time.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Anatomy of a useful correction record</text>
+  <rect x="28" y="70" width="260" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="158.0" y="97.9" text-anchor="middle" font-size="15" fill="#111111">When and with what</text>
+  <rect x="300" y="70" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="97.9" text-anchor="middle" font-size="15" fill="#111111">14 May; document assistant, current version</text>
+  <rect x="28" y="122" width="260" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="158.0" y="149.9" text-anchor="middle" font-size="15" fill="#111111">Task and output</text>
+  <rect x="300" y="122" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="149.9" text-anchor="middle" font-size="15" fill="#111111">Summary of supplier contract for the buyer</text>
+  <rect x="28" y="174" width="260" height="46" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="158.0" y="201.9" text-anchor="middle" font-size="15" fill="#FFFFFF">What was wrong</text>
+  <rect x="300" y="174" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="201.9" text-anchor="middle" font-size="15" fill="#111111">Notice period given as 60 days; contract says 90</text>
+  <rect x="28" y="226" width="260" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="158.0" y="253.9" text-anchor="middle" font-size="15" fill="#111111">Error type</text>
+  <rect x="300" y="226" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="253.9" text-anchor="middle" font-size="15" fill="#111111">Wrong figure (source fact)</text>
+  <rect x="28" y="278" width="260" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="158.0" y="305.9" text-anchor="middle" font-size="15" fill="#111111">Severity</text>
+  <rect x="300" y="278" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="305.9" text-anchor="middle" font-size="15" fill="#111111">High: would have missed the renewal window</text>
+  <rect x="28" y="330" width="260" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="158.0" y="357.9" text-anchor="middle" font-size="15" fill="#111111">How found</text>
+  <rect x="300" y="330" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="357.9" text-anchor="middle" font-size="15" fill="#111111">Targeted check of all dates against the contract</text>
+  <rect x="28" y="382" width="260" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="158.0" y="409.9" text-anchor="middle" font-size="15" fill="#111111">Fix</text>
+  <rect x="300" y="382" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="409.9" text-anchor="middle" font-size="15" fill="#111111">Edited by hand; source clause added to the summary</text>
+  <rect x="28" y="434" width="260" height="46" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="158.0" y="461.9" text-anchor="middle" font-size="15" fill="#111111">Likely cause</text>
+  <rect x="300" y="434" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="461.9" text-anchor="middle" font-size="15" fill="#111111">Two notice periods in the contract; tool took the wrong one</text>
+  <rect x="28" y="486" width="260" height="46" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="158.0" y="513.9" text-anchor="middle" font-size="15" fill="#FFFFFF">Prevention</text>
+  <rect x="300" y="486" width="632" height="46" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="616.0" y="513.9" text-anchor="middle" font-size="15" fill="#111111">Standing instruction: quote the clause for every period</text>
+  <text x="480.0" y="568" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Illustrative entry. A personal log may need only the first five fields.</text>
+</svg>

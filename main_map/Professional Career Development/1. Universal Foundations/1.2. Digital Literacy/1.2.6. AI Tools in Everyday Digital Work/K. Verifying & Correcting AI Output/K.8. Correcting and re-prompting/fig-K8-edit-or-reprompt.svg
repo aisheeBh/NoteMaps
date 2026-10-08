@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>When to edit by hand and when to re-prompt</title>
+  <desc>A two-by-two grid. Horizontal axis: size of the change needed, small or large. Vertical axis: whether the same kind of change will be needed again, once or repeatedly. Small and once: edit by hand. Large and once: re-prompt with a specific correction. Small and repeated: fix the instructions or template. Large and repeated: rebuild the prompt or brief and restart.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Edit by hand or re-prompt?</text>
+  <text x="385.0" y="86" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Small change</text>
+  <text x="745.0" y="86" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Large change</text>
+  <text x="120" y="195.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 120 195.0)">Needed again</text>
+  <text x="120" y="395.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 120 395.0)">Needed once</text>
+  <rect x="210" y="100" width="350" height="190" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="385.0" y="170.2" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">FIX THE INSTRUCTIONS</text>
+  <text x="385.0" y="193.1" text-anchor="middle" font-size="15" fill="#111111">Edit now, and add the rule</text>
+  <text x="385.0" y="213.4" text-anchor="middle" font-size="15" fill="#111111">to saved instructions or</text>
+  <text x="385.0" y="233.6" text-anchor="middle" font-size="15" fill="#111111">the template for next time</text>
+  <rect x="570" y="100" width="350" height="190" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="745.0" y="160.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">REBUILD AND RESTART</text>
+  <text x="745.0" y="183.0" text-anchor="middle" font-size="15" fill="#111111">The brief itself is wrong</text>
+  <text x="745.0" y="203.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="745.0" y="223.5" text-anchor="middle" font-size="15" fill="#111111">Rewrite the brief and</text>
+  <text x="745.0" y="243.7" text-anchor="middle" font-size="15" fill="#111111">start a fresh conversation</text>
+  <rect x="210" y="300" width="350" height="190" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="385.0" y="360.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">EDIT BY HAND</text>
+  <text x="385.0" y="383.0" text-anchor="middle" font-size="15" fill="#111111">A word, figure or name</text>
+  <text x="385.0" y="403.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="385.0" y="423.5" text-anchor="middle" font-size="15" fill="#111111">Faster and safer</text>
+  <text x="385.0" y="443.7" text-anchor="middle" font-size="15" fill="#111111">than asking the tool</text>
+  <rect x="570" y="300" width="350" height="190" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="745.0" y="349.9" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">TARGETED RE-PROMPT</text>
+  <text x="745.0" y="372.8" text-anchor="middle" font-size="15" fill="#111111">A section, structure</text>
+  <text x="745.0" y="393.1" text-anchor="middle" font-size="15" fill="#111111">or tone</text>
+  <text x="745.0" y="413.3" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="745.0" y="433.6" text-anchor="middle" font-size="15" fill="#111111">Quote the problem, give</text>
+  <text x="745.0" y="453.8" text-anchor="middle" font-size="15" fill="#111111">the fix, protect the rest</text>
+  <text x="480.0" y="534" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Schematic decision aid.</text>
+</svg>
