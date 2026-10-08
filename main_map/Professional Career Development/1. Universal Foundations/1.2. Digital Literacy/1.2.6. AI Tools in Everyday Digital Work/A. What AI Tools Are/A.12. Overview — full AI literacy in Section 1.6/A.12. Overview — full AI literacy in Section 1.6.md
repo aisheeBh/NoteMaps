@@ -325,7 +325,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Planning Literacy for a Mid-Sized Firm
+## Worked Example (illustrative): Planning Literacy for a Mid-Sized Firm
 
 **Situation:** a 600-person professional-services firm rolls out an approved assistant and must show it supports AI literacy.
 
@@ -355,13 +355,15 @@ flowchart TD
 | Developers | 15 | Two days | Test build | Secure, evaluated internal tools |
 | Partners | 12 | Two hours | Incident exercise | Informed governance and risk appetite |
 
+*Illustrative figures.*
+
 > **Formula — Training load:** total hours = Σ(group size × hours). Example: 600 × 1 + 40 × 4 + 15 × 16 + 12 × 2 = 600 + 160 + 240 + 24 = **1,024 hours**, under 2 hours per person on average.
 
 - **Conclusion:** proportionate, role-based literacy is achievable at modest cost; the investment is small compared with the hours AI use will touch.
 
 ---
 
-## Case Study: From Ban to Literate Use
+## Case Study (illustrative): From Ban to Literate Use
 
 - **Situation:** a regional bank banned public AI tools in 2023 after staff were found pasting customer correspondence into a consumer chatbot.
 - **Problem by 2024:** surveys showed many staff still used AI on personal phones; productivity gains seen at competitors were not being captured; new hires expected AI tools.

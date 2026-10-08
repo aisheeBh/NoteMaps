@@ -237,7 +237,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Screening a Week's Tasks
+## Worked Example (illustrative): Screening a Week's Tasks
 
 **Situation:** a policy analyst in a government department reviews six upcoming tasks.
 

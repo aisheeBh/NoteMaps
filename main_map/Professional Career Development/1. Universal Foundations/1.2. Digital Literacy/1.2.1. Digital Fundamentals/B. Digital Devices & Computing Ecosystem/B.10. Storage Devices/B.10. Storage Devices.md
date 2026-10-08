@@ -334,7 +334,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Planning Storage for a Small Architecture Practice
+## Worked Example (illustrative): Planning Storage for a Small Architecture Practice
 
 **Situation:** a 15-person practice has 4 TB of active project files (large models and renderings), 12 TB of completed projects that must be kept for at least 12 years, and a growing photo library. Staff laptops have 1 TB NVMe SSDs.
 
@@ -356,11 +356,13 @@ flowchart TD
 | Closed projects | 12 TB | Archive tier or LTO tape | 2, in different locations | Periodic verification |
 | Laptops | 15 × 1 TB | NVMe SSD, encrypted | Synced to file service | Remote wipe; sanitise at end of life |
 
+*Illustrative figures.*
+
 > **Watch out:** a single NAS in the office cupboard, holding both the working files and "the backup", protects against nothing that matters — fire, theft and ransomware take both together.
 
 ---
 
-## Case Study: The Laptops that Were Sold with Their Data
+## Case Study (illustrative): The Laptops that Were Sold with Their Data
 
 - **Situation:** a regional council replaced 600 laptops and sold the old ones through a reseller to raise money.
 - **Problem:** a researcher who bought several units recovered council emails, social-care case notes and staff records from the drives and reported it to the data-protection regulator.

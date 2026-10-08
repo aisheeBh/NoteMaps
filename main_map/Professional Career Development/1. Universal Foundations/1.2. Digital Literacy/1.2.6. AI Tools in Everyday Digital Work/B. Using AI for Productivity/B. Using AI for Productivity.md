@@ -255,7 +255,7 @@ Across tools and tasks, AI contributes in a small number of fundamental ways. Ea
 
 > **Formula — Net productivity change:** (quality-adjusted output with AI ÷ total input with AI) ÷ (quality-adjusted output without AI ÷ total input without AI) − 1. Example: without AI, 10 acceptable reports take 20 hours (0.5 per hour). With AI, 12 reports take 16 hours, but 2 are sent back as unacceptable, leaving 10 acceptable in 16 hours plus 2 hours of rework (10 ÷ 18 ≈ 0.56 per hour). Net change = 0.56 ÷ 0.5 − 1 ≈ **+11%** — far less than the "12 reports in 16 hours" (+50%) that a naive count suggests.
 
-### Worked example: a team pilot
+### Worked example (illustrative): a team pilot
 
 **Situation:** a 30-person policy team pilots an AI assistant for drafting briefing notes and summarising consultation responses for eight weeks.
 
@@ -266,6 +266,8 @@ Across tools and tasks, AI contributes in a small number of fundamental ways. Ea
 | Errors | Not measured | Two factual errors reached senior readers in week 2; none after a checking step was added |
 | Who gained | Not measured | Largest net gains for newer staff on summaries; little gain for senior staff on briefings |
 | Recommendation | Roll out to all | Roll out for summaries with a minority-view check; keep briefings optional; re-measure in six months |
+
+*Illustrative figures.*
 
 - **Conclusion:** the careful pilot found a real but smaller gain, located where it occurred, and identified the safeguard that made it safe.
 

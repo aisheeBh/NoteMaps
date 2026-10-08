@@ -280,7 +280,7 @@ A request is itself an input, and its quality shapes the output. Five elements r
 
 > **Mnemonic — "TC-MCO" ("Two Cats May Catch Owls"):** Task, Context, Material, Constraints, Output format.
 
-### Worked example: one request, three interfaces
+### Worked example (illustrative): one request, three interfaces
 
 **Situation:** a project manager needs a summary of a 40-message email thread about a delayed supplier delivery, for a steering-committee update.
 
@@ -381,7 +381,7 @@ Beyond the request itself, a handful of settings silently change what the model 
 
 ---
 
-## Case Study: The Policy Assistant That Read Half the Policy
+## Case Study (illustrative): The Policy Assistant That Read Half the Policy
 
 - **Situation:** an HR team set up a custom assistant to answer employees' questions about a 120-page leave policy, uploading the policy as a PDF.
 - **Problem:** in testing, the assistant answered questions about early chapters well but gave generic or wrong answers about parental leave and carry-over rules.

@@ -299,7 +299,7 @@ timeline
 
 ---
 
-## Worked Example: One Question, Three Tools
+## Worked Example (illustrative): One Question, Three Tools
 
 **Situation:** a sole trader asks, in 2026, "What turnover forces me to register for VAT in the UK?"
 

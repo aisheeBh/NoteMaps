@@ -192,7 +192,7 @@ flowchart TD
 
 > **Key point:** choose the level by **consequence and reversibility**. Filing an email can act silently; sending a client a contract term cannot.
 
-### Worked example: invoice processing
+### Worked example (illustrative): invoice processing
 
 **Situation:** a small finance team receives about 600 supplier invoices a month as PDF attachments, entered by hand at about 4 minutes each (40 hours a month), with an error rate found in audit of about 2%.
 
@@ -213,6 +213,8 @@ flowchart TD
 | Errors reaching the finance system | About 2% | About 0.3% (caught later in reconciliation) |
 | Duplicate invoices entered | Occasional | None — duplicate check |
 | Main cause of exceptions | — | Missing PO numbers; scanned handwritten invoices |
+
+*Illustrative figures.*
 
 - **Conclusion:** the AI step handled variable invoice layouts; the deterministic checks — not the AI — produced the accuracy. The 18% of exceptions were exactly the cases needing a person.
 
@@ -342,7 +344,7 @@ sequenceDiagram
 
 ---
 
-### Case study: the Monday report
+### Case study (illustrative): the Monday report
 
 - **Situation:** the operations coordinator from the opening example spent three hours every Monday assembling a report from four systems.
 - **Actions:**

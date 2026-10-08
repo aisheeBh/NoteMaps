@@ -120,7 +120,7 @@ A program is only as good as its specification. The assistant fills every gap wi
 
 ---
 
-## Worked Example: Combining Monthly Spreadsheets
+## Worked Example (illustrative): Combining Monthly Spreadsheets
 
 **Situation:** a finance assistant receives twelve monthly expense files (CSV) and must produce one combined file with a column showing the month, then total expenses by cost centre.
 
@@ -143,6 +143,8 @@ A program is only as good as its specification. The assistant fills every gap wi
 | Grand total vs ledger | £1,284,560.20 | £1,283,310.20 | £1,284,560.20 |
 | Blank-amount rows listed | 23 rows in a separate file | 23 | 23 |
 | Originals unchanged | Same modification dates | Yes | Yes |
+
+*Illustrative figures.*
 
 **Step 4 — diagnosis of the discrepancy:** £1,250 missing. A single value "1,250.00" had been read as text and dropped. The assistant, given the failing value, changed the code to remove thousands separators before converting.
 
@@ -167,7 +169,7 @@ Much of the code non-specialists meet is not in a programming project at all but
 
 > **Definition — Regular expression (regex):** a pattern language for matching text, used for searching, validating and extracting strings such as postcodes, dates or reference numbers.
 
-> **Example:** asked for a regex to find UK postcodes, an assistant gives a pattern that matches "SW1A 1AA" but not "M1 1AE", because it assumed two letters at the start. Testing on a list of real postcodes — including short ones — exposes the gap at once.
+> **Example (illustrative):** asked for a regex to find UK postcodes, an assistant gives a pattern that matches "SW1A 1AA" but not "M1 1AE", because it assumed two letters at the start. Testing on a list of real postcodes — including short ones — exposes the gap at once.
 
 - **Automation-platform expressions** — the small formulas inside workflow tools that format dates, split text or choose branches.
 

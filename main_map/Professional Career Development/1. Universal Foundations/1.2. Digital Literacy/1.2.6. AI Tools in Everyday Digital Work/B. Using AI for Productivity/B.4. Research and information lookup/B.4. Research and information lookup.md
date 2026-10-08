@@ -300,7 +300,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Sizing a Market
+## Worked Example (illustrative): Sizing a Market
 
 **Situation:** a strategy consultant must give a client an estimate of the EU market for industrial heat pumps for a board paper next week.
 

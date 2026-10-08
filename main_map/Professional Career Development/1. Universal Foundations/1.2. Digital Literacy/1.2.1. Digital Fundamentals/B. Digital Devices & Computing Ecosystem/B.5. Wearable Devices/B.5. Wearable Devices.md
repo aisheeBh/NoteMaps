@@ -268,7 +268,7 @@ flowchart TD
     class STOP caution
 ```
 
-### Case study: safety wearables in a distribution centre
+### Case study (illustrative): safety wearables in a distribution centre
 
 - **Situation:** a distribution centre with 800 staff had repeated near-misses between pedestrians and forklift trucks, and rising back injuries.
 - **Proposal:** wearable tags for proximity alerts, plus wrist devices that would also record walking speed and idle time.

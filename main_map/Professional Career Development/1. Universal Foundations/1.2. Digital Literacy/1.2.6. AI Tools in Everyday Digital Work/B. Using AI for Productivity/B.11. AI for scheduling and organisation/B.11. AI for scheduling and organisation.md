@@ -168,7 +168,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Planning a Week With AI
+## Worked Example (illustrative): Planning a Week With AI
 
 **Situation:** a project manager has 11 meetings (13 hours), a report due Friday, a hiring decision by Thursday, a budget review and about 20 small requests in the inbox.
 
@@ -185,6 +185,8 @@ flowchart TD
 | Small requests | All 20 scheduled, 15 minutes each | 13 kept, batched into two 45-minute slots |
 | Buffer | None | Friday afternoon kept free |
 | Total scheduled | 41 hours of a 40-hour week | 34 hours, leaving buffer |
+
+*Illustrative figures.*
 
 **Step 4 — when-then plans** for the two report blocks: "At 9.00 on Tuesday, notifications off, in the quiet room, I will draft sections 1–3."
 
@@ -332,7 +334,7 @@ Organisation covers the material of work — notes, files, references, decisions
 
 ---
 
-## Case Study: The Team That Auto-Scheduled Itself
+## Case Study (illustrative): The Team That Auto-Scheduled Itself
 
 - **Situation:** a 15-person product team adopted an auto-scheduling tool that placed each person's tasks and focus time into their calendars and rearranged them automatically as meetings appeared.
 - **First month:**

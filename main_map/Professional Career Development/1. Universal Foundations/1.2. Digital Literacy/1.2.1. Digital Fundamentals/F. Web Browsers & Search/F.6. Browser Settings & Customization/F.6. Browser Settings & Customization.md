@@ -403,7 +403,7 @@ flowchart TD
 | Updates | Automatic but restart left to user | Enforced with deadlines |
 | Visibility of risky behaviour | None outside the user | Reporting to security tools |
 
-### Worked example: building a baseline for a 500-person firm
+### Worked example (illustrative): building a baseline for a 500-person firm
 
 An IT lead is asked to configure browsers for staff who handle client financial data.
 
@@ -423,7 +423,7 @@ An IT lead is asked to configure browsers for staff who handle client financial 
 
 ---
 
-### Case study: the search engine that kept coming back
+### Case study (illustrative): the search engine that kept coming back
 
 - **Situation:** a small accountancy practice noticed that several staff browsers used an unfamiliar search engine full of advertisements.
 - **Problem:** staff changed the setting back, but it reverted the next day; one browser displayed "Managed by your organisation" although the practice had no device management.

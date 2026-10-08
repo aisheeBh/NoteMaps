@@ -121,7 +121,7 @@ sequenceDiagram
 
 ![Figure 3. Warning signs on a phishing sign-in page](fig-F13-phishing-page.svg)
 
-### Worked example: is this sign-in page genuine?
+### Worked example (illustrative): is this sign-in page genuine?
 
 A finance assistant receives a chat message: "Shared: Q3 supplier payments.xlsx — sign in to view". The link opens a sign-in page carrying the company's cloud-provider logo.
 
@@ -307,7 +307,7 @@ flowchart TD
 
 ---
 
-### Case study: fake CAPTCHA in a consultancy
+### Case study (illustrative): fake CAPTCHA in a consultancy
 
 - **Situation:** a 400-person consultancy saw three laptops begin sending unusual traffic within a single morning.
 - **Problem:** information-stealing malware had harvested saved browser passwords and session cookies, including for the firm's cloud storage and a client's project portal.

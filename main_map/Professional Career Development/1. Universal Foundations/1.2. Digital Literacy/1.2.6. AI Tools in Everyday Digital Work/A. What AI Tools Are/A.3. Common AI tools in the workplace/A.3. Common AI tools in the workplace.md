@@ -280,7 +280,7 @@ timeline
 
 ---
 
-## Worked Example: Mapping One Professional's Day
+## Worked Example (illustrative): Mapping One Professional's Day
 
 **Situation:** a management consultant lists the AI tools that touched one working day.
 

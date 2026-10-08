@@ -263,7 +263,7 @@ sequenceDiagram
 
 ## The Future Inside Organisations
 
-### Worked example: testing a strategy against scenarios
+### Worked example (illustrative): testing a strategy against scenarios
 
 Situation: a global professional-services firm plans to consolidate all client data in one cloud provider's regions in the United States and Europe.
 
@@ -273,7 +273,7 @@ Situation: a global professional-services firm plans to consolidate all client d
 4. **Adjust** — design for **portability** (containers, open formats), choose regions per jurisdiction, keep a second provider qualified for critical workloads, and build a cryptographic inventory for post-quantum migration.
 - **Conclusion:** the adjusted plan costs a little more but remains viable across all four scenarios.
 
-### Case study: preparing for "harvest now, decrypt later"
+### Case study (illustrative): preparing for "harvest now, decrypt later"
 
 - **Situation:** a national health insurer holds medical records that must stay confidential for decades.
 - **Problem:** traffic between its data centres and partners was protected with classical public-key methods; recorded today, it might be decrypted in future.
@@ -354,7 +354,7 @@ Not every claimed future deserves equal weight. Sorting developments by the stre
 
 > **In practice:** critical organisations now ask not just "do we have two Internet connections?" but "do our providers' routes depend on the same cable, landing station, data centre or power grid?"
 
-### Worked example: judging a technology claim
+### Worked example (illustrative): judging a technology claim
 
 Situation: a supplier tells a hospital group that "6G will make our remote-surgery platform viable everywhere by 2030".
 

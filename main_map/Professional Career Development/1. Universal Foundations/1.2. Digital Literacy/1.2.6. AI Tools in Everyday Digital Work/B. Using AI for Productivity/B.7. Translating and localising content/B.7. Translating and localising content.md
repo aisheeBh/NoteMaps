@@ -131,7 +131,7 @@ A procurement officer in Manchester receives a supplier's terms in Portuguese an
 - Slogans depend on wordplay, rhythm and cultural associations — exactly what literal translation loses.
 - A widely reported case: in 2009, the bank HSBC replaced its long-running "Assume nothing" campaign after it had been rendered in several markets as "Do nothing"; the rebranding was reported to cost around US$10 million.
 
-> **Example:** a British retailer's slogan "Bang for your buck" depends on an English idiom; translated word for word into French it becomes a puzzling phrase about a noise and a dollar. Transcreation asks instead: what phrase in French conveys "excellent value, with energy"?
+> **Example (illustrative):** a British retailer's slogan "Bang for your buck" depends on an English idiom; translated word for word into French it becomes a puzzling phrase about a noise and a dollar. Transcreation asks instead: what phrase in French conveys "excellent value, with energy"?
 
 ---
 
@@ -326,7 +326,7 @@ flowchart TD
 
 > **Watch out:** back-translation and model self-checks can both be fooled. A wrong translation may back-translate "correctly" because the same model makes the same assumption in both directions. Use them as screens, not as proof.
 
-### Worked example: a supplier notice in Spanish
+### Worked example (illustrative): a supplier notice in Spanish
 
 **Situation:** a UK manufacturer must tell a Mexican supplier that a quality inspection failed and shipments are suspended until corrective action is approved.
 
@@ -342,7 +342,7 @@ flowchart TD
 
 ---
 
-## Case Study: Launching a Product in Germany and the Gulf
+## Case Study (illustrative): Launching a Product in Germany and the Gulf
 
 - **Situation:** a UK software firm used machine translation for its app interface, help centre and launch campaign in German and Arabic, aiming to launch in both markets within a month.
 - **Problems in the first week:**

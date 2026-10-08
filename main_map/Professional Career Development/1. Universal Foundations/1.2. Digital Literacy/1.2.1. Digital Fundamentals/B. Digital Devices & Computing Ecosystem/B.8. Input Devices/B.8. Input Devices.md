@@ -143,7 +143,7 @@ flowchart TD
 
 ![Figure 2. Fitts's law: small, distant targets take longer to hit](fig-B8-fitts-law.svg)
 
-**Worked example — two button designs**
+**Worked example (illustrative) — two button designs**
 
 - **Situation:** a checkout screen's "Pay" button is 20 mm wide and 160 mm from where the finger rests; a redesign proposes 40 mm wide and 80 mm away. Assume a = 0.1 s and b = 0.15 s per bit.
 
@@ -152,6 +152,8 @@ flowchart TD
 | 2D ÷ W | 2 × 160 ÷ 20 = 16 | 2 × 80 ÷ 40 = 4 |
 | log₂(2D ÷ W) | 4 bits | 2 bits |
 | Movement time | 0.1 + 0.15 × 4 = **0.70 s** | 0.1 + 0.15 × 2 = **0.40 s** |
+
+*Illustrative figures.*
 
 - **Conclusion:** about 0.3 seconds saved per press — across hundreds of transactions per till per day, and fewer mis-taps.
 
@@ -351,7 +353,7 @@ flowchart TD
 
 ---
 
-## Case Study: Replacing Manual Entry in a Warehouse
+## Case Study (illustrative): Replacing Manual Entry in a Warehouse
 
 - **Situation:** a parts distributor's staff typed order and part numbers from paper pick lists into terminals.
 - **Problems:** mis-keyed digits sent wrong parts; customers complained; returns were costly.

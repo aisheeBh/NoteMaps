@@ -332,7 +332,7 @@ flowchart TD
   - legitimate users may share addresses with attackers through carrier-grade NAT or VPNs;
   - remote and mobile workers have changing addresses, so address-based trust is weak — **identity-based access** has largely replaced it.
 
-### Case study: two companies, one address range
+### Case study (illustrative): two companies, one address range
 
 - **Situation:** a logistics firm acquired a competitor and planned to connect the two corporate networks within three months.
 - **Problem:** both companies had built their internal networks on the same private range (10.0.0.0/16), the default of a popular firewall vendor. Hundreds of servers and printers in each company shared identical addresses.
@@ -347,7 +347,7 @@ flowchart TD
 - **Result:** integration took twice as long as planned, at substantial cost in consultancy and downtime.
 - **Lesson:** address planning seems trivial until networks must be joined. Choosing **unusual, documented private ranges** from the outset — and adopting IPv6 — avoids expensive collisions.
 
-### Worked example: diagnosing "no Internet" from the address
+### Worked example (illustrative): diagnosing "no Internet" from the address
 
 Situation: a new employee's laptop shows "connected, no Internet".
 
@@ -381,7 +381,7 @@ Situation: a new employee's laptop shows "connected, no Internet".
 
 > **Definition — NAT64:** a translation mechanism that allows devices with only IPv6 addresses to communicate with servers reachable only over IPv4.
 
-### Worked example: an IPv6 plan for a mid-sized organisation
+### Worked example (illustrative): an IPv6 plan for a mid-sized organisation
 
 Situation: an organisation with 12 offices and a growing cloud estate wants to stop depending on scarce IPv4 addresses.
 

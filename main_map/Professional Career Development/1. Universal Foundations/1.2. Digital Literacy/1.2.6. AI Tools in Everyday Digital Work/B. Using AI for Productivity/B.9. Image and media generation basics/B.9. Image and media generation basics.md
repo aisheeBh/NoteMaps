@@ -112,7 +112,7 @@ flowchart TD
 
 > **In practice:** generate the **picture**, add the **words** yourself. Text, logos, prices and data belong in editable layers on top of the image, where they can be checked and corrected.
 
-### Worked example: an image for a fundraising email
+### Worked example (illustrative): an image for a fundraising email
 
 **Situation:** the charity needs a 16:9 header image of volunteers planting trees at dawn, with space on the left for a headline.
 
@@ -176,7 +176,7 @@ A common workplace use of generated audio is narration for training, explainer a
 5. **Disclose** synthetic narration where listeners might assume a real person is speaking.
 6. **Caption** — captions and transcripts make the content accessible and searchable.
 
-> **Example:** a compliance team converts a 20-page policy into a six-minute narrated video. Synthetic narration reads "s. 172" as "s one hundred seventy-two"; the script is changed to "section one-seven-two of the Companies Act" — a fix that took seconds once someone listened.
+> **Example (illustrative):** a compliance team converts a 20-page policy into a six-minute narrated video. Synthetic narration reads "s. 172" as "s one hundred seventy-two"; the script is changed to "section one-seven-two of the Companies Act" — a fix that took seconds once someone listened.
 
 ### Video
 
@@ -380,7 +380,7 @@ Generative editing of real photographs raises distinct questions, because viewer
   - **evidence and records** — insurance, inspection and safety photographs must not be altered at all;
   - **people's appearance** — reshaping bodies or faces in advertising has attracted regulatory attention in several countries.
 
-> **Example:** an estate agency's AI tool "tidies" listing photos by removing clutter — and, unnoticed, a damp patch on a ceiling. The image now misrepresents the property; the agency, not the tool, is responsible.
+> **Example (illustrative):** an estate agency's AI tool "tidies" listing photos by removing clutter — and, unnoticed, a damp patch on a ceiling. The image now misrepresents the property; the agency, not the tool, is responsible.
 
 > **Remember:** edit the **presentation** of a real image freely; do not edit its **claims** without saying so.
 

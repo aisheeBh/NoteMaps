@@ -334,7 +334,7 @@ The Internet's history can be read as a series of tensions that are managed rath
 
 ---
 
-## Case Study: The AI Rollout That Was Really a Network Project
+## Case Study (illustrative): The AI Rollout That Was Really a Network Project
 
 - **Situation:** a law firm of 900 people across eight offices introduced an AI drafting assistant embedded in its document system, hosted by a large cloud provider.
 - **Problems in the first month:**
@@ -358,7 +358,7 @@ The Internet's history can be read as a series of tensions that are managed rath
 
 ---
 
-## Worked Example: An Internet-Readiness Review
+## Worked Example (illustrative): An Internet-Readiness Review
 
 Situation: a regional charity with three offices plans to move its case-management system to a cloud service and introduce AI-assisted note-taking for caseworkers, many of whom work from clients' homes.
 

@@ -386,7 +386,7 @@ Organisations choose a **standard browser** — and usually a supported second �
 - **User experience and accessibility** — performance, assistive-technology support.
 - **Cost of support** — training, help-desk load, licensing for enterprise features.
 
-### Worked example: choosing a corporate standard
+### Worked example (illustrative): choosing a corporate standard
 
 A 3,000-person professional-services firm on Windows laptops compares two candidates. Each criterion is weighted and scored from 1 to 5.
 
@@ -399,6 +399,8 @@ A 3,000-person professional-services firm on Windows laptops compares two candid
 | User familiarity | 15% | 4 | 0.60 | 3 | 0.45 |
 | **Total** | 100% | | **4.55** | | **3.85** |
 
+*Illustrative figures.*
+
 1. The decisive gap is **legacy compatibility** — Browser A can run old IE-dependent applications.
 2. Browser B wins on **privacy defaults**, which policy can partly narrow by configuring Browser A more strictly.
 3. Decision: Browser A as standard, configured with stricter tracking settings; Browser B permitted as a secondary browser for testing.
@@ -409,7 +411,7 @@ A 3,000-person professional-services firm on Windows laptops compares two candid
 
 ---
 
-### Case study: retiring Internet Explorer in a regional bank
+### Case study (illustrative): retiring Internet Explorer in a regional bank
 
 - **Situation:** a regional bank still ran more than forty internal applications built for Internet Explorer in the 2000s — loan origination, branch reporting, HR forms.
 - **Problem:** Microsoft announced the end of support for the IE desktop application, which was disabled on most Windows 10 versions from **June 2022**. Several applications used ActiveX controls and IE-specific scripts.

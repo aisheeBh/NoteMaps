@@ -321,7 +321,7 @@ flowchart TD
 - **Restart regularly** — lets updates install and clears accumulated software faults.
 - **Back up and sync** — a laptop's data should never exist only on the laptop.
 
-> **Example:** a consultant whose laptop overheated during every afternoon call discovered a blocked fan intake from resting the machine on a sofa cushion. A hard surface and a ten-minute fan cleaning restored full speed — the "slow laptop" was a cooling problem, not a processor problem.
+> **Example (illustrative):** a consultant whose laptop overheated during every afternoon call discovered a blocked fan intake from resting the machine on a sofa cushion. A hard surface and a ten-minute fan cleaning restored full speed — the "slow laptop" was a cooling problem, not a processor problem.
 
 ### Accessibility and comfort on the move
 
@@ -350,7 +350,7 @@ flowchart TD
   - Many organisations brought forward laptop purchases into 2024–2025.
 - **Lesson:** a laptop's life is often ended by **software requirements**, not by hardware failure.
 
-### Worked example: total cost of ownership for two laptop options
+### Worked example (illustrative): total cost of ownership for two laptop options
 
 **Situation:** a consultancy of 1,000 staff compares a cheaper consumer-grade laptop with a business model over four years.
 
@@ -370,7 +370,7 @@ flowchart TD
 
 > **Watch out:** the figures are illustrative. Real comparisons depend on measured failure and support rates; vendors' own TCO studies tend to favour their products.
 
-### Case study: the bank that standardised on three models
+### Case study (illustrative): the bank that standardised on three models
 
 - **Situation:** a regional bank had accumulated more than twenty laptop models from years of local purchasing.
 - **Problems:**

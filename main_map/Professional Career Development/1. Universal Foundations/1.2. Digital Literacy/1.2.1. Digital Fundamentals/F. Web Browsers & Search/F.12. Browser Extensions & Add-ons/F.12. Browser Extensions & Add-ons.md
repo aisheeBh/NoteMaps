@@ -254,7 +254,7 @@ flowchart TD
 
 ![Figure 5. Placing extensions by breadth of access and trust in the publisher](fig-F12-permission-risk.svg)
 
-### Worked example: choosing between two screenshot extensions
+### Worked example (illustrative): choosing between two screenshot extensions
 
 | | Extension A | Extension B |
 |---|---|---|
@@ -264,6 +264,8 @@ flowchart TD
 | Permissions | activeTab (current tab when clicked), downloads | Read and change all data on all websites; tabs; storage; access to cookies |
 | Last update | Last month | 14 months ago |
 | Money model | Paid tier | Free, no explanation |
+
+*Illustrative figures.*
 
 1. **Function** — both meet the need; B's cloud upload is not required.
 2. **Permissions** — A needs access only when clicked; B wants permanent access to every site and to cookies, far beyond screenshot needs.
@@ -332,7 +334,7 @@ flowchart TD
 
 > **Key point:** for organisations, an **extension allow-list** is one of the highest-value, lowest-cost browser controls. It turns thousands of individual decisions into one considered decision.
 
-### Case study: an unapproved AI writing extension
+### Case study (illustrative): an unapproved AI writing extension
 
 - **Situation:** a law firm's security team noticed in its browser-management console that 140 staff had installed the same free "AI email writer" extension within two weeks.
 - **Problem:** the extension had permission to read and change data on all websites, including the firm's document-management and email systems.

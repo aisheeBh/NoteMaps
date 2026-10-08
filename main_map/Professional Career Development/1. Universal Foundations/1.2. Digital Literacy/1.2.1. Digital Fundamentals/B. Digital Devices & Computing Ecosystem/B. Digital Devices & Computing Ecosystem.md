@@ -370,7 +370,7 @@ flowchart TD
 
 ---
 
-## Case Study: Rebuilding a Device Ecosystem After a Merger
+## Case Study (illustrative): Rebuilding a Device Ecosystem After a Merger
 
 - **Situation:** two engineering consultancies merged, creating a firm of 6,000 people with incompatible device estates — one standardised on a single laptop platform with tight management, the other a mixture of personally chosen laptops, unmanaged phones and ageing office printers.
 - **Problems:**
@@ -392,7 +392,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Choosing an Ecosystem for a New Organisation
+## Worked Example (illustrative): Choosing an Ecosystem for a New Organisation
 
 **Situation:** a 120-person design and research charity is setting up from scratch. Staff include designers, researchers, fundraisers and field workers in two countries.
 

@@ -172,7 +172,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Outlining a Proposal
+## Worked Example (illustrative): Outlining a Proposal
 
 **Situation:** an operations manager must persuade the executive committee to fund a redesigned customer-onboarding process. New business customers currently wait 19 working days on average to go live; competitors are known to take about a week.
 
@@ -193,6 +193,8 @@ flowchart TD
 | Key point 3 | Timeline, Risks | "The plan is low-risk and phased": pilot in one region first; stop-points if targets missed |
 | Ending | Conclusion | The decision required today and its cost |
 | Headings | Topics | Claims |
+
+*Illustrative figures.*
 
 **Step 4 — AI critique of the argument-led outline**
 
@@ -319,7 +321,7 @@ flowchart TD
 
 ---
 
-## Case Study: The Office Move Planned in an Afternoon
+## Case Study (illustrative): The Office Move Planned in an Afternoon
 
 - **Situation:** a 120-person firm had to move offices within four months. An office manager used an AI assistant to produce a project plan in an afternoon: 46 tasks, phases, owners by role and a timeline that finished two weeks early.
 - **Problem:** six weeks in, the plan had slipped by a month.

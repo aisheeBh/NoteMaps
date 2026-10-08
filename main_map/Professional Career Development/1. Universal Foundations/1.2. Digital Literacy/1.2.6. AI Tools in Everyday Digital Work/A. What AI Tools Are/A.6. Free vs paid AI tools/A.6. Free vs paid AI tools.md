@@ -258,7 +258,7 @@ flowchart TD
 
 ---
 
-## Worked Example: What Does a Team Licence Really Cost?
+## Worked Example (illustrative): What Does a Team Licence Really Cost?
 
 **Situation:** a 50-person professional-services team currently uses a mix of free and personal paid accounts. The manager compares options for one year.
 
@@ -344,7 +344,7 @@ flowchart TD
 - **To get integration** — tools connected to the organisation's documents and systems produce more relevant outputs.
 - **To get leverage** — enterprise agreements can negotiate retention, location, security reviews and indemnities.
 
-### Case study: a small accountancy practice formalises its AI use
+### Case study (illustrative): a small accountancy practice formalises its AI use
 
 - **Situation:** a twelve-person accountancy practice discovered most staff used free chat assistants, some pasting client figures to draft commentary.
 - **Risk identified:**

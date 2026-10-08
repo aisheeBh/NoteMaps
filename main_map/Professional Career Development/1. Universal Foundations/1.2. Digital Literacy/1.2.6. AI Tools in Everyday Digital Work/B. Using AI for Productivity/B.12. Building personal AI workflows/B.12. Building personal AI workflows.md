@@ -194,7 +194,7 @@ A mature set of workflows includes deliberate decisions **not** to use AI.
 - **Where errors are costly and hard to detect** — legal commitments, safety instructions, decisions about people — unless a qualified reviewer checks.
 - **Where conventional tools are better** — calculations, lookups in a known system, mail-merge.
 
-> **Example:** after two months of logging, an HR adviser retired her workflow for drafting answers to policy questions: checking each draft against the policy took as long as writing the answer, and two drafts had paraphrased eligibility rules incorrectly. She kept a workflow for **finding** the relevant policy section, which saved time without that risk.
+> **Example (illustrative):** after two months of logging, an HR adviser retired her workflow for drafting answers to policy questions: checking each draft against the policy took as long as writing the answer, and two drafts had paraphrased eligibility rules incorrectly. She kept a workflow for **finding** the relevant policy section, which saved time without that risk.
 
 > **Key point:** the log is as useful for showing where AI does **not** pay as for showing where it does. Retiring a workflow on the evidence is a sign of a well-run practice, not a failure.
 
@@ -284,7 +284,7 @@ A mature set of workflows includes deliberate decisions **not** to use AI.
 
 ---
 
-## Worked Example: A Weekly Client Update Workflow
+## Worked Example (illustrative): A Weekly Client Update Workflow
 
 **Situation:** an account manager sends five clients a weekly project update. Baseline: about 45 minutes each, 3.75 hours a week; occasional errors in dates.
 
@@ -334,6 +334,8 @@ flowchart TD
 | Corrections per update | — | 1.4 on average, falling to 0.6 |
 | Client feedback | Occasional "can you clarify?" | Unchanged |
 
+*Illustrative figures.*
+
 - **Design choices that mattered:**
   1. **inputs from the tracker**, not from memory, so dates were right at source;
   2. the gate's "**no new promises**" check, after the AI twice added "we will deliver by…" lines;
@@ -368,7 +370,7 @@ flowchart TD
 
 ---
 
-## Case Study: The Finance Analyst's Monthly Pack
+## Case Study (illustrative): The Finance Analyst's Monthly Pack
 
 - **Situation:** an analyst in a mid-sized firm spent about two days each month preparing a management pack: figures, charts and eight pages of commentary.
 - **Design:**

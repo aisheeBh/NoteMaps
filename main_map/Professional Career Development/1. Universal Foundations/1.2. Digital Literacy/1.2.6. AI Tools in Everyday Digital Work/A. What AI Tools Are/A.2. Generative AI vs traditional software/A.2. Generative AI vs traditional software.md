@@ -251,7 +251,7 @@ flowchart TD
 
 ---
 
-## Worked Example: The Same Calculation Two Ways
+## Worked Example (illustrative): The Same Calculation Two Ways
 
 **Situation:** a small-business owner needs the monthly repayment on a loan of £10,000 at 6% annual interest over three years.
 

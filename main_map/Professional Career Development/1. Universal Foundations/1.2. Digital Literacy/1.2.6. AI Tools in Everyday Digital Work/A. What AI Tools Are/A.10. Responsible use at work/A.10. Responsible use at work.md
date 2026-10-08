@@ -275,7 +275,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Responsible-Use Review of a Marketing Campaign
+## Worked Example (illustrative): A Responsible-Use Review of a Marketing Campaign
 
 **Situation:** a marketing team plans a campaign for a new financial product using AI for copy, images, a chatbot and audience targeting.
 

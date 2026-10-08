@@ -326,7 +326,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Summarising a Supplier Contract
+## Worked Example (illustrative): Summarising a Supplier Contract
 
 **Situation:** a 42-page software-services contract (about 16,000 words) is due for renewal. The finance director must decide within a week whether to renew, renegotiate or exit.
 
@@ -354,6 +354,8 @@ flowchart TD
 | Data return on exit | Absent | "Contract is silent" — flagged as a gap |
 | Verifiable | Hard | Every point has a clause reference |
 
+*Illustrative figures.*
+
 **Step 4 — verification** finds one error: the summary states the notice period as 60 days; clause 2.3 says 90. The model had taken "60" from a different clause about service-credit claims.
 
 - **Conclusion:** the purposeful request surfaced the three terms that drive the decision and one important gap; verification by clause reference caught the one error in under ten minutes.
@@ -371,7 +373,7 @@ flowchart TD
 - **Spreadsheets and data tables** — summaries of numbers are risky; ask for figures quoted exactly with cell references, and compute totals separately.
 - **Multiple documents** — comparative summaries ("how do these three proposals differ on cost and timing?") are powerful but multiply attribution errors: require a source tag on each point.
 
-> **Example:** asked to summarise a 60-message thread about an office move, a model reported that "the team agreed on the Leeds site". The thread had agreed on Leeds in message 12 and switched to Manchester in message 47. A request for "the latest position, with the message where each decision was made" exposed the change.
+> **Example (illustrative):** asked to summarise a 60-message thread about an office move, a model reported that "the team agreed on the Leeds site". The thread had agreed on Leeds in message 12 and switched to Manchester in message 47. A request for "the latest position, with the message where each decision was made" exposed the change.
 
 ---
 
@@ -385,7 +387,7 @@ flowchart TD
 - **Consulting and research** — literature scans and interview syntheses; source tags on every point keep synthesis honest.
 - **Public sector** — consultation responses summarised at scale; the risk is that minority views, phrased unusually, are averaged away.
 
-### Case study: due diligence at speed
+### Case study (illustrative): due diligence at speed
 
 - **Situation:** a consultancy team had five days to review 300 documents in a data room for an acquisition.
 - **Approach:** AI summaries of every document, organised into a standard template (parties, money, term, change of control, liabilities, open issues), each with page references.

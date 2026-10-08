@@ -302,7 +302,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Choosing Monitors for an Analytics Team
+## Worked Example (illustrative): Choosing Monitors for an Analytics Team
 
 **Situation:** a 40-person analytics team works with spreadsheets, dashboards and code all day at fixed desks. The budget allows either two 24-inch Full HD monitors per person or one 27-inch 4K monitor per person.
 
@@ -326,7 +326,7 @@ flowchart TD
 
 ---
 
-## Case Study: Cutting Printing at a Law Firm
+## Case Study (illustrative): Cutting Printing at a Law Firm
 
 - **Situation:** a 300-person law firm had 140 printers, many personal desktop models, and printed several million pages a year.
 - **Problems:** high cartridge costs; confidential documents left in output trays; unmanaged printers with outdated firmware; storage of scanned client documents on printers' internal drives.

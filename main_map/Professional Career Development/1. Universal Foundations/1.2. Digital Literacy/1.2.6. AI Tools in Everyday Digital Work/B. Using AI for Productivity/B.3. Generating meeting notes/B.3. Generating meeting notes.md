@@ -150,7 +150,7 @@ flowchart TD
 
 ---
 
-## Worked Example: From Transcript to Action Notes
+## Worked Example (illustrative): From Transcript to Action Notes
 
 **Situation:** a 45-minute meeting between a software team and a client's operations manager about a delayed data migration.
 
@@ -369,7 +369,7 @@ sequenceDiagram
 - **Formal minutes** for boards and committees remain the responsibility of a named secretary; AI drafts are inputs, not minutes.
 - **Accessibility:** live captions and transcripts help deaf and hard-of-hearing colleagues and second-language speakers — a strong reason to transcribe, balanced against candour and privacy.
 
-### Case study: automatic summaries in a product team
+### Case study (illustrative): automatic summaries in a product team
 
 - **Situation:** a 25-person product team switched on automatic AI summaries for all meetings.
 - **First six weeks:**

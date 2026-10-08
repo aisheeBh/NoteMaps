@@ -358,7 +358,7 @@ flowchart TD
 - **Exit** — can data be exported in a usable format, and how hard is it to leave?
 - **Compliance** — sector rules (health, finance, public sector), data-protection law, records retention.
 
-### Worked example: approving a new file-sharing service
+### Worked example (illustrative): approving a new file-sharing service
 
 Situation: a design team asks to use a fast new file-transfer service for sending large files to clients.
 
@@ -393,7 +393,7 @@ Much of the Internet's traffic is not people using services but **services using
 - **Rate limits** — providers cap how many requests a customer may make, to protect capacity and enforce pricing.
 - **Versioning and deprecation** — providers announce when old versions will stop working; integrations need maintenance.
 
-### Worked example: connecting an online shop to its services
+### Worked example (illustrative): connecting an online shop to its services
 
 Situation: a small online retailer wants orders to flow automatically through payment, stock, delivery and accounting.
 

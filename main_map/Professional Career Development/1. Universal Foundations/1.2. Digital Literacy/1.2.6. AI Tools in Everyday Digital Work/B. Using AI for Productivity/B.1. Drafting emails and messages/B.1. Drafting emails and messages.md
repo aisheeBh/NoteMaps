@@ -181,7 +181,7 @@ AI can help with a message in three fundamentally different ways, each with its 
 - **Channel conversion** — an email turned into a two-line chat message, or a chat thread summarised into an email for someone who missed it.
 - **Language and audience** — a message adapted for a reader working in a second language: shorter sentences, no idioms.
 
-> **Example:** a support engineer types "cust says export broken since upd, repro'd, fix in next patch thurs, workaround = csv" and asks for a customer reply. The model produces three polite sentences explaining the fault, the Thursday fix and the CSV workaround — the substance is the engineer's; only the wording is the model's.
+> **Example (illustrative):** a support engineer types "cust says export broken since upd, repro'd, fix in next patch thurs, workaround = csv" and asks for a customer reply. The model produces three polite sentences explaining the fault, the Thursday fix and the CSV workaround — the substance is the engineer's; only the wording is the model's.
 
 ### Critique as a safer default
 
@@ -193,7 +193,7 @@ AI can help with a message in three fundamentally different ways, each with its 
 
 ---
 
-## Worked Example: The Delayed Delivery
+## Worked Example (illustrative): The Delayed Delivery
 
 **Situation:** a software supplier must tell a client that go-live moves from 3 March to 17 March because integration testing found a data-mapping defect. The client's operations director was annoyed by a previous slip in January. No compensation has been approved.
 
@@ -220,6 +220,8 @@ AI can help with a message in three fundamentally different ways, each with its 
 | Request | None | Agree revised test window by Wednesday |
 | Unauthorised commitment | "Goodwill gesture" | None |
 | Tone | Over-apologetic, evasive | Accountable, calm |
+
+*Illustrative figures.*
 
 **Step 4 — human review** finds one remaining problem: the draft says the defect "has been fixed", whereas retesting is still under way. The writer edits it to "a fix is in place and being retested".
 
@@ -446,7 +448,7 @@ Two questions decide how much of a message to hand over: **how costly is an erro
   - Risks: messages that are generic despite surface personalisation; breaches of electronic-marketing law (such as the UK's Privacy and Electronic Communications Regulations or the US CAN-SPAM Act); damage to sender reputation with email filters.
 - **Regulated communications** — financial promotions, clinical messages and legal correspondence often require approved wording, record-keeping and sign-off; AI drafting must fit into those controls, not bypass them.
 
-### Case study: a support team adopts reply drafting
+### Case study (illustrative): a support team adopts reply drafting
 
 - **Situation:** a 40-person software support team introduced AI-suggested replies inside its ticketing system.
 - **First month:** average handling time fell, but customer complaints about "robotic" answers and two incorrect refund promises appeared.

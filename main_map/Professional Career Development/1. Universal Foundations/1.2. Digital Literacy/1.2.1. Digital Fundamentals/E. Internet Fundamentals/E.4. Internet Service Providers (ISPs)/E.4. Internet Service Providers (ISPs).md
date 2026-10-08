@@ -225,7 +225,7 @@ flowchart LR
 - **Support** — quality and availability of customer service.
 - **Extras that matter** — static IP address (for some home workers and small businesses), quality of supplied router, parental controls.
 
-### Worked example: comparing two home-worker offers
+### Worked example (illustrative): comparing two home-worker offers
 
 Situation: a freelance video editor uploads large files to clients daily and joins video calls.
 
@@ -236,6 +236,8 @@ Situation: a freelance video editor uploads large files to clients daily and joi
 | Typical evening speed | 350 Mbit/s | 290 Mbit/s |
 | Latency to nearby servers | 15–25 ms | 5–10 ms |
 | Monthly price (24-month average) | Slightly lower | Slightly higher |
+
+*Illustrative figures.*
 
 1. **Identify the real need** — large *uploads* and stable video calls.
 2. **Estimate the upload task** — a 20-gigabyte project file:

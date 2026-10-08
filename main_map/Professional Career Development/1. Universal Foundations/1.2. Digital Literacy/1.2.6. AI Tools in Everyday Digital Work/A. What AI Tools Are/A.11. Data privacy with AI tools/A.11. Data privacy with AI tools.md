@@ -253,7 +253,7 @@ Most organisations classify information; each class maps to permitted tools.
 
 ![Figure 5. Redaction, pseudonymisation and anonymisation compared](fig-A11-deidentification.svg)
 
-### Worked example: preparing a complaint for an AI tool
+### Worked example (illustrative): preparing a complaint for an AI tool
 
 **Situation:** a customer-service lead wants help drafting a reply to a complaint, using an approved business assistant. Policy requires minimisation even in approved tools.
 

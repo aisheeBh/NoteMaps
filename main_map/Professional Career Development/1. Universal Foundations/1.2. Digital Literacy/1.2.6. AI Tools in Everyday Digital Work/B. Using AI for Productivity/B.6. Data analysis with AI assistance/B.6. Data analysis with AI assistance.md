@@ -186,7 +186,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Does the New Dashboard Reduce Churn?
+## Worked Example (illustrative): Does the New Dashboard Reduce Churn?
 
 **Situation:** a software company launched a reporting dashboard last year. A product manager asks an AI assistant, with the customer file uploaded, whether dashboard users churn less.
 
@@ -199,6 +199,8 @@ flowchart TD
 | Small firms | 45 / 300 | 15% | 18 / 100 | 18% |
 | Large firms | 3 / 100 | 3% | 25 / 500 | 5% |
 | All firms | 48 / 400 | **12%** | 43 / 600 | **7.2%** |
+
+*Illustrative figures.*
 
 **Step 3 — interpret**
 
@@ -341,7 +343,7 @@ Analyses support claims of different strength, and AI-written narratives routine
 
 ---
 
-## Case Study: The Regional Sales Insight
+## Case Study (illustrative): The Regional Sales Insight
 
 - **Situation:** a regional sales director asked an AI assistant, with a year of sales data uploaded, "Which regions are underperforming and why?"
 - **What happened:**

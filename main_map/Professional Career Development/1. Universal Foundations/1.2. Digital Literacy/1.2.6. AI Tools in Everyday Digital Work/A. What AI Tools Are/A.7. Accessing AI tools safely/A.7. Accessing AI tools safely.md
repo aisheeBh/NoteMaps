@@ -205,7 +205,7 @@ flowchart TD
     class NO caution
 ```
 
-### Worked example: reading an extension's permissions
+### Worked example (illustrative): reading an extension's permissions
 
 **Situation:** an employee finds a free browser extension, "AI Summariser Pro", that promises one-click summaries of any web page and email.
 

@@ -302,7 +302,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Classifying a Team's Tools
+## Worked Example (illustrative): Classifying a Team's Tools
 
 **Situation:** a finance operations team lists the software it uses and must tell its risk function which items count as AI tools.
 
@@ -377,7 +377,7 @@ flowchart TD
 
 > **In practice:** mature organisations maintain an **AI register**, assign each tool an owner, tier it by consequence, and review embedded vendor features whenever software updates switch on new AI capabilities by default.
 
-### Case study: an insurer discovers its AI estate
+### Case study (illustrative): an insurer discovers its AI estate
 
 - **Situation:** a mid-sized insurer believed it used "two AI tools" — a pilot chat assistant and a claims-triage model.
 - **Trigger:** a new board-level requirement to report all AI use to the risk committee.
