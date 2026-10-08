@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A skill develops with practice and fades without it</title>
+  <desc>Schematic chart. Horizontal axis: time. Vertical axis: search skill. A solid line rises with regular practice and keeps rising slowly. A dashed line rises at first, then practice stops when AI takes over the searching and the line falls. A dotted line stays low, for a person who never practised because AI always searched.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">A skill develops with practice and fades without it</text>
+  <line x1="110" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="430" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="495" y="470" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Time</text>
+  <text x="60" y="255" text-anchor="middle" font-size="16" font-weight="bold" transform="rotate(-90 60 255)" fill="#111111">Search skill</text>
+  <text x="110" y="452" text-anchor="start" font-size="14" fill="#111111">Start of career</text>
+  <text x="880" y="452" text-anchor="end" font-size="14" fill="#111111">Years later</text>
+  <text x="100" y="426" text-anchor="end" font-size="14" fill="#111111">Low</text>
+  <text x="100" y="90" text-anchor="end" font-size="14" fill="#111111">High</text>
+  <path d="M110 395 L264 290 L418 220 L649 168 L880 143" fill="none" stroke="#111111" stroke-width="3"/>
+  <rect x="668" y="105" width="139" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="672" y="122" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Regular practice</text>
+  <path d="M110 395 L264 290 L418 227 L534 237 L688 283 L880 314" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="568" y="308" width="229" height="43" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="572" y="325" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Practice stops: AI does the</text>
+  <text x="572" y="344" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">searching</text>
+  <path d="M110 395 L341 374 L880 360" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="2 4"/>
+  <rect x="260" y="385" width="131" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="264" y="402" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Never practised</text>
+  <text x="480" y="530" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

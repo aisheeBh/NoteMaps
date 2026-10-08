@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Seven layers of selection between the world and the answer</title>
+  <desc>A funnel of seven layers, each narrower than the one above: what gets written; what is online and accessible; what is indexed; what is ranked highly; what the AI selects; what the AI emphasises; what the reader accepts. Each layer keeps only part of what passes into it and none keeps a random sample.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Seven layers of selection between the world and the answer</text>
+  <rect x="30" y="70" width="900" height="76" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="480" y="100" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#222222">1. What gets written</text>
+  <text x="480" y="127" text-anchor="middle" font-size="14" fill="#222222">Coverage and publication bias</text>
+  <rect x="70" y="154" width="820" height="76" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480" y="184" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">2. What is online and accessible</text>
+  <text x="480" y="211" text-anchor="middle" font-size="14" fill="#111111">Paywalls, crawler blocking, formats</text>
+  <rect x="110" y="238" width="740" height="76" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480" y="268" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">3. What is indexed</text>
+  <text x="480" y="295" text-anchor="middle" font-size="14" fill="#111111">Only part of the web and of databases</text>
+  <rect x="150" y="322" width="660" height="76" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="352" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">4. What is ranked highly</text>
+  <text x="480" y="379" text-anchor="middle" font-size="14" fill="#111111">Popularity, optimisation, commerce</text>
+  <rect x="190" y="406" width="580" height="76" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="436" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">5. What the AI selects</text>
+  <text x="480" y="463" text-anchor="middle" font-size="14" fill="#111111">A handful of passages; favoured domains</text>
+  <rect x="230" y="490" width="500" height="76" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480" y="520" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">6. What the AI emphasises</text>
+  <text x="480" y="547" text-anchor="middle" font-size="14" fill="#111111">Majority view; the question's framing</text>
+  <rect x="270" y="574" width="420" height="76" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="480" y="604" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">7. What the reader accepts</text>
+  <text x="480" y="631" text-anchor="middle" font-size="14" fill="#111111">Confirmation bias</text>
+  <text x="480" y="712" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Each layer keeps only part of what reaches it, and none keeps a random sample.</text>
+</svg>
