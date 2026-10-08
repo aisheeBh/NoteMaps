@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Perishable and durable knowledge about AI tools</title>
+  <desc>A horizontal spectrum. At the left, perishable knowledge such as current prices, leaderboard positions, model names and interface details, useful for weeks or months. In the middle, semi-durable knowledge such as tool categories and the strengths of one's own tools. At the right, durable knowledge such as how models work in outline, why they make plausible errors, task decomposition, giving context, verification and measuring benefit, useful for years.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">How fast knowledge about AI ages</text>
+  <line x1="60" y1="120" x2="900" y2="120" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="60" y="100" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">ages in weeks</text>
+  <text x="900" y="100" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">lasts for years</text>
+  <rect x="40" y="150" width="270" height="280" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="48" y="219" width="254" height="139" rx="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="175" y="242" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Perishable</text>
+  <text x="175" y="274" text-anchor="middle" font-size="15" fill="#111111">Current prices and tiers.</text>
+  <text x="175" y="294" text-anchor="middle" font-size="15" fill="#111111">Leaderboard positions. Model</text>
+  <text x="175" y="313" text-anchor="middle" font-size="15" fill="#111111">names and versions. Interface</text>
+  <text x="175" y="333" text-anchor="middle" font-size="15" fill="#111111">details. Which product leads</text>
+  <text x="175" y="352" text-anchor="middle" font-size="15" fill="#111111">this month.</text>
+  <rect x="345" y="150" width="270" height="280" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="353" y="219" width="254" height="139" rx="4" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="480" y="242" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Semi-durable</text>
+  <text x="480" y="274" text-anchor="middle" font-size="15" fill="#111111">Categories of tools and what</text>
+  <text x="480" y="294" text-anchor="middle" font-size="15" fill="#111111">each is for. Strengths and</text>
+  <text x="480" y="313" text-anchor="middle" font-size="15" fill="#111111">failure modes of one's own</text>
+  <text x="480" y="333" text-anchor="middle" font-size="15" fill="#111111">tools. Organisation's approved</text>
+  <text x="480" y="352" text-anchor="middle" font-size="15" fill="#111111">tools and rules.</text>
+  <rect x="650" y="150" width="270" height="280" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="658" y="210" width="254" height="159" rx="4" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="785" y="233" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Durable</text>
+  <text x="785" y="264" text-anchor="middle" font-size="15" fill="#111111">How models work in outline.</text>
+  <text x="785" y="284" text-anchor="middle" font-size="15" fill="#111111">Why they make plausible</text>
+  <text x="785" y="303" text-anchor="middle" font-size="15" fill="#111111">errors. Decomposing tasks.</text>
+  <text x="785" y="323" text-anchor="middle" font-size="15" fill="#111111">Giving context. Verifying.</text>
+  <text x="785" y="342" text-anchor="middle" font-size="15" fill="#111111">Measuring benefit. Protecting</text>
+  <text x="785" y="362" text-anchor="middle" font-size="15" fill="#111111">data.</text>
+  <text x="480" y="470" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Time spent on the right compounds; time spent on the left must be spent again.</text>
+  <text x="480" y="504" text-anchor="middle" font-size="13" fill="#333333">Conceptual spectrum; boundaries between categories are approximate.</text>
+</svg>

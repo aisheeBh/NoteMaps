@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Risk that an AI summary misses or misreads parts of a long document</title>
+  <desc>Schematic ranking: narrative body text lowest risk; executive summary low; definitions, exceptions and footnotes moderate to high; appendices and tables high; charts and scanned pages highest.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where long-document summaries go wrong</text>
+  <text x="290" y="92" text-anchor="end" font-size="15" fill="#111111">Narrative body text</text>
+  <rect x="300" y="74" width="95" height="38" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="405" y="98" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">lower</text>
+  <text x="290" y="148" text-anchor="end" font-size="15" fill="#111111">Executive summary</text>
+  <rect x="300" y="130" width="76" height="38" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="386" y="154" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">lower (but over-relied on)</text>
+  <text x="290" y="204" text-anchor="end" font-size="15" fill="#111111">Definitions section</text>
+  <rect x="300" y="186" width="209" height="38" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="519" y="210" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">moderate</text>
+  <text x="290" y="260" text-anchor="end" font-size="15" fill="#111111">Exceptions and conditions</text>
+  <rect x="300" y="242" width="228" height="38" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="538" y="266" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">moderate to high</text>
+  <text x="290" y="316" text-anchor="end" font-size="15" fill="#111111">Footnotes and endnotes</text>
+  <rect x="300" y="298" width="247" height="38" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="557" y="322" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">high</text>
+  <text x="290" y="372" text-anchor="end" font-size="15" fill="#111111">Appendices and schedules</text>
+  <rect x="300" y="354" width="274" height="38" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="584" y="378" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">high</text>
+  <text x="290" y="428" text-anchor="end" font-size="15" fill="#111111">Tables of figures</text>
+  <rect x="300" y="410" width="296" height="38" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="606" y="434" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">high</text>
+  <text x="290" y="484" text-anchor="end" font-size="15" fill="#111111">Charts and scanned pages</text>
+  <rect x="300" y="466" width="342" height="38" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="652" y="490" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">highest</text>
+  <text x="480" y="565" text-anchor="middle" font-size="13" fill="#333333">Schematic ranking from the failure patterns described in the text; not plotted from a single dataset.</text>
+</svg>

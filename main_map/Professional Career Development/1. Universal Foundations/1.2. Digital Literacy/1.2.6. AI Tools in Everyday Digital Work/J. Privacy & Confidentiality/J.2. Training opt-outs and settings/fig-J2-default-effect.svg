@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Default effect</title>
+<desc>Bar chart from Johnson and Goldstein's 2003 online experiment: about 42 percent chose to be donors under opt-in framing, about 82 percent under opt-out framing and about 79 percent with no default.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Share choosing to be an organ donor, by how the choice was framed</text>
+<line x1="140" y1="430.0" x2="880" y2="430.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="128" y="435.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">0%</text>
+<line x1="140" y1="350.0" x2="880" y2="350.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="128" y="355.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">25%</text>
+<line x1="140" y1="270.0" x2="880" y2="270.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="128" y="275.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">50%</text>
+<line x1="140" y1="190.0" x2="880" y2="190.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="128" y="195.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">75%</text>
+<line x1="140" y1="110.0" x2="880" y2="110.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="128" y="115.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">100%</text>
+<rect x="200" y="295.6" width="150" height="134.4" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="229.68" y="266.6" width="90.64000000000001" height="24.8" fill="#FFFFFF" stroke="none"/>
+<text x="275" y="283.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">about 42%</text>
+<text x="275" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Opt-in: must act to join</text>
+<rect x="430" y="167.60000000000002" width="150" height="262.4" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="459.68" y="138.60000000000002" width="90.64000000000001" height="24.8" fill="#FFFFFF" stroke="none"/>
+<text x="505" y="155.60000000000002" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">about 82%</text>
+<text x="505" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Opt-out: must act to</text>
+<text x="505" y="475" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">leave</text>
+<rect x="660" y="177.2" width="150" height="252.8" rx="2" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<rect x="689.68" y="148.2" width="90.64000000000001" height="24.8" fill="#FFFFFF" stroke="none"/>
+<text x="735" y="165.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">about 79%</text>
+<text x="735" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">No default: forced</text>
+<text x="735" y="475" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">choice</text>
+<line x1="140" y1="430" x2="880" y2="430" stroke="#222222" stroke-width="2"/>
+<text x="480.0" y="505" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Hypothetical choice made by online participants; values rounded.</text>
+</svg>

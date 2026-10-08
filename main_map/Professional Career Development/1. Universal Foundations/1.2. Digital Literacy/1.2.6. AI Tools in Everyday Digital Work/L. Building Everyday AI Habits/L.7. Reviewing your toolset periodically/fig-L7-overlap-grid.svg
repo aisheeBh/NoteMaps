@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Mapping tasks against tools</title>
+  <desc>A grid with six recurring tasks as rows and five tools as columns. Filled cells show which tool is used for each task. Drafting and summarising are each served by three tools, showing overlap. Interview transcription is served by one specialist tool. Checking figures is served by no AI tool, a deliberate gap.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Task-by-tool grid: overlap and gaps</text>
+  <text x="290" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Approved</text>
+  <text x="290" y="123" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">assistant</text>
+  <text x="390" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Personal</text>
+  <text x="390" y="123" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">assistant</text>
+  <text x="490" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Suite</text>
+  <text x="490" y="123" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">assistant</text>
+  <text x="590" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Transcription</text>
+  <text x="590" y="123" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">app</text>
+  <text x="690" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Slide</text>
+  <text x="690" y="123" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">generator</text>
+  <text x="226" y="172" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Drafting emails and notes</text>
+  <rect x="240" y="140" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="270" y="150" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="340" y="140" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="370" y="150" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="440" y="140" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="470" y="150" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="540" y="140" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="640" y="140" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="752" y="152" width="26" height="30" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="786" y="172" text-anchor="start" font-size="14" fill="#111111">overlap x3</text>
+  <text x="226" y="226" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Summarising documents</text>
+  <rect x="240" y="194" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="270" y="204" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="340" y="194" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="370" y="204" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="440" y="194" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="470" y="204" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="540" y="194" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="640" y="194" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="752" y="206" width="26" height="30" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="786" y="226" text-anchor="start" font-size="14" fill="#111111">overlap x3</text>
+  <text x="226" y="280" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Making slides</text>
+  <rect x="240" y="248" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="340" y="248" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="440" y="248" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="470" y="258" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="540" y="248" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="640" y="248" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="670" y="258" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="752" y="260" width="26" height="30" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="786" y="280" text-anchor="start" font-size="14" fill="#111111">overlap</text>
+  <text x="226" y="334" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Transcribing interviews</text>
+  <rect x="240" y="302" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="340" y="302" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="440" y="302" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="540" y="302" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="570" y="312" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="640" y="302" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="752" y="314" width="26" height="30" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="786" y="334" text-anchor="start" font-size="14" fill="#111111">one tool</text>
+  <text x="226" y="388" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Research briefs</text>
+  <rect x="240" y="356" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="270" y="366" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="340" y="356" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="370" y="366" width="40" height="34" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="440" y="356" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="540" y="356" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="640" y="356" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="752" y="368" width="26" height="30" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="786" y="388" text-anchor="start" font-size="14" fill="#111111">overlap</text>
+  <text x="226" y="442" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Checking figures</text>
+  <rect x="240" y="410" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="340" y="410" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="440" y="410" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="540" y="410" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="640" y="410" width="100" height="54" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="752" y="422" width="26" height="30" rx="0" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="786" y="442" text-anchor="start" font-size="14" fill="#111111">gap: done by hand</text>
+  <text x="480" y="504" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Rows with several filled cells are overlap to consolidate; an empty row may be a deliberate choice.</text>
+  <text x="480" y="584" text-anchor="middle" font-size="13" fill="#333333">Illustrative grid for one person; the tools and tasks are examples.</text>
+</svg>

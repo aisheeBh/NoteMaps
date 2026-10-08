@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Techniques for consistent AI output</title>
+<desc>Five techniques for keeping AI-generated media on brand, ordered from weakest to strongest control.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">From suggestion to control: keeping generated media on brand</text>
+<rect x="24.0" y="100" width="172.8" height="220" rx="6" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="25.5" y="101.5" width="169.8" height="10" fill="url(#grey)"/>
+<text x="110.4" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Prompt wording</text>
+<text x="110.4" y="161.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Style block of</text>
+<text x="110.4" y="179.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">words</text>
+<text x="110.4" y="204.4" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Easy; drifts across</text>
+<text x="110.4" y="222.6" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">tools and versions</text>
+<rect x="208.8" y="100" width="172.8" height="220" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="295.2" y="124.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Reference images</text>
+<text x="295.2" y="151.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Approved examples</text>
+<text x="295.2" y="169.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">guide style</text>
+<text x="295.2" y="194.4" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Stronger; still</text>
+<text x="295.2" y="212.6" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">varies</text>
+<rect x="393.6" y="100" width="172.8" height="220" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="395.6" y="102" width="168.8" height="10" fill="url(#hatch)"/>
+<text x="480.0" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Templates and brand</text>
+<text x="480.0" y="153.5" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">kits</text>
+<text x="480.0" y="180.5" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Fonts, colours,</text>
+<text x="480.0" y="198.7" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">logos locked in</text>
+<text x="480.0" y="216.9" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">layouts</text>
+<text x="480.0" y="242.1" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Reliable for layout</text>
+<text x="480.0" y="260.3" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">and text</text>
+<rect x="578.4000000000001" y="100" width="172.8" height="220" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="580.4000000000001" y="102" width="168.8" height="10" fill="url(#dots)"/>
+<text x="664.8" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Custom models</text>
+<text x="664.8" y="161.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Model adapted on</text>
+<text x="664.8" y="179.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">approved assets</text>
+<text x="664.8" y="204.4" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Strong style match;</text>
+<text x="664.8" y="222.6" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">needs rights and</text>
+<text x="664.8" y="240.8" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">upkeep</text>
+<rect x="763.2" y="100" width="172.8" height="220" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="766.2" y="103" width="166.8" height="10" fill="url(#cross)"/>
+<text x="849.6" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Human finishing</text>
+<text x="849.6" y="161.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Designer grades,</text>
+<text x="849.6" y="179.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">crops, composes</text>
+<text x="849.6" y="204.4" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Strongest; costs</text>
+<text x="849.6" y="222.6" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">time</text>
+<line x1="40" y1="350" x2="920" y2="350" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="40.0" y="376.0" font-size="15" font-weight="bold" text-anchor="start" fill="#111111">Weaker control</text>
+<text x="920.0" y="376.0" font-size="15" font-weight="bold" text-anchor="end" fill="#111111">Stronger control</text>
+<text x="480.0" y="416.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Schematic; most mature teams combine several techniques.</text>
+</svg>

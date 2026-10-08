@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Scanning an unstructured and a structured page</title>
+  <desc>Left: a page of uniform paragraphs, where the reader's scan covers only the top lines and the left edge, missing the key point lower down. Right: a structured page with an informative heading, a summary line, sub-headings and a table, where the scan lands on each key point.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where the reader's eye lands</text>
+  <rect x="40" y="70" width="400" height="470" rx="2" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="240" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Unstructured</text>
+  <rect x="520" y="70" width="400" height="470" rx="2" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="720" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Structured</text>
+  <line x1="70" y1="130" x2="410" y2="130" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="156" x2="410" y2="156" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="182" x2="410" y2="182" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="208" x2="290" y2="208" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="234" x2="410" y2="234" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="260" x2="410" y2="260" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="286" x2="410" y2="286" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="312" x2="290" y2="312" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="338" x2="410" y2="338" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="364" x2="410" y2="364" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="390" x2="410" y2="390" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="416" x2="290" y2="416" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="442" x2="410" y2="442" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="70" y1="468" x2="410" y2="468" stroke="#BBBBBB" stroke-width="6"/>
+  <rect x="70" y="372" width="250" height="14" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="240" y="505" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">key point buried in paragraph 3</text>
+  <path d="M60 122 H420 M60 150 H300 M62 122 V480" fill="none" stroke="#1F3B5C" stroke-width="5" stroke-dasharray="10 6" opacity="0.9"/>
+  <text x="240" y="528" text-anchor="middle" font-size="14" fill="#111111">scan: top lines and left edge only</text>
+  <rect x="550" y="120" width="340" height="26" fill="#1F3B5C"/>
+  <text x="560" y="139" text-anchor="start" font-size="15" font-weight="bold" fill="#FFFFFF">Recommendation: renew contract B</text>
+  <line x1="550" y1="170" x2="880" y2="170" stroke="#BBBBBB" stroke-width="6"/>
+  <line x1="550" y1="190" x2="800" y2="190" stroke="#BBBBBB" stroke-width="6"/>
+  <rect x="550" y="215" width="200" height="20" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="556" y="217" width="150" height="16" fill="#FFFFFF"/>
+  <text x="560" y="231" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Costs fall 12%</text>
+  <line x1="550" y1="255" x2="880" y2="255" stroke="#BBBBBB" stroke-width="6"/>
+  <rect x="550" y="280" width="200" height="20" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="556" y="282" width="170" height="16" fill="#FFFFFF"/>
+  <text x="560" y="296" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">Two risks remain</text>
+  <rect x="550" y="320" width="110" height="28" fill="#BCD5EE" stroke="#333333" stroke-width="1"/>
+  <rect x="660" y="320" width="110" height="28" fill="#BCD5EE" stroke="#333333" stroke-width="1"/>
+  <rect x="770" y="320" width="110" height="28" fill="#BCD5EE" stroke="#333333" stroke-width="1"/>
+  <rect x="550" y="348" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="660" y="348" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="770" y="348" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="550" y="376" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="660" y="376" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="770" y="376" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="550" y="404" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="660" y="404" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="770" y="404" width="110" height="28" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="715" y="450" text-anchor="middle" font-size="14" font-style="italic" fill="#111111">comparison table</text>
+  <circle cx="535" cy="133" r="7" fill="#1E5E24"/>
+  <circle cx="535" cy="225" r="7" fill="#1E5E24"/>
+  <circle cx="535" cy="290" r="7" fill="#1E5E24"/>
+  <circle cx="535" cy="334" r="7" fill="#1E5E24"/>
+  <text x="720" y="505" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">each scan stop lands on a key point</text>
+  <text x="480" y="585" text-anchor="middle" font-size="13" fill="#333333">Schematic illustration of scanning behaviour, not a recorded eye-tracking plot.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Anatomy of a caption</title>
+<desc>A schematic video frame with a two-line caption, a speaker label, a sound description and notes on placement, line length and timing.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Anatomy of a well-formed caption</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">One frame of a captioned training video (schematic)</text>
+<rect x="60" y="90" width="560" height="315" fill="url(#grey)" stroke="#222222" stroke-width="2"/>
+<rect x="250" y="130" width="180" height="150" rx="80" fill="#FFFFFF" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+<text x="340.0" y="210.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">speaker</text>
+<rect x="120" y="318" width="440" height="66" fill="#111111"/>
+<text x="340.0" y="343.0" font-size="19" font-weight="normal" text-anchor="middle" fill="#FFFFFF">PRIYA: The new form goes live</text>
+<text x="340.0" y="370.0" font-size="19" font-weight="normal" text-anchor="middle" fill="#FFFFFF">on Monday. [phone rings]</text>
+<rect x="650" y="100" width="286" height="88" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="652" y="102" width="282" height="10" fill="url(#hatch)"/>
+<text x="662.0" y="134.0" font-size="14" font-weight="bold" text-anchor="start" fill="#111111">Speaker label</text>
+<text x="662.0" y="159.5" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">Names who speaks when it is not</text>
+<text x="662.0" y="176.4" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">obvious from the picture</text>
+<rect x="650" y="194" width="286" height="88" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="652" y="196" width="282" height="10" fill="url(#hatch)"/>
+<text x="662.0" y="228.0" font-size="14" font-weight="bold" text-anchor="start" fill="#111111">Sound description</text>
+<text x="662.0" y="253.5" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">Square brackets for meaningful</text>
+<text x="662.0" y="270.4" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">non-speech sound</text>
+<rect x="650" y="288" width="286" height="88" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="652" y="290" width="282" height="10" fill="url(#hatch)"/>
+<text x="662.0" y="322.0" font-size="14" font-weight="bold" text-anchor="start" fill="#111111">Line length</text>
+<text x="662.0" y="347.5" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">At most two lines; about 37 to 42</text>
+<text x="662.0" y="364.4" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">characters each</text>
+<rect x="650" y="382" width="286" height="88" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="652" y="384" width="282" height="10" fill="url(#hatch)"/>
+<text x="662.0" y="416.0" font-size="14" font-weight="bold" text-anchor="start" fill="#111111">Timing</text>
+<text x="662.0" y="441.5" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">On with the speech; on screen long</text>
+<text x="662.0" y="458.4" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">enough to read</text>
+<line x1="648" y1="115" x2="470" y2="340" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<line x1="648" y1="209" x2="520" y2="368" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<text x="60.0" y="560.0" font-size="15" font-weight="normal" text-anchor="start" fill="#111111">Placement: bottom centre by default; moved up when it would cover on-screen text or a face.</text>
+<text x="60.0" y="584.0" font-size="15" font-weight="normal" text-anchor="start" fill="#111111">Contrast: light text on a solid or semi-opaque dark background box.</text>
+<text x="480.0" y="606.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Schematic; line-length and timing figures follow widely used broadcaster and streaming guidelines.</text>
+</svg>

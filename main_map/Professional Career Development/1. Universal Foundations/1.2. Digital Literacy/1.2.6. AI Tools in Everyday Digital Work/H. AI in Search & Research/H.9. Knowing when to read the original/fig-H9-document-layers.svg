@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 546" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The layers of a document</title>
+  <desc>Five stacked layers from top to bottom: headline layer such as title, abstract and executive summary; claim layer such as conclusions and operative clauses; evidence layer such as results, tables, data and schedules; method and condition layer such as methods, definitions, scope, exceptions and footnotes; context layer such as background and funding. An arrow on the right shows that summaries draw on the top layers while decisions depend on the lower ones.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The layers of a document</text>
+  <rect x="50" y="72" width="680" height="78" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="390" y="103" text-anchor="middle" font-size="17" font-weight="bold" fill="#222222">Headline</text>
+  <text x="390" y="130" text-anchor="middle" font-size="14.5" fill="#222222">Title, abstract, executive summary, press release</text>
+  <rect x="50" y="162" width="680" height="78" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="390" y="193" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Claims</text>
+  <text x="390" y="220" text-anchor="middle" font-size="14.5" fill="#111111">Conclusions, key findings, operative clauses</text>
+  <rect x="50" y="252" width="680" height="78" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="390" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Evidence</text>
+  <text x="390" y="310" text-anchor="middle" font-size="14.5" fill="#111111">Results, tables, figures, data, schedules</text>
+  <rect x="50" y="342" width="680" height="78" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="390" y="373" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Methods and conditions</text>
+  <text x="390" y="400" text-anchor="middle" font-size="14.5" fill="#FFFFFF">Methods, definitions, scope, exceptions, limitations, footnotes</text>
+  <rect x="50" y="432" width="680" height="78" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="390" y="463" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Context</text>
+  <text x="390" y="490" text-anchor="middle" font-size="14.5" fill="#111111">Background, related work, funding and commissioning</text>
+  <line x1="775" y1="76" x2="775" y2="510" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="868" y="96" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#111111">Summaries draw from</text>
+  <text x="868" y="115" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#111111">here</text>
+  <text x="868" y="472" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#111111">Decisions depend on</text>
+  <text x="868" y="491" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#111111">here</text>
+</svg>

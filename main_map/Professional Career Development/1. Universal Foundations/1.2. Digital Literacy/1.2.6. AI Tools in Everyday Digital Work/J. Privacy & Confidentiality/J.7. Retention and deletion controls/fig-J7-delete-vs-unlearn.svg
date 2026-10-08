@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Delete versus unlearn</title>
+<desc>Two paths. Stored conversation: delete request leads to purge and backup expiry, and the data is gone. Trained model: the data's influence is spread across weights; options are output filters, which hide but do not remove, unlearning methods, which are unverified, or retraining from scratch, which is impractical.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Deleting a stored copy compared with removing training influence</text>
+<rect x="40" y="90" width="400" height="60" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="240.0" y="125.95" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000">Stored conversation</text>
+<rect x="520" y="90" width="400" height="60" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="720.0" y="125.95" font-size="17" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Trained model</text>
+<rect x="90" y="180" width="300" height="56" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="240.0" y="213.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Deletion request</text>
+<rect x="90" y="270" width="300" height="56" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="240.0" y="303.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Purge, then backup expiry</text>
+<rect x="90" y="360" width="300" height="70" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="240.0" y="390.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Data gone</text>
+<text x="240.0" y="410.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">verifiable by audit</text>
+<line x1="240" y1="152" x2="240" y2="178" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="240" y1="238" x2="240" y2="268" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="240" y1="328" x2="240" y2="358" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="570" y="180" width="300" height="56" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="720.0" y="213.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Influence spread across weights</text>
+<rect x="520" y="290" width="128" height="110" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="533.65" y="304.6" width="100.7" height="80.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="584.0" y="322.59999999999997" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Output</text>
+<text x="584.0" y="340.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">filter</text>
+<text x="584.0" y="358.99999999999994" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">hides, does</text>
+<text x="584.0" y="377.19999999999993" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">not remove</text>
+<line x1="720" y1="238" x2="584" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="656" y="290" width="128" height="110" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="673.5" y="304.6" width="93.0" height="80.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="720.0" y="322.59999999999997" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Unlearning</text>
+<text x="720.0" y="340.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">method</text>
+<text x="720.0" y="358.99999999999994" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">reduces,</text>
+<text x="720.0" y="377.19999999999993" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">unverified</text>
+<line x1="720" y1="238" x2="720" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="792" y="290" width="128" height="110" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="801.8" y="304.6" width="108.4" height="80.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="856.0" y="322.59999999999997" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Retrain from</text>
+<text x="856.0" y="340.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">scratch</text>
+<text x="856.0" y="358.99999999999994" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">certain,</text>
+<text x="856.0" y="377.19999999999993" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">impractical</text>
+<line x1="720" y1="238" x2="856" y2="288" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="480" y="470" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">The reliable protection is to keep sensitive data out of training from the start.</text>
+</svg>

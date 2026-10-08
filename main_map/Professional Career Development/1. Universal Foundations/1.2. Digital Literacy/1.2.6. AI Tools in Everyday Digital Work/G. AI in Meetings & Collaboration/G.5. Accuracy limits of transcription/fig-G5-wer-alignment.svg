@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Aligning a transcript with the reference</title>
+<desc>Reference and automatic transcript aligned word by word, with substitutions, an insertion and a deletion marked.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Counting errors by alignment</text>
+<text x="40" y="128" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Reference</text>
+<text x="40" y="208" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Transcript</text>
+<text x="40" y="280" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Edit</text>
+<rect x="140" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="170.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">we</text>
+<rect x="140" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="170.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">we</text>
+<rect x="206" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="236.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">can't</text>
+<rect x="206" y="180" width="60" height="44" rx="4" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="211" y="190" width="50" height="24" fill="#FFFFFF" rx="3"/>
+<text x="236.0" y="208" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">can</text>
+<text x="236.0" y="282" font-size="20" text-anchor="middle" font-weight="bold" fill="#111111">S</text>
+<rect x="272" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="302.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">ship</text>
+<rect x="272" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="302.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">ship</text>
+<rect x="338" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="368.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">the</text>
+<rect x="338" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="368.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">the</text>
+<rect x="404" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="434.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">fifteen</text>
+<rect x="404" y="180" width="60" height="44" rx="4" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="409" y="190" width="50" height="24" fill="#FFFFFF" rx="3"/>
+<text x="434.0" y="208" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">fifty</text>
+<text x="434.0" y="282" font-size="20" text-anchor="middle" font-weight="bold" fill="#111111">S</text>
+<rect x="470" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="500.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">units</text>
+<rect x="470" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="500.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">units</text>
+<rect x="536" y="100" width="60" height="44" rx="4" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+<text x="566.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">-</text>
+<rect x="536" y="180" width="60" height="44" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+<rect x="541" y="190" width="50" height="24" fill="#FFFFFF" rx="3"/>
+<text x="566.0" y="208" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">um</text>
+<text x="566.0" y="282" font-size="20" text-anchor="middle" font-weight="bold" fill="#111111">I</text>
+<rect x="602" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="632.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">before</text>
+<rect x="602" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="632.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">before</text>
+<rect x="668" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="698.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">the</text>
+<rect x="668" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="698.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">the</text>
+<rect x="734" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="764.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">third</text>
+<rect x="734" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="764.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">third</text>
+<rect x="800" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="830.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">of</text>
+<rect x="800" y="180" width="60" height="44" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+<rect x="805" y="190" width="50" height="24" fill="#FFFFFF" rx="3"/>
+<text x="830.0" y="208" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">-</text>
+<text x="830.0" y="282" font-size="20" text-anchor="middle" font-weight="bold" fill="#111111">D</text>
+<rect x="866" y="100" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="896.0" y="128" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">July</text>
+<rect x="866" y="180" width="60" height="44" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="896.0" y="208" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">July</text>
+<text x="40" y="340" font-size="16" text-anchor="start" font-weight="bold" fill="#111111">S = substitution (2);  I = insertion (1);  D = deletion (1)</text>
+<text x="40" y="368" font-size="16" text-anchor="start" font-weight="bold" fill="#111111">WER = (2 + 1 + 1) / 11 reference words = 0.36</text>
+<text x="40" y="430" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Constructed example. Only two of the four errors (can't, fifteen) change the meaning.</text>
+</svg>

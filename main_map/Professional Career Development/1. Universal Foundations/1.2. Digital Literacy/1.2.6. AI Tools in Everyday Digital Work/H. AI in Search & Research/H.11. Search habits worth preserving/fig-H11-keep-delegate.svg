@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Which search activities to delegate and which to keep</title>
+  <desc>Two by two grid. Horizontal axis: how much the activity builds judgement, little to a lot. Vertical axis: how much the exact source matters, little to a lot. Top left: search directly, for example known-item lookups of official text. Top right: keep as a personal habit, for example specialist database searching and reading primary sources. Bottom left: delegate, for example vocabulary suggestions and quick orientation. Bottom right: AI may assist but the person decides, for example scanning the landscape and following leads.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Which search activities to delegate and which to keep</text>
+  <rect x="176" y="82" width="358" height="198" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="355" y="173" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Search directly</text>
+  <text x="355" y="200" text-anchor="middle" font-size="14.5" fill="#111111">Known-item lookups of official text.</text>
+  <rect x="546" y="82" width="358" height="198" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="725" y="164" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Keep as a habit</text>
+  <text x="725" y="191" text-anchor="middle" font-size="14.5" fill="#111111">Specialist databases; reading primary</text>
+  <text x="725" y="210" text-anchor="middle" font-size="14.5" fill="#111111">sources.</text>
+  <rect x="176" y="292" width="358" height="198" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="355" y="383" text-anchor="middle" font-size="17" font-weight="bold" fill="#222222">Delegate</text>
+  <text x="355" y="410" text-anchor="middle" font-size="14.5" fill="#222222">Vocabulary suggestions; quick orientation.</text>
+  <rect x="546" y="292" width="358" height="198" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="554" y="364" width="342" height="56" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="725" y="383" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Assist, person decides</text>
+  <text x="725" y="410" text-anchor="middle" font-size="14.5" fill="#111111">Scanning the landscape; following leads.</text>
+  <line x1="170" y1="512" x2="910" y2="512" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="540" y="542" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">How much the activity builds judgement</text>
+  <text x="170" y="542" text-anchor="start" font-size="14" fill="#111111">Little</text>
+  <text x="910" y="542" text-anchor="end" font-size="14" fill="#111111">A lot</text>
+  <line x1="154" y1="496" x2="154" y2="76" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="126" y="286" text-anchor="middle" font-size="16" font-weight="bold" transform="rotate(-90 126 286)" fill="#111111">How much the exact source matters</text>
+  <text x="100" y="496" text-anchor="start" font-size="14" transform="rotate(-90 100 496)" fill="#111111">Little</text>
+  <text x="100" y="76" text-anchor="end" font-size="14" transform="rotate(-90 100 76)" fill="#111111">A lot</text>
+</svg>

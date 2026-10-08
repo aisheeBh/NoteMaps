@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five internal consistency checks for figures</title>
+  <desc>Five columns describing checks that need no outside source: parts add to totals, the same figure is the same everywhere, periods and units match, direction words match the numbers, and derived figures can be recomputed.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Consistency checks that need no outside source</text>
+  <rect x="28.0" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="113.6" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Parts and</text>
+  <text x="113.6" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">totals</text>
+  <text x="113.6" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Do segments</text>
+  <text x="113.6" y="171.2" text-anchor="middle" font-size="15" fill="#111111">add to the total?</text>
+  <text x="113.6" y="191.4" text-anchor="middle" font-size="15" fill="#111111">Do percentages</text>
+  <text x="113.6" y="211.7" text-anchor="middle" font-size="15" fill="#111111">sum to about 100?</text>
+  <text x="113.6" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="113.6" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. 41% + 33% + 30%</text>
+  <text x="113.6" y="272.4" text-anchor="middle" font-size="15" fill="#111111">= 104%</text>
+  <rect x="211.2" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="296.79999999999995" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Same figure,</text>
+  <text x="296.79999999999995" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">same value</text>
+  <text x="296.79999999999995" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Is a number</text>
+  <text x="296.79999999999995" y="171.2" text-anchor="middle" font-size="15" fill="#111111">repeated identically</text>
+  <text x="296.79999999999995" y="191.4" text-anchor="middle" font-size="15" fill="#111111">in text, table</text>
+  <text x="296.79999999999995" y="211.7" text-anchor="middle" font-size="15" fill="#111111">and chart?</text>
+  <text x="296.79999999999995" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="296.79999999999995" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. 1,240 in text,</text>
+  <text x="296.79999999999995" y="272.4" text-anchor="middle" font-size="15" fill="#111111">1,420 in the table</text>
+  <rect x="394.4" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Periods and</text>
+  <text x="480.0" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">units</text>
+  <text x="480.0" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Same year, quarter,</text>
+  <text x="480.0" y="171.2" text-anchor="middle" font-size="15" fill="#111111">currency and unit</text>
+  <text x="480.0" y="191.4" text-anchor="middle" font-size="15" fill="#111111">wherever the</text>
+  <text x="480.0" y="211.7" text-anchor="middle" font-size="15" fill="#111111">figure appears?</text>
+  <text x="480.0" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="480.0" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. FY24 here,</text>
+  <text x="480.0" y="272.4" text-anchor="middle" font-size="15" fill="#111111">calendar 2024 there</text>
+  <rect x="577.6" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="663.2" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Words match</text>
+  <text x="663.2" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">numbers</text>
+  <text x="663.2" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Does 'doubled',</text>
+  <text x="663.2" y="171.2" text-anchor="middle" font-size="15" fill="#111111">'most' or 'fell'</text>
+  <text x="663.2" y="191.4" text-anchor="middle" font-size="15" fill="#111111">agree with the</text>
+  <text x="663.2" y="211.7" text-anchor="middle" font-size="15" fill="#111111">figures given?</text>
+  <text x="663.2" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="663.2" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. doubled for</text>
+  <text x="663.2" y="272.4" text-anchor="middle" font-size="15" fill="#111111">a rise of 30 to 45</text>
+  <rect x="760.8" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="846.4" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Derived</text>
+  <text x="846.4" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">figures</text>
+  <text x="846.4" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Can each ratio,</text>
+  <text x="846.4" y="171.2" text-anchor="middle" font-size="15" fill="#111111">change or average</text>
+  <text x="846.4" y="191.4" text-anchor="middle" font-size="15" fill="#111111">be recomputed</text>
+  <text x="846.4" y="211.7" text-anchor="middle" font-size="15" fill="#111111">from inputs shown?</text>
+  <text x="846.4" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="846.4" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. 12% of 50</text>
+  <text x="846.4" y="272.4" text-anchor="middle" font-size="15" fill="#111111">is 6, not 5</text>
+  <text x="480.0" y="362" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">A failed consistency check proves an error exists somewhere; a passed one does not prove the figures are right.</text>
+</svg>

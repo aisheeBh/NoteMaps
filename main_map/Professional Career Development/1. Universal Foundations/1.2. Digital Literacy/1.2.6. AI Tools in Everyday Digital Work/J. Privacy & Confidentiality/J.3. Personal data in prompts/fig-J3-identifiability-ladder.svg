@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Identifiability ladder</title>
+<desc>A descending staircase of five ways to present a problem: named and detailed; pseudonymised with roles but details kept; generalised; aggregated across many people; template or synthetic example. Identifiability falls at each step.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Presenting the same problem with less identifying detail</text>
+<rect x="50" y="90" width="290" height="64" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="107.8" y="107.6" width="174.4" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="195.0" y="127.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Named and detailed</text>
+<text x="356" y="116" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">“Meera, our only senior designer, since</text>
+<text x="356" y="136" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">her diagnosis…”</text>
+<rect x="100" y="170" width="290" height="64" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="153.39999999999998" y="187.6" width="183.20000000000002" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="245.0" y="207.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Roles, details kept</text>
+<text x="406" y="196" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">“Designer A, our only senior designer…”</text>
+<rect x="150" y="250" width="290" height="64" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="295.0" y="287.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#222222">Generalised</text>
+<text x="456" y="276" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">“an experienced employee returning after</text>
+<text x="456" y="296" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">illness…”</text>
+<rect x="200" y="330" width="290" height="64" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="345.0" y="367.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#000000">Aggregated</text>
+<text x="506" y="356" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">“across 120 returners, which concerns</text>
+<text x="506" y="376" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">recur?”</text>
+<rect x="250" y="410" width="290" height="64" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="294.6" y="427.6" width="200.8" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="395.0" y="447.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Template or synthetic</text>
+<text x="556" y="436" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">“draft a reply to an upset employee…”</text>
+<line x1="30" y1="100" x2="30" y2="470" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="20" y="290" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 20 290)">less identifying</text>
+<text x="480.0" y="520" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Illustrative examples. Only the lowest steps are usually free of personal data.</text>
+</svg>

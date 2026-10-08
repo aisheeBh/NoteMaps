@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Candour against need for a record</title>
+<desc>Two-by-two matrix: need for a record against dependence on candour, giving the suggested form of record.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Candour and the need for a record</text>
+<rect x="176" y="86" width="348.0" height="188.0" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="200" y="135.0" width="300.0" height="84" fill="#FFFFFF" rx="4"/>
+<text x="350.0" y="155.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">No record; or</text>
+<text x="350.0" y="177.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">outcomes noted</text>
+<text x="350.0" y="199.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">by a person</text>
+<rect x="536.0" y="86" width="348.0" height="188.0" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="560.0" y="135.0" width="300.0" height="84" fill="#FFFFFF" rx="4"/>
+<text x="710.0" y="155.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Human-written record</text>
+<text x="710.0" y="177.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">agreed with</text>
+<text x="710.0" y="199.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">participants</text>
+<rect x="176" y="286.0" width="348.0" height="188.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<rect x="200" y="335.0" width="300.0" height="84" fill="#FFFFFF" rx="4"/>
+<text x="350.0" y="355.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Transcription</text>
+<text x="350.0" y="377.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">acceptable with</text>
+<text x="350.0" y="399.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">normal consent</text>
+<rect x="536.0" y="286.0" width="348.0" height="188.0" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="560.0" y="335.0" width="300.0" height="84" fill="#FFFFFF" rx="4"/>
+<text x="710.0" y="355.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Complete record,</text>
+<text x="710.0" y="377.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">access-controlled,</text>
+<text x="710.0" y="399.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">retained as required</text>
+<line x1="170" y1="500" x2="890" y2="500" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="530.0" y="532" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Need for a formal record</text>
+<text x="350.0" y="556" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Low: working conversation</text>
+<text x="710.0" y="556" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">High: required or relied on</text>
+<line x1="150" y1="480" x2="150" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="40" y="280.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111" transform="rotate(-90 40 280.0)">Dependence on candour</text>
+<text x="140" y="185.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">High</text>
+<text x="140" y="385.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Low</text>
+</svg>

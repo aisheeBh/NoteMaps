@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Annotated prompt</title>
+<desc>A single prompt split into phrases, each tagged: 'Reply to Tomas Ortega' is a direct identifier; 'night-shift lead at our Hosur plant' are quasi-identifiers; 'off for six weeks after surgery' is health data; 'his manager says he is difficult' is an opinion about a person; 'his wife called HR' is a third party; 'draft a polite reply' is the task and contains no personal data.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Whose data is in one ordinary prompt</text>
+<rect x="40" y="80" width="470" height="410" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="275" y="108" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">The prompt</text>
+<text x="60" y="160" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">“Reply to Tomás Ortega,</text>
+<line x1="510" y1="155" x2="560" y2="155" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="560" y="134" width="360" height="44" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="637.125" y="142.25" width="205.75000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="740.0" y="161.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Direct identifier: name</text>
+<text x="60" y="218" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">the night-shift lead at our Hosur plant,</text>
+<line x1="510" y1="213" x2="560" y2="213" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="560" y="192" width="360" height="44" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="600.0" y="200.25" width="280.0" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="740.0" y="219.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Quasi-identifiers: role and site</text>
+<text x="60" y="276" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">who was off for six weeks after surgery,</text>
+<line x1="510" y1="271" x2="560" y2="271" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="560" y="250" width="360" height="44" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="633.0" y="258.25" width="214.00000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="740.0" y="277.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Special category: health</text>
+<text x="60" y="334" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">and whom his manager calls ‘difficult’.</text>
+<line x1="510" y1="329" x2="560" y2="329" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="560" y="308" width="360" height="44" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="641.25" y="316.25" width="197.50000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="740.0" y="335.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Opinion about a person</text>
+<text x="60" y="392" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">His wife has also phoned HR.</text>
+<line x1="510" y1="387" x2="560" y2="387" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="560" y="366" width="360" height="44" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="587.625" y="374.25" width="304.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="740.0" y="393.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Third party who never used the tool</text>
+<text x="60" y="450" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">Draft a polite reply to his complaint.”</text>
+<line x1="510" y1="445" x2="560" y2="445" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="560" y="424" width="360" height="44" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="595.875" y="432.25" width="288.25" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="740.0" y="451.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">The task: no personal data needed</text>
+<text x="480.0" y="520" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Illustrative prompt; names and places invented.</text>
+</svg>

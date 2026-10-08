@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 452" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Performance in single-turn and multi-turn conversations</title>
+  <desc>Two bars. When all instructions were given at once in a single turn, performance is set at an index of 100. When the same instructions were revealed gradually over several turns, average performance fell by 39 per cent, to an index of about 61. Based on Laban and colleagues, 2025.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Instructions given at once versus revealed over several turns</text>
+  <rect x="210" y="120.00000000000003" width="190" height="229.99999999999997" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="260" y="80.00000000000003" width="90" height="30" fill="#FFFFFF"/>
+  <text x="305" y="102.00000000000003" text-anchor="middle" font-size="20" fill="#111111" font-weight="bold">100</text>
+  <text x="305" y="376" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">All instructions in one turn</text>
+  <rect x="560" y="209.70000000000002" width="190" height="140.29999999999998" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5"/>
+  <rect x="610" y="169.70000000000002" width="90" height="30" fill="#FFFFFF"/>
+  <text x="655" y="191.70000000000002" text-anchor="middle" font-size="20" fill="#111111" font-weight="bold">61</text>
+  <text x="655" y="376" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Same instructions over many turns</text>
+  <line x1="160" y1="350" x2="820" y2="350" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="406" text-anchor="middle" font-size="15" fill="#333333" font-style="italic">Average performance index across six task types; single turn = 100 (average drop of 39%)</text>
+  <text x="480.0" y="436" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">After Laban and colleagues (2025), simulated conversations with leading models.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Commitment ladder</title>
+<desc>Five rungs from top (strongest) to bottom (weakest): firm negative, 'we do not use your content to train'; conditional negative, 'we do not, unless you opt in'; default with control, 'we may, and you can turn this off'; permissive, 'we may use information to improve our services'; open-ended, 'including but not limited to'.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">From firm commitment to open-ended permission</text>
+<rect x="60" y="84" width="250" height="66" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="119.8" y="102.6" width="130.4" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="185.0" y="122.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Firm negative</text>
+<rect x="330" y="84" width="570" height="66" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="615.0" y="122.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">“We do not use your content to train our models.”</text>
+<rect x="60" y="170" width="250" height="66" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="185.0" y="208.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#000000">Conditional negative</text>
+<rect x="330" y="170" width="570" height="66" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="615.0" y="208.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">“We do not, unless you opt in.”</text>
+<rect x="60" y="256" width="250" height="66" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="89.0" y="274.6" width="192.0" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="185.0" y="294.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Default with control</text>
+<rect x="330" y="256" width="570" height="66" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="615.0" y="294.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">“We may use it to improve models; you can turn this off.”</text>
+<rect x="60" y="342" width="250" height="66" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="133.0" y="360.6" width="104.0" height="28.8" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="185.0" y="380.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Permissive</text>
+<rect x="330" y="342" width="570" height="66" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="615.0" y="380.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">“We may use information to improve our services.”</text>
+<rect x="60" y="428" width="250" height="66" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="185.0" y="466.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#000000">Open-ended</text>
+<rect x="330" y="428" width="570" height="66" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="615.0" y="466.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">“…including but not limited to…”</text>
+<line x1="30" y1="90" x2="30" y2="500" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="20" y="300" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 20 300)">weaker commitment</text>
+</svg>

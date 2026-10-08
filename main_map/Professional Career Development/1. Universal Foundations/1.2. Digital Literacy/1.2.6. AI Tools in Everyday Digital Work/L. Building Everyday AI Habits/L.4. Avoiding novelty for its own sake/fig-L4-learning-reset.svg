@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Staying with a tool compared with switching every two months</title>
+  <desc>Two schematic curves of skill in using AI tools over a year. The solid curve, for a person who stays with one tool, rises steadily towards high fluency. The dashed sawtooth, for a person who switches tool every couple of months, rises quickly after each switch and then drops back, never passing a moderate level.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Staying with a tool compared with switching every two months</text>
+  <line x1="120" y1="450" x2="900" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="120" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="120" y="474" text-anchor="middle" font-size="14" fill="#111111">start</text>
+  <line x1="276" y1="450" x2="276" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="276" y="474" text-anchor="middle" font-size="14" fill="#111111">switch</text>
+  <line x1="432" y1="450" x2="432" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="432" y="474" text-anchor="middle" font-size="14" fill="#111111">switch</text>
+  <line x1="588" y1="450" x2="588" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="588" y="474" text-anchor="middle" font-size="14" fill="#111111">switch</text>
+  <line x1="744" y1="450" x2="744" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="744" y="474" text-anchor="middle" font-size="14" fill="#111111">switch</text>
+  <line x1="900" y1="450" x2="900" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="474" text-anchor="middle" font-size="14" fill="#111111">12 months</text>
+  <line x1="114" y1="415" x2="120" y2="415" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="420" text-anchor="end" font-size="14" fill="#111111">novice</text>
+  <line x1="114" y1="275" x2="120" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="280" text-anchor="end" font-size="14" fill="#111111">moderate</text>
+  <line x1="114" y1="142" x2="120" y2="142" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="147" text-anchor="end" font-size="14" fill="#111111">fluent</text>
+  <text x="510" y="502" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Time over one year</text>
+  <text x="50" y="275" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 50 275.0)">Skill with the tools in use</text>
+  <path d="M120.0 415.0 L135.6 391.5 L151.2 370.0 L166.8 350.4 L182.4 332.5 L198.0 316.1 L213.6 301.1 L229.2 287.4 L244.8 274.9 L260.4 263.4 L276.0 253.0 L291.6 243.4 L307.2 234.7 L322.8 226.7 L338.4 219.4 L354.0 212.8 L369.6 206.7 L385.2 201.1 L400.8 196.0 L416.4 191.4 L432.0 187.1 L447.6 183.2 L463.2 179.7 L478.8 176.4 L494.4 173.5 L510.0 170.8 L525.6 168.3 L541.2 166.0 L556.8 164.0 L572.4 162.1 L588.0 160.3 L603.6 158.8 L619.2 157.3 L634.8 156.0 L650.4 154.8 L666.0 153.7 L681.6 152.7 L697.2 151.8 L712.8 150.9 L728.4 150.2 L744.0 149.5 L759.6 148.8 L775.2 148.2 L790.8 147.7 L806.4 147.2 L822.0 146.8 L837.6 146.3 L853.2 146.0 L868.8 145.6 L884.4 145.3 L900.0 145.0" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <rect x="506" y="94" width="179" height="44" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="513" y="110" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Stays with one tool:</text>
+  <text x="513" y="130" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">skill compounds</text>
+  <path d="M120.0 415.0 L135.6 370.6 L151.2 339.6 L166.8 317.9 L182.4 302.8 L198.0 292.3 L213.6 285.0 L229.2 279.8 L244.8 276.3 L260.4 273.8 L276.0 272.0 L276.0 415.0 L291.6 370.6 L307.2 339.6 L322.8 317.9 L338.4 302.8 L354.0 292.3 L369.6 285.0 L385.2 279.8 L400.8 276.3 L416.4 273.8 L432.0 272.0 L432.0 415.0 L447.6 370.6 L463.2 339.6 L478.8 317.9 L494.4 302.8 L510.0 292.3 L525.6 285.0 L541.2 279.8 L556.8 276.3 L572.4 273.8 L588.0 272.0 L588.0 415.0 L603.6 370.6 L619.2 339.6 L634.8 317.9 L650.4 302.8 L666.0 292.3 L681.6 285.0 L697.2 279.8 L712.8 276.3 L728.4 273.8 L744.0 272.0 L744.0 415.0 L759.6 370.6 L775.2 339.6 L790.8 317.9 L806.4 302.8 L822.0 292.3 L837.6 285.0 L853.2 279.8 L868.8 276.3 L884.4 273.8 L900.0 272.0" fill="none" stroke="#111111" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="350" y="328" width="229" height="44" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="357" y="345" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Switches every two months:</text>
+  <text x="357" y="364" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">each switch resets skill</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic; illustrates the shape of the effect, not plotted from a dataset.</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The spectrum of reliance on AI tools</title>
+  <desc>A horizontal spectrum from under-reliance on the left, through appropriate reliance in the centre, to over-reliance on the right. Under-reliance wastes available help. Appropriate reliance matches trust to reliability with checks matched to risk. Over-reliance means default use, light checking and acceptance of plausible errors.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Reliance should match reliability</text>
+  <line x1="60" y1="140" x2="900" y2="140" stroke="#222222" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="60" y="120" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">relies too little</text>
+  <text x="900" y="120" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">relies too much</text>
+  <rect x="40" y="180" width="270" height="250" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="175" y="267" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Under-reliance</text>
+  <text x="175" y="299" text-anchor="middle" font-size="15" fill="#111111">Refuses help that would</text>
+  <text x="175" y="318" text-anchor="middle" font-size="15" fill="#111111">improve the work. Does by hand</text>
+  <text x="175" y="338" text-anchor="middle" font-size="15" fill="#111111">what a tool does well. Wastes</text>
+  <text x="175" y="357" text-anchor="middle" font-size="15" fill="#111111">time; may miss quality gains.</text>
+  <rect x="345" y="180" width="270" height="250" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="353" y="234" width="254" height="139" rx="4" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="480" y="257" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Appropriate reliance</text>
+  <text x="480" y="289" text-anchor="middle" font-size="15" fill="#111111">Uses AI where it is reliable.</text>
+  <text x="480" y="309" text-anchor="middle" font-size="15" fill="#111111">Checks matched to risk. Own</text>
+  <text x="480" y="328" text-anchor="middle" font-size="15" fill="#111111">judgement formed first on</text>
+  <text x="480" y="348" text-anchor="middle" font-size="15" fill="#111111">important work. Stops when AI</text>
+  <text x="480" y="367" text-anchor="middle" font-size="15" fill="#111111">is the wrong tool.</text>
+  <rect x="650" y="180" width="270" height="250" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="658" y="234" width="254" height="139" rx="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="785" y="257" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Over-reliance</text>
+  <text x="785" y="289" text-anchor="middle" font-size="15" fill="#111111">Uses AI by default for</text>
+  <text x="785" y="309" text-anchor="middle" font-size="15" fill="#111111">everything. Light or no</text>
+  <text x="785" y="328" text-anchor="middle" font-size="15" fill="#111111">checking. Accepts plausible</text>
+  <text x="785" y="348" text-anchor="middle" font-size="15" fill="#111111">errors. Own judgement</text>
+  <text x="785" y="367" text-anchor="middle" font-size="15" fill="#111111">displaced.</text>
+  <text x="480" y="470" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Personal limits push behaviour towards the centre from the right; measurement pushes it from the left.</text>
+  <text x="480" y="524" text-anchor="middle" font-size="13" fill="#333333">Conceptual spectrum; the right point differs by task and by the tool's reliability on that task.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Ownership and infringement risk</title>
+<desc>Two-by-two matrix of uses of generated media by how much the organisation needs to own the result and how much the output risks resembling others' rights.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Match the source of an image to what the use demands</text>
+<rect x="156" y="96" width="368.0" height="173.0" rx="6" fill="#FCEDED" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="158.5" y="98.5" width="363.0" height="10" fill="url(#lines)"/>
+<text x="340.0" y="130.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Avoid or redesign</text>
+<text x="340.0" y="157.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Prompts naming characters, brands or artists</text>
+<text x="340.0" y="182.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Even for internal use, risky</text>
+<rect x="536.0" y="96" width="368.0" height="173.0" rx="6" fill="#FCEDED" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="538.5" y="98.5" width="363.0" height="10" fill="url(#lines)"/>
+<text x="720.0" y="130.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Do not use generation</text>
+<text x="720.0" y="157.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Logo, mascot, product design</text>
+<text x="720.0" y="182.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Commission or create by hand</text>
+<rect x="156" y="281.0" width="368.0" height="173.0" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="159" y="284.0" width="362.0" height="10" fill="url(#cross)"/>
+<text x="340.0" y="315.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Generate freely</text>
+<text x="340.0" y="342.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Internal slides, mood boards</text>
+<text x="340.0" y="367.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Background textures</text>
+<rect x="536.0" y="281.0" width="368.0" height="173.0" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="538.0" y="283.0" width="364.0" height="10" fill="url(#dots)"/>
+<text x="720.0" y="315.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Generate with human authorship</text>
+<text x="720.0" y="342.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Campaign key visuals</text>
+<text x="720.0" y="367.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Add substantial human work; keep records</text>
+<line x1="150" y1="474" x2="910" y2="474" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="150.0" y="496.0" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">Low need to own</text>
+<text x="910.0" y="496.0" font-size="14" font-weight="normal" text-anchor="end" fill="#111111">High need to own</text>
+<text x="530.0" y="496.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Need for exclusive ownership</text>
+<line x1="136" y1="460" x2="136" y2="90" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="128.0" y="460.0" font-size="14" font-weight="normal" text-anchor="end" fill="#111111">Low</text>
+<text x="128.0" y="104.0" font-size="14" font-weight="normal" text-anchor="end" fill="#111111">High</text>
+<text x="128.0" y="235.0" font-size="15" font-weight="bold" text-anchor="end" fill="#111111">Risk of</text>
+<text x="128.0" y="254.5" font-size="15" font-weight="bold" text-anchor="end" fill="#111111">resembling</text>
+<text x="128.0" y="274.0" font-size="15" font-weight="bold" text-anchor="end" fill="#111111">others'</text>
+<text x="128.0" y="293.5" font-size="15" font-weight="bold" text-anchor="end" fill="#111111">rights</text>
+<text x="480.0" y="546.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Schematic guide to judgement; take legal advice for high-value or contested uses.</text>
+</svg>

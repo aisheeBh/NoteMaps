@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Sentence-level versus document-level judgement</title>
+  <desc>Judged one sentence at a time, machine and human translations looked equally good. Judged as whole documents, professional raters preferred human translations because of inconsistency, reference and cohesion problems between sentences.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Judged by sentence, it passes; judged as a document, it fails</text>
+  <rect x="40" y="80" width="420" height="380" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="500" y="80" width="420" height="380" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="250" y="112" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Sentence by sentence</text>
+  <text x="710" y="112" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Whole document</text>
+  <rect x="80" y="135" width="340" height="44" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="250" y="162" text-anchor="middle" font-size="15" fill="#111111">Sentence 1: acceptable</text>
+  <rect x="80" y="193" width="340" height="44" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="250" y="220" text-anchor="middle" font-size="15" fill="#111111">Sentence 2: acceptable</text>
+  <rect x="80" y="251" width="340" height="44" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="250" y="278" text-anchor="middle" font-size="15" fill="#111111">Sentence 3: acceptable</text>
+  <rect x="80" y="309" width="340" height="44" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="250" y="336" text-anchor="middle" font-size="15" fill="#111111">Sentence 4: acceptable</text>
+  <rect x="80" y="367" width="340" height="44" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="250" y="394" text-anchor="middle" font-size="15" fill="#111111">Sentence 5: acceptable</text>
+  <rect x="540" y="135" width="340" height="280" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="560" y="170" text-anchor="start" font-size="15" fill="#111111">Term A on page 1 ...</text>
+  <text x="560" y="222" text-anchor="start" font-size="15" fill="#111111">... Term B for the same thing on page 4</text>
+  <text x="560" y="274" text-anchor="start" font-size="15" fill="#111111">'It' refers to the wrong noun</text>
+  <text x="560" y="326" text-anchor="start" font-size="15" fill="#111111">Formal 'you' switches to informal</text>
+  <text x="560" y="378" text-anchor="start" font-size="15" fill="#111111">'However' lost; argument breaks</text>
+  <rect x="80" y="480" width="340" height="50" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="250" y="510" text-anchor="middle" font-size="15" fill="#111111">Rated similar to human translation</text>
+  <rect x="540" y="480" width="340" height="50" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="710" y="510" text-anchor="middle" font-size="15" fill="#111111">Human translation preferred</text>
+</svg>

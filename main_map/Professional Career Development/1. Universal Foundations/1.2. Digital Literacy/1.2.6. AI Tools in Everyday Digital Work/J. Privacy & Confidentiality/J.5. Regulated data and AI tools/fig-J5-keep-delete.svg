@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Keep or delete</title>
+<desc>Two opposing columns. Must keep: financial client communications, clinical records, public-sector records. Must delete: card authentication data after authorisation, data past its retention period, unnecessary copies. A consumer AI chat sits between them, failing both: a record not captured where required and a copy that should not exist.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Duties to keep and duties to delete</text>
+<rect x="40" y="80" width="330" height="56" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="152.45" y="92.3" width="105.10000000000001" height="31.400000000000002" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="205.0" y="114.3" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Must keep</text>
+<rect x="590" y="80" width="330" height="56" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="692.55" y="92.3" width="124.9" height="31.400000000000002" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="755.0" y="114.3" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Must delete</text>
+<rect x="40" y="148" width="330" height="230" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="205.0" y="209.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Financial firms' client</text>
+<text x="205.0" y="229.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">communications</text>
+<text x="205.0" y="248.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000"></text>
+<text x="205.0" y="268.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Clinical records</text>
+<text x="205.0" y="287.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000"></text>
+<text x="205.0" y="307.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Public-sector records</text>
+<text x="205.0" y="326.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">under archive law</text>
+<rect x="590" y="148" width="330" height="230" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="755.0" y="209.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Card authentication data</text>
+<text x="755.0" y="229.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">after authorisation</text>
+<text x="755.0" y="248.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000"></text>
+<text x="755.0" y="268.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Data past its</text>
+<text x="755.0" y="287.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">retention period</text>
+<text x="755.0" y="307.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000"></text>
+<text x="755.0" y="326.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Unneeded copies</text>
+<rect x="390" y="190" width="180" height="150" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="480.0" y="233.5" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">Consumer AI chat</text>
+<text x="480.0" y="251.7" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">not captured where</text>
+<text x="480.0" y="269.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">required, and a copy</text>
+<text x="480.0" y="288.1" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">that should</text>
+<text x="480.0" y="306.3" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">not exist</text>
+<line x1="388" y1="265" x2="374" y2="265" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="572" y1="265" x2="586" y2="265" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="480" y="430" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">An approved route resolves both: the record is kept in the right system,</text>
+<text x="480" y="452" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">and no stray copy is created elsewhere.</text>
+</svg>

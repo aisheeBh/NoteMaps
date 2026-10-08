@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Three alt texts for one image</title>
+<desc>Comparison of a missing alt text, an automatically generated description and a purpose-written alt text for the same chart image on a slide.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">One slide image, three alternative texts</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Alt text conveys the image's purpose in its context, not just its appearance</text>
+<rect x="24.0" y="90" width="293.3333333333333" height="286" rx="6" fill="#FCEDED" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="26.5" y="92.5" width="288.3333333333333" height="10" fill="url(#lines)"/>
+<text x="170.7" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">File name</text>
+<text x="170.7" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'IMG_2041.png'</text>
+<text x="170.7" y="179.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Screen reader announces the file</text>
+<text x="170.7" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">name</text>
+<text x="170.7" y="225.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Tells the listener nothing</text>
+<rect x="333.3333333333333" y="90" width="293.3333333333333" height="286" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="335.3333333333333" y="92" width="289.3333333333333" height="10" fill="url(#dots)"/>
+<text x="480.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Automatic description</text>
+<text x="480.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'A bar chart with blue bars on a</text>
+<text x="480.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">white background'</text>
+<text x="480.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Describes appearance</text>
+<text x="480.0" y="225.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Misses the point and the numbers</text>
+<rect x="642.6666666666666" y="90" width="293.3333333333333" height="286" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="645.6666666666666" y="93" width="287.3333333333333" height="10" fill="url(#cross)"/>
+<text x="789.3" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Purpose-written</text>
+<text x="789.3" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'Bar chart: complaints fell each</text>
+<text x="789.3" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">quarter, from 420 in Q1 to 180 in</text>
+<text x="789.3" y="191.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Q4.'</text>
+<text x="789.3" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">States what the image shows and</text>
+<text x="789.3" y="237.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">why it is there</text>
+<text x="789.3" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Full data in a table below</text>
+<text x="480.0" y="406.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Example figures are illustrative.</text>
+</svg>

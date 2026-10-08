@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Matching verification effort to the claim</title>
+  <desc>Two by two grid. Horizontal axis: likelihood the claim is wrong, low to high. Vertical axis: consequence if wrong, low to high. Top left: verify once against a primary source. Top right: trace to the primary source and record the date; a second check if published. Bottom left: skip. Bottom right: spot-check or label as unconfirmed.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Matching verification effort to the claim</text>
+  <rect x="176" y="82" width="358" height="198" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="355" y="164" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Verify once</text>
+  <text x="355" y="191" text-anchor="middle" font-size="14.5" fill="#111111">Decisive but routine: confirm against one</text>
+  <text x="355" y="210" text-anchor="middle" font-size="14.5" fill="#111111">primary source.</text>
+  <rect x="546" y="82" width="358" height="198" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="554" y="145" width="342" height="75" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="725" y="164" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Trace and record</text>
+  <text x="725" y="191" text-anchor="middle" font-size="14.5" fill="#111111">Decisive and uncertain: primary source,</text>
+  <text x="725" y="210" text-anchor="middle" font-size="14.5" fill="#111111">date noted, second reader if published.</text>
+  <rect x="176" y="292" width="358" height="198" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="355" y="383" text-anchor="middle" font-size="17" font-weight="bold" fill="#222222">Skip</text>
+  <text x="355" y="410" text-anchor="middle" font-size="14.5" fill="#222222">Background facts that change nothing.</text>
+  <rect x="546" y="292" width="358" height="198" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="554" y="355" width="342" height="75" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="725" y="374" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Spot-check or label</text>
+  <text x="725" y="401" text-anchor="middle" font-size="14.5" fill="#111111">Surprising details of little consequence:</text>
+  <text x="725" y="420" text-anchor="middle" font-size="14.5" fill="#111111">sample, or mark as unconfirmed.</text>
+  <line x1="170" y1="512" x2="910" y2="512" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="540" y="542" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Likelihood the claim is wrong</text>
+  <text x="170" y="542" text-anchor="start" font-size="14" fill="#111111">Low: general, stable</text>
+  <text x="910" y="542" text-anchor="end" font-size="14" fill="#111111">High: specific, recent, obscure</text>
+  <line x1="154" y1="496" x2="154" y2="76" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="126" y="286" text-anchor="middle" font-size="16" font-weight="bold" transform="rotate(-90 126 286)" fill="#111111">Consequence if wrong</text>
+  <text x="100" y="496" text-anchor="start" font-size="14" transform="rotate(-90 100 496)" fill="#111111">Low</text>
+  <text x="100" y="76" text-anchor="end" font-size="14" transform="rotate(-90 100 76)" fill="#111111">High</text>
+</svg>

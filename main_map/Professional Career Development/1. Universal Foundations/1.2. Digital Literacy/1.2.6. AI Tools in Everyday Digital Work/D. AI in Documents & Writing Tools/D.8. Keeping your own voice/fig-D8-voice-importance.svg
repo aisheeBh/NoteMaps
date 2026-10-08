@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Voice importance and suitable AI assistance</title>
+  <desc>Three columns: high voice importance documents such as leadership messages and condolences suit critique and error correction only; moderate documents such as proposals and updates suit author-led drafting with AI help; low voice documents such as procedures and forms can be AI-drafted with review.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The more the reader should hear you, the less the tool writes</text>
+  <rect x="40" y="80" width="280" height="60" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="180" y="115" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">High voice importance</text>
+  <rect x="40" y="155" width="280" height="150" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="180" y="205" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Typical documents</text>
+  <text x="180" y="229" text-anchor="middle" font-size="14" fill="#111111">Leadership messages, feedback,</text>
+  <text x="180" y="248" text-anchor="middle" font-size="14" fill="#111111">condolences, personal statements,</text>
+  <text x="180" y="266" text-anchor="middle" font-size="14" fill="#111111">client letters</text>
+  <rect x="40" y="320" width="280" height="150" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="48" y="358" width="264" height="71" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="180" y="379" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Suitable AI role</text>
+  <text x="180" y="403" text-anchor="middle" font-size="14" fill="#111111">Writer drafts; AI critiques and</text>
+  <text x="180" y="422" text-anchor="middle" font-size="14" fill="#111111">corrects errors only</text>
+  <rect x="340" y="80" width="280" height="60" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="115" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Moderate</text>
+  <rect x="340" y="155" width="280" height="150" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480" y="214" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Typical documents</text>
+  <text x="480" y="238" text-anchor="middle" font-size="14" fill="#111111">Proposals, reports with</text>
+  <text x="480" y="257" text-anchor="middle" font-size="14" fill="#111111">recommendations, internal updates</text>
+  <rect x="340" y="320" width="280" height="150" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="348" y="358" width="264" height="71" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="480" y="379" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Suitable AI role</text>
+  <text x="480" y="403" text-anchor="middle" font-size="14" fill="#111111">Writer leads; AI drafts routine</text>
+  <text x="480" y="422" text-anchor="middle" font-size="14" fill="#111111">sections and edits minimally</text>
+  <rect x="640" y="80" width="280" height="60" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="780" y="115" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Low</text>
+  <rect x="640" y="155" width="280" height="150" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="780" y="214" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Typical documents</text>
+  <text x="780" y="238" text-anchor="middle" font-size="14" fill="#111111">Procedures, specifications,</text>
+  <text x="780" y="257" text-anchor="middle" font-size="14" fill="#111111">standard forms, legal boilerplate</text>
+  <rect x="640" y="320" width="280" height="150" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="780" y="379" text-anchor="middle" font-size="15" font-weight="bold" fill="#222222">Suitable AI role</text>
+  <text x="780" y="403" text-anchor="middle" font-size="14" fill="#222222">AI may draft from approved</text>
+  <text x="780" y="422" text-anchor="middle" font-size="14" fill="#222222">sources; human reviews</text>
+  <line x1="40" y1="500" x2="920" y2="500" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="530" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">AI share of the writing can rise →</text>
+</svg>

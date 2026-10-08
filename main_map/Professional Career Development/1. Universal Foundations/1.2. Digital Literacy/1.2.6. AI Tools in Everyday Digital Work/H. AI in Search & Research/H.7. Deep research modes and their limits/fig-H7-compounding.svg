@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Chance that every step in a chain is correct</title>
+  <desc>Chart computed from the formula p to the power n, for chains of 0 to 30 steps. Solid line: 99 percent per step, falling to about 74 percent after 30 steps. Dashed line: 98 percent per step, about 55 percent after 30 steps. Dotted line: 95 percent per step, about 21 percent after 30 steps.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Chance that every step in a chain is correct</text>
+  <line x1="110" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="430" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="495" y="470" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Number of steps in the research chain</text>
+  <text x="60" y="255" text-anchor="middle" font-size="16" font-weight="bold" transform="rotate(-90 60 255)" fill="#111111">Chance all steps are correct</text>
+  <text x="110" y="452" text-anchor="start" font-size="14" fill="#111111">0</text>
+  <text x="880" y="452" text-anchor="end" font-size="14" fill="#111111">30 steps</text>
+  <text x="100" y="426" text-anchor="end" font-size="14" fill="#111111">0%</text>
+  <text x="100" y="90" text-anchor="end" font-size="14" fill="#111111">100%</text>
+  <path d="M110 80 L136 84 L161 87 L187 90 L213 94 L238 97 L264 100 L290 104 L315 107 L341 110 L367 113 L392 117 L418 120 L444 123 L469 126 L495 129 L521 132 L546 135 L572 138 L598 141 L623 144 L649 147 L675 149 L700 152 L726 155 L752 158 L777 160 L803 163 L829 166 L854 168 L880 171" fill="none" stroke="#111111" stroke-width="3"/>
+  <rect x="722" y="116" width="106" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="726" y="132" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">99% per step</text>
+  <path d="M110 80 L136 87 L161 94 L187 101 L213 107 L238 114 L264 120 L290 126 L315 132 L341 138 L367 144 L392 150 L418 155 L444 161 L469 166 L495 172 L521 177 L546 182 L572 187 L598 192 L623 196 L649 201 L675 206 L700 210 L726 214 L752 219 L777 223 L803 227 L829 231 L854 235 L880 239" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="722" y="175" width="106" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="726" y="192" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">98% per step</text>
+  <path d="M110 80 L136 98 L161 114 L187 130 L213 145 L238 159 L264 173 L290 186 L315 198 L341 209 L367 220 L392 231 L418 241 L444 250 L469 259 L495 268 L521 276 L546 284 L572 291 L598 298 L623 305 L649 311 L675 317 L700 322 L726 328 L752 333 L777 338 L803 342 L829 347 L854 351 L880 355" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="2 4"/>
+  <rect x="722" y="287" width="106" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="726" y="304" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">95% per step</text>
+  <text x="480" y="530" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Computed from p to the power n with illustrative per-step accuracies; real steps are not independent.</text>
+</svg>

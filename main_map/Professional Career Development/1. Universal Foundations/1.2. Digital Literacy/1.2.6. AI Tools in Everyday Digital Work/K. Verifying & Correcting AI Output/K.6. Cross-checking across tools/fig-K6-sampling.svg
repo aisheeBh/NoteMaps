@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Sampling the same question several times</title>
+  <desc>Five sampled answers to the same question are shown. In the upper example four of five samples give the same answer, suggesting a stable response. In the lower example the five samples give four different answers, a sign that the tool is guessing.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Consistency across samples as a warning signal</text>
+  <text x="150" y="112" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Stable answers</text>
+  <text x="150" y="136" text-anchor="middle" font-size="15" fill="#111111">4 of 5 agree</text>
+  <rect x="270" y="90" width="122" height="56" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="331.0" y="123.2" text-anchor="middle" font-size="16" fill="#111111">90 days</text>
+  <rect x="404" y="90" width="122" height="56" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="465.0" y="123.2" text-anchor="middle" font-size="16" fill="#111111">90 days</text>
+  <rect x="538" y="90" width="122" height="56" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="599.0" y="123.2" text-anchor="middle" font-size="16" fill="#111111">90 days</text>
+  <rect x="672" y="90" width="122" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="733.0" y="123.2" text-anchor="middle" font-size="16" fill="#111111">60 days</text>
+  <rect x="806" y="90" width="122" height="56" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="867.0" y="123.2" text-anchor="middle" font-size="16" fill="#111111">90 days</text>
+  <text x="150" y="212" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Unstable answers</text>
+  <text x="150" y="236" text-anchor="middle" font-size="15" fill="#111111">4 different</text>
+  <rect x="270" y="190" width="122" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="331.0" y="223.2" text-anchor="middle" font-size="16" fill="#111111">2014</text>
+  <rect x="404" y="190" width="122" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="465.0" y="223.2" text-anchor="middle" font-size="16" fill="#111111">2016</text>
+  <rect x="538" y="190" width="122" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="599.0" y="223.2" text-anchor="middle" font-size="16" fill="#111111">2014</text>
+  <rect x="672" y="190" width="122" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="733.0" y="223.2" text-anchor="middle" font-size="16" fill="#111111">2019</text>
+  <rect x="806" y="190" width="122" height="56" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="867.0" y="223.2" text-anchor="middle" font-size="16" fill="#111111">2011</text>
+  <rect x="270" y="280" width="658" height="70" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="599.0" y="309.8" text-anchor="middle" font-size="15" fill="#111111">Instability suggests guessing: verify before use.</text>
+  <text x="599.0" y="330.0" text-anchor="middle" font-size="15" fill="#111111">Stability is weaker evidence: a model can be consistently wrong.</text>
+  <text x="480.0" y="390" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Illustrative answers to two questions, each sampled five times from one tool.</text>
+</svg>

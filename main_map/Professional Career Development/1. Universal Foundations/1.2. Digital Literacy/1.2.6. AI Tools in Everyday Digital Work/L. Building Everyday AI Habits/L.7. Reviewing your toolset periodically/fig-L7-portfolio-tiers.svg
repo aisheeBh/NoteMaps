@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Core, specialist and experimental tools</title>
+  <desc>Three nested layers. At the centre a small core of one to three tools used most days. Around it two to four specialist tools used for specific jobs. On the outside a thin fringe of time-limited experiments with decision dates. Tools move inward when proven and are retired when not.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">A healthy personal toolset</text>
+  <ellipse cx="330" cy="300" rx="290" ry="215" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <ellipse cx="330" cy="300" rx="210" ry="155" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <ellipse cx="330" cy="300" rx="115" ry="82" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="330" y="292" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">CORE</text>
+  <text x="330" y="316" text-anchor="middle" font-size="14" fill="#FFFFFF">1 to 3 tools, most days</text>
+  <rect x="235" y="160" width="190" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="330" y="178" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SPECIALIST</text>
+  <text x="330" y="196" text-anchor="middle" font-size="14" fill="#111111">2 to 4, specific jobs</text>
+  <rect x="235" y="468" width="190" height="40" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="330" y="485" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">EXPERIMENTAL</text>
+  <text x="330" y="502" text-anchor="middle" font-size="14" fill="#111111">0 to 2, with an end date</text>
+  <rect x="650" y="110" width="280" height="120" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="658" y="131" width="264" height="76" rx="4" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="790" y="152" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Moves inward</text>
+  <text x="790" y="182" text-anchor="middle" font-size="14" fill="#111111">A trial that shows a clear,</text>
+  <text x="790" y="200" text-anchor="middle" font-size="14" fill="#111111">measured gain on real tasks</text>
+  <rect x="650" y="250" width="280" height="120" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="658" y="271" width="264" height="76" rx="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="790" y="292" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Moves out</text>
+  <text x="790" y="322" text-anchor="middle" font-size="14" fill="#111111">A specialist the core now does as</text>
+  <text x="790" y="340" text-anchor="middle" font-size="14" fill="#111111">well; a trial with no clear gain</text>
+  <rect x="650" y="390" width="280" height="110" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="790" y="427" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Retired cleanly</text>
+  <text x="790" y="457" text-anchor="middle" font-size="14" fill="#111111">Data exported or deleted, access</text>
+  <text x="790" y="475" text-anchor="middle" font-size="14" fill="#111111">revoked, plan cancelled</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Typical sizes are practitioner conventions, not fixed rules.</text>
+</svg>

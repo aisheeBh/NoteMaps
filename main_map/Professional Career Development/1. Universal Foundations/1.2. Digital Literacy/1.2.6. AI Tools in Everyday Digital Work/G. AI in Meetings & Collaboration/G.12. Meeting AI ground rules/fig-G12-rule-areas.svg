@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Areas of meeting AI ground rules</title>
+<desc>Grid of twelve rule areas grouped into before, during and after the meeting.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Twelve areas for meeting AI ground rules</text>
+<rect x="184" y="70" width="178" height="150" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="273.0" y="132" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Purpose</text>
+<text x="273.0" y="156" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Why we use</text>
+<text x="273.0" y="175" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">meeting AI</text>
+<rect x="370" y="70" width="178" height="150" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="459.0" y="132" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Scope</text>
+<text x="459.0" y="156" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Which meetings,</text>
+<text x="459.0" y="175" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">which capture</text>
+<rect x="556" y="70" width="178" height="150" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="645.0" y="132" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Tools and bots</text>
+<text x="645.0" y="156" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Approved tools;</text>
+<text x="645.0" y="175" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">external bots</text>
+<rect x="742" y="70" width="178" height="150" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="831.0" y="132" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Accessibility</text>
+<text x="831.0" y="156" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Captions without</text>
+<text x="831.0" y="175" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">stored transcripts</text>
+<rect x="184" y="230" width="178" height="150" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="194" y="260" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="273.0" y="292" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Notice, consent</text>
+<text x="273.0" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Told and asked,</text>
+<text x="273.0" y="335" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">externals too</text>
+<rect x="370" y="230" width="178" height="150" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="380" y="260" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="459.0" y="292" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Capture mode</text>
+<text x="459.0" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">The minimum</text>
+<text x="459.0" y="335" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">for the purpose</text>
+<rect x="556" y="230" width="178" height="150" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="566" y="260" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="645.0" y="292" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Sensitive content</text>
+<text x="645.0" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Pause, separate,</text>
+<text x="645.0" y="335" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">human notes</text>
+<rect x="742" y="230" width="178" height="150" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="752" y="260" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="831.0" y="292" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Prohibited uses</text>
+<text x="831.0" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">No covert capture,</text>
+<text x="831.0" y="335" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">evaluation, emotion</text>
+<rect x="184" y="390" width="178" height="150" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="194" y="420" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="273.0" y="452" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Review</text>
+<text x="273.0" y="476" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Who checks what,</text>
+<text x="273.0" y="495" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">how quickly</text>
+<rect x="370" y="390" width="178" height="150" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="380" y="420" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="459.0" y="452" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Sharing</text>
+<text x="459.0" y="476" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Who receives</text>
+<text x="459.0" y="495" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">which version</text>
+<rect x="556" y="390" width="178" height="150" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="566" y="420" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="645.0" y="452" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Retention</text>
+<text x="645.0" y="476" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">How long each</text>
+<text x="645.0" y="495" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">record is kept</text>
+<rect x="742" y="390" width="178" height="150" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="752" y="420" width="158" height="90" fill="#FFFFFF" rx="4"/>
+<text x="831.0" y="452" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Corrections</text>
+<text x="831.0" y="476" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Fixing records;</text>
+<text x="831.0" y="495" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">disputes</text>
+<text x="170" y="137.0" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Foundations</text>
+<text x="170" y="297.0" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">In the</text>
+<text x="170" y="316.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">meeting</text>
+<text x="170" y="457.0" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">After the</text>
+<text x="170" y="476.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">meeting</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 376" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Where deep research helps and where it misleads</title>
+  <desc>Two panels. Helps: breadth, persistence, structured first draft, speed to orientation, surfacing leads, systematic comparison on fixed criteria. Misleads: reads only what is freely readable, confuses authority with visibility, compounds early errors, drifts from scope, hides weak sections behind polish and citation counts, omits failures and criticisms, varies from run to run.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where deep research helps and where it misleads</text>
+  <rect x="24" y="70" width="447" height="276" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="248" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Helps</text>
+  <line x1="38" y1="116" x2="457" y2="116" stroke="#555555" stroke-width="1.2"/>
+  <text x="248" y="140" text-anchor="middle" font-size="14.5" fill="#111111">Breadth: dozens to hundreds of pages</text>
+  <text x="248" y="171" text-anchor="middle" font-size="14.5" fill="#111111">Persistence in filling gaps</text>
+  <text x="248" y="202" text-anchor="middle" font-size="14.5" fill="#111111">A structured first draft</text>
+  <text x="248" y="233" text-anchor="middle" font-size="14.5" fill="#111111">Speed to orientation in a new field</text>
+  <text x="248" y="264" text-anchor="middle" font-size="14.5" fill="#111111">Leads: names, documents, terms</text>
+  <text x="248" y="295" text-anchor="middle" font-size="14.5" fill="#111111">Systematic first-pass comparisons</text>
+  <rect x="489" y="70" width="447" height="276" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="712" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Misleads</text>
+  <line x1="503" y1="116" x2="922" y2="116" stroke="#555555" stroke-width="1.2"/>
+  <text x="712" y="140" text-anchor="middle" font-size="14.5" fill="#111111">Reads only what is freely readable</text>
+  <text x="712" y="171" text-anchor="middle" font-size="14.5" fill="#111111">Confuses visibility with authority</text>
+  <text x="712" y="202" text-anchor="middle" font-size="14.5" fill="#111111">Compounds early errors; drifts from scope</text>
+  <text x="712" y="233" text-anchor="middle" font-size="14.5" fill="#111111">Polish and citation counts hide weak sections</text>
+  <text x="712" y="264" text-anchor="middle" font-size="14.5" fill="#111111">Omits failures and criticisms</text>
+  <text x="712" y="295" text-anchor="middle" font-size="14.5" fill="#111111">Changes from run to run</text>
+</svg>

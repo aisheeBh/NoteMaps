@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Three layers</title>
+<desc>Three stacked layers: what the label or summary claims (self-declared, quick to read); what the policy and terms commit to (legally relevant); what the system actually does (verifiable only by audits and testing). Gaps can open between each layer. Individuals can compare the first two; organisations add evidence for the third.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Claims, commitments and actual behaviour</text>
+<rect x="140" y="90" width="520" height="90" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="251.2" y="110.2" width="297.6" height="49.6" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="400.0" y="130.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">What the label or summary claims</text>
+<text x="400.0" y="151.0" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">self-declared; quick to read</text>
+<rect x="324.44" y="187" width="151.12" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="400" y="202.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">gaps can open here</text>
+<rect x="140" y="220" width="520" height="90" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="400.0" y="260.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#000000">What the policy and terms commit to</text>
+<text x="400.0" y="281.0" font-size="16" text-anchor="middle" font-weight="normal" fill="#000000">the legally relevant statement</text>
+<rect x="324.44" y="317" width="151.12" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="400" y="332.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">gaps can open here</text>
+<rect x="140" y="350" width="520" height="90" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="400.0" y="390.20000000000005" font-size="16" text-anchor="middle" font-weight="bold" fill="#FFFFFF">What the system actually does</text>
+<text x="400.0" y="411.00000000000006" font-size="16" text-anchor="middle" font-weight="normal" fill="#FFFFFF">shown only by audits and testing</text>
+<rect x="700" y="90" width="220" height="220" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="810.0" y="176.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Individuals</text>
+<text x="810.0" y="195.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">compare the</text>
+<text x="810.0" y="215.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">label with</text>
+<text x="810.0" y="234.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">the policy</text>
+<rect x="700" y="330" width="220" height="140" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="810.0" y="376.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Organisations</text>
+<text x="810.0" y="395.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">add audit reports,</text>
+<text x="810.0" y="415.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">certifications,</text>
+<text x="810.0" y="434.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">testing</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 394" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>What the person researching sees</title>
+  <desc>Two panels. Results page: ranked documents, visible range of source types, visible gaps, reader does the judging. AI answer: composed prose, synthesis done, selected citations, uniform confidence, unseen discarded sources.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What the person researching sees</text>
+  <rect x="24" y="70" width="447" height="264" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="248" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Traditional results page</text>
+  <line x1="38" y1="116" x2="457" y2="116" stroke="#555555" stroke-width="1.2"/>
+  <text x="248" y="140" text-anchor="middle" font-size="14.5" fill="#111111">A ranked list of documents</text>
+  <text x="248" y="171" text-anchor="middle" font-size="14.5" fill="#111111">Titles, addresses, dates and snippets</text>
+  <text x="248" y="202" text-anchor="middle" font-size="14.5" fill="#111111">Visible range: official, commercial, news, forum,</text>
+  <text x="248" y="221" text-anchor="middle" font-size="14.5" fill="#111111">academic</text>
+  <text x="248" y="252" text-anchor="middle" font-size="14.5" fill="#111111">Visible gaps when coverage is thin</text>
+  <text x="248" y="283" text-anchor="middle" font-size="14.5" fill="#111111">Reading, comparing and judging left to the reader</text>
+  <rect x="489" y="70" width="447" height="264" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="712" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">AI answer</text>
+  <line x1="503" y1="116" x2="922" y2="116" stroke="#555555" stroke-width="1.2"/>
+  <text x="712" y="140" text-anchor="middle" font-size="14.5" fill="#111111">Composed prose in the words of the question</text>
+  <text x="712" y="171" text-anchor="middle" font-size="14.5" fill="#111111">Synthesis already done</text>
+  <text x="712" y="202" text-anchor="middle" font-size="14.5" fill="#111111">A few citations on some sentences</text>
+  <text x="712" y="233" text-anchor="middle" font-size="14.5" fill="#111111">Same confident tone for strong and weak claims</text>
+  <text x="712" y="264" text-anchor="middle" font-size="14.5" fill="#111111">Sources read but not cited stay hidden</text>
+  <text x="480" y="384" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Evidence without a conclusion, or a conclusion with selected evidence.</text>
+</svg>

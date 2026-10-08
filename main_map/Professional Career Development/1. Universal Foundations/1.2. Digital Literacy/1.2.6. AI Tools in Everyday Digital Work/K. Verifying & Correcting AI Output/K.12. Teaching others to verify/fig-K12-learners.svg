@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 312" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Different learners need different emphasis</title>
+  <desc>Five columns for five kinds of learner, each with the main risk and the teaching emphasis: newcomers, experts, sceptics, enthusiasts and managers.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Different learners need different emphasis</text>
+  <rect x="28.0" y="72" width="171.2" height="180" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="113.6" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Newcomers</text>
+  <text x="113.6" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Risk: accept</text>
+  <text x="113.6" y="148.2" text-anchor="middle" font-size="15" fill="#111111">plausible output</text>
+  <text x="113.6" y="168.4" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="113.6" y="188.7" text-anchor="middle" font-size="15" fill="#111111">Teach: error types,</text>
+  <text x="113.6" y="208.9" text-anchor="middle" font-size="15" fill="#111111">sources, routine</text>
+  <rect x="211.2" y="72" width="171.2" height="180" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="296.79999999999995" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Experts</text>
+  <text x="296.79999999999995" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Risk: overconfident</text>
+  <text x="296.79999999999995" y="148.2" text-anchor="middle" font-size="15" fill="#111111">outside own field</text>
+  <text x="296.79999999999995" y="168.4" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="296.79999999999995" y="188.7" text-anchor="middle" font-size="15" fill="#111111">Teach: limits of</text>
+  <text x="296.79999999999995" y="208.9" text-anchor="middle" font-size="15" fill="#111111">own checking</text>
+  <rect x="394.4" y="72" width="171.2" height="180" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480.0" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Sceptics</text>
+  <text x="480.0" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Risk: disuse,</text>
+  <text x="480.0" y="148.2" text-anchor="middle" font-size="15" fill="#111111">missed benefits</text>
+  <text x="480.0" y="168.4" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="480.0" y="188.7" text-anchor="middle" font-size="15" fill="#111111">Teach: where tools</text>
+  <text x="480.0" y="208.9" text-anchor="middle" font-size="15" fill="#111111">are reliable</text>
+  <rect x="577.6" y="72" width="171.2" height="180" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="663.2" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Enthusiasts</text>
+  <text x="663.2" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Risk: misuse,</text>
+  <text x="663.2" y="148.2" text-anchor="middle" font-size="15" fill="#111111">light checking</text>
+  <text x="663.2" y="168.4" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="663.2" y="188.7" text-anchor="middle" font-size="15" fill="#111111">Teach: failure</text>
+  <text x="663.2" y="208.9" text-anchor="middle" font-size="15" fill="#111111">cases, review levels</text>
+  <rect x="760.8" y="72" width="171.2" height="180" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="846.4" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Managers</text>
+  <text x="846.4" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Risk: plans with</text>
+  <text x="846.4" y="148.2" text-anchor="middle" font-size="15" fill="#111111">no checking time</text>
+  <text x="846.4" y="168.4" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="846.4" y="188.7" text-anchor="middle" font-size="15" fill="#111111">Teach: design of</text>
+  <text x="846.4" y="208.9" text-anchor="middle" font-size="15" fill="#111111">routines and norms</text>
+  <text x="480.0" y="290" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Schematic; most groups contain all five kinds of learner.</text>
+</svg>

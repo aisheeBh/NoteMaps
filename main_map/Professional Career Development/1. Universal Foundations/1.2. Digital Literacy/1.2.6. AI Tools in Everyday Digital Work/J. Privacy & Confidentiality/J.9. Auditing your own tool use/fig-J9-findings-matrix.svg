@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Findings matrix</title>
+<desc>A 2 by 2 grid with likelihood of exposure on the horizontal axis and severity on the vertical. Six illustrative findings: customer spreadsheet in personal app (high severity, high likelihood); grammar extension with all-site access (high, high); live public share link (medium-high, high); note-taker calendar grant (medium, medium); memory naming an embargoed launch (medium, low); image generator for public concepts (low, low).</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Illustrative audit findings by severity and likelihood</text>
+<rect x="160" y="90" width="340.0" height="190.0" fill="#F2F2F2"/>
+<rect x="500.0" y="90" width="340.0" height="190.0" fill="#F6CACA"/>
+<rect x="160" y="280.0" width="340.0" height="190.0" fill="#FFFFFF"/>
+<rect x="500.0" y="280.0" width="340.0" height="190.0" fill="#F2F2F2"/>
+<rect x="160" y="90" width="680" height="380" fill="none" stroke="#222222" stroke-width="2"/>
+<line x1="500.0" y1="90" x2="500.0" y2="470" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<line x1="160" y1="280.0" x2="840" y2="280.0" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<line x1="160" y1="470" x2="860" y2="470" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="160" y1="470" x2="160" y2="70" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="510.0" y="506" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Likelihood of exposure</text>
+<text x="130" y="270.0" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 130 270.0)">Severity</text>
+<text x="832" y="112" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Act first</text>
+<text x="168" y="458" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Tidy at leisure</text>
+<circle cx="738.0" cy="135.60000000000002" r="8" fill="#111111"/>
+<rect x="491.64" y="125.60000000000002" width="237.36" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="724.0" y="140.60000000000002" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Customer data in personal app</text>
+<circle cx="670.0" cy="196.40000000000003" r="8" fill="#111111"/>
+<rect x="415.79999999999995" y="186.40000000000003" width="245.20000000000002" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="656.0" y="201.40000000000003" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Extension with all-site access</text>
+<circle cx="772.0" cy="226.79999999999998" r="8" fill="#111111"/>
+<rect x="580.52" y="216.79999999999998" width="182.48000000000002" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="758.0" y="231.79999999999998" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Live public share link</text>
+<circle cx="486.4" cy="310.4" r="8" fill="#111111"/>
+<rect x="495.4" y="300.4" width="206.00000000000003" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="500.4" y="315.4" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Note-taker calendar grant</text>
+<circle cx="296.0" cy="242.0" r="8" fill="#111111"/>
+<rect x="305.0" y="232.0" width="245.20000000000002" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="310.0" y="247.0" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Memory naming embargoed launch</text>
+<circle cx="282.4" cy="413.0" r="8" fill="#111111"/>
+<rect x="291.4" y="403.0" width="221.68" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="296.4" y="418.0" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Image tool, public concepts</text>
+<text x="480.0" y="545" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Illustrative findings; positions are judgements, not measurements.</text>
+</svg>

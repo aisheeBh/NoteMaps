@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The families of AI research tools</title>
+  <desc>Chart with horizontal axis showing how much the tool acts on its own, from single answer to autonomous agent, and vertical axis showing how much the user controls the sources, from open web to chosen or licensed sources. Lower left: AI summaries in search, and answer engines. Lower middle: general assistants with web search. Lower right: deep research agents on the open web. Upper left: domain tools in licensed legal, clinical and financial databases, and scholarly AI tools. Upper middle: enterprise assistants over the organisation's own content. Upper right: deep research with chosen sources and connectors.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The families of AI research tools</text>
+  <line x1="130" y1="520" x2="920" y2="520" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="520" x2="130" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="525" y="560" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">How much the tool acts on its own</text>
+  <text x="130" y="542" text-anchor="start" font-size="14" fill="#111111">Single answer</text>
+  <text x="920" y="542" text-anchor="end" font-size="14" fill="#111111">Autonomous agent</text>
+  <text x="70" y="295" text-anchor="middle" font-size="16" font-weight="bold" transform="rotate(-90 70 295)" fill="#111111">User control over sources</text>
+  <text x="100" y="520" text-anchor="start" font-size="14" transform="rotate(-90 100 520)" fill="#111111">Open web</text>
+  <text x="100" y="70" text-anchor="end" font-size="14" transform="rotate(-90 100 70)" fill="#111111">Chosen sources</text>
+  <rect x="160" y="360" width="230" height="70" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="275" y="399" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#222222">AI summaries in search</text>
+  <rect x="160" y="440" width="230" height="62" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="275" y="475" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">Answer engines</text>
+  <rect x="420" y="380" width="230" height="80" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="535" y="415" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">Assistants with web</text>
+  <text x="535" y="434" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">search</text>
+  <rect x="680" y="380" width="220" height="80" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="790" y="415" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">Deep research on the</text>
+  <text x="790" y="434" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">open web</text>
+  <rect x="160" y="100" width="230" height="70" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="275" y="130" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">Domain tools: legal,</text>
+  <text x="275" y="149" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">clinical, financial</text>
+  <rect x="160" y="190" width="230" height="62" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="275" y="225" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">Scholarly AI tools</text>
+  <rect x="420" y="130" width="230" height="80" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="535" y="165" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">Enterprise assistants</text>
+  <text x="535" y="184" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#111111">over own content</text>
+  <rect x="680" y="120" width="220" height="90" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="790" y="150" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#FFFFFF">Deep research with</text>
+  <text x="790" y="169" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#FFFFFF">chosen sources and</text>
+  <text x="790" y="189" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#FFFFFF">connectors</text>
+  <text x="480" y="592" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Positions are schematic; products move between these positions as features change.</text>
+</svg>

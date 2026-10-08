@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>A slide before and after applying layout principles</title>
+<desc>Two schematic slide mock-ups: a cluttered slide with a topic title, many bullets and decoration, and a revised slide with an action title, one chart and a short takeaway.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">The same content, before and after</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Schematic slide mock-ups</text>
+<rect x="40" y="96" width="420" height="250" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+<text x="250.0" y="372.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Before: accepted suggestion as offered</text>
+<rect x="500" y="96" width="420" height="250" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+<text x="710.0" y="372.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">After: hierarchy, grid and one message</text>
+<text x="56.0" y="126.0" font-size="20" font-weight="bold" text-anchor="start" fill="#111111">Q3 Update</text>
+<rect x="60" y="142" width="8" height="8" fill="#222222"/>
+<rect x="76" y="142" width="150" height="8" fill="#9A9A9A"/>
+<rect x="60" y="164" width="8" height="8" fill="#222222"/>
+<rect x="76" y="164" width="187" height="8" fill="#9A9A9A"/>
+<rect x="60" y="186" width="8" height="8" fill="#222222"/>
+<rect x="76" y="186" width="224" height="8" fill="#9A9A9A"/>
+<rect x="60" y="208" width="8" height="8" fill="#222222"/>
+<rect x="76" y="208" width="171" height="8" fill="#9A9A9A"/>
+<rect x="60" y="230" width="8" height="8" fill="#222222"/>
+<rect x="76" y="230" width="208" height="8" fill="#9A9A9A"/>
+<rect x="60" y="252" width="8" height="8" fill="#222222"/>
+<rect x="76" y="252" width="155" height="8" fill="#9A9A9A"/>
+<rect x="60" y="274" width="8" height="8" fill="#222222"/>
+<rect x="76" y="274" width="192" height="8" fill="#9A9A9A"/>
+<rect x="330" y="120" width="110" height="80" fill="url(#dots)" stroke="#7A5200" stroke-dasharray="3 3"/>
+<rect x="345" y="151" width="80" height="20" fill="#FFFFFF"/>
+<text x="385.0" y="166.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">stock image</text>
+<circle cx="370" cy="250" r="22" fill="url(#hatch)" stroke="#1F3B5C"/>
+<circle cx="420" cy="290" r="16" fill="url(#lines)" stroke="#8B0000"/>
+<text x="340.0" y="335.0" font-size="13" font-weight="normal" text-anchor="start" fill="#111111">icons</text>
+<text x="516.0" y="124.0" font-size="18" font-weight="bold" text-anchor="start" fill="#111111">Churn rose to 6% in Q3,</text>
+<text x="516.0" y="146.0" font-size="18" font-weight="bold" text-anchor="start" fill="#111111">driven by small-business accounts</text>
+<line x1="530" y1="300" x2="800" y2="300" stroke="#222222" stroke-width="2"/>
+<rect x="550" y="240" width="38" height="60" fill="url(#hatch)" stroke="#222222"/>
+<rect x="610" y="230" width="38" height="70" fill="url(#hatch)" stroke="#222222"/>
+<rect x="670" y="220" width="38" height="80" fill="url(#hatch)" stroke="#222222"/>
+<rect x="730" y="180" width="38" height="120" fill="url(#lines)" stroke="#222222"/>
+<text x="665.0" y="322.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">Q4    Q1    Q2    Q3</text>
+<rect x="816" y="190" width="92" height="90" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+<text x="862.0" y="214.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">Takeaway:</text>
+<text x="862.0" y="230.9" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">act on SMB</text>
+<text x="862.0" y="247.8" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">renewals</text>
+<text x="862.0" y="264.7" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">this quarter</text>
+<rect x="40" y="396" width="420" height="84" rx="6" fill="#FCEDED" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="42.5" y="398.5" width="415.0" height="10" fill="url(#lines)"/>
+<text x="250.0" y="427.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Topic title; seven equal bullets; decoration competes</text>
+<text x="250.0" y="445.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">with text; nothing aligned</text>
+<rect x="500" y="396" width="420" height="84" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="503" y="399" width="414" height="10" fill="url(#cross)"/>
+<text x="710.0" y="427.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Action title; one chart as evidence; one takeaway;</text>
+<text x="710.0" y="445.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">elements on a grid</text>
+<text x="480.0" y="506.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Schematic mock-ups; chart values are illustrative figures.</text>
+</svg>

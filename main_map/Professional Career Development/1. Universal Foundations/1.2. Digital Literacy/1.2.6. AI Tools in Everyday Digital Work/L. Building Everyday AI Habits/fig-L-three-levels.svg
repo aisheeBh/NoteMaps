@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Everyday AI habits at three levels</title>
+  <desc>Three nested horizontal bands. The individual level holds personal routines, limits, protected skills and reviews. The team level holds shared routines and use-case records, norms of disclosure and checking, demonstration and pairing. The organisation level holds approved tools and data rules, licensing and measurement, champions networks and protection of early-career development. Arrows show that each level enables the one inside it and learns from it.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Habits at three levels</text>
+  <rect x="30" y="90" width="900" height="470" rx="12" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <rect x="40" y="100" width="300" height="34" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="52" y="123" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">ORGANISATION</text>
+  <text x="60" y="160" text-anchor="start" font-size="15" fill="#111111">Approved tools and clear data rules</text>
+  <text x="60" y="182" text-anchor="start" font-size="15" fill="#111111">Licensing, rationalisation and honest measurement</text>
+  <text x="60" y="204" text-anchor="start" font-size="15" fill="#111111">Champions networks; protected early-career development</text>
+  <rect x="80" y="240" width="800" height="300" rx="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="100" y="270" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">TEAM</text>
+  <text x="100" y="300" text-anchor="start" font-size="15" fill="#111111">Shared routines and use-case records</text>
+  <text x="100" y="322" text-anchor="start" font-size="15" fill="#111111">Norms of disclosure and checking; demonstration and pairing</text>
+  <rect x="130" y="360" width="700" height="165" rx="12" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="150" y="392" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">INDIVIDUAL</text>
+  <text x="150" y="422" text-anchor="start" font-size="15" fill="#FFFFFF">Anchored routines with fixed checks</text>
+  <text x="150" y="444" text-anchor="start" font-size="15" fill="#FFFFFF">Personal limits and protected skills</text>
+  <text x="150" y="466" text-anchor="start" font-size="15" fill="#FFFFFF">Measurement and periodic review</text>
+  <text x="480" y="584" text-anchor="middle" font-size="13" fill="#333333">Conceptual model; each outer level sets the conditions in which the inner level's habits can last.</text>
+</svg>
