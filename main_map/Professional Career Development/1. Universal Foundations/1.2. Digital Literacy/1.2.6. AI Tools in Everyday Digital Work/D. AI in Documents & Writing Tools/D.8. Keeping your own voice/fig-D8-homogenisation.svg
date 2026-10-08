@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Homogenisation of writing styles</title>
+  <desc>Two panels. Without AI suggestions, writers' styles are spread widely in two groups. With shared AI suggestions, both groups move towards a common centre, and one group moves further than the other.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Shared suggestions pull styles together</text>
+  <rect x="40" y="70" width="420" height="400" rx="2" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="250" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Without AI suggestions</text>
+  <circle cx="141" cy="236" r="8" fill="#1F3B5C"/>
+  <circle cx="130" cy="235" r="8" fill="#1F3B5C"/>
+  <circle cx="169" cy="239" r="8" fill="#1F3B5C"/>
+  <circle cx="196" cy="208" r="8" fill="#1F3B5C"/>
+  <circle cx="142" cy="218" r="8" fill="#1F3B5C"/>
+  <circle cx="118" cy="226" r="8" fill="#1F3B5C"/>
+  <circle cx="144" cy="235" r="8" fill="#1F3B5C"/>
+  <circle cx="157" cy="281" r="8" fill="#1F3B5C"/>
+  <circle cx="171" cy="190" r="8" fill="#1F3B5C"/>
+  <rect x="357" y="342" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="334" y="385" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="344" y="304" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="357" y="349" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="310" y="329" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="338" y="352" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="345" y="353" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="415" y="333" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="329" y="347" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="500" y="70" width="420" height="400" rx="2" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="710" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">With shared AI suggestions</text>
+  <circle cx="710" cy="290" r="45" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="650" y="440" width="120" height="22" fill="#FFFFFF"/>
+  <text x="710" y="456" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">model's default</text>
+  <line x1="710" y1="438" x2="710" y2="338" stroke="#222222" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <circle cx="687" cy="265" r="8" fill="#1F3B5C"/>
+  <circle cx="690" cy="260" r="8" fill="#1F3B5C"/>
+  <circle cx="664" cy="270" r="8" fill="#1F3B5C"/>
+  <circle cx="665" cy="266" r="8" fill="#1F3B5C"/>
+  <circle cx="678" cy="275" r="8" fill="#1F3B5C"/>
+  <circle cx="675" cy="270" r="8" fill="#1F3B5C"/>
+  <circle cx="690" cy="274" r="8" fill="#1F3B5C"/>
+  <circle cx="672" cy="304" r="8" fill="#1F3B5C"/>
+  <circle cx="665" cy="272" r="8" fill="#1F3B5C"/>
+  <rect x="777" y="324" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="759" y="327" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="759" y="317" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="746" y="343" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="756" y="340" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="771" y="322" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="778" y="327" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="770" y="303" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <rect x="769" y="335" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="80" cy="505" r="8" fill="#1F3B5C"/>
+  <text x="96" y="510" text-anchor="start" font-size="15" fill="#111111">writers from group 1</text>
+  <rect x="352" y="497" width="16" height="16" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="378" y="510" text-anchor="start" font-size="15" fill="#111111">writers from group 2</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Schematic, after the direction of findings in the 2024 and 2025 studies described in the text; points are not data.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The pyramid structure</title>
+  <desc>The governing idea at the top; three key arguments below it; evidence beneath each argument.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Governing idea first, then arguments, then evidence</text>
+  <rect x="280" y="80" width="400" height="80" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="113" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Governing idea</text>
+  <text x="480" y="140" text-anchor="middle" font-size="15" fill="#FFFFFF">Renew contract B and retender A</text>
+  <rect x="40" y="220" width="280" height="80" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="180" y="253" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Argument 1</text>
+  <text x="180" y="279" text-anchor="middle" font-size="14" fill="#111111">B met every service target</text>
+  <line x1="480" y1="160" x2="180" y2="220" stroke="#222222" stroke-width="2"/>
+  <rect x="50" y="360" width="125" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="112" y="399" text-anchor="middle" font-size="14" fill="#111111">Evidence</text>
+  <line x1="180" y1="300" x2="112" y2="360" stroke="#222222" stroke-width="1.5"/>
+  <rect x="185" y="360" width="125" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="248" y="399" text-anchor="middle" font-size="14" fill="#222222">Evidence</text>
+  <line x1="180" y1="300" x2="247" y2="360" stroke="#222222" stroke-width="1.5"/>
+  <rect x="340" y="220" width="280" height="80" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="253" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Argument 2</text>
+  <text x="480" y="279" text-anchor="middle" font-size="14" fill="#111111">A missed targets in 4 of 6 months</text>
+  <line x1="480" y1="160" x2="480" y2="220" stroke="#222222" stroke-width="2"/>
+  <rect x="350" y="360" width="125" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="412" y="399" text-anchor="middle" font-size="14" fill="#111111">Evidence</text>
+  <line x1="480" y1="300" x2="412" y2="360" stroke="#222222" stroke-width="1.5"/>
+  <rect x="485" y="360" width="125" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="548" y="399" text-anchor="middle" font-size="14" fill="#222222">Evidence</text>
+  <line x1="480" y1="300" x2="547" y2="360" stroke="#222222" stroke-width="1.5"/>
+  <rect x="640" y="220" width="280" height="80" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="780" y="253" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Argument 3</text>
+  <text x="780" y="279" text-anchor="middle" font-size="14" fill="#111111">Retendering A saves money</text>
+  <line x1="480" y1="160" x2="780" y2="220" stroke="#222222" stroke-width="2"/>
+  <rect x="650" y="360" width="125" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="712" y="399" text-anchor="middle" font-size="14" fill="#111111">Evidence</text>
+  <line x1="780" y1="300" x2="712" y2="360" stroke="#222222" stroke-width="1.5"/>
+  <rect x="785" y="360" width="125" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="848" y="399" text-anchor="middle" font-size="14" fill="#222222">Evidence</text>
+  <line x1="780" y1="300" x2="847" y2="360" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="480" text-anchor="middle" font-size="15" fill="#111111">Read top-down: a busy reader can stop after any level and still have the point.</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Illustrative content.</text>
+</svg>

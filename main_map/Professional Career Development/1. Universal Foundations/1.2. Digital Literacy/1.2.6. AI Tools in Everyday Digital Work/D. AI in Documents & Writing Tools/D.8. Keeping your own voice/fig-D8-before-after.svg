@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Before and after an unrestricted AI polish</title>
+  <desc>Left: the writer's own paragraph with specific details, a deadline and a closing question. Right: a polished version with stock phrases, generic praise and the deadline lost. Annotations mark what changed.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Own voice versus unrestricted polish</text>
+  <rect x="40" y="70" width="420" height="40" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="250" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Writer's own draft</text>
+  <rect x="500" y="70" width="420" height="40" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="710" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">After "make it more professional"</text>
+  <rect x="40" y="120" width="420" height="300" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="52" y="216" text-anchor="start" font-size="15" fill="#111111">Three things this week. The supplier finally</text>
+  <text x="52" y="236" text-anchor="start" font-size="15" fill="#111111">delivered — two weeks late, but intact. Priya's</text>
+  <text x="52" y="255" text-anchor="start" font-size="15" fill="#111111">fix to the invoice queue saved us about a day of</text>
+  <text x="52" y="274" text-anchor="start" font-size="15" fill="#111111">rework; thank her. And the board wants the risk</text>
+  <text x="52" y="294" text-anchor="start" font-size="15" fill="#111111">report by the 20th, so I'll need your sections by</text>
+  <text x="52" y="314" text-anchor="start" font-size="15" fill="#111111">the 15th. Question for Monday: what would you</text>
+  <text x="52" y="333" text-anchor="start" font-size="15" fill="#111111">stop doing if you could?</text>
+  <rect x="500" y="120" width="420" height="300" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="512" y="206" text-anchor="start" font-size="15" fill="#111111">I hope everyone has had a productive week. I'm</text>
+  <text x="512" y="226" text-anchor="start" font-size="15" fill="#111111">pleased to share some exciting updates. Our</text>
+  <text x="512" y="245" text-anchor="start" font-size="15" fill="#111111">supplier has successfully completed the delivery,</text>
+  <text x="512" y="265" text-anchor="start" font-size="15" fill="#111111">and I'd like to recognise Priya for her</text>
+  <text x="512" y="284" text-anchor="start" font-size="15" fill="#111111">outstanding contribution to streamlining our</text>
+  <text x="512" y="304" text-anchor="start" font-size="15" fill="#111111">invoice processes. Please submit your sections at</text>
+  <text x="512" y="323" text-anchor="start" font-size="15" fill="#111111">your earliest convenience. Wishing you all a</text>
+  <text x="512" y="343" text-anchor="start" font-size="15" fill="#111111">wonderful weekend!</text>
+  <text x="250" y="458" text-anchor="middle" font-size="15" fill="#111111">Direct opening</text>
+  <text x="710" y="458" text-anchor="middle" font-size="15" fill="#111111">Stock greeting</text>
+  <line x1="440" y1="453" x2="520" y2="453" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="250" y="494" text-anchor="middle" font-size="15" fill="#111111">Specifics: 2 weeks late, a day saved</text>
+  <text x="710" y="494" text-anchor="middle" font-size="15" fill="#111111">Generic: successfully, outstanding</text>
+  <line x1="440" y1="489" x2="520" y2="489" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="250" y="530" text-anchor="middle" font-size="15" fill="#111111">Deadline: sections by the 15th</text>
+  <text x="710" y="530" text-anchor="middle" font-size="15" fill="#111111">Deadline lost</text>
+  <line x1="440" y1="525" x2="520" y2="525" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="250" y="566" text-anchor="middle" font-size="15" fill="#111111">Signature closing question</text>
+  <text x="710" y="566" text-anchor="middle" font-size="15" fill="#111111">Stock sign-off</text>
+  <line x1="440" y1="561" x2="520" y2="561" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480" y="592" text-anchor="middle" font-size="13" fill="#333333">Illustrative example.</text>
+</svg>

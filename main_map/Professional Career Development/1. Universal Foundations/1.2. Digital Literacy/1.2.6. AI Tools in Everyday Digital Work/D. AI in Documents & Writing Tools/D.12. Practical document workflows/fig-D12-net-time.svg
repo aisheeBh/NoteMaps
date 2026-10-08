@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Gross versus net time saved</title>
+  <desc>Old drafting 6 hours. New drafting and briefing 2 hours gives a gross saving of 4 hours. Added review 1.5 hours and rework 0.5 hours leave a net saving of 2 hours.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The drafting saving is not the whole story</text>
+  <rect x="80" y="130" width="110" height="250" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="105" y="96" width="60" height="26" fill="#FFFFFF"/>
+  <text x="135" y="116" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">6 h</text>
+  <text x="135" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Old drafting</text>
+  <rect x="250" y="297" width="110" height="83" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="275" y="263" width="60" height="26" fill="#FFFFFF"/>
+  <text x="305" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">2 h</text>
+  <text x="305" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">New drafting +</text>
+  <text x="305" y="422" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">briefing</text>
+  <rect x="420" y="318" width="110" height="62" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="445" y="284" width="60" height="26" fill="#FFFFFF"/>
+  <text x="475" y="304" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">1.5 h</text>
+  <text x="475" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Added review</text>
+  <rect x="590" y="359" width="110" height="21" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="615" y="325" width="60" height="26" fill="#FFFFFF"/>
+  <text x="645" y="345" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">0.5 h</text>
+  <text x="645" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Rework</text>
+  <rect x="760" y="297" width="110" height="83" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="785" y="263" width="60" height="26" fill="#FFFFFF"/>
+  <text x="815" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">2 h</text>
+  <text x="815" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Net saving</text>
+  <line x1="60" y1="380" x2="920" y2="380" stroke="#222222" stroke-width="2.5"/>
+  <text x="480" y="470" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Gross saving 6 − 2 = 4 h; net saving 4 − 1.5 − 0.5 = 2 h</text>
+  <text x="480" y="505" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures.</text>
+</svg>

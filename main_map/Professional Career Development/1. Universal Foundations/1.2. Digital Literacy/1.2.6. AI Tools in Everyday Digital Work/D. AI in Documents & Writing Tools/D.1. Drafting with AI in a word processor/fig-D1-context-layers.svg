@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of context for an in-document drafting feature</title>
+  <desc>Nested layers from the instruction alone at the centre to general training at the outside; inner layers give specific, checkable content, the outer layer fills gaps with generic, possibly invented content.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What the drafting feature can draw on</text>
+  <rect x="40" y="70" width="600" height="500" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="82" y="103" width="516" height="434" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="124" y="136" width="432" height="369" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="166" y="168" width="348" height="303" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="208" y="201" width="264" height="238" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="250" y="234" width="180" height="172" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="134" y="77" width="412" height="24" fill="#FFFFFF"/>
+  <text x="340" y="94" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">General training (always present, fills every gap)</text>
+  <rect x="186" y="110" width="308" height="24" fill="#FFFFFF"/>
+  <text x="340" y="127" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Organisational data the user may open</text>
+  <rect x="269" y="143" width="141" height="24" fill="#FFFFFF"/>
+  <text x="340" y="160" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Referenced files</text>
+  <rect x="265" y="175" width="149" height="24" fill="#FFFFFF"/>
+  <text x="340" y="192" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">The open document</text>
+  <rect x="281" y="208" width="117" height="24" fill="#FFFFFF"/>
+  <text x="340" y="225" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">The selection</text>
+  <text x="340" y="326" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">The instruction</text>
+  <line x1="690" y1="520" x2="690" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="710" y="90" width="220" height="150" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="820" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Wider context</text>
+  <text x="820" y="166" text-anchor="middle" font-size="14" fill="#111111">Generic, plausible</text>
+  <text x="820" y="184" text-anchor="middle" font-size="14" fill="#111111">content; facts are guesses</text>
+  <text x="820" y="202" text-anchor="middle" font-size="14" fill="#111111">unless checked</text>
+  <rect x="710" y="330" width="220" height="180" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="820" y="385" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Narrower, supplied</text>
+  <text x="820" y="405" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">context</text>
+  <text x="820" y="431" text-anchor="middle" font-size="14" fill="#111111">Specific content that can</text>
+  <text x="820" y="449" text-anchor="middle" font-size="14" fill="#111111">be traced to a source the</text>
+  <text x="820" y="467" text-anchor="middle" font-size="14" fill="#111111">author chose</text>
+</svg>

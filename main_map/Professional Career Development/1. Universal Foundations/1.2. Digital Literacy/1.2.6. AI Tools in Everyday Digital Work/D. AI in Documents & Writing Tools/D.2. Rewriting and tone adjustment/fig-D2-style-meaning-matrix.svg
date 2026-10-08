@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Style and meaning in a rewrite</title>
+  <desc>A two-by-two matrix. Style changed and meaning preserved is a successful rewrite. Style unchanged and meaning preserved is no real change. Style changed and meaning changed is distortion. Style unchanged and meaning changed is a hidden edit.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What a rewrite changed</text>
+  <rect x="220" y="90" width="340" height="210" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="390" y="179" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">No real change</text>
+  <text x="390" y="205" text-anchor="middle" font-size="14" fill="#222222">Same words, same meaning: the request was</text>
+  <text x="390" y="223" text-anchor="middle" font-size="14" fill="#222222">not met</text>
+  <rect x="580" y="90" width="340" height="210" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="588" y="157" width="324" height="74" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="750" y="179" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Successful rewrite</text>
+  <text x="750" y="207" text-anchor="middle" font-size="14" fill="#111111">New style for the new reader; every fact,</text>
+  <text x="750" y="225" text-anchor="middle" font-size="14" fill="#111111">condition and hedge intact</text>
+  <rect x="220" y="320" width="340" height="210" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="228" y="388" width="324" height="72" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="390" y="409" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Hidden edit</text>
+  <text x="390" y="435" text-anchor="middle" font-size="14" fill="#111111">Looks like the original but a number,</text>
+  <text x="390" y="453" text-anchor="middle" font-size="14" fill="#111111">condition or hedge has changed</text>
+  <rect x="580" y="320" width="340" height="210" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="750" y="409" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Distortion</text>
+  <text x="750" y="435" text-anchor="middle" font-size="14" fill="#111111">New style and a changed message: fluent,</text>
+  <text x="750" y="453" text-anchor="middle" font-size="14" fill="#111111">persuasive and wrong</text>
+  <text x="390" y="570" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Style unchanged</text>
+  <text x="750" y="570" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Style changed</text>
+  <text x="190" y="195" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Meaning</text>
+  <text x="190" y="215" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">preserved</text>
+  <text x="190" y="425" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Meaning</text>
+  <text x="190" y="445" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">changed</text>
+</svg>
