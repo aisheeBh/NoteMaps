@@ -246,7 +246,7 @@ flowchart TD
 - **By time** — were the last questions rushed or left blank? Did one question consume ten minutes?
 - **By confidence** — were wrong answers given confidently (a misconception) or tentatively (a gap)?
 
-### Worked example: deciding whether to sit or postpone
+### Worked example (illustrative): deciding whether to sit or postpone
 
 A candidate for a financial-planning qualification has a pass mark of 65%. She has sat three full mocks on unseen items.
 
@@ -260,6 +260,8 @@ A candidate for a financial-planning qualification has a pass mark of 65%. She h
 | Ethics and regulation (15%) | 80% | 82% | 85% |
 | **Weighted total** | **64%** | **70%** | **74%** |
 | Unanswered at time limit | 6 questions | 2 questions | 0 questions |
+
+*Illustrative figures.*
 
 **Steps:**
 
@@ -447,7 +449,7 @@ flowchart TD
     class P caution
 ```
 
-### Case study: ninety per cent on the bank, fail on the day
+### Case study (illustrative): ninety per cent on the bank, fail on the day
 
 - **Situation:** an infrastructure engineer prepared for a cloud-security certification using one commercial question bank of about 400 items.
 - **Problem:** after five weeks his bank scores were above 90%; he sat the examination and failed narrowly.

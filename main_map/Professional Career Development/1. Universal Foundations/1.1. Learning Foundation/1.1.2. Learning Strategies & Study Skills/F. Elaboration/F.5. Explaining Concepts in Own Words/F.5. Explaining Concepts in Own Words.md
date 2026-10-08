@@ -407,7 +407,7 @@ flowchart TD
   3. ask for a model explanation **after** one's own attempt, then compare the two point by point.
 - **Caution** — AI explanations can be confidently wrong; the comparison step must include checking against an authoritative source for anything important.
 
-### Case study: making new metrics understood in an analytics team
+### Case study (illustrative): making new metrics understood in an analytics team
 
 - **Situation:** an e-commerce company introduced a set of new customer metrics (*e.g.* a contribution-margin-based lifetime value). Definitions were published in a metric dictionary.
 - **Problem:** analysts used the metrics in reports but misinterpreted them; two senior meetings were derailed by contradictory explanations of the same number.

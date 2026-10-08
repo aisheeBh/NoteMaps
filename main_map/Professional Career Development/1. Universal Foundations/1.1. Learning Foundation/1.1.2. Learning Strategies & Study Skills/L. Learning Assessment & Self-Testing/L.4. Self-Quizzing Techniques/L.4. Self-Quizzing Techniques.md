@@ -392,7 +392,7 @@ flowchart TD
 
 > **Watch out:** AI-written items often share the wording of the source they were generated from, which encourages recognition rather than understanding. Ask for rephrased, scenario-based items.
 
-### Worked example: a cumulative self-quiz for a data-protection module
+### Worked example (illustrative): a cumulative self-quiz for a data-protection module
 
 A compliance analyst has four weeks to master an internal data-protection module with eight objectives.
 
@@ -418,11 +418,13 @@ A compliance analyst has four weeks to master an internal data-protection module
 | Processors | 1 | 0 | Slip: misread "processor" as "controller" | Slow down on reading |
 | Cookies | 0 | 1 | Misconception: thought analytics cookies exempt | Contrast exempt and non-exempt cases |
 
+*Illustrative figures.*
+
 - **Conclusion:** the total (9 of 16, 56%) says little. The breakdown shows **two misconceptions**, **two gaps** and **one slip** — five different actions.
 
 > **Watch out:** two items per objective is a very small sample. One week's result is a signal to investigate, not a verdict; decisions rest on the pattern over several weeks.
 
-### Case study: the sales engineer who scored 95% and froze in the demo
+### Case study (illustrative): the sales engineer who scored 95% and froze in the demo
 
 - **Situation:** a sales engineer joining a database company studied the product's architecture for a month before taking customer calls.
 - **Self-assessment:** she quizzed herself daily from flashcards she had written and reached 95% recall.

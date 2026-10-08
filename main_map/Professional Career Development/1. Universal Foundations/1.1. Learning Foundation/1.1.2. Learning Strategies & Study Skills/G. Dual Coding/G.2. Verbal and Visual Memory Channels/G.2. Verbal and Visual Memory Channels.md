@@ -94,7 +94,7 @@ flowchart TD
 
 > **Remember:** the verbal channel is **sound-based**, **time-limited** (about two seconds of speech), **rehearsable** and **vulnerable to other speech**.
 
-> **Example:** a student reading a contract clause while a nearby colleague talks on the telephone loses the thread repeatedly — not from lack of effort, but because the irrelevant speech competes for the phonological loop.
+> **Example (illustrative):** a student reading a contract clause while a nearby colleague talks on the telephone loses the thread repeatedly — not from lack of effort, but because the irrelevant speech competes for the phonological loop.
 
 ### Reading uses the verbal channel
 
@@ -334,7 +334,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Re-planning a Study Session
+## Worked Example (illustrative): Re-planning a Study Session
 
 **Situation:** an analyst preparing for a cloud-architecture certification studies on the train each evening. Their current routine and its channel demands:
 
@@ -404,7 +404,7 @@ flowchart TD
 - A slide that shows a **diagram or a single image**, while the speaker supplies the words, pairs the channels.
 - Short **key phrases** on screen — labels, not paragraphs — can help listeners follow structure without competing heavily with speech.
 
-### Case study: onboarding contact-centre advisers
+### Case study (illustrative): onboarding contact-centre advisers
 
 - **Situation:** a utility company trained contact-centre advisers to handle billing disputes using a 30-page script and a multi-screen system.
 - **Problem:** during live calls, advisers missed key customer statements and gave inconsistent answers; average handling time was long.

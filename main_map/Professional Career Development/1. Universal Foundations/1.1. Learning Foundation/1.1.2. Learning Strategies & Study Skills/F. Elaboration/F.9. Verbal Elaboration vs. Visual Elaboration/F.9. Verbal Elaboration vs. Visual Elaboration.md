@@ -254,7 +254,7 @@ flowchart TD
 
 > **Mnemonic — "Draw it, say it; say it, draw it."** Every sketch gets an explanation; every explanation gets a sketch.
 
-### Worked example: learning how a vaccine-cold chain works
+### Worked example (illustrative): learning how a vaccine-cold chain works
 
 - **Situation:** a logistics analyst joining a public-health supply team must learn the vaccine **cold chain** — the system that keeps vaccines at safe temperatures from manufacturer to patient.
 
@@ -337,7 +337,7 @@ flowchart TD
 
 > **In practice:** a quick test of a junior colleague's understanding is to hand them a diagram and ask for a paragraph, or hand them a paragraph and ask for a diagram. Difficulty translating in either direction usually marks the edge of their understanding.
 
-### Case study: onboarding analysts to a data pipeline
+### Case study (illustrative): onboarding analysts to a data pipeline
 
 - **Situation:** a retail company's data team onboarded new analysts with a twenty-page written description of its data pipeline — sources, transformations, schedules and quality checks.
 - **Problem:** analysts read the document but, months later, still asked where particular figures came from and broke reports by misunderstanding dependencies.

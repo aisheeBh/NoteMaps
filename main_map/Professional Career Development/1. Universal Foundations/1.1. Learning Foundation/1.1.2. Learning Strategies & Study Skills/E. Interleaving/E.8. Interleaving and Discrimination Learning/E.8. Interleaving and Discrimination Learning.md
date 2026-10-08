@@ -344,7 +344,7 @@ Many professionals learn categories on the job with little structured training. 
 
 > **Mnemonic — "CVN-SSF-RT":** Contrast sets, Variety, Near-misses — Side-by-side, Sequential, Feedback — Retire slowly, Test on new.
 
-### Worked example: training analysts to classify suspicious emails
+### Worked example (illustrative): training analysts to classify suspicious emails
 
 - **Situation:** a security operations team receives reports of suspicious emails. New analysts must classify each as **credential phishing**, **invoice (payment) fraud**, **malware delivery**, **marketing spam** or **legitimate**. They confuse invoice fraud with legitimate supplier emails, and spam with phishing.
 
@@ -383,7 +383,7 @@ Many professionals learn categories on the job with little structured training. 
 
 > **Remember:** in every field the same three ingredients recur — **mixed** examples, **varied** examples and **feedback that names the diagnostic feature**.
 
-### Case study: solder-joint inspection on an electronics line
+### Case study (illustrative): solder-joint inspection on an electronics line
 
 - **Situation:** an electronics manufacturer trained new inspectors to classify solder joints on circuit boards as acceptable or as one of several defects — insufficient solder, bridging, cold joint, voiding — using a reference manual organised **one defect per chapter**, each with a page of images.
 - **Problem:** new inspectors had high **false-reject** rates on harmless cosmetic variation and missed cold joints, which resemble acceptable joints. Experienced inspectors disagreed with their calls frequently.

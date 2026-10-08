@@ -346,7 +346,7 @@ flowchart TD
 
 > **Definition — Ill-structured problem:** a problem whose goals, constraints or criteria for a good solution are not fully defined, so that framing the problem is part of solving it.
 
-### Worked example: a junior analyst learning from a pricing problem
+### Worked example (illustrative): a junior analyst learning from a pricing problem
 
 - **Situation:** a junior analyst is asked whether a 10% price cut on a product line would raise profit. A senior colleague solves it; the junior studies the solution.
 
@@ -365,7 +365,7 @@ flowchart TD
 
 > **Watch out:** the most common error is to compare **revenue** before and after rather than **contribution**. Revenue can rise while profit falls; the self-explanation "fixed costs do not change, so compare contribution" is what prevents it.
 
-### Case study: an engineering team that explained its fixes
+### Case study (illustrative): an engineering team that explained its fixes
 
 - **Situation:** a software team fixed bugs quickly, but similar bugs kept recurring in different parts of the system.
 - **Problem:** each fix was correct; nothing was learned from it. New engineers repeated mistakes that senior engineers had fixed months before.

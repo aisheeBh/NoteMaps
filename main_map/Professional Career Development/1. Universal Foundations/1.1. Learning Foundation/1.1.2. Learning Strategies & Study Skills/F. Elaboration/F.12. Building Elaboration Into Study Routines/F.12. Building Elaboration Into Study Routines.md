@@ -404,7 +404,7 @@ flowchart TD
 
 > **Key point:** a partner is valuable mainly as a **source of questions** the learner would not have asked alone.
 
-### Worked example: a weekly plan for a certification candidate
+### Worked example (illustrative): a weekly plan for a certification candidate
 
 - **Situation:** a finance professional has five hours a week for six months to prepare for a professional examination.
 
@@ -427,7 +427,7 @@ flowchart TD
 
 > **Watch out:** the plan fails if Saturday's integration is skipped in busy weeks. The minimum version — fifteen minutes explaining the week from memory — must survive even when the rest does not.
 
-### Case study: a new manager learning a business unit
+### Case study (illustrative): a new manager learning a business unit
 
 - **Situation:** an engineer promoted to manage a product unit had to learn its finances, customers, contracts and people within three months.
 - **Problem:** after six weeks of reading reports and attending meetings, she felt busy and informed but could not answer her director's questions about why margins differed between product lines.

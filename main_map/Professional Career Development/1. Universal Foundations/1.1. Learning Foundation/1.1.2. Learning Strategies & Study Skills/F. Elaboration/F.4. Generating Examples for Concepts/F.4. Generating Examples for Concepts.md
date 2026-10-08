@@ -265,7 +265,7 @@ flowchart TD
 - **Explain it** — state in one sentence **why** it is an instance; a correct example with a wrong reason is a warning sign.
 - **External check** — compare with a textbook example, an expert or a colleague.
 
-### Worked example: generating examples of confirmation bias
+### Worked example (illustrative): generating examples of confirmation bias
 
 - **Situation:** a junior product analyst is learning cognitive biases for a decision-quality course.
 - **Definition given:** confirmation bias — the tendency to search for, interpret and recall information in ways that support existing beliefs.
@@ -312,7 +312,7 @@ flowchart TD
 - **Medical teaching** uses "what if this patient were 80, not 30?" to vary one feature at a time.
 - **The common structure** is variation theory in practice: hold everything constant except one feature and ask whether the classification changes.
 
-### Case study: gifts-and-hospitality training at a manufacturer
+### Case study (illustrative): gifts-and-hospitality training at a manufacturer
 
 - **Situation:** a manufacturer's procurement staff completed annual anti-bribery e-learning with a definition, a policy summary and a ten-question multiple-choice quiz.
 - **Problem:** internal audit found frequent misclassification — some staff refused trivial items while accepting lavish hospitality from suppliers in live tenders.

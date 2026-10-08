@@ -395,7 +395,7 @@ flowchart TD
     class X muted
 ```
 
-### Worked example: reading the results of a training pilot
+### Worked example (illustrative): reading the results of a training pilot
 
 - **Situation:** a bank pilots two versions of anti-money-laundering (AML) training. Trainees must classify transaction patterns into four typologies — structuring, layering, trade-based laundering and mule activity — which are easily confused. Forty trainees are randomly split.
 - **Data (hypothetical):**
@@ -446,7 +446,7 @@ flowchart TD
 
 > **In practice:** look at the **final** form of performance — an exam paper, a ward round, a sales call, a production incident. If it is mixed, practice must eventually be mixed too.
 
-### Case study: from module tests to mixed cases in a tax practice
+### Case study (illustrative): from module tests to mixed cases in a tax practice
 
 - **Situation:** the trainee programme of a mid-sized tax advisory practice taught corporation tax, VAT and employment taxes in successive four-week modules, each ending with a module test.
 - **Problem:** trainees passed module tests comfortably but struggled with real client queries, which often involved **more than one tax** and did not say which applied — for example a company car arrangement raising employment-tax and VAT questions together.

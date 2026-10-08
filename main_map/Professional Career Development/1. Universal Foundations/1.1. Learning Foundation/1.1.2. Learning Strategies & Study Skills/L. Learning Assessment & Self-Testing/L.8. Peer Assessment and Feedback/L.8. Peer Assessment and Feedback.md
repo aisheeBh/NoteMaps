@@ -357,7 +357,7 @@ flowchart TD
   - **acknowledge what works**, briefly and specifically, so authors know what to keep.
 - **For the author:** read all comments before replying to any; reply to the strongest point first; assume good intent unless there is clear evidence otherwise.
 
-> **Example:** a reviewer writes on a pull request: "Blocking: the retry loop has no upper limit, so a failing payment provider could cause unbounded retries. Could we cap it at three with backoff? Minor: nice clear naming throughout." The author knows exactly what must change, why, and what to keep.
+> **Example (illustrative):** a reviewer writes on a pull request: "Blocking: the retry loop has no upper limit, so a failing payment provider could cause unbounded retries. Could we cap it at three with backoff? Minor: nice clear naming throughout." The author knows exactly what must change, why, and what to keep.
 
 ### Feedback across levels
 
@@ -393,7 +393,7 @@ flowchart TD
 
 > **Watch out:** feedback does not automatically improve performance. A well-known review of feedback interventions by **Avraham Kluger and Angelo DeNisi (1996)** found that in about a third of cases feedback **reduced** performance — especially when it directed attention to the self rather than to the task.
 
-### Worked example: introducing peer review for analysis reports
+### Worked example (illustrative): introducing peer review for analysis reports
 
 A ten-person analytics team produces weekly reports for business units; quality varies and the manager reviews everything herself.
 
@@ -417,9 +417,11 @@ A ten-person analytics team produces weekly reports for business units; quality 
 | Manager's review time | About a day a week | About two hours a week |
 | Analysts' own reports | Variable | Fewer issues found at spot-check |
 
+*Illustrative figures.*
+
 - **Conclusion:** the manager's time fell, feedback became faster and more specific, and — as the research predicts — the analysts' own reports improved through the habit of reviewing others'.
 
-### Case study: peer review that became a rubber stamp
+### Case study (illustrative): peer review that became a rubber stamp
 
 - **Situation:** a consultancy required every client deliverable to be reviewed by a peer before submission.
 - **Problem:** two deliverables with significant calculation errors reached clients within a quarter, despite both being "peer reviewed".

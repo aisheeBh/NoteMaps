@@ -217,7 +217,7 @@ The best-evidenced form of across-day interleaving operates **inside one subject
 
 > **Definition — Lag:** the number of days, sessions or items between two encounters with the same type of material.
 
-### Worked example: converting a unit of algebra homework
+### Worked example (illustrative): converting a unit of algebra homework
 
 - **Situation:** a teacher's unit has eight lessons, each followed by ten homework problems of that lesson's type.
 
@@ -342,7 +342,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Six-Week Exam Plan
+## Worked Example (illustrative): A Six-Week Exam Plan
 
 - **Situation:** a business student has four exams in six weeks — economics (E), statistics (S), accounting (A) and business law (L) — and about four hours of study per weekday. Statistics and accounting both involve calculation; statistics has several confusable tests.
 
@@ -388,7 +388,7 @@ flowchart TD
 
 > **In practice:** aviation recurrent training typically cycles a set of non-normal procedures through simulator sessions across a year, with failures presented in unpredictable order — across-day rotation and within-session interleaving combined.
 
-### Case study: a trainee accountant's professional exam
+### Case study (illustrative): a trainee accountant's professional exam
 
 - **Situation:** a trainee in a professional-services firm sat a professional accountancy paper covering financial reporting standards. Her first attempt used a blocked plan: two weeks each on revenue, leases, financial instruments, group accounts and impairment, in that order.
 - **Problem:** she failed narrowly. Her marks were strong on impairment and group accounts (studied last) and weak on revenue and leases (studied first). Several questions combined standards, and she missed issues.

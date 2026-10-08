@@ -392,7 +392,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Redesigning an E-Learning Screen
+## Worked Example (illustrative): Redesigning an E-Learning Screen
 
 **Situation:** a screen in a data-protection module explains "lawful bases for processing personal data". It currently shows a stock photograph of a laptop, six paragraphs of text and narration that reads the text aloud.
 
@@ -419,7 +419,7 @@ flowchart TD
 
 ---
 
-## Case Study: Safety Micro-Videos in an Engineering Firm
+## Case Study (illustrative): Safety Micro-Videos in an Engineering Firm
 
 - **Situation:** an engineering services company produced a library of 20-minute safety videos for field technicians, filmed as studio presentations with slides.
 - **Problem:** viewing analytics showed most technicians stopped watching within the first few minutes; incident reviews found the same procedural errors recurring.

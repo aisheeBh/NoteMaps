@@ -319,7 +319,7 @@ flowchart TD
     class G good
 ```
 
-### Worked example: redesigning a study plan for a certification
+### Worked example (illustrative): redesigning a study plan for a certification
 
 - **Situation:** a project manager preparing for a professional certification plans to study by re-reading the official guide and copying key terms onto cards.
 
@@ -356,7 +356,7 @@ flowchart TD
 - **Documents read for compliance** are often processed shallowly — skimmed for signatures and dates.
 - **Writers can induce depth**: start with a question the reader cares about, give a concrete case, ask the reader to decide something.
 
-### Case study: product-knowledge training for a pharmaceutical sales team
+### Case study (illustrative): product-knowledge training for a pharmaceutical sales team
 
 - **Situation:** sales representatives completed online modules on new medicines — mechanism, indications, contraindications, dosing — followed by a multiple-choice test.
 - **Problem:** pass rates were high, but in field visits representatives could not answer physicians' questions beyond the scripted messages, and regulatory reviewers noted inaccurate statements about contraindications.

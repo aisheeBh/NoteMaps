@@ -359,7 +359,7 @@ flowchart TD
 
 ---
 
-## Worked Example: From Linear Notes to a Sketchnote
+## Worked Example (illustrative): From Linear Notes to a Sketchnote
 
 **Situation:** a product manager attends a 40-minute talk, "Pricing for Value". Their usual linear notes run to three pages.
 
@@ -415,7 +415,7 @@ flowchart TD
 
 > **In practice:** a graphic recording works best for learning when participants are asked to **interact with it** — walking the wall, adding sticky notes, explaining a section to a colleague — rather than admiring it.
 
-### Case study: interview notes in a product team
+### Case study (illustrative): interview notes in a product team
 
 - **Situation:** a product team at a logistics software company ran twenty customer interviews a quarter. Notes were typed transcripts in a shared folder.
 - **Problem:** few people read the transcripts; insights were lost; the same questions were asked repeatedly.
