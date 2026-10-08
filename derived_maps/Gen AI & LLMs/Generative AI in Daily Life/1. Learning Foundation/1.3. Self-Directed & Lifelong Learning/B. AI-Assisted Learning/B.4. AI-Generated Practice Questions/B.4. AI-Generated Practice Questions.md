@@ -174,7 +174,7 @@ flowchart TD
 
 > **Mnemonic — TARGET:** **T**arget performance, **A**nchor in a source, **R**equired format and level, **G**ive rationales, **E**dit before use, **T**est yourself unaided.
 
-### Worked example: improving a generated item
+### Worked example (illustrative): improving a generated item
 
 A finance analyst studying the five-step revenue model in the international standard IFRS 15 asks for practice items.
 
@@ -263,7 +263,7 @@ The quality of a multiple-choice item depends above all on its distractors, and 
   - *e.g.* "If interest rates rise by one point, what happens to the present value of this bond, and roughly by how much?"
 - **Compare and contrast** — "how does X differ from Y, and when would each be used?"
 
-> **Example:** a cloud engineer asks the AI to produce ten short architecture diagrams in text, each containing one design flaw — a single point of failure, a missing encryption layer, an over-privileged role. Finding and explaining each flaw is much closer to a design review than any definition question.
+> **Example (illustrative):** a cloud engineer asks the AI to produce ten short architecture diagrams in text, each containing one design flaw — a single point of failure, a missing encryption layer, an over-privileged role. Finding and explaining each flaw is much closer to a design review than any definition question.
 
 ### Learner-generated questions
 
@@ -365,7 +365,7 @@ quadrantChart
 
 > **Watch out:** feeding licensed textbooks, client documents or confidential policies into a public AI tool to generate questions may breach copyright, licence terms or confidentiality. Use approved tools and owned or licensed material.
 
-### Case study: a product certification item bank
+### Case study (illustrative): a product certification item bank
 
 - **Situation:** a software company needed 400 questions for a new partner certification across six product modules, with only two subject-matter experts available.
 - **Actions:**

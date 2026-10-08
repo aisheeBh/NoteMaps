@@ -275,7 +275,7 @@ The many elaboration techniques can be organised by the **direction** in which t
 - **Libraries of cases, near misses and stories** — shared example spaces accumulate judgement faster than individuals could.
 - **Explain-it cultures** — teams in which proposals are written as narratives and decisions are explained invite elaboration from everyone involved.
 
-### Worked example: re-designing a one-hour onboarding module
+### Worked example (illustrative): re-designing a one-hour onboarding module
 
 - **Situation:** a bank's one-hour onboarding module on anti-money-laundering rules consists of 30 slides of rules and a 10-question quiz.
 
@@ -296,7 +296,7 @@ The many elaboration techniques can be organised by the **direction** in which t
 
 > **Watch out:** the re-designed module **feels** harder and may score lower on immediate satisfaction. Judge it by delayed, scenario-based performance — the measure that matches its purpose.
 
-### Case study: a consulting firm's analyst induction
+### Case study (illustrative): a consulting firm's analyst induction
 
 - **Situation:** a strategy consultancy ran a two-week induction for new analysts covering financial analysis, market sizing and client communication.
 - **Problem:** analysts passed end-of-induction tests but, on their first engagements, produced analyses that were technically correct and commercially naive — they could compute a margin but not explain what drove it.

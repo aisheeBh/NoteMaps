@@ -297,7 +297,7 @@ A template whose sections force the essential elements:
 
 ---
 
-## Worked Example: From Spreadsheet to Two Views
+## Worked Example (illustrative): From Spreadsheet to Two Views
 
 - **Situation:** Marco, a support engineer moving into cloud engineering, keeps his roadmap in a spreadsheet of 64 rows — every topic from a community roadmap, each with a status and a link. He rarely opens it and cannot say what he is working on.
 
@@ -321,13 +321,15 @@ A template whose sections force the essential elements:
 | Mentor review time | Too long to attempt | Two minutes |
 | Revision | Rare | Quarterly, versioned |
 
+*Illustrative figures.*
+
 - **Conclusion:** no new information was added; the change was in **selection and representation**.
 
 > **Watch out:** Marco was tempted to spend a weekend building an elaborate interactive dashboard. The roadmap needed **pruning**, not more tooling.
 
 ---
 
-## Case Study: Replacing a Competency Document With Role Roadmaps
+## Case Study (illustrative): Replacing a Competency Document With Role Roadmaps
 
 - **Situation:** a software company's engineering career framework was a 40-page document describing five levels across nine competencies.
 - **Problem:**

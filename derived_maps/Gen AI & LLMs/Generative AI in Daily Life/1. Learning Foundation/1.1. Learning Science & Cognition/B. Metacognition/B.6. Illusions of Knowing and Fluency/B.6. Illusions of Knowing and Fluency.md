@@ -295,7 +295,7 @@ flowchart TD
     class X caution
 ```
 
-### Worked example: two ways to prepare a client briefing
+### Worked example (illustrative): two ways to prepare a client briefing
 
 - **Situation:** a consultant has 90 minutes to prepare for a client meeting on a new regulation.
 
@@ -318,7 +318,7 @@ flowchart TD
 - **Separate polish from content** when evaluating trainers and materials.
 - **Design AI tools to show uncertainty** and to ask users to attempt answers first.
 
-### Case study: rethinking onboarding videos
+### Case study (illustrative): rethinking onboarding videos
 
 - **Situation:** a software company onboarded customer-support staff with a library of polished product videos; new staff watched them during their first two weeks.
 - **Problem:** viewers rated the videos highly and reported feeling well prepared; yet in their first month they escalated many routine queries and made frequent configuration errors.

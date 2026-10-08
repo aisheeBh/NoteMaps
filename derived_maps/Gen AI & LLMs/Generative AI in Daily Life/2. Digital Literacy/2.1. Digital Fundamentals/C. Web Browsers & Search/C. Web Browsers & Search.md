@@ -381,7 +381,7 @@ flowchart TD
 - **Managed browsers** let organisations set security baselines, control extensions, enforce updates, restrict data movement and govern AI features.
 - **Enterprise search** helps staff find internal knowledge, but depends on **content governance** — titles, ownership, currency and permissions — and AI assistants built on it magnify any over-sharing of confidential files.
 
-### Worked example: the cost of a weak gateway
+### Worked example (illustrative): the cost of a weak gateway
 
 A 600-person professional-services firm estimates, from a short time-tracking exercise, that each employee loses about **15 minutes a day** to re-finding documents, wrestling with poor intranet search, recovering from browser problems and checking doubtful search results.
 
@@ -417,7 +417,7 @@ A 600-person professional-services firm estimates, from a short time-tracking ex
 - **Response:** Firefox (2004) offered a safer, standards-based alternative; Microsoft resumed development with IE7 (2006); Chrome (2008) raised the bar again; Microsoft finally retired Internet Explorer in 2022.
 - **Lesson:** when one actor controls the gateway without competitive pressure, **security, standards and innovation suffer** — and organisations that build around a single gateway inherit its stagnation. The same concern underlies today's debates about engine concentration, search dominance and the control of AI answers.
 
-### Case study: rebuilding an organisation's gateway for the AI era
+### Case study (illustrative): rebuilding an organisation's gateway for the AI era
 
 - **Situation:** a 2,500-person engineering consultancy found in 2025 that staff were using four different browsers, a dozen unvetted AI extensions and personal AI accounts for client research.
 - **Problem:** two near-miss incidents — a phishing page that captured a session cookie, and confidential client drawings pasted into a public AI tool — showed that the gateway was ungoverned.

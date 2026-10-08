@@ -401,7 +401,7 @@ A device on its own is rarely useful any more. Its value comes from the **softwa
 
 ---
 
-## Worked Example: Recognising the Computers in a Small Clinic
+## Worked Example (illustrative): Recognising the Computers in a Small Clinic
 
 **Situation:** a manager of a three-doctor clinic is asked by an insurer to list every "computing device" connected to the clinic network, as part of a cyber-security questionnaire. Her first answer is "five PCs and the receptionist's laptop".
 
@@ -425,6 +425,8 @@ A device on its own is rarely useful any more. Its value comes from the **softwa
 | Devices storing personal data | 6 | 10 |
 | Devices never updated by clinic staff | 0 | 7 |
 | Questions for suppliers | None | Update policy for printer, monitor, cameras and thermostat |
+
+*Illustrative figures.*
 
 > **Watch out:** the most commonly forgotten computers are the ones without a keyboard — printers, cameras, routers and building systems. Attackers know this and often enter through them.
 
@@ -458,7 +460,7 @@ A device on its own is rarely useful any more. Its value comes from the **softwa
 
 > **Definition — Total cost of ownership (TCO):** the full cost of a device across its life — purchase, deployment, software, support, energy, repairs, downtime and disposal — rather than the purchase price alone.
 
-### Case study: the warehouse that bought tablets
+### Case study (illustrative): the warehouse that bought tablets
 
 - **Situation:** a distribution company replaced paper pick lists with consumer tablets to save money.
 - **Problem:** within a year many tablets were broken from drops, batteries failed during long shifts, barcode scanning through the camera was slow, and the consumer models stopped receiving updates.

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How accurately people judge values encoded in different ways</title>
+  <desc>A ranked list from most to least accurate: position on a common scale, position on non-aligned scales, length, angle and slope, area, volume and colour intensity. Each row has a small example glyph: aligned dots, offset dots, bars, pie angles, circles of different area, and shaded squares.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Ranking of visual encodings by accuracy of judgement</text>
+  <rect x="40" y="66" width="60" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="70" y="110" text-anchor="middle" font-size="22" fill="#000000" font-weight="bold">1</text>
+  <rect x="110" y="66" width="420" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="98" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Position on a common scale</text>
+  <text x="320" y="117" text-anchor="middle" font-size="14" fill="#000000">Dot plot, bar ends on one axis</text>
+  <rect x="560" y="66" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <line x1="580" y1="124" x2="900" y2="124" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="620" cy="97" r="7" fill="#111111"/>
+  <circle cx="695" cy="84" r="7" fill="#111111"/>
+  <circle cx="770" cy="90" r="7" fill="#111111"/>
+  <circle cx="845" cy="77" r="7" fill="#111111"/>
+  <rect x="40" y="148" width="60" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="70" y="192" text-anchor="middle" font-size="22" fill="#000000" font-weight="bold">2</text>
+  <rect x="110" y="148" width="420" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="180" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Position on non-aligned scales</text>
+  <text x="320" y="199" text-anchor="middle" font-size="14" fill="#000000">Small multiples with separate axes</text>
+  <rect x="560" y="148" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <line x1="600" y1="210" x2="650" y2="210" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="625" cy="180" r="7" fill="#111111"/>
+  <line x1="685" y1="200" x2="735" y2="200" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="710" cy="164" r="7" fill="#111111"/>
+  <line x1="770" y1="210" x2="820" y2="210" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="795" cy="184" r="7" fill="#111111"/>
+  <line x1="855" y1="204" x2="905" y2="204" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="880" cy="164" r="7" fill="#111111"/>
+  <rect x="40" y="230" width="60" height="70" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="70" y="274" text-anchor="middle" font-size="22" fill="#000000" font-weight="bold">3</text>
+  <rect x="110" y="230" width="420" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="262" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Length</text>
+  <text x="320" y="281" text-anchor="middle" font-size="14" fill="#000000">Bars, stacked segments</text>
+  <rect x="560" y="230" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="580" y="238" width="200" height="14" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="580" y="258" width="260" height="14" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="580" y="278" width="150" height="14" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="40" y="312" width="60" height="70" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="70" y="356" text-anchor="middle" font-size="22" fill="#000000" font-weight="bold">4</text>
+  <rect x="110" y="312" width="420" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="344" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Angle and slope</text>
+  <text x="320" y="363" text-anchor="middle" font-size="14" fill="#000000">Pie slices, line gradients</text>
+  <rect x="560" y="312" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="650" cy="347" r="28" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <path d="M650 347 L650 319 M650 347 L677 355 M650 347 L630 367" fill="none" stroke="#222222" stroke-width="2"/>
+  <path d="M740 372 L890 322" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <rect x="40" y="394" width="60" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="70" y="438" text-anchor="middle" font-size="22" fill="#000000" font-weight="bold">5</text>
+  <rect x="110" y="394" width="420" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="426" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Area</text>
+  <text x="320" y="445" text-anchor="middle" font-size="14" fill="#000000">Bubbles, treemap tiles</text>
+  <rect x="560" y="394" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="630" cy="429" r="10" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="720" cy="429" r="16" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <circle cx="810" cy="429" r="24" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="40" y="476" width="60" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="70" y="520" text-anchor="middle" font-size="22" fill="#000000" font-weight="bold">6</text>
+  <rect x="110" y="476" width="420" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="508" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Volume, colour intensity</text>
+  <text x="320" y="527" text-anchor="middle" font-size="14" fill="#000000">3D shapes, shaded maps</text>
+  <rect x="560" y="476" width="360" height="70" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="600" y="491" width="45" height="40" fill="#E6E6E6" stroke="#222222" stroke-width="1.5"/>
+  <rect x="675" y="491" width="45" height="40" fill="#BCBCBC" stroke="#222222" stroke-width="1.5"/>
+  <rect x="750" y="491" width="45" height="40" fill="#8C8C8C" stroke="#222222" stroke-width="1.5"/>
+  <rect x="825" y="491" width="45" height="40" fill="#5A5A5A" stroke="#222222" stroke-width="1.5"/>
+  <line x1="30" y1="80" x2="30" y2="556" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="16" y="318" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold" transform="rotate(90 16 318)">More accurate  →  less accurate</text>
+  <text x="480.0" y="605" text-anchor="middle" font-size="13" fill="#333333">Order after Cleveland and McGill (1984), broadly reproduced by Heer and Bostock (2010).</text>
+</svg>

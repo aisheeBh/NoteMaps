@@ -308,7 +308,7 @@ An assessing learner repeatedly asks four questions:
 - When the two are combined, evaluation dominates: people present strengths and conceal weaknesses.
 - Many organisations therefore separate frequent **development conversations** from periodic **performance evaluation** — and the best professionals run their own formative assessment regardless of what the organisation provides.
 
-### Worked example: assessing one capability at every level
+### Worked example (illustrative): assessing one capability at every level
 
 A firm wants new consultants to "build financial models that support client decisions".
 
@@ -378,7 +378,7 @@ flowchart TD
 
 ---
 
-## Case Study: Rebuilding Graduate Assessment in a Professional-Services Firm
+## Case Study (illustrative): Rebuilding Graduate Assessment in a Professional-Services Firm
 
 - **Situation:** a firm recruited 200 graduates a year into audit and advisory. Its assessment consisted of end-of-course multiple-choice tests, professional examination results and an annual appraisal.
 - **Problem:**

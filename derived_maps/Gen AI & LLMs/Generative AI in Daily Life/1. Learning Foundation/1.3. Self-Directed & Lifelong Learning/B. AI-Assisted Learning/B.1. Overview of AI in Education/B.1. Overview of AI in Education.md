@@ -174,7 +174,7 @@ flowchart TD
 - **Accessibility** — text-to-speech, simplified reading levels, live captions, translation for learners working in a second language.
 - **Planning and reflection** — help structuring a learning plan or reviewing progress.
 
-> **Example:** an operations manager preparing for a lean-management certification uses one assistant in four ways in a single week — to explain value-stream mapping, to quiz her on the seven wastes, to critique her draft improvement proposal and to play a sceptical plant director in a rehearsal.
+> **Example (illustrative):** an operations manager preparing for a lean-management certification uses one assistant in four ways in a single week — to explain value-stream mapping, to quiz her on the seven wastes, to critique her draft improvement proposal and to play a sceptical plant director in a rehearsal.
 
 ---
 
@@ -362,7 +362,7 @@ Institutions and governments moved from alarm to frameworks within about two yea
 
 > **Definition — Source-grounded (retrieval-augmented) tool:** an AI system that retrieves passages from a specified document collection and bases its answers on them, usually citing the passages used.
 
-### Worked example: building an AI-assisted plan for one learning goal
+### Worked example (illustrative): building an AI-assisted plan for one learning goal
 
 A management consultant moving into healthcare work must, within two months, understand hospital reimbursement well enough to lead client workshops.
 
@@ -385,7 +385,7 @@ A management consultant moving into healthcare work must, within two months, und
 
 > **Watch out:** the default use **feels** more productive, because it produces fluent text quickly. The feeling is not evidence of learning.
 
-### Case study: a business school's first year with generative AI
+### Case study (illustrative): a business school's first year with generative AI
 
 - **Situation:** a business school allowed students full access to a general AI assistant across all first-year modules, with no guidance, in its first year after ChatGPT's release.
 - **Problem:** by the spring term, coursework marks had risen while performance in invigilated examinations fell, and tutors reported students unable to explain their own submitted analyses.

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Ordinary fields combining to single out one person</title>
+  <desc>Three overlapping circles labelled postcode district, date of birth and sex. Each circle alone covers many people; the region where all three overlap contains one person. Text notes that Sweeney estimated about 87 per cent of the US population is unique on ZIP code, full date of birth and sex.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Quasi-identifiers: harmless alone, identifying together</text>
+  <circle cx="390" cy="230" r="150" fill="none" stroke="#1F3B5C" stroke-width="3"/>
+  <circle cx="570" cy="230" r="150" fill="none" stroke="#1F3B5C" stroke-width="3"/>
+  <circle cx="480" cy="360" r="150" fill="none" stroke="#1F3B5C" stroke-width="3"/>
+  <circle cx="480" cy="275" r="26" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="480" y="281" text-anchor="middle" font-size="20" fill="#111111" font-weight="bold">1</text>
+  <text x="330" y="170" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Postcode district</text>
+  <text x="330" y="190" text-anchor="middle" font-size="14" fill="#111111">many people</text>
+  <text x="630" y="170" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Date of birth</text>
+  <text x="630" y="190" text-anchor="middle" font-size="14" fill="#111111">many people</text>
+  <text x="480" y="470" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Sex</text>
+  <text x="480" y="490" text-anchor="middle" font-size="14" fill="#111111">about half of everyone</text>
+  <rect x="560" y="300" width="230" height="44" fill="#FFFFFF" stroke="#333333"/>
+  <text x="675" y="318" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">All three together:</text>
+  <text x="675" y="336" text-anchor="middle" font-size="14" fill="#111111">often a single person</text>
+  <line x1="506" y1="280" x2="560" y2="315" stroke="#222222" stroke-width="1.5"/>
+  <text x="480.0" y="528" text-anchor="middle" font-size="13" fill="#333333">Schematic. Sweeney (2000) estimated about 87% of the US population unique on ZIP code, birth date and sex.</text>
+</svg>

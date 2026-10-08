@@ -213,7 +213,7 @@ flowchart TD
 - **Cumulative final assessments** — knowing that everything will be tested encourages spaced review.
 - **Evidence:** classroom studies of cumulative and spaced quizzing, in subjects from psychology to mathematics, generally show better long-term retention than unit-only quizzes.
 
-> **Example:** an introductory statistics course replaces end-of-unit tests with a weekly ten-question quiz in which six questions cover the current week and four are drawn at random from all earlier weeks.
+> **Example (illustrative):** an introductory statistics course replaces end-of-unit tests with a weekly ten-question quiz in which six questions cover the current week and four are drawn at random from all earlier weeks.
 
 ### In organisations
 
@@ -271,7 +271,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Twelve-Week Professional Course
+## Worked Example (illustrative): A Twelve-Week Professional Course
 
 A firm runs a twelve-week internal course on financial modelling for 30 analysts. Previously, each week covered a topic with an end-of-week quiz on that topic only; three months after the course, analysts remembered little of the early topics.
 
@@ -290,11 +290,13 @@ A firm runs a twelve-week internal course on financial modelling for 30 analysts
 | Unaided task at six months | Many early topics forgotten | Most topics retained |
 | Extra time | — | About 10 minutes a week, plus three short post-course quizzes |
 
+*Illustrative figures.*
+
 > **Watch out:** quiz averages fall when older material is included. Managers and learners must understand that **lower scores during practice** are part of the design, not a sign that it is failing.
 
 ---
 
-## Case Study: Spaced Retrieval in a Nursing Programme
+## Case Study (illustrative): Spaced Retrieval in a Nursing Programme
 
 - **Situation:** a nursing school found that students passed pharmacology modules but performed poorly on drug calculations and high-alert medication questions in later clinical placements.
 - **Problem:** pharmacology was taught in two blocks with unit tests; nothing required students to retrieve the material again until placement.
@@ -365,7 +367,7 @@ A firm runs a twelve-week internal course on financial modelling for 30 analysts
 
 > **Definition — Confidence-based assessment:** assessment that records the learner's confidence alongside each answer, so that confident errors can be identified and corrected.
 
-### Worked example: estimating retrievals and success rates
+### Worked example (illustrative): estimating retrievals and success rates
 
 A training team plans spaced retrieval of 50 key items on a new policy over six months, with reviews at days 2, 7, 21, 50, 100 and 170.
 

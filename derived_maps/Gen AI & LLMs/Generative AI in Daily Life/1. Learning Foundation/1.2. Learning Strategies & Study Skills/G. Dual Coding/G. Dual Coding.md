@@ -307,7 +307,7 @@ flowchart TD
 - **Communication standards** — action headlines with one visual per slide; charts with a sentence stating the finding; shared diagram conventions across functions.
 - **Customer and public communication** — icon arrays for risk, labelled diagrams in patient information, one-page explanations of products.
 
-### Worked example: learning a new operational method
+### Worked example (illustrative): learning a new operational method
 
 **Situation:** an operations manager moving into a manufacturing plant has six weeks to learn **lean** methods well enough to lead improvement projects. Her current plan is to read two books and watch a video course.
 
@@ -328,7 +328,7 @@ flowchart TD
 
 > **Watch out:** the same plan done with photographs copied from the internet and maps downloaded from the books would look similar and teach far less. The value lies in **constructing** from the real plant and from memory.
 
-### Case study: route knowledge for train drivers
+### Case study (illustrative): route knowledge for train drivers
 
 - **Situation:** a rail operator trained new drivers to learn the **routes** they would drive — signals, speed restrictions, gradients, stations and hazards over hundreds of kilometres.
 - **Problem:** route learning relied on riding in the cab with an experienced driver and studying written route descriptions. It was slow, inconsistent and hard to assess; some trainees passed route checks but later missed restrictions.

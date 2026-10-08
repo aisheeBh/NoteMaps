@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 550" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Asking for a thread summary: vague and structured requests</title>
+  <desc>Two columns compare a vague request, Summarise this thread, with a structured request across five aspects: what is reported, how decisions are treated, attribution, open questions and what the reader must do.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Asking for a thread summary: vague and structured requests</text>
+  <rect x="24" y="62" width="346" height="44" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="33" y="71" width="328" height="26" rx="4" fill="#FFFFFF"/>
+  <text x="197" y="90" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">"Summarise this thread"</text>
+  <rect x="590" y="62" width="346" height="44" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="599" y="71" width="328" height="26" rx="4" fill="#FFFFFF"/>
+  <text x="763" y="90" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Structured request</text>
+  <rect x="380" y="120" width="200" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="158" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Content</text>
+  <rect x="24" y="120" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="197" y="158" text-anchor="middle" font-size="14.5" fill="#111111">A smooth paragraph of the general topic</text>
+  <rect x="590" y="120" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="763" y="149" text-anchor="middle" font-size="14.5" fill="#111111">Decisions, open questions, actions,</text>
+  <text x="763" y="168" text-anchor="middle" font-size="14.5" fill="#111111">changes, reader's part</text>
+  <rect x="380" y="196" width="200" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="234" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Decisions</text>
+  <rect x="24" y="196" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="197" y="234" text-anchor="middle" font-size="14.5" fill="#111111">Proposals and decisions blended</text>
+  <rect x="590" y="196" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="763" y="234" text-anchor="middle" font-size="14.5" fill="#111111">Agreed items separated from proposals</text>
+  <rect x="380" y="272" width="200" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="310" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Attribution</text>
+  <rect x="24" y="272" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="197" y="310" text-anchor="middle" font-size="14.5" fill="#111111">"The team felt..."</text>
+  <rect x="590" y="272" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="763" y="310" text-anchor="middle" font-size="14.5" fill="#111111">Named person and date for each position</text>
+  <rect x="380" y="348" width="200" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="386" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Uncertainty</text>
+  <rect x="24" y="348" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="197" y="386" text-anchor="middle" font-size="14.5" fill="#111111">Disagreement smoothed away</text>
+  <rect x="590" y="348" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="763" y="386" text-anchor="middle" font-size="14.5" fill="#111111">Unresolved points listed explicitly</text>
+  <rect x="380" y="424" width="200" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="462" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Checking</text>
+  <rect x="24" y="424" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="197" y="462" text-anchor="middle" font-size="14.5" fill="#111111">Nothing to trace</text>
+  <rect x="590" y="424" width="346" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="763" y="462" text-anchor="middle" font-size="14.5" fill="#111111">Each point linked to its message</text>
+  <text x="480" y="534" text-anchor="middle" font-size="13" fill="#333333">Structured requests do not make the summary true; they make it much easier to check.</text>
+</svg>

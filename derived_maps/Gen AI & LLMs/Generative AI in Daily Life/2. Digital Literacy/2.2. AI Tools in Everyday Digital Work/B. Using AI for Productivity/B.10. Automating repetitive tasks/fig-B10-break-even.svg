@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>When automation pays back</title>
+  <desc>Line chart of cumulative time over 26 weeks. Doing a 10-minute task manually three times a week accumulates 30 minutes a week. Automating it costs 6 hours to build, then about 10 minutes a week for runs and maintenance. The lines cross at about 18 weeks, after which automation saves time.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">When automation pays back</text>
+  <line x1="130" y1="445" x2="912" y2="445" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="445" x2="130" y2="74" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="515" y="497" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Weeks</text>
+  <text x="72" y="266" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 72 266)">Cumulative hours spent</text>
+  <text x="130" y="469" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="322" y="469" text-anchor="middle" font-size="14" fill="#111111">6.5</text>
+  <text x="515" y="469" text-anchor="middle" font-size="14" fill="#111111">13</text>
+  <text x="708" y="469" text-anchor="middle" font-size="14" fill="#111111">19.5</text>
+  <text x="900" y="469" text-anchor="middle" font-size="14" fill="#111111">26</text>
+  <text x="120" y="450" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="120" y="378" text-anchor="end" font-size="14" fill="#111111">3</text>
+  <text x="120" y="306" text-anchor="end" font-size="14" fill="#111111">6</text>
+  <text x="120" y="235" text-anchor="end" font-size="14" fill="#111111">9</text>
+  <text x="120" y="163" text-anchor="end" font-size="14" fill="#111111">12</text>
+  <text x="120" y="91" text-anchor="end" font-size="14" fill="#111111">15</text>
+  <path d="M130 445 L160 433 L189 421 L219 409 L248 397 L278 385 L308 373 L337 361 L367 349 L397 337 L426 325 L456 313 L485 301 L515 289 L545 277 L574 266 L604 254 L633 242 L663 230 L693 218 L722 206 L752 194 L782 182 L811 170 L841 158 L870 146 L900 134" fill="none" stroke="#111111" stroke-width="4" stroke-dasharray="10 6"/>
+  <path d="M130 301 L160 298 L189 294 L219 290 L248 286 L278 282 L308 278 L337 274 L367 270 L397 266 L426 263 L456 259 L485 255 L515 251 L545 247 L574 243 L604 239 L633 235 L663 231 L693 228 L722 224 L752 220 L782 216 L811 212 L841 208 L870 204 L900 200" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="602" y="98" width="201" height="25" fill="#FFFFFF"/>
+  <text x="607" y="115" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Manual: 30 min per week</text>
+  <rect x="148" y="148" width="226" height="44" fill="#FFFFFF"/>
+  <text x="153" y="165" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Automated: 6 h to build,</text>
+  <text x="153" y="184" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">then about 10 min per week</text>
+  <text x="677" y="269" text-anchor="start" font-size="14" fill="#222222">Break-even at about week 18</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Illustrative numbers; payback comes sooner with more runs and later with more maintenance.</text>
+</svg>

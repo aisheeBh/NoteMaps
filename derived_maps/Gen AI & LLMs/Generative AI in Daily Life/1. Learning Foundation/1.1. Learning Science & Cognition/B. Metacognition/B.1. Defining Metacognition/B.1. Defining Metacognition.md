@@ -37,7 +37,7 @@ A reader reaches the foot of a page and realises that nothing has gone in, so go
   - Asking "Is this figure right?" about a spreadsheet is cognition about data.
   - Asking "Am I the sort of person who checks figures carefully when tired?" is metacognition.
 
-> **Example:** a translator rendering a sentence is doing cognition; the same translator thinking "my rendering of legal idioms is weaker than my rendering of technical terms, so I should check those twice" is doing metacognition.
+> **Example (illustrative):** a translator rendering a sentence is doing cognition; the same translator thinking "my rendering of legal idioms is weaker than my rendering of technical terms, so I should check those twice" is doing metacognition.
 
 ---
 
@@ -236,7 +236,7 @@ flowchart TD
 
 > **Watch out:** the claim that all metacognition is conscious is false. Many people correctly sense that an answer is wrong without being able to say why.
 
-### Worked example: sorting cognitive from metacognitive acts
+### Worked example (illustrative): sorting cognitive from metacognitive acts
 
 - **Situation:** a junior financial analyst's working notes from one afternoon.
 
@@ -334,7 +334,7 @@ flowchart TD
 
 ![Figure 5. Confidence crossed with correctness: the four outcomes of a metacognitive judgement](fig-K1-type2-matrix.svg)
 
-> **Formula — Simple type 2 hit rate:** proportion of correct answers given high confidence. Example: an analyst answers 20 questions, 14 correctly; she marks 12 of the 14 correct ones "sure" → type 2 hit rate = 12 ÷ 14 ≈ **0.86**. If she also marks 3 of her 6 errors "sure", her type 2 false-alarm rate is 3 ÷ 6 = **0.50**, showing confidence that only partly separates right from wrong.
+> **Formula — Simple type 2 hit rate:** proportion of correct answers given high confidence. Example (illustrative): an analyst answers 20 questions, 14 correctly; she marks 12 of the 14 correct ones "sure" → type 2 hit rate = 12 ÷ 14 ≈ **0.86**. If she also marks 3 of her 6 errors "sure", her type 2 false-alarm rate is 3 ÷ 6 = **0.50**, showing confidence that only partly separates right from wrong.
 
 ### Domain-general or domain-specific?
 
@@ -411,7 +411,7 @@ flowchart TD
 - **Over-proceduralisation** — so many checks that people tick them without thinking; the metacognition is outsourced to the form and lost.
 - **Measuring metacognition only by questionnaire** — rewarding people who describe themselves as reflective.
 
-### Case study: introducing confidence ratings in a claims team
+### Case study (illustrative): introducing confidence ratings in a claims team
 
 - **Situation:** an insurance company's claims assessors made coverage decisions on complex claims; a later audit sample found a persistent error rate.
 - **Problem:** assessors' errors were spread evenly across cases they treated as routine; reviewers checked randomly, so most errors were missed.

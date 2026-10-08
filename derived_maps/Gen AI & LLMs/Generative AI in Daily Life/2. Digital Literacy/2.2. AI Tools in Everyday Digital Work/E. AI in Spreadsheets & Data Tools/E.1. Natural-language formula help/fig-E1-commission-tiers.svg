@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Marginal and whole-amount commission for the same sale values</title>
+  <desc>Line chart of commission against sale value from 0 to 20,000 pounds. Marginal scheme: 3 per cent up to 10,000 then 5 per cent on the excess, a continuous line with a kink at 10,000. Whole-amount scheme: 3 per cent up to 10,000 then 5 per cent of the whole sale, jumping from 300 to 500 at 10,000. At 14,000 the marginal scheme pays 500 and the whole-amount scheme 700.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Same words, two schemes: commission on one sale</text>
+  <line x1="120" y1="470" x2="890" y2="470" stroke="#222222" stroke-width="2"/>
+  <line x1="120" y1="470" x2="120" y2="80" stroke="#222222" stroke-width="2"/>
+  <line x1="120.0" y1="470" x2="120.0" y2="476" stroke="#222222" stroke-width="2"/>
+  <text x="120.0" y="494" text-anchor="middle" font-size="14" fill="#111111">£0</text>
+  <line x1="310.0" y1="470" x2="310.0" y2="476" stroke="#222222" stroke-width="2"/>
+  <text x="310.0" y="494" text-anchor="middle" font-size="14" fill="#111111">£5,000</text>
+  <line x1="500.0" y1="470" x2="500.0" y2="476" stroke="#222222" stroke-width="2"/>
+  <text x="500.0" y="494" text-anchor="middle" font-size="14" fill="#111111">£10,000</text>
+  <line x1="690.0" y1="470" x2="690.0" y2="476" stroke="#222222" stroke-width="2"/>
+  <text x="690.0" y="494" text-anchor="middle" font-size="14" fill="#111111">£15,000</text>
+  <line x1="880.0" y1="470" x2="880.0" y2="476" stroke="#222222" stroke-width="2"/>
+  <text x="880.0" y="494" text-anchor="middle" font-size="14" fill="#111111">£20,000</text>
+  <line x1="114" y1="470.0" x2="120" y2="470.0" stroke="#222222" stroke-width="2"/>
+  <text x="110" y="475.0" text-anchor="end" font-size="14" fill="#111111">£0</text>
+  <line x1="114" y1="375.0" x2="120" y2="375.0" stroke="#222222" stroke-width="2"/>
+  <text x="110" y="380.0" text-anchor="end" font-size="14" fill="#111111">£250</text>
+  <line x1="114" y1="280.0" x2="120" y2="280.0" stroke="#222222" stroke-width="2"/>
+  <text x="110" y="285.0" text-anchor="end" font-size="14" fill="#111111">£500</text>
+  <line x1="114" y1="185.0" x2="120" y2="185.0" stroke="#222222" stroke-width="2"/>
+  <text x="110" y="190.0" text-anchor="end" font-size="14" fill="#111111">£750</text>
+  <line x1="114" y1="90.0" x2="120" y2="90.0" stroke="#222222" stroke-width="2"/>
+  <text x="110" y="95.0" text-anchor="end" font-size="14" fill="#111111">£1000</text>
+  <text x="500.0" y="520" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Sale value</text>
+  <text x="40" y="280.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold" transform="rotate(-90 40 280.0)">Commission</text>
+  <path d="M120.0 470.0 L500.0 356.0 L880.0 166.0" fill="none" stroke="#222222" stroke-width="3"/>
+  <path d="M120.0 470.0 L500.0 356.0" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M500.0 280.0 L880.0 90.0" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="709.0" y="158.40000000000003" text-anchor="end" font-size="15" fill="#111111" font-weight="bold">Whole amount at 5% above £10,000</text>
+  <text x="868.6" y="344.6" text-anchor="end" font-size="15" fill="#111111" font-weight="bold">Marginal: 5% on the excess only</text>
+  <circle cx="652.0" cy="280.0" r="6" fill="#111111"/>
+  <text x="664.0" y="298.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">£500</text>
+  <circle cx="652.0" cy="204.0" r="6" fill="#111111"/>
+  <text x="664.0" y="222.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">£700</text>
+  <line x1="652.0" y1="470" x2="652.0" y2="204.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="652.0" y="462" text-anchor="start" font-size="13" fill="#111111">£14,000 sale</text>
+  <text x="480.0" y="548" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures from the worked example: 3% to £10,000; 5% above, applied either to the excess or to the whole sale.</text>
+</svg>

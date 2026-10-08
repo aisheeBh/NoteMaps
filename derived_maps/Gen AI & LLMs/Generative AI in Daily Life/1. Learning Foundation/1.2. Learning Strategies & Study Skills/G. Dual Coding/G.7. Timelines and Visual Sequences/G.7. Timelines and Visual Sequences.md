@@ -89,7 +89,7 @@ A litigation team inherits a dispute with three thousand emails, forty contracts
   - *Cost:* intervals disappear; readers often assume equal spacing means equal time.
 - **Compromise:** a scaled timeline with **breaks** — marked gaps where nothing relevant happened.
 
-**Figure 2.** The same events on a scaled and an unscaled timeline.
+**Figure 2.** The same events on a scaled and an unscaled timeline. (illustrative)
 
 ![Figure 2. The same events on a scaled and an unscaled timeline](fig-G7-scaled-vs-unscaled.svg)
 
@@ -250,7 +250,7 @@ flowchart TD
 
 ---
 
-## Worked Example: An Incident Timeline
+## Worked Example (illustrative): An Incident Timeline
 
 **Situation:** an online retailer's checkout failed for 47 minutes during a sale. The engineering team holds a **blameless post-incident review** and builds a timeline from logs, chat messages and alerts.
 
@@ -264,6 +264,8 @@ flowchart TD
 | 10:42 | — | — | Change identified as likely cause |
 | 10:49 | Configuration rolled back; errors fall | Alert clears | — |
 
+*Illustrative figures.*
+
 1. **Tracks** reveal that the problem was not only technical: the alert fired at 10:11 but reached **nobody** until 10:31.
 2. **Intervals** matter: 9 minutes to detect, 20 minutes to reach a person, 18 minutes to fix.
 3. **Periods:** *onset* (10:02–10:11), *unnoticed* (10:11–10:31), *diagnosis* (10:31–10:42), *recovery* (10:42–10:49).
@@ -273,7 +275,7 @@ flowchart TD
 
 > **Watch out:** a timeline built only from **systems** logs omits human actions and communication. Incidents, disputes and projects usually need at least one **people** track.
 
-**Figure 5.** The incident divided into four periods with the time spent in each.
+**Figure 5.** The incident divided into four periods with the time spent in each. (illustrative)
 
 ![Figure 5. The incident divided into four periods with the time spent in each](fig-G7-incident-periods.svg)
 
@@ -339,7 +341,7 @@ flowchart TD
 - **Operations and engineering** — incident timelines, change logs and audit trails.
 - **Strategy and history** — industry timelines that place a firm's decisions in context.
 
-### Case study: a chronology that changed a case
+### Case study (illustrative): a chronology that changed a case
 
 - **Situation:** a construction company was sued by a developer for delay on a hospital project. The company's lawyers held thousands of documents.
 - **Problem:** after two months, the legal team could not agree on the cause of delay; each lawyer had a different narrative.

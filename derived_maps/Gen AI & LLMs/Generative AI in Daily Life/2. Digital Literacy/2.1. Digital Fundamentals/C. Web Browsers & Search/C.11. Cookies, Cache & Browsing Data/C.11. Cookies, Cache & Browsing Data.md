@@ -69,7 +69,7 @@ A server sets a cookie with a `Set-Cookie` header. Besides its **name and value*
 
 ![Figure 2. The parts of a Set-Cookie header](fig-F11-cookie-anatomy.svg)
 
-### Worked example: reading a cookie header
+### Worked example (illustrative): reading a cookie header
 
 A developer inspecting a banking site's sign-in response sees:
 
@@ -205,7 +205,7 @@ flowchart TD
 - **Sensitive pages in the cache** — on shared computers, cached pages may be viewable later; sensitive sites use `no-store`.
 - **Cross-site leaks** — attackers once inferred whether a user had visited a site by timing whether its resources loaded instantly from the cache; since about 2020 major browsers **partition the cache by top-level site**, so one site cannot probe another's cached resources.
 
-### Case study: the release nobody could see
+### Case study (illustrative): the release nobody could see
 
 - **Situation:** a retail company released a redesigned checkout page on a Thursday evening.
 - **Problem:** by Friday morning the help desk had hundreds of complaints that the "Pay" button did nothing.
@@ -347,7 +347,7 @@ flowchart TD
 
 > **In practice:** when a corporate sign-in loops endlessly in one browser but works in another, a common cause is a tracking-protection setting blocking the identity provider's cookies. Administrators typically add the identity provider as an exception by policy rather than asking users to lower protection everywhere.
 
-### Worked example: inspecting a site's stored data
+### Worked example (illustrative): inspecting a site's stored data
 
 A support analyst investigates why a customer portal keeps showing the wrong language.
 

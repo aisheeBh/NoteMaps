@@ -248,7 +248,7 @@ flowchart TD
 - **Numbers** — "Why this number rather than double or half?"
 - **Rules** — "Why does this rule exist, and when does it not apply?"
 
-> **Example:** a junior consultant reading a client's annual report turns the line "operating margin rose to 14%" into three questions: "Why did it rise?", "How much came from price rather than cost?", "Why 14% rather than the industry's 10%?"
+> **Example (illustrative):** a junior consultant reading a client's annual report turns the line "operating margin rose to 14%" into three questions: "Why did it rise?", "How much came from price rather than cost?", "Why 14% rather than the industry's 10%?"
 
 ### Why and how across disciplines
 
@@ -261,7 +261,7 @@ Each field has its own characteristic explanatory questions, and expertise inclu
 - **Economics and business** — "How does the money flow?" and "Why would a rational actor do this?" — the second is a powerful but sometimes misleading question, because real actors are not always rational.
 - **Engineering** — "How does it fail?" is often more useful than "How does it work?", because failure modes drive design.
 
-> **Example:** a graduate in a policy unit learns that a tax credit is "means-tested". The economist's how: "How does the credit change as income rises — is there a point where earning more leaves a family worse off?" That one question reveals the poverty-trap problem that drives most debate about such credits.
+> **Example (illustrative):** a graduate in a policy unit learns that a tax credit is "means-tested". The economist's how: "How does the credit change as income rises — is there a point where earning more leaves a family worse off?" That one question reveals the poverty-trap problem that drives most debate about such credits.
 
 ---
 
@@ -411,7 +411,7 @@ flowchart TD
 - **AI as a questioner** can help: an assistant can be instructed to ask the learner why and how questions about a text and to probe weak answers.
 - **AI as a checker**: after writing an answer, the learner asks the assistant what is missing or wrong — then verifies the response.
 
-### Worked example: interrogating a performance claim
+### Worked example (illustrative): interrogating a performance claim
 
 - **Situation:** a product manager reads in a vendor brochure that a recommendation engine "increases basket size by 12%".
 
@@ -427,7 +427,7 @@ flowchart TD
 
 > **Watch out:** the most important question in the sequence was the contrastive one (step 4). Without it, the manager would have accepted a mechanism that is real but may not apply.
 
-### Case study: an incident review that asked how
+### Case study (illustrative): an incident review that asked how
 
 - **Situation:** a payments team suffered a failed overnight batch that delayed salaries for several hundred customers.
 - **First review:** five whys ended at "the on-call engineer missed an alert"; the action was "remind engineers to watch alerts".

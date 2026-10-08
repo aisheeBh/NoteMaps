@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Milestones in machine help with messages</title>
+  <desc>Six milestones left to right: 1971 first networked email; late 1990s to 2002 statistical spam filtering; 2010 priority ranking of the inbox; 2015 one-tap smart replies; 2018 sentence completion; 2023 onward large language models drafting, summarising and acting.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Milestones in machine help with messages</text>
+  <rect x="24" y="75" width="124" height="225" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="86" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">1971</text>
+  <text x="86" y="136" text-anchor="middle" font-size="14.5" fill="#222222">First</text>
+  <text x="86" y="154" text-anchor="middle" font-size="14.5" fill="#222222">networked</text>
+  <text x="86" y="173" text-anchor="middle" font-size="14.5" fill="#222222">email</text>
+  <text x="86" y="192" text-anchor="middle" font-size="14.5" fill="#222222">between</text>
+  <text x="86" y="211" text-anchor="middle" font-size="14.5" fill="#222222">computers;</text>
+  <text x="86" y="230" text-anchor="middle" font-size="14.5" fill="#222222">the @ sign</text>
+  <text x="86" y="249" text-anchor="middle" font-size="14.5" fill="#222222">adopted</text>
+  <line x1="151" y1="188" x2="179" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="182" y="75" width="124" height="225" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="244" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1990s-2002</text>
+  <text x="244" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Spam filters</text>
+  <text x="244" y="154" text-anchor="middle" font-size="14.5" fill="#111111">move from</text>
+  <text x="244" y="173" text-anchor="middle" font-size="14.5" fill="#111111">rules to</text>
+  <text x="244" y="192" text-anchor="middle" font-size="14.5" fill="#111111">statistical</text>
+  <text x="244" y="211" text-anchor="middle" font-size="14.5" fill="#111111">learning</text>
+  <line x1="308" y1="188" x2="336" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="339" y="75" width="124" height="225" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="401" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">2010</text>
+  <text x="401" y="136" text-anchor="middle" font-size="14.5" fill="#000000">Priority</text>
+  <text x="401" y="154" text-anchor="middle" font-size="14.5" fill="#000000">Inbox ranks</text>
+  <text x="401" y="173" text-anchor="middle" font-size="14.5" fill="#000000">mail by</text>
+  <text x="401" y="192" text-anchor="middle" font-size="14.5" fill="#000000">predicted</text>
+  <text x="401" y="211" text-anchor="middle" font-size="14.5" fill="#000000">importance</text>
+  <line x1="466" y1="188" x2="494" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="497" y="75" width="124" height="225" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="506" y="84" width="106" height="207" rx="4" fill="#FFFFFF"/>
+  <text x="559" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2015</text>
+  <text x="559" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Smart Reply</text>
+  <text x="559" y="154" text-anchor="middle" font-size="14.5" fill="#111111">offers</text>
+  <text x="559" y="173" text-anchor="middle" font-size="14.5" fill="#111111">one-tap</text>
+  <text x="559" y="192" text-anchor="middle" font-size="14.5" fill="#111111">responses</text>
+  <line x1="624" y1="188" x2="652" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="655" y="75" width="124" height="225" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="664" y="84" width="106" height="207" rx="4" fill="#FFFFFF"/>
+  <text x="717" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2018</text>
+  <text x="717" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Smart</text>
+  <text x="717" y="154" text-anchor="middle" font-size="14.5" fill="#111111">Compose</text>
+  <text x="717" y="173" text-anchor="middle" font-size="14.5" fill="#111111">completes</text>
+  <text x="717" y="192" text-anchor="middle" font-size="14.5" fill="#111111">sentences</text>
+  <line x1="781" y1="188" x2="809" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="812" y="75" width="124" height="225" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="874" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">2023 onward</text>
+  <text x="874" y="136" text-anchor="middle" font-size="14.5" fill="#FFFFFF">Language</text>
+  <text x="874" y="154" text-anchor="middle" font-size="14.5" fill="#FFFFFF">models</text>
+  <text x="874" y="173" text-anchor="middle" font-size="14.5" fill="#FFFFFF">draft,</text>
+  <text x="874" y="192" text-anchor="middle" font-size="14.5" fill="#FFFFFF">summarise,</text>
+  <text x="874" y="211" text-anchor="middle" font-size="14.5" fill="#FFFFFF">translate</text>
+  <text x="874" y="230" text-anchor="middle" font-size="14.5" fill="#FFFFFF">and act</text>
+</svg>

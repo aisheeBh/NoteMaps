@@ -249,7 +249,7 @@ flowchart TD
 
 > **In practice:** Novak's scoring approach awarded points for valid propositions, levels of hierarchy, cross-links (weighted heavily) and examples. Teachers and trainers still use simplified versions to assess understanding, because a map shows **how** a learner has organised knowledge, not just what they can recall.
 
-### Worked example: a weak and a strong map
+### Worked example (illustrative): a weak and a strong map
 
 - **Situation:** two new cloud engineers each map "What drives our monthly cloud bill?" after a briefing.
 
@@ -289,7 +289,7 @@ flowchart TD
 
 > **In practice:** in workshops, facilitators often ask each participant to sketch their own map of a problem **individually** before building a shared one. The individual maps reveal different mental models; the shared map is better for having integrated them.
 
-### Case study: concept maps in nursing education
+### Case study (illustrative): concept maps in nursing education
 
 - **Situation:** a nursing school found that second-year students could recite information about diseases and drugs but struggled to plan care for patients with several interacting conditions.
 - **Problem:** traditional written care plans were long, linear documents that students often copied from templates.

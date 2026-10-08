@@ -319,7 +319,7 @@ flowchart TD
 
 > **In practice:** the most effective learning teams now budget for the **months after** a training event — spaced, retrieval-based follow-up — rather than spending everything on the event itself, and judge success by delayed, behavioural measures.
 
-### Worked example: redesigning product training for a sales organisation
+### Worked example (illustrative): redesigning product training for a sales organisation
 
 A software company trains 200 sales staff on each quarterly product release in a four-hour session.
 
@@ -338,11 +338,13 @@ A software company trains 200 sales staff on each quarterly product release in a
 | Knowledge of next release's changes | Mixed with old information | Old questions retired, new ones added |
 | Data for the training team | Satisfaction scores | Item-level error rates |
 
+*Illustrative figures.*
+
 - **Conclusion:** total time is similar, but knowledge is available when customers ask.
 
 > **Watch out:** spaced follow-up only works if questions require **retrieval and application** and come with feedback; spaced reminder emails that restate slides add little.
 
-### Case study: a hospital pharmacy's high-alert medicines programme
+### Case study (illustrative): a hospital pharmacy's high-alert medicines programme
 
 - **Situation:** a hospital pharmacy department trained pharmacists and pharmacy technicians annually on high-alert medicines — anticoagulants, insulin, opioids, concentrated electrolytes.
 - **Problem:** audit of near-miss reports showed recurring errors months after training, concentrated on dose limits and look-alike, sound-alike drug names.

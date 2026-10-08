@@ -276,7 +276,7 @@ flowchart LR
 
 ---
 
-## Worked Example: Designing a Unit for Retrieval
+## Worked Example (illustrative): Designing a Unit for Retrieval
 
 A secondary geography teacher plans a six-week unit on river processes.
 
@@ -295,13 +295,15 @@ A secondary geography teacher plans a six-week unit on river processes.
 | Additional lesson time | — | About 8 minutes per lesson |
 | Teacher marking | End-of-unit test | Mostly self-marked or automated |
 
+*Illustrative figures.*
+
 - **Conclusion:** retrieval becomes part of every lesson at modest cost; the evaluation plan distinguishes genuine improvement from cohort differences.
 
 > **Watch out:** comparing with the previous year's cohort is weak evidence — cohorts differ. The within-unit comparison with an **unquizzed topic** is stronger.
 
 ---
 
-## Case Study: A Department-Wide Retrieval Policy
+## Case Study (illustrative): A Department-Wide Retrieval Policy
 
 - **Situation:** a secondary school's history department adopted a policy: every lesson begins with a five-question retrieval starter.
 - **Initial result:** after a year, end-of-year results were unchanged.
@@ -412,7 +414,7 @@ Classroom quizzes reach students for minutes a day. Most study happens alone, wh
 
 ---
 
-## Case Study: Retrieval Practice in a Large First-Year Course
+## Case Study (illustrative): Retrieval Practice in a Large First-Year Course
 
 - **Situation:** a first-year biology course with about 600 students had high failure rates on the cumulative final examination; students reported studying mainly in the week before exams.
 - **Problem:** lecture content was covered once; weekly assessments were open-book worksheets; students' study was concentrated and passive.

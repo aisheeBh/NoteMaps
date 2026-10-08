@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Stakes against verifiability</title>
+  <desc>Two by two grid. Horizontal axis verifiability from hard to easy; vertical axis stakes from low to high. Low stakes and easy to check: use freely. High stakes and easy to check: use with built-in checks. Low stakes and hard to check: modest trust. High stakes and hard to check: tool advises, qualified person decides.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Stakes and verifiability decide how far to trust a tool</text>
+  <rect x="180.0" y="80.0" width="350.0" height="200.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="188.0" y="118.5" width="334.0" height="124.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="355.0" y="136.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">High stakes, hard to check</text>
+  <text x="355.0" y="156.0" text-anchor="middle" font-size="15" fill="#111111">Legal advice, dosing,</text>
+  <text x="355.0" y="175.5" text-anchor="middle" font-size="15" fill="#111111">financial disclosures</text>
+  <text x="355.0" y="195.0" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="355.0" y="214.5" text-anchor="middle" font-size="15" fill="#111111">Specialist grounded tool;</text>
+  <text x="355.0" y="234.0" text-anchor="middle" font-size="15" fill="#111111">the tool advises, an expert decides</text>
+  <rect x="546.0" y="80.0" width="350.0" height="200.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="721.0" y="136.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">High stakes, easy to check</text>
+  <text x="721.0" y="156.0" text-anchor="middle" font-size="15" fill="#111111">Tested code, recomputable</text>
+  <text x="721.0" y="175.5" text-anchor="middle" font-size="15" fill="#111111">figures, reviewed translations</text>
+  <text x="721.0" y="195.0" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="721.0" y="214.5" text-anchor="middle" font-size="15" fill="#111111">Use AI with the check</text>
+  <text x="721.0" y="234.0" text-anchor="middle" font-size="15" fill="#111111">built into the workflow</text>
+  <rect x="180.0" y="292.0" width="350.0" height="200.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="188.0" y="330.5" width="334.0" height="124.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="355.0" y="348.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Low stakes, hard to check</text>
+  <text x="355.0" y="368.0" text-anchor="middle" font-size="15" fill="#111111">Background explanations,</text>
+  <text x="355.0" y="387.5" text-anchor="middle" font-size="15" fill="#111111">reading summaries</text>
+  <text x="355.0" y="407.0" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="355.0" y="426.5" text-anchor="middle" font-size="15" fill="#111111">Modest trust; do not rely</text>
+  <text x="355.0" y="446.0" text-anchor="middle" font-size="15" fill="#111111">on specific claims</text>
+  <rect x="546.0" y="292.0" width="350.0" height="200.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="554.0" y="330.5" width="334.0" height="124.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="721.0" y="348.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Low stakes, easy to check</text>
+  <text x="721.0" y="368.0" text-anchor="middle" font-size="15" fill="#111111">Brainstorming, rewording,</text>
+  <text x="721.0" y="387.5" text-anchor="middle" font-size="15" fill="#111111">internal first drafts</text>
+  <text x="721.0" y="407.0" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="721.0" y="426.5" text-anchor="middle" font-size="15" fill="#111111">Use freely;</text>
+  <text x="721.0" y="446.0" text-anchor="middle" font-size="15" fill="#111111">a quick read suffices</text>
+  <line x1="170.0" y1="512.0" x2="906.0" y2="512.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="538.0" y="546.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">How easily an error would be detected</text>
+  <text x="180.0" y="534.0" text-anchor="start" font-size="14" fill="#111111">Hard</text>
+  <text x="896.0" y="534.0" text-anchor="end" font-size="14" fill="#111111">Easy</text>
+  <line x1="158.0" y1="496.0" x2="158.0" y2="74.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="128.0" y="286.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 128 286)">Cost of an undetected error</text>
+  <text x="150.0" y="492.0" text-anchor="end" font-size="14" fill="#111111">Low</text>
+  <text x="150.0" y="104.0" text-anchor="end" font-size="14" fill="#111111">High</text>
+</svg>

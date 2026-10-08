@@ -211,7 +211,7 @@ flowchart TD
   4. Compare with the original — check every claim, qualifier and number.
   5. Fix distortions; put any unavoidable technical terms in quotation marks with attribution.
 
-### Worked example: paraphrasing a policy clause
+### Worked example (illustrative): paraphrasing a policy clause
 
 - **Original:** "Employees may, subject to prior written approval from their line manager, carry over a maximum of five days of unused annual leave into the following leave year, provided such days are taken by 31 March."
 
@@ -303,7 +303,7 @@ flowchart TD
 
 > **Watch out:** in regulated work — law, audit, medicine — relying on an unchecked AI summary of a source document is a professional risk, not just a learning shortcut.
 
-### Case study: interview synthesis in a consulting team
+### Case study (illustrative): interview synthesis in a consulting team
 
 - **Situation:** a strategy consulting team conducted 30 stakeholder interviews for a client's operating-model review. Junior consultants wrote up each interview.
 - **Problem:** write-ups were long near-transcripts; the engagement manager could not see patterns, and juniors could not say what they had learned from the interviews.

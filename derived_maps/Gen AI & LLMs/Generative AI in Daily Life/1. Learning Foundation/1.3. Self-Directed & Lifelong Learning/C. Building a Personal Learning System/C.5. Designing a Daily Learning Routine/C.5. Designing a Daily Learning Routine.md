@@ -316,7 +316,7 @@ Over a year, the same person may need different routines.
 
 ---
 
-## Worked Example: A Routine for an Engineer With a Young Child
+## Worked Example (illustrative): A Routine for an Engineer With a Young Child
 
 A backend engineer wants to learn distributed-systems design over six months. Her constraints: a toddler who wakes at 6:30, a 25-minute train commute, meetings from 10:00, tired evenings.
 
@@ -389,9 +389,9 @@ A backend engineer wants to learn distributed-systems design over six months. He
 
 ---
 
-## Case Study: A Routine for a Professional Examination
+## Case Study (illustrative): A Routine for a Professional Examination
 
-### Case study: an analyst preparing for a charter examination
+### Case study (illustrative): an analyst preparing for a charter examination
 
 - **Situation:** an investment analyst preparing for a demanding professional examination requiring several hundred hours of study over about six months, while working full time.
 - **Problem:** her first two months relied on long weekend sessions; she fell behind after two weekends of travel and felt the material "slipping away" between weekends.

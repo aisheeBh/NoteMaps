@@ -156,7 +156,7 @@ Most flashcard failures begin at the moment of writing. A poorly written card ca
 
 ![Figure 3. A weak card and a strong card for the same idea](fig-B3-weak-vs-strong-card.svg)
 
-### Worked example: rewriting weak cards
+### Worked example (illustrative): rewriting weak cards
 
 **Situation:** a project-management trainee wrote these cards from a textbook chapter.
 
@@ -338,7 +338,7 @@ flowchart TD
 
 > **Watch out:** claims that AI-generated cards produce large learning gains come mostly from small or commercial studies. Evidence comparing AI-drafted, learner-edited and fully self-made cards is still thin.
 
-### Case study: a trainee solicitor's deck collapse
+### Case study (illustrative): a trainee solicitor's deck collapse
 
 - **Situation:** a trainee preparing for a professional qualifying exam downloaded a shared deck of several thousand cards and added her own from every lecture.
 - **Problem:** after two months she faced over 600 reviews a day, began tapping "good" without real recall to clear the queue, and failed a mock exam on problem questions.

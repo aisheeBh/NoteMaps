@@ -230,7 +230,7 @@ flowchart TD
   5. **Move the date** — postpone the final assessment when the gap is too large for the time remaining.
 - **What not to do:** lower the threshold quietly, stop checking, or keep the same method and hope.
 
-> **Example:** after Mock 2 in the twelve-week example, results were rising (so the method was working) but slightly behind. The analyst narrowed scope — dropping a low-weight optional topic — and added two sessions to the weakest domain, rather than postponing.
+> **Example (illustrative):** after Mock 2 in the twelve-week example, results were rising (so the method was working) but slightly behind. The analyst narrowed scope — dropping a low-weight optional topic — and added two sessions to the weakest domain, rather than postponing.
 
 ### A week with assessment built in
 
@@ -287,7 +287,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Twelve-Week Certification Plan
+## Worked Example (illustrative): A Twelve-Week Certification Plan
 
 A data analyst plans for a certification with four domains: data preparation (30%), analysis (30%), visualisation (20%), governance (20%). Pass mark 70%.
 
@@ -312,12 +312,14 @@ A data analyst plans for a certification with four domains: data preparation (30
 | 11 | — | Mock 3 (fresh items) | 76% | Book the examination for week 13 |
 | 12 | Light review | Session checks | — | Rest before the examination |
 
+*Illustrative figures.*
+
 - **What the architecture achieved:**
   - the **flat governance results** in weeks 5–7 triggered a method change three weeks before it could have been noticed at a mock;
   - Mock 2 triggered a **re-plan**, not panic;
   - the booking decision rested on a **fresh-item mock**, not a feeling.
 
-**Figure 5.** Planned trajectory, actual results and the points where checks changed the plan.
+**Figure 5.** Planned trajectory, actual results and the points where checks changed the plan. (illustrative)
 
 ![Figure 5. Planned trajectory, actual results and the points where checks changed the plan](fig-L12-trajectory-replan.svg)
 
@@ -413,7 +415,7 @@ flowchart TD
 
 > **In practice:** many managers find a simple question transforms development conversations: "**What evidence would show us, in three months, that this goal has been met?**"
 
-### Case study: a new team lead's ninety days
+### Case study (illustrative): a new team lead's ninety days
 
 - **Situation:** an experienced engineer was promoted to lead a team of seven.
 - **Initial plan:** attend a management course, read two books, "have one-to-ones".

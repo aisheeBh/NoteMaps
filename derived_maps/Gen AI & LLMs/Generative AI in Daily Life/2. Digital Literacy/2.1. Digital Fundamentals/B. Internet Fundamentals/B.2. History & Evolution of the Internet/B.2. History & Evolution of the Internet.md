@@ -403,7 +403,7 @@ flowchart TD
 
 ---
 
-## Case Study: How a Bank Lived Through Four Internet Eras
+## Case Study (illustrative): How a Bank Lived Through Four Internet Eras
 
 - **Situation:** a mid-sized retail bank, founded long before the Internet, serving millions of customers.
 - **Era 1 — private networks (1980s):**
@@ -444,7 +444,7 @@ flowchart TD
 | Will security keep up? | Morris worm, spam, ransomware | Expect harms to arrive before defences |
 | Will the old core be replaced? | TCP/IP has survived every new layer | Durable foundations change slowly; services on top change fast |
 
-### Worked example: assessing a "revolutionary" network claim
+### Worked example (illustrative): assessing a "revolutionary" network claim
 
 Situation: a vendor tells a logistics firm that a new proprietary network will "replace the Internet" for its supply chain.
 

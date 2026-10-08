@@ -334,7 +334,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Learning System for an Eight-Person Data Team
+## Worked Example (illustrative): A Learning System for an Eight-Person Data Team
 
 A data team agrees to dedicate **two hours per person per week** to learning, protected in sprint planning.
 
@@ -370,9 +370,9 @@ A data team agrees to dedicate **two hours per person per week** to learning, pr
 
 ---
 
-## Case Study: From Private Practice to Team Programme
+## Case Study (illustrative): From Private Practice to Team Programme
 
-### Case study: a data engineer's system becomes onboarding
+### Case study (illustrative): a data engineer's system becomes onboarding
 
 - **Situation:** a senior data engineer had a personal system of graded practice exercises, decision notes and a weekly routine.
 - **Problem:** two new hires were struggling; the team had no onboarding beyond reading documentation; the senior engineers were constantly interrupted with basic questions (a shifting-the-burden pattern).

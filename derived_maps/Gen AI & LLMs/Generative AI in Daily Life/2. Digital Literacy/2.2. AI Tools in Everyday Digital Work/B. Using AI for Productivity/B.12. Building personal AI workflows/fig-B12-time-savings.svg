@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Self-reported time savings in large surveys</title>
+  <desc>Bar chart: in a 2024 US survey, workers who used generative AI reported saving about 5.4 per cent of their work hours; in Danish surveys of 25,000 workers in exposed occupations, AI chatbot users reported average time savings of about 2.8 per cent of work hours.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Self-reported time savings in large surveys</text>
+  <text x="388" y="122" text-anchor="end" font-size="15" fill="#111111">US workers using generative AI (survey,</text>
+  <text x="388" y="140" text-anchor="end" font-size="15" fill="#111111">late 2024)</text>
+  <rect x="400" y="107" width="236" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="646" y="131" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 5.4% of work hours</text>
+  <text x="388" y="215" text-anchor="end" font-size="15" fill="#111111">Danish workers in exposed occupations</text>
+  <text x="388" y="233" text-anchor="end" font-size="15" fill="#111111">(2023-2024)</text>
+  <rect x="400" y="200" width="122" height="38" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="532" y="224" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 2.8% of work hours</text>
+  <line x1="400" y1="74" x2="400" y2="269" stroke="#222222" stroke-width="2"/>
+  <line x1="400" y1="269" x2="750" y2="269" stroke="#222222" stroke-width="1.5"/>
+  <line x1="400" y1="269" x2="400" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="400" y="291" text-anchor="middle" font-size="13" fill="#111111">0</text>
+  <line x1="488" y1="269" x2="488" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="488" y="291" text-anchor="middle" font-size="13" fill="#111111">2</text>
+  <line x1="575" y1="269" x2="575" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="575" y="291" text-anchor="middle" font-size="13" fill="#111111">4</text>
+  <line x1="662" y1="269" x2="662" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="662" y="291" text-anchor="middle" font-size="13" fill="#111111">6</text>
+  <line x1="750" y1="269" x2="750" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="750" y="291" text-anchor="middle" font-size="13" fill="#111111">8</text>
+  <text x="575" y="313" text-anchor="middle" font-size="14" fill="#111111">Share of work hours saved (self-reported, per cent)</text>
+  <text x="480" y="346" text-anchor="middle" font-size="13" fill="#333333">Large lab and field gains on chosen tasks shrink when spread across whole jobs.</text>
+</svg>

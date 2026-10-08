@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How far break-even moves when each input changes by 10%</title>
+  <desc>Tornado chart centred on the base break-even of 134 attendees. Price: a 10 per cent cut raises break-even to 160, a 10 per cent rise lowers it to 115. Fixed costs: 147 and 120. Variable cost: 143 and 125. Price has the widest bar.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Sensitivity of break-even to a 10% change in each input</text>
+  <text x="170" y="142" text-anchor="end" font-size="16" fill="#111111" font-weight="bold">Price</text>
+  <rect x="309" y="110" width="171" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="480" y="110" width="234" height="50" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="722" y="141" text-anchor="start" font-size="14" fill="#111111">− 10%: 160</text>
+  <text x="301" y="141" text-anchor="end" font-size="14" fill="#111111">+ 10%: 115</text>
+  <text x="170" y="242" text-anchor="end" font-size="16" fill="#111111" font-weight="bold">Fixed costs</text>
+  <rect x="354" y="210" width="126" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="480" y="210" width="117" height="50" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="605" y="241" text-anchor="start" font-size="14" fill="#111111">+ 10%: 147</text>
+  <text x="346" y="241" text-anchor="end" font-size="14" fill="#111111">− 10%: 120</text>
+  <text x="170" y="342" text-anchor="end" font-size="16" fill="#111111" font-weight="bold">Variable cost</text>
+  <rect x="399" y="310" width="81" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="480" y="310" width="81" height="50" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="569" y="341" text-anchor="start" font-size="14" fill="#111111">+ 10%: 143</text>
+  <text x="391" y="341" text-anchor="end" font-size="14" fill="#111111">− 10%: 125</text>
+  <line x1="480" y1="90" x2="480" y2="410" stroke="#222222" stroke-width="3"/>
+  <text x="480" y="432" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Base case: 134 attendees</text>
+  <text x="246" y="80" text-anchor="start" font-size="14" fill="#111111">Fewer attendees needed</text>
+  <text x="732" y="80" text-anchor="end" font-size="14" fill="#111111">More attendees needed</text>
+  <text x="480.0" y="466" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures from the worked example; bars are ordered by width.</text>
+</svg>

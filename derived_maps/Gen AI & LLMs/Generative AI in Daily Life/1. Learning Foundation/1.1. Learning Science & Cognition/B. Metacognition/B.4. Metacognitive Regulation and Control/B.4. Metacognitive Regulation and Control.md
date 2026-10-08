@@ -284,7 +284,7 @@ flowchart TD
 
 > **In practice:** incident-response teams, surgical teams and air crews use explicit control rules — time limits, call-outs, mandatory escalation — because individual control decisions deteriorate under stress.
 
-### Worked example: allocating a limited revision budget
+### Worked example (illustrative): allocating a limited revision budget
 
 - **Situation:** an accountant has **six hours** to prepare 30 topics for a tax examination. A quick delayed self-test sorts them.
 
@@ -294,6 +294,8 @@ flowchart TD
 | Nearly known | 14 | Partial answers | 4 hours — repeated retrieval with feedback | Highest gain per minute |
 | Unknown | 6 | Little or nothing | 1.5 hours — the two highest-weighted topics only | Learning all six from scratch would be labour in vain |
 
+*Illustrative figures.*
+
 1. **Check value** — two of the six unknown topics carry many marks; agenda-based regulation overrides pure RPL for those.
 2. **Set stopping criteria** — a topic leaves the "nearly known" group only after two correct **unaided** recalls on separate occasions.
 3. **Re-test at the midpoint** — after three hours, re-sort; some topics will have moved.
@@ -302,7 +304,7 @@ flowchart TD
 
 > **Watch out:** the instinct to start with the known topics "to build confidence" is a common misallocation. A brief check is enough; the time belongs to the nearly known.
 
-### Case study: time-boxing model experiments in a data-science team
+### Case study (illustrative): time-boxing model experiments in a data-science team
 
 - **Situation:** a retail bank's data-science team built credit-risk models; projects routinely overran by weeks.
 - **Problem:** analysts persisted for days with modelling approaches that were not improving, and rarely asked colleagues for help.

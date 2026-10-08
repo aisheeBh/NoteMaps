@@ -320,7 +320,7 @@ flowchart LR
 
 ---
 
-## A Worked Example: Protocols in One Video Call
+## A Worked Example (illustrative): Protocols in One Video Call
 
 Situation: a project manager joins a scheduled video meeting from a laptop on office Wi-Fi.
 

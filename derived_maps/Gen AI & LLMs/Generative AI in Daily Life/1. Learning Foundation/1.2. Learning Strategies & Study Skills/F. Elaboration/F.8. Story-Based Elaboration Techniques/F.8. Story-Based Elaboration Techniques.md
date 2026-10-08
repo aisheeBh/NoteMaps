@@ -268,7 +268,7 @@ flowchart TD
     class X caution
 ```
 
-### Worked example: learning the stages of a credit decision
+### Worked example (illustrative): learning the stages of a credit decision
 
 - **Situation:** a new loan officer must learn the bank's six-stage credit process: application, identity checks, credit scoring, affordability assessment, underwriter review, offer.
 - **Bare list:** six labels, easily confused with similar processes elsewhere.
@@ -340,7 +340,7 @@ flowchart TD
 
 > **In practice:** the most useful organisational stories are **short, true, specific** and end with the **lesson stated** — "and that is why we always confirm the backup restores, not just that it ran".
 
-### Case study: incident stories in a site-reliability team
+### Case study (illustrative): incident stories in a site-reliability team
 
 - **Situation:** a cloud platform's reliability team had a large library of formal incident reports, each with timeline, root cause and actions.
 - **Problem:** new engineers read the reports during onboarding but, months later, repeated mistakes that the reports described; in reviews they could recall that "something like this happened before" but not what or why.

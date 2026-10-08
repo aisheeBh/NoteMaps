@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Matching the sensitivity of mail to the AI route</title>
+  <desc>A two-by-two matrix. Horizontal axis: sensitivity of the content, low to high. Vertical axis: assurance of the AI route, from unapproved consumer tool to approved enterprise tool. Low sensitivity and approved tool: use freely. High sensitivity and approved tool: use within labels and policy, minimum necessary. Low sensitivity and unapproved tool: avoid; generic questions only. High sensitivity and unapproved tool: never.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Matching the sensitivity of mail to the AI route</text>
+  <rect x="156" y="76" width="373" height="178" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="342" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Use freely</text>
+  <text x="342" y="176" text-anchor="middle" font-size="14.5" fill="#000000">Routine mail in the organisation's approved</text>
+  <text x="342" y="194" text-anchor="middle" font-size="14.5" fill="#000000">assistant</text>
+  <rect x="541" y="76" width="373" height="178" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="550" y="85" width="355" height="160" rx="4" fill="#FFFFFF"/>
+  <text x="728" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Use within policy</text>
+  <text x="728" y="176" text-anchor="middle" font-size="14.5" fill="#111111">Respect labels; minimum necessary; no</text>
+  <text x="728" y="194" text-anchor="middle" font-size="14.5" fill="#111111">privileged material without approval</text>
+  <rect x="156" y="266" width="373" height="178" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="342" y="346" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Generic questions only</text>
+  <text x="342" y="375" text-anchor="middle" font-size="14.5" fill="#000000">No real names, data or text pasted</text>
+  <rect x="541" y="266" width="373" height="178" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="550" y="275" width="355" height="160" rx="4" fill="#FFFFFF"/>
+  <text x="728" y="336" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Never</text>
+  <text x="728" y="366" text-anchor="middle" font-size="14.5" fill="#111111">Client, personal, privileged or secret</text>
+  <text x="728" y="384" text-anchor="middle" font-size="14.5" fill="#111111">content in unapproved tools</text>
+  <line x1="136" y1="464" x2="920" y2="464" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="136" y1="464" x2="136" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="535" y="494" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Sensitivity of the content</text>
+  <text x="150" y="484" text-anchor="start" font-size="14" fill="#111111">Low</text>
+  <text x="910" y="484" text-anchor="end" font-size="14" fill="#111111">High</text>
+  <text x="72" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Assurance of</text>
+  <text x="72" y="260" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">the AI route</text>
+  <text x="124" y="446" text-anchor="end" font-size="14" fill="#111111">Unapproved</text>
+  <text x="124" y="100" text-anchor="end" font-size="14" fill="#111111">Approved</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic guide; the organisation's own classification and policy take precedence.</text>
+</svg>

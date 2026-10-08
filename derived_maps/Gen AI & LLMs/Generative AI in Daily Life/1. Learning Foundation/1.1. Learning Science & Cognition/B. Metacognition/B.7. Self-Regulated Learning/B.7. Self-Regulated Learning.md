@@ -316,7 +316,7 @@ flowchart TD
 
 ---
 
-## Worked Example: One SRL Cycle for a New Skill
+## Worked Example (illustrative): One SRL Cycle for a New Skill
 
 - **Situation:** a hospital pharmacist must learn to interpret a new type of pharmacogenomic test report within six weeks.
 
@@ -341,7 +341,7 @@ flowchart TD
 
 ---
 
-## Case Study: Rebuilding a Self-Paced Data Academy
+## Case Study (illustrative): Rebuilding a Self-Paced Data Academy
 
 - **Situation:** a telecoms company launched a self-paced online academy to retrain 400 network engineers in data analysis over six months.
 - **Problem:** after three months, most learners had stalled at early modules; many who reported being "on track" failed the first practical assessment.

@@ -217,7 +217,7 @@ flowchart TD
 
 > **Key point:** the step from descriptive to dialogic reflection is the step from **reporting** to **self-assessment** — considering alternative explanations, including unflattering ones.
 
-### Worked example: writing a reflective entry
+### Worked example (illustrative): writing a reflective entry
 
 A junior software engineer wants a portfolio entry about an incident she handled.
 
@@ -279,11 +279,11 @@ A junior software engineer wants a portfolio entry about an incident she handled
 - **Empty rows** are gaps: competences with no evidence.
 - **Thin rows** — one weak piece — are risks.
 
-**Figure 5.** Mapping portfolio evidence against a competence framework reveals gaps.
+**Figure 5.** Mapping portfolio evidence against a competence framework reveals gaps. (illustrative)
 
 ![Figure 5. Mapping portfolio evidence against a competence framework reveals gaps](fig-L9-evidence-map.svg)
 
-### Worked example: an engineer preparing for chartership
+### Worked example (illustrative): an engineer preparing for chartership
 
 A civil engineer, five years after graduating, plans to apply for chartered status. Her professional body's framework (based on the UK Standard for Professional Engineering Competence) groups competences under five headings: **A** knowledge and understanding, **B** design and development, **C** responsibility, management and leadership, **D** communication and interpersonal skills, **E** professional commitment.
 
@@ -441,7 +441,7 @@ flowchart TD
 
 > **Key point:** a reflection's value lies in the thinking it records. Outsourcing the writing outsources the self-assessment.
 
-### Case study: from last-minute revalidation to a living portfolio
+### Case study (illustrative): from last-minute revalidation to a living portfolio
 
 - **Situation:** a community nurse had compiled her first revalidation portfolio in the final month before the deadline.
 - **Problem:** she struggled to recall feedback, wrote five reflections from memory in one weekend and felt the exercise had taught her nothing.

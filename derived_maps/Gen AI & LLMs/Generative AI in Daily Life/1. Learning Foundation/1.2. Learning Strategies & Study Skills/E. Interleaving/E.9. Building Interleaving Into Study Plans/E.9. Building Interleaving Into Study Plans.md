@@ -305,7 +305,7 @@ Long plans are rarely followed. The essentials of an interleaved plan fit on one
 
 > **In practice:** pinning the one-page plan next to the desk, or keeping it as the first tab of the tracking spreadsheet, makes it easy to see at a glance whether the week's sessions, checks and adjustments are happening.
 
-### Worked example: a one-page plan for a semester of statistics
+### Worked example (illustrative): a one-page plan for a semester of statistics
 
 | Element | Content |
 |---|---|
@@ -376,7 +376,7 @@ A complete plan usually contains more than interleaving. The parts fit together 
 
 ---
 
-## Worked Example: A Ten-Week Certification Plan
+## Worked Example (illustrative): A Ten-Week Certification Plan
 
 - **Situation:** a project manager has ten weeks before a project-management certification exam, about six hours a week, a study guide of twelve chapters and access to a question bank with a mixed mode. Her confusability map (Figure 2) identifies four contrast sets.
 
@@ -412,13 +412,13 @@ A complete plan usually contains more than interleaving. The parts fit together 
 - **Isolation** — study partners can exchange unlabelled items and check each other's identification.
 - **Loss of motivation** — track identification accuracy and weekly check scores; both rise even when practice feels hard.
 
-> **Example:** a finance trainee falls ill for a week in the middle of her plan. Instead of restarting the chapter sequence, she keeps the rotation: on her return, the first session is a mixed set across everything studied so far, which shows at once which topics faded during the break. Those topics receive extra slots for a fortnight, and the plan continues without a block of catching up.
+> **Example (illustrative):** a finance trainee falls ill for a week in the middle of her plan. Instead of restarting the chapter sequence, she keeps the rotation: on her return, the first session is a mixed set across everything studied so far, which shows at once which topics faded during the break. Those topics receive extra slots for a fortnight, and the plan continues without a block of catching up.
 
 > **Key point:** the purpose of the plan is not to predict every session but to ensure that, whatever happens, **mixing, feedback and delayed checks keep happening**.
 
 ---
 
-## Case Study: An Analytics Team's Onboarding Plan
+## Case Study (illustrative): An Analytics Team's Onboarding Plan
 
 - **Situation:** an analytics team in a retail bank hired four graduate analysts. The team lead's onboarding consisted of reading internal documentation module by module — data warehouse, customer tables, product tables, regulatory reports — followed by "learning on the job".
 - **Problem:** after two months the graduates could answer questions about any single module but routinely chose the **wrong data source** for business questions, used outdated tables and misapplied regulatory definitions (for example of an "active customer"), causing rework for senior analysts.

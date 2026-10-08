@@ -55,7 +55,7 @@ Each tab keeps an ordered list of the pages it has visited, with a pointer to th
 
 > **Definition — Session history:** the per-tab list of visited entries that Back and Forward move through; distinct from the global browsing history, which records visits across all tabs over time.
 
-### Worked example: the disappearing forward page
+### Worked example (illustrative): the disappearing forward page
 
 A solicitor opens a case-law database and navigates as follows in one tab.
 
@@ -352,7 +352,7 @@ Every navigation tells the destination something about where the user came from.
 
 ---
 
-### Case study: from 300 tabs to a project workflow
+### Case study (illustrative): from 300 tabs to a project workflow
 
 - **Situation:** a strategy consultant routinely ran 250–300 tabs across six windows during client research.
 - **Problem:** the laptop slowed during video calls; the browser crashed twice in a month; on one occasion a half-finished expense claim in a discarded tab was lost; finding the right source during client meetings was embarrassing.

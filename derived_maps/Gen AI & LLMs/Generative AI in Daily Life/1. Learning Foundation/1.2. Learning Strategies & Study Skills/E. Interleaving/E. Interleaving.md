@@ -362,7 +362,7 @@ flowchart TD
     class H good
 ```
 
-### Case study: credit analysts and loan-risk patterns
+### Case study (illustrative): credit analysts and loan-risk patterns
 
 - **Situation:** a bank's credit-analysis academy trained new analysts on five patterns of borrower risk — cash-flow stress, over-leverage, customer concentration, working-capital strain and management or governance concerns — one pattern per week, each with its own case pack.
 - **Problem:** in their first year, analysts' recommendations were frequently overturned by senior credit officers, mostly because the **wrong risk pattern** had been identified as the main concern — working-capital strain read as cash-flow stress, concentration risk overlooked in apparently healthy firms.
@@ -404,7 +404,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Auditing a Programme for Interleaving
+## Worked Example (illustrative): Auditing a Programme for Interleaving
 
 - **Situation:** a learning manager reviews an eight-week onboarding programme for insurance claims handlers, who must classify and process claims of several types: theft, accidental damage, liability and potential fraud.
 

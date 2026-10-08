@@ -206,7 +206,7 @@ flowchart TD
 
 > **Definition — Latent learning:** learning that exists but is not shown in performance until there is a reason to use it.
 
-> **Example:** a new employee quietly observes meetings for weeks, then — asked to lead a project — reveals a detailed grasp of the organisation's politics.
+> **Example (illustrative):** a new employee quietly observes meetings for weeks, then — asked to lead a project — reveals a detailed grasp of the organisation's politics.
 
 ### Performance without learning
 
@@ -242,7 +242,7 @@ flowchart TD
 
 > **Watch out:** "I read it three times and it all made sense" is evidence of **fluency**, not learning.
 
-### Worked example: two ways to train a team on a new tool
+### Worked example (illustrative): two ways to train a team on a new tool
 
 | | Group A | Group B |
 |---|---|---|
@@ -284,7 +284,7 @@ flowchart TD
 
 ![Figure 3. The savings method](fig-A1-savings.svg)
 
-> **Example:** a school language "forgotten" for years is relearned far faster than a new language; a professional returning to a tool regains fluency within days.
+> **Example (illustrative):** a school language "forgotten" for years is relearned far faster than a new language; a professional returning to a tool regains fluency within days.
 
 ### Storage strength and retrieval strength
 
@@ -394,12 +394,14 @@ flowchart TD
   - Jacob Cohen's benchmarks: ~0.2 small, ~0.5 medium, ~0.8 large.
   - What counts as important depends on context and cost.
 
-**Worked example — two cohorts on a 100-point assessment**
+**Worked example (illustrative) — two cohorts on a 100-point assessment**
 
 | Cohort | Pre | Post | Raw gain | Normalised gain |
 |---|---|---|---|---|
 | New hires | 30 | 65 | 35 | (65 − 30) ÷ (100 − 30) = **0.50** |
 | Experienced staff | 70 | 85 | 15 | (85 − 70) ÷ (100 − 70) = **0.50** |
+
+*Illustrative figures.*
 
 - Raw gains suggest the programme worked better for new hires.
 - Normalised gains show **both closed half** of their remaining gap.
@@ -492,7 +494,7 @@ flowchart TD
   - Typical language: "become a nurse", "join the engineering culture".
   - Captures norms, judgement and identity well.
 
-> **Example:** a new solicitor must *acquire* contract law **and** *become* a member of the profession, absorbing its norms of judgement and conduct.
+> **Example (illustrative):** a new solicitor must *acquire* contract law **and** *become* a member of the profession, absorbing its norms of judgement and conduct.
 
 > **Watch out:** Sfard warned against choosing only one metaphor — each captures what the other misses.
 
@@ -613,7 +615,7 @@ flowchart TD
 
 > **Mnemonic — "PCC":** Perform, under Conditions, to a Criterion.
 
-**Worked example — rewriting "New analysts will understand our customer data model"**
+**Worked example (illustrative) — rewriting "New analysts will understand our customer data model"**
 
 1. **Make it observable** → "…will write SQL queries joining customer, contract and invoice tables…"
 2. **Add conditions** → "…without documentation or AI assistance, using the production schema…"
@@ -622,7 +624,7 @@ flowchart TD
 
 > **Example — final objective:** three weeks after onboarding, new analysts write SQL queries joining the customer, contract and invoice tables, without documentation or AI assistance, correctly answering at least four of five unseen business questions.
 
-### Case study: redefining learning in sales enablement
+### Case study (illustrative): redefining learning in sales enablement
 
 - **Situation:** a software company ran two-day product training for new sales representatives.
 - **Apparent success:** excellent satisfaction; end-of-course quiz scores above 90%.

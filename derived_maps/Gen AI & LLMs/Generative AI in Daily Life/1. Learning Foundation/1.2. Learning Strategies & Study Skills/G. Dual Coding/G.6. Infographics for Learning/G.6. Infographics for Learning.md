@@ -173,7 +173,7 @@ flowchart TD
 
 ![Figure 3. An icon array showing the same risk reduction as a relative and an absolute change](fig-G6-icon-array.svg)
 
-> **Example:** "A new drug cuts the risk of stroke by 50%" sounds dramatic. Shown as an icon array — 2 in 100 people have a stroke without the drug, 1 in 100 with it — the reader sees an **absolute** reduction of 1 percentage point. Both statements are true; only the second lets the reader judge the benefit.
+> **Example (illustrative):** "A new drug cuts the risk of stroke by 50%" sounds dramatic. Shown as an icon array — 2 in 100 people have a stroke without the drug, 1 in 100 with it — the reader sees an **absolute** reduction of 1 percentage point. Both statements are true; only the second lets the reader judge the benefit.
 
 > **Watch out:** statements such as "65% of people are visual learners", "people remember 80% of what they see" and "the brain processes images 60,000 times faster than text" appear on countless infographics *about* infographics. None has a credible research source. The case for good infographics rests on perception and multimedia research, not on these figures.
 
@@ -284,7 +284,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Redesigning a Staff-Survey Infographic
+## Worked Example (illustrative): Redesigning a Staff-Survey Infographic
 
 **Situation:** an HR team's infographic on the annual engagement survey has a stock photo banner, twelve icons with percentages, a 3-D pie chart of response rates by department and the title "Engagement Survey 2025". Leaders glance at it and remember nothing.
 
@@ -320,7 +320,7 @@ flowchart TD
 - **Consulting and finance** — "one-pagers" and deal summaries.
 - **Science communication** — visual abstracts for journal articles.
 
-### Case study: explaining an employer pension match
+### Case study (illustrative): explaining an employer pension match
 
 - **Situation:** a manufacturing company offered to match employee pension contributions up to 5% of salary, but fewer than half of eligible staff contributed enough to receive the full match.
 - **Problem:** enrolment materials were a four-page text leaflet with percentages, tax rules and fund options.

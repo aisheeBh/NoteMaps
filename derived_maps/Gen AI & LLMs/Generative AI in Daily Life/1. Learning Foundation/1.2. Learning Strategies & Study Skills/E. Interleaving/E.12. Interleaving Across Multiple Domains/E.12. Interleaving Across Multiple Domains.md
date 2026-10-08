@@ -312,7 +312,7 @@ flowchart TD
 
 > **Mnemonic — "PCSNMR" — "Principles Cross Surfaces; Near-misses Make Recognition":** the six steps in order.
 
-### Worked example: base-rate neglect across three fields
+### Worked example (illustrative): base-rate neglect across three fields
 
 - **Situation:** a leadership programme wants managers to recognise **base-rate neglect** — ignoring how rare an event is when interpreting evidence — in their own decisions.
 
@@ -331,6 +331,8 @@ flowchart TD
 | Fraud flags | Banking | 0.1% | Yes — most flags are legitimate |
 | Production defects | Operations | 30% | Less — most positives are real |
 | "Star" interview signals | Hiring | Low | Yes — a strong interview often reflects chance |
+
+*Illustrative figures.*
 
 > **Watch out:** without the near-miss, managers may learn "positive tests are usually wrong" — a surface rule. The near-miss forces them to learn the **actual principle**: the meaning of a positive result depends on the base rate.
 
@@ -391,7 +393,7 @@ Organisations, like individuals, can learn across domains.
 - **Build bridges deliberately** — a weekly half-hour asking what principles from one domain illuminate another.
 - **Keep a cross-domain notebook** — one page per recurring structure, with examples collected from each domain.
 
-> **In practice:** a product manager learning finance, research methods and data analysis keeps a "structures" notebook. Under "selection bias" she records a survey sampling only satisfied customers, a dashboard showing only active users and a finance case analysing only surviving products — three domains, one principle.
+> **In practice (illustrative):** a product manager learning finance, research methods and data analysis keeps a "structures" notebook. Under "selection bias" she records a survey sampling only satisfied customers, a dashboard showing only active users and a finance case analysing only surviving products — three domains, one principle.
 
 ### Cross-domain learning with AI
 

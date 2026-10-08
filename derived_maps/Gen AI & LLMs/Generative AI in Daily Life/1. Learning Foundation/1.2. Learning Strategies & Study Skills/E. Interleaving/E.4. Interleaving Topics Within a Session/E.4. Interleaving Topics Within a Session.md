@@ -335,7 +335,7 @@ Interleaving also works when people study together, and groups add useful tools.
 
 ![Figure 5. A sixty-minute interleaved session on a timeline](fig-E4-session-timeline.svg)
 
-### Worked example: a ninety-minute contract law revision session
+### Worked example (illustrative): a ninety-minute contract law revision session
 
 - **Situation:** the law student from the opening has a mixed problem exam in three weeks. She can apply each doctrine when told which one is relevant; her errors come from **identifying** the doctrine.
 
@@ -463,7 +463,7 @@ flowchart TD
 
 > **In practice:** the most common workplace failure is to **label** the practice — a role-play titled "Handling price objections" tells the trainee which response to give. Remove the title and let the customer reveal the objection.
 
-### Case study: model-evaluation metrics in a data-science training programme
+### Case study (illustrative): model-evaluation metrics in a data-science training programme
 
 - **Situation:** a data-science training programme taught classification metrics — accuracy, precision, recall, F1 score and the area under the ROC curve — in a single 60-minute lecture followed by five short exercise blocks, one per metric.
 - **Problem:** in capstone projects, participants frequently chose the wrong metric: accuracy on heavily imbalanced data, precision where missing positive cases was costly, AUC where a single decision threshold mattered.

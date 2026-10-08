@@ -297,7 +297,7 @@ flowchart TD
 
 > **Watch out:** high questionnaire scores often coexist with poor strategy choices. Assess knowledge in a scenario that requires a decision.
 
-### Worked example: building a personal strategy map
+### Worked example (illustrative): building a personal strategy map
 
 - **Situation:** a data analyst moving into a product-management role wants to manage her own learning more deliberately.
 
@@ -338,7 +338,7 @@ flowchart TD
 - These beliefs drive **budgets and designs** just as individual beliefs drive study habits.
 - They are rarely tested; changing them requires evidence from **delayed, behavioural** outcomes.
 
-### Case study: correcting beliefs in a graduate accountancy programme
+### Case study (illustrative): correcting beliefs in a graduate accountancy programme
 
 - **Situation:** a professional-services firm's graduate trainees sat a series of professional accountancy examinations during their first three years.
 - **Problem:** pass rates on the first-attempt examinations were mediocre despite generous study leave.
@@ -378,7 +378,7 @@ flowchart TD
 | Response to expert disagreement | "One of them must be lying" | "They just have different opinions" | "Which argument is better supported, and why?" |
 | Learning strategy it encourages | Memorise the right answers | Little need to evaluate | Compare, weigh, revise |
 
-> **Example:** two analysts read conflicting market reports. An absolutist picks the more authoritative-looking source; a multiplist shrugs that "forecasts are just opinions"; an evaluativist compares the reports' assumptions, data and track records before forming a view.
+> **Example (illustrative):** two analysts read conflicting market reports. An absolutist picks the more authoritative-looking source; a multiplist shrugs that "forecasts are just opinions"; an evaluativist compares the reports' assumptions, data and track records before forming a view.
 
 ### Why it is metacognitive
 

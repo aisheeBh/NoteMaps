@@ -127,7 +127,7 @@ flowchart TD
 - **Design question:** which sources deserve attention, and which are noise?
 - **Failure when weak:** an "information diet" set by whatever algorithms and inboxes deliver.
 
-> **Example:** a cybersecurity engineer deliberately limits regular inputs to two vendor advisories, one practitioner newsletter, one textbook chapter a week and the team's incident reviews — and drops a dozen feeds that produced anxiety rather than understanding.
+> **Example (illustrative):** a cybersecurity engineer deliberately limits regular inputs to two vendor advisories, one practitioner newsletter, one textbook chapter a week and the team's incident reviews — and drops a dozen feeds that produced anxiety rather than understanding.
 
 ### 2. Capture
 
@@ -371,7 +371,7 @@ flowchart TD
 
 > **Remember:** a personal learning system succeeds when **what goes in comes out changed** — as capability the person can use without the notes.
 
-### Worked example: mapping a pharmacist's learning onto the components
+### Worked example (illustrative): mapping a pharmacist's learning onto the components
 
 A hospital pharmacist wants to become the department's go-to person for paediatric dosing. She lists everything she currently does to learn and maps it.
 
@@ -435,9 +435,9 @@ A hospital pharmacist wants to become the department's go-to person for paediatr
 
 ---
 
-## Case Study: From Collector to Practitioner
+## Case Study (illustrative): From Collector to Practitioner
 
-### Case study: a data analyst's first system
+### Case study (illustrative): a data analyst's first system
 
 - **Situation:** a data analyst at a retail company aimed to move into machine-learning work within eighteen months.
 - **Problem:** after nine months she had six partially completed online courses, about four hundred saved articles, notes in three apps and no model in production. A team lead's verdict: "knows the vocabulary, cannot yet build".

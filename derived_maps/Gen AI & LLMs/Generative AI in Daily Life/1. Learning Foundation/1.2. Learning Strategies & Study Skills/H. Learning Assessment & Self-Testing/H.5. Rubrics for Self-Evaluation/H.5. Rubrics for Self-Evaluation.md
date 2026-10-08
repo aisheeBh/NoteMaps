@@ -274,7 +274,7 @@ flowchart TD
   - **criterion-specific blind spots** — agreement everywhere except one criterion, which usually means the learner has not understood that criterion's standard;
   - **improving agreement over time** — a sign that the learner's evaluative judgement is developing.
 
-### Worked example: self-evaluating a recommendation memo
+### Worked example (illustrative): self-evaluating a recommendation memo
 
 A junior consultant drafts a two-page memo recommending whether a retail client should close a regional warehouse. She uses a four-criterion analytic rubric (levels 1–4) and then asks her manager to score it independently.
 
@@ -287,6 +287,8 @@ A junior consultant drafts a two-page memo recommending whether a retail client 
 | Options compared | 3 | Two options described | 2 | Options described but not compared on the same criteria |
 | Risks and next steps | 2 | One paragraph of risks | 2 | Agreed: risks generic, no owners or dates |
 
+*Illustrative figures.*
+
 **Steps:**
 
 1. **Agreement:** exact 2 of 4 (50%); adjacent 4 of 4 (100%) — broadly calibrated, slightly lenient.
@@ -296,7 +298,7 @@ A junior consultant drafts a two-page memo recommending whether a retail client 
 
 > **Watch out:** the most valuable result was not the score but the **mismatch** on "clear recommendation". It revealed an unstated professional norm — directness — that no amount of self-scoring alone would have taught her.
 
-**Figure 5.** Self-scores compared with a manager's scores on the first draft.
+**Figure 5.** Self-scores compared with a manager's scores on the first draft. (illustrative)
 
 ![Figure 5. Self-scores compared with a manager's scores on the first draft](fig-L5-self-vs-mentor.svg)
 
@@ -333,7 +335,7 @@ A junior consultant drafts a two-page memo recommending whether a retail client 
   - look for criteria stuck at the same level for months — they need deliberate practice, not more of the same work;
   - revisit the descriptors as expertise grows; criteria that once seemed clear often reveal new depth.
 
-> **Example:** a data scientist scores every analysis she presents on a five-criterion rubric. After six months, "question framing" and "method" have risen from 2 to 4, but "communicating uncertainty" has stayed at 2. She asks a senior colleague to review her next three presentations on that criterion alone.
+> **Example (illustrative):** a data scientist scores every analysis she presents on a five-criterion rubric. After six months, "question framing" and "method" have risen from 2 to 4, but "communicating uncertainty" has stayed at 2. She asks a senior colleague to review her next three presentations on that criterion alone.
 
 > **Watch out:** scores on a rubric are not interval measurements. A move from 2 to 3 on one criterion is not necessarily the same size as a move from 3 to 4 on another; treat rubric scores as ordered categories, and avoid over-precise averages.
 
@@ -375,7 +377,7 @@ A junior consultant drafts a two-page memo recommending whether a retail client 
   3. Score each criterion, then compare with one observer's scores.
   4. Pick **one** criterion to improve in the next performance.
 
-> **Example:** a sales engineer records a discovery call and scores it on "open questions", "summarising the customer's need", "linking features to that need" and "agreeing a next step". The recording shows she asked only two open questions in thirty minutes — invisible to her during the call.
+> **Example (illustrative):** a sales engineer records a discovery call and scores it on "open questions", "summarising the customer's need", "linking features to that need" and "agreeing a next step". The recording shows she asked only two open questions in thirty minutes — invisible to her during the call.
 
 ### Rubrics and AI
 
@@ -384,7 +386,7 @@ A junior consultant drafts a two-page memo recommending whether a retail client 
 - **Risks:** tools tend to be **lenient**; they may claim evidence exists that does not; they can make the learner rely on the tool's judgement instead of developing their own.
 - **Good practice:** score first, then ask the tool; treat disagreements as prompts to re-examine the evidence; never accept a score without the cited evidence.
 
-### Case study: a design-review rubric in a product team
+### Case study (illustrative): a design-review rubric in a product team
 
 - **Situation:** a product-design team of twelve held weekly critiques; junior designers found feedback inconsistent and personal.
 - **Problem:** each senior designer emphasised different things; juniors could not predict what would be criticised and so could not self-review.

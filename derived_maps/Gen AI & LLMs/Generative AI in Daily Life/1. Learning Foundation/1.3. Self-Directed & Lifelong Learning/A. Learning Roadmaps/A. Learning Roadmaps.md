@@ -363,7 +363,7 @@ flowchart TD
 - **Respect the field's structure** — navigate prescribed routes well; design open ones carefully.
 - **Maintain shared routes** as assets with owners.
 
-### Worked example: auditing a roadmap in fifteen minutes
+### Worked example (illustrative): auditing a roadmap in fifteen minutes
 
 - **Situation:** a manager asks a senior colleague to review a junior analyst's development roadmap before their quarterly conversation.
 
@@ -385,9 +385,11 @@ flowchart TD
 | Estimate | Three months | Seven to nine months |
 | Review | None | Six-weekly, with a tripwire |
 
+*Illustrative figures.*
+
 - **Conclusion:** none of the changes required new information about the field — only the application of the roadmap's eight elements and the principles behind them.
 
-### Case study: a reskilling programme rebuilt around roadmaps
+### Case study (illustrative): a reskilling programme rebuilt around roadmaps
 
 - **Situation:** a telecommunications company planned to move several hundred employees from declining network-operations roles into cloud and software roles over three years.
 - **First attempt:** licences to a large content library and a target of forty course hours per person per year.

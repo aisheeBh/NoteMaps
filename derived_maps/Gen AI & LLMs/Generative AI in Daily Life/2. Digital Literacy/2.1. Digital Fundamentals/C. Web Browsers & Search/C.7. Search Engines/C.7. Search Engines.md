@@ -382,7 +382,7 @@ flowchart TD
     class OV caution
 ```
 
-### Case study: an intranet search nobody trusted
+### Case study (illustrative): an intranet search nobody trusted
 
 - **Situation:** a 12,000-employee engineering company's intranet search returned outdated policies first; staff routinely asked colleagues instead.
 - **Problem:** surveys showed most employees "never" used search; HR answered the same questions repeatedly.

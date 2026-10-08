@@ -282,7 +282,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Student's Lecture Day
+## Worked Example (illustrative): A Student's Lecture Day
 
 **Situation:** a first-year economics student attends a 50-minute lecture on price elasticity at 10:00.
 
@@ -295,6 +295,8 @@ flowchart TD
 | 19:15 | Writes four questions on the gaps | 3 min | — |
 | 09:00 next day | Pre-session recall: answers the four questions, then recalls the whole lecture in one minute | 4 min | Yes — next-day |
 | Total | | 26 min | Three retrievals |
+
+*Illustrative figures.*
 
 **What the recall revealed**
 
@@ -320,7 +322,7 @@ flowchart TD
 
 > **In practice:** an effective habit is to block **five minutes after every important meeting or session** — not for email, but for recall.
 
-### Case study: a webinar series nobody remembered
+### Case study (illustrative): a webinar series nobody remembered
 
 - **Situation:** a professional-services firm ran a monthly series of one-hour webinars on regulatory change for 400 staff.
 - **Problem:** follow-up surveys showed high satisfaction, but spot checks a month later found that most staff could not state the main changes covered.

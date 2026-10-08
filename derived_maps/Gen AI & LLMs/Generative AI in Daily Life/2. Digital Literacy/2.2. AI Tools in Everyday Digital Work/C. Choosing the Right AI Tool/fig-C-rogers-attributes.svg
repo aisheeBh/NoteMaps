@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Rogers' attributes applied to AI tools</title>
+  <desc>Five rows, one per attribute of innovations, each with a verdict for AI tools. Relative advantage: real but jagged. Compatibility: high when built in, lower when standalone. Complexity: easy to start, hard to use well. Trialability: very high, so adoption runs ahead of evaluation. Observability: successes visible, errors hidden.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Rogers' five attributes, applied to AI tools</text>
+  <rect x="40.0" y="80.0" width="250.0" height="72.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="165.0" y="122.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Relative advantage</text>
+  <rect x="310.0" y="80.0" width="610.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="330.0" y="122.0" text-anchor="start" font-size="15.5" fill="#111111">Real but jagged: large on some tasks, negative on others</text>
+  <rect x="40.0" y="168.0" width="250.0" height="72.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="165.0" y="210.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Compatibility</text>
+  <rect x="310.0" y="168.0" width="610.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="330.0" y="210.0" text-anchor="start" font-size="15.5" fill="#111111">High when built into existing software; lower when standalone</text>
+  <rect x="40.0" y="256.0" width="250.0" height="72.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="48.0" y="289.0" width="234.0" height="7.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <rect x="52.0" y="276.0" width="226.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="165.0" y="298.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Complexity</text>
+  <rect x="310.0" y="256.0" width="610.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="330.0" y="298.0" text-anchor="start" font-size="15.5" fill="#111111">Easy to start; hard to use well and to check</text>
+  <rect x="40.0" y="344.0" width="250.0" height="72.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="48.0" y="377.0" width="234.0" height="7.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <rect x="52.0" y="364.0" width="226.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="165.0" y="386.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Trialability</text>
+  <rect x="310.0" y="344.0" width="610.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="330.0" y="386.0" text-anchor="start" font-size="15.5" fill="#111111">Very high: free tiers let adoption run ahead of evaluation</text>
+  <rect x="40.0" y="432.0" width="250.0" height="72.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="48.0" y="465.0" width="234.0" height="7.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <rect x="52.0" y="452.0" width="226.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="165.0" y="474.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Observability</text>
+  <rect x="310.0" y="432.0" width="610.0" height="72.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="330.0" y="474.0" text-anchor="start" font-size="15.5" fill="#111111">Successes are visible; subtle errors are hidden</text>
+  <text x="480.0" y="530.0" text-anchor="middle" font-size="14" font-style="italic" fill="#111111">Attributes from Everett Rogers, Diffusion of Innovations (1962).</text>
+</svg>

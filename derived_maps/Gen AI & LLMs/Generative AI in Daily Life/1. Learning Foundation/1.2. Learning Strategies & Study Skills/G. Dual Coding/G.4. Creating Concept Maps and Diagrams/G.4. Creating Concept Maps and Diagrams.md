@@ -448,7 +448,7 @@ sequenceDiagram
   3. compare the two and investigate every difference.
 - **Risks:** generated diagrams can contain plausible errors — arrows in the wrong direction, invented components — that a learner without their own model will not notice.
 
-### Case study: onboarding engineers by drawing
+### Case study (illustrative): onboarding engineers by drawing
 
 - **Situation:** a fintech company's new engineers spent their first month reading architecture documents and shadowing colleagues.
 - **Problem:** after a month, many still could not explain how a transaction flowed through the platform; incident response by new joiners was slow.

@@ -369,7 +369,7 @@ flowchart TD
 
 > **In practice:** learning teams that understand spacing replace a single long event with **shorter sessions plus spaced follow-ups**, and evaluate with a delayed test rather than an end-of-course quiz.
 
-### Worked example: two ways to spend eight hours
+### Worked example (illustrative): two ways to spend eight hours
 
 A firm must train 40 managers on a new performance-review process that they will first use in three months.
 
@@ -381,6 +381,8 @@ A firm must train 40 managers on a new performance-review process that they will
 | Knowledge when the process is first used | Low; many consult the guide for basics | High; managers recall the steps and rationale |
 | Total time | 8 hours | 8 hours |
 
+*Illustrative figures.*
+
 1. Both designs cost the same instructional time.
 2. Design B places its last session near the moment of use and spaces earlier sessions across the interval.
 3. Design A's quiz overstates retention because it is taken at the point of maximum fluency.
@@ -389,7 +391,7 @@ A firm must train 40 managers on a new performance-review process that they will
 
 > **Watch out:** Design B is only better if the follow-ups require **retrieval and application** — a session that simply re-presents slides gains less from spacing.
 
-### Case study: spacing a graduate engineering programme
+### Case study (illustrative): spacing a graduate engineering programme
 
 - **Situation:** a graduate programme for new software engineers taught its security module in an intensive two-week block during the first month.
 - **Problem:** code reviews in the following year repeatedly found basic security errors among graduates who had passed the module with high marks.

@@ -188,7 +188,7 @@ The Internet can be described as a set of physical parts and a set of logical ru
 
 A short, conceptual journey shows the parts working together; each step hides considerable machinery, but the overall shape is simple.
 
-### Worked example: opening a colleague's shared document
+### Worked example (illustrative): opening a colleague's shared document
 
 Situation: an analyst at home clicks a link to a spreadsheet stored with a cloud provider.
 

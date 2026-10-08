@@ -233,7 +233,7 @@ flowchart TD
 
 > **Watch out:** "I'll get the slides afterwards" often becomes a reason to take no notes and do no processing. Slides are external storage; they do not do the encoding.
 
-### Worked example: linear and matrix notes from the same lecture
+### Worked example (illustrative): linear and matrix notes from the same lecture
 
 - **Situation:** a pharmacology lecture compares three anticoagulant drugs on mechanism, monitoring, reversal agent and main risk.
 - **Linear notes (excerpt):** "Warfarin — vit K antagonist — INR monitoring — reversed with vit K… Drug 2 — factor Xa inhibitor — no routine monitoring… Drug 3…"
@@ -285,7 +285,7 @@ flowchart TD
 
 > **In practice:** use transcripts and AI summaries as **external storage** — a reference to check against — while still taking brief notes of one's own. After the meeting, write a short summary from memory, then compare it with the transcript or AI summary to catch what was missed.
 
-### Case study: rebuilding note-taking in a graduate programme
+### Case study (illustrative): rebuilding note-taking in a graduate programme
 
 - **Situation:** an engineering consultancy's graduate programme ran weekly technical lectures; graduates typed notes on laptops and received slides afterwards.
 - **Problem:** in quarterly technical assessments, graduates performed poorly on applied questions despite near-complete notes; many admitted they rarely reread them.

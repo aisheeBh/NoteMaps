@@ -336,7 +336,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Week of Accountancy Study
+## Worked Example (illustrative): A Week of Accountancy Study
 
 **Situation:** a trainee accountant preparing for a financial-reporting exam has five topics this week: double entry, leases, deferred tax, group structures and cash-flow statements.
 
@@ -372,7 +372,7 @@ flowchart TD
   - add a **legend** for any field-specific symbols;
   - have members from different fields **explain the diagram back** in their own terms.
 
-### Case study: a shared visual language in a graduate academy
+### Case study (illustrative): a shared visual language in a graduate academy
 
 - **Situation:** a professional-services firm ran a joint graduate academy for engineers, data analysts, lawyers and consultants who would later work together on regulatory technology projects.
 - **Problem:** in early projects, graduates struggled to understand each other's work products; each group's diagrams were opaque to the others.

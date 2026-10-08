@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Value curve of tools</title>
+  <desc>Line chart. Horizontal axis number of AI tools in use, 1 to 12. A dashed rising and flattening line shows gross benefit. A dotted steadily rising line shows overhead: cost, switching, security and governance. A solid line shows net value, rising to a peak at about three tools then falling steadily as more tools are added.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">More tools add overhead faster than they add value</text>
+  <line x1="120.0" y1="460.0" x2="900.0" y2="460.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120.0" y1="460.0" x2="120.0" y2="80.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510.0" y="504.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Number of AI tools in use</text>
+  <text x="76.0" y="270.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 76 270.0)">Value (relative)</text>
+  <line x1="120.0" y1="380.0" x2="880.0" y2="380.0" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="128.0" y="400.0" text-anchor="start" font-size="14" fill="#111111">Zero net value</text>
+  <path d="M120.0 259.2 L137.3 239.0 L154.5 221.8 L171.8 207.1 L189.1 194.5 L206.4 183.7 L223.6 174.5 L240.9 166.6 L258.2 159.9 L275.5 154.1 L292.7 149.2 L310.0 145.0 L327.3 141.3 L344.5 138.3 L361.8 135.6 L379.1 133.4 L396.4 131.4 L413.6 129.8 L430.9 128.4 L448.2 127.1 L465.5 126.1 L482.7 125.2 L500.0 124.5 L517.3 123.8 L534.5 123.3 L551.8 122.8 L569.1 122.4 L586.4 122.0 L603.6 121.8 L620.9 121.5 L638.2 121.3 L655.5 121.1 L672.7 120.9 L690.0 120.8 L707.3 120.7 L724.5 120.6 L741.8 120.5 L759.1 120.4 L776.4 120.4 L793.6 120.3 L810.9 120.3 L828.2 120.2 L845.5 120.2 L862.7 120.2 L880.0 120.1" fill="none" stroke="#111111" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <path d="M120.0 360.0 L137.3 355.0 L154.5 350.0 L171.8 345.0 L189.1 340.0 L206.4 335.0 L223.6 330.0 L240.9 325.0 L258.2 320.0 L275.5 315.0 L292.7 310.0 L310.0 305.0 L327.3 300.0 L344.5 295.0 L361.8 290.0 L379.1 285.0 L396.4 280.0 L413.6 275.0 L430.9 270.0 L448.2 265.0 L465.5 260.0 L482.7 255.0 L500.0 250.0 L517.3 245.0 L534.5 240.0 L551.8 235.0 L569.1 230.0 L586.4 225.0 L603.6 220.0 L620.9 215.0 L638.2 210.0 L655.5 205.0 L672.7 200.0 L690.0 195.0 L707.3 190.0 L724.5 185.0 L741.8 180.0 L759.1 175.0 L776.4 170.0 L793.6 165.0 L810.9 160.0 L828.2 155.0 L845.5 150.0 L862.7 145.0 L880.0 140.0" fill="none" stroke="#111111" stroke-width="3.5" stroke-dasharray="2 4"/>
+  <path d="M120.0 279.2 L137.3 264.0 L154.5 251.8 L171.8 242.1 L189.1 234.5 L206.4 228.7 L223.6 224.5 L240.9 221.6 L258.2 219.9 L275.5 219.1 L292.7 219.2 L310.0 220.0 L327.3 221.3 L344.5 223.3 L361.8 225.6 L379.1 228.4 L396.4 231.4 L413.6 234.8 L430.9 238.4 L448.2 242.1 L465.5 246.1 L482.7 250.2 L500.0 254.5 L517.3 258.8 L534.5 263.3 L551.8 267.8 L569.1 272.4 L586.4 277.0 L603.6 281.8 L620.9 286.5 L638.2 291.3 L655.5 296.1 L672.7 300.9 L690.0 305.8 L707.3 310.7 L724.5 315.6 L741.8 320.5 L759.1 325.4 L776.4 330.4 L793.6 335.3 L810.9 340.3 L828.2 345.2 L845.5 350.2 L862.7 355.2 L880.0 360.1" fill="none" stroke="#111111" stroke-width="4.5"/>
+  <text x="120.0" y="482.0" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <text x="189.1" y="482.0" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <text x="258.2" y="482.0" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <text x="327.3" y="482.0" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <text x="396.4" y="482.0" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <text x="465.5" y="482.0" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <text x="534.5" y="482.0" text-anchor="middle" font-size="14" fill="#111111">7</text>
+  <text x="603.6" y="482.0" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <text x="672.7" y="482.0" text-anchor="middle" font-size="14" fill="#111111">9</text>
+  <text x="741.8" y="482.0" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <text x="810.9" y="482.0" text-anchor="middle" font-size="14" fill="#111111">11</text>
+  <text x="880.0" y="482.0" text-anchor="middle" font-size="14" fill="#111111">12</text>
+  <text x="534.5" y="109.3" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Gross benefit</text>
+  <text x="824.7" y="190.0" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Overhead</text>
+  <text x="672.7" y="332.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Net value</text>
+  <circle cx="275.5" cy="219.1" r="7" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <rect x="145.5" y="175.1" width="270" height="24" fill="#FFFFFF"/>
+  <text x="280.5" y="193.1" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Smallest set covering distinct jobs</text>
+  <text x="480.0" y="545.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

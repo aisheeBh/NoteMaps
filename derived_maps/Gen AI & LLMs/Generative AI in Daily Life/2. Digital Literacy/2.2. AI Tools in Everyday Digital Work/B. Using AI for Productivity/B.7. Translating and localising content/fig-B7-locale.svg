@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>What changes from one locale to another</title>
+  <desc>Four columns listing what localisation adapts: language features such as formality, gender and plurals; formats such as dates, numbers, currency, units and addresses; culture such as examples, humour, images and colours; and law and convention such as required wording, consumer rights and language laws.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What changes from one locale to another</text>
+  <rect x="40" y="80" width="204" height="270" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="142" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#000000">Language</text>
+  <text x="58" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="147" text-anchor="start" font-size="14" fill="#000000">Formality: tu or</text>
+  <text x="72" y="165" text-anchor="start" font-size="14" fill="#000000">vous, du or Sie</text>
+  <text x="58" y="192" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="192" text-anchor="start" font-size="14" fill="#000000">Grammatical gender</text>
+  <text x="58" y="218" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="218" text-anchor="start" font-size="14" fill="#000000">Plural rules</text>
+  <text x="58" y="244" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="244" text-anchor="start" font-size="14" fill="#000000">Text length and</text>
+  <text x="72" y="262" text-anchor="start" font-size="14" fill="#000000">script direction</text>
+  <rect x="266" y="80" width="204" height="270" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="367" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Formats</text>
+  <text x="284" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="298" y="147" text-anchor="start" font-size="14" fill="#111111">Dates: 03/04 is</text>
+  <text x="298" y="165" text-anchor="start" font-size="14" fill="#111111">March or April</text>
+  <text x="284" y="192" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="298" y="192" text-anchor="start" font-size="14" fill="#111111">Numbers: 1,000.50</text>
+  <text x="298" y="210" text-anchor="start" font-size="14" fill="#111111">or 1.000,50</text>
+  <text x="284" y="236" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="298" y="236" text-anchor="start" font-size="14" fill="#111111">Currency, units,</text>
+  <text x="298" y="254" text-anchor="start" font-size="14" fill="#111111">addresses</text>
+  <text x="284" y="280" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="298" y="280" text-anchor="start" font-size="14" fill="#111111">Names and titles</text>
+  <rect x="491" y="80" width="204" height="270" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="501" y="90" width="184" height="250" fill="#FFFFFF" rx="4"/>
+  <text x="593" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Culture</text>
+  <text x="509" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="147" text-anchor="start" font-size="14" fill="#111111">Examples and idioms</text>
+  <text x="509" y="173" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="173" text-anchor="start" font-size="14" fill="#111111">Humour and</text>
+  <text x="523" y="192" text-anchor="start" font-size="14" fill="#111111">references</text>
+  <text x="509" y="218" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="218" text-anchor="start" font-size="14" fill="#111111">Images, gestures,</text>
+  <text x="523" y="236" text-anchor="start" font-size="14" fill="#111111">colours</text>
+  <text x="509" y="262" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="262" text-anchor="start" font-size="14" fill="#111111">Holidays and</text>
+  <text x="523" y="280" text-anchor="start" font-size="14" fill="#111111">seasons</text>
+  <rect x="716" y="80" width="204" height="270" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="818" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Law and convention</text>
+  <text x="734" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#FFFFFF">•</text>
+  <text x="748" y="147" text-anchor="start" font-size="14" fill="#FFFFFF">Mandatory wording</text>
+  <text x="734" y="173" text-anchor="start" font-size="14" font-weight="bold" fill="#FFFFFF">•</text>
+  <text x="748" y="173" text-anchor="start" font-size="14" fill="#FFFFFF">Consumer and</text>
+  <text x="748" y="192" text-anchor="start" font-size="14" fill="#FFFFFF">privacy notices</text>
+  <text x="734" y="218" text-anchor="start" font-size="14" font-weight="bold" fill="#FFFFFF">•</text>
+  <text x="748" y="218" text-anchor="start" font-size="14" fill="#FFFFFF">Language laws</text>
+  <text x="734" y="244" text-anchor="start" font-size="14" font-weight="bold" fill="#FFFFFF">•</text>
+  <text x="748" y="244" text-anchor="start" font-size="14" fill="#FFFFFF">Industry norms</text>
+  <text x="480" y="386" text-anchor="middle" font-size="13" fill="#333333">Machine translation handles the first column best and the last column worst.</text>
+</svg>

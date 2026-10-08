@@ -288,7 +288,7 @@ flowchart TD
 - **Graduate challenges** — new hires work on a genuine business problem, with mentors acting as tutors.
 - **Clinical case conferences** — practitioners reason together about a difficult patient before an expert summarises.
 
-### Worked example: writing a PBL problem for new analysts
+### Worked example (illustrative): writing a PBL problem for new analysts
 
 - **Goal:** new financial analysts must learn working-capital concepts — receivables, inventory, payables and the cash conversion cycle.
 - **Weak problem:** "Explain the cash conversion cycle." — well-structured, abstract, no reason to learn.
@@ -309,7 +309,7 @@ flowchart TD
 
 > **Formula — Cash conversion cycle (the content the problem should lead to):** days inventory outstanding + days sales outstanding − days payables outstanding. *Example:* 75 + 60 − 40 = **95 days** between paying suppliers and collecting cash from customers — so rapid growth absorbs cash.
 
-### Case study: a hybrid PBL induction in a law firm
+### Case study (illustrative): a hybrid PBL induction in a law firm
 
 - **Situation:** a law firm trained first-year associates in commercial contracts through a three-week lecture course on contract law and firm precedents.
 - **Problem:** associates passed the end-of-course test but, on client matters, failed to spot issues in draft agreements; partners spent long hours correcting basic errors.

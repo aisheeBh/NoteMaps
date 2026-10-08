@@ -257,7 +257,7 @@ flowchart TD
     class T3 accent
 ```
 
-### Worked example: tuning a team's flashcard deck
+### Worked example (illustrative): tuning a team's flashcard deck
 
 A security operations team uses a shared deck of 150 cards on attack techniques. After a month, logs show 97% of answers marked correct, average response under three seconds.
 
@@ -277,6 +277,8 @@ A security operations team uses a shared deck of 150 cards on attack techniques.
 | Time per card | Under 3 seconds | About 20 seconds |
 | What is practised | Recognition of labels | Diagnosis and response selection |
 
+*Illustrative figures.*
+
 - **Conclusion:** lower success and slower responses here signal **more** learning, because the retrieval now resembles the job.
 
 > **Watch out:** if success fell to 30%, the deck would have overshot. Add cues or introductory worked examples before pushing difficulty further.
@@ -285,7 +287,7 @@ A security operations team uses a shared deck of 150 cards on attack techniques.
 
 ## Desirable Difficulties at Work
 
-### Case study: the onboarding programme that felt too easy
+### Case study (illustrative): the onboarding programme that felt too easy
 
 - **Situation:** a consultancy's two-week onboarding included daily quizzes on methods and frameworks; average scores were above 90%, and satisfaction was high.
 - **Problem:** in their first client engagements, new consultants struggled to choose and apply frameworks unprompted.
@@ -383,7 +385,7 @@ One of the oldest desirable difficulties comes from motor learning and applies s
 
 ---
 
-## Worked Example: Checking Whether a Difficulty Is Desirable
+## Worked Example (illustrative): Checking Whether a Difficulty Is Desirable
 
 A learning designer proposes removing all hints from a compliance quiz to make it "more challenging". Before rolling it out, she tests whether the change helps.
 
@@ -407,7 +409,7 @@ A learning designer proposes removing all hints from a compliance quiz to make i
 
 ---
 
-## Case Study: Making Sales Role-Plays Hard Enough
+## Case Study (illustrative): Making Sales Role-Plays Hard Enough
 
 - **Situation:** a software company trained new account executives with role-plays in which trainers played customers using a script of standard objections.
 - **Problem:** executives performed well in role-plays but struggled with real customers' unexpected objections, often reverting to reading prepared answers.

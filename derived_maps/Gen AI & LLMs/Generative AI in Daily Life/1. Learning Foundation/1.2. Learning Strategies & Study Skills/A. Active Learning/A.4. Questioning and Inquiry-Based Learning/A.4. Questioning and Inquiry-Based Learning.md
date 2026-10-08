@@ -280,7 +280,7 @@ flowchart TD
     class R good
 ```
 
-### Worked example: turning a vague brief into investigable questions
+### Worked example (illustrative): turning a vague brief into investigable questions
 
 - **Situation:** a new analyst is told, "Find out what's going on with our customer satisfaction."
 - **Step 1 — produce questions (five minutes, no judging):**
@@ -308,7 +308,7 @@ flowchart TD
 
 > **In practice:** before asking an AI system or a colleague, write the question **twice** — first as it comes, then rewritten as a deep question (why, how, what if, what evidence). The rewriting is itself the learning.
 
-### Case study: an inquiry-based induction for data analysts
+### Case study (illustrative): an inquiry-based induction for data analysts
 
 - **Situation:** a health-insurance company's analytics team onboarded six to ten graduate analysts a year with three weeks of tool training and data-dictionary lectures.
 - **Problem:** after induction, analysts could write queries but struggled to scope ambiguous business requests; managers spent hours rewriting their analyses.

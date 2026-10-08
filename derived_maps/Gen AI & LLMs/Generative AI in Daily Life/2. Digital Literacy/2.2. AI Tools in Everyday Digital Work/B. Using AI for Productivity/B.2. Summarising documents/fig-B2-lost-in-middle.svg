@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Where the relevant passage sits matters</title>
+  <desc>Schematic U-shaped curve: a language model's accuracy at answering from a long input is highest when the relevant information is at the start or end of the input and lowest when it is in the middle.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where the relevant passage sits matters</text>
+  <line x1="130" y1="445" x2="912" y2="445" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="445" x2="130" y2="74" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="515" y="497" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Position of the relevant passage in a long input</text>
+  <text x="72" y="266" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 72 266)">Accuracy</text>
+  <text x="130" y="469" text-anchor="middle" font-size="14" fill="#111111">start</text>
+  <text x="515" y="469" text-anchor="middle" font-size="14" fill="#111111">middle</text>
+  <text x="900" y="469" text-anchor="middle" font-size="14" fill="#111111">end</text>
+  <text x="120" y="378" text-anchor="end" font-size="14" fill="#111111">lower</text>
+  <text x="120" y="127" text-anchor="end" font-size="14" fill="#111111">higher</text>
+  <path d="M130 140 L207 194 L322 248 L515 273 L708 244 L823 194 L900 158" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="418" y="292" width="134" height="25" fill="#FFFFFF"/>
+  <text x="423" y="309" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Answer accuracy</text>
+  <text x="561" y="122" text-anchor="start" font-size="14" fill="#222222">Material in the middle of long</text>
+  <text x="561" y="140" text-anchor="start" font-size="14" fill="#222222">documents is the most likely to</text>
+  <text x="561" y="158" text-anchor="start" font-size="14" fill="#222222">be under-used</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported by Liu and colleagues (2023); not plotted from a single dataset.</text>
+</svg>

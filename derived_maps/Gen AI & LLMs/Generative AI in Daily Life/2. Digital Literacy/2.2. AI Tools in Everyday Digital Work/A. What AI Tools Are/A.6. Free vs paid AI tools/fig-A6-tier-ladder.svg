@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 658" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The tier ladder</title>
+  <desc>Six stacked tiers from enterprise at the top to free at the bottom, with what each typically adds: free basic access; budget higher limits; standard best models; premium very high limits; business admin and no training; enterprise contracts, audit and residency.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The tier ladder</text>
+  <text x="480" y="66" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Typical structure and US list prices, 2026; details change often</text>
+  <rect x="160" y="91" width="770" height="82" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="180" y="138" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">Enterprise</text>
+  <text x="405" y="128" text-anchor="start" font-size="14.5" fill="#FFFFFF">Negotiated contract: single sign-on, audit logs, retention</text>
+  <text x="405" y="146" text-anchor="start" font-size="14.5" fill="#FFFFFF">control, data residency, indemnities.</text>
+  <rect x="160" y="183" width="770" height="82" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="180" y="230" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Business (team)</text>
+  <text x="405" y="220" text-anchor="start" font-size="14.5" fill="#111111">Per-seat plan: admin console, no training on business data by</text>
+  <text x="405" y="238" text-anchor="start" font-size="14.5" fill="#111111">default, shared workspaces.</text>
+  <rect x="160" y="275" width="770" height="82" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="180" y="322" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Premium individual</text>
+  <text x="405" y="312" text-anchor="start" font-size="14.5" fill="#111111">About $100 to $200: very high limits, priority, the newest</text>
+  <text x="405" y="330" text-anchor="start" font-size="14.5" fill="#111111">costly features.</text>
+  <rect x="160" y="367" width="770" height="82" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="180" y="414" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Standard individual</text>
+  <text x="405" y="404" text-anchor="start" font-size="14.5" fill="#111111">About $20: most capable models, higher limits, advanced</text>
+  <text x="405" y="422" text-anchor="start" font-size="14.5" fill="#111111">features.</text>
+  <rect x="160" y="459" width="770" height="82" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="180" y="506" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Budget individual</text>
+  <text x="405" y="505" text-anchor="start" font-size="14.5" fill="#111111">About $5 to $10: higher limits than free, some newer features.</text>
+  <rect x="160" y="551" width="770" height="82" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="180" y="598" text-anchor="start" font-size="17" font-weight="bold" fill="#222222">Free</text>
+  <text x="405" y="588" text-anchor="start" font-size="14.5" fill="#222222">Basic access, tight limits, fallback models; consumer data</text>
+  <text x="405" y="606" text-anchor="start" font-size="14.5" fill="#222222">terms.</text>
+  <line x1="80" y1="626" x2="80" y2="98" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <rect x="18" y="126" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="142" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Contractual</text>
+  <text x="80" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">protection</text>
+  <rect x="18" y="550" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="566" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Consumer</text>
+  <text x="80" y="584" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">terms</text>
+</svg>

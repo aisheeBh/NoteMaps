@@ -169,7 +169,7 @@ Several mechanisms operate at once; researchers disagree mainly about their rela
 - The new fact is then encoded **together with** that knowledge.
 - Later, any part of the activated knowledge can serve as a **retrieval cue**.
 
-> **Example:** a pharmacist learning that a drug must be taken on an empty stomach asks why, recalls that food reduces its absorption, and stores the rule with "absorption" — a cue that will also come to mind with other drugs.
+> **Example (illustrative):** a pharmacist learning that a drug must be taken on an empty stomach asks why, recalls that food reduces its absorption, and stores the rule with "absorption" — a cue that will also come to mind with other drugs.
 
 ### Distinctiveness
 
@@ -397,7 +397,7 @@ flowchart TD
 - **With spacing** — revisit the reason on later days; a reason that no longer comes to mind signals a weak link.
 - **With examples** — after answering why, generating one instance where the fact applies extends the elaboration.
 
-### Worked example: learning a cloud-cost rule
+### Worked example (illustrative): learning a cloud-cost rule
 
 - **Situation:** a junior engineer reads that "data transfer *into* a major cloud provider is usually free, but transfer *out* is charged".
 
@@ -435,7 +435,7 @@ flowchart TD
 - **They link across levels.** A senior clinician connects a dosage rule to pharmacology, to patient safety history and to the hospital's own incident record.
 - **They tolerate "I don't know yet".** An unanswered why-question is logged as an open item rather than papered over with a plausible story.
 
-> **Example:** a junior auditor learns that revenue on a multi-year licence is recognised over time. The novice why: "because the standard says so". The expert why: "because the vendor's obligation — updates and support — is delivered over time, so revenue follows performance; if the licence were a one-off transfer with nothing further owed, recognition would happen at a point in time".
+> **Example (illustrative):** a junior auditor learns that revenue on a multi-year licence is recognised over time. The novice why: "because the standard says so". The expert why: "because the vendor's obligation — updates and support — is delivered over time, so revenue follows performance; if the licence were a one-off transfer with nothing further owed, recognition would happen at a point in time".
 
 ### The organisational benefit
 
@@ -453,7 +453,7 @@ flowchart TD
 
 > **Key point:** the benefit comes from the **learner's** search of memory. Any tool that supplies the answer first removes the mechanism.
 
-### Case study: product facts for a support team
+### Case study (illustrative): product facts for a support team
 
 - **Situation:** a software company's support team had to learn about 150 product facts each quarter — limits, defaults, compatibility rules.
 - **Problem:** agents passed an immediate quiz but gave wrong answers to customers weeks later; similar limits were confused.

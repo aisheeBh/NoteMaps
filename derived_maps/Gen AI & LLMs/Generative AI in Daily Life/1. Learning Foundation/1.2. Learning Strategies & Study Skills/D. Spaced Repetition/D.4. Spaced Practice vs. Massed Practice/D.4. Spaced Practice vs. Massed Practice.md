@@ -151,7 +151,7 @@ A surgical trainee can learn to tie microvascular sutures in one intensive day o
   - poor foundations for later courses.
 - **What evidence shows:** students who spread study over the term generally retain more and perform as well or better on final exams, especially cumulative ones.
 
-**Figure 3.** The same twelve hours arranged as cramming and as spaced study.
+**Figure 3.** The same twelve hours arranged as cramming and as spaced study. (illustrative)
 
 ![Figure 3. The same twelve hours arranged as cramming and as spaced study](fig-D4-calendar.svg)
 
@@ -237,7 +237,7 @@ flowchart TD
 
 > **Key point:** the most effective real-world designs are rarely pure. They **mass the beginning** to build a foundation and **space everything after** to keep it.
 
-> **Example:** an intensive two-week language course followed by daily twenty-minute practice for six months retains far more than either the course alone or daily practice without the initial momentum.
+> **Example (illustrative):** an intensive two-week language course followed by daily twenty-minute practice for six months retains far more than either the course alone or daily practice without the initial momentum.
 
 ---
 
@@ -267,7 +267,7 @@ flowchart TD
 
 ## Designing Spaced Programmes
 
-### Worked example: redesigning a five-day analytics bootcamp
+### Worked example (illustrative): redesigning a five-day analytics bootcamp
 
 A consulting firm runs a five-day data-analytics bootcamp for new joiners. Six weeks later, project managers report that joiners cannot write basic queries unaided.
 
@@ -285,11 +285,13 @@ A consulting firm runs a five-day data-analytics bootcamp for new joiners. Six w
 | Unaided test at week 12 | Not measured | Most pass |
 | Cost | Five days away from projects | Fewer total hours; more coordination |
 
+*Illustrative figures.*
+
 - **Conclusion:** fewer total hours, distributed, produced more usable capability — at the cost of scheduling effort.
 
 > **Watch out:** spaced sessions that merely re-present slides gain little. Each session must start with **effortful retrieval or practice** of earlier material.
 
-### Case study: a hospital's resuscitation training
+### Case study (illustrative): a hospital's resuscitation training
 
 - **Situation:** nurses on medical wards completed a full-day resuscitation course every two years.
 - **Problem:** in simulated emergencies a few months after the course, compression quality and sequence errors were common, and confidence was low.
@@ -400,7 +402,7 @@ The general explanations of the spacing effect take a particular form when appli
 
 > **Watch out:** "microlearning" is not a learning mechanism. Short content delivered at intervals helps only if it requires **retrieval** and **application** and is spaced sensibly; short videos watched once are simply massed content in smaller pieces.
 
-### Worked example: the cost of a massed event versus a spaced programme
+### Worked example (illustrative): the cost of a massed event versus a spaced programme
 
 A company must train 500 staff on a new data-protection procedure. Staff time is valued at £40 an hour.
 
@@ -411,6 +413,8 @@ A company must train 500 staff on a new data-protection procedure. Staff time is
 | Staff-time cost (500 people) | 500 × 8 × £40 = £160,000 | 500 × 5 × £40 = £100,000 |
 | Retention at six months | Low; refresher needed | Higher; no full refresher |
 | Additional platform cost | None | Licence and question writing |
+
+*Illustrative figures.*
 
 1. **Direct saving:** 3 hours per person, £60,000 in staff time, before platform costs.
 2. **Indirect saving:** fewer errors and no need for a full refresher course after six months.

@@ -276,7 +276,7 @@ flowchart TD
 - **Evidence** for learner-generated analogies is thinner and more mixed than for provided analogies and for case comparison; generated analogies vary widely in quality.
 - **Practical combination** — study one expert analogy, then generate a second from one's own domain, then compare their breaks.
 
-### Worked example: understanding a database index
+### Worked example (illustrative): understanding a database index
 
 - **Situation:** a junior analyst wants to understand why adding an index makes some queries much faster and slows down inserts.
 
@@ -310,7 +310,7 @@ flowchart TD
 
 > **In practice:** experienced professionals tend to use analogies in pairs — "it is like X in this respect, but like Y in that one" — precisely because they know every analogy breaks somewhere.
 
-### Case study: explaining cloud cost to a finance team
+### Case study (illustrative): explaining cloud cost to a finance team
 
 - **Situation:** an engineering lead had to help a finance team forecast cloud spending after a move from owned servers.
 - **Problem:** finance staff, used to capital purchases depreciated over years, kept forecasting cloud costs as fixed monthly amounts; actual bills varied widely.

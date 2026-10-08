@@ -295,7 +295,7 @@ Rejecting learning styles does **not** mean all learners are the same. Some diff
   - experts learn more from problems, partial guidance and less redundant information.
 - This is a genuine crossover: the best method **reverses** depending on the learner's knowledge.
 
-> **Example:** a junior auditor learns revenue-recognition rules best from annotated worked examples; a senior auditor given the same examples is slowed down and learns more from unusual cases to resolve.
+> **Example (illustrative):** a junior auditor learns revenue-recognition rules best from annotated worked examples; a senior auditor given the same examples is slowed down and learns more from unusual cases to resolve.
 
 ### Other differences worth designing for
 
@@ -337,7 +337,7 @@ Rejecting learning styles does **not** mean all learners are the same. Some diff
 
 > **Mnemonic — "CKA: Choose, Know, Act":** **C**ontent chooses the mode; **K**nowledge sets the support; **A**ctive practice does the learning.
 
-### Worked example: a "kinaesthetic learner" preparing for a cloud architecture certification
+### Worked example (illustrative): a "kinaesthetic learner" preparing for a cloud architecture certification
 
 - **Situation:** a support engineer believes he is "hands-on" and avoids reading and diagrams; after two months he fails the practice exam's design questions.
 
@@ -434,7 +434,7 @@ flowchart TD
 - The useful questions remain: **which representation best fits this content**, and **what retrieval and practice follow**?
 - Asking an AI tutor to "teach me in my learning style" is harmless as a preference; the gain comes from the explanation quality, practice and feedback, not the style.
 
-### Case study: removing styles from a leadership programme
+### Case study (illustrative): removing styles from a leadership programme
 
 - **Situation:** a professional services firm ran a two-year leadership programme that opened with a learning-styles inventory; facilitators tailored coaching and materials to each participant's "style profile".
 - **Problem:**

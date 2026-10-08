@@ -455,7 +455,7 @@ flowchart TD
 | **Attributions** | Outcomes caused by controllable factors | The interpretive link between belief and response |
 | **Grit** (Angela Duckworth) | Sustained passion and perseverance for long-term goals | A trait-like persistence measure; not a belief about ability |
 
-### Case study: a graduate programme that tried a workshop first
+### Case study (illustrative): a graduate programme that tried a workshop first
 
 - **Situation:** a consulting firm's graduates were reluctant to present to clients or volunteer for unfamiliar analysis; exit interviews mentioned "fear of looking stupid".
 - **First attempt:** a half-day growth-mindset workshop with videos and "power of yet" slogans.

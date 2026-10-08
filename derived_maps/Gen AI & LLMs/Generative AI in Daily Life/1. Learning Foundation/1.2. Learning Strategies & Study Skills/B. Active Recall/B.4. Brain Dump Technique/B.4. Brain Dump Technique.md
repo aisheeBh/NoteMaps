@@ -275,7 +275,7 @@ When recall stops, generic prompts restart the search without giving answers awa
 
 ---
 
-## Worked Example: Three Dumps on Pricing Strategy
+## Worked Example (illustrative): Three Dumps on Pricing Strategy
 
 **Situation:** a product manager is learning pricing strategy from a course module of 25 key idea units, before leading a pricing review in three weeks.
 
@@ -287,6 +287,8 @@ When recall stops, generic prompts restart the search without giving answers awa
 | Main gaps | Missing value-based pricing; confused price skimming with penetration | Vague on price elasticity; unconnected: discounting and brand positioning | Two exceptions in bundling |
 | Repair | Restudied two sections; wrote contrast cards for skimming vs penetration | Worked two elasticity examples; drew a link map | Short review only |
 
+*Illustrative figures.*
+
 **Steps in each cycle**
 
 1. **Dump** without notes for a fixed time.
@@ -296,7 +298,7 @@ When recall stops, generic prompts restart the search without giving answers awa
 
 - **Conclusion:** coverage more than doubled with about 30 minutes of dumping and targeted repair, and the gaps shifted from **missing** to **unconnected** to **fine detail** — the normal progression as knowledge matures.
 
-**Figure 5.** Recall coverage across the three dumps in the worked example.
+**Figure 5.** Recall coverage across the three dumps in the worked example. (illustrative)
 
 ![Figure 5. Recall coverage across the three dumps in the worked example](fig-B4-coverage-sessions.svg)
 
@@ -332,7 +334,7 @@ When recall stops, generic prompts restart the search without giving answers awa
 - **Risky:** asking an AI to "fill in" the dump before the learner has pushed past the first stop removes the most valuable retrieval.
 - **Accuracy:** the comparison should be checked; AI tools may miss subtle errors or invent "missing" points not in the source.
 
-### Case study: a cloud certification candidate
+### Case study (illustrative): a cloud certification candidate
 
 - **Situation:** an infrastructure engineer was preparing for a professional cloud-architecture certification covering six domains.
 - **Problem:** after weeks of video courses and practice multiple-choice questions, his practice scores plateaued at a level just below the pass mark, with no clear pattern of weakness.

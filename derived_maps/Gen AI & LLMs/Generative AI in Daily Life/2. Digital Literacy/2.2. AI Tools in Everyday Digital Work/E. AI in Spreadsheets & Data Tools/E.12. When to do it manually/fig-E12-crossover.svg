@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Time for a task done manually and with AI help, by size of task</title>
+  <desc>Schematic line chart. Horizontal axis: size of the task. The manual line starts at zero and rises steeply. The AI-help line starts higher, because specifying and verifying take a fixed effort, and rises slowly. The lines cross: below the crossing, manual is quicker; above it, AI help is quicker.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Small tasks favour manual work; large ones favour AI help</text>
+  <line x1="120" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="120" y1="440" x2="120" y2="92" stroke="#222222" stroke-width="2"/>
+  <path d="M120 440 L690.0 117.0" fill="none" stroke="#222222" stroke-width="3.5"/>
+  <path d="M120 338.0 L880 229.2" fill="none" stroke="#222222" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <circle cx="360.8" cy="303.5" r="7" fill="#111111"/>
+  <line x1="360.84507042253523" y1="303.52112676056333" x2="360.84507042253523" y2="440" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="515.2" y="147.60000000000002" text-anchor="end" font-size="15" fill="#111111" font-weight="bold">Manual: grows with every line</text>
+  <text x="872" y="291.2" text-anchor="end" font-size="15" fill="#111111" font-weight="bold">AI help: fixed cost to specify</text>
+  <text x="872" y="311.2" text-anchor="end" font-size="15" fill="#111111" font-weight="bold">and verify, then slow growth</text>
+  <text x="350.84507042253523" y="424" text-anchor="end" font-size="14" fill="#111111">Manual quicker</text>
+  <text x="370.84507042253523" y="424" text-anchor="start" font-size="14" fill="#111111">AI help quicker</text>
+  <text x="500.0" y="470" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Size of the task (lines, records, repetitions)</text>
+  <text x="70" y="270.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold" transform="rotate(-90 70 270.0)">Time taken</text>
+  <text x="480.0" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. High stakes raise the AI line by adding verification.</text>
+</svg>

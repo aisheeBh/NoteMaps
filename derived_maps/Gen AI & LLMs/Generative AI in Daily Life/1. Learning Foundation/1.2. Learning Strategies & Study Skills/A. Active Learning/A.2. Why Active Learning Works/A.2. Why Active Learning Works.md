@@ -361,7 +361,7 @@ flowchart TD
 
 ## Applying the Mechanisms
 
-### Worked example: diagnosing a failed "active" session
+### Worked example (illustrative): diagnosing a failed "active" session
 
 - **Situation:** a data-governance trainer replaced a lecture with group work: teams of six received a poster sheet and were asked to "discuss data quality and present back". Delayed test results did not improve.
 - **Step 1 — which mechanisms were triggered?**
@@ -381,7 +381,7 @@ flowchart TD
 
 > **Watch out:** groups larger than four or five and tasks without a concrete product invite **social loafing** — some members contribute little because their effort is not identifiable.
 
-### Case study: an engineering school's first-year mathematics
+### Case study (illustrative): an engineering school's first-year mathematics
 
 - **Situation:** a university engineering faculty taught first-year calculus to about 600 students in traditional lectures; failure rates had been high for years, and they were highest for students from schools that sent few pupils to university.
 - **Problem:** students attended lectures but arrived at weekly tutorials unable to start problems; many dropped out in the first term.

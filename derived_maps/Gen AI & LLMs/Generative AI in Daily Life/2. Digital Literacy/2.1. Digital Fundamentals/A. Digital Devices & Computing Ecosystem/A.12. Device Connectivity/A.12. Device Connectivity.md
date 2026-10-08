@@ -251,7 +251,7 @@ flowchart TD
     class W,WF,N,B,M good
 ```
 
-### Worked example: moving 50 GB of video
+### Worked example (illustrative): moving 50 GB of video
 
 **Situation:** a video producer must move 50 GB of footage from a laptop to a colleague's machine in the same office.
 
@@ -307,7 +307,7 @@ flowchart TD
 
 ---
 
-## Case Study: The Office Whose Calls Failed Every Afternoon
+## Case Study (illustrative): The Office Whose Calls Failed Every Afternoon
 
 - **Situation:** a 120-person office in a dense city building had complaints that video calls froze every afternoon.
 - **Initial assumption:** the internet connection was too slow; the firm was about to buy a much faster line.
@@ -382,7 +382,7 @@ flowchart TD
 4. **Reachability** — can it reach the local router? Can it reach other sites?
 5. **Service** — is the problem only with one application or website?
 
-> **Example:** a laptop shows "connected, no internet". Physical and link checks pass; the laptop has an address; other devices on the same Wi-Fi work. The problem lies in the laptop — a VPN client stuck in a failed state. Disconnecting the VPN restores access.
+> **Example (illustrative):** a laptop shows "connected, no internet". Physical and link checks pass; the laptop has an address; other devices on the same Wi-Fi work. The problem lies in the laptop — a VPN client stuck in a failed state. Disconnecting the VPN restores access.
 
 ### Bluetooth problems
 

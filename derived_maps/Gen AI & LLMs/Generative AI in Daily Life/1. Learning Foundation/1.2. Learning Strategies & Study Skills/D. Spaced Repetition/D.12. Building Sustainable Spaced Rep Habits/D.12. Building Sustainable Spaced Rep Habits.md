@@ -256,11 +256,11 @@ flowchart TD
 - **Established practice** — low input, cheap maintenance, occasional intensive modes for new roles or certifications.
 - **Career changes** — archive old specialties; start new tiers; the habit, not the deck, is the main asset.
 
-> **Example:** a software engineer who learned Japanese at university kept a light daily review through three job changes; ten years later her deck costs eight minutes a day, and when she was offered a role in Tokyo she resumed new cards with a vocabulary already largely intact.
+> **Example (illustrative):** a software engineer who learned Japanese at university kept a light daily review through three job changes; ten years later her deck costs eight minutes a day, and when she was offered a role in Tokyo she resumed new cards with a vocabulary already largely intact.
 
 ---
 
-## Worked Example: Rebuilding a Habit After Burnout
+## Worked Example (illustrative): Rebuilding a Habit After Burnout
 
 A management consultant abandoned his deck four months ago with 6,000 overdue reviews. He wants to restart but works long hours and travels weekly.
 
@@ -281,9 +281,11 @@ A management consultant abandoned his deck four months ago with 6,000 overdue re
 | Missed-day rule | None | Never miss twice |
 | Outcome after six months | Abandoned | Stable at about 10–12 minutes a day |
 
+*Illustrative figures.*
+
 ---
 
-## Case Study: A Graduate Programme's Retention Habit
+## Case Study (illustrative): A Graduate Programme's Retention Habit
 
 - **Situation:** a professional-services firm gave every graduate access to a spaced-repetition tool with a firm-curated deck on accounting, tax and internal methods.
 - **Problem:** in the first cohort, usage peaked in the first month and fell to a small minority by month four.
@@ -344,7 +346,7 @@ A management consultant abandoned his deck four months ago with 6,000 overdue re
 
 > **Watch out:** organisational dashboards that show 95% "completion" of spaced questions can hide poor learning if items are easy or answered carelessly. Pair participation data with delayed performance measures.
 
-### Worked example: an annual habit plan
+### Worked example (illustrative): an annual habit plan
 
 A senior accountant plans a year of spaced review around a known work calendar: a heavy year-end period in January–February and a three-week holiday in August.
 
@@ -354,6 +356,8 @@ A senior accountant plans a year of spaced review around a known work calendar: 
 | August | Light, then recovery on return | 0 | About 5 minutes on the road; 25 minutes for 10 days on return | 31 |
 | September–December | Normal | 12 | About 15 minutes | 120 |
 | January–February | Light | 0 | About 8 minutes | 60 |
+
+*Illustrative figures.*
 
 - **New cards in the year:** 12 × (150 + 120) ≈ **3,200**.
 - **Total review time:** roughly (150 + 120) × 15 + 21 × 5 + 10 × 25 + 60 × 8 minutes ≈ **4,900 minutes**, about **80 hours** — around 1.5 hours a week averaged over the year.
@@ -373,7 +377,7 @@ Many learners return to spaced repetition after months away. A restart is a desi
 
 > **Definition — Fresh-start effect:** the tendency for people to initiate goal-directed behaviour after temporal landmarks that feel like new beginnings.
 
-> **Example:** an analyst who abandoned her deck in March restarts on 1 September, the start of a new project: she suspends 6,000 of her 9,000 cards, reviews 80 overdue cards a day for three weeks, and resumes new cards at 6 a day instead of her old 20.
+> **Example (illustrative):** an analyst who abandoned her deck in March restarts on 1 September, the start of a new project: she suspends 6,000 of her 9,000 cards, reviews 80 overdue cards a day for three weeks, and resumes new cards at 6 a day instead of her old 20.
 
 ---
 

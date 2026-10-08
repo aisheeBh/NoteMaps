@@ -250,7 +250,7 @@ flowchart TD
 - **Gestures and vocabulary** — studies by **Manuela Macedonia** and colleagues found that adults learning words in an artificial or foreign language remembered them better when they performed a meaningful **gesture** for each word while learning, compared with learning the words alone.
 - **Implication:** the nonverbal code need not be a picture. A meaningful **movement** paired with a word gives another route to it — useful for verbs, procedures and actions.
 
-> **Example:** a trainee learning the sequence of hand-hygiene actions says each step's name while performing it — "palm to palm", "backs of hands", "interlaced fingers" — linking the word to the movement.
+> **Example (illustrative):** a trainee learning the sequence of hand-hygiene actions says each step's name while performing it — "palm to palm", "backs of hands", "interlaced fingers" — linking the word to the movement.
 
 ### Pairing for categories
 
@@ -271,7 +271,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Pharmacology Terms
+## Worked Example (illustrative): Pharmacology Terms
 
 **Situation:** a pharmacy student must learn drug names with their classes and a key fact. Several names are confusable.
 
@@ -311,7 +311,7 @@ flowchart TD
 - **Icon plus label** combines fast recognition with precise meaning; over time, frequent users learn the icon and rely on it alone.
 - **Lesson for learning materials:** pair each recurring symbol with its word at first use, and keep the pairing **consistent**.
 
-### Case study: look-alike, sound-alike medicines
+### Case study (illustrative): look-alike, sound-alike medicines
 
 - **Situation:** a hospital pharmacy recorded several near-miss errors involving **look-alike, sound-alike** drug names — pairs whose names are easily confused in speech or writing.
 - **Problem:** new pharmacy technicians and nurses learned names from lists, where similar names sat close together and blurred.

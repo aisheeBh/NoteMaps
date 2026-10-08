@@ -205,7 +205,7 @@ flowchart TD
 - **Record wrong answers given with confidence** — they signal misconceptions, which need more than new information to fix.
 - **Re-use the pre-test later** — the difference between the pre-test and a delayed re-test is the clearest evidence of what the study achieved.
 
-> **Example:** an experienced project manager starting a formal risk-management qualification sits a 40-question diagnostic. She finds that most of the qualitative risk material is secure, but she confuses **risk appetite** with **risk tolerance** and cannot compute an expected monetary value. She skips two weeks of familiar content and spends that time on the quantitative units.
+> **Example (illustrative):** an experienced project manager starting a formal risk-management qualification sits a 40-question diagnostic. She finds that most of the qualitative risk material is secure, but she confuses **risk appetite** with **risk tolerance** and cannot compute an expected monetary value. She skips two weeks of familiar content and spends that time on the quantitative units.
 
 > **Watch out:** a pre-test is itself a learning event — attempting questions before study can improve later learning of that material. That is helpful for the learner, but it means a pre-test/post-test gain is not a pure measure of the teaching alone.
 
@@ -237,7 +237,7 @@ flowchart TD
 
 > **Formula — Standard error of measurement (SEM):** SEM = SD × √(1 − reliability). For a test with a standard deviation of 10 points and a reliability of 0.90, SEM = 10 × √0.10 ≈ **3.2 points**. A candidate scoring 68 has a true score that probably (about 95% of the time) lies between roughly 62 and 74.
 
-**Figure 3.** A measured score is a band, not a point: what the standard error of measurement means near a pass mark.
+**Figure 3.** A measured score is a band, not a point: what the standard error of measurement means near a pass mark. (illustrative)
 
 ![Figure 3. A measured score is a band, not a point: what the standard error of measurement means near a pass mark](fig-L2-measurement-error-band.svg)
 
@@ -422,7 +422,7 @@ flowchart TD
 
 > **In practice:** many organisations now separate **development conversations** (frequent, formative, no pay consequence) from **performance evaluation** (periodic, summative), for exactly this reason.
 
-### Worked example: redesigning assessment in a support-centre onboarding programme
+### Worked example (illustrative): redesigning assessment in a support-centre onboarding programme
 
 A customer-support centre certifies new agents after a four-week onboarding programme.
 
@@ -454,7 +454,7 @@ A customer-support centre certifies new agents after a four-week onboarding prog
 
 > **Watch out:** the redesign costs more assessor time. The case for it rests on downstream measures — escalations, rework, customer satisfaction — which must be tracked to justify the cost.
 
-### Case study: a professional-examination programme that stopped grading practice
+### Case study (illustrative): a professional-examination programme that stopped grading practice
 
 - **Situation:** an accountancy firm sponsored graduates through professional examinations; first-attempt pass rates were below the national average.
 - **Problem:** monthly progress tests were graded and reported to managers; poor scores triggered warnings.

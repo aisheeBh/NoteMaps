@@ -209,7 +209,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Predicting What Will Be Remembered
+## Worked Example (illustrative): Predicting What Will Be Remembered
 
 **Situation:** a training designer must teach new compliance staff twelve terms, and wants to predict which will be hardest to retain.
 
@@ -400,7 +400,7 @@ flowchart TD
 
 > **In practice:** when a term will be used daily, give it a **standard image** across all materials — the same icon for "customer data" in every diagram and dashboard — so that the referential link is strengthened by repetition rather than re-learnt each time.
 
-### Case study: re-coding a maintenance procedure
+### Case study (illustrative): re-coding a maintenance procedure
 
 - **Situation:** a regional water utility trained field technicians on a 14-step valve-isolation procedure from a text manual.
 - **Problem:** audits found steps done out of order and two steps regularly omitted; technicians said the manual was "hard to remember in the field".

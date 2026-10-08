@@ -393,7 +393,7 @@ quadrantChart
 - **Keep errors useful.** After each wrong choice, write one line on the feature that should have signalled the right method.
 - **Run a personal experiment** — direct experience, combined with explanation, is what shifted beliefs in the research.
 
-### Worked example: a personal schedule experiment
+### Worked example (illustrative): a personal schedule experiment
 
 - **Situation:** a data analyst studying for a statistics certificate doubts that interleaving helps her.
 
@@ -460,7 +460,7 @@ Explanations persuade best when they are brief, concrete and linked to the learn
 
 > **Key point:** if an organisation measures what learners **feel** and how they **perform immediately**, it will consistently choose the schedule that produces **less learning**.
 
-### Case study: an ECG interpretation course that nearly abandoned mixing
+### Case study (illustrative): an ECG interpretation course that nearly abandoned mixing
 
 - **Situation:** a teaching hospital redesigned its ECG interpretation course for junior doctors. Instead of one rhythm family per session, the new design gave a short blocked introduction to each family, then mixed sets of rhythm strips from all families covered so far, with immediate feedback.
 - **Problem:** end-of-session evaluations fell sharply. Comments included "confusing", "too fast" and "we never mastered one thing before moving on". The course lead was asked to revert.

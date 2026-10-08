@@ -288,7 +288,7 @@ flowchart TD
   - missing the scale, especially a truncated or logarithmic axis.
 - **Lesson:** a graph supports learning only when the learner can **translate** it into a verbal statement ("demand falls as price rises, steeply at first").
 
-> **Example:** a junior analyst shown a chart of customer churn by month reads the tallest bar as "the best month". The axis label — "customers lost" — is what the words were for. Writing the takeaway as a sentence above the chart prevents the misreading.
+> **Example (illustrative):** a junior analyst shown a chart of customer churn by month reads the tallest bar as "the best month". The axis label — "customers lost" — is what the words were for. Writing the takeaway as a sentence above the chart prevents the misreading.
 
 ### Design faults
 
@@ -369,7 +369,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Three Versions of One Explanation
+## Worked Example (illustrative): Three Versions of One Explanation
 
 **Situation:** a bank's training team must explain **how a currency swap works** to new operations staff. Three drafts are considered.
 
@@ -405,7 +405,7 @@ flowchart TD
 
 > **In practice:** use the **same name** for a thing in the words and in the visual. A component called "gateway" in the text and "API layer" on the diagram breaks the link the learner must make.
 
-### Case study: security awareness that changed behaviour
+### Case study (illustrative): security awareness that changed behaviour
 
 - **Situation:** a professional-services firm ran an annual security-awareness module of text slides describing phishing indicators ("check the sender domain", "be wary of urgency").
 - **Problem:** simulated phishing tests showed click rates barely changing year on year.

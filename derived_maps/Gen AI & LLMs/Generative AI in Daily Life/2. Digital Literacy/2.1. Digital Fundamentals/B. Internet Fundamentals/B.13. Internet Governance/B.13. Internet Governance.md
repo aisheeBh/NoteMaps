@@ -289,7 +289,7 @@ flowchart LR
 - **Continuity planning** — for shutdowns and sanctions affecting operations or staff in certain countries.
 - **AI regulation** — emerging rules on AI systems (such as the EU's AI Act, adopted in 2024 and applying in stages) increasingly interact with data and platform law.
 
-### Worked example: launching a customer app in three markets
+### Worked example (illustrative): launching a customer app in three markets
 
 Situation: a fintech start-up plans to launch a payments app in the EU, the UK and India.
 

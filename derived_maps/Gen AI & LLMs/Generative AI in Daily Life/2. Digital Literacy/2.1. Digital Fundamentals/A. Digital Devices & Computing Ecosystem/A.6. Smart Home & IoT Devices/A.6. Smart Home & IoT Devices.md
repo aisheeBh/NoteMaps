@@ -344,7 +344,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Securing a Small Office
+## Worked Example (illustrative): Securing a Small Office
 
 **Situation:** a 25-person accountancy practice has added, over three years: two video doorbells, eight cameras with a recorder, a smart thermostat, smart plugs for coffee machines, a meeting-room voice assistant, a smart television and a cloud-managed printer. All share the office Wi-Fi with staff laptops.
 
@@ -366,11 +366,13 @@ flowchart TD
 | Microphones in client meetings | 1 | 0 |
 | Inventory | None | Complete, with support dates |
 
+*Illustrative figures.*
+
 > **Watch out:** the most dangerous device is usually not the most sophisticated but the **most forgotten** — the recorder in a cupboard, the printer nobody owns.
 
 ---
 
-## Case Study: The Smart Building that Saved Energy — and Nearly Leaked Data
+## Case Study (illustrative): The Smart Building that Saved Energy — and Nearly Leaked Data
 
 - **Situation:** a company moved into a refurbished office with sensors controlling lighting, heating and ventilation by occupancy, and desk sensors to guide space planning.
 - **Benefits:** energy use for lighting and heating fell substantially in the first year; meeting rooms booked but unused were released automatically.

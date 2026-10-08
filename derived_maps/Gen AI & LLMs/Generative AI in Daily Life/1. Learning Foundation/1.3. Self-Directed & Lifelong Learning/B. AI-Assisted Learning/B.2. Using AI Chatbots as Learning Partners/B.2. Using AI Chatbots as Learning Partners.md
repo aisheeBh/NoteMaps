@@ -220,7 +220,7 @@ Knowing the default tendencies of chat models lets a learner steer around them.
 
 > **In practice:** use a learning mode or an explicit rule set for anything that should end up **in the head**; use the default mode for tasks that may legitimately be delegated.
 
-### Worked example: from answer request to tutoring dialogue
+### Worked example (illustrative): from answer request to tutoring dialogue
 
 A product manager must learn A/B-test statistics before reviewing an experiment.
 
@@ -288,7 +288,7 @@ sequenceDiagram
   - non-verbal and emotional realism is limited, even with voice;
   - the feedback may be generic unless criteria are specific.
 
-> **Example:** a procurement specialist rehearses a contract renewal with the AI playing a supplier who must protect margin. After three rounds she asks for an assessment against four criteria — anchoring, trading concessions, questioning and closing — then repeats the role-play with a harder counterpart.
+> **Example (illustrative):** a procurement specialist rehearses a contract renewal with the AI playing a supplier who must protect margin. After three rounds she asks for an assessment against four criteria — anchoring, trading concessions, questioning and closing — then repeats the role-play with a harder counterpart.
 
 ### Voice and images
 
@@ -380,9 +380,9 @@ flowchart TD
 - **They track unaided capability** — periodic tasks without AI reveal whether the partnership is working.
 - **They use AI to make human feedback count** — rehearsing and fixing obvious problems with the chatbot first, so that a senior colleague's limited time goes on the judgement only an experienced person can supply.
 
-> **In practice:** a senior engineer preparing to mentor juniors asks them to bring two things to every review — their own first attempt and the chatbot critique they received on it. The review then focuses on where the AI's critique was wrong, shallow or missed the point, which teaches both the subject and the evaluation of AI feedback.
+> **In practice (illustrative):** a senior engineer preparing to mentor juniors asks them to bring two things to every review — their own first attempt and the chatbot critique they received on it. The review then focuses on where the AI's critique was wrong, shallow or missed the point, which teaches both the subject and the evaluation of AI feedback.
 
-### Case study: a junior analyst learns SQL with a chatbot
+### Case study (illustrative): a junior analyst learns SQL with a chatbot
 
 - **Situation:** a new analyst at a retail bank, with spreadsheet but no database experience, had eight weeks to become self-sufficient in SQL.
 - **First month:** she used the chatbot as an answer machine. Her tickets were closed quickly, but in a team code review she could not explain her own joins, and a subtle duplication error had inflated a reported figure.

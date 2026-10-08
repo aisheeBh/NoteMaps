@@ -246,7 +246,7 @@ An effect size expresses a difference in standard-deviation units (Cohen's *d* o
   - *e.g.* guidance-heavy instruction helps novices most and can become less useful as expertise grows.
 - **Moderator analysis** tests whether effects differ by learner age, subject, delay, dose or design quality.
 
-### Worked example: how many learners does a pilot need?
+### Worked example (illustrative): how many learners does a pilot need?
 
 - **Situation:** an L&D team wants to test spaced follow-up quizzes after a compliance course and expects an effect of about *d* = 0.2.
 
@@ -405,7 +405,7 @@ flowchart TD
 
 > **Definition — Neuromyth:** a widespread misconception about the brain, often distorted from a genuine finding, used to justify educational practice — *e.g.* "people use only 10% of their brains".
 
-### Worked example: a vendor pitch
+### Worked example (illustrative): a vendor pitch
 
 - **Situation:** a vendor tells a bank's L&D head that its app "uses neuroscience to deliver 80% retention after 30 days — double traditional e-learning."
 
@@ -506,7 +506,7 @@ flowchart TD
 
 ---
 
-## Case study: an evidence review before a platform purchase
+## Case study (illustrative): an evidence review before a platform purchase
 
 - **Situation:** a global consulting firm's leadership wanted to buy an "AI-powered adaptive learning" platform after a competitor adopted it; the vendor reported dramatic retention and engagement figures.
 - **Problem:** the decision was being made on fashion and fear of falling behind; the head of learning was asked to "sign it off".

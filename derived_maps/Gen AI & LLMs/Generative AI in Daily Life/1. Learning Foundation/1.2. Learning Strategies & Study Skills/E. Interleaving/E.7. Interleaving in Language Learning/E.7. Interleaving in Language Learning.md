@@ -256,7 +256,7 @@ flowchart TD
 
 > **Mnemonic — "MANNF":** Meaning decides, Avoid naming the form, Number of alternatives balanced, Near-miss contexts, Feedback with reasons.
 
-### Worked example: German two-way prepositions
+### Worked example (illustrative): German two-way prepositions
 
 - **Situation:** an English-speaking learner knows that nine German prepositions (including *in*, *an*, *auf*, *über*, *unter*) take the **accusative** for movement towards a place and the **dative** for location. Unit exercises practised each case separately; in speech, she defaults to the dative.
 
@@ -312,7 +312,7 @@ Learners of a new writing system face a pure discrimination problem: many symbol
 - **Then interleave** — rapid recognition drills with symbols from the whole set in random order, with immediate feedback.
 - **Finally read in context** — words and sentences where the symbol must be recognised without warning.
 
-> **Example:** a learner of Japanese who studies シ and ツ on separate days, each with its own drill, reads both well in isolation but confuses them in words. A two-minute daily drill of mixed シ / ツ / ソ / ン items — the four commonly confused katakana — removes most of the confusion within a fortnight.
+> **Example (illustrative):** a learner of Japanese who studies シ and ツ on separate days, each with its own drill, reads both well in isolation but confuses them in words. A two-minute daily drill of mixed シ / ツ / ソ / ン items — the four commonly confused katakana — removes most of the confusion within a fortnight.
 
 | Stage | Arrangement | Purpose |
 |---|---|---|
@@ -375,7 +375,7 @@ flowchart TD
 > **Key point:** structured interleaving and free communication are **complementary**. Mixed drills guarantee that every important choice is practised; communication makes the choices fast, meaningful and automatic.
 
 
-> **Example:** a learner of French preparing for a job interview writes twenty short sentences about her career, half describing ongoing situations in the past (*je travaillais à Pune*) and half describing completed events (*j'ai rejoint l'équipe en 2021*). She shuffles them, removes the verbs and, a day later, fills each gap — choosing the tense before writing the form. The exercise takes ten minutes and practises exactly the choice that the interview will demand.
+> **Example (illustrative):** a learner of French preparing for a job interview writes twenty short sentences about her career, half describing ongoing situations in the past (*je travaillais à Pune*) and half describing completed events (*j'ai rejoint l'équipe en 2021*). She shuffles them, removes the verbs and, a day later, fills each gap — choosing the tense before writing the form. The exercise takes ten minutes and practises exactly the choice that the interview will demand.
 
 ---
 
@@ -409,7 +409,7 @@ flowchart TD
 
 > **Watch out:** cross-language **transfer errors** — using an English article pattern in German, or a Hindi word order in English — are discrimination errors between whole systems. Contrastive practice that sets the two systems side by side ("how would this be said in each language?") targets them directly.
 
-### Case study: a consultant preparing for a German posting
+### Case study (illustrative): a consultant preparing for a German posting
 
 - **Situation:** an Indian management consultant was to spend a year with a client in Munich. She had six months of evening study, using a course book and an app, and could complete unit exercises accurately.
 - **Problem:** in practice conversations with a tutor she produced long hesitations and frequent errors in article choice, case after prepositions and the choice between perfect and simple past in narratives.

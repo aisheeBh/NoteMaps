@@ -303,7 +303,7 @@ flowchart TD
 
 ## Designing Real Networks
 
-### Worked example: fixing a home office's poor video calls
+### Worked example (illustrative): fixing a home office's poor video calls
 
 Situation: a policy analyst's video calls freeze in a back bedroom office two floors from the router, although the broadband line tests at 300 Mbit/s.
 
@@ -366,7 +366,7 @@ flowchart TD
     class ST,GU detail
 ```
 
-### Case study: a hospital ward's wireless overload
+### Case study (illustrative): a hospital ward's wireless overload
 
 - **Situation:** a hospital introduced tablets for nurses, wireless infusion pumps, patient-entertainment streaming and staff phones on the same ward Wi-Fi.
 - **Problem:** at visiting times, nurses' tablets lost connection to the electronic patient record; pump alerts were delayed.

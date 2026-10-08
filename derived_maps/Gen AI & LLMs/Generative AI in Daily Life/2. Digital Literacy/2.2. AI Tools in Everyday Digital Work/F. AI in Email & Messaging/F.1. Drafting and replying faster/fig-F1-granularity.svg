@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From suggesting a word to drafting the whole message</title>
+  <desc>A horizontal scale of reply assistance by size of suggestion: word completion, phrase completion, one-tap reply chips, full drafted reply from a prompt, and a fully automatic reply sent without review. Control by the writer falls from left to right.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">From suggesting a word to drafting the whole message</text>
+  <line x1="60" y1="245" x2="60" y2="265" stroke="#222222" stroke-width="4"/>
+  <line x1="60" y1="255" x2="905" y2="255" stroke="#222222" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="60" y="285" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Writer keeps most control</text>
+  <text x="905" y="285" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Tool takes most control</text>
+  <circle cx="96" cy="255" r="9" fill="#111111"/>
+  <line x1="96" y1="246" x2="96" y2="195" stroke="#222222" stroke-width="1.5"/>
+  <rect x="24" y="70" width="200" height="125" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="124" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Word completion</text>
+  <text x="124" y="129" text-anchor="middle" font-size="14" fill="#111111">Next word on a phone</text>
+  <text x="124" y="147" text-anchor="middle" font-size="14" fill="#111111">keyboard</text>
+  <circle cx="280" cy="255" r="9" fill="#111111"/>
+  <line x1="280" y1="264" x2="280" y2="300" stroke="#222222" stroke-width="1.5"/>
+  <rect x="180" y="300" width="200" height="125" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="280" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Phrase completion</text>
+  <text x="280" y="359" text-anchor="middle" font-size="14" fill="#000000">Grey text finishing</text>
+  <text x="280" y="377" text-anchor="middle" font-size="14" fill="#000000">the sentence</text>
+  <circle cx="480" cy="255" r="9" fill="#111111"/>
+  <line x1="480" y1="246" x2="480" y2="195" stroke="#222222" stroke-width="1.5"/>
+  <rect x="380" y="70" width="200" height="125" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="389" y="79" width="182" height="107" rx="4" fill="#FFFFFF"/>
+  <text x="480" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Reply chips</text>
+  <text x="480" y="129" text-anchor="middle" font-size="14" fill="#111111">Two or three short</text>
+  <text x="480" y="147" text-anchor="middle" font-size="14" fill="#111111">whole replies</text>
+  <circle cx="680" cy="255" r="9" fill="#111111"/>
+  <line x1="680" y1="264" x2="680" y2="300" stroke="#222222" stroke-width="1.5"/>
+  <rect x="580" y="300" width="200" height="125" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="589" y="309" width="182" height="107" rx="4" fill="#FFFFFF"/>
+  <text x="680" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Drafted reply</text>
+  <text x="680" y="359" text-anchor="middle" font-size="14" fill="#111111">Full message from a</text>
+  <text x="680" y="377" text-anchor="middle" font-size="14" fill="#111111">short instruction</text>
+  <circle cx="864" cy="255" r="9" fill="#111111"/>
+  <line x1="864" y1="246" x2="864" y2="195" stroke="#222222" stroke-width="1.5"/>
+  <rect x="736" y="70" width="200" height="125" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="745" y="79" width="182" height="107" rx="4" fill="#FFFFFF"/>
+  <text x="836" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Auto-reply agent</text>
+  <text x="836" y="129" text-anchor="middle" font-size="14" fill="#111111">Answers sent with no</text>
+  <text x="836" y="147" text-anchor="middle" font-size="14" fill="#111111">human review</text>
+  <text x="480" y="484" text-anchor="middle" font-size="13" fill="#333333">Further right: more time saved per message, more to check, more risk of words the sender never chose.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of lock-in</title>
+  <desc>Seven stacked layers from shallow at the top to deep at the bottom: occasional chat; saved history and memory; custom instructions and projects; custom assistants; connectors to company data; automations and agents; fine-tuned models, embeddings and products built on the provider's interface. An arrow on the right shows switching cost rising with depth.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Each layer of use adds to the cost of leaving</text>
+  <rect x="160.0" y="70.0" width="560.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="440.0" y="96.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Occasional chat</text>
+  <text x="440.0" y="115.6" text-anchor="middle" font-size="14.5" fill="#111111">little to move</text>
+  <rect x="140.0" y="142.0" width="600.0" height="62.0" rx="8" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <text x="440.0" y="168.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Saved history and memory</text>
+  <text x="440.0" y="187.6" text-anchor="middle" font-size="14.5" fill="#111111">conversations, learned preferences</text>
+  <rect x="120.0" y="214.0" width="640.0" height="62.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="440.0" y="240.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Custom instructions and projects</text>
+  <text x="440.0" y="259.6" text-anchor="middle" font-size="14.5" fill="#111111">reference files, standing instructions</text>
+  <rect x="100.0" y="286.0" width="680.0" height="62.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="440.0" y="312.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Custom assistants</text>
+  <text x="440.0" y="331.6" text-anchor="middle" font-size="14.5" fill="#111111">configured in the platform's own format</text>
+  <rect x="80.0" y="358.0" width="720.0" height="62.0" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="88.0" y="367.1" width="704.0" height="45.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="440.0" y="384.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Connectors to company data</text>
+  <text x="440.0" y="403.6" text-anchor="middle" font-size="14.5" fill="#111111">permissions and integrations to rebuild</text>
+  <rect x="60.0" y="430.0" width="760.0" height="62.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="68.0" y="439.1" width="744.0" height="45.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="440.0" y="456.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Automations and agents</text>
+  <text x="440.0" y="475.6" text-anchor="middle" font-size="14.5" fill="#111111">workflow logic held inside the platform</text>
+  <rect x="40.0" y="502.0" width="800.0" height="62.0" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="440.0" y="528.6" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Fine-tuned models, embeddings, built products</text>
+  <text x="440.0" y="547.6" text-anchor="middle" font-size="14.5" fill="#FFFFFF">re-train, re-index, re-engineer</text>
+  <line x1="880.0" y1="80.0" x2="880.0" y2="560.0" stroke="#222222" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="905.0" y="320.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(90 905 320)">Switching cost rises</text>
+</svg>

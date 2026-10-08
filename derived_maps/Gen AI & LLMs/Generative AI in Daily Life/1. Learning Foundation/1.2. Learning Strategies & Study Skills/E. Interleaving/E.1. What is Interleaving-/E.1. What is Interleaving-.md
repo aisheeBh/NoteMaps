@@ -147,7 +147,7 @@ flowchart TD
 - The learner can therefore succeed by **repeating the method mechanically**, without ever noticing the features that signal when it applies.
 - The skill practised is **execution**; the skill needed later is **identification + selection + execution**.
 
-> **Example:** a trainee accountant practises twenty depreciation calculations in a row and gets them all right. In the exam a question describes a machine bought, used for three years and sold. The trainee must first realise this is a disposal question needing depreciation, carrying value **and** gain or loss — and has never practised deciding that.
+> **Example (illustrative):** a trainee accountant practises twenty depreciation calculations in a row and gets them all right. In the exam a question describes a machine bought, used for three years and sold. The trainee must first realise this is a disposal question needing depreciation, carrying value **and** gain or loss — and has never practised deciding that.
 
 > **Definition — Strategy selection:** choosing the appropriate method for a problem on the basis of its features; the step that interleaved practice requires and blocked practice usually removes.
 
@@ -384,7 +384,7 @@ flowchart TD
 
 ## A First Interleaved Practice Set
 
-### Worked example: rebuilding a finance exercise set
+### Worked example (illustrative): rebuilding a finance exercise set
 
 - **Situation:** a corporate-finance course gives trainees three blocked exercise sets of six problems each — **net present value (NPV)**, **internal rate of return (IRR)** and **payback period**. Trainees do well on each set but mix the methods up in case-study exams.
 
@@ -458,7 +458,7 @@ flowchart TD
     class F good
 ```
 
-### Case study: triage training on an IT service desk
+### Case study (illustrative): triage training on an IT service desk
 
 - **Situation:** a managed-services firm trained new service-desk analysts in a two-week course organised by ticket category — a day on access problems, a day on networking, a day on email, a day on security incidents.
 - **Problem:** in their first month, analysts frequently **misrouted** tickets. A suspected phishing report was treated as an email-delivery fault; a VPN issue was handled as a password problem. Each misroute cost time and, in security cases, risk.

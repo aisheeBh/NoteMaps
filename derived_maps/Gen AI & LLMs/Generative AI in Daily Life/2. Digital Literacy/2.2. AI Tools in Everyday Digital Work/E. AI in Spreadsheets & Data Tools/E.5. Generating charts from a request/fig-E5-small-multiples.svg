@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Six series as one tangled chart and as small multiples</title>
+  <desc>Left: one line chart with six overlapping lines for six regions over twelve months, hard to follow. Right: a grid of six small charts, one per region, each with the same axes and a direct label, making each region's trend easy to see: for example Online rising and North falling.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">One tangled chart versus small multiples</text>
+  <text x="230.0" y="84" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">One chart, six lines</text>
+  <line x1="50" y1="440" x2="410" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="50" y1="440" x2="50" y2="120" stroke="#222222" stroke-width="2"/>
+  <path d="M50.0 383.5 L82.7 384.1 L115.5 375.7 L148.2 396.1 L180.9 399.0 L213.6 400.6 L246.4 419.0 L279.1 411.9 L311.8 412.2 L344.5 410.9 L377.3 439.6 L410.0 436.7" fill="none" stroke="#222222" stroke-width="2"/>
+  <path d="M50.0 372.8 L82.7 346.3 L115.5 348.9 L148.2 370.2 L180.9 335.9 L213.6 335.0 L246.4 344.4 L279.1 344.3 L311.8 358.9 L344.5 362.4 L377.3 343.0 L410.0 357.9" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="10 6"/>
+  <path d="M50.0 346.1 L82.7 338.5 L115.5 340.0 L148.2 319.1 L180.9 314.1 L213.6 294.2 L246.4 299.7 L279.1 289.6 L311.8 288.7 L344.5 277.2 L377.3 278.6 L410.0 279.0" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="2 4"/>
+  <path d="M50.0 294.6 L82.7 296.2 L115.5 303.0 L148.2 309.1 L180.9 324.3 L213.6 328.7 L246.4 328.1 L279.1 337.2 L311.8 314.3 L344.5 328.6 L377.3 314.4 L410.0 332.0" fill="none" stroke="#222222" stroke-width="2"/>
+  <path d="M50.0 272.7 L82.7 273.7 L115.5 300.3 L148.2 290.1 L180.9 262.8 L213.6 275.2 L246.4 254.5 L279.1 271.9 L311.8 280.4 L344.5 258.0 L377.3 249.9 L410.0 264.8" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="10 6"/>
+  <path d="M50.0 279.9 L82.7 262.6 L115.5 231.8 L148.2 230.3 L180.9 243.9 L213.6 230.7 L246.4 227.0 L279.1 219.7 L311.8 185.3 L344.5 198.2 L377.3 176.1 L410.0 171.3" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="230.0" y="464" text-anchor="middle" font-size="14" fill="#111111">Months 1–12</text>
+  <text x="700" y="92" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Small multiples, shared axes</text>
+  <rect x="470" y="120" width="150" height="130" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="478" y="140" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">North</text>
+  <path d="M478.0 225.0 L490.2 225.2 L502.4 222.7 L514.5 228.8 L526.7 229.7 L538.9 230.2 L551.1 235.7 L563.3 233.6 L575.5 233.7 L587.6 233.3 L599.8 241.9 L612.0 241.0" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <rect x="635" y="120" width="150" height="130" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="643" y="140" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">South</text>
+  <path d="M643.0 221.9 L655.2 213.9 L667.4 214.7 L679.5 221.1 L691.7 210.8 L703.9 210.5 L716.1 213.3 L728.3 213.3 L740.5 217.7 L752.6 218.7 L764.8 212.9 L777.0 217.4" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <rect x="800" y="120" width="150" height="130" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="808" y="140" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">East</text>
+  <path d="M808.0 213.8 L820.2 211.5 L832.4 212.0 L844.5 205.7 L856.7 204.2 L868.9 198.3 L881.1 199.9 L893.3 196.9 L905.5 196.6 L917.6 193.2 L929.8 193.6 L942.0 193.7" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <rect x="470" y="285" width="150" height="130" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="478" y="305" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">West</text>
+  <path d="M478.0 363.4 L490.2 363.8 L502.4 365.9 L514.5 367.7 L526.7 372.3 L538.9 373.6 L551.1 373.4 L563.3 376.2 L575.5 369.3 L587.6 373.6 L599.8 369.3 L612.0 374.6" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <rect x="635" y="285" width="150" height="130" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="643" y="305" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">Central</text>
+  <path d="M643.0 356.8 L655.2 357.1 L667.4 365.1 L679.5 362.0 L691.7 353.8 L703.9 357.6 L716.1 351.4 L728.3 356.6 L740.5 359.1 L752.6 352.4 L764.8 350.0 L777.0 354.4" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <rect x="800" y="285" width="150" height="130" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="808" y="305" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">Online</text>
+  <path d="M808.0 359.0 L820.2 353.8 L832.4 344.5 L844.5 344.1 L856.7 348.2 L868.9 344.2 L881.1 343.1 L893.3 340.9 L905.5 330.6 L917.6 334.4 L929.8 327.8 L942.0 326.4" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <text x="700" y="470" text-anchor="middle" font-size="14" fill="#111111">Each panel: months 1–12; same vertical scale</text>
+  <text x="480.0" y="525" text-anchor="middle" font-size="13" fill="#333333">Illustrative data.</text>
+</svg>

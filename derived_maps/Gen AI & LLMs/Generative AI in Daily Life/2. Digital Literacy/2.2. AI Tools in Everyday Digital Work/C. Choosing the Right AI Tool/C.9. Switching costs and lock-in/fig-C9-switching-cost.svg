@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Components of switching cost</title>
+  <desc>Horizontal bar chart of one-off switching costs for a twelve-person team: productivity dip 4,200 pounds; recreating custom assistants 4,000; rebuilding workflows 3,600; training 2,400; re-testing 2,000; overlap in subscriptions 600; re-indexing documents 400. Total 17,200 pounds.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where the cost of switching comes from</text>
+  <text x="278.0" y="103.0" text-anchor="end" font-size="15" fill="#111111">Productivity dip</text>
+  <rect x="290.0" y="80.0" width="470.0" height="36.0" rx="3" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="770.0" y="103.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">£4,200</text>
+  <text x="278.0" y="157.0" text-anchor="end" font-size="15" fill="#111111">Recreating assistants</text>
+  <rect x="290.0" y="134.0" width="447.6" height="36.0" rx="3" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="747.6" y="157.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">£4,000</text>
+  <text x="278.0" y="211.0" text-anchor="end" font-size="15" fill="#111111">Rebuilding workflows</text>
+  <rect x="290.0" y="188.0" width="402.9" height="36.0" rx="3" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="702.9" y="211.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">£3,600</text>
+  <text x="278.0" y="265.0" text-anchor="end" font-size="15" fill="#111111">Training staff</text>
+  <rect x="290.0" y="242.0" width="268.6" height="36.0" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="568.6" y="265.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">£2,400</text>
+  <text x="278.0" y="319.0" text-anchor="end" font-size="15" fill="#111111">Re-testing on golden set</text>
+  <rect x="290.0" y="296.0" width="223.8" height="36.0" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="523.8" y="319.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">£2,000</text>
+  <text x="278.0" y="373.0" text-anchor="end" font-size="15" fill="#111111">Paying for both</text>
+  <rect x="290.0" y="350.0" width="67.1" height="36.0" rx="3" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <text x="367.1" y="373.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">£600</text>
+  <text x="278.0" y="427.0" text-anchor="end" font-size="15" fill="#111111">Re-indexing documents</text>
+  <rect x="290.0" y="404.0" width="44.8" height="36.0" rx="3" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <text x="344.8" y="427.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">£400</text>
+  <text x="480.0" y="480.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Total one-off cost: £17,200 for a team of twelve</text>
+  <text x="480.0" y="515.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Illustrative figures from the worked example; time valued at £50 an hour.</text>
+</svg>
