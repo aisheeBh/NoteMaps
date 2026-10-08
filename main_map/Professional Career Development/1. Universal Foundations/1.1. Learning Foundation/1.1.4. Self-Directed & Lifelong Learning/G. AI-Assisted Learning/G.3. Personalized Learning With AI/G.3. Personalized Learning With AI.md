@@ -212,7 +212,7 @@ flowchart TD
 - **Earlier evidence** — Diana Cordova and Mark Lepper (1996) found that personalising and contextualising a maths learning game increased both motivation and learning.
 - **Generative AI** makes such rewriting effortless, so the main questions become **quality** (is the mathematics still right?) and **relevance** (is the context genuinely illuminating or merely decorative?).
 
-> **Example:** a nurse learning statistics asks for every example to be set in ward data — infection rates, length of stay, medication errors. The concepts are identical; the familiar setting frees attention for the statistical idea itself.
+> **Example (illustrative):** a nurse learning statistics asks for every example to be set in ward data — infection rates, length of stay, medication errors. The concepts are identical; the familiar setting frees attention for the statistical idea itself.
 
 > **Watch out:** context personalisation helps when the context makes the **structure** of the problem clearer; it hurts when it adds seductive detail or when the learner later fails to recognise the same structure in an unfamiliar setting. Vary contexts once the idea is grasped.
 
@@ -320,7 +320,7 @@ flowchart TD
 | Weakness | Rewards easy, popular content | Needs good assessment items |
 | Evidence of learning | Rarely measured | Built into the loop |
 
-### Case study: adaptive compliance training in a bank
+### Case study (illustrative): adaptive compliance training in a bank
 
 - **Situation:** a bank required 8,000 staff to complete four hours of annual anti-money-laundering training; completion was high, but internal audits kept finding the same errors in suspicious-activity reporting.
 - **Problem:** experienced staff resented repeating known material and clicked through; newer staff passed the end quiz by recognition without understanding the reporting thresholds.

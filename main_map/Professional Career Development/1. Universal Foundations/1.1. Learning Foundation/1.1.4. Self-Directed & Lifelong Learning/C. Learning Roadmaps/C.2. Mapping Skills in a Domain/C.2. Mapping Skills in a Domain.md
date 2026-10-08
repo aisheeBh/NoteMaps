@@ -402,7 +402,7 @@ quadrantChart
 
 ---
 
-## Worked Example: Mapping a Pricing Analyst Role
+## Worked Example (illustrative): Mapping a Pricing Analyst Role
 
 - **Situation:** Leila, a finance graduate, wants to become a pricing analyst in a retail company.
 
@@ -425,6 +425,8 @@ quadrantChart
 | Competitor price monitoring | 3 | 4 | 2 | 24 | Important |
 | Building dashboards | 2 | 3 | 2 | 12 | Peripheral |
 
+*Illustrative figures.*
+
 6. **Relate** — elasticity estimation *requires* data preparation and basic regression; price-test design *requires* elasticity concepts; dashboards merely *co-occur*.
 7. **Validate** — one practitioner points out a missing glue skill: **judging when a data anomaly is a real market signal** versus a data error. It is added under analytical methods.
 
@@ -434,7 +436,7 @@ quadrantChart
 
 ---
 
-## Case Study: A DACUM Workshop for Customer Success Managers
+## Case Study (illustrative): A DACUM Workshop for Customer Success Managers
 
 - **Situation:** a software company had grown its customer-success team from five to sixty people in three years. New managers were trained on the product and the customer-relationship system, then left to learn the rest.
 - **Problem:**

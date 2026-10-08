@@ -329,7 +329,7 @@ Systems thinking is most useful when applied quickly and concretely.
 8. **Predict** what should happen, and over what period, if the model is right.
 9. **Test** the change and compare the result with the prediction.
 
-**Worked example in brief: the stalled language learner**
+**Worked example in brief (illustrative): the stalled language learner**
 
 - **Behaviour:** vocabulary review takes longer each month; speaking has not improved.
 - **Stocks:** review queue (rising), speaking skill (flat), motivation (falling).
@@ -357,9 +357,9 @@ Systems thinking is most useful when applied quickly and concretely.
 
 ---
 
-## Case Study: The Study Spiral
+## Case Study (illustrative): The Study Spiral
 
-### Case study: an operations manager breaks a balancing loop
+### Case study (illustrative): an operations manager breaks a balancing loop
 
 - **Situation:** an operations manager preparing for a supply-chain certification while running a distribution centre.
 - **Problem:** practice-exam scores fell from 68% to 59% over six weeks despite study hours rising from 6 to 12 a week.

@@ -49,7 +49,7 @@ One historian works with a paper notebook, index cards and a wall calendar, and 
 
 > **Definition — Accidental complexity:** complexity added by the way the system is built, which could be removed without loss.
 
-> **Example:** a pharmacologist's need to retain thousands of interactions is **essential**; three overlapping tag systems in her notes are **accidental**.
+> **Example (illustrative):** a pharmacologist's need to retain thousands of interactions is **essential**; three overlapping tag systems in her notes are **accidental**.
 
 | Learner | Essential complexity | Typical accidental complexity | Remedy |
 |---|---|---|---|
@@ -339,7 +339,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Should a Researcher Automate Highlight Import?
+## Worked Example (illustrative): Should a Researcher Automate Highlight Import?
 
 A health-economics researcher reads about **30 papers a month**, highlighting each. She currently copies highlights by hand into her notes, taking about **8 minutes a paper**. An automation would import highlights directly.
 
@@ -366,9 +366,9 @@ A health-economics researcher reads about **30 papers a month**, highlighting ea
 
 ---
 
-## Case Study: The Doctoral Researcher Who Simplified
+## Case Study (illustrative): The Doctoral Researcher Who Simplified
 
-### Case study: from forty plug-ins to four tools
+### Case study (illustrative): from forty plug-ins to four tools
 
 - **Situation:** a second-year doctoral student in sociology, studying migration and labour markets.
 - **Problem:** her linked-notes system had grown to forty plug-ins, a dozen templates, three tagging schemes and several automations; she spent an estimated **six hours a week** on maintenance and reorganisation; her literature review was a year behind schedule.
@@ -387,7 +387,7 @@ A health-economics researcher reads about **30 papers a month**, highlighting ea
 - **Side effects:** she missed some automatic connections the graph had shown, and occasionally searched longer for a note; she judged the trade worthwhile.
 - **Lesson:** the system was not too complex for the **work** — research does need some complexity — but far too complex for the **essential** demands. Removing accidental complexity returned time to learning and writing.
 
-> **Example — the opposite case:** a clinical pharmacologist began with a notebook and found she could not retain the thousands of interactions her work demanded. Adding a spaced-repetition scheduler and a structured reference database — a move from minimal to moderate complexity — reduced her look-up errors. Her demand had **requisite variety** that a notebook could not meet.
+> **Example (illustrative) — the opposite case:** a clinical pharmacologist began with a notebook and found she could not retain the thousands of interactions her work demanded. Adding a spaced-repetition scheduler and a structured reference database — a move from minimal to moderate complexity — reduced her look-up errors. Her demand had **requisite variety** that a notebook could not meet.
 
 ---
 

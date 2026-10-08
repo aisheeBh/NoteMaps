@@ -154,7 +154,7 @@ flowchart TD
 
 > **Formula — Risk priority number:** RPN = S × O × D, each scored 1–10. Example: severity 9, occurrence 3, detection 8 → RPN = 9 × 3 × 8 = **216**.
 
-### Worked example: an FMEA of a product analyst's system
+### Worked example (illustrative): an FMEA of a product analyst's system
 
 | Failure mode | Effect | S | O | D | RPN | Countermeasure |
 |---|---|---|---|---|---|---|
@@ -163,6 +163,8 @@ flowchart TD
 | Morning slot lost to new meeting pattern | Routine collapses | 7 | 5 | 4 | 140 | Second anchor on the commute; minimum version |
 | Notes app raises price sharply | Forced migration | 5 | 4 | 2 | 40 | Plain-text export each quarter |
 | Motivation collapses after failed exam | System abandoned | 8 | 3 | 6 | 144 | Pre-written recovery protocol; mentor check-in |
+
+*Illustrative figures.*
 
 1. **Ranking by RPN:** device loss (216) → motivation collapse (144) → slot loss (140) → review backlog (126) → price rise (40).
 2. **Insight:** the highest risk is **not the most likely** failure but a rare, severe and **silent** one — data loss is not noticed until it is too late.
@@ -359,9 +361,9 @@ stateDiagram-v2
 
 ---
 
-## Case Study: The Consultant's Crunch and the Stolen Laptop
+## Case Study (illustrative): The Consultant's Crunch and the Stolen Laptop
 
-### Case study: rebuilding a system to survive
+### Case study (illustrative): rebuilding a system to survive
 
 - **Situation:** a strategy consultant learning financial modelling and the energy sector alongside client work.
 - **Problem:** a three-week crunch stopped her routine; her review queue reached over 900 overdue items; days later her laptop was stolen, taking two years of notes held only in one desktop application. Four months passed before she learned regularly again.

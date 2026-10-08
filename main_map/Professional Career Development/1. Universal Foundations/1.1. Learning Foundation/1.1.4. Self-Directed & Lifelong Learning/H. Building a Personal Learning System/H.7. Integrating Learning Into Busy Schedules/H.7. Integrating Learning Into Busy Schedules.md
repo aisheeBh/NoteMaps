@@ -326,7 +326,7 @@ quadrantChart
 
 ---
 
-## Worked Example: Three Hours a Week for a New Manager
+## Worked Example (illustrative): Three Hours a Week for a New Manager
 
 The engineering manager from the opening wants to learn people management and budgeting. Her realistic ceiling is **about three hours a week**.
 
@@ -374,9 +374,9 @@ The engineering manager from the opening wants to learn people management and bu
 
 ---
 
-## Case Study: A Nurse Completing a Master's Degree
+## Case Study (illustrative): A Nurse Completing a Master's Degree
 
-### Case study: integrating study with shift work and family
+### Case study (illustrative): integrating study with shift work and family
 
 - **Situation:** a senior staff nurse on rotating shifts began a part-time master's in advanced clinical practice, with two school-age children.
 - **Problem:** the course assumed about fifteen hours of study a week; her first term's plan of "study on days off" collapsed when days off were absorbed by family and extra shifts; she fell three assignments behind.

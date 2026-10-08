@@ -153,7 +153,7 @@ A compliance officer's card on a reporting threshold has stability **S = 10 days
 
 > **Watch out:** every unnecessary card is a **recurring cost** — reviewed for months or years. Over-production by AI is the commonest way an AI-assisted collection becomes unsustainable and is abandoned.
 
-### Worked example: from notes to cards
+### Worked example (illustrative): from notes to cards
 
 A data-protection officer's note reads: "Under the GDPR, a personal-data breach must be notified to the supervisory authority without undue delay and, where feasible, within 72 hours of becoming aware of it, unless it is unlikely to result in a risk to individuals."
 
@@ -310,7 +310,7 @@ When an AI can answer almost any factual question in seconds, the case for memor
 - **Spaced cases** — short clinical, legal or engineering cases that require recognising a learned pattern in new surface details.
 - **Spaced reading** — returning to key passages of an important document at intervals, a practice sometimes called incremental reading.
 
-> **Example:** a site-reliability engineer schedules five incident patterns — memory leak, cascading retry storm, expired certificate, DNS misconfiguration, noisy neighbour. On each review the AI writes a new short incident log, and she must name the likely pattern and the first two diagnostic steps.
+> **Example (illustrative):** a site-reliability engineer schedules five incident patterns — memory leak, cascading retry storm, expired certificate, DNS misconfiguration, noisy neighbour. On each review the AI writes a new short incident log, and she must name the likely pattern and the first two diagnostic steps.
 
 > **Watch out:** spaced problems and explanations are harder to grade than flashcards, and AI grading of them is less reliable. Keep the reference answer, or key points, attached to each item, and spot-check the AI's judgements.
 
@@ -376,7 +376,7 @@ flowchart TD
 
 > **Watch out:** most abandoned spaced-repetition systems fail through **workload**, not through poor scheduling. The strongest protections are a cap on new items and a willingness to delete.
 
-### Case study: a pharmacology revision programme
+### Case study (illustrative): a pharmacology revision programme
 
 - **Situation:** a hospital pharmacy department wanted junior pharmacists to retain high-risk drug information — doses, interactions, monitoring thresholds — after induction.
 - **Old approach:** a printed handbook and an annual quiz; quiz scores were high immediately after induction and much lower six months later.

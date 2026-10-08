@@ -234,7 +234,7 @@ The flow audit asks what happens to things after they enter the system.
 - **Affect inventory** — which activities are enjoyed, which are dreaded, which are done only out of guilt.
   - Enjoyed activities are cheap to sustain; dreaded ones need redesign or a smaller dose.
 
-> **Example:** a sales manager finds she learns best between 7 and 8 a.m. but schedules learning at 9 p.m. "because mornings are for email". The audit's most valuable finding is not a technique but a **timing swap**.
+> **Example (illustrative):** a sales manager finds she learns best between 7 and 8 a.m. but schedules learning at 9 p.m. "because mornings are for email". The audit's most valuable finding is not a technique but a **timing swap**.
 
 ---
 
@@ -354,7 +354,7 @@ quadrantChart
 
 ---
 
-## Worked Example: A Two-Week Audit of a Product Manager
+## Worked Example (illustrative): A Two-Week Audit of a Product Manager
 
 A product manager at a fintech firm believes he spends "about eight hours a week" learning about payments regulation and product analytics. He audits for two weeks.
 
@@ -371,7 +371,9 @@ A product manager at a fintech firm believes he spends "about eight hours a week
 | Practice or application | 0.5 | 0.1 | Rarely |
 | **Total** | **8.0** | **5.2** | — |
 
-**Figure 5.** Estimated compared with logged weekly learning hours in the worked example.
+*Illustrative figures.*
+
+**Figure 5.** Estimated compared with logged weekly learning hours in the worked example. (illustrative)
 
 ![Figure 5. Estimated compared with logged weekly learning hours in the worked example](fig-H2-estimate-vs-log.svg)
 
@@ -428,9 +430,9 @@ A product manager at a fintech firm believes he spends "about eight hours a week
 
 ---
 
-## Case Study: The Busy Partner Who Was Not Learning
+## Case Study (illustrative): The Busy Partner Who Was Not Learning
 
-### Case study: an audit in an accounting firm
+### Case study (illustrative): an audit in an accounting firm
 
 - **Situation:** a newly promoted audit partner needed to master sustainability reporting standards within a year to lead new engagements.
 - **Problem:** after six months he described himself as "reading constantly" but could not lead a client conversation on the topic without a specialist present.

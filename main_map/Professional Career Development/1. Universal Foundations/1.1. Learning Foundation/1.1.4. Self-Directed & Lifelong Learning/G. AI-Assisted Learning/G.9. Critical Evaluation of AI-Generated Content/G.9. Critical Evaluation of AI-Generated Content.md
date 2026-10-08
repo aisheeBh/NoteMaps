@@ -235,6 +235,8 @@ flowchart TD
 | Summary of a new regulation for a client | 3 | 2 | 3 | 8 | Full TRACE and expert review |
 | Code for a payment calculation | 3 | 2 | 1 | 6 | Tests, review, recomputed examples |
 
+*Illustrative figures.*
+
 > **Formula — Verification priority (heuristic):** priority = stakes + error likelihood + difficulty of later detection, each scored 1–3. Totals of 7–9 call for full verification and expert review; 3–4 for a glance. Example: 3 + 2 + 3 = **8**, full review.
 
 > **Watch out:** this is a practical heuristic, not a validated instrument. Its value lies in forcing an explicit decision instead of a habit of either checking nothing or checking everything.
@@ -259,7 +261,7 @@ quadrantChart
     Trivia for a quiz night: [0.70, 0.15]
 ```
 
-### Worked example: checking a regulatory claim
+### Worked example (illustrative): checking a regulatory claim
 
 A learning-and-development manager asks an assistant whether a planned tool that reads trainees' facial expressions to gauge engagement is lawful in the European Union. The answer: "The EU AI Act bans all emotion-recognition systems."
 
@@ -359,7 +361,7 @@ Learners increasingly receive feedback from AI on drafts, code, designs and pres
 - **Customer-facing AI** — in *Moffatt v Air Canada* (2024), a Canadian tribunal held the airline responsible for incorrect refund information given by its website chatbot, rejecting the argument that the chatbot was responsible for its own statements.
 - **Professional codes** — accountancy, legal, medical and engineering bodies increasingly state that members remain responsible for AI-assisted work.
 
-### Case study: a junior analyst's AI-assisted forecast
+### Case study (illustrative): a junior analyst's AI-assisted forecast
 
 - **Situation:** a junior analyst in a consumer-goods firm used an AI assistant to build a demand forecast for a product launch and to write the accompanying memo.
 - **Problem:** the memo cited an industry growth rate, a competitor's market share and a seasonal adjustment method; the forecast went to the leadership team.

@@ -331,7 +331,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Week-Twelve Review
+## Worked Example (illustrative): A Week-Twelve Review
 
 - **Situation:** Kofi, a graphic designer, is twelve weeks into a nine-month roadmap towards a junior user-experience (UX) research role. He holds his first quarterly review.
 
@@ -358,13 +358,15 @@ flowchart TD
 | Statistics share of time | About 25% | About 10% |
 | Destination | Junior UX researcher | Unchanged |
 
+*Illustrative figures.*
+
 - **Conclusion:** two modest changes — pace and route — aligned the roadmap with what practitioners actually value and with Kofi's real constraints.
 
 > **Watch out:** Kofi's first impulse was to drop research altogether and "go back to design" because statistics felt hard. Diagnosis showed the difficulty lay in a **component the destination barely needed**, not in the destination.
 
 ---
 
-## Case Study: Retargeting When the Field Moves
+## Case Study (illustrative): Retargeting When the Field Moves
 
 - **Situation:** Priya, a product manager at a software company, began a twelve-month roadmap to become a machine-learning engineer: programming depth, mathematics, model training and deployment.
 - **Month five:**

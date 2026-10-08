@@ -293,7 +293,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Building a First System in One Afternoon
+## Worked Example (illustrative): Building a First System in One Afternoon
 
 A financial analyst in a mid-sized firm wants to become competent in corporate valuation within a year. She has about **four hours a week** and has never designed her learning.
 
@@ -334,9 +334,9 @@ A financial analyst in a mid-sized firm wants to become competent in corporate v
 
 ---
 
-## Case Study: Three Years, One Evolving System
+## Case Study (illustrative): Three Years, One Evolving System
 
-### Case study: a hospital registrar builds and rebuilds
+### Case study (illustrative): a hospital registrar builds and rebuilds
 
 - **Situation:** a junior doctor beginning specialist training in respiratory medicine, working rotating shifts.
 - **Year 1 — first build:**

@@ -248,7 +248,7 @@ Researching to **learn** a field differs from researching to answer one question
 
 > **Definition — Concept map:** a diagram of concepts connected by labelled links that state their relationships, used to represent and test understanding of a domain (developed by Joseph Novak and colleagues from the 1970s).
 
-> **Example:** an HR business partner moving into people analytics asks for the skeleton of the field. She confirms three of the five "landmark studies" the AI lists, finds that one is a popular article rather than a study and that another is misdated, and adds two methods debates — on the ethics of employee monitoring and on causal inference from observational HR data — that the draft had missed.
+> **Example (illustrative):** an HR business partner moving into people analytics asks for the skeleton of the field. She confirms three of the five "landmark studies" the AI lists, finds that one is a popular article rather than a study and that another is misdated, and adds two methods debates — on the ethics of employee monitoring and on causal inference from observational HR data — that the draft had missed.
 
 ### Keeping up with a field
 
@@ -299,7 +299,7 @@ AI tools retrieve sources of very different quality and often present them with 
 
 > **In practice:** a **literature matrix** — one row per source, columns for question, sample, method, main result, limitations — is a powerful synthesis tool. AI can draft the rows from abstracts, but every cell used in a conclusion should be checked against the paper itself.
 
-### Worked example: auditing an AI summary
+### Worked example (illustrative): auditing an AI summary
 
 A product manager asks for a summary of a published trial of a workplace well-being programme and checks it against the paper.
 
@@ -310,6 +310,8 @@ A product manager asks for a summary of a published trial of a workplace well-be
 | "Productivity rose 12%." | 12% figure is from a separate company survey cited in the introduction | **Mis-attributed** |
 | "Effects lasted a year." | Follow-up was six months | **Wrong** |
 | "Authors recommend wide adoption." | Authors call for larger trials before adoption | **Reversed** |
+
+*Illustrative figures.*
 
 - **Verdict:** of five claims, one was accurate, one incomplete and three would have misled a decision.
 - **Time taken to audit:** about fifteen minutes with the paper open — far less than the cost of a wrong decision.
@@ -337,7 +339,7 @@ A product manager asks for a summary of a published trial of a workplace well-be
 
 > **Remember:** verify AI meeting summaries before they become the official record — especially actions, owners, deadlines and decisions — and read the source for anything that will be acted on.
 
-### Case study: a market scan built on a deep research tool
+### Case study (illustrative): a market scan built on a deep research tool
 
 - **Situation:** a strategy consultant was asked for a two-day scan of the European market for heat pumps and used a deep research agent to produce a 25-page cited report in under an hour.
 - **Problem:** in review, a partner found that the headline market-size figure came from an outdated forecast, a quoted growth rate was attributed to the wrong organisation, and one cited industry report could not be found.
