@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 550" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Intersection over union for two predicted boxes</title>
+  <desc>Left: true box from 30 to 70 and predicted box from 10 to 50 overlap in a 20 by 20 square; IoU is 400 divided by 2,800, about 0.14, counted wrong. Right: predicted box from 25 to 65 overlaps 35 by 35; IoU is 1,225 divided by 1,975, about 0.62, counted correct.</desc>
+
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">How much do the predicted and true boxes overlap?</text>
+  <rect x="70" y="70" width="336" height="336" fill="#FAFAFA" stroke="#BBBBBB" stroke-width="1"/>
+  <rect x="196" y="196" width="84" height="84" fill="url(#hatch)" stroke="none"/>
+  <rect x="196" y="196" width="168" height="168" fill="none" stroke="#1E5E24" stroke-width="4"/>
+  <rect x="112" y="112" width="168" height="168" fill="none" stroke="#8B0000" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="268" y="370" width="92" height="22" fill="#FFFFFF"/><text x="314" y="386" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">true box</text>
+  <rect x="116" y="86" width="96" height="22" fill="#FFFFFF"/><text x="164" y="102" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">predicted</text>
+  <rect x="202" y="226" width="72" height="22" fill="#FFFFFF"/><text x="238" y="242" text-anchor="middle" font-size="14" fill="#111111">overlap</text>
+  <text x="238" y="440" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Prediction A</text>
+  <text x="238" y="466" text-anchor="middle" font-size="16" fill="#111111">IoU = 400 / 2,800 = 0.14</text>
+  <text x="238" y="490" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">below 0.5: wrong</text>
+  <rect x="520" y="70" width="336" height="336" fill="#FAFAFA" stroke="#BBBBBB" stroke-width="1"/>
+  <rect x="646" y="196" width="147" height="147" fill="url(#hatch)" stroke="none"/>
+  <rect x="646" y="196" width="168" height="168" fill="none" stroke="#1E5E24" stroke-width="4"/>
+  <rect x="625" y="175" width="168" height="168" fill="none" stroke="#8B0000" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="718" y="370" width="92" height="22" fill="#FFFFFF"/><text x="764" y="386" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">true box</text>
+  <rect x="629" y="149" width="96" height="22" fill="#FFFFFF"/><text x="677" y="165" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">predicted</text>
+  <rect x="684" y="258" width="72" height="22" fill="#FFFFFF"/><text x="720" y="274" text-anchor="middle" font-size="14" fill="#111111">overlap</text>
+  <text x="688" y="440" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Prediction B</text>
+  <text x="688" y="466" text-anchor="middle" font-size="16" fill="#111111">IoU = 1,225 / 1,975 = 0.62</text>
+  <text x="688" y="490" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">0.5 or more: correct</text>
+  <text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Illustrative coordinates in pixels; IoU = overlap / (area of true box + area of prediction - overlap).</text>
+</svg>

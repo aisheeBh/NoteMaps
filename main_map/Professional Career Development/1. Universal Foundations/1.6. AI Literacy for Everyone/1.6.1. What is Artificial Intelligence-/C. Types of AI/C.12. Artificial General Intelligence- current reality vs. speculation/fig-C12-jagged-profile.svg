@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>An illustrative jagged ability profile</title>
+  <desc>Horizontal bars for ten cognitive domains against a dashed line marking a well-educated adult. Knowledge, reading and writing and mathematics approach or reach the line; reasoning, working memory and speed reach about half to two thirds; visual and auditory processing and memory retrieval reach about a third to two fifths; long-term memory storage is close to zero.</desc>
+
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Strong in some domains, near zero in others</text>
+  <text x="318" y="103" text-anchor="end" font-size="15" fill="#111111">General knowledge</text>
+  <rect x="330" y="80" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="80" width="450" height="34" fill="url(#hatch)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="147" text-anchor="end" font-size="15" fill="#111111">Reading and writing</text>
+  <rect x="330" y="124" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="124" width="475" height="34" fill="url(#hatch)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="191" text-anchor="end" font-size="15" fill="#111111">Mathematics</text>
+  <rect x="330" y="168" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="168" width="450" height="34" fill="url(#hatch)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="235" text-anchor="end" font-size="15" fill="#111111">On-the-spot reasoning</text>
+  <rect x="330" y="212" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="212" width="300" height="34" fill="url(#dots)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="279" text-anchor="end" font-size="15" fill="#111111">Working memory</text>
+  <rect x="330" y="256" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="256" width="275" height="34" fill="url(#dots)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="323" text-anchor="end" font-size="15" fill="#111111">Long-term memory storage</text>
+  <rect x="330" y="300" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="300" width="25" height="34" fill="url(#lines)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="367" text-anchor="end" font-size="15" fill="#111111">Memory retrieval</text>
+  <rect x="330" y="344" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="344" width="200" height="34" fill="url(#dots)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="411" text-anchor="end" font-size="15" fill="#111111">Visual processing</text>
+  <rect x="330" y="388" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="388" width="175" height="34" fill="url(#dots)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="455" text-anchor="end" font-size="15" fill="#111111">Auditory processing</text>
+  <rect x="330" y="432" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="432" width="200" height="34" fill="url(#dots)" stroke="#111111" stroke-width="1.5"/>
+  <text x="318" y="499" text-anchor="end" font-size="15" fill="#111111">Speed</text>
+  <rect x="330" y="476" width="500" height="34" fill="#F2F2F2" stroke="#CCCCCC"/>
+  <rect x="330" y="476" width="300" height="34" fill="url(#dots)" stroke="#111111" stroke-width="1.5"/>
+  <line x1="830" y1="70" x2="830" y2="520" stroke="#111111" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="830" y="542" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">well-educated adult</text>
+  <text x="330" y="542" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="480" y="568" text-anchor="middle" font-size="15" fill="#111111">Domains follow the Cattell-Horn-Carroll model of human abilities.</text>
+  <text x="480" y="592" text-anchor="middle" font-size="13" fill="#333333">Illustrative bar lengths showing the shape of profiles reported for 2025 models, not exact published scores.</text>
+</svg>

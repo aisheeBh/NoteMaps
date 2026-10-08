@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Reliability of a chain of components</title>
+  <desc>Line chart of whole-chain success against number of components from 1 to 10. With 99% reliable components the chain stays above 90%. With 95% components it falls to about 60% at ten. With 90% components it falls to about 35% at ten.</desc>
+
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Every added link multiplies the chance of failure</text>
+  <line x1="110" y1="420" x2="760" y2="420" stroke="#E0E0E0"/>
+  <text x="100" y="425" text-anchor="end" font-size="14" fill="#111111">0%</text>
+  <line x1="110" y1="338" x2="760" y2="338" stroke="#E0E0E0"/>
+  <text x="100" y="342" text-anchor="end" font-size="14" fill="#111111">25%</text>
+  <line x1="110" y1="255" x2="760" y2="255" stroke="#E0E0E0"/>
+  <text x="100" y="260" text-anchor="end" font-size="14" fill="#111111">50%</text>
+  <line x1="110" y1="172" x2="760" y2="172" stroke="#E0E0E0"/>
+  <text x="100" y="178" text-anchor="end" font-size="14" fill="#111111">75%</text>
+  <line x1="110" y1="90" x2="760" y2="90" stroke="#E0E0E0"/>
+  <text x="100" y="95" text-anchor="end" font-size="14" fill="#111111">100%</text>
+  <text x="110" y="442" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <text x="182" y="442" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <text x="254" y="442" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <text x="327" y="442" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <text x="399" y="442" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <text x="471" y="442" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <text x="543" y="442" text-anchor="middle" font-size="14" fill="#111111">7</text>
+  <text x="616" y="442" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <text x="688" y="442" text-anchor="middle" font-size="14" fill="#111111">9</text>
+  <text x="760" y="442" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <line x1="110" y1="420" x2="780" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="420" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="435" y="466" text-anchor="middle" font-size="16" fill="#111111">Number of components in the chain</text>
+  <text x="50" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 255)">Whole-chain success</text>
+  <path d="M110.0 93.3 L182.2 96.6 L254.4 99.8 L326.7 103.0 L398.9 106.2 L471.1 109.3 L543.3 112.4 L615.6 115.5 L687.8 118.5 L760.0 121.6" fill="none" stroke="#1F3B5C" stroke-width="4"  stroke-linecap="round"/>
+  <circle cx="110.0" cy="93.3" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="182.2" cy="96.6" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="254.4" cy="99.8" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="326.7" cy="103.0" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="398.9" cy="106.2" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="471.1" cy="109.3" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="543.3" cy="112.4" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="615.6" cy="115.5" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="687.8" cy="118.5" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="760.0" cy="121.6" r="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="786" y="106" width="170" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="794" y="124" font-size="15" font-weight="bold" fill="#111111">each part 99%</text>
+  <text x="794" y="143" font-size="14" fill="#111111">ten parts: 90%</text>
+  <path d="M110.0 106.5 L182.2 122.2 L254.4 137.1 L326.7 151.2 L398.9 164.7 L471.1 177.4 L543.3 189.5 L615.6 201.1 L687.8 212.0 L760.0 222.4" fill="none" stroke="#222222" stroke-width="3.5" stroke-dasharray="10 6" stroke-linecap="round"/>
+  <circle cx="110.0" cy="106.5" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="182.2" cy="122.2" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="254.4" cy="137.1" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="326.7" cy="151.2" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="398.9" cy="164.7" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="471.1" cy="177.4" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="543.3" cy="189.5" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="615.6" cy="201.1" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="687.8" cy="212.0" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <circle cx="760.0" cy="222.4" r="4" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="786" y="206" width="170" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="794" y="224" font-size="15" font-weight="bold" fill="#111111">each part 95%</text>
+  <text x="794" y="243" font-size="14" fill="#111111">ten parts: 60%</text>
+  <path d="M110.0 123.0 L182.2 152.7 L254.4 179.4 L326.7 203.5 L398.9 225.1 L471.1 244.6 L543.3 262.2 L615.6 277.9 L687.8 292.2 L760.0 304.9" fill="none" stroke="#8B0000" stroke-width="3.5" stroke-dasharray="2 5" stroke-linecap="round"/>
+  <circle cx="110.0" cy="123.0" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="182.2" cy="152.7" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="254.4" cy="179.4" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="326.7" cy="203.5" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="398.9" cy="225.1" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="471.1" cy="244.6" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="543.3" cy="262.2" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="615.6" cy="277.9" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="687.8" cy="292.2" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <circle cx="760.0" cy="304.9" r="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <rect x="786" y="289" width="170" height="44" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="794" y="307" font-size="15" font-weight="bold" fill="#111111">each part 90%</text>
+  <text x="794" y="326" font-size="14" fill="#111111">ten parts: 35%</text>
+  <text x="480" y="496" text-anchor="middle" font-size="15" fill="#111111">Checks between stages break the chain: an error caught early does not reach the output.</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Computed as p to the power n, assuming independent failures and no checks between stages.</text>
+</svg>
