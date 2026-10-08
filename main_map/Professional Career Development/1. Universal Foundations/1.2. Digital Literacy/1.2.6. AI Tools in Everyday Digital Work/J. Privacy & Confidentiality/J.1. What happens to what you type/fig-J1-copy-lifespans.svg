@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Copy lifespans</title>
+<desc>Horizontal bars on a logarithmic time scale from seconds to years showing typical lifespans of copies of one prompt: transit and inference seconds; on-screen draft minutes to hours; abuse-monitoring logs days to weeks; deleted chat awaiting purge up to about a month; backups weeks to months; conversation history until deleted, often indefinite; training datasets years.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">How long each copy of one prompt may last</text>
+<line x1="330.0" y1="96" x2="330.0" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="330.0" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">second</text>
+<line x1="457.96110711785667" y1="96" x2="457.96110711785667" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="457.96110711785667" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">minute</text>
+<line x1="585.9222142357133" y1="96" x2="585.9222142357133" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="585.9222142357133" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">hour</text>
+<line x1="685.2463625655159" y1="96" x2="685.2463625655159" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="685.2463625655159" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day</text>
+<line x1="746.0621569474749" y1="96" x2="746.0621569474749" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="746.0621569474749" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">week</text>
+<line x1="791.6407583779974" y1="96" x2="791.6407583779974" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="791.6407583779974" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">month</text>
+<line x1="869.6009590125766" y1="96" x2="869.6009590125766" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="869.6009590125766" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">year</text>
+<line x1="920.0" y1="96" x2="920.0" y2="486" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="920.0" y="508" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">5 years</text>
+<text x="316" y="140" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Transit and inference</text>
+<rect x="330.0" y="120" width="50.299981836591655" height="30" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="316" y="192" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Draft on screen</text>
+<rect x="436.2980840693192" y="172" width="183.95920935058416" height="30" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="316" y="244" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Abuse-monitoring logs</text>
+<rect x="706.9093856140532" y="224" width="89.45275317001324" height="30" rx="4" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="316" y="296" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Deleted chat before purge</text>
+<rect x="685.2463625655159" y="276" width="106.39439581248143" height="30" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="316" y="348" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Backups</text>
+<rect x="746.0621569474749" y="328" width="101.57670366324987" height="30" rx="4" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="316" y="400" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Conversation history</text>
+<rect x="585.9222142357133" y="380" width="330.2976373906873" height="30" rx="4" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="908.2198516264007" y="402" font-size="18" text-anchor="end" font-weight="bold" fill="#111111">...</text>
+<text x="316" y="452" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Training dataset</text>
+<rect x="869.6009590125766" y="432" width="50.399040987423405" height="30" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<text x="912.0" y="454" font-size="18" text-anchor="end" font-weight="bold" fill="#111111">...</text>
+<text x="480.0" y="540" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Schematic; typical ranges, varying by provider, plan, settings and legal obligations.</text>
+</svg>

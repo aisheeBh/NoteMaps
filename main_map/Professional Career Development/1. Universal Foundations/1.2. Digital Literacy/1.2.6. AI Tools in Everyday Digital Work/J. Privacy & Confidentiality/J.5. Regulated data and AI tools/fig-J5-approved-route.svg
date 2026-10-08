@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Approved route layers</title>
+<desc>Seven stacked layers from bottom to top: contract, configuration, access, data preparation, human review, records, monitoring and review. Together they make an AI route acceptable for regulated data. Failures most often occur in the middle layers.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The layers of an approved route for regulated data</text>
+<rect x="150" y="76" width="520" height="56" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="410.0" y="99.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#222222">Monitoring and review</text>
+<text x="410.0" y="119.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#222222">periodic checks, incident routes</text>
+<rect x="150" y="138" width="520" height="56" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="410.0" y="161.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Records</text>
+<text x="410.0" y="181.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">outputs saved in the system of record</text>
+<rect x="150" y="200" width="520" height="56" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="410.0" y="223.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Human review</text>
+<text x="410.0" y="243.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">qualified person checks before use</text>
+<rect x="150" y="262" width="520" height="56" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="270.0" y="266.5" width="280.0" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="410.0" y="285.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Data preparation</text>
+<text x="410.0" y="305.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">minimum necessary, de-identified</text>
+<rect x="150" y="324" width="520" height="56" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="274.125" y="328.5" width="271.75" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="410.0" y="347.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Access</text>
+<text x="410.0" y="367.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">sign-on, roles, leavers removed</text>
+<rect x="150" y="386" width="520" height="56" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="257.625" y="390.5" width="304.75" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="410.0" y="409.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Configuration</text>
+<text x="410.0" y="429.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">region, retention, connectors, logs</text>
+<rect x="150" y="448" width="520" height="56" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="410.0" y="471.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Contract</text>
+<text x="410.0" y="491.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#FFFFFF">regime agreement for the named service</text>
+<path d="M690 200 Q720 200 720 230 L720 370 Q720 400 690 400" fill="none" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="820" y="280.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Most failures</text>
+<text x="820" y="299.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">happen in these</text>
+<text x="820" y="319.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">middle layers</text>
+<text x="480.0" y="545" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Schematic.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Contract stack</title>
+<desc>Seven overlapping documents stacked: master agreement; data-processing agreement; sector addenda such as a business associate agreement; service-level agreement; acceptable-use policy; security reports and certifications; sub-processor list. Together they define an enterprise account's protections.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The documents behind an enterprise account</text>
+<rect x="80" y="80" width="420" height="64" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="290.0" y="107.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Master agreement</text>
+<text x="290.0" y="127.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#FFFFFF">fees, liability, termination</text>
+<rect x="130" y="136" width="420" height="64" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="340.0" y="163.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Data-processing agreement</text>
+<text x="340.0" y="183.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">purposes, security, transfers, deletion</text>
+<rect x="180" y="192" width="420" height="64" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="390.0" y="219.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Sector addenda</text>
+<text x="390.0" y="239.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">e.g. business associate agreement</text>
+<rect x="230" y="248" width="420" height="64" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="440.0" y="275.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Service-level agreement</text>
+<text x="440.0" y="295.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">availability, support</text>
+<rect x="280" y="304" width="420" height="64" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="490.0" y="331.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Acceptable-use policy</text>
+<text x="490.0" y="351.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">what users may not do</text>
+<rect x="330" y="360" width="420" height="64" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="420.625" y="368.5" width="238.75000000000003" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="540.0" y="387.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Security reports</text>
+<text x="540.0" y="407.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">SOC 2, ISO 27001, ISO 42001</text>
+<rect x="380" y="416" width="420" height="64" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="450.0" y="424.5" width="280.0" height="47.0" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="590.0" y="443.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Sub-processor list</text>
+<text x="590.0" y="463.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">who else handles data, and where</text>
+<text x="820" y="230.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Confidentiality</text>
+<text x="820" y="252.1" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">is decided here,</text>
+<text x="820" y="274.2" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">not by the</text>
+<text x="820" y="296.3" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">model's quality</text>
+</svg>

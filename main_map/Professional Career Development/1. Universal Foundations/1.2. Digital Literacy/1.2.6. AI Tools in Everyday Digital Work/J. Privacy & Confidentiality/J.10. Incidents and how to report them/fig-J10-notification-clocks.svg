@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Notification clocks</title>
+<desc>A logarithmic time axis from 1 hour to 90 days after awareness, with markers: employee report ideally within the first hour; NIS2 early warning at 24 hours; GDPR regulator notification at 72 hours; SEC disclosure four business days after materiality determination (about 4 to 6 days); NIS2 final report about one month; HIPAA individual notice no later than 60 days.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Selected deadlines after an organisation becomes aware</text>
+<line x1="80" y1="300" x2="900" y2="300" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="80.0" y1="292" x2="80.0" y2="308" stroke="#222222" stroke-width="2"/>
+<text x="80.0" y="330" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">1 hour</text>
+<line x1="419.4178785094471" y1="292" x2="419.4178785094471" y2="308" stroke="#222222" stroke-width="2"/>
+<text x="419.4178785094471" y="330" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">1 day</text>
+<line x1="627.2421413508494" y1="292" x2="627.2421413508494" y2="308" stroke="#222222" stroke-width="2"/>
+<text x="627.2421413508494" y="330" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">1 week</text>
+<line x1="782.6676097291554" y1="292" x2="782.6676097291554" y2="308" stroke="#222222" stroke-width="2"/>
+<text x="782.6676097291554" y="330" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">30 days</text>
+<line x1="900.0" y1="292" x2="900.0" y2="308" stroke="#222222" stroke-width="2"/>
+<text x="900.0" y="330" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">90 days</text>
+<line x1="80.0" y1="300" x2="80.0" y2="190" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<circle cx="80.0" cy="300" r="7" fill="#111111"/>
+<rect x="30" y="120" width="160" height="70" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="110.0" y="151.10000000000002" font-size="13" text-anchor="middle" font-weight="bold" fill="#000000">Employee reports</text>
+<text x="110.0" y="168.00000000000003" font-size="13" text-anchor="middle" font-weight="normal" fill="#000000">ideally within the hour</text>
+<line x1="419.4178785094471" y1="300" x2="419.4178785094471" y2="370" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<circle cx="419.4178785094471" cy="300" r="7" fill="#111111"/>
+<rect x="339.4178785094471" y="370" width="160" height="70" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="419.4178785094471" y="401.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#000000">NIS2 early warning</text>
+<text x="419.4178785094471" y="418.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#000000">24 hours</text>
+<line x1="536.7502687802919" y1="300" x2="536.7502687802919" y2="190" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<circle cx="536.7502687802919" cy="300" r="7" fill="#111111"/>
+<rect x="456.7502687802919" y="120" width="160" height="70" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="536.7502687802919" y="151.10000000000002" font-size="13" text-anchor="middle" font-weight="bold" fill="#FFFFFF">GDPR: regulator</text>
+<text x="536.7502687802919" y="168.00000000000003" font-size="13" text-anchor="middle" font-weight="normal" fill="#FFFFFF">72 hours</text>
+<line x1="591.3067233787764" y1="300" x2="591.3067233787764" y2="370" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<circle cx="591.3067233787764" cy="300" r="7" fill="#111111"/>
+<rect x="511.3067233787764" y="370" width="160" height="70" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="519.3067233787764" y="375.65" width="144" height="58.7" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="591.3067233787764" y="392.65000000000003" font-size="13" text-anchor="middle" font-weight="bold" fill="#111111">SEC: material</text>
+<text x="591.3067233787764" y="409.55" font-size="13" text-anchor="middle" font-weight="bold" fill="#111111">incident</text>
+<text x="591.3067233787764" y="426.45000000000005" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111">4 business days after</text>
+<line x1="782.6676097291554" y1="300" x2="782.6676097291554" y2="190" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<circle cx="782.6676097291554" cy="300" r="7" fill="#111111"/>
+<rect x="702.6676097291554" y="120" width="160" height="70" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="782.6676097291554" y="151.10000000000002" font-size="13" text-anchor="middle" font-weight="bold" fill="#000000">NIS2 final report</text>
+<text x="782.6676097291554" y="168.00000000000003" font-size="13" text-anchor="middle" font-weight="normal" fill="#000000">about one month</text>
+<line x1="856.6961058086895" y1="300" x2="856.6961058086895" y2="370" stroke="#333333" stroke-width="1.5" stroke-dasharray="2 4"/>
+<circle cx="856.6961058086895" cy="300" r="7" fill="#111111"/>
+<rect x="770" y="370" width="160" height="70" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="778.0" y="384.1" width="144" height="41.800000000000004" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="850.0" y="401.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#111111">HIPAA: individuals</text>
+<text x="850.0" y="418.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111">no later than 60 days</text>
+<text x="480.0" y="500" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Simplified; each deadline has its own trigger and conditions. Contracts may require faster notice.</text>
+</svg>
