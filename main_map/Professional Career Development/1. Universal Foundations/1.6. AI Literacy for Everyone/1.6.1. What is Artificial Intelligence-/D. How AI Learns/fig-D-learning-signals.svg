@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A spectrum of learning signals</title>
+  <desc>Five kinds of learning signal arranged from most human guidance per example to least: hand-written rules, supervised learning with labels, learning from human preference ratings, reinforcement learning from rewards, and self-supervised and unsupervised learning from raw data. An arrow beneath shows that data volume typically rises as guidance per example falls.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Where the learning signal comes from</text>
+  <line x1="60" y1="90" x2="900" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="60" y="78" font-size="15" fill="#111111">More human guidance per example</text>
+  <text x="900" y="78" font-size="15" fill="#111111" text-anchor="end">Less human guidance per example</text>
+  <rect x="40" y="120" width="164" height="230" fill="#E6E6E6" stroke="#222222" stroke-width="2"/>
+  <rect x="50" y="134" width="144" height="202" fill="#FFFFFF"/>
+  <text x="122" y="166" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Rules written</text>
+  <text x="122" y="188" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">by people</text>
+  <text x="122" y="236" font-size="15" fill="#111111" text-anchor="middle">No learning:</text>
+  <text x="122" y="258" font-size="15" fill="#111111" text-anchor="middle">logic supplied</text>
+  <rect x="218" y="120" width="164" height="230" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="228" y="134" width="144" height="202" fill="#FFFFFF"/>
+  <text x="300" y="166" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Supervised</text>
+  <text x="300" y="188" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">learning</text>
+  <text x="300" y="236" font-size="15" fill="#111111" text-anchor="middle">Signal: correct</text>
+  <text x="300" y="258" font-size="15" fill="#111111" text-anchor="middle">answer per example</text>
+  <rect x="396" y="120" width="164" height="230" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+  <rect x="406" y="134" width="144" height="202" fill="#FFFFFF"/>
+  <text x="478" y="166" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Learning from</text>
+  <text x="478" y="188" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">human feedback</text>
+  <text x="478" y="236" font-size="15" fill="#111111" text-anchor="middle">Signal: people</text>
+  <text x="478" y="258" font-size="15" fill="#111111" text-anchor="middle">rank outputs</text>
+  <rect x="574" y="120" width="164" height="230" fill="url(#cross)" stroke="#222222" stroke-width="2"/>
+  <rect x="584" y="134" width="144" height="202" fill="#FFFFFF"/>
+  <text x="656" y="166" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Reinforcement</text>
+  <text x="656" y="188" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">learning</text>
+  <text x="656" y="236" font-size="15" fill="#111111" text-anchor="middle">Signal: reward</text>
+  <text x="656" y="258" font-size="15" fill="#111111" text-anchor="middle">after actions</text>
+  <rect x="752" y="120" width="164" height="230" fill="url(#lines)" stroke="#222222" stroke-width="2"/>
+  <rect x="762" y="134" width="144" height="202" fill="#FFFFFF"/>
+  <text x="834" y="166" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Self-supervised and</text>
+  <text x="834" y="188" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">unsupervised</text>
+  <text x="834" y="236" font-size="15" fill="#111111" text-anchor="middle">Signal: structure</text>
+  <text x="834" y="258" font-size="15" fill="#111111" text-anchor="middle">of the data itself</text>
+  <text x="122" y="300" font-size="14" fill="#111111" text-anchor="middle">e.g. Tax rules</text>
+  <text x="122" y="320" font-size="14" fill="#111111" text-anchor="middle">engine</text>
+  <text x="300" y="300" font-size="14" fill="#111111" text-anchor="middle">e.g. Spam filter,</text>
+  <text x="300" y="320" font-size="14" fill="#111111" text-anchor="middle">price model</text>
+  <text x="478" y="300" font-size="14" fill="#111111" text-anchor="middle">e.g. Chat assistant</text>
+  <text x="478" y="320" font-size="14" fill="#111111" text-anchor="middle">tuning</text>
+  <text x="656" y="300" font-size="14" fill="#111111" text-anchor="middle">e.g. Game-playing,</text>
+  <text x="656" y="320" font-size="14" fill="#111111" text-anchor="middle">robot control</text>
+  <text x="834" y="300" font-size="14" fill="#111111" text-anchor="middle">e.g. Language model</text>
+  <text x="834" y="320" font-size="14" fill="#111111" text-anchor="middle">pre-training</text>
+  <line x1="60" y1="400" x2="900" y2="400" stroke="#333333" stroke-width="2" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="480" y="430" font-size="16" fill="#111111" text-anchor="middle">Typical amount of data used rises towards the right</text>
+  <rect x="80" y="456" width="800" height="70" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="480" y="482" font-size="15" fill="#111111" text-anchor="middle">Modern systems often combine several signals: a language model learns first from raw text,</text>
+  <text x="480" y="504" font-size="15" fill="#111111" text-anchor="middle">then from labelled examples, then from people's preference ratings.</text>
+  <text x="480" y="560" font-size="13" fill="#333333" text-anchor="middle">Schematic; positions along the spectrum are approximate.</text>
+</svg>

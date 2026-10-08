@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Reusing a pre-trained network for a new task</title>
+  <desc>Top row: a network trained on millions of everyday photographs, with general early layers, more specific later layers and an output for a thousand everyday categories. Bottom row: the same early layers are copied and kept, later layers are adjusted, and a new output layer is trained for a new task such as classifying skin lesions.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Transfer learning: keep the general layers, retrain the specific ones</text>
+  <text x="40" y="86" font-size="17" font-weight="bold" fill="#111111">Pre-training: millions of everyday photographs</text>
+  <text x="700" y="304" font-size="16" font-weight="bold" fill="#111111">New task: a few thousand</text>
+  <text x="700" y="326" font-size="16" font-weight="bold" fill="#111111">labelled medical images</text>
+  <rect x="40" y="104" width="190" height="120" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="52" y="134" width="166" height="60" fill="#FFFFFF"/>
+  <text x="135" y="159" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Early layers</text>
+  <text x="135" y="182" font-size="15" fill="#111111" text-anchor="middle">edges, colours</text>
+  <line x1="232" y1="164" x2="262" y2="164" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="40" y="344" width="190" height="120" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="52" y="374" width="166" height="60" fill="#FFFFFF"/>
+  <text x="135" y="399" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Copied, kept</text>
+  <text x="135" y="422" font-size="15" fill="#111111" text-anchor="middle">unchanged</text>
+  <line x1="232" y1="404" x2="262" y2="404" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="135" y1="228" x2="135" y2="338" stroke="#333333" stroke-width="2" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="142" y="270" width="76" height="24" fill="#FFFFFF"/>
+  <text x="148" y="288" font-size="15" fill="#111111">reused</text>
+  <rect x="265" y="104" width="190" height="120" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="277" y="134" width="166" height="60" fill="#FFFFFF"/>
+  <text x="360" y="159" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Middle layers</text>
+  <text x="360" y="182" font-size="15" fill="#111111" text-anchor="middle">textures, shapes</text>
+  <line x1="457" y1="164" x2="487" y2="164" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="265" y="344" width="190" height="120" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="277" y="374" width="166" height="60" fill="#FFFFFF"/>
+  <text x="360" y="399" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Copied, kept</text>
+  <text x="360" y="422" font-size="15" fill="#111111" text-anchor="middle">or lightly tuned</text>
+  <line x1="457" y1="404" x2="487" y2="404" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="360" y1="228" x2="360" y2="338" stroke="#333333" stroke-width="2" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="367" y="270" width="76" height="24" fill="#FFFFFF"/>
+  <text x="373" y="288" font-size="15" fill="#111111">reused</text>
+  <rect x="490" y="104" width="190" height="120" fill="url(#hatch)" stroke="#222222" stroke-width="2"/>
+  <rect x="502" y="134" width="166" height="60" fill="#FFFFFF"/>
+  <text x="585" y="159" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Late layers</text>
+  <text x="585" y="182" font-size="15" fill="#111111" text-anchor="middle">object parts</text>
+  <line x1="682" y1="164" x2="712" y2="164" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="490" y="344" width="190" height="120" fill="url(#dots)" stroke="#222222" stroke-width="2"/>
+  <rect x="502" y="374" width="166" height="60" fill="#FFFFFF"/>
+  <text x="585" y="399" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Copied, then</text>
+  <text x="585" y="422" font-size="15" fill="#111111" text-anchor="middle">fine-tuned</text>
+  <line x1="682" y1="404" x2="712" y2="404" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="585" y1="228" x2="585" y2="338" stroke="#333333" stroke-width="2" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="592" y="270" width="76" height="24" fill="#FFFFFF"/>
+  <text x="598" y="288" font-size="15" fill="#111111">reused</text>
+  <rect x="715" y="104" width="190" height="120" fill="#E6E6E6" stroke="#222222" stroke-width="2"/>
+  <rect x="727" y="134" width="166" height="60" fill="#FFFFFF"/>
+  <text x="810" y="159" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Output layer</text>
+  <text x="810" y="182" font-size="15" fill="#111111" text-anchor="middle">1,000 everyday</text>
+  <rect x="715" y="344" width="190" height="120" fill="url(#cross)" stroke="#222222" stroke-width="3"/>
+  <rect x="727" y="374" width="166" height="60" fill="#FFFFFF"/>
+  <text x="810" y="399" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">New output</text>
+  <text x="810" y="422" font-size="15" fill="#111111" text-anchor="middle">lesion types</text>
+  <text x="810" y="256" font-size="15" fill="#111111" text-anchor="middle">output replaced</text>
+  <text x="40" y="502" font-size="16" fill="#111111">General patterns are shared by most visual tasks, so they transfer well;</text>
+  <text x="40" y="526" font-size="16" fill="#111111">the most task-specific layers are adjusted or replaced for the new job.</text>
+  <text x="40" y="580" font-size="13" fill="#333333">Schematic; real networks have dozens to hundreds of layers.</text>
+</svg>
