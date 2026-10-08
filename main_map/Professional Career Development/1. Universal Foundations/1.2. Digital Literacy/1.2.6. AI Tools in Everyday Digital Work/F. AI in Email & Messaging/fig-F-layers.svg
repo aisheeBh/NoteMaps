@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 522" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five layers of AI in email and messaging</title>
+  <desc>Five layers from the bottom up, shown top to bottom: acting (agents that send, schedule and file), writing (completion, drafting, tone, translation), reading (summaries, translation, explanations), sorting (priority, categories, digests), and filtering (spam, phishing and malware). An arrow at the side shows rising autonomy and risk towards the top.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Five layers of AI in email and messaging</text>
+  <rect x="150" y="66" width="786" height="72" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="159" y="75" width="768" height="54" rx="4" fill="#FFFFFF"/>
+  <text x="172" y="96" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">5. Acting</text>
+  <text x="172" y="118" text-anchor="start" font-size="14.5" fill="#111111">Agents that reply, forward, schedule, file and follow up on the person's behalf</text>
+  <rect x="150" y="148" width="786" height="72" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="159" y="157" width="768" height="54" rx="4" fill="#FFFFFF"/>
+  <text x="172" y="178" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">4. Writing</text>
+  <text x="172" y="200" text-anchor="start" font-size="14.5" fill="#111111">Completion, smart replies, drafting, tone adjustment, outbound translation</text>
+  <rect x="150" y="230" width="786" height="72" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="159" y="239" width="768" height="54" rx="4" fill="#FFFFFF"/>
+  <text x="172" y="260" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">3. Reading</text>
+  <text x="172" y="282" text-anchor="start" font-size="14.5" fill="#111111">Thread summaries, catch-up digests, inbound translation, explanations</text>
+  <rect x="150" y="312" width="786" height="72" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="172" y="342" text-anchor="start" font-size="16" font-weight="bold" fill="#000000">2. Sorting</text>
+  <text x="172" y="364" text-anchor="start" font-size="14.5" fill="#000000">Priority ranking, categories, focused inbox, commitment detection</text>
+  <rect x="150" y="394" width="786" height="72" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="172" y="424" text-anchor="start" font-size="16" font-weight="bold" fill="#222222">1. Filtering</text>
+  <text x="172" y="446" text-anchor="start" font-size="14.5" fill="#222222">Spam, phishing and malware detection; sender authentication</text>
+  <line x1="90" y1="462" x2="90" y2="70" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="28" y="227" width="124" height="66" fill="#FFFFFF"/>
+  <text x="90" y="243" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Higher: more</text>
+  <text x="90" y="261" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">autonomy, more</text>
+  <text x="90" y="279" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">risk</text>
+  <text x="480" y="506" text-anchor="middle" font-size="13" fill="#333333">Lower layers have run quietly for decades; the upper layers arrived with large language models.</text>
+</svg>

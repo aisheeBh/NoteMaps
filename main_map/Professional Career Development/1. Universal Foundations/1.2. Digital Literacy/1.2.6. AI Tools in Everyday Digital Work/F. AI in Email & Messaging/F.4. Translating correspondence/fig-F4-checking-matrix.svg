@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How much checking a translated message needs</title>
+  <desc>A two-by-two matrix. Horizontal axis: stakes of the message, low to high. Vertical axis: how well-supported the language pair is, from well supported to poorly supported. Low stakes, well supported: machine translation alone. High stakes, well supported: machine translation plus bilingual review. Low stakes, poorly supported: simple source text and confirm understanding. High stakes, poorly supported: professional translator.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">How much checking a translated message needs</text>
+  <rect x="156" y="76" width="373" height="178" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="342" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Machine translation alone</text>
+  <text x="342" y="176" text-anchor="middle" font-size="14.5" fill="#000000">Everyday messages between widely used</text>
+  <text x="342" y="194" text-anchor="middle" font-size="14.5" fill="#000000">languages</text>
+  <rect x="541" y="76" width="373" height="178" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="550" y="85" width="355" height="160" rx="4" fill="#FFFFFF"/>
+  <text x="728" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Machine + bilingual review</text>
+  <text x="728" y="176" text-anchor="middle" font-size="14.5" fill="#111111">Contracts, complaints, client commitments in</text>
+  <text x="728" y="194" text-anchor="middle" font-size="14.5" fill="#111111">major languages</text>
+  <rect x="156" y="266" width="373" height="178" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="342" y="336" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Simple source + confirm</text>
+  <text x="342" y="366" text-anchor="middle" font-size="14.5" fill="#000000">Plain wording; ask the reader to confirm key</text>
+  <text x="342" y="384" text-anchor="middle" font-size="14.5" fill="#000000">points</text>
+  <rect x="541" y="266" width="373" height="178" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="550" y="275" width="355" height="160" rx="4" fill="#FFFFFF"/>
+  <text x="728" y="336" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Professional translator</text>
+  <text x="728" y="366" text-anchor="middle" font-size="14.5" fill="#111111">Legal, medical, safety or regulatory content</text>
+  <text x="728" y="384" text-anchor="middle" font-size="14.5" fill="#111111">in less-supported languages</text>
+  <line x1="136" y1="464" x2="920" y2="464" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="136" y1="464" x2="136" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="535" y="494" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Stakes: cost if the message is misunderstood</text>
+  <text x="150" y="484" text-anchor="start" font-size="14" fill="#111111">Low</text>
+  <text x="910" y="484" text-anchor="end" font-size="14" fill="#111111">High</text>
+  <text x="72" y="230" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Support for</text>
+  <text x="72" y="250" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">the language</text>
+  <text x="72" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">pair</text>
+  <text x="124" y="446" text-anchor="end" font-size="14" fill="#111111">Weak</text>
+  <text x="124" y="100" text-anchor="end" font-size="14" fill="#111111">Strong</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic: support varies by language pair and subject matter, not only by language.</text>
+</svg>

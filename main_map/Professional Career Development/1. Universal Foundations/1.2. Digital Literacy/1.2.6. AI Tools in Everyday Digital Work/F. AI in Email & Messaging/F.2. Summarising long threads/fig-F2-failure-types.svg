@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Six ways a thread summary goes wrong</title>
+  <desc>Six boxes, each naming a failure of AI thread summaries with a short example: omission, misattribution, reversal, stale position, false consensus and invention.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Six ways a thread summary goes wrong</text>
+  <rect x="24" y="70" width="292" height="140" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="33" y="79" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="170" y="121" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Omission</text>
+  <text x="170" y="151" text-anchor="middle" font-size="14.5" fill="#111111">The one message that changed</text>
+  <text x="170" y="170" text-anchor="middle" font-size="14.5" fill="#111111">everything is left out</text>
+  <rect x="334" y="70" width="292" height="140" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="343" y="79" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="480" y="121" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Misattribution</text>
+  <text x="480" y="151" text-anchor="middle" font-size="14.5" fill="#111111">A view is credited to the wrong</text>
+  <text x="480" y="170" text-anchor="middle" font-size="14.5" fill="#111111">person</text>
+  <rect x="644" y="70" width="292" height="140" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="653" y="79" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="790" y="121" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Reversal</text>
+  <text x="790" y="151" text-anchor="middle" font-size="14.5" fill="#111111">"Not before March" becomes "before</text>
+  <text x="790" y="170" text-anchor="middle" font-size="14.5" fill="#111111">March"</text>
+  <rect x="24" y="228" width="292" height="140" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="33" y="237" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="170" y="279" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Stale position</text>
+  <text x="170" y="309" text-anchor="middle" font-size="14.5" fill="#111111">An early proposal is reported as</text>
+  <text x="170" y="328" text-anchor="middle" font-size="14.5" fill="#111111">the final decision</text>
+  <rect x="334" y="228" width="292" height="140" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="343" y="237" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="480" y="279" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">False consensus</text>
+  <text x="480" y="309" text-anchor="middle" font-size="14.5" fill="#111111">Silence or a single reply is read</text>
+  <text x="480" y="328" text-anchor="middle" font-size="14.5" fill="#111111">as agreement</text>
+  <rect x="644" y="228" width="292" height="140" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="653" y="237" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="790" y="279" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Invention</text>
+  <text x="790" y="309" text-anchor="middle" font-size="14.5" fill="#111111">A date, figure or action appears</text>
+  <text x="790" y="328" text-anchor="middle" font-size="14.5" fill="#111111">that nobody wrote</text>
+  <text x="480" y="414" text-anchor="middle" font-size="13" fill="#333333">Each failure produces a fluent, confident summary; none is visible without checking against the thread.</text>
+</svg>

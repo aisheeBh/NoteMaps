@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Where the time in a reply goes</title>
+  <desc>Five stages of answering a message, left to right: read and understand, decide the answer, compose, check, send and track. Annotations show that AI tools mainly speed composing, help partly with reading, and add work at checking; the decision remains human.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where the time in a reply goes</text>
+  <rect x="24" y="75" width="155" height="225" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="102" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">1. Read</text>
+  <text x="102" y="136" text-anchor="middle" font-size="14.5" fill="#000000">Understand the</text>
+  <text x="102" y="154" text-anchor="middle" font-size="14.5" fill="#000000">thread and what</text>
+  <text x="102" y="173" text-anchor="middle" font-size="14.5" fill="#000000">is being asked.</text>
+  <text x="102" y="192" text-anchor="middle" font-size="14.5" fill="#000000">AI summary can</text>
+  <text x="102" y="211" text-anchor="middle" font-size="14.5" fill="#000000">help on long</text>
+  <text x="102" y="230" text-anchor="middle" font-size="14.5" fill="#000000">threads.</text>
+  <line x1="182" y1="188" x2="210" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="213" y="75" width="155" height="225" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="291" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">2. Decide</text>
+  <text x="291" y="136" text-anchor="middle" font-size="14.5" fill="#FFFFFF">Choose the</text>
+  <text x="291" y="154" text-anchor="middle" font-size="14.5" fill="#FFFFFF">answer: yes, no,</text>
+  <text x="291" y="173" text-anchor="middle" font-size="14.5" fill="#FFFFFF">later, someone</text>
+  <text x="291" y="192" text-anchor="middle" font-size="14.5" fill="#FFFFFF">else. The</text>
+  <text x="291" y="211" text-anchor="middle" font-size="14.5" fill="#FFFFFF">human's job; AI</text>
+  <text x="291" y="230" text-anchor="middle" font-size="14.5" fill="#FFFFFF">cannot know.</text>
+  <line x1="371" y1="188" x2="399" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="402" y="75" width="155" height="225" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="411" y="84" width="137" height="207" rx="4" fill="#FFFFFF"/>
+  <text x="480" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3. Compose</text>
+  <text x="480" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Turn the</text>
+  <text x="480" y="154" text-anchor="middle" font-size="14.5" fill="#111111">decision into</text>
+  <text x="480" y="173" text-anchor="middle" font-size="14.5" fill="#111111">words. AI</text>
+  <text x="480" y="192" text-anchor="middle" font-size="14.5" fill="#111111">drafting saves</text>
+  <text x="480" y="211" text-anchor="middle" font-size="14.5" fill="#111111">most time here.</text>
+  <line x1="561" y1="188" x2="589" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="592" y="75" width="155" height="225" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="601" y="84" width="137" height="207" rx="4" fill="#FFFFFF"/>
+  <text x="669" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">4. Check</text>
+  <text x="669" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Facts, promises,</text>
+  <text x="669" y="154" text-anchor="middle" font-size="14.5" fill="#111111">names, tone,</text>
+  <text x="669" y="173" text-anchor="middle" font-size="14.5" fill="#111111">recipients. AI</text>
+  <text x="669" y="192" text-anchor="middle" font-size="14.5" fill="#111111">adds work here.</text>
+  <line x1="750" y1="188" x2="778" y2="188" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="781" y="75" width="155" height="225" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="858" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">5. Send</text>
+  <text x="858" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Send, file, set</text>
+  <text x="858" y="154" text-anchor="middle" font-size="14.5" fill="#111111">a follow-up.</text>
+  <text x="858" y="173" text-anchor="middle" font-size="14.5" fill="#111111">Partly</text>
+  <text x="858" y="192" text-anchor="middle" font-size="14.5" fill="#111111">automatable.</text>
+  <text x="480" y="344" text-anchor="middle" font-size="13" fill="#333333">Schematic; the share of time in each stage varies by message type and person.</text>
+</svg>

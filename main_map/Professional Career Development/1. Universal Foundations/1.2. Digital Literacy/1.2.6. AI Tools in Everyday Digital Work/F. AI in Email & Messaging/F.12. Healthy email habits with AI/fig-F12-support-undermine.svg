@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 550" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>AI features that support or undermine healthy email habits</title>
+  <desc>Two columns compare how AI email features can undermine or support healthy habits across five areas: checking, volume, after-hours, skills and attention.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">AI features that support or undermine healthy email habits</text>
+  <rect x="24" y="62" width="376" height="44" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="33" y="71" width="358" height="26" rx="4" fill="#FFFFFF"/>
+  <text x="212" y="90" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Undermines</text>
+  <rect x="560" y="62" width="376" height="44" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="569" y="71" width="358" height="26" rx="4" fill="#FFFFFF"/>
+  <text x="748" y="90" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Supports</text>
+  <rect x="410" y="120" width="140" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="158" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Checking</text>
+  <rect x="24" y="120" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="212" y="158" text-anchor="middle" font-size="14.5" fill="#111111">Constant smart notifications pull attention</text>
+  <rect x="560" y="120" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="748" y="149" text-anchor="middle" font-size="14.5" fill="#111111">Digest at set times replaces constant</text>
+  <text x="748" y="168" text-anchor="middle" font-size="14.5" fill="#111111">checking</text>
+  <rect x="410" y="196" width="140" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="234" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Volume</text>
+  <rect x="24" y="196" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="212" y="234" text-anchor="middle" font-size="14.5" fill="#111111">Effortless drafts multiply messages</text>
+  <rect x="560" y="196" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="748" y="225" text-anchor="middle" font-size="14.5" fill="#111111">Fewer, clearer messages; templates for</text>
+  <text x="748" y="244" text-anchor="middle" font-size="14.5" fill="#111111">routine</text>
+  <rect x="410" y="272" width="140" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="310" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">After hours</text>
+  <rect x="24" y="272" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="212" y="310" text-anchor="middle" font-size="14.5" fill="#111111">Instant replies at night set expectations</text>
+  <rect x="560" y="272" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="748" y="310" text-anchor="middle" font-size="14.5" fill="#111111">Send-later delivers in working hours</text>
+  <rect x="410" y="348" width="140" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="386" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Skills</text>
+  <rect x="24" y="348" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="212" y="386" text-anchor="middle" font-size="14.5" fill="#111111">Every message drafted by the tool</text>
+  <rect x="560" y="348" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="748" y="386" text-anchor="middle" font-size="14.5" fill="#111111">Important messages written personally</text>
+  <rect x="410" y="424" width="140" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="462" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Attention</text>
+  <rect x="24" y="424" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="212" y="462" text-anchor="middle" font-size="14.5" fill="#111111">Summaries skimmed, originals never read</text>
+  <rect x="560" y="424" width="376" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="748" y="462" text-anchor="middle" font-size="14.5" fill="#111111">Summaries guide what to read in full</text>
+  <text x="480" y="534" text-anchor="middle" font-size="13" fill="#333333">The same features can serve either column; the difference lies in settings and norms.</text>
+</svg>
