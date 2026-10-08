@@ -272,7 +272,7 @@ flowchart TD
 - **Question types** — "Use clarification, assumption, evidence and implication questions."
 - **Close** — "End by asking me to summarise what I now understand and what I am still unsure of."
 
-### Worked example: a Socratic dialogue on pricing
+### Worked example (illustrative): a Socratic dialogue on pricing
 
 A junior product marketer believes that cutting price always increases revenue.
 
@@ -368,7 +368,7 @@ quadrantChart
 - **Post-mortems and reviews** — "Question me about this failed project until we reach root causes, not symptoms."
 - **Devil's advocate** — "Argue against my position and make me defend it."
 
-> **Example:** before presenting a market-entry recommendation, a strategy analyst asks the AI to play a sceptical investment committee. Its questions about currency risk and distributor exclusivity expose two assumptions she had not tested; she researches both before the real meeting.
+> **Example (illustrative):** before presenting a market-entry recommendation, a strategy analyst asks the AI to play a sceptical investment committee. Its questions about currency risk and distributor exclusivity expose two assumptions she had not tested; she researches both before the real meeting.
 
 ### Socratic AI in groups
 
@@ -379,7 +379,7 @@ quadrantChart
 
 > **In practice:** a project team runs a fifteen-minute AI-questioned review at the end of each sprint — "What did we assume would happen? What actually happened? What would we do differently, and how will we know if it worked?" — with a rotating member responsible for answering first. The questions are generic; the value lies in the team having to answer them aloud.
 
-### Case study: a junior auditor learns materiality
+### Case study (illustrative): a junior auditor learns materiality
 
 - **Situation:** a first-year auditor could recite the definition of **materiality** — the threshold above which a misstatement could influence users' decisions — but applied fixed percentage benchmarks mechanically, missing qualitatively important items.
 - **Approach:** her manager set up weekly 30-minute Socratic sessions with an AI tutor restricted to the firm's audit methodology, with rules: one question at a time, hints before answers, explain-back at the end.

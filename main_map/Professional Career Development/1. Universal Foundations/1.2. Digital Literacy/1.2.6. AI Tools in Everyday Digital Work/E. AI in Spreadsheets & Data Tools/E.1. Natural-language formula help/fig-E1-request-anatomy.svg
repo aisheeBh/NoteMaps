@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The parts of a well-specified formula request</title>
+  <desc>A sample request split into six labelled parts: layout, calculation, edge cases, where the result goes, environment, and a worked example, each with the matching words from the request.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">The parts of a well-specified formula request</text>
+  <rect x="40" y="70" width="200" height="72" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="140" y="113" text-anchor="middle" font-size="18" fill="#000000" font-weight="bold">Layout</text>
+  <rect x="270" y="70" width="650" height="72" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="595" y="102" text-anchor="middle" font-size="16" fill="#000000">“Dates in A, region in B, order value (GBP) in D; headers in row 1; rows</text>
+  <text x="595" y="122" text-anchor="middle" font-size="16" fill="#000000">2 to 5,000”</text>
+  <line x1="240" y1="106" x2="268" y2="106" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="40" y="154" width="200" height="72" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="140" y="197" text-anchor="middle" font-size="18" fill="#FFFFFF" font-weight="bold">Calculation</text>
+  <rect x="270" y="154" width="650" height="72" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="595" y="196" text-anchor="middle" font-size="16" fill="#000000">“Sum D where B is exactly North and A falls in March 2026”</text>
+  <line x1="240" y1="190" x2="268" y2="190" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="40" y="238" width="200" height="72" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="140" y="281" text-anchor="middle" font-size="18" fill="#000000" font-weight="bold">Edge cases</text>
+  <rect x="270" y="238" width="650" height="72" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="595" y="280" text-anchor="middle" font-size="16" fill="#000000">“Ignore blank values; dates may be stored as text in older rows”</text>
+  <line x1="240" y1="274" x2="268" y2="274" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="40" y="322" width="200" height="72" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="140" y="365" text-anchor="middle" font-size="18" fill="#000000" font-weight="bold">Where it goes</text>
+  <rect x="270" y="322" width="650" height="72" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="595" y="364" text-anchor="middle" font-size="16" fill="#000000">“One result in cell H2 on the Summary sheet”</text>
+  <line x1="240" y1="358" x2="268" y2="358" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="40" y="406" width="200" height="72" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="140" y="449" text-anchor="middle" font-size="18" fill="#222222" font-weight="bold">Environment</text>
+  <rect x="270" y="406" width="650" height="72" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="595" y="448" text-anchor="middle" font-size="16" fill="#000000">“Excel for Microsoft 365, UK regional settings”</text>
+  <line x1="240" y1="442" x2="268" y2="442" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="40" y="490" width="200" height="72" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="140" y="533" text-anchor="middle" font-size="18" fill="#000000" font-weight="bold">Example</text>
+  <rect x="270" y="490" width="650" height="72" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="595" y="532" text-anchor="middle" font-size="16" fill="#000000">“Rows 2, 7 and 9 qualify; together they total 1,850”</text>
+  <line x1="240" y1="526" x2="268" y2="526" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <text x="480.0" y="590" text-anchor="middle" font-size="14" fill="#333333">Illustrative request. Each part removes one assumption the assistant would otherwise have to guess.</text>
+</svg>

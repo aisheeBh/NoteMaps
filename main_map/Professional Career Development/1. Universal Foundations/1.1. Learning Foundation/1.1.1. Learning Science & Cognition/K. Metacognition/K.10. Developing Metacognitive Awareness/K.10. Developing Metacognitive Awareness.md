@@ -273,7 +273,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Four-Week Calibration Log
+## Worked Example (illustrative): A Four-Week Calibration Log
 
 - **Situation:** a credit analyst wants to know how far to trust her own confidence in loan-risk assessments. Each day she records five assessments with a confidence level; outcomes come from a senior's review within a week.
 
@@ -284,6 +284,8 @@ flowchart TD
 | 3 | 25 | 0.76 | 0.72 | +0.04 | Started checking covenants before rating |
 | 4 | 25 | 0.78 | 0.76 | +0.02 | Remaining errors cluster on property loans |
 
+*Illustrative figures.*
+
 1. **Compute bias** each week: mean confidence − proportion correct. Week 1: 0.86 − 0.64 = **+0.22**.
 2. **Look for patterns**, not just totals: errors clustered in unfamiliar sectors and, later, property loans.
 3. **Change behaviour, not just confidence:** she added a covenant check, which improved **accuracy** as well as calibration.
@@ -291,7 +293,7 @@ flowchart TD
 
 - **Conclusion:** within a month, awareness of *where* her judgement was weak produced both **better calibration** and **better judgement**.
 
-**Figure 5.** The analyst's weekly overconfidence falls as awareness grows.
+**Figure 5.** The analyst's weekly overconfidence falls as awareness grows. (illustrative)
 
 ![Figure 5. The analyst's weekly overconfidence falls as awareness grows](fig-K10-calibration-log.svg)
 
@@ -299,7 +301,7 @@ flowchart TD
 
 ---
 
-## Case Study: Decision Journals in an Investment Team
+## Case Study (illustrative): Decision Journals in an Investment Team
 
 - **Situation:** an equity research team at an asset manager made buy, hold and sell recommendations; the head of research suspected that analysts' reasons for successful calls were often reconstructed after the fact.
 - **Problem:** reviews of past calls relied on memory; successful calls were credited to insight and failed ones to "unforeseeable events".

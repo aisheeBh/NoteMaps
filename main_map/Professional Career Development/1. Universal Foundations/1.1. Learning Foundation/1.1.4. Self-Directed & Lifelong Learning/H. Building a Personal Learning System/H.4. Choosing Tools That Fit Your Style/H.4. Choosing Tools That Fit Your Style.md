@@ -267,7 +267,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Choosing a Notes Tool for a Clinical Trainee
+## Worked Example (illustrative): Choosing a Notes Tool for a Clinical Trainee
 
 A junior doctor needs one place to process what she learns on ward rounds, in teaching and from guidelines, accessible on a hospital computer and on her phone, and compliant with patient-data rules.
 
@@ -282,12 +282,14 @@ A junior doctor needs one place to process what she learns on ward rounds, in te
 | Compliance with data rules | 15 | 3 | 4 | 4 |
 | Cost | 10 | 2 | 4 | 5 |
 
+*Illustrative figures.*
+
 > **Formula — Weighted score:** Σ (weight × score) ÷ 5, giving a score out of 100. Tool A = (25×4 + 20×3 + 15×5 + 15×2 + 15×3 + 10×2) ÷ 5 = (100 + 60 + 75 + 30 + 45 + 20) ÷ 5 = 330 ÷ 5 = **66**.
 
 - **Tool B** = (100 + 80 + 60 + 75 + 60 + 40) ÷ 5 = 415 ÷ 5 = **83**.
 - **Tool C** = (75 + 100 + 15 + 45 + 60 + 50) ÷ 5 = 345 ÷ 5 = **69**.
 
-**Figure 4.** Weighted scores for the three candidate tools in the worked example.
+**Figure 4.** Weighted scores for the three candidate tools in the worked example. (illustrative)
 
 ![Figure 4. Weighted scores for the three candidate tools in the worked example](fig-H4-weighted-scores.svg)
 
@@ -410,9 +412,9 @@ Most effective learners run on a handful of tools. Three common configurations s
 
 ---
 
-## Case Study: The Migration Spiral
+## Case Study (illustrative): The Migration Spiral
 
-### Case study: a consultant's four tools in three years
+### Case study (illustrative): a consultant's four tools in three years
 
 - **Situation:** a management consultant learning digital-strategy topics for client work.
 - **Problem:** four migrations in three years; notes split across formats; no measurable gain in capability; weekends lost to setting up.

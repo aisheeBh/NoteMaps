@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The tier ladder</title>
+  <desc>Staircase of six steps rising left to right: Free; Low-cost; Standard individual; Premium individual; Business or team; Enterprise. Each step lists what is added. A heavy vertical divider between Premium individual and Business marks the change from consumer terms to organisational terms.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Each step up the ladder adds something different</text>
+  <rect x="40.0" y="435.0" width="140.0" height="85.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="110.0" y="465.0" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">Free</text>
+  <text x="110.0" y="487.0" text-anchor="middle" font-size="13.5" fill="#111111">Some strong-model</text>
+  <text x="110.0" y="505.0" text-anchor="middle" font-size="13.5" fill="#111111">use, then fallback</text>
+  <rect x="188.0" y="380.0" width="140.0" height="140.0" rx="8" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <text x="258.0" y="410.0" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">Low-cost</text>
+  <text x="258.0" y="432.0" text-anchor="middle" font-size="13.5" fill="#111111">Higher limits;</text>
+  <text x="258.0" y="450.0" text-anchor="middle" font-size="13.5" fill="#111111">some markets</text>
+  <rect x="336.0" y="325.0" width="140.0" height="195.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="406.0" y="355.0" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">Standard</text>
+  <text x="406.0" y="377.0" text-anchor="middle" font-size="13.5" fill="#111111">Strongest models,</text>
+  <text x="406.0" y="395.0" text-anchor="middle" font-size="13.5" fill="#111111">most features</text>
+  <rect x="484.0" y="270.0" width="140.0" height="250.0" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="490.0" y="278.0" width="128.0" height="72.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="554.0" y="300.0" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">Premium</text>
+  <text x="554.0" y="322.0" text-anchor="middle" font-size="13.5" fill="#111111">Much higher limits,</text>
+  <text x="554.0" y="340.0" text-anchor="middle" font-size="13.5" fill="#111111">early features</text>
+  <rect x="632.0" y="215.0" width="140.0" height="305.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="638.0" y="223.0" width="128.0" height="72.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="702.0" y="245.0" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#111111">Business</text>
+  <text x="702.0" y="267.0" text-anchor="middle" font-size="13.5" fill="#111111">Training off by</text>
+  <text x="702.0" y="285.0" text-anchor="middle" font-size="13.5" fill="#111111">default; admin</text>
+  <rect x="780.0" y="160.0" width="140.0" height="360.0" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="850.0" y="190.0" text-anchor="middle" font-size="16.5" font-weight="bold" fill="#FFFFFF">Enterprise</text>
+  <text x="850.0" y="212.0" text-anchor="middle" font-size="13.5" fill="#FFFFFF">SSO, audit, data</text>
+  <text x="850.0" y="230.0" text-anchor="middle" font-size="13.5" fill="#FFFFFF">residency, support</text>
+  <line x1="628.0" y1="90.0" x2="628.0" y2="530.0" stroke="#222222" stroke-width="4"/>
+  <text x="618.0" y="112.0" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Consumer terms</text>
+  <text x="638.0" y="112.0" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Organisational terms</text>
+  <text x="618.0" y="132.0" text-anchor="end" font-size="14" fill="#111111">the individual owns the account</text>
+  <text x="638.0" y="132.0" text-anchor="start" font-size="14" fill="#111111">the organisation owns the account</text>
+  <line x1="40.0" y1="550.0" x2="920.0" y2="550.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480.0" y="576.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Price per user rises to the right</text>
+</svg>

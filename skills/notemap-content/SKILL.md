@@ -80,7 +80,15 @@ or *"… fill in the Working Memory subtopic"*.
    - The only link syntax allowed is an embedded local figure: `![...](fig-....svg)`.
 4. **Minimal overlap.** Stay on this node's subject. When a neighbouring idea is
    needed, explain it in a sentence or two — without saying where it is covered.
-5. **Truthfulness.** Never invent statistics, effect sizes, studies, quotes or
+5. **Truthfulness.** Anything made up must be labelled as illustrative:
+   - a case study, scenario or worked example about an invented organisation,
+     person or event gets `(illustrative)` in its heading, e.g.
+     `### Case study (illustrative): Rebuilding a career framework`;
+   - invented numbers inside a real-looking example or table are marked
+     "illustrative figures";
+   - schematic charts say so in the figure's small print.
+   Case studies of real, documented events keep a plain heading.
+   Never invent statistics, effect sizes, studies, quotes or
    dates. If a number is not certain, state the finding qualitatively. Mark
    contested or failed-to-replicate findings as such where they appear.
    Misconceptions are corrected where they naturally arise (in **Watch out**
@@ -234,7 +242,7 @@ Blockquotes with a bold label (no emoji):
 **Case study** (at least one per note):
 
 ```markdown
-### Case study: <short title>
+### Case study (illustrative): <short title>   <- drop "(illustrative)" only for a real, documented event
 
 - **Situation:** ...
 - **Problem:** ...

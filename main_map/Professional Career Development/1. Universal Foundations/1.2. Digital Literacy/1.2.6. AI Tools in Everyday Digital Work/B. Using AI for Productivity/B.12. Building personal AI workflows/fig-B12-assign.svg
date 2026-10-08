@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Assigning sub-tasks in a workflow</title>
+  <desc>A two-by-two grid. Horizontal axis: whether the sub-task is inside AI's reliable capability. Vertical axis: consequence of an error. Inside capability and low consequence: delegate. Inside capability and high consequence: AI drafts, a person checks. Outside capability and low consequence: AI assists exploration. Outside capability and high consequence: keep it human.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Assigning sub-tasks in a workflow</text>
+  <rect x="156" y="92" width="366" height="199" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="339" y="184" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Keep it human</text>
+  <text x="339" y="209" text-anchor="middle" font-size="14" fill="#000000">AI may critique; the person does it</text>
+  <rect x="534" y="92" width="366" height="199" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="716" y="184" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">AI drafts; person checks</text>
+  <text x="716" y="209" text-anchor="middle" font-size="14" fill="#000000">Every claim and commitment verified</text>
+  <rect x="156" y="303" width="366" height="199" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="339" y="395" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">AI assists exploration</text>
+  <text x="339" y="420" text-anchor="middle" font-size="14" fill="#000000">Ideas, options, first looks</text>
+  <rect x="534" y="303" width="366" height="199" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="716" y="395" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">Delegate</text>
+  <text x="716" y="420" text-anchor="middle" font-size="14" fill="#000000">Formatting, conversion, routine drafts</text>
+  <line x1="150" y1="508" x2="917" y2="508" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="508" x2="150" y2="74" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="154" y="532" text-anchor="start" font-size="14" fill="#111111">Less reliable</text>
+  <text x="905" y="532" text-anchor="end" font-size="14" fill="#111111">Reliable</text>
+  <text x="528" y="558" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Within AI's reliable capability?</text>
+  <text x="132" y="502" text-anchor="start" font-size="14" fill="#111111" transform="rotate(-90 132 502)">Low</text>
+  <text x="132" y="90" text-anchor="end" font-size="14" fill="#111111" transform="rotate(-90 132 90)">High</text>
+  <text x="100" y="297" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 100 297)">Consequence of an error</text>
+  <text x="480" y="586" text-anchor="middle" font-size="13" fill="#333333">Reliability is judged from one's own tested experience of the task, not from general claims.</text>
+</svg>

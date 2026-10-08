@@ -286,7 +286,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Planning a Week on a New Pharmacology Topic
+## Worked Example (illustrative): Planning a Week on a New Pharmacology Topic
 
 **Situation:** a pharmacy student has a week to learn a new topic — anticoagulant drugs — for an exam in a month. She has six sessions of 40 minutes.
 
@@ -312,7 +312,7 @@ flowchart TD
 
 ---
 
-## Case Study: Learning a New Programming Language as a Team
+## Case Study (illustrative): Learning a New Programming Language as a Team
 
 - **Situation:** a platform team of eight engineers had to adopt a new systems programming language for a performance-critical service.
 - **Problem:** after an online course and a month of reading, the team's code reviews were slow; engineers repeatedly looked up the same rules about memory ownership and could not explain compiler errors to each other.

@@ -120,7 +120,7 @@ A household upgrades from a 100 to a 900 megabit connection and finds that web p
 
 ![Figure 3. Page-load time against bandwidth and against latency](fig-E10-bandwidth-vs-latency.svg)
 
-> **Example:** the household in the opening upgraded from 100 to 900 Mbit/s. Large downloads became much faster, but everyday browsing — limited by round trips to distant servers and by Wi-Fi delay — barely changed.
+> **Example (illustrative):** the household in the opening upgraded from 100 to 900 Mbit/s. Large downloads became much faster, but everyday browsing — limited by round trips to distant servers and by Wi-Fi delay — barely changed.
 
 ### Human perception
 
@@ -222,7 +222,7 @@ flowchart TD
 
 ## Working with the Numbers
 
-### Worked example: how long will it take?
+### Worked example (illustrative): how long will it take?
 
 Situation: an architect must upload a 12 GB model to a client's cloud folder from a home connection of 500 Mbit/s down and 50 Mbit/s up.
 
@@ -263,7 +263,7 @@ Situation: an architect must upload a 12 GB model to a client's cloud folder fro
 
 ## Capacity Planning in Organisations
 
-### Worked example: sizing an office connection
+### Worked example (illustrative): sizing an office connection
 
 Situation: a 60-person consultancy office plans its Internet link; most work is cloud-based.
 
@@ -284,7 +284,7 @@ Situation: a 60-person consultancy office plans its Internet link; most work is 
 - **Limits** — prioritisation helps only on links the organisation controls; across the public Internet, packets are generally treated equally.
 - **SD-WAN** — sends each application over the best-performing connection available, measured continuously.
 
-### Case study: the virtual desktop rollout that felt broken
+### Case study (illustrative): the virtual desktop rollout that felt broken
 
 - **Situation:** an engineering firm moved staff to cloud-hosted virtual desktops, hosted in a single cloud region on another continent to save cost.
 - **Problem:** staff in two distant regional offices reported that typing "lagged" and mouse movements felt sticky, although bandwidth tests were excellent.
@@ -338,7 +338,7 @@ Engineers designing interactive services work backwards from an acceptable delay
 
 > **Definition — Latency budget:** the maximum acceptable end-to-end delay for an interaction, divided into allowances for each component (device, network, servers, processing).
 
-### Worked example: a budget for a conversational voice assistant
+### Worked example (illustrative): a budget for a conversational voice assistant
 
 Situation: a product team wants a voice assistant to start replying within about 800 ms of the user finishing speaking, so that it feels conversational.
 
@@ -351,6 +351,8 @@ Situation: a product team wants a voice assistant to start replying within about
 | Speech synthesis of the first phrase | 100 ms | Streamed |
 | Network back to the device | 40 ms | |
 | Total | 780 ms | Just within the target |
+
+*Illustrative figures.*
 
 1. **Identify the biggest items** — model and recognition time dominate.
 2. **Check the network share** — 80 ms is acceptable only if the user is near the region; a user on another continent would add 200 ms or more.
@@ -373,7 +375,7 @@ Situation: a product team wants a voice assistant to start replying within about
 
 > **Formula — Data used:** rate (Mbit/s) × seconds ÷ 8 = megabytes. Example: a 5 Mbit/s HD stream for one hour = 5 × 3,600 ÷ 8 = **2,250 MB ≈ 2.25 GB**.
 
-### Worked example: will the allowance last?
+### Worked example (illustrative): will the allowance last?
 
 Situation: a field engineer has a 30 GB monthly mobile allowance and joins two one-hour video calls each working day (about 20 working days).
 

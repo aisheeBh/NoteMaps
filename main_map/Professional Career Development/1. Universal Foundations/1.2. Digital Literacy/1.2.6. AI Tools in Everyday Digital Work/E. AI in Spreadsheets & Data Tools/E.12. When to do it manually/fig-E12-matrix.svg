@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How verifiability and stakes together guide the use of AI</title>
+  <desc>A two-by-two grid. Horizontal axis: how hard the output is to verify, from easy to hard. Vertical axis: stakes, from low to high. Easy and low: let AI do it and check quickly. Hard and low: AI as a draft or idea only. Easy and high: AI may produce, with mandatory documented verification. Hard and high: do it manually, or use AI only as a second reader.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Verifiability and stakes</text>
+  <rect x="156" y="92" width="366" height="199" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="339" y="178" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">AI may produce; verification mandatory</text>
+  <text x="339" y="198" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">and documented</text>
+  <text x="339" y="218" text-anchor="middle" font-size="14" fill="#000000">Pricing formulas, payroll calculations</text>
+  <rect x="534" y="92" width="366" height="199" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="717" y="168" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Do it manually, or AI only as second</text>
+  <text x="717" y="189" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">reader</text>
+  <text x="717" y="208" text-anchor="middle" font-size="14" fill="#000000">Signed figures with no independent check;</text>
+  <text x="717" y="227" text-anchor="middle" font-size="14" fill="#000000">judgement calls</text>
+  <rect x="156" y="303" width="366" height="199" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="339" y="390" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Let AI do it; check quickly</text>
+  <text x="339" y="408" text-anchor="middle" font-size="14" fill="#000000">Internal formulas with test cases; exploratory</text>
+  <text x="339" y="428" text-anchor="middle" font-size="14" fill="#000000">pivots</text>
+  <rect x="534" y="303" width="366" height="199" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="717" y="399" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">AI as a draft or idea only</text>
+  <text x="717" y="418" text-anchor="middle" font-size="14" fill="#000000">Brainstormed categories; first-pass commentary</text>
+  <line x1="150" y1="508" x2="917" y2="508" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="150" y1="508" x2="150" y2="74" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="154" y="532" text-anchor="start" font-size="14" fill="#111111">Easy</text>
+  <text x="905" y="532" text-anchor="end" font-size="14" fill="#111111">Hard</text>
+  <text x="528" y="558" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">How hard the output is to verify</text>
+  <text x="132" y="502" text-anchor="start" font-size="14" fill="#111111" transform="rotate(-90 132 502)">Low</text>
+  <text x="132" y="90" text-anchor="end" font-size="14" fill="#111111" transform="rotate(-90 132 90)">High</text>
+  <text x="100" y="297" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold" transform="rotate(-90 100 297)">Stakes</text>
+  <text x="480.0" y="588" text-anchor="middle" font-size="13" fill="#333333">Schematic; examples are typical, not fixed.</text>
+</svg>

@@ -215,7 +215,7 @@ flowchart TD
   - **expected effect**;
   - **result** — added after the observation period.
 
-> **Example — log entry:** "12 March — moved flashcard review from 21:00 to the morning train. Reason: completion 35% over six weeks. Expected: completion above 80%. Result (9 April): 88%; keep."
+> **Example (illustrative) — log entry:** "12 March — moved flashcard review from 21:00 to the morning train. Reason: completion 35% over six weeks. Expected: completion above 80%. Result (9 April): 88%; keep."
 
 ### Versions of a system
 
@@ -358,7 +358,7 @@ Removal is the most neglected form of customisation.
 
 ## Changing Tools Without Losing the System
 
-### Worked example: migrating a notes archive
+### Worked example (illustrative): migrating a notes archive
 
 A product manager decides to move eight years of notes from a proprietary application to plain-text files, after the vendor raises prices and restricts exports.
 
@@ -392,9 +392,9 @@ A product manager decides to move eight years of notes from a proprietary applic
 
 ---
 
-## Case Study: Ten Years, Four Versions
+## Case Study (illustrative): Ten Years, Four Versions
 
-### Case study: a lawyer's system from trainee to partner
+### Case study (illustrative): a lawyer's system from trainee to partner
 
 - **Situation:** a corporate lawyer, followed from her training contract to partnership.
 - **Version 1 (trainee, years 1–2):** structured courses; flashcards on statutes and procedure; weekly case summaries; mock exams.
@@ -418,7 +418,7 @@ A product manager decides to move eight years of notes from a proprietary applic
 - **Result:** within a year, her client pitches converted at a higher rate, and associates rated her supervision highly. A later **Version 4** added a sector focus (renewable energy) using a temporary return to structured inputs — the career-changer pattern within one career.
 - **Lesson:** the system's greatest risk was not failure but **successful obsolescence** — continuing to run well while serving goals she no longer had.
 
-**Figure 5.** The lawyer's system versions over ten years, with the missed major version marked.
+**Figure 5.** The lawyer's system versions over ten years, with the missed major version marked. (illustrative)
 
 ![Figure 5. The lawyer's system versions over ten years, with the missed major version marked](fig-H8-version-timeline.svg)
 

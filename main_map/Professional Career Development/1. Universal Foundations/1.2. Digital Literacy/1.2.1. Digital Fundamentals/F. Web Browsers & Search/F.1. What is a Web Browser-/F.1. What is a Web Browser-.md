@@ -91,7 +91,7 @@ flowchart TD
     class S good
 ```
 
-### Worked example: why one page feels slow
+### Worked example (illustrative): why one page feels slow
 
 A project team complains that its internal reporting page "takes forever". The browser's developer tools show the following for one visit.
 
@@ -102,6 +102,8 @@ A project team complains that its internal reporting page "takes forever". The b
 | Blocking script | 2.1 s | A 3 MB analytics bundle downloaded and executed before anything was drawn |
 | First content painted | 3.2 s | Header and table skeleton appear |
 | Data loaded by script | 5.5 s | Report rows arrive from a slow API |
+
+*Illustrative figures.*
 
 1. The **network and server** account for under half a second — not the problem.
 2. A **render-blocking script** delays the first paint by about two seconds.

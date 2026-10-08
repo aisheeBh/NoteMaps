@@ -354,7 +354,7 @@ Collections grow for years and decay unless maintained.
 
 > **Watch out:** an address that opens a document **without signing in** is a credential. Bookmarking it in a synced personal profile, or pasting it into a public tool, gives that access to others.
 
-### Worked example: a bookmark structure for a new engagement
+### Worked example (illustrative): a bookmark structure for a new engagement
 
 A management consultant starts a six-month supply-chain project and wants a structure that colleagues can also reuse.
 
@@ -376,9 +376,11 @@ A management consultant starts a six-month supply-chain project and wants a stru
 | Cited sources after six months | Several broken links | Dated PDFs on file |
 | Handover to a colleague | Not possible | Shared link page and archive folder |
 
+*Illustrative figures.*
+
 ---
 
-### Case study: reference rot in a policy unit
+### Case study (illustrative): reference rot in a policy unit
 
 - **Situation:** a government policy unit published evidence reviews with hundreds of web citations each year.
 - **Problem:** an internal audit found that a large share of links in reviews more than three years old no longer worked, and some still-working links showed different figures from those cited.

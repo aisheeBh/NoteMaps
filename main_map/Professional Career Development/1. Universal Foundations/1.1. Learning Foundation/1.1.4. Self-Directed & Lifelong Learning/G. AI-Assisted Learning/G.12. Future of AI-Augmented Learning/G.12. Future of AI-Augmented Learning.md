@@ -263,7 +263,7 @@ flowchart TD
     class C good
 ```
 
-### Worked example: a quarterly frontier probe
+### Worked example (illustrative): a quarterly frontier probe
 
 A marketing analyst spends one hour each quarter testing what current AI tools can do on five of her real tasks, then decides what to delegate, what to keep and what to learn.
 
@@ -280,7 +280,7 @@ A marketing analyst spends one hour each quarter testing what current AI tools c
 
 > **Watch out:** delegating a task does not end the need to understand it. The analyst can delegate the weekly report only because she can still tell when it is wrong.
 
-### Case study: redesigning junior training in a law firm
+### Case study (illustrative): redesigning junior training in a law firm
 
 - **Situation:** a commercial law firm adopted AI drafting and review tools in 2025; first drafts of standard agreements that once took trainees a day appeared in minutes.
 - **Problem:** within a year, partners noticed that second-year associates could check AI drafts for obvious errors but struggled to draft non-standard clauses or to explain why standard ones were structured as they were.

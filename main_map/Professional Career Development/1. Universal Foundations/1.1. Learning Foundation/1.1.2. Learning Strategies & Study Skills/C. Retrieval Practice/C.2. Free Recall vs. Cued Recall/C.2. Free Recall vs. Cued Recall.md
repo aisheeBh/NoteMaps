@@ -286,7 +286,7 @@ flowchart TD
 
 > **Formula — Proportion of idea units recalled:** recalled idea units ÷ total idea units. Example: a regulation summary contains 24 idea units; a learner reproduces 15 → 15 ÷ 24 = **62.5%**.
 
-### Worked example: one topic, two formats
+### Worked example (illustrative): one topic, two formats
 
 A junior data engineer is learning the company's data-governance policy.
 
@@ -301,6 +301,8 @@ A junior data engineer is learning the company's data-governance policy.
 | Score | 9 / 20 idea units | 7 / 10 correct | 16 / 20 idea units |
 | What it showed | Two whole categories missing | Specific facts in those categories | Structure and content both improved |
 | Next action | Target the missing categories | Restudy errors | Keep in the review cycle |
+
+*Illustrative figures.*
 
 - **Conclusion:** free recall located the **structural** gap; cued recall fixed the **specific** facts; the second free recall confirmed both.
 
@@ -331,7 +333,7 @@ A junior data engineer is learning the company's data-governance policy.
 - **Multiple-choice** is recognition — a different task again, with its own strengths and traps.
 - Learners preparing for essay-based exams who practise only with flashcards often find they "know everything but cannot write it" — they have practised cued, not free, retrieval.
 
-### Case study: the trainee who could answer but not advise
+### Case study (illustrative): the trainee who could answer but not advise
 
 - **Situation:** a trainee tax adviser scored highly on weekly short-answer quizzes on rules and thresholds.
 - **Problem:** asked to draft a first advice letter for a client with a complex property disposal, she missed three relevant reliefs and structured the letter poorly.
@@ -387,7 +389,7 @@ Free recall is hard because the learner must find their own way into memory. Exp
 
 ---
 
-## Worked Example: Speaking Without Notes
+## Worked Example (illustrative): Speaking Without Notes
 
 A consultant must present a 15-minute findings briefing to a client board without slides.
 
@@ -404,6 +406,8 @@ A consultant must present a 15-minute findings briefing to a client board withou
 | Day 1, after spine built | Serial recall from spine | 15 | Mostly |
 | Day 2 | Serial recall, varied contexts | 17 | Yes |
 | Briefing | Spine on card | 18 | Yes |
+
+*Illustrative figures.*
 
 - **Conclusion:** the presentation became reliable not by more reading but by converting free recall into **self-cued serial recall**, then practising it under varied conditions.
 

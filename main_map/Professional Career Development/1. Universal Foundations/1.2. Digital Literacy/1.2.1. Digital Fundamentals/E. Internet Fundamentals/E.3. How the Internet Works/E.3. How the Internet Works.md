@@ -155,7 +155,7 @@ flowchart TD
 
 > **Key point:** "reliable delivery" on the Internet is an **illusion created by the endpoints** on top of an unreliable network. This is the end-to-end principle at work.
 
-### Worked example: a lost packet during a file upload
+### Worked example (illustrative): a lost packet during a file upload
 
 Situation: a consultant uploads a 10-megabyte report to a client portal over hotel Wi-Fi.
 
@@ -313,7 +313,7 @@ flowchart TD
 
 ## A Complete Journey
 
-### Worked example: "what happens when someone opens a web page"
+### Worked example (illustrative): "what happens when someone opens a web page"
 
 Situation: a manager in Manchester opens a supplier's web page.
 

@@ -277,7 +277,7 @@ flowchart TD
 | Practice | Solves varied problems unaided | Gives graduated hints; checks steps | 15 minutes |
 | Close | Writes summary from memory | Corrects summary; suggests review items | 5 minutes |
 
-### Worked example: a finance manager learns data analysis
+### Worked example (illustrative): a finance manager learns data analysis
 
 A finance manager must analyse sales data in Python within six weeks.
 
@@ -350,7 +350,7 @@ flowchart TD
     class M good
 ```
 
-### Case study: an AI upskilling programme in a professional-services firm
+### Case study (illustrative): an AI upskilling programme in a professional-services firm
 
 - **Situation:** a 6,000-person accounting and advisory firm licensed an enterprise AI assistant for all staff in 2025. Usage dashboards showed high adoption within three months.
 - **Problem:** quality reviewers found AI-drafted work papers with unsupported figures; junior staff could not explain analyses they had submitted; seniors spent more time reviewing.

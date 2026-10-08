@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Six ways a message reaches the wrong people</title>
+  <desc>Six boxes naming routes by which messages reach unintended recipients: autocomplete picking the wrong address; reply-all to a large list; forwarding a thread with its history; visible recipient lists in bulk mail; the wrong attachment; and AI assistants mixing in content from other contexts or sending without review.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Six ways a message reaches the wrong people</text>
+  <rect x="24" y="70" width="292" height="140" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="33" y="79" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="170" y="121" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Autocomplete</text>
+  <text x="170" y="151" text-anchor="middle" font-size="14.5" fill="#111111">The wrong Chris, the wrong list,</text>
+  <text x="170" y="170" text-anchor="middle" font-size="14.5" fill="#111111">the old address</text>
+  <rect x="334" y="70" width="292" height="140" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="343" y="79" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="480" y="121" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Reply all</text>
+  <text x="480" y="151" text-anchor="middle" font-size="14.5" fill="#111111">A private remark sent to everyone</text>
+  <text x="480" y="170" text-anchor="middle" font-size="14.5" fill="#111111">on a large list</text>
+  <rect x="644" y="70" width="292" height="140" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="653" y="79" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="790" y="121" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Forwarded history</text>
+  <text x="790" y="151" text-anchor="middle" font-size="14.5" fill="#111111">Internal comments buried below the</text>
+  <text x="790" y="170" text-anchor="middle" font-size="14.5" fill="#111111">forwarded message</text>
+  <rect x="24" y="228" width="292" height="140" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="33" y="237" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="170" y="279" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Visible recipients</text>
+  <text x="170" y="309" text-anchor="middle" font-size="14.5" fill="#111111">Bulk mail with every address in To</text>
+  <text x="170" y="328" text-anchor="middle" font-size="14.5" fill="#111111">or Cc</text>
+  <rect x="334" y="228" width="292" height="140" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="343" y="237" width="274" height="122" rx="4" fill="#FFFFFF"/>
+  <text x="480" y="279" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Wrong attachment</text>
+  <text x="480" y="309" text-anchor="middle" font-size="14.5" fill="#111111">Last year's file, another client's</text>
+  <text x="480" y="328" text-anchor="middle" font-size="14.5" fill="#111111">file, the full dataset</text>
+  <rect x="644" y="228" width="292" height="140" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="790" y="279" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">AI context mixing</text>
+  <text x="790" y="309" text-anchor="middle" font-size="14.5" fill="#FFFFFF">Assistant draws in content from</text>
+  <text x="790" y="328" text-anchor="middle" font-size="14.5" fill="#FFFFFF">other threads, or sends unreviewed</text>
+  <text x="480" y="414" text-anchor="middle" font-size="13" fill="#333333">The first five are old mistakes made faster by AI; the sixth is new.</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Data classes against tool types</title>
+  <desc>Grid with four data classes as rows: public, internal, confidential, restricted; and four tool types as columns: personal consumer account, approved business tool, approved enterprise tool with data agreement, specialist or in-house tool approved for restricted data. Public data is allowed in all; internal allowed from business tool; confidential from enterprise tool; restricted only in the specialist or in-house tool with approval.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Which data may go where under a typical policy</text>
+  <text x="290.0" y="92.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Personal consumer</text>
+  <text x="290.0" y="112.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">account</text>
+  <text x="470.0" y="92.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Approved business</text>
+  <text x="470.0" y="112.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">tool</text>
+  <text x="650.0" y="92.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Approved enterprise</text>
+  <text x="650.0" y="112.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">tool with DPA</text>
+  <text x="830.0" y="92.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Restricted-data</text>
+  <text x="830.0" y="112.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">approved tool</text>
+  <text x="186.0" y="180.0" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Public</text>
+  <rect x="206.0" y="136.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="214.0" y="162.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="290.0" y="180.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <rect x="386.0" y="136.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="394.0" y="162.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="470.0" y="180.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <rect x="566.0" y="136.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="574.0" y="162.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="650.0" y="180.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <rect x="746.0" y="136.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="754.0" y="162.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="830.0" y="180.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <text x="186.0" y="270.0" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Internal</text>
+  <rect x="206.0" y="226.0" width="168.0" height="78.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="214.0" y="252.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="290.0" y="270.2" text-anchor="middle" font-size="15" fill="#111111">Not allowed</text>
+  <rect x="386.0" y="226.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="394.0" y="252.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="470.0" y="270.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <rect x="566.0" y="226.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="574.0" y="252.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="650.0" y="270.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <rect x="746.0" y="226.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="754.0" y="252.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="830.0" y="270.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <text x="186.0" y="360.0" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Confidential</text>
+  <rect x="206.0" y="316.0" width="168.0" height="78.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="214.0" y="342.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="290.0" y="360.2" text-anchor="middle" font-size="15" fill="#111111">Not allowed</text>
+  <rect x="386.0" y="316.0" width="168.0" height="78.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="394.0" y="342.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="470.0" y="360.2" text-anchor="middle" font-size="15" fill="#111111">With conditions</text>
+  <rect x="566.0" y="316.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="574.0" y="342.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="650.0" y="360.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <rect x="746.0" y="316.0" width="168.0" height="78.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="754.0" y="342.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="830.0" y="360.2" text-anchor="middle" font-size="15" fill="#111111">Allowed</text>
+  <text x="186.0" y="450.0" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Restricted</text>
+  <rect x="206.0" y="406.0" width="168.0" height="78.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="214.0" y="432.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="290.0" y="450.2" text-anchor="middle" font-size="15" fill="#111111">Not allowed</text>
+  <rect x="386.0" y="406.0" width="168.0" height="78.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="394.0" y="432.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="470.0" y="450.2" text-anchor="middle" font-size="15" fill="#111111">Not allowed</text>
+  <rect x="566.0" y="406.0" width="168.0" height="78.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="574.0" y="432.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="650.0" y="450.2" text-anchor="middle" font-size="15" fill="#111111">Not allowed</text>
+  <rect x="746.0" y="406.0" width="168.0" height="78.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="754.0" y="432.2" width="152.0" height="27.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="830.0" y="450.2" text-anchor="middle" font-size="15" fill="#111111">With conditions</text>
+  <text x="480.0" y="520.0" text-anchor="middle" font-size="14" font-style="italic" fill="#111111">Illustrative policy; each organisation sets its own classes and rules.</text>
+</svg>

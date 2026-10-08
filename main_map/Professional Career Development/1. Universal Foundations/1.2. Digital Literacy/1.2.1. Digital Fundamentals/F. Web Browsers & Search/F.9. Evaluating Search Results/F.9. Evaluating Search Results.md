@@ -228,7 +228,7 @@ flowchart TD
     class H caution
 ```
 
-### Worked example: triaging a health query
+### Worked example (illustrative): triaging a health query
 
 A manager searches "is intermittent fasting safe for people with type 2 diabetes" for a family member.
 
@@ -333,7 +333,7 @@ flowchart TD
 
 ---
 
-### Case study: the support number at the top of the page
+### Case study (illustrative): the support number at the top of the page
 
 - **Situation:** the office manager of a twelve-person architecture practice could not sign in to the practice's accounting software and searched for "[software name] support phone number".
 - **Problem:** the first result — a sponsored listing using the software's name and logo — gave a phone number. The person who answered said the account was "compromised", asked the manager to install a remote-access tool, and then requested a card payment for "security cleaning".

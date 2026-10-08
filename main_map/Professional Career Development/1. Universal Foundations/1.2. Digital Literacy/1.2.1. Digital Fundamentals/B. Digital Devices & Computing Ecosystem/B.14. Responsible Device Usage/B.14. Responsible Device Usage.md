@@ -302,7 +302,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Comparing Refresh Policies for 1,000 Laptops
+## Worked Example (illustrative): Comparing Refresh Policies for 1,000 Laptops
 
 **Situation:** a firm replaces its 1,000 laptops every three years. The sustainability team proposes five years, with a battery replacement at year three. Assume (illustratively) 300 kg CO₂e embodied per laptop, 20 kg CO₂e per year in use, a 1,200 purchase price, a battery replacement costing 120, and slightly higher support costs for older machines.
 
@@ -323,7 +323,7 @@ flowchart TD
 
 ---
 
-## Case Study: An Organisation-Wide Device Responsibility Programme
+## Case Study (illustrative): An Organisation-Wide Device Responsibility Programme
 
 - **Situation:** a 5,000-person professional-services firm found that devices were lost at a high rate, accessories were bought without control, laptops were replaced every three years regardless of condition, and old devices accumulated in cupboards for years.
 - **Actions:**
@@ -372,7 +372,7 @@ Use-phase energy is smaller than manufacturing for most personal devices, but ac
 - **Check support life** — a device that no longer receives updates may be unsafe for the recipient's banking or schoolwork; recycling may be more responsible.
 - **Use reputable channels** — certified refurbishers, charities with data-wiping processes, manufacturer and retailer take-back schemes.
 
-> **Example:** a school receiving donated laptops from a company asked that each be wiped with a certificate, upgraded to a supported operating system and fitted with a fresh battery where needed. The donation then provided several more years of safe use instead of passing on a security and support problem.
+> **Example (illustrative):** a school receiving donated laptops from a company asked that each be wiped with a certificate, upgraded to a supported operating system and fitted with a fresh battery where needed. The donation then provided several more years of safe use instead of passing on a security and support problem.
 
 ---
 

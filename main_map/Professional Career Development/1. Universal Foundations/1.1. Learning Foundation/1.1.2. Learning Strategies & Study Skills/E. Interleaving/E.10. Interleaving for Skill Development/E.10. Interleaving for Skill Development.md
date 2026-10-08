@@ -282,7 +282,7 @@ flowchart TD
 
 > **Mnemonic — "ESRVR-FM":** Establish, Serial, Random, Vary, Representative — Feedback faded, Monitor retention.
 
-### Worked example: a tennis session for an intermediate player
+### Worked example (illustrative): a tennis session for an intermediate player
 
 - **Situation:** an intermediate adult player can hit forehands, backhands and volleys reasonably well in feeding drills but breaks down in rallies, where shots arrive unpredictably.
 
@@ -372,7 +372,7 @@ flowchart TD
 | Bandwidth (only large errors) | Skilled performers refining details | Small but systematic errors unnoticed |
 
 
-> **Example:** a golf coach working with a club player alternates putts from 1, 3 and 6 metres (variability) with chips and short pitches (different skills) in random order, keeping score as in a round. The session looks messier than ten putts from each distance in turn, but the scorecard at the start of the following week shows which skills were actually retained.
+> **Example (illustrative):** a golf coach working with a club player alternates putts from 1, 3 and 6 metres (variability) with chips and short pitches (different skills) in random order, keeping score as in a round. The session looks messier than ten putts from each distance in turn, but the scorecard at the start of the following week shows which skills were actually retained.
 
 ---
 
@@ -409,7 +409,7 @@ flowchart TD
 
 ---
 
-## Case Study: Laparoscopic Skills in a Surgical Simulation Programme
+## Case Study (illustrative): Laparoscopic Skills in a Surgical Simulation Programme
 
 - **Situation:** a surgical training programme ran a simulation curriculum for junior trainees with four tasks on a box trainer: peg transfer, precision cutting, intracorporeal suturing and knot-tying. Trainees completed each task in a separate weekly session, repeating it until a time and error threshold was reached.
 - **Problem:** trainees met the thresholds, but supervising surgeons reported that skills seemed to "evaporate" between the simulation course and theatre, and that trainees struggled when an operation required switching between instruments and tasks.

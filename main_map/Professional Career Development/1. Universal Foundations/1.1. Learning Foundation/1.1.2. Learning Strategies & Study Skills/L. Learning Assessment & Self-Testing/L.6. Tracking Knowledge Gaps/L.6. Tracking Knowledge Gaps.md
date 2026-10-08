@@ -136,7 +136,7 @@ flowchart TD
   - **the next check date**.
 - **Status ages.** A skill verified six months ago and unused since is less certain than one verified last week. Many professionals treat any status older than a set period — say, three months for rarely used procedures — as **due for re-verification**.
 
-### Worked example: a gap tracker for a new role
+### Worked example (illustrative): a gap tracker for a new role
 
 A data engineer starting in a payments company tracks eight elements of the platform she must support.
 
@@ -153,6 +153,8 @@ A data engineer starting in a payments company tracks eight elements of the plat
 | On-call escalation paths | 5 | 4 | Walk-through with lead | Wk 3 | Timed drill | Wk 5 |
 | Disaster recovery | 4 | 1 | Attended briefing | Wk 2 | Join quarterly test | Wk 10 |
 
+*Illustrative figures.*
+
 **Steps in reading it:**
 
 1. **Largest gaps:** backfill (gap 3), warehouse cost controls (gap 3), disaster recovery (gap 3).
@@ -162,7 +164,7 @@ A data engineer starting in a payments company tracks eight elements of the plat
 
 > **Key point:** the tracker's value lies in the **evidence, dates and next actions**, not the status numbers alone. A status without evidence is an opinion.
 
-**Figure 2.** A gap tracker over eight weeks: status by element.
+**Figure 2.** A gap tracker over eight weeks: status by element. (illustrative)
 
 ![Figure 2. A gap tracker over eight weeks: status by element](fig-L6-tracker-heatmap.svg)
 
@@ -179,7 +181,7 @@ A data engineer starting in a payments company tracks eight elements of the plat
 
 > **Formula — A simple priority score:** priority = importance (1–3) × gap size (required − current) × cost of error (1–3). For card-data handling: 3 × (5 − 3) × 3 = **18**. For warehouse cost controls: 2 × (3 − 0) × 1 = **6**. Despite the smaller gap, card-data handling comes first.
 
-**Worked example — ranking four gaps from the tracker**
+**Worked example (illustrative) — ranking four gaps from the tracker**
 
 **Table 4.** Priority scores for four elements in week four.
 
@@ -189,6 +191,8 @@ A data engineer starting in a payments company tracks eight elements of the plat
 | Backfill procedure | 2 | 4 − 1 = 3 | 2 | **12** |
 | Disaster recovery | 3 | 4 − 1 = 3 | 3 | **27** |
 | Warehouse cost controls | 2 | 3 − 0 = 3 | 1 | **6** |
+
+*Illustrative figures.*
 
 - **Ranking:** disaster recovery (27), card-data handling (18), backfill (12), cost controls (6).
 - **Adjustment for timing:** the next disaster-recovery test is in week ten, and the procedure cannot be practised alone in production; she therefore studies the plan now and books a sandbox walk-through, while card-data handling — which she meets daily — gets the bulk of week five.
@@ -230,7 +234,7 @@ A data engineer starting in a payments company tracks eight elements of the plat
 - **Saw-tooth** — status rises after study and falls at the next delayed check; the learning is fragile and needs spacing and unaided practice.
 - **Never tested** — blank rows are a risk in themselves; schedule a diagnostic.
 
-> **Example:** in the data engineer's tracker, the disaster-recovery row stays at level 1 for six weeks. The engineer had planned to "read the DR plan", which kept her at exposure. Only a sandbox walk-through in week eight — doing the work rather than reading about it — began to move it.
+> **Example (illustrative):** in the data engineer's tracker, the disaster-recovery row stays at level 1 for six weeks. The engineer had planned to "read the DR plan", which kept her at exposure. Only a sandbox walk-through in week eight — doing the work rather than reading about it — began to move it.
 
 ### Reviewing the tracker with a mentor
 
@@ -389,7 +393,7 @@ flowchart TD
   - **development opportunities** — who could learn from whom.
 - **Weakness:** if levels are self-rated without evidence, the matrix reflects confidence, not capability.
 
-### Case study: the skills matrix that found the outage before it happened
+### Case study (illustrative): the skills matrix that found the outage before it happened
 
 - **Situation:** a twelve-person platform team supported thirty services; most knowledge was held informally.
 - **Problem:** two serious incidents in a quarter were prolonged because the only person who understood the affected service was on leave.

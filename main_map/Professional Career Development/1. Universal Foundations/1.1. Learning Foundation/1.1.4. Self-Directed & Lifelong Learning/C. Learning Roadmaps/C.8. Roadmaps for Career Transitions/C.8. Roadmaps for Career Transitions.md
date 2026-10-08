@@ -310,7 +310,7 @@ flowchart LR
 
 ---
 
-## Worked Example: Teacher to Instructional Designer
+## Worked Example (illustrative): Teacher to Instructional Designer
 
 - **Situation:** Sarah, a secondary science teacher of eight years, wants a corporate instructional design role within 15 months. She can give 6 hours a week; she has 4 months of savings runway.
 
@@ -341,7 +341,7 @@ flowchart LR
 
 ---
 
-## Case Study: From Ward Nurse to Clinical Informatics
+## Case Study (illustrative): From Ward Nurse to Clinical Informatics
 
 - **Situation:** Tunde, a ward nurse with ten years' experience in a large hospital, was interested in technology but had no formal IT training. The hospital was preparing to introduce a new electronic patient record system.
 - **Problem:** informatics roles typically asked for systems analysis skills and project experience he did not have; external courses alone seemed unlikely to make him credible.

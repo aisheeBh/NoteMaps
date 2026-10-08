@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>In skewed data the mean and the median tell different stories</title>
+  <desc>A right-skewed histogram of support-ticket resolution times in hours. Most tickets resolve within a few hours; a long tail extends past 40 hours. The median, about 4 hours, sits near the bulk; the mean, about 9 hours, is pulled to the right by the tail.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Skewed data: where the median and the mean fall</text>
+  <rect x="102.0" y="208.0" width="35.0" height="242.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="141.0" y="120.0" width="35.0" height="330.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="180.0" y="186.0" width="35.0" height="264.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="219.0" y="285.0" width="35.0" height="165.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="258.0" y="340.0" width="35.0" height="110.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="297.0" y="373.0" width="35.0" height="77.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="336.0" y="395.0" width="35.0" height="55.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="375.0" y="406.0" width="35.0" height="44.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="414.0" y="417.0" width="35.0" height="33.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="453.0" y="422.5" width="35.0" height="27.5" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="492.0" y="428.0" width="35.0" height="22.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="531.0" y="432.4" width="35.0" height="17.6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="570.0" y="435.7" width="35.0" height="14.3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="609.0" y="439.0" width="35.0" height="11.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="648.0" y="441.2" width="35.0" height="8.8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="687.0" y="443.4" width="35.0" height="6.6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="726.0" y="444.5" width="35.0" height="5.5" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="765.0" y="445.6" width="35.0" height="4.4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="804.0" y="446.7" width="35.0" height="3.3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="843.0" y="446.7" width="35.0" height="3.3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <line x1="100" y1="450" x2="880" y2="450" stroke="#222222" stroke-width="2"/>
+  <line x1="100" y1="450" x2="100" y2="110" stroke="#222222" stroke-width="2"/>
+  <line x1="100.0" y1="450" x2="100.0" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="100.0" y="474" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="295.0" y1="450" x2="295.0" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="295.0" y="474" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <line x1="490.0" y1="450" x2="490.0" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="490.0" y="474" text-anchor="middle" font-size="14" fill="#111111">20</text>
+  <line x1="685.0" y1="450" x2="685.0" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="685.0" y="474" text-anchor="middle" font-size="14" fill="#111111">30</text>
+  <line x1="880.0" y1="450" x2="880.0" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="880.0" y="474" text-anchor="middle" font-size="14" fill="#111111">40</text>
+  <text x="490.0" y="500" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Resolution time (hours)</text>
+  <text x="60" y="285.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold" transform="rotate(-90 60 285.0)">Number of tickets</text>
+  <line x1="178.0" y1="450" x2="178.0" y2="110" stroke="#222222" stroke-width="3"/>
+  <line x1="275.5" y1="450" x2="275.5" y2="110" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="284" y="112" width="290" height="50" fill="#FFFFFF"/>
+  <text x="289.5" y="132" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">Mean ≈ 9 h</text>
+  <text x="289.5" y="152" text-anchor="start" font-size="14" fill="#111111">pulled right by the long tail</text>
+  <text x="172.0" y="106" text-anchor="end" font-size="15" fill="#111111" font-weight="bold">Median ≈ 4 h</text>
+  <text x="870" y="330" text-anchor="end" font-size="15" fill="#111111">Long tail: a few</text>
+  <text x="870" y="350" text-anchor="end" font-size="15" fill="#111111">very slow tickets</text>
+  <text x="480.0" y="546" text-anchor="middle" font-size="13" fill="#333333">Schematic distribution; not plotted from a single dataset.</text>
+</svg>

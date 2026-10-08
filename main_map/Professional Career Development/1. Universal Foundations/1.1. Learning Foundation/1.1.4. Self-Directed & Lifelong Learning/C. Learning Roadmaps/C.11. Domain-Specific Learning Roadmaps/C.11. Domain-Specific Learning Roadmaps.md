@@ -236,7 +236,7 @@ flowchart BT
 
 ![Figure 5. The six CEFR levels as a roadmap with can-do milestones](fig-C11-cefr-levels.svg)
 
-> **Example:** a professional moving to Madrid for work might target B2 in speaking and listening — enough to take part in meetings — and B1 in writing, using official proficiency examinations or tutor assessments against the descriptors as milestones.
+> **Example (illustrative):** a professional moving to Madrid for work might target B2 in speaking and listening — enough to take part in meetings — and B1 in writing, using official proficiency examinations or tutor assessments against the descriptors as milestones.
 
 ---
 
@@ -348,7 +348,7 @@ flowchart BT
 
 ---
 
-## Worked Example: Two Domains, Two Roadmap Shapes
+## Worked Example (illustrative): Two Domains, Two Roadmap Shapes
 
 - **Situation:** two colleagues at an engineering firm each start a roadmap. Elena wants to become a **chartered project manager**; Sam wants to become a **data analyst** in the firm's new analytics team.
 
@@ -373,7 +373,7 @@ flowchart BT
 
 ---
 
-## Case Study: Borrowing Entrustment for Software On-Call
+## Case Study (illustrative): Borrowing Entrustment for Software On-Call
 
 - **Situation:** an online retailer's engineering teams struggled with **on-call** duties — responding to production incidents out of hours. New engineers were added to the rota after a short briefing.
 - **Problem:** inexperienced engineers handled serious incidents poorly; some incidents lasted longer than necessary; new engineers reported high anxiety.

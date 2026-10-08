@@ -181,7 +181,7 @@ mindmap
 - **Why it fails:** multitasking divides attention and fragments processing; it consistently harms learning.
 - **Fix:** interleaving finishes each item before moving on, and mixes **related** items deliberately chosen for comparison.
 
-> **Example:** a software team's code-review training mixed exercises on security flaws, performance problems and style issues, but each exercise file was named after its category (security_01, perf_02). Reviewers opened the file already knowing what to look for. Renaming the files with neutral numbers was the only change needed to turn a disguised block into genuine interleaving.
+> **Example (illustrative):** a software team's code-review training mixed exercises on security flaws, performance problems and style issues, but each exercise file was named after its category (security_01, perf_02). Reviewers opened the file already knowing what to look for. Renaming the files with neutral numbers was the only change needed to turn a disguised block into genuine interleaving.
 
 > **Remember:** **hide the type, break the pattern, keep runs short, keep the set small, keep items comparable, finish each item.**
 
@@ -324,7 +324,7 @@ quadrantChart
 
 ---
 
-## Worked Example: Auditing a Revision Plan
+## Worked Example (illustrative): Auditing a Revision Plan
 
 - **Situation:** an economics student shares her revision plan for a final exam of mixed problem and essay questions, and says she is "interleaving".
 
@@ -342,7 +342,7 @@ quadrantChart
 3. **Rebuild** — a single pool of unlabelled questions; daily mixed sets of eight to ten items within economics; weekly unseen checks; essay planning practice mixing question types (definitions, evaluation, data response).
 4. **Expect** — lower practice scores for a fortnight and rising weekly-check scores thereafter.
 
-> **Example:** her first weekly check after the change shows identification accuracy of 70% on mixed questions, with elasticity and multiplier problems most often confused. The next week's sets place those two types side by side.
+> **Example (illustrative):** her first weekly check after the change shows identification accuracy of 70% on mixed questions, with elasticity and multiplier problems most often confused. The next week's sets place those two types side by side.
 
 ---
 
@@ -418,7 +418,7 @@ Learners and designers who discover interleaving sometimes swing too far. These 
 
 > **In practice:** many platforms already contain the fix — a "mixed review" or "exam" mode — but bury it. Making mixed mode the default after first exposure is one of the cheapest improvements a learning-technology team can make.
 
-### Case study: interleaving the wrong things in compliance training
+### Case study (illustrative): interleaving the wrong things in compliance training
 
 - **Situation:** a financial-services firm's learning team read about interleaving and redesigned its annual compliance programme. Instead of completing data protection, anti-bribery, sanctions and information-security modules one after another, employees received **shuffled screens from all four modules**.
 - **Problem:** completion times rose, satisfaction fell, and audit findings on data-protection errors did not improve. The team concluded that "interleaving doesn't work in compliance".
@@ -438,7 +438,7 @@ Learners and designers who discover interleaving sometimes swing too far. These 
 - **Side effects:** the comparison was with a previous cohort rather than a randomised group, so other changes may have contributed.
 - **Lesson:** interleaving failed when applied to **unrelated modules** and succeeded when applied to **confusable decisions within one domain**.
 
-**Figure 5.** Two ways of "interleaving" a compliance programme.
+**Figure 5.** Two ways of "interleaving" a compliance programme. (illustrative)
 
 ![Figure 5. Two ways of interleaving a compliance programme](fig-E11-compliance.svg)
 

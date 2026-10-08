@@ -220,7 +220,7 @@ flowchart TD
 
 ---
 
-## Worked Example: An Interleaved Set on Integration
+## Worked Example (illustrative): An Interleaved Set on Integration
 
 - **Situation:** first-year university students have learned three integration techniques in successive lectures — **substitution**, **integration by parts** and **partial fractions** — each followed by a block of exercises. On mixed exam questions they often pick the wrong technique.
 
@@ -319,7 +319,7 @@ flowchart TD
 - **Make "which method?" cards** — the front shows a problem, the back names the method and the cue; studying them in shuffled order trains identification quickly, without full solutions.
 - **Ask an AI assistant** for unlabelled mixed problems from named topics, with feedback on method choice before the answer.
 
-> **Example:** a student preparing for a statistics exam writes forty short scenario cards ("Two independent groups, a continuous outcome" → independent-samples t-test). Ten minutes of shuffled cards a day trains the choice that the exam tests in every question.
+> **Example (illustrative):** a student preparing for a statistics exam writes forty short scenario cards ("Two independent groups, a continuous outcome" → independent-samples t-test). Ten minutes of shuffled cards a day trains the choice that the exam tests in every question.
 
 ---
 
@@ -395,7 +395,7 @@ Interleaving does not replace other good practice in mathematics teaching; it ch
 
 > **In practice:** quantitative interview preparation that drills one topic per evening (probability one night, combinatorics the next) mirrors the textbook chapter. Mixed sets, timed and unlabelled, mirror the interview.
 
-### Case study: rescuing first-year engineering mathematics
+### Case study (illustrative): rescuing first-year engineering mathematics
 
 - **Situation:** a university engineering faculty taught first-year mathematics in weekly topics — differentiation, integration techniques, differential equations, series, linear algebra — each with a weekly problem sheet on that topic only.
 - **Problem:** pass rates on the end-of-year exam were low, and examiners reported that many students "knew the methods but could not start the questions".

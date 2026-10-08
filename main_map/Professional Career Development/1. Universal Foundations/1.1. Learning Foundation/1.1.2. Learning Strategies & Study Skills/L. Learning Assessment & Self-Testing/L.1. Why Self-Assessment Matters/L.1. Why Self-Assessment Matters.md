@@ -343,7 +343,7 @@ flowchart TD
 
 ![Figure 5. The strength of evidence behind different kinds of self-assessment](fig-L1-evidence-ladder.svg)
 
-### Worked example: a data analyst decides whether she is ready
+### Worked example (illustrative): a data analyst decides whether she is ready
 
 A data analyst plans to sit a cloud data-engineering certification in six weeks.
 
@@ -357,6 +357,8 @@ A data analyst plans to sit a cloud data-engineering certification in six weeks.
 | Judgement | "Mostly fine; storage is a bit weak" | 15 objectives secure, 5 shaky, 4 failed — including two in security she felt confident about |
 | Action | General revision of storage | Targeted practice on the 9 weak objectives; re-test in one week |
 | Check | None until the exam | Full mock exam in week four, compared with her predicted score |
+
+*Illustrative figures.*
 
 - **Step 1:** she lists the 24 objectives and rates her confidence in each *before* testing.
 - **Step 2:** she attempts the questions unaided and marks them strictly against the official answers.
@@ -438,7 +440,7 @@ flowchart TD
 
 > **In practice:** make one's own judgement **first**, then compare it with the tool's. Disagreements are the most informative moments — they show either a gap in one's standard or an error in the tool.
 
-### Case study: the junior engineer whose pull requests kept coming back
+### Case study (illustrative): the junior engineer whose pull requests kept coming back
 
 - **Situation:** a graduate software engineer in a payments team had most of her pull requests returned by reviewers with many comments.
 - **Problem:** each review cycle took two to three days; her lead considered her capable but "careless".

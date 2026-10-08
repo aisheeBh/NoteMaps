@@ -351,7 +351,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Combining Three Community Roadmaps With a Mentor
+## Worked Example (illustrative): Combining Three Community Roadmaps With a Mentor
 
 - **Situation:** Aisha, a graphic designer, wants a front-end developer role within a year. She finds three popular community roadmaps.
 
@@ -364,6 +364,8 @@ flowchart TD
 | Core marked? | Yes, with optional branches | No | Yes |
 | Projects included? | Few | None | One per stage |
 | Matches local job adverts? | Mostly | Partly — older framework | Mostly |
+
+*Illustrative figures.*
 
 2. **Draft:** she takes Roadmap C's structure and projects, fills gaps from Roadmap A's core items, and drops Roadmap B.
 3. **Near-peer check:** a developer hired a year earlier tells her that layout and accessibility took far longer than she has allowed, and that a portfolio of three real projects mattered more than any certificate.
@@ -381,7 +383,7 @@ flowchart TD
 
 ---
 
-## Case Study: A Mentored Route to Chartership
+## Case Study (illustrative): A Mentored Route to Chartership
 
 - **Situation:** a civil engineering consultancy hired around forty graduate engineers a year. Graduates aimed for **chartered** status with a professional institution, which requires documented evidence against a set of competence standards, a supervising engineer's support and a professional review interview.
 - **Problem:**

@@ -60,7 +60,7 @@ A search for "learn statistics" returns thousands of courses, books, videos and 
 - **Teaching clarity** — explanations that build understanding: clear examples, signposting, absence of clutter.
 - **Structure** — coherent sequence, clear objectives, a sense of what comes next.
 
-**Figure 1.** Quality profiles of three resources on the six facets.
+**Figure 1.** Quality profiles of three resources on the six facets. (illustrative)
 
 ![Figure 1. Quality profiles of three resources on the six facets](fig-C5-quality-profiles.svg)
 
@@ -350,7 +350,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Choosing a Spine for Applied Statistics
+## Worked Example (illustrative): Choosing a Spine for Applied Statistics
 
 - **Situation:** Mei, a market researcher, needs to run and interpret common statistical tests within four months, with about four hours a week. She has shortlisted three resources.
   - **R1** — a popular video course: high ratings, entertaining, few exercises.
@@ -370,6 +370,8 @@ flowchart TD
 | Structure (0.10) | 3 | 4 | 4 |
 | **Weighted score** | **3.15** | **3.65** | **4.60** |
 
+*Illustrative figures.*
+
 > **Formula — Weighted score:** Σ (weight × score). For R2: 0.25×3 + 0.15×5 + 0.10×3 + 0.25×4 + 0.15×3 + 0.10×4 = 0.75 + 0.75 + 0.30 + 1.00 + 0.45 + 0.40 = **3.65**.
 
 3. **Decide roles:**
@@ -384,7 +386,7 @@ flowchart TD
 
 ---
 
-## Case Study: Curating a Corporate Content Library
+## Case Study (illustrative): Curating a Corporate Content Library
 
 - **Situation:** a large insurer licensed several online content libraries, giving staff access to tens of thousands of courses and videos.
 - **Problem:**

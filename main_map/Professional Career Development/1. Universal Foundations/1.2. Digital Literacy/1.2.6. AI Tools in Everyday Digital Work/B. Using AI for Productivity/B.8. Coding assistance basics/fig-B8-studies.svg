@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Measured effects of AI coding tools differ by setting</title>
+  <desc>Bar chart of three studies. In a 2023 laboratory task, developers with an AI assistant finished about 56 per cent faster. In field experiments at three companies reported in 2024 and 2025, developers with access completed about 26 per cent more tasks. In a 2025 trial with experienced developers on their own mature projects, tasks took about 19 per cent longer with AI.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Measured effects of AI coding tools differ by setting</text>
+  <text x="388" y="117" text-anchor="end" font-size="15" fill="#111111">Lab task, new small program (Peng et al.,</text>
+  <text x="388" y="135" text-anchor="end" font-size="15" fill="#111111">2023): faster</text>
+  <rect x="400" y="102" width="280" height="38" rx="2" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="690" y="126" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 56% faster</text>
+  <text x="388" y="199" text-anchor="end" font-size="15" fill="#111111">Company field experiments (Cui et al.):</text>
+  <text x="388" y="217" text-anchor="end" font-size="15" fill="#111111">more tasks completed</text>
+  <rect x="400" y="184" width="130" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="540" y="208" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 26% more</text>
+  <text x="388" y="280" text-anchor="end" font-size="15" fill="#111111">Experienced developers, own mature</text>
+  <text x="388" y="298" text-anchor="end" font-size="15" fill="#111111">projects (METR, 2025): slower</text>
+  <rect x="400" y="265" width="95" height="38" rx="2" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="505" y="289" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 19% slower</text>
+  <line x1="400" y1="74" x2="400" y2="329" stroke="#222222" stroke-width="2"/>
+  <line x1="400" y1="329" x2="750" y2="329" stroke="#222222" stroke-width="1.5"/>
+  <line x1="400" y1="329" x2="400" y2="335" stroke="#222222" stroke-width="1.5"/>
+  <text x="400" y="351" text-anchor="middle" font-size="13" fill="#111111">0</text>
+  <line x1="500" y1="329" x2="500" y2="335" stroke="#222222" stroke-width="1.5"/>
+  <text x="500" y="351" text-anchor="middle" font-size="13" fill="#111111">20</text>
+  <line x1="600" y1="329" x2="600" y2="335" stroke="#222222" stroke-width="1.5"/>
+  <text x="600" y="351" text-anchor="middle" font-size="13" fill="#111111">40</text>
+  <line x1="700" y1="329" x2="700" y2="335" stroke="#222222" stroke-width="1.5"/>
+  <text x="700" y="351" text-anchor="middle" font-size="13" fill="#111111">60</text>
+  <text x="575" y="373" text-anchor="middle" font-size="14" fill="#111111">Size of the effect in per cent (direction stated on each bar)</text>
+  <text x="480" y="406" text-anchor="middle" font-size="13" fill="#333333">Different tasks, people and measures: the results describe different settings, not one effect.</text>
+</svg>

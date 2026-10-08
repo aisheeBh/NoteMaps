@@ -193,7 +193,7 @@ Operators give precise control over what an engine matches. Support differs betw
 - **Result type** — news, images, videos, shopping, books, scholarly.
 - **Image filters** — size, colour, type, and **usage rights** such as Creative Commons licences.
 
-### Worked example: from vague question to precise query
+### Worked example (illustrative): from vague question to precise query
 
 A human-resources adviser in the UK needs official guidance on how long to keep employee records.
 
@@ -398,7 +398,7 @@ For work that may be challenged — legal research, audit, procurement, regulato
 
 ---
 
-### Case study: due diligence under time pressure
+### Case study (illustrative): due diligence under time pressure
 
 - **Situation:** a consultant had one afternoon to assess the regulatory history of a mid-sized food manufacturer before a client meeting.
 - **Problem:** general searches for the company's name returned its own marketing pages, recruitment sites and directory listings.

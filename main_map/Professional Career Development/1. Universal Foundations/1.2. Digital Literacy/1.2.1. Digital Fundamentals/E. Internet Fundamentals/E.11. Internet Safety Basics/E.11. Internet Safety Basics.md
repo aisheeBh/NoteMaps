@@ -338,7 +338,7 @@ flowchart TD
 
 ## When Something Goes Wrong
 
-### Worked example: "I think I entered my password on a fake site"
+### Worked example (illustrative): "I think I entered my password on a fake site"
 
 Situation: an employee typed their work password into a convincing "document sharing" page, then noticed the address was wrong.
 
@@ -400,13 +400,13 @@ Situation: an employee typed their work password into a convincing "document sha
 - **Privacy settings** — review who can see posts, contact details and friends lists.
 - **Location** — avoid posting real-time locations and travel absences publicly.
 
-> **Example:** a criminal studying a company's public profiles learns that its finance manager has just started and that the chief executive is travelling. A message "from the CEO, between flights" asking the new manager for an urgent payment exploits exactly the gaps that oversharing revealed.
+> **Example (illustrative):** a criminal studying a company's public profiles learns that its finance manager has just started and that the chief executive is travelling. A message "from the CEO, between flights" asking the new manager for an urgent payment exploits exactly the gaps that oversharing revealed.
 
 ---
 
 ## A Personal Safety Baseline
 
-**Worked example — securing a new professional's digital life in one afternoon**
+**Worked example (illustrative) — securing a new professional's digital life in one afternoon**
 
 Situation: a graduate starting a first job wants to put sensible protections in place.
 

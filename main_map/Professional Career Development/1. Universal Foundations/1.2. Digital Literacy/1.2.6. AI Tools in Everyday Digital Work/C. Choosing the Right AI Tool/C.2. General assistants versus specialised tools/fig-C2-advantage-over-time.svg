@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Specialist advantage over time</title>
+  <desc>Line chart. Horizontal axis time since launch; vertical axis advantage over the best general assistant. A solid line for advantage built on data, workflow and standing stays high and rises slightly. A dashed line for advantage built on a better model alone falls to zero as general models improve. Markers show new general-model releases.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What a specialist's lead is built on decides how long it lasts</text>
+  <line x1="120.0" y1="440.0" x2="900.0" y2="440.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120.0" y1="440.0" x2="120.0" y2="80.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510.0" y="484.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Time since the specialised tool launched</text>
+  <text x="76.0" y="260.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 76 260.0)">Advantage over general tools</text>
+  <text x="120.0" y="462.0" text-anchor="start" font-size="14" fill="#111111">Launch</text>
+  <text x="110.0" y="436.0" text-anchor="end" font-size="14" fill="#111111">None</text>
+  <text x="110.0" y="94.0" text-anchor="end" font-size="14" fill="#111111">Large</text>
+  <path d="M120.0 210.0 L139.0 206.8 L158.0 203.9 L177.0 201.2 L196.0 198.7 L215.0 196.4 L234.0 194.3 L253.0 192.3 L272.0 190.5 L291.0 188.9 L310.0 187.4 L329.0 186.0 L348.0 184.7 L367.0 183.5 L386.0 182.5 L405.0 181.5 L424.0 180.5 L443.0 179.7 L462.0 178.9 L481.0 178.2 L500.0 177.6 L519.0 177.0 L538.0 176.4 L557.0 175.9 L576.0 175.4 L595.0 175.0 L614.0 174.6 L633.0 174.2 L652.0 173.9 L671.0 173.6 L690.0 173.3 L709.0 173.0 L728.0 172.8 L747.0 172.6 L766.0 172.4 L785.0 172.2 L804.0 172.0 L823.0 171.8 L842.0 171.7 L861.0 171.6 L880.0 171.4" fill="none" stroke="#111111" stroke-width="4"/>
+  <path d="M120.0 186.0 L139.0 213.3 L158.0 237.8 L177.0 259.7 L196.0 279.3 L215.0 296.8 L234.0 312.5 L253.0 326.5 L272.0 339.1 L291.0 350.4 L310.0 360.4 L329.0 369.4 L348.0 377.5 L367.0 384.7 L386.0 391.1 L405.0 396.9 L424.0 402.1 L443.0 406.7 L462.0 410.8 L481.0 414.5 L500.0 417.8 L519.0 420.8 L538.0 423.4 L557.0 425.8 L576.0 427.9 L595.0 429.8 L614.0 431.5 L633.0 433.1 L652.0 434.4 L671.0 435.6 L690.0 436.7 L709.0 437.7 L728.0 438.6 L747.0 439.4 L766.0 440.0 L785.0 440.0 L804.0 440.0 L823.0 440.0 L842.0 440.0 L861.0 440.0 L880.0 440.0" fill="none" stroke="#111111" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="880.0" y="155.4" text-anchor="end" font-size="15.5" font-weight="bold" fill="#111111">Built on data, workflow, standing</text>
+  <text x="470.0" y="330.0" text-anchor="start" font-size="15.5" font-weight="bold" fill="#111111">Built on a better model alone</text>
+  <line x1="465.0" y1="326.0" x2="380.0" y2="385.2" stroke="#222222" stroke-width="1.5"/>
+  <line x1="300.0" y1="440.0" x2="300.0" y2="110.0" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="300.0" y="104.0" text-anchor="middle" font-size="13.5" fill="#111111">New general model</text>
+  <line x1="520.0" y1="440.0" x2="520.0" y2="110.0" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="520.0" y="104.0" text-anchor="middle" font-size="13.5" fill="#111111">New general model</text>
+  <line x1="740.0" y1="440.0" x2="740.0" y2="110.0" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="740.0" y="104.0" text-anchor="middle" font-size="13.5" fill="#111111">New general model</text>
+  <text x="480.0" y="520.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

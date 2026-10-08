@@ -83,7 +83,7 @@ flowchart TD
 
 ![Figure 2. Whole-task sequencing: task classes of rising complexity, with support fading within each](fig-C4-task-classes.svg)
 
-> **Example:** a junior auditor's first task class is auditing a small, clean set of accounts with a senior's worked file to follow; the second, a mid-sized company with a partly completed file; the third, a company with known control weaknesses, unaided. Every task is a **whole audit**; only the complexity and the support change.
+> **Example (illustrative):** a junior auditor's first task class is auditing a small, clean set of accounts with a senior's worked file to follow; the second, a mid-sized company with a partly completed file; the third, a company with known control weaknesses, unaided. Every task is a **whole audit**; only the complexity and the support change.
 
 ### When parts first is right
 
@@ -111,7 +111,7 @@ flowchart TD
 - **Image:** a zoom lens, starting with the wide-angle view, zooming in on a part, zooming back out to see how it fits, then zooming into another.
 - **Effect:** the learner always has a context for detail.
 
-> **Example:** a new analyst's first week covers the whole business model in one simple picture — how the company earns money, its main costs, its main customers — before any single function is studied in depth.
+> **Example (illustrative):** a new analyst's first week covers the whole business model in one simple picture — how the company earns money, its main costs, its main customers — before any single function is studied in depth.
 
 ### Concrete before abstract — then fade
 
@@ -355,7 +355,7 @@ flowchart LR
 
 ---
 
-## Worked Example: Sequencing German for a Posting Abroad
+## Worked Example (illustrative): Sequencing German for a Posting Abroad
 
 - **Situation:** Arun, a sales engineer, moves to Munich in nine months. Clients speak English in formal meetings but German socially and in many emails. He has no German. He can give about five hours a week.
 
@@ -388,7 +388,7 @@ flowchart LR
 
 ---
 
-## Case Study: Re-sequencing Engineering Onboarding
+## Case Study (illustrative): Re-sequencing Engineering Onboarding
 
 - **Situation:** a fintech company hired around a hundred engineers a year. Onboarding was a four-week sequence of documentation, recorded talks and compliance modules, followed by assignment to a team.
 - **Problem:**

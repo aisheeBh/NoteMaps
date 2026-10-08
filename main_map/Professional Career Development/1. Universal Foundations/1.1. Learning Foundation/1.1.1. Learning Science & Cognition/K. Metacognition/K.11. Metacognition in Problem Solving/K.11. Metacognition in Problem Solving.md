@@ -297,7 +297,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Managing a Debugging Session
+## Worked Example (illustrative): Managing a Debugging Session
 
 - **Situation:** a developer is told that a nightly data job produced totals 3% lower than expected.
 
@@ -317,7 +317,7 @@ flowchart TD
 
 ---
 
-## Case Study: Restructuring Incident Response
+## Case Study (illustrative): Restructuring Incident Response
 
 - **Situation:** an online payments company suffered several long outages; post-incident reviews showed that engineers often spent the first hour pursuing a single wrong theory.
 - **Problem:** responders fixated on the most recent deployment as the cause, even when evidence pointed elsewhere; nobody had the role of stepping back.
@@ -360,7 +360,7 @@ flowchart TD
 - **Decide when to stop** — agree a satisficing standard rather than searching indefinitely.
 - **Treat solutions as experiments** — plan to monitor consequences and adapt.
 
-> **Example:** a hospital asked to "reduce waiting times" first frames the problem as lack of clinic capacity; monitoring the framing — by mapping where patients actually wait — reveals that most delay occurs in booking and referral, and the solution changes completely.
+> **Example (illustrative):** a hospital asked to "reduce waiting times" first frames the problem as lack of clinic capacity; monitoring the framing — by mapping where patients actually wait — reveals that most delay occurs in booking and referral, and the solution changes completely.
 
 ---
 

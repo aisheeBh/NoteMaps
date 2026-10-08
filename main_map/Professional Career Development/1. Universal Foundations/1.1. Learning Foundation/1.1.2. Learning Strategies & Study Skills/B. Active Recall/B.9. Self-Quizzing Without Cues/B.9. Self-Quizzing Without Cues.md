@@ -298,7 +298,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Stripping the Cues From a Quiz
+## Worked Example (illustrative): Stripping the Cues From a Quiz
 
 **Situation:** a supply-chain trainee has a 20-question practice quiz from her course. She scores 18 out of 20, but scores 11 out of 20 on a mixed, open-answer mock exam.
 
@@ -323,7 +323,7 @@ flowchart TD
 
 ---
 
-## Case Study: The Autocomplete Generation
+## Case Study (illustrative): The Autocomplete Generation
 
 - **Situation:** a software consultancy found that recently hired developers performed well on day-to-day tickets but struggled during on-site client workshops and production incidents, where they had to reason about code on a whiteboard or in an unfamiliar environment.
 - **Problem:** juniors could not recall common library functions, basic query syntax or the structure of the company's main framework without their IDE's autocomplete and an AI assistant.

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Learning dip and novelty peak</title>
+  <desc>Line chart over eight weeks of a trial. A solid line for net productivity starts below the baseline in week one, the learning dip, then rises and settles above baseline. A dashed line for use of the tool starts high, peaks in week two, the novelty peak, then falls and settles at a lower steady level.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Two patterns that distort short trials</text>
+  <line x1="120.0" y1="440.0" x2="890.0" y2="440.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120.0" y1="440.0" x2="120.0" y2="80.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="505.0" y="484.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Weeks of the trial</text>
+  <text x="76.0" y="260.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 76 260.0)">Level (relative)</text>
+  <text x="120.0" y="462.0" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <text x="227.1" y="462.0" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <text x="334.3" y="462.0" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <text x="441.4" y="462.0" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <text x="548.6" y="462.0" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <text x="655.7" y="462.0" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <text x="762.9" y="462.0" text-anchor="middle" font-size="14" fill="#111111">7</text>
+  <text x="870.0" y="462.0" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <line x1="120.0" y1="300.0" x2="870.0" y2="300.0" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="870.0" y="320.0" text-anchor="end" font-size="14" fill="#111111">Baseline productivity</text>
+  <path d="M120.0 360.0 L146.8 339.2 L173.6 322.2 L200.4 308.1 L227.1 296.5 L253.9 286.8 L280.7 278.8 L307.5 272.0 L334.3 266.3 L361.1 261.5 L387.9 257.4 L414.6 253.9 L441.4 250.9 L468.2 248.3 L495.0 246.1 L521.8 244.1 L548.6 242.5 L575.4 241.0 L602.1 239.7 L628.9 238.6 L655.7 237.6 L682.5 236.8 L709.3 236.0 L736.1 235.3 L762.9 234.7 L789.6 234.2 L816.4 233.7 L843.2 233.3 L870.0 233.0" fill="none" stroke="#111111" stroke-width="4"/>
+  <path d="M120.0 140.9 L146.8 126.9 L173.6 113.1 L200.4 103.4 L227.1 101.3 L253.9 108.2 L280.7 122.7 L307.5 141.4 L334.3 160.3 L361.1 176.6 L387.9 188.8 L414.6 197.0 L441.4 202.1 L468.2 205.1 L495.0 207.1 L521.8 208.4 L548.6 209.4 L575.4 210.3 L602.1 211.1 L628.9 211.8 L655.7 212.4 L682.5 213.0 L709.3 213.6 L736.1 214.1 L762.9 214.6 L789.6 215.0 L816.4 215.4 L843.2 215.8 L870.0 216.1" fill="none" stroke="#111111" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="152.1" y="392.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Learning dip</text>
+  <text x="239.1" y="96.0" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Novelty peak</text>
+  <text x="870.0" y="259.0" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Net productivity</text>
+  <text x="870.0" y="200.1" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Use of the tool</text>
+  <text x="480.0" y="522.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

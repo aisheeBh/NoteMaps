@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Clause triage</title>
+  <desc>Three columns. Stop until clarified: training on by default with no business option; no retention limit; provider claims outputs; sharing for advertising. Limit use to public or own material: opt-out training; long but stated retention; human review for safety; data outside the required region. Normal for operation: licence to host and process; short safety retention; named sub-processors; notice before changes.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Sorting clauses by how far they should limit use</text>
+  <rect x="40.0" y="80.0" width="280.0" height="56.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="48.0" y="105.0" width="264.0" height="7.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <rect x="50.0" y="92.0" width="260.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="180.0" y="114.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Stop until clarified</text>
+  <rect x="40.0" y="150.0" width="280.0" height="300.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="60.0" y="190.0" text-anchor="start" font-size="15.5" fill="#111111">- Training on, with no</text>
+  <text x="74.0" y="214.0" text-anchor="start" font-size="15.5" fill="#111111">business option</text>
+  <text x="60.0" y="262.0" text-anchor="start" font-size="15.5" fill="#111111">- No retention limit</text>
+  <text x="60.0" y="310.0" text-anchor="start" font-size="15.5" fill="#111111">- Provider claims outputs</text>
+  <text x="60.0" y="358.0" text-anchor="start" font-size="15.5" fill="#111111">- Sharing for advertising</text>
+  <rect x="340.0" y="80.0" width="280.0" height="56.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="348.0" y="105.0" width="264.0" height="7.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <rect x="350.0" y="92.0" width="260.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480.0" y="114.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Limit to public or own work</text>
+  <rect x="340.0" y="150.0" width="280.0" height="300.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="360.0" y="190.0" text-anchor="start" font-size="15.5" fill="#111111">- Training unless opted out</text>
+  <text x="360.0" y="238.0" text-anchor="start" font-size="15.5" fill="#111111">- Long but stated retention</text>
+  <text x="360.0" y="286.0" text-anchor="start" font-size="15.5" fill="#111111">- Human review for safety</text>
+  <text x="360.0" y="334.0" text-anchor="start" font-size="15.5" fill="#111111">- Data outside the</text>
+  <text x="374.0" y="358.0" text-anchor="start" font-size="15.5" fill="#111111">required region</text>
+  <rect x="640.0" y="80.0" width="280.0" height="56.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="648.0" y="105.0" width="264.0" height="7.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <rect x="650.0" y="92.0" width="260.0" height="32.0" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="780.0" y="114.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Normal for operation</text>
+  <rect x="640.0" y="150.0" width="280.0" height="300.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="660.0" y="190.0" text-anchor="start" font-size="15.5" fill="#111111">- Licence to host and process</text>
+  <text x="660.0" y="238.0" text-anchor="start" font-size="15.5" fill="#111111">- Short safety retention</text>
+  <text x="660.0" y="286.0" text-anchor="start" font-size="15.5" fill="#111111">- Named sub-processors</text>
+  <text x="660.0" y="334.0" text-anchor="start" font-size="15.5" fill="#111111">- Notice before changes</text>
+  <text x="660.0" y="382.0" text-anchor="start" font-size="15.5" fill="#111111">- Export and deletion</text>
+  <text x="480.0" y="490.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">One stop-level clause should halt use for confidential work until clarified.</text>
+</svg>

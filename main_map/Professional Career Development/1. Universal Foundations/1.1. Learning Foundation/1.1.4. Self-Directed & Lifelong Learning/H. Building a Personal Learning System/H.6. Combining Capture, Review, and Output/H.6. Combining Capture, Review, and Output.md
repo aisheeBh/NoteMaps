@@ -156,7 +156,7 @@ A loop is easiest to run when every artefact type has a defined **next destinati
 
 - Little's law holds for any stable system — factories, hospitals, notes inboxes. It shows that a large backlog **necessarily** means items wait a long time before being processed, and most become stale.
 
-### Worked example: a growing inbox
+### Worked example (illustrative): a growing inbox
 
 A product designer captures about **40 items a week** and processes about **15**.
 
@@ -339,9 +339,9 @@ Detailed learning analytics are a separate subject; for the loop itself a few si
 
 ---
 
-## Case Study: From Highlights to Briefings
+## Case Study (illustrative): From Highlights to Briefings
 
-### Case study: a policy researcher integrates her loop
+### Case study (illustrative): a policy researcher integrates her loop
 
 - **Situation:** a researcher at a think tank covering energy policy.
 - **Problem:** three thousand highlights; dozens of half-written notes; two years without a publication; colleagues unsure what she knew.

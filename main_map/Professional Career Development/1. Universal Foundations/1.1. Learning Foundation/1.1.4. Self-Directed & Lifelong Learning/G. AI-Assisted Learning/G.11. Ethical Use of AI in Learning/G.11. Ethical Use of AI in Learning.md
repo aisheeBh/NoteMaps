@@ -307,7 +307,7 @@ flowchart TD
     class ST caution
 ```
 
-### Worked example: a take-home certification case
+### Worked example (illustrative): a take-home certification case
 
 A project manager is completing a take-home case study for a professional certification. The rules permit "reference materials" but say nothing explicit about AI.
 
@@ -323,7 +323,7 @@ A project manager is completing a take-home case study for a professional certif
 
 > **Remember:** the "newspaper test" — would one be comfortable if exactly how AI was used were reported to the assessor, the employer or the client? If not, the use probably fails the honesty principle.
 
-### Case study: a trainee's reflective portfolio
+### Case study (illustrative): a trainee's reflective portfolio
 
 - **Situation:** trainees in a healthcare programme must keep reflective logs on difficult clinical encounters, which are assessed and used to judge professional development.
 - **Problem:** a trainee began pasting rough notes of encounters — including patients' ages, conditions and ward details — into a public chatbot and asking it to "write a reflective entry".

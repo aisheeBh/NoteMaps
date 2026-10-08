@@ -312,7 +312,7 @@ flowchart TD
 
 > **Watch out:** a personal experiment is **not** a test of "learning style". Results should be judged by delayed, unaided performance, not by which method felt more comfortable.
 
-### Worked example: an accountant moving into data engineering
+### Worked example (illustrative): an accountant moving into data engineering
 
 - **Situation:** a chartered accountant with strong spreadsheet skills has six months, about six hours a week, to become useful on a finance data-platform team.
 
@@ -463,7 +463,7 @@ flowchart TD
   - Knowledge needed to **judge** AI output, act under time pressure or learn further must be internal.
 - **Risk of skipped struggle:** if the AI deconstructs every field for the learner, the learner never builds the deconstruction skill.
 
-### Case study: building industry-entry capability in a consulting practice
+### Case study (illustrative): building industry-entry capability in a consulting practice
 
 - **Situation:** a mid-sized consultancy regularly staffs analysts on clients in industries new to them — utilities, insurance, healthcare, logistics.
 - **Problem:**

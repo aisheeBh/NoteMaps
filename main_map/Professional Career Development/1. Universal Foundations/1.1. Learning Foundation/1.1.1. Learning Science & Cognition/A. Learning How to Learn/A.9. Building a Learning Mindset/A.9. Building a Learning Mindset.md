@@ -112,7 +112,7 @@ flowchart TD
   - judge messages by the **quality of the argument** rather than by cues such as the speaker's status.
 - **It is related to intelligence but far from identical to it:** many able people simply prefer not to think hard when they do not have to.
 
-> **Example:** two analysts receive the same vendor report. One reads the summary slide and adopts its recommendation; the other opens the appendix to see how the sample was drawn. The second is showing need for cognition, and she will be the one who notices the sample excludes the client's largest market.
+> **Example (illustrative):** two analysts receive the same vendor report. One reads the summary slide and adopts its recommendation; the other opens the appendix to see how the sample was drawn. The second is showing need for cognition, and she will be the one who notices the sample excludes the client's largest market.
 
 ### The information-gap account
 
@@ -205,7 +205,7 @@ flowchart TD
 - Learning that lasts often **feels** harder than learning that fades; a learner who reads struggle as failure will abandon the most effective methods.
 - **Tolerance of difficulty** means interpreting effortful struggle as a normal part of learning, not as a signal to stop.
 
-> **Example:** a junior lawyer drafting her first share-purchase agreement takes three days and is covered in comments. A learner intolerant of difficulty concludes she is unsuited to corporate work; a tolerant one reads the comments as the curriculum.
+> **Example (illustrative):** a junior lawyer drafting her first share-purchase agreement takes three days and is covered in comments. A learner intolerant of difficulty concludes she is unsuited to corporate work; a tolerant one reads the comments as the curriculum.
 
 ### Ambiguity
 
@@ -416,7 +416,7 @@ Attitudes are hard to change by intention; behaviours are easier, and repeated b
 
 > **Remember — disposition = ability + inclination + sensitivity:** most people can and would; they fail to **notice** the moment. Design the cue first.
 
-### Worked example: a finance controller facing automation
+### Worked example (illustrative): a finance controller facing automation
 
 - **Situation:** a 45-year-old financial controller sees reporting work being automated. He feels his expertise is becoming obsolete and avoids the new tools.
 
@@ -563,7 +563,7 @@ flowchart TD
   - speed of meaningful adoption of new tools;
   - voluntary moves into unfamiliar work.
 
-### Case study: a radiology department and an AI triage tool
+### Case study (illustrative): a radiology department and an AI triage tool
 
 - **Situation:** a regional hospital's radiology department adopted an AI tool that prioritised chest X-rays for review.
 - **Problem after three months:**

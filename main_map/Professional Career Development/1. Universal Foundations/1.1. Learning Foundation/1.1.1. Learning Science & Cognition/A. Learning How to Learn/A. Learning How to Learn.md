@@ -385,7 +385,7 @@ Across a century of research, a small set of principles has emerged that is well
 | Transfer | Low | Higher, especially to similar tasks |
 | Evidence | Weak | Supported by meta-analyses of strategy instruction |
 
-### Case study: teaching graduates how to learn inside a professional training programme
+### Case study (illustrative): teaching graduates how to learn inside a professional training programme
 
 - **Situation:** an engineering and consulting firm recruited about two hundred graduates a year into a two-year rotational programme across technical, client and commercial roles.
 - **Problem:**

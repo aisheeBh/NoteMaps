@@ -369,7 +369,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Prerequisites for a Discounted Cash-Flow Valuation
+## Worked Example (illustrative): Prerequisites for a Discounted Cash-Flow Valuation
 
 - **Situation:** Tomás, a marketing manager, wants to build and defend a discounted cash-flow (DCF) valuation of a small business within three months.
 
@@ -445,7 +445,7 @@ flowchart BT
 - **Readiness checks before stretch assignments** — confirming a person has the foundations before giving them a high-stakes project.
 - **Bridging modules** — short, targeted content for groups whose prerequisites differ, such as experienced hires from adjacent fields.
 
-### Case study: removing a foundations block from an analytics academy
+### Case study (illustrative): removing a foundations block from an analytics academy
 
 - **Situation:** a retail bank ran a twelve-week analytics academy for employees moving into data roles. The first five weeks covered mathematics and statistics "foundations".
 - **Problem:**

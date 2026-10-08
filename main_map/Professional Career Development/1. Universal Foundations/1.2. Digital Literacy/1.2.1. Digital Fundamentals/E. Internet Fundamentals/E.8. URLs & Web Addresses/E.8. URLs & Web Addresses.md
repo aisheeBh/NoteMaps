@@ -111,7 +111,7 @@ data:text/plain,hello
   - *e.g.* ?utm_source=newsletter&utm_medium=email&utm_campaign=spring-sale
 - **Sensitive data risk** — queries are stored in browser history, server logs and analytics, and may be passed to other sites; they should never contain passwords, health data or personal identifiers.
 
-> **Example:** a hospital appointment system that put patients' national identity numbers in its URLs exposed them to every analytics service the page loaded and to anyone who saw a shared link. Moving the identifier out of the URL closed the leak.
+> **Example (illustrative):** a hospital appointment system that put patients' national identity numbers in its URLs exposed them to every analytics service the page loaded and to anyone who saw a shared link. Moving the identifier out of the URL closed the leak.
 
 ### Fragments
 
@@ -333,7 +333,7 @@ sequenceDiagram
 
 > **Watch out:** a shared document link set to "anyone with the link" is only as private as the people and systems that see the link — email gateways, chat histories, browser extensions and search crawlers if it is ever posted publicly.
 
-### Case study: a campaign link that leaked customer data
+### Case study (illustrative): a campaign link that leaked customer data
 
 - **Situation:** an insurance company emailed renewal reminders containing personalised links of the form */renew?policy=…&dob=…&postcode=…*, so that customers could renew without signing in.
 - **Problem:**
@@ -408,7 +408,7 @@ sequenceDiagram
 
 > **Definition — Persistent identifier:** a long-lasting reference to a digital resource that remains valid even if the resource moves, because a maintained resolution service redirects it to the current location.
 
-### Worked example: citing an online source in a client report
+### Worked example (illustrative): citing an online source in a client report
 
 Situation: a consultant cites a regulator's guidance page in a report that clients will use for several years.
 

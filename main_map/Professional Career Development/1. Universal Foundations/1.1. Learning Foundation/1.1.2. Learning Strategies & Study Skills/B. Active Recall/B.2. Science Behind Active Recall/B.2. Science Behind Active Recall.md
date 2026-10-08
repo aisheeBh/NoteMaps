@@ -455,7 +455,7 @@ Neuroscience adds a biological picture that is consistent with the cognitive exp
 
 > **Mnemonic — "EFFORT":** **E**ffortful but successful, **F**eedback always, **F**ocus on meaning, **O**ther cues and contexts, **R**ange over everything, **T**est before judging.
 
-### Worked example: choosing among three recall designs
+### Worked example (illustrative): choosing among three recall designs
 
 **Situation:** a hospital pharmacy team must learn the interactions of twenty high-risk drugs. A trainer proposes three daily ten-minute designs.
 
@@ -477,7 +477,7 @@ Neuroscience adds a biological picture that is consistent with the cognitive exp
 
 > **Watch out:** Design C will feel the hardest and produce the **lowest** scores during practice. A trainer judging by practice performance would wrongly choose Design B.
 
-### Case study: incident playbooks that would not stick
+### Case study (illustrative): incident playbooks that would not stick
 
 - **Situation:** a cloud-services company required its on-call engineers to know six incident playbooks — steps for outages, data breaches and capacity failures.
 - **Problem:** in post-incident reviews, engineers repeatedly skipped steps; most said they had "read the playbooks many times".

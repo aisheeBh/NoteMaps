@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The safe pattern for AI over large data</title>
+  <desc>Four boxes in sequence: reduce the data by aggregating, filtering and selecting columns; describe the structure with schema and sample rows; delegate the method so that AI writes a formula, pivot, query or script and an engine computes every row; reconcile rows in, rows used and control totals. A crossed-out side path shows pasting raw rows for a text answer.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Reduce, describe, delegate, reconcile</text>
+  <rect x="30" y="90" width="210" height="170" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="135" y="162" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">1. Reduce</text>
+  <text x="135" y="182" text-anchor="middle" font-size="15" fill="#000000">aggregate, filter, keep</text>
+  <text x="135" y="202" text-anchor="middle" font-size="15" fill="#000000">needed columns</text>
+  <line x1="240" y1="175" x2="258" y2="175" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="260" y="90" width="210" height="170" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="365" y="152" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">2. Describe</text>
+  <text x="365" y="172" text-anchor="middle" font-size="15" fill="#000000">schema, grain, row</text>
+  <text x="365" y="192" text-anchor="middle" font-size="15" fill="#000000">count, a few sample</text>
+  <text x="365" y="212" text-anchor="middle" font-size="15" fill="#000000">rows</text>
+  <line x1="470" y1="175" x2="488" y2="175" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="490" y="90" width="210" height="170" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="595" y="130" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">3. Delegate the</text>
+  <text x="595" y="152" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">method</text>
+  <text x="595" y="172" text-anchor="middle" font-size="15" fill="#000000">AI writes formula,</text>
+  <text x="595" y="192" text-anchor="middle" font-size="15" fill="#000000">pivot, query or script;</text>
+  <text x="595" y="212" text-anchor="middle" font-size="15" fill="#000000">an engine computes</text>
+  <text x="595" y="232" text-anchor="middle" font-size="15" fill="#000000">every row</text>
+  <line x1="700" y1="175" x2="718" y2="175" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="720" y="90" width="210" height="170" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="825" y="162" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">4. Reconcile</text>
+  <text x="825" y="182" text-anchor="middle" font-size="15" fill="#000000">rows in = rows used;</text>
+  <text x="825" y="202" text-anchor="middle" font-size="15" fill="#000000">totals match the source</text>
+  <rect x="250" y="310" width="460" height="80" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="480" y="336" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Avoid</text>
+  <text x="480" y="356" text-anchor="middle" font-size="15" fill="#000000">pasting or uploading raw rows and accepting a text</text>
+  <text x="480" y="376" text-anchor="middle" font-size="15" fill="#000000">answer</text>
+  <text x="480.0" y="425" text-anchor="middle" font-size="13" fill="#333333">Schematic.</text>
+</svg>

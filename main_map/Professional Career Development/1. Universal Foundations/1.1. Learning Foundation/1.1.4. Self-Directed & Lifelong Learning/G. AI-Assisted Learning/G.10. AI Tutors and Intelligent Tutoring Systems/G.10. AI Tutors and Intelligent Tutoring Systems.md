@@ -339,7 +339,7 @@ When no purpose-built tutor exists, a learner can configure a general assistant.
 - **Tutors in the flow of work** — assistants that explain a step while the employee performs it blur tutoring and performance support; they speed work but may not build independent capability unless designed to fade.
 - **Tutoring the tutors** — as Tutor CoPilot showed, AI may have as much impact by improving **human** coaches, mentors and trainers as by replacing them.
 
-### Case study: a cloud certification programme
+### Case study (illustrative): a cloud certification programme
 
 - **Situation:** an IT services firm needed 300 engineers to pass a professional cloud-architecture certification within six months; previous cohorts using video courses had a first-attempt pass rate below half.
 - **Actions:**

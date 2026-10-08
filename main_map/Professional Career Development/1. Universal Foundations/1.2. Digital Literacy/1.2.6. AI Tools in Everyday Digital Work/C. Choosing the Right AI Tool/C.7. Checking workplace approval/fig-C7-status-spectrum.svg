@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Approval statuses</title>
+  <desc>Five boxes left to right from least to most permitted: Prohibited, not for work at all; Personal use only, never with work data; Under review, not yet for work data; Approved with conditions, limited data, features or roles; Approved, within stated data classes and features.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The statuses an AI tool can hold at work</text>
+  <rect x="36.0" y="90.0" width="164.0" height="160.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="44.0" y="138.7" width="148.0" height="64.2" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="118.0" y="156.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Prohibited</text>
+  <text x="118.0" y="175.1" text-anchor="middle" font-size="14.5" fill="#111111">Not for work</text>
+  <text x="118.0" y="193.9" text-anchor="middle" font-size="14.5" fill="#111111">at all</text>
+  <rect x="220.0" y="90.0" width="164.0" height="160.0" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="302.0" y="156.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">Personal use only</text>
+  <text x="302.0" y="175.1" text-anchor="middle" font-size="14.5" fill="#222222">Never with</text>
+  <text x="302.0" y="193.9" text-anchor="middle" font-size="14.5" fill="#222222">work data</text>
+  <rect x="404.0" y="90.0" width="164.0" height="160.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="412.0" y="138.7" width="148.0" height="64.2" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="486.0" y="156.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Under review</text>
+  <text x="486.0" y="175.1" text-anchor="middle" font-size="14.5" fill="#111111">Not yet for</text>
+  <text x="486.0" y="193.9" text-anchor="middle" font-size="14.5" fill="#111111">work data</text>
+  <rect x="588.0" y="90.0" width="164.0" height="160.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="670.0" y="156.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Approved with</text>
+  <text x="670.0" y="175.1" text-anchor="middle" font-size="14.5" fill="#111111">conditions on data,</text>
+  <text x="670.0" y="193.9" text-anchor="middle" font-size="14.5" fill="#111111">features or roles</text>
+  <rect x="772.0" y="90.0" width="164.0" height="160.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="780.0" y="138.7" width="148.0" height="64.2" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="854.0" y="156.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Approved</text>
+  <text x="854.0" y="175.1" text-anchor="middle" font-size="14.5" fill="#111111">Within stated data</text>
+  <text x="854.0" y="193.9" text-anchor="middle" font-size="14.5" fill="#111111">classes and features</text>
+  <line x1="60.0" y1="300.0" x2="900.0" y2="300.0" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480.0" y="288.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">More permitted</text>
+  <text x="480.0" y="340.0" text-anchor="middle" font-size="15" fill="#111111">Every status attaches to a tool, an account, data classes and features together.</text>
+</svg>

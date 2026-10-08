@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From experimentation to scaled use</title>
+  <desc>Schematic bars narrowing from organisations with some AI use, through those running pilots, to those scaling across the enterprise and those reporting significant financial impact.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">From experimentation to scaled use</text>
+  <text x="480" y="66" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Pattern across 2025 surveys of large organisations</text>
+  <text x="326" y="120" text-anchor="end" font-size="14.5" fill="#111111">Some AI use in at least one function</text>
+  <rect x="340" y="96" width="493" height="38" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="651" y="104" width="174" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="821" y="120" text-anchor="end" font-size="14.5" font-weight="bold" fill="#111111">close to nine in ten</text>
+  <text x="326" y="182" text-anchor="end" font-size="14.5" fill="#111111">Running generative AI pilots</text>
+  <rect x="340" y="158" width="364" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="714" y="182" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">most</text>
+  <text x="326" y="244" text-anchor="end" font-size="14.5" fill="#111111">Scaling across the enterprise</text>
+  <rect x="340" y="220" width="185" height="38" rx="2" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="535" y="244" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">about a third</text>
+  <text x="326" y="297" text-anchor="end" font-size="14.5" fill="#111111">Significant measurable financial</text>
+  <text x="326" y="315" text-anchor="end" font-size="14.5" fill="#111111">impact</text>
+  <rect x="340" y="282" width="56" height="38" rx="2" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="406" y="306" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">a small minority</text>
+  <line x1="340" y1="86" x2="340" y2="344" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="344" x2="900" y2="344" stroke="#222222" stroke-width="2"/>
+  <text x="620" y="392" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Share of organisations (schematic)</text>
+  <text x="480" y="444" text-anchor="middle" font-size="13" font-style="italic" fill="#111111">Schematic; first bar from McKinsey (2025), lower bars indicate direction only.</text>
+</svg>

@@ -307,7 +307,7 @@ flowchart TD
     class R2,R3 accent
 ```
 
-### Worked example: rewriting a compliance quiz
+### Worked example (illustrative): rewriting a compliance quiz
 
 A bank's anti-money-laundering refresher ends with ten true/false items. Average score: 96%.
 
@@ -326,11 +326,13 @@ A bank's anti-money-laundering refresher ends with ten true/false items. Average
 | Average score | 96% | 71% at first attempt |
 | What it now shows | Familiarity with slide wording | Ability to recognise and act on suspicious patterns |
 
+*Illustrative figures.*
+
 - **Conclusion:** the lower score is **more accurate**, not worse. The redesigned quiz is also a better learning event.
 
 > **Watch out:** managers may read the falling average as a training failure. Report it as a **change in measurement**, with the new baseline.
 
-### Case study: a certification that did not certify
+### Case study (illustrative): a certification that did not certify
 
 - **Situation:** a cloud-services firm certified its support engineers with a 60-item multiple-choice exam; pass rates exceeded 90%.
 - **Problem:** customer escalations showed certified engineers frequently could not configure the services they were certified on.
@@ -411,7 +413,7 @@ Generative AI changes the balance of professional work: more time is spent **rev
 
 ---
 
-## Case Study: Very Short Answers in a Medical School
+## Case Study (illustrative): Very Short Answers in a Medical School
 
 - **Situation:** a medical school's knowledge tests used single-best-answer multiple-choice items written to a high standard.
 - **Problem:** teachers suspected that students passed items by **recognising** the most plausible option, without being able to generate a diagnosis from a vignette — the skill needed on the ward.
@@ -430,7 +432,7 @@ Generative AI changes the balance of professional work: more time is spent **rev
 
 ---
 
-## Worked Example: Turning Recognition Practice Into Recall Practice
+## Worked Example (illustrative): Turning Recognition Practice Into Recall Practice
 
 A cybersecurity analyst revises for a certification using a bank of 500 multiple-choice questions. Practice scores are 85%; first-attempt mock-exam scores are 64%.
 
@@ -446,6 +448,8 @@ A cybersecurity analyst revises for a certification using a bank of 500 multiple
 | Practice score, options visible | 85% | 82% |
 | Recalled before seeing options | Not measured | 58% → 74% over the period |
 | Mock-exam score (new items) | 64% | 76% |
+
+*Illustrative figures.*
 
 - **Conclusion:** the visible practice score barely moved, but the **recall** score and performance on **new** items rose — the change converted recognition practice into retrieval practice.
 

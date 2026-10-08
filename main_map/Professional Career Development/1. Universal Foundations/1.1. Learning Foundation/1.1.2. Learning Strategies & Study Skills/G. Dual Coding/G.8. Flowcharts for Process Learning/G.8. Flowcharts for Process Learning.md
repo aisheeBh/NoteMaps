@@ -209,7 +209,7 @@ flowchart TD
     class G good
 ```
 
-### Worked example: an annual-leave policy
+### Worked example (illustrative): an annual-leave policy
 
 **Source text (extract):** "Employees may request annual leave through the HR system. Requests of up to five days are approved by the line manager. Requests of more than five days also require the head of department's approval. Requests during the December freeze period are declined unless the head of department grants an exception. Leave may not exceed the employee's remaining balance, except that up to three days may be borrowed from next year with HR approval."
 
@@ -359,7 +359,7 @@ flowchart TD
 - **Check the date and owner** — an undated chart may describe a process that no longer exists.
 - **Compare with practice** — ask someone who does the work where the chart and reality differ; the differences are often the most important knowledge.
 
-> **Example:** a new compliance analyst reviewing an escalation flowchart notices that the diamond "Is the transaction unusual?" has no criteria. Asking about it reveals an unwritten rule used by experienced staff — which is then added to the chart.
+> **Example (illustrative):** a new compliance analyst reviewing an escalation flowchart notices that the diamond "Is the transaction unusual?" has no criteria. Asking about it reveals an unwritten rule used by experienced staff — which is then added to the chart.
 
 ### Job aid or learned procedure?
 
@@ -396,7 +396,7 @@ flowchart TD
 - **Customer service** — triage of enquiries and complaints, refund eligibility.
 - **Law** — legal tests laid out as sequences of questions, such as the elements of negligence (duty, breach, causation, damage), each of which must be satisfied in turn.
 
-### Case study: suspicious-activity escalation in a retail bank
+### Case study (illustrative): suspicious-activity escalation in a retail bank
 
 - **Situation:** a retail bank's branch staff were required to recognise and escalate potentially suspicious transactions under anti-money-laundering rules.
 - **Problem:** internal reviews found inconsistent escalation — some branches reported almost nothing, others over-reported trivial cases; regulators had raised the issue.

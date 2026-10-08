@@ -169,7 +169,7 @@ flowchart TD
   - **Responsibility** — people care about the success of someone who depends on them.
   - **Distancing** — seeing one's knowledge in another's performance makes errors easier to recognise.
 
-> **Example:** a new manager preparing to coach a struggling team member on sales negotiation studies negotiation research more carefully than she ever did for her own deals — and changes her own practice as a result.
+> **Example (illustrative):** a new manager preparing to coach a struggling team member on sales negotiation studies negotiation research more carefully than she ever did for her own deals — and changes her own practice as a result.
 
 ### Explaining to an imagined audience
 
@@ -295,7 +295,7 @@ flowchart TD
     class D good
 ```
 
-### Worked example: a compliance officer learning a new regulation
+### Worked example (illustrative): a compliance officer learning a new regulation
 
 - **Situation:** a compliance officer must master a new 80-page data-protection regulation in two weeks and brief 30 managers.
 - **Plan built on the teaching phases:**
@@ -313,11 +313,13 @@ flowchart TD
 | Managers' errors found during briefing | Unknown | Four common misunderstandings caught and corrected |
 | Officer's ability to answer novel questions a month later | Patchy | Strong |
 
+*Illustrative figures.*
+
 - **Conclusion:** two extra hours bought a much deeper understanding for the officer and verified understanding for the managers.
 
 > **Watch out:** teach-back with managers can feel patronising if phrased as a test of them. Frame it as a check on **the briefing**: "Let me check I've explained this well — how would you handle…?"
 
-### Case study: teach-back in software onboarding
+### Case study (illustrative): teach-back in software onboarding
 
 - **Situation:** a fintech company's engineering teams onboarded new developers by pairing them with a "buddy" who explained the codebase over the first two weeks.
 - **Problem:** six months later, new developers still depended heavily on buddies for questions about system architecture; buddies complained of interruptions.

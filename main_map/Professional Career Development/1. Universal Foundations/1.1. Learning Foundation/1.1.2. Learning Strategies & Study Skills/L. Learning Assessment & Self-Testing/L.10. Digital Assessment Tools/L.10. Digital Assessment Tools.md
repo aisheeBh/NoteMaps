@@ -246,7 +246,7 @@ flowchart TD
   - **retire and refresh** items as they become familiar.
 - A spreadsheet or a flashcard application with tags is enough. What matters is that items carry **metadata**, so that results can be analysed by topic and level and tests can be built to represent the domain.
 
-> **Example:** a pharmacist preparing for a clinical examination keeps 300 tagged items. Each Sunday a short script draws 25 items weighted towards topics below threshold and towards application-level items, excluding any answered correctly three times in a row.
+> **Example (illustrative):** a pharmacist preparing for a clinical examination keeps 300 tagged items. Each Sunday a short script draws 25 items weighted towards topics below threshold and towards application-level items, excluding any answered correctly three times in a row.
 
 ### Using generative AI as a personal assessor
 
@@ -405,7 +405,7 @@ flowchart TD
     class T1,T2,T3,T4 good
 ```
 
-### Worked example: choosing a tool for annual anti-money-laundering certification
+### Worked example (illustrative): choosing a tool for annual anti-money-laundering certification
 
 A bank must certify 4,000 staff each year on anti-money-laundering procedures.
 
@@ -433,7 +433,7 @@ A bank must certify 4,000 staff each year on anti-money-laundering procedures.
 
 > **Watch out:** the most expensive part of good digital assessment is not software but **items** — writing, reviewing, piloting and calibrating realistic tasks.
 
-### Case study: the autograder that taught students to pass tests
+### Case study (illustrative): the autograder that taught students to pass tests
 
 - **Situation:** an introductory programming course for 600 students used an autograder with visible tests and unlimited submissions.
 - **Problem:** pass rates on assignments were above 90%, but in the supervised final examination many students could not write simple functions unaided.

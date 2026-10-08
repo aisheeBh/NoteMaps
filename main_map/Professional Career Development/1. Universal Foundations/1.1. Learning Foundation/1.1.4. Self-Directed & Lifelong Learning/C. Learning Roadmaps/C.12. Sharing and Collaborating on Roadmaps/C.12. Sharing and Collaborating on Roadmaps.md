@@ -270,7 +270,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Turning a Personal Roadmap Into a Shareable Template
+## Worked Example (illustrative): Turning a Personal Roadmap Into a Shareable Template
 
 - **Situation:** Leon, a security engineer, built a personal roadmap from network engineer to cloud security engineer. Colleagues keep asking for it.
 
@@ -306,7 +306,7 @@ flowchart TD
 
 ---
 
-## Case Study: A Guild-Maintained Data Engineering Roadmap
+## Case Study (illustrative): A Guild-Maintained Data Engineering Roadmap
 
 - **Situation:** a bank employed about 150 data engineers across many teams. Each team had its own informal advice for newcomers; quality varied widely.
 - **Problem:**

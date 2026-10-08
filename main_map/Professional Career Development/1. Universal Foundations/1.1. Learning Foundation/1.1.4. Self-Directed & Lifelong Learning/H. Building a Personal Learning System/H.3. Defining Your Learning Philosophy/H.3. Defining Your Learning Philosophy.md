@@ -365,7 +365,7 @@ flowchart TD
 5. **Live with it** for a quarter.
 6. **Revise** after reviewing the evidence.
 
-### Worked example: a user-experience researcher's statement
+### Worked example (illustrative): a user-experience researcher's statement
 
 A UX researcher at a health-technology company drafts her statement after an audit showed she had completed many courses but felt unconfident in quantitative methods.
 
@@ -426,9 +426,9 @@ A UX researcher at a health-technology company drafts her statement after an aud
 
 ---
 
-## Case Study: From Credentials to Capability
+## Case Study (illustrative): From Credentials to Capability
 
-### Case study: a network engineer rewrites her philosophy
+### Case study (illustrative): a network engineer rewrites her philosophy
 
 - **Situation:** a network engineer with nine years' experience had earned eleven vendor certifications.
 - **Problem:** passed over for an architecture role; feedback said she "knows the products but cannot design from first principles".

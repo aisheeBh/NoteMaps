@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Levels of reproducibility</title>
+  <desc>Five rising steps: a result pasted from a chat, with nothing to rerun; saved outputs, showing what was reported; saved method, with formulas, queries or code kept; rerunnable from raw data, where the saved steps reproduce the report; independently rerun, where another person reproduces it.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Levels of reproducibility</text>
+  <rect x="40" y="370" width="168" height="100" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="124" y="407" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Pasted result</text>
+  <text x="124" y="426" text-anchor="middle" font-size="14" fill="#000000">a number or chart</text>
+  <text x="124" y="445" text-anchor="middle" font-size="14" fill="#000000">copied from a chat</text>
+  <rect x="218" y="300" width="168" height="170" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="302" y="372" text-anchor="middle" font-size="16" fill="#222222" font-weight="bold">Saved outputs</text>
+  <text x="302" y="391" text-anchor="middle" font-size="14" fill="#222222">what was reported</text>
+  <text x="302" y="410" text-anchor="middle" font-size="14" fill="#222222">is kept</text>
+  <rect x="396" y="230" width="168" height="240" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="328" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Saved method</text>
+  <text x="480" y="346" text-anchor="middle" font-size="14" fill="#000000">formulas, queries</text>
+  <text x="480" y="366" text-anchor="middle" font-size="14" fill="#000000">or code kept with</text>
+  <text x="480" y="384" text-anchor="middle" font-size="14" fill="#000000">the data</text>
+  <rect x="574" y="160" width="168" height="310" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="592" y="274" width="133" height="83" fill="#FFFFFF" stroke="none"/>
+  <text x="658" y="292" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Rerun from raw</text>
+  <text x="658" y="312" text-anchor="middle" font-size="14" fill="#000000">saved steps</text>
+  <text x="658" y="330" text-anchor="middle" font-size="14" fill="#000000">reproduce the</text>
+  <text x="658" y="350" text-anchor="middle" font-size="14" fill="#000000">reported figures</text>
+  <rect x="752" y="90" width="168" height="380" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="836" y="247" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="bold">Independent</text>
+  <text x="836" y="268" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="bold">rerun</text>
+  <text x="836" y="287" text-anchor="middle" font-size="14" fill="#FFFFFF">another person</text>
+  <text x="836" y="306" text-anchor="middle" font-size="14" fill="#FFFFFF">reproduces the</text>
+  <text x="836" y="325" text-anchor="middle" font-size="14" fill="#FFFFFF">result</text>
+  <line x1="40" y1="500" x2="920" y2="500" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480" y="528" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Confidence that the result can be checked and defended</text>
+  <text x="480.0" y="552" text-anchor="middle" font-size="13" fill="#333333">Schematic.</text>
+</svg>

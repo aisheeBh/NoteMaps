@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The jagged frontier of AI capability</title>
+  <desc>Schematic. A row of tasks of similar apparent difficulty along the horizontal axis. A jagged line marks AI capability, rising above some tasks and dipping below others. Tasks below the line, such as drafting ideas or writing a standard formula, are inside the frontier; tasks above it, such as an analysis needing careful use of messy data and context, are outside it.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">The jagged frontier: similar-looking tasks, uneven AI capability</text>
+  <path d="M90.0 255.0 L170.0 180.0 L250.0 270.0 L330.0 165.0 L410.0 195.0 L490.0 315.0 L570.0 186.0 L650.0 285.0 L730.0 270.0 L810.0 165.0 L890.0 240.0 L890 420 L90 420 Z" fill="url(#cross)" stroke="none"/>
+  <path d="M90.0 255.0 L170.0 180.0 L250.0 270.0 L330.0 165.0 L410.0 195.0 L490.0 315.0 L570.0 186.0 L650.0 285.0 L730.0 270.0 L810.0 165.0 L890.0 240.0" fill="none" stroke="#222222" stroke-width="3"/>
+  <line x1="90" y1="420" x2="890" y2="420" stroke="#222222" stroke-width="2"/>
+  <circle cx="170.0" cy="240.0" r="9" fill="#111111"/>
+  <line x1="170.0" y1="112" x2="170.0" y2="228.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="170.0" y="100" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Draft ideas</text>
+  <circle cx="330.0" cy="240.0" r="9" fill="#111111"/>
+  <line x1="330.0" y1="112" x2="330.0" y2="228.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="330.0" y="100" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Standard formula</text>
+  <rect x="481.0" y="231.0" width="18" height="18" fill="#FFFFFF" stroke="#8B0000" stroke-width="3"/>
+  <line x1="490.0" y1="112" x2="490.0" y2="228.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="490.0" y="100" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Messy-data analysis</text>
+  <rect x="641.0" y="231.0" width="18" height="18" fill="#FFFFFF" stroke="#8B0000" stroke-width="3"/>
+  <line x1="650.0" y1="112" x2="650.0" y2="228.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="650.0" y="100" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Judgement call</text>
+  <circle cx="810.0" cy="240.0" r="9" fill="#111111"/>
+  <line x1="810.0" y1="112" x2="810.0" y2="228.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="810.0" y="100" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Format a chart</text>
+  <rect x="90" y="440" width="380" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="280" y="460" text-anchor="middle" font-size="14" fill="#000000">Filled circle: task inside the frontier (AI</text>
+  <text x="280" y="480" text-anchor="middle" font-size="14" fill="#000000">helps)</text>
+  <rect x="510" y="440" width="380" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="700" y="460" text-anchor="middle" font-size="14" fill="#000000">Open square: task outside the frontier (AI</text>
+  <text x="700" y="480" text-anchor="middle" font-size="14" fill="#000000">misleads)</text>
+  <text x="480.0" y="510" text-anchor="middle" font-size="13" fill="#333333">Schematic after Dell'Acqua and colleagues (2023); task positions are illustrative.</text>
+</svg>

@@ -126,7 +126,7 @@ flowchart TD
 - **Glenn Brier (1950)** designed it to score weather forecasts.
 - It rewards **both** calibration and resolution, and cannot be gamed by hedging.
 
-### Worked example: scoring an engineer's estimates
+### Worked example (illustrative): scoring an engineer's estimates
 
 - **Situation:** a software engineer states, for ten tickets, her probability of finishing each within the sprint.
 
@@ -142,6 +142,8 @@ flowchart TD
 | 8 | 0.7 | 1 | 0.09 |
 | 9 | 0.6 | 0 | 0.36 |
 | 10 | 0.5 | 1 | 0.25 |
+
+*Illustrative figures.*
 
 1. **Mean confidence** = (0.9 × 4 + 0.8 × 2 + 0.7 × 2 + 0.6 + 0.5) ÷ 10 = 7.7 ÷ 10 = **0.77**.
 2. **Proportion finished** = 6 ÷ 10 = **0.60**.
@@ -214,7 +216,7 @@ flowchart TD
   - FOK is **inflated** when much *wrong* information comes to mind;
   - familiarity with the **question** raises FOK even if the answer is absent (Lynne Reder and colleagues, 1990s).
 
-> **Example:** a consultant asked about a regulatory regime she has heard discussed often may feel she knows the details because the **question** feels familiar — while the actual provisions were never learned.
+> **Example (illustrative):** a consultant asked about a regulatory regime she has heard discussed often may feel she knows the details because the **question** feels familiar — while the actual provisions were never learned.
 
 ### Systematic patterns in confidence
 
@@ -337,7 +339,7 @@ flowchart TD
   - check claims against an independent source;
   - track how often accepted outputs later prove wrong — a calibration log for tool use.
 
-### Case study: calibrating a project-estimation team
+### Case study (illustrative): calibrating a project-estimation team
 
 - **Situation:** a digital agency's delivery leads gave clients completion dates for website and app projects.
 - **Problem:** over a year, most projects overran; clients complained more about missed dates than about cost.

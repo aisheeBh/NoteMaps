@@ -279,7 +279,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Choosing an Ownership Model
+## Worked Example (illustrative): Choosing an Ownership Model
 
 **Situation:** a 300-person property-management firm has 120 office staff, 150 maintenance technicians and 30 executives. Staff currently use personal phones for email with no controls.
 
@@ -300,11 +300,13 @@ flowchart TD
 | Technicians (150) | COBO rugged | Durability, single-purpose, shared use |
 | Executives (30) | COPE | Sensitive data, need for full control |
 
+*Illustrative figures.*
+
 > **Watch out:** a single policy for everyone is usually wrong — it is either too loose for executives or too intrusive and expensive for office staff.
 
 ---
 
-## Case Study: Shared Phones on Hospital Wards
+## Case Study (illustrative): Shared Phones on Hospital Wards
 
 - **Situation:** nurses on a hospital's wards used desk phones, pagers and shared desktop computers; they walked long distances to record observations and answer calls.
 - **Problem:** delays in recording vital signs, missed calls, and staff using personal phones to photograph wounds for colleagues — an infection-control and privacy risk.

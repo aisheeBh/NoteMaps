@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From literal translation to transcreation</title>
+  <desc>A scale of how freely a text is adapted for a new audience: word-for-word gloss, faithful translation, localisation and transcreation. Freedom and the need for local expertise rise from left to right.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">From literal translation to transcreation</text>
+  <line x1="60" y1="265" x2="905" y2="265" stroke="#222222" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="60" y1="255" x2="60" y2="275" stroke="#222222" stroke-width="4"/>
+  <text x="60" y="293" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Closest to the source</text>
+  <text x="905" y="293" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Freest adaptation</text>
+  <circle cx="95" cy="265" r="9" fill="#111111"/>
+  <line x1="95" y1="256" x2="95" y2="225" stroke="#222222" stroke-width="1.5"/>
+  <rect x="26" y="105" width="200" height="120" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="126" y="149" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Gloss</text>
+  <text x="126" y="173" text-anchor="middle" font-size="13.5" fill="#111111">Word for word; for</text>
+  <text x="126" y="190" text-anchor="middle" font-size="13.5" fill="#111111">understanding only</text>
+  <circle cx="300" cy="265" r="9" fill="#111111"/>
+  <line x1="300" y1="274" x2="300" y2="310" stroke="#222222" stroke-width="1.5"/>
+  <rect x="200" y="310" width="200" height="120" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="300" y="354" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Translation</text>
+  <text x="300" y="378" text-anchor="middle" font-size="13.5" fill="#000000">Same meaning, natural</text>
+  <text x="300" y="395" text-anchor="middle" font-size="13.5" fill="#000000">target language</text>
+  <circle cx="521" cy="265" r="9" fill="#111111"/>
+  <line x1="521" y1="256" x2="521" y2="225" stroke="#222222" stroke-width="1.5"/>
+  <rect x="421" y="105" width="200" height="120" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="429" y="129" width="184" height="72" fill="#FFFFFF" stroke="none" rx="4"/>
+  <text x="521" y="149" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Localisation</text>
+  <text x="521" y="173" text-anchor="middle" font-size="13.5" fill="#111111">Formats, culture, law</text>
+  <text x="521" y="190" text-anchor="middle" font-size="13.5" fill="#111111">adapted to a locale</text>
+  <circle cx="726" cy="265" r="9" fill="#111111"/>
+  <line x1="726" y1="274" x2="726" y2="310" stroke="#222222" stroke-width="1.5"/>
+  <rect x="626" y="310" width="200" height="120" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="726" y="354" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Transcreation</text>
+  <text x="726" y="378" text-anchor="middle" font-size="13.5" fill="#FFFFFF">Message recreated for</text>
+  <text x="726" y="395" text-anchor="middle" font-size="13.5" fill="#FFFFFF">the same effect</text>
+  <text x="480" y="486" text-anchor="middle" font-size="13" fill="#333333">Machine output is strongest near the left and needs the most human expertise towards the right.</text>
+</svg>

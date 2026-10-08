@@ -194,7 +194,7 @@ flowchart TD
 
 ![Figure 4. Checking from the physical layer upwards](fig-B13-layers.svg)
 
-> **Example:** a user reports "email is down". Checking upwards: laptop powered and online (physical, network) → other websites work (network fine) → email works in a browser but not in the desktop app (application) → the app's password prompt was hidden behind another window (account). Five minutes, no specialist needed.
+> **Example (illustrative):** a user reports "email is down". Checking upwards: laptop powered and online (physical, network) → other websites work (network fine) → email works in a browser but not in the desktop app (application) → the app's password prompt was hidden behind another window (account). Five minutes, no specialist needed.
 
 ---
 
@@ -233,7 +233,7 @@ flowchart TD
 
 ---
 
-## Worked Example: "No One Can Hear Me in Meetings"
+## Worked Example (illustrative): "No One Can Hear Me in Meetings"
 
 **Situation:** an employee's colleagues cannot hear her in video calls since Monday. She uses a laptop docked to a monitor, with a Bluetooth headset.
 
@@ -412,7 +412,7 @@ flowchart TD
 
 > **Watch out:** AI troubleshooting suggestions can be confidently wrong. Check that suggested commands and settings changes are safe and appropriate before applying them, especially on organisational devices.
 
-### Case study: the crash nobody could reproduce
+### Case study (illustrative): the crash nobody could reproduce
 
 - **Situation:** over three weeks, about 8% of a firm's 4,000 laptops crashed several times a week, seemingly at random.
 - **First response:** each incident was handled individually — reinstalling, replacing some laptops — without improvement.

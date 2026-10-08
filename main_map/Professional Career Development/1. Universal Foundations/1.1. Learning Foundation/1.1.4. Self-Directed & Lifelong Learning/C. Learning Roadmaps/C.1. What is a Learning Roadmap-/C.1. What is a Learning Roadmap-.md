@@ -370,7 +370,7 @@ flowchart TD
 
 > **Remember — the two-question test:** for every item on the roadmap, ask *"which part of the destination does this serve, and how will I know it worked?"* An item that fails both questions should be cut.
 
-### Worked example: from intention to roadmap skeleton
+### Worked example (illustrative): from intention to roadmap skeleton
 
 - **Situation:** Ravi, a network support engineer, says, "I want to get into cybersecurity."
 
@@ -442,7 +442,7 @@ flowchart TD
 - **No starting-point diagnosis** — experienced hires sit through the same path as graduates.
 - **No link to real work** — the path ends, and the first real task arrives months later.
 
-### Case study: replacing a course catalogue with a roadmap
+### Case study (illustrative): replacing a course catalogue with a roadmap
 
 - **Situation:** a mid-sized consulting firm gave new data analysts access to a library of several hundred online courses and asked them to "build their skills" in the first three months.
 - **Problem:**

@@ -238,7 +238,7 @@ Desktops plug into the wall, so their energy use is easy to overlook — and, ac
 
 > **Formula — Annual energy cost:** cost = power (kW) × hours per year × price per kWh. A desktop and monitor drawing 0.06 kW for 2,000 working hours at 0.30 per kWh cost 0.06 × 2,000 × 0.30 = **36** a year. Left on idle all year (8,760 hours) at the same draw: 0.06 × 8,760 × 0.30 ≈ **158**.
 
-### Worked example: switching off a 1,000-desktop office
+### Worked example (illustrative): switching off a 1,000-desktop office
 
 **Situation:** an insurer's facilities manager notices that most desktops stay on overnight and at weekends "so updates can run".
 
@@ -420,7 +420,7 @@ A specification is a short list of minimum requirements written from the work, n
 
 > **Definition — Refresh cycle:** the planned interval after which an organisation replaces its devices, balancing reliability, performance and security support against cost and environmental impact.
 
-### Case study: the design studio that kept its towers
+### Case study (illustrative): the design studio that kept its towers
 
 - **Situation:** a 60-person architecture practice planned to move everyone to laptops for "flexibility".
 - **Problem:** pilot users found that rendering and large building models ran far slower, laptops became hot and loud, and long overnight renders stopped when lids were closed.

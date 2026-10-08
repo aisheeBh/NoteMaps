@@ -342,7 +342,7 @@ flowchart TD
 ### Meaningfulness and prior knowledge
 
 - Material that connects to an existing body of knowledge is forgotten far more slowly than isolated facts.
-- **Example:** a cardiologist hearing about a new heart drug relates it to known mechanisms and remembers it for months; a layperson forgets the name within a day.
+- **Example (illustrative):** a cardiologist hearing about a new heart drug relates it to known mechanisms and remembers it for months; a layperson forgets the name within a day.
 - **Principle:** the forgetting curve for **understood** material is much flatter than for memorised strings.
 
 ### Degree of original learning
@@ -405,7 +405,7 @@ flowchart TD
 
 > **Key point:** forgetting is not an enemy of review but its **fuel**. Reviews timed when a memory is fading but still recoverable produce the largest gains in stability.
 
-### Worked example: how much review does a fact need?
+### Worked example (illustrative): how much review does a fact need?
 
 A compliance analyst must remember a regulatory threshold for at least a year. Assume each successful review multiplies stability by about 2.5, starting at one day.
 
@@ -492,7 +492,7 @@ A compliance analyst must remember a regulatory threshold for at least a year. A
 - **Keep external:** knowledge needed rarely, that changes often, or that is easy to check.
 - **Accept forgetting:** details whose loss has little cost; savings means they can be relearned quickly if needed.
 
-### Case study: an airline's emergency-procedure recall
+### Case study (illustrative): an airline's emergency-procedure recall
 
 - **Situation:** cabin crew completed thorough annual emergency-procedure training with high pass rates.
 - **Problem:** in unannounced drills months later, crew were slow on rare procedures — for example, the exact sequence for a particular door type or a rarely used piece of equipment.

@@ -321,7 +321,7 @@ flowchart TD
 
 > **Watch out:** expired domains are a real and recurring risk. Organisations have lost email and websites — and sometimes control of the domain itself, bought by others the moment it lapsed — because a renewal reminder went to a former employee's inbox.
 
-### Worked example: migrating a website with minimal disruption
+### Worked example (illustrative): migrating a website with minimal disruption
 
 Situation: a firm moves its website from an old hosting company to a cloud provider. The current A record has a TTL of 86,400 seconds (one day).
 
@@ -387,7 +387,7 @@ Situation: a firm moves its website from an old hosting company to a cloud provi
 
 ## Choosing Domain Names for an Organisation
 
-### Worked example: naming a new product line
+### Worked example (illustrative): naming a new product line
 
 Situation: a mid-sized company is launching a consumer app called "Kitebox" in several countries.
 

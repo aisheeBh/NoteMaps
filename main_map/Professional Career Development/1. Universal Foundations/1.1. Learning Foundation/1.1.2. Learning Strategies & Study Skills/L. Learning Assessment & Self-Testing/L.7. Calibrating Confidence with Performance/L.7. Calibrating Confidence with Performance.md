@@ -71,7 +71,7 @@ Two actuarial students each score 70% on a practice paper. The first marked ever
 
 > **Remember:** **confident errors first**, then known gaps, then fragile knowledge.
 
-### Worked example: tagging a practice paper
+### Worked example (illustrative): tagging a practice paper
 
 An actuarial student answers 40 questions on probability and tags each.
 
@@ -83,6 +83,8 @@ An actuarial student answers 40 questions on probability and tags each.
 | Unsure | 12 | 7 | 58% | Genuinely uncertain — appropriate |
 | Guess | 6 | 2 | 33% | Close to chance on four-option items, as expected |
 | **Total** | **40** | **28** | **70%** | |
+
+*Illustrative figures.*
 
 **Steps:**
 
@@ -162,6 +164,8 @@ An actuarial student answers 40 questions on probability and tags each.
 | 5 | 74 | 70 | 69 | +5 | +1 |
 | **Mean** | **73.8** | **69.8** | **67.4** | **+6.4** | **+2.4** |
 
+*Illustrative figures.*
+
 **Using the log:**
 
 1. **Correct for bias.** Before the real examination, subtract about 6 points from the gut prediction — a far better estimate of readiness.
@@ -191,6 +195,8 @@ An actuarial student answers 40 questions on probability and tags each.
 | Stakeholder management | 4 | 76% | Matched |
 | Earned value | 2 | 45% | Matched: a known gap |
 | Procurement and contracts | 4 | 52% | Over-rated: read once, never practised |
+
+*Illustrative figures.*
 
 - **Action:** the two over-rated topics are the hidden risks; the known gap (earned value) was already planned for.
 
@@ -401,7 +407,7 @@ flowchart TD
     class X caution
 ```
 
-### Case study: a trainee auditor learns where her confidence lies
+### Case study (illustrative): a trainee auditor learns where her confidence lies
 
 - **Situation:** a first-year audit trainee was preparing for professional examinations while working on client audits.
 - **Problem:** her mock scores were steady at around 60% (pass mark 50%), but her manager noted that she often stated incorrect technical positions to clients with complete assurance.

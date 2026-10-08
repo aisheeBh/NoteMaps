@@ -312,7 +312,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Reading Two Specification Sheets
+## Worked Example (illustrative): Reading Two Specification Sheets
 
 **Situation:** a market-research firm must choose between two laptops at similar prices for its analysts, who work with large spreadsheets, statistical software and dashboards, and spend hours on video calls.
 
@@ -325,6 +325,8 @@ flowchart TD
 | NPU | 45 TOPS | Lower, under 20 TOPS |
 | Battery | 70 Wh | 60 Wh |
 | Weight | 1.3 kg | 2.1 kg |
+
+*Illustrative figures.*
 
 1. **Identify the bottleneck of the work** — large datasets and many open applications → **memory first**.
 2. **Memory** — Laptop A's 16 GB is soldered and likely to fill; Laptop B's 32 GB suits the work. Advantage B.
@@ -360,7 +362,7 @@ flowchart TD
 
 > **In practice:** procurement teams increasingly plan device purchases around **component market cycles** and lead times, and consider standardising on configurations that suppliers can deliver reliably.
 
-### Case study: the analytics team that bought the wrong upgrade
+### Case study (illustrative): the analytics team that bought the wrong upgrade
 
 - **Situation:** a retailer's analytics team complained that their laptops "froze" when refreshing dashboards and joining large data extracts.
 - **First response:** IT ordered new laptops with faster processors but the same 16 GB memory.

@@ -344,7 +344,7 @@ flowchart TD
 - **Tuning** — further practice strengthens and refines the rules.
 - **Consequence:** early practice needs **explanation and examples**; later practice needs **volume, variation and feedback**.
 
-> **Example:** a new data analyst first writes a join by recalling the syntax and checking each clause; after weeks, she writes joins while thinking about the business question; after months, she notices a missing key "at a glance".
+> **Example (illustrative):** a new data analyst first writes a join by recalling the syntax and checking each clause; after weeks, she writes joins while thinking about the business question; after months, she notices a missing key "at a glance".
 
 ### Perceptual learning
 
@@ -450,7 +450,7 @@ flowchart TD
     class MF,MC,MK,MH,MA good
 ```
 
-### Worked example: onboarding a customer-support agent
+### Worked example (illustrative): onboarding a customer-support agent
 
 - **Situation:** a software company's onboarding gave new support agents a 40-page wiki and a product demo; managers complained that agents "knew the policies" but handled live cases poorly.
 
@@ -466,7 +466,7 @@ flowchart TD
 
 > **Watch out:** a multiple-choice quiz tests **recognition of facts**. Passing it says nothing about escalation judgement, system fluency or call habits.
 
-### Case study: a secure-coding programme that taught the wrong type
+### Case study (illustrative): a secure-coding programme that taught the wrong type
 
 - **Situation:** a fintech's developers passed an annual security e-learning module with high scores, yet the same classes of vulnerability kept appearing in code reviews.
 - **Problem:** leadership proposed making the module longer and the pass mark higher.

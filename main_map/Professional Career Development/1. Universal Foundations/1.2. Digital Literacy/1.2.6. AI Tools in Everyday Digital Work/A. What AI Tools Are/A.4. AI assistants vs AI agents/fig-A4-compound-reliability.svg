@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 516" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Success over a 20-step task</title>
+  <desc>Horizontal bars showing the chance of completing all 20 steps: 12 per cent at 90 per cent per step, 36 per cent at 95 per cent, 67 per cent at 98 per cent, 82 per cent at 99 per cent, and 98 per cent at 99.9 per cent.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Success over a 20-step task</text>
+  <text x="480" y="66" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Probability = (per-step success rate) to the power 20</text>
+  <text x="326" y="120" text-anchor="end" font-size="14.5" fill="#111111">90% reliable per step</text>
+  <rect x="340" y="96" width="68" height="38" rx="2" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="418" y="120" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">12%</text>
+  <text x="326" y="182" text-anchor="end" font-size="14.5" fill="#111111">95% reliable per step</text>
+  <rect x="340" y="158" width="200" height="38" rx="2" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="550" y="182" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">36%</text>
+  <text x="326" y="244" text-anchor="end" font-size="14.5" fill="#111111">98% reliable per step</text>
+  <rect x="340" y="220" width="374" height="38" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="724" y="244" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">67%</text>
+  <text x="326" y="306" text-anchor="end" font-size="14.5" fill="#111111">99% reliable per step</text>
+  <rect x="340" y="282" width="458" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="808" y="306" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">82%</text>
+  <text x="326" y="368" text-anchor="end" font-size="14.5" fill="#111111">99.9% reliable per step</text>
+  <rect x="340" y="344" width="549" height="38" rx="2" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="899" y="368" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">98%</text>
+  <line x1="340" y1="86" x2="340" y2="406" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="406" x2="900" y2="406" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="406" x2="340" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="340" y="428" text-anchor="middle" font-size="13.5" fill="#111111">0%</text>
+  <line x1="480" y1="406" x2="480" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="428" text-anchor="middle" font-size="13.5" fill="#111111">25%</text>
+  <line x1="620" y1="406" x2="620" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="620" y="428" text-anchor="middle" font-size="13.5" fill="#111111">50%</text>
+  <line x1="760" y1="406" x2="760" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="760" y="428" text-anchor="middle" font-size="13.5" fill="#111111">75%</text>
+  <line x1="900" y1="406" x2="900" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="428" text-anchor="middle" font-size="13.5" fill="#111111">100%</text>
+  <text x="620" y="454" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Chance that all 20 steps succeed</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" font-style="italic" fill="#111111">Teaching model: assumes independent errors and no recovery.</text>
+</svg>

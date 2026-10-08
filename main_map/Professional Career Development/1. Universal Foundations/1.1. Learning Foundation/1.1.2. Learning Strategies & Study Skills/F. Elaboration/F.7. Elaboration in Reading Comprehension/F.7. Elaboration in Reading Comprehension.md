@@ -349,7 +349,7 @@ flowchart TD
 - **Regulations** — inferring the purpose of each requirement to apply it to cases the text did not foresee.
 - **Emails and briefs** — inferring what the sender needs, which is often not what they wrote.
 
-### Worked example: elaborating a paragraph from a policy report
+### Worked example (illustrative): elaborating a paragraph from a policy report
 
 - **Text:** "Remote-working uptake has stabilised at around two days a week. Office occupancy on Mondays and Fridays remains low. Several firms are reducing floor space at lease renewal."
 
@@ -364,7 +364,7 @@ flowchart TD
 
 > **Watch out:** the elaborative inferences in column four are plausible, not proven. A careful reader records them as **hypotheses to check**, not as facts the report established.
 
-### Case study: regulatory updates in a compliance team
+### Case study (illustrative): regulatory updates in a compliance team
 
 - **Situation:** a bank's compliance analysts read monthly regulatory updates and summarised them for business teams.
 - **Problem:** summaries were accurate but unhelpful; business teams asked repeatedly, "So what do we need to do?" Two requirements were implemented late because nobody had worked out what they meant for existing products.

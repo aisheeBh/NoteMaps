@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How widespread AI use at work had become</title>
+  <desc>Horizontal bars for four survey findings: 75 per cent of knowledge workers used generative AI at work in 2024; 78 per cent of those users brought their own tools; 84 per cent of developers used or planned to use AI tools in 2025; 88 per cent of organisations used AI in at least one function in 2025.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">How widespread AI use at work had become</text>
+  <text x="326" y="95" text-anchor="end" font-size="14.5" fill="#111111">Knowledge workers using generative</text>
+  <text x="326" y="113" text-anchor="end" font-size="14.5" fill="#111111">AI at work (Microsoft, 2024)</text>
+  <rect x="340" y="80" width="420" height="38" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="770" y="104" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">75%</text>
+  <text x="326" y="157" text-anchor="end" font-size="14.5" fill="#111111">AI users at work bringing their own</text>
+  <text x="326" y="175" text-anchor="end" font-size="14.5" fill="#111111">tools (same survey, 2024)</text>
+  <rect x="340" y="142" width="437" height="38" rx="2" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="787" y="166" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">78%</text>
+  <text x="326" y="219" text-anchor="end" font-size="14.5" fill="#111111">Developers using or planning to use</text>
+  <text x="326" y="237" text-anchor="end" font-size="14.5" fill="#111111">AI tools (Stack Overflow, 2025)</text>
+  <rect x="340" y="204" width="470" height="38" rx="2" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="820" y="228" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">84%</text>
+  <text x="326" y="281" text-anchor="end" font-size="14.5" fill="#111111">Organisations using AI in at least</text>
+  <text x="326" y="299" text-anchor="end" font-size="14.5" fill="#111111">one function (McKinsey, 2025)</text>
+  <rect x="340" y="266" width="493" height="38" rx="2" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="843" y="290" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">88%</text>
+  <line x1="340" y1="70" x2="340" y2="328" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="328" x2="900" y2="328" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="328" x2="340" y2="334" stroke="#222222" stroke-width="1.5"/>
+  <text x="340" y="350" text-anchor="middle" font-size="13.5" fill="#111111">0%</text>
+  <line x1="480" y1="328" x2="480" y2="334" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="350" text-anchor="middle" font-size="13.5" fill="#111111">25%</text>
+  <line x1="620" y1="328" x2="620" y2="334" stroke="#222222" stroke-width="1.5"/>
+  <text x="620" y="350" text-anchor="middle" font-size="13.5" fill="#111111">50%</text>
+  <line x1="760" y1="328" x2="760" y2="334" stroke="#222222" stroke-width="1.5"/>
+  <text x="760" y="350" text-anchor="middle" font-size="13.5" fill="#111111">75%</text>
+  <line x1="900" y1="328" x2="900" y2="334" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="350" text-anchor="middle" font-size="13.5" fill="#111111">100%</text>
+  <text x="620" y="376" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Percentage of respondents</text>
+  <text x="480" y="444" text-anchor="middle" font-size="13" font-style="italic" fill="#111111">Different populations, questions and definitions of use: compare direction, not exact values.</text>
+</svg>

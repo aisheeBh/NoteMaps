@@ -277,7 +277,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Equipping 200 Hybrid Workers
+## Worked Example (illustrative): Equipping 200 Hybrid Workers
 
 **Situation:** a professional-services firm moves 200 staff to hybrid work: three days in the office at hot desks, two at home. Budget is limited.
 
@@ -297,11 +297,13 @@ flowchart TD
 | Laptop stands | 200 | Eye-level camera and screen at home |
 | Spare cables and docks | About 5% | Fast replacement at reception |
 
+*Illustrative figures.*
+
 > **Watch out:** headsets are personal for hygiene and fit; shared office headsets are commonly unused. Keyboards and mice at hot desks need cleaning routines.
 
 ---
 
-## Case Study: The Dock Rollout that Went Wrong — and Was Rescued
+## Case Study (illustrative): The Dock Rollout that Went Wrong — and Was Rescued
 
 - **Situation:** a bank bought 1,500 USB-C docks from a single supplier for its new hot-desk floors.
 - **Problems in the first month:**

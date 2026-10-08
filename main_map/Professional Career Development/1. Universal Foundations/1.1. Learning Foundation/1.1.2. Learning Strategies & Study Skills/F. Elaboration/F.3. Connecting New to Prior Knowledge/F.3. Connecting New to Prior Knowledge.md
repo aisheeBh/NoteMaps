@@ -391,7 +391,7 @@ flowchart TD
 
 > **In practice:** the rows where the mapping **breaks** are the ones most likely to cause errors, because the learner's intuition confidently points the wrong way. They deserve the most deliberate study.
 
-### Worked example: a clinician learning health economics
+### Worked example (illustrative): a clinician learning health economics
 
 - **Situation:** a hospital doctor moving into a health-technology assessment role must learn cost-effectiveness analysis.
 
@@ -418,7 +418,7 @@ flowchart TD
 - **Differentiate** — experienced staff need less scaffolding and more challenge (the **expertise reversal effect**: support that helps novices can hinder experts).
 - **Confront misconceptions** — identify the common wrong beliefs in the domain and address them directly.
 
-### Case study: retraining accountants as data analysts
+### Case study (illustrative): retraining accountants as data analysts
 
 - **Situation:** a finance department retrained six management accountants as data analysts.
 - **Problem:** a generic data-analysis course, designed for graduates, moved slowly through material the accountants found trivial and quickly through material they found baffling.

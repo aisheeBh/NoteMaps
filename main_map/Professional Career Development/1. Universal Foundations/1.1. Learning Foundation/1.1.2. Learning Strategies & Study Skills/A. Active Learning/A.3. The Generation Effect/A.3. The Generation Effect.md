@@ -298,7 +298,7 @@ flowchart TD
     class S good
 ```
 
-### Worked example: learning medical terminology
+### Worked example (illustrative): learning medical terminology
 
 - **Situation:** new hospital administrative staff must learn about 150 clinical abbreviations and terms. The induction team compares two designs, each taking 40 minutes.
 - **Design A — read:** staff read a glossary twice.
@@ -336,7 +336,7 @@ flowchart TD
 
 > **In practice:** software teams that adopt AI coding assistants increasingly ask juniors to **sketch the approach or write the test first**, then use the assistant. The aim is to keep the generation that builds expertise while gaining the assistant's speed.
 
-### Case study: onboarding analysts to a new forecasting method
+### Case study (illustrative): onboarding analysts to a new forecasting method
 
 - **Situation:** a retail company introduced a new demand-forecasting method and needed 40 analysts to understand when it would over- or under-forecast.
 - **First approach:** two hours of slides explaining the method's assumptions, followed by worked examples. A month later, analysts applied the method mechanically and rarely spotted cases where its assumptions failed.

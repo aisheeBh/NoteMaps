@@ -282,7 +282,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Upgrading a Quiz's Feedback
+## Worked Example (illustrative): Upgrading a Quiz's Feedback
 
 A professional-services firm runs a monthly ten-question quiz on its risk and independence rules. Current feedback: "You scored 7/10."
 
@@ -301,6 +301,8 @@ A professional-services firm runs a monthly ten-question quiz on its risk and in
 | Time per staff member | 5 minutes | About 9 minutes |
 | Expected outcome | Little change in knowledge | Corrected errors; better application to new cases |
 
+*Illustrative figures.*
+
 - **Conclusion:** four extra minutes per month turn a measurement into a learning event.
 
 > **Watch out:** if quiz scores feed staff appraisals, people will look up answers before submitting, and the feedback has nothing to correct. Keep the quiz formative.
@@ -314,7 +316,7 @@ A professional-services firm runs a monthly ten-question quiz on its risk and in
 - **After-action reviews** — what was expected, what happened, why, what to do differently: process-level feedback for teams.
 - **Mentoring** — immediate correction during a client call may embarrass; a brief note afterwards, followed by a chance to practise, may be better.
 
-### Case study: errors that would not go away
+### Case study (illustrative): errors that would not go away
 
 - **Situation:** a hospital pharmacy team ran weekly online quizzes for junior pharmacists on high-risk medicines.
 - **Problem:** audit showed the same dosing errors recurring in practice despite high quiz participation.
@@ -420,7 +422,7 @@ In digital quizzes, feedback is written once and read thousands of times. Its wo
 
 ---
 
-## Worked Example: Feedback on an Explanation Item
+## Worked Example (illustrative): Feedback on an Explanation Item
 
 A trainee data analyst answers, from memory: "Why can an average be misleading for skewed data?" Her answer: "Because outliers affect it."
 
@@ -441,13 +443,15 @@ A trainee data analyst answers, from memory: "Why can an average be misleading f
 | After feedback, re-retrieved | Mean pulled by extremes; differs from median in skewed data; median more typical; income example | 4 |
 | Two days later, new scenario | Reports median with explanation | 3.5 |
 
+*Illustrative figures.*
+
 - **Conclusion:** element-by-element feedback, re-retrieval and a later transfer item turned a vague, partly correct answer into usable understanding.
 
 > **Watch out:** "Good — outliers do affect the mean" would have been accurate but nearly useless feedback. Partial answers need to be told **what is missing**.
 
 ---
 
-## Case Study: Simulation Debriefs That Changed Practice
+## Case Study (illustrative): Simulation Debriefs That Changed Practice
 
 - **Situation:** a hospital ran monthly simulated emergencies for ward teams — a deteriorating patient, a cardiac arrest — followed by a short debrief.
 - **Problem:** the same omissions recurred across simulations: late calls for help, missed checks of the airway, poor handover of information.

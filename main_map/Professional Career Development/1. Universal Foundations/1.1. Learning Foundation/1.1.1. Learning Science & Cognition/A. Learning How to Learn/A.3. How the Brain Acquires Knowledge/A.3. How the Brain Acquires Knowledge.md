@@ -441,7 +441,7 @@ stateDiagram-v2
 | Consolidate | Distribute learning; respect sleep and rest | Split a two-day workshop into half-days across two weeks; avoid late-night bootcamps |
 | Retrieve | Make people produce, not just recognise | Spaced scenario questions; teach-backs; real tasks performed unaided |
 
-### Worked example: diagnosing a "forgotten" presentation
+### Worked example (illustrative): diagnosing a "forgotten" presentation
 
 - **Situation:** a product manager attended a 90-minute architecture briefing at 6 p.m., understood it, slept five hours, and next morning could not explain the new data flow.
 
@@ -454,7 +454,7 @@ stateDiagram-v2
 
 > **Watch out:** "I understood it at the time" describes successful **encoding into working memory**, not durable storage. Understanding during a session is necessary but not sufficient.
 
-### Case study: training a hospital for a new records system
+### Case study (illustrative): training a hospital for a new records system
 
 - **Situation:** a hospital group planned a single full-day training on a new electronic records system in the week before go-live; staff work shifts and many would arrive after night duty.
 - **Problem:** previous rollouts had produced a surge of errors and support calls in the first month.

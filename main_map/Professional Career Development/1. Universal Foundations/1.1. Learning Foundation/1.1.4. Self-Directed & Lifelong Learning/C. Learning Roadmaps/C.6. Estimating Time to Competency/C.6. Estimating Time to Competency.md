@@ -286,7 +286,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Estimating a Route to Junior Data Analyst
+## Worked Example (illustrative): Estimating a Route to Junior Data Analyst
 
 - **Situation:** Hannah, an operations coordinator comfortable with spreadsheets, wants to reach the level of a junior data analyst: "clean a real data set, query it with SQL, analyse it and present conclusions to a manager, unaided". She can study **8 hours a week** and expects about **70% efficiency**.
 
@@ -302,6 +302,8 @@ flowchart TD
 | Communicating results | 15 | 25 | 50 | 28 |
 | **Integration: three end-to-end projects** | 60 | 90 | 160 | 97 |
 | **Total** | | | | **330** |
+
+*Illustrative figures.*
 
 3. **Contingency** — add 15% for interruptions and rework → 330 × 1.15 ≈ **380 hours**.
 4. **Calendar conversion** — 380 ÷ (8 × 0.7) = 380 ÷ 5.6 ≈ **68 weeks**, about **16 months**.
@@ -333,7 +335,7 @@ flowchart TD
 
 > **In practice:** when asked "how long until she is up to speed?", answer with a **range, the standard, the assumptions and the checkpoints**: "Independent on routine cases in 8–12 weeks, assuming two mentored cases a week; we will check at week four."
 
-### Case study: a twelve-week promise
+### Case study (illustrative): a twelve-week promise
 
 - **Situation:** Daniel, a 32-year-old retail manager, enrolled in a full-time twelve-week coding bootcamp advertising "job-ready in 12 weeks".
 - **What happened:**

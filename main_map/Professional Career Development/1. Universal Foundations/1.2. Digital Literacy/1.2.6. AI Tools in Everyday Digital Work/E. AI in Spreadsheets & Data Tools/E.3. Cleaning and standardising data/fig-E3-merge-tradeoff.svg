@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The trade-off between merging too much and too little</title>
+  <desc>Schematic chart. Horizontal axis: how strict the matching rule is, from loose to strict. A falling solid line shows false merges, high when the rule is loose and low when strict. A rising dashed line shows missed duplicates, low when loose and high when strict. A shaded middle band marks pairs flagged for human review.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Matching strictness: false merges against missed duplicates</text>
+  <rect x="406" y="110" width="187" height="340" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="405" y="122" width="190" height="48" fill="#FFFFFF"/>
+  <text x="500.0" y="142" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Uncertain band:</text>
+  <text x="500.0" y="162" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">flag for review</text>
+  <line x1="110" y1="450" x2="890" y2="450" stroke="#222222" stroke-width="2"/>
+  <line x1="110" y1="450" x2="110" y2="110" stroke="#222222" stroke-width="2"/>
+  <path d="M110.0 148.5 L117.8 149.1 L125.6 149.7 L133.4 150.4 L141.2 151.2 L149.0 152.1 L156.8 153.1 L164.6 154.3 L172.4 155.5 L180.2 156.9 L188.0 158.5 L195.8 160.3 L203.6 162.2 L211.4 164.4 L219.2 166.8 L227.0 169.5 L234.8 172.4 L242.6 175.6 L250.4 179.2 L258.2 183.1 L266.0 187.4 L273.8 192.1 L281.6 197.1 L289.4 202.6 L297.2 208.5 L305.0 214.8 L312.8 221.6 L320.6 228.7 L328.4 236.3 L336.2 244.2 L344.0 252.4 L351.8 261.0 L359.6 269.8 L367.4 278.7 L375.2 287.8 L383.0 297.0 L390.8 306.2 L398.6 315.3 L406.4 324.2 L414.2 333.0 L422.0 341.6 L429.8 349.8 L437.6 357.7 L445.4 365.3 L453.2 372.4 L461.0 379.2 L468.8 385.5 L476.6 391.4 L484.4 396.9 L492.2 401.9 L500.0 406.6 L507.8 410.9 L515.6 414.8 L523.4 418.4 L531.2 421.6 L539.0 424.5 L546.8 427.2 L554.6 429.6 L562.4 431.8 L570.2 433.7 L578.0 435.5 L585.8 437.1 L593.6 438.5 L601.4 439.7 L609.2 440.9 L617.0 441.9 L624.8 442.8 L632.6 443.6 L640.4 444.3 L648.2 444.9 L656.0 445.5 L663.8 446.0 L671.6 446.4 L679.4 446.8 L687.2 447.2 L695.0 447.5 L702.8 447.8 L710.6 448.0 L718.4 448.3 L726.2 448.4 L734.0 448.6 L741.8 448.8 L749.6 448.9 L757.4 449.0 L765.2 449.1 L773.0 449.2 L780.8 449.3 L788.6 449.4 L796.4 449.5 L804.2 449.5 L812.0 449.6 L819.8 449.6 L827.6 449.7 L835.4 449.7 L843.2 449.7 L851.0 449.8 L858.8 449.8 L866.6 449.8 L874.4 449.8 L882.2 449.9 L890.0 449.9" fill="none" stroke="#222222" stroke-width="3"/>
+  <path d="M110.0 449.9 L117.8 449.9 L125.6 449.8 L133.4 449.8 L141.2 449.8 L149.0 449.8 L156.8 449.7 L164.6 449.7 L172.4 449.7 L180.2 449.6 L188.0 449.6 L195.8 449.5 L203.6 449.5 L211.4 449.4 L219.2 449.3 L227.0 449.2 L234.8 449.1 L242.6 449.0 L250.4 448.9 L258.2 448.8 L266.0 448.6 L273.8 448.4 L281.6 448.3 L289.4 448.0 L297.2 447.8 L305.0 447.5 L312.8 447.2 L320.6 446.8 L328.4 446.4 L336.2 446.0 L344.0 445.5 L351.8 444.9 L359.6 444.3 L367.4 443.6 L375.2 442.8 L383.0 441.9 L390.8 440.9 L398.6 439.7 L406.4 438.5 L414.2 437.1 L422.0 435.5 L429.8 433.7 L437.6 431.8 L445.4 429.6 L453.2 427.2 L461.0 424.5 L468.8 421.6 L476.6 418.4 L484.4 414.8 L492.2 410.9 L500.0 406.6 L507.8 401.9 L515.6 396.9 L523.4 391.4 L531.2 385.5 L539.0 379.2 L546.8 372.4 L554.6 365.3 L562.4 357.7 L570.2 349.8 L578.0 341.6 L585.8 333.0 L593.6 324.2 L601.4 315.3 L609.2 306.2 L617.0 297.0 L624.8 287.8 L632.6 278.7 L640.4 269.8 L648.2 261.0 L656.0 252.4 L663.8 244.2 L671.6 236.3 L679.4 228.7 L687.2 221.6 L695.0 214.8 L702.8 208.5 L710.6 202.6 L718.4 197.1 L726.2 192.1 L734.0 187.4 L741.8 183.1 L749.6 179.2 L757.4 175.6 L765.2 172.4 L773.0 169.5 L780.8 166.8 L788.6 164.4 L796.4 162.2 L804.2 160.3 L812.0 158.5 L819.8 156.9 L827.6 155.5 L835.4 154.3 L843.2 153.1 L851.0 152.1 L858.8 151.2 L866.6 150.4 L874.4 149.7 L882.2 149.1 L890.0 148.5" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="130" y="320" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">False merges</text>
+  <text x="130" y="339" text-anchor="start" font-size="14" fill="#111111">(different entities combined)</text>
+  <text x="870" y="320" text-anchor="end" font-size="15" fill="#111111" font-weight="bold">Missed duplicates</text>
+  <text x="870" y="339" text-anchor="end" font-size="14" fill="#111111">(one entity left as several)</text>
+  <text x="110" y="474" text-anchor="start" font-size="14" fill="#111111">Loose rule</text>
+  <text x="890" y="474" text-anchor="end" font-size="14" fill="#111111">Strict rule</text>
+  <text x="500.0" y="500" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">How strict the matching rule is</text>
+  <text x="60" y="280.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold" transform="rotate(-90 60 280.0)">Number of errors</text>
+  <text x="480.0" y="545" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. Where the band sits depends on the cost of each kind of error.</text>
+</svg>

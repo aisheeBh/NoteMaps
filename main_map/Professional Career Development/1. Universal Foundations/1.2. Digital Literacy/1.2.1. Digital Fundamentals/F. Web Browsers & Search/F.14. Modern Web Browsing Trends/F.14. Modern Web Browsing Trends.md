@@ -292,7 +292,7 @@ flowchart TD
 
 ---
 
-### Case study: piloting an AI browser in an insurance firm
+### Case study (illustrative): piloting an AI browser in an insurance firm
 
 - **Situation:** in late 2025 several analysts at a mid-sized insurer began using an agentic AI browser on their own initiative to compile competitor product comparisons.
 - **Problem:** the browser could also read signed-in sessions, including the firm's claims system and email; security had not assessed it.

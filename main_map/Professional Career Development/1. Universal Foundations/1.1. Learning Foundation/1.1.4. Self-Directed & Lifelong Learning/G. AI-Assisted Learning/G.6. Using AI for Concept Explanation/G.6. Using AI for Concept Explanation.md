@@ -229,7 +229,7 @@ Explanations are hardest when the learner already holds a **wrong** idea. A clea
 
 > **In practice:** for a threshold concept, ask the AI for a refutation-style explanation, several contrasting cases and a prediction task in which the misconception gives a **wrong** answer the learner can see fail. Seeing the old idea fail creates the dissatisfaction on which change depends.
 
-> **Example:** a junior project manager believes adding developers to a late project will speed it up. The AI is asked to state that belief, ask her to predict the effect of doubling a team in week ten of a twelve-week project, then walk through the costs of onboarding and coordination. Her prediction fails on her own numbers, and the explanation that follows — the principle that adding people to a late software project tends to make it later, associated with Fred Brooks (1975) — sticks.
+> **Example (illustrative):** a junior project manager believes adding developers to a late project will speed it up. The AI is asked to state that belief, ask her to predict the effect of doubling a team in week ten of a twelve-week project, then walk through the costs of onboarding and coordination. Her prediction fails on her own numbers, and the explanation that follows — the principle that adding people to a late software project tends to make it later, associated with Fred Brooks (1975) — sticks.
 
 ---
 
@@ -258,7 +258,7 @@ Explanations are hardest when the learner already holds a **wrong** idea. A clea
 
 > **In practice:** stop at the layer the goal requires, but always test the layer below unaided before moving up. A practitioner-level explanation built on a misunderstood gist is a house on sand.
 
-### Worked example: learning eventual consistency
+### Worked example (illustrative): learning eventual consistency
 
 | | Passive request | CLEAR-structured session |
 |---|---|---|
@@ -368,7 +368,7 @@ flowchart TD
 - **To prepare others** — generating several explanations at different levels, then choosing and adapting the best for a client or team.
 - **To stress-test their own understanding** — asking the AI to find holes in their explanation.
 
-### Case study: an engineer moves into battery systems
+### Case study (illustrative): an engineer moves into battery systems
 
 - **Situation:** a mechanical engineer with a thermal-systems background joined an electric-vehicle team and had six weeks to contribute to battery-pack design reviews.
 - **First approach:** long AI explanations of lithium-ion chemistry, read in the evenings. She felt well informed, but in her first design review she could not explain why a proposed fast-charging profile risked lithium plating.

@@ -316,7 +316,7 @@ Shortcuts are largely shared across Chrome, Edge and Firefox on Windows and Linu
 - **Browser task manager** — Shift+Esc in Chrome and Edge shows which tab or extension is using memory and processor time.
 - **Developer tools** — inspect elements, view network requests and console errors; valuable to non-developers diagnosing broken forms.
 
-### Worked example: checking a payment page in thirty seconds
+### Worked example (illustrative): checking a payment page in thirty seconds
 
 A purchasing assistant receives an emailed link to "renew the software licence" and is asked for card details.
 
@@ -363,7 +363,7 @@ Developer tools (F12, or right-click → Inspect) are built for web developers, 
 
 > **Watch out:** scammers sometimes ask victims to **paste code into the console** "to verify an account" or "unlock a feature". This runs the attacker's code with the victim's signed-in access to the site. Browsers now show warnings and may require typing a confirmation phrase before pasting. Never paste code into the console at a stranger's request.
 
-> **Example:** a finance analyst finds that an expenses form "does nothing" on submit. The network panel shows the request returning an error stating that a file attachment is too large — a fault the analyst can fix immediately, instead of waiting for support.
+> **Example (illustrative):** a finance analyst finds that an expenses form "does nothing" on submit. The network panel shows the request returning an error stating that a file attachment is too large — a fault the analyst can fix immediately, instead of waiting for support.
 
 ---
 

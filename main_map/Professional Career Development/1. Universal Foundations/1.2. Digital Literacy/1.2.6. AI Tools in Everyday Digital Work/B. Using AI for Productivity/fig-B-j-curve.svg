@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The productivity J-curve</title>
+  <desc>Schematic curve: measured productivity after a general-purpose technology is adopted first dips below the old trend, because organisations invest in training, process redesign and data that do not yet show up as output, then rises above the old trend once those investments pay off.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The productivity J-curve</text>
+  <line x1="130" y1="445" x2="912" y2="445" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="445" x2="130" y2="74" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="515" y="497" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Time since adoption</text>
+  <text x="72" y="266" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 72 266)">Productivity</text>
+  <text x="130" y="469" text-anchor="middle" font-size="14" fill="#111111">adoption</text>
+  <text x="384" y="469" text-anchor="middle" font-size="14" fill="#111111">investment phase</text>
+  <text x="784" y="469" text-anchor="middle" font-size="14" fill="#111111">payoff phase</text>
+  <text x="120" y="342" text-anchor="end" font-size="14" fill="#111111">lower</text>
+  <text x="120" y="127" text-anchor="end" font-size="14" fill="#111111">higher</text>
+  <path d="M130 266 L207 273 L284 294 L361 305 L438 298 L515 273 L592 237 L669 201 L746 169 L823 140 L900 115" fill="none" stroke="#111111" stroke-width="4"/>
+  <path d="M130 266 L900 222" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="602" y="126" width="184" height="25" fill="#FFFFFF"/>
+  <text x="607" y="143" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Measured productivity</text>
+  <rect x="633" y="248" width="184" height="44" fill="#FFFFFF"/>
+  <text x="638" y="266" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Old trend without the</text>
+  <text x="638" y="284" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">technology</text>
+  <text x="222" y="337" text-anchor="start" font-size="14" fill="#222222">Training, redesign and data:</text>
+  <text x="222" y="355" text-anchor="start" font-size="14" fill="#222222">costs now, output later</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Schematic, after Brynjolfsson, Rock and Syverson (2021); not plotted from a single dataset.</text>
+</svg>

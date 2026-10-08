@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>What happens to the content</title>
+  <desc>Two panels contrasting consumer plans, free or paid, with business plans on training, human review, retention, contract, admin and indemnity.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What happens to the content</text>
+  <rect x="24" y="70" width="447" height="248" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="24" y="70" width="447" height="38" rx="8" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="248" y="98" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Consumer plans (free or personal paid)</text>
+  <circle cx="40" cy="131" r="3.2" fill="#111111"/>
+  <text x="50" y="136" text-anchor="start" font-size="14" fill="#111111">Training on content often on by default, with opt-out</text>
+  <circle cx="40" cy="158" r="3.2" fill="#111111"/>
+  <text x="50" y="162" text-anchor="start" font-size="14" fill="#111111">Human review possible for safety and quality</text>
+  <circle cx="40" cy="184" r="3.2" fill="#111111"/>
+  <text x="50" y="189" text-anchor="start" font-size="14" fill="#111111">Retention set by provider policy</text>
+  <circle cx="40" cy="210" r="3.2" fill="#111111"/>
+  <text x="50" y="216" text-anchor="start" font-size="14" fill="#111111">No contract with the employer</text>
+  <circle cx="40" cy="237" r="3.2" fill="#111111"/>
+  <text x="50" y="242" text-anchor="start" font-size="14" fill="#111111">No audit logs or central admin</text>
+  <circle cx="40" cy="264" r="3.2" fill="#111111"/>
+  <text x="50" y="268" text-anchor="start" font-size="14" fill="#111111">No IP indemnity</text>
+  <rect x="489" y="70" width="447" height="248" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="489" y="70" width="447" height="38" rx="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="712" y="98" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Business and enterprise plans</text>
+  <circle cx="505" cy="131" r="3.2" fill="#111111"/>
+  <text x="515" y="136" text-anchor="start" font-size="14" fill="#111111">No training on content by default, by contract</text>
+  <circle cx="505" cy="158" r="3.2" fill="#111111"/>
+  <text x="515" y="162" text-anchor="start" font-size="14" fill="#111111">Human review restricted and defined</text>
+  <circle cx="505" cy="184" r="3.2" fill="#111111"/>
+  <text x="515" y="189" text-anchor="start" font-size="14" fill="#111111">Retention set by administrators</text>
+  <circle cx="505" cy="210" r="3.2" fill="#111111"/>
+  <text x="515" y="216" text-anchor="start" font-size="14" fill="#111111">Data processing agreement in place</text>
+  <circle cx="505" cy="237" r="3.2" fill="#111111"/>
+  <text x="515" y="242" text-anchor="start" font-size="14" fill="#111111">Audit logs, single sign-on, user control</text>
+  <circle cx="505" cy="264" r="3.2" fill="#111111"/>
+  <text x="515" y="268" text-anchor="start" font-size="14" fill="#111111">IP indemnity commonly offered</text>
+</svg>

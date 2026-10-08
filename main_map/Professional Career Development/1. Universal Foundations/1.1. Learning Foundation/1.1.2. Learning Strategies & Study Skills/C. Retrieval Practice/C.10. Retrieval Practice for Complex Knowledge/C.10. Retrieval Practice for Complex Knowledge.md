@@ -263,7 +263,7 @@ flowchart LR
 
 ---
 
-## Worked Example: A Retrieval Plan for a Complex Topic
+## Worked Example (illustrative): A Retrieval Plan for a Complex Topic
 
 A junior product manager must understand the company's pricing model — tiers, usage-based charges, discount authority, revenue recognition and their interactions.
 
@@ -308,7 +308,7 @@ A junior product manager must understand the company's pricing model — tiers, 
 - **Issue spotting** — list every issue raised by a fact pattern, then analyse each.
 - **Model reasoning** — explain from memory how a change in an assumption flows through a valuation.
 
-### Case study: from definitions to judgement
+### Case study (illustrative): from definitions to judgement
 
 - **Situation:** a bank's credit-analyst academy taught financial-statement analysis with weekly multiple-choice quizzes on ratios and definitions.
 - **Problem:** graduates could define every ratio but wrote weak credit papers; reviewers found that they described ratios without explaining what they implied about risk.
@@ -395,7 +395,7 @@ Complex answers cannot be marked right or wrong. Three practical approaches:
 
 ---
 
-## Worked Example: Learning a Codebase's Architecture
+## Worked Example (illustrative): Learning a Codebase's Architecture
 
 A software engineer joins a team maintaining a payments platform with a dozen services.
 
@@ -415,6 +415,8 @@ A software engineer joins a team maintaining a payments platform with a dozen se
 | Week 2 | Architecture redrawn | 16 of 18 links |
 | Week 6 | Architecture redrawn | 18 of 18 links |
 
+*Illustrative figures.*
+
 - **Conclusion:** by retrieving structure, explanation and whole-task reasoning — not only service names — the engineer built a model usable in incidents within six weeks.
 
 > **Watch out:** reading the architecture document repeatedly would have made every service name familiar, while leaving the engineer unable to trace a failure under pressure.
@@ -430,7 +432,7 @@ In law, history, philosophy and policy, complex knowledge takes the form of **ar
 - **Retrieve distinctions** — how one case, period or position differs from a similar one; this is the legal and historical form of the contrast pair.
 - **Write timed outlines** — a five-minute outline of an answer to an essay or problem question, checked against a model, is efficient practice of the whole structure.
 
-> **Example:** a law student practising negligence writes, without notes, the elements of the duty-of-care test, one leading case for each element with its reasoning, and one situation where the test would be contested — then compares with the textbook.
+> **Example (illustrative):** a law student practising negligence writes, without notes, the elements of the duty-of-care test, one leading case for each element with its reasoning, and one situation where the test would be contested — then compares with the textbook.
 
 ---
 
@@ -445,7 +447,7 @@ In law, history, philosophy and policy, complex knowledge takes the form of **ar
 
 ---
 
-## Case Study: Clinical Reasoning Retrieval in a Residency
+## Case Study (illustrative): Clinical Reasoning Retrieval in a Residency
 
 - **Situation:** internal-medicine residents prepared for examinations with question banks but struggled to reason aloud through undifferentiated presentations on ward rounds.
 - **Problem:** practice targeted **single-best-answer** recognition of diagnoses; residents rarely generated a differential diagnosis or explained the mechanism behind findings.

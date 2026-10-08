@@ -171,7 +171,7 @@ flowchart TD
   - shows whether actions **worked** — does the category shrink?
   - becomes a personal **revision list** before examinations: the items one has actually got wrong, not the whole syllabus.
 
-### Worked example: an error log across three mocks
+### Worked example (illustrative): an error log across three mocks
 
 A trainee accountant logs every error across three mock papers.
 
@@ -186,6 +186,8 @@ A trainee accountant logs every error across three mock papers.
 | Time pressure | 3 | 1 | 0 | Pacing plan with checkpoints |
 | **Total errors** | **20** | **12** | **5** | |
 
+*Illustrative figures.*
+
 **Reading it:**
 
 1. **Misreading** fell sharply after one simple change — the cheapest gain available.
@@ -193,7 +195,7 @@ A trainee accountant logs every error across three mock papers.
 3. **Knowledge gaps** fell steadily with study.
 4. **Slips** are now the residual category; a final checking routine is the next step.
 
-**Figure 3.** Error categories across three mock papers.
+**Figure 3.** Error categories across three mock papers. (illustrative)
 
 ![Figure 3. Error categories across three mock papers](fig-L11-error-log-chart.svg)
 
@@ -300,7 +302,7 @@ flowchart TD
   - **Invite challenge** — ask a colleague to find the flaw in an answer or a plan.
   - **Run a pre-mortem** — **Gary Klein (2007)** proposed imagining that a project has already failed and asking why; the same move works for an examination or a presentation: "It is the day after — I failed. What went wrong?"
 
-> **Example:** a tax trainee, before her examination, imagines she has failed and lists likely causes: "ran out of time on the long question", "confused residence rules for part-year residents", "lost marks on presentation". Each becomes a targeted practice task for the final fortnight.
+> **Example (illustrative):** a tax trainee, before her examination, imagines she has failed and lists likely causes: "ran out of time on the long question", "confused residence rules for part-year residents", "lost marks on presentation". Each becomes a targeted practice task for the final fortnight.
 
 ### The emotional side of error
 
@@ -390,7 +392,7 @@ flowchart TD
   4. The group agrees one change to shared practice and one individual action per member.
 - **Ground rules:** errors are discussed as information, not confessions; no one is required to share anything they consider too sensitive; the focus is on conditions and remedies.
 
-> **Example:** five trainee actuaries compare errors after a mock and find that four of them mishandled the same kind of annuity question. The cause turns out to be a widely used revision note with an incorrect worked example. One corrected note fixes four people's errors.
+> **Example (illustrative):** five trainee actuaries compare errors after a mock and find that four of them mishandled the same kind of annuity question. The cause turns out to be a widely used revision note with an incorrect worked example. One corrected note fixes four people's errors.
 
 ### Errors when working with AI tools
 
@@ -404,7 +406,7 @@ flowchart TD
 
 > **Key point:** the ability to spot an error in someone else's — or something else's — work depends on knowing the subject. Errors one fails to catch in AI output are among the most important gaps to study.
 
-### Case study: the analyst who kept making the same mistake
+### Case study (illustrative): the analyst who kept making the same mistake
 
 - **Situation:** a pricing analyst in an insurance firm had three of her models returned by reviewers in six months for the same kind of problem — inconsistent treatment of inflation.
 - **Problem:** each time she fixed the specific model; each time she resolved to "be more careful".

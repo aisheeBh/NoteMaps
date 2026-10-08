@@ -100,7 +100,7 @@ flowchart TD
 
 > **Key point:** a distal goal gives **direction**; proximal goals give **traction** — frequent, checkable steps.
 
-**Figure 2.** A goal hierarchy from a distal aim to session-level targets.
+**Figure 2.** A goal hierarchy from a distal aim to session-level targets. (illustrative)
 
 ![Figure 2. A goal hierarchy from a distal aim to session-level targets](fig-K8-goal-hierarchy.svg)
 
@@ -305,7 +305,7 @@ flowchart TD
 
 ---
 
-## Worked Example: A Ten-Week Certification Plan
+## Worked Example (illustrative): A Ten-Week Certification Plan
 
 - **Situation:** a systems administrator plans to pass a cloud-architect certification. He has about **8 hours a week**.
 
@@ -323,6 +323,8 @@ flowchart TD
 | Reliability design | Judgement | Weak | Mixed case questions, interleaved | 20 |
 | Migration | Judgement | Partial | Case questions | 12 |
 
+*Illustrative figures.*
+
 4. **Schedule** — each week mixes one weak domain (new learning) with spaced review of earlier domains; from week 7, sessions are interleaved across domains.
 5. **Checkpoints** — mock exams in weeks 5, 9 and 12; each must exceed the previous by a planned margin, and errors are classified by domain.
 6. **Contingencies** —
@@ -336,7 +338,7 @@ flowchart TD
 
 ---
 
-## Case Study: Planning Workshops for Exam Candidates
+## Case Study (illustrative): Planning Workshops for Exam Candidates
 
 - **Situation:** a regional hospital supported junior doctors sitting a demanding postgraduate examination; first-attempt pass rates were below the national average.
 - **Problem:** candidates studied hard but reported starting "properly" only weeks before the exam, relying on reading textbooks and attempting question banks late.

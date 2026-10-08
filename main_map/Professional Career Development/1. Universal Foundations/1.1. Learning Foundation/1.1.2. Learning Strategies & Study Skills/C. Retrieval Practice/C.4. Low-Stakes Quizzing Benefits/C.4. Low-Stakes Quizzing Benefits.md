@@ -305,7 +305,7 @@ flowchart TD
 | Cumulative weekly quiz | Once a week | 8–15 questions | Spaced retrieval of all prior material | Must be marked or self-marked quickly |
 | Pop quiz (ungraded) | Unannounced | 3–5 questions | Encourages regular study | Resentment if graded |
 
-### Worked example: a quiz scheme for a 12-week course
+### Worked example (illustrative): a quiz scheme for a 12-week course
 
 A university lecturer teaches a 12-week introductory finance module to 300 students.
 
@@ -334,7 +334,7 @@ A university lecturer teaches a 12-week introductory finance module to 300 stude
 
 > **In practice:** the most important rule in workplaces is the **firewall**: quiz results must not feed performance ratings. Once they do, people guess, look up answers or avoid the quizzes, and the learning benefit disappears.
 
-### Case study: the weekly product pulse
+### Case study (illustrative): the weekly product pulse
 
 - **Situation:** a B2B software company released product updates monthly; account managers attended a 45-minute briefing on each release.
 - **Problem:** customers often knew more about new features than their account managers; the briefings had high attendance but little effect.
@@ -403,7 +403,7 @@ Low stakes reduce the incentive to cheat, but online quizzes still invite shortc
 
 ---
 
-## Worked Example: A Low-Stakes Quiz Routine for a Data Team
+## Worked Example (illustrative): A Low-Stakes Quiz Routine for a Data Team
 
 A data-engineering team of twelve adopts a new data-governance standard and a new orchestration tool in the same quarter.
 
@@ -420,6 +420,8 @@ A data-engineering team of twelve adopts a new data-governance standard and a ne
 | Time spent per person per week | About 4 minutes | 0 |
 | Governance-review findings, quarter after adoption | Few, mostly minor | Several, including two repeated basic breaches |
 | Engineers' self-rated confidence | Moderate | High |
+
+*Illustrative figures.*
 
 - **Conclusion:** about four minutes a week was enough to make the new rules retrievable at the moment of writing code; the sister team's high confidence was not matched by its review findings.
 

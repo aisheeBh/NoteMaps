@@ -167,7 +167,7 @@ flowchart TD
 - **Summaries that repeat diagrams** — a paragraph beneath a sketch that lists the sketch's boxes duplicates it; a paragraph that states **why** the structure matters complements it.
 - **Rule of thumb:** when explaining a visual, speak or write about **causes, conditions, consequences and exceptions** — the things the picture cannot hold.
 
-> **Example:** under a sketch of a company's group structure, the weak note reads "Parent owns A, B and C." The strong note reads "Because the parent owns only 60% of C, C's profits are shared with minority shareholders — so consolidated profit overstates what belongs to the parent."
+> **Example (illustrative):** under a sketch of a company's group structure, the weak note reads "Parent owns A, B and C." The strong note reads "Because the parent owns only 60% of C, C's profits are shared with minority shareholders — so consolidated profit overstates what belongs to the parent."
 
 ### Multiple representations that do add
 
@@ -225,7 +225,7 @@ flowchart TD
 
 ---
 
-## Worked Example: Auditing a Revision Sheet
+## Worked Example (illustrative): Auditing a Revision Sheet
 
 **Situation:** a student's one-page revision sheet on **monetary policy** contains:
 
@@ -306,7 +306,7 @@ flowchart TD
 
 > **Watch out:** a resource's **production value** is not evidence of its **learning value**. Plain resources with good diagrams and practice often teach more than polished, decorated ones.
 
-### Worked example: a team briefing deck
+### Worked example (illustrative): a team briefing deck
 
 **Situation:** an engineer prepares a twelve-slide briefing on a new deployment process for colleagues. Draft slides each have a title, five bullets, a clip-art icon and a background image; the engineer plans to read the bullets aloud.
 
@@ -370,7 +370,7 @@ flowchart TD
     class E,X good
 ```
 
-### Case study: rewriting a board pack
+### Case study (illustrative): rewriting a board pack
 
 - **Situation:** a manufacturing group's monthly board pack ran to 80 pages: each page had a chart and a paragraph beneath it restating the chart's values.
 - **Problem:** directors complained they could not find the issues; meetings spent time on reading rather than deciding.
