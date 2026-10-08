@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Human contribution and copyright</title>
+<desc>Five levels of human contribution to an AI-assisted image, from a prompt alone to a human work with minor AI help, with the likely strength of copyright.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">More human creative control, stronger claim to copyright</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Broadly following the US Copyright Office's 2025 analysis; other jurisdictions differ</text>
+<rect x="24.0" y="100" width="172.8" height="220" rx="6" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="25.5" y="101.5" width="169.8" height="10" fill="url(#grey)"/>
+<text x="110.4" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Prompt only</text>
+<text x="110.4" y="161.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">One or many</text>
+<text x="110.4" y="179.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">prompts; machine</text>
+<text x="110.4" y="197.4" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">decides the</text>
+<text x="110.4" y="215.6" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">expression</text>
+<text x="110.4" y="240.8" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Generally not</text>
+<text x="110.4" y="259.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">protected in the US</text>
+<rect x="208.8" y="100" width="172.8" height="220" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="295.2" y="124.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Selection</text>
+<text x="295.2" y="151.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Choosing among many</text>
+<text x="295.2" y="169.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">outputs</text>
+<text x="295.2" y="194.4" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Selection alone is</text>
+<text x="295.2" y="212.6" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">weak</text>
+<rect x="393.6" y="100" width="172.8" height="220" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="395.6" y="102" width="168.8" height="10" fill="url(#hatch)"/>
+<text x="480.0" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Arrangement</text>
+<text x="480.0" y="161.0" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Combining outputs</text>
+<text x="480.0" y="179.2" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">with human text or</text>
+<text x="480.0" y="197.4" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">layout</text>
+<text x="480.0" y="222.6" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">The arrangement can</text>
+<text x="480.0" y="240.8" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">be protected</text>
+<rect x="578.4000000000001" y="100" width="172.8" height="220" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="580.4000000000001" y="102" width="168.8" height="10" fill="url(#dots)"/>
+<text x="664.8" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Substantial</text>
+<text x="664.8" y="153.5" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">modification</text>
+<text x="664.8" y="180.5" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Human editing,</text>
+<text x="664.8" y="198.7" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">painting over,</text>
+<text x="664.8" y="216.9" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">compositing</text>
+<text x="664.8" y="242.1" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Human-made changes</text>
+<text x="664.8" y="260.3" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">can be protected</text>
+<rect x="763.2" y="100" width="172.8" height="220" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="766.2" y="103" width="166.8" height="10" fill="url(#cross)"/>
+<text x="849.6" y="134.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Human work,</text>
+<text x="849.6" y="153.5" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">AI-assisted</text>
+<text x="849.6" y="180.5" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">AI used for minor</text>
+<text x="849.6" y="198.7" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">tasks such as</text>
+<text x="849.6" y="216.9" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">cleanup</text>
+<text x="849.6" y="242.1" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">Protected as a</text>
+<text x="849.6" y="260.3" font-size="14" font-weight="normal" text-anchor="middle" fill="#111111">human work</text>
+<line x1="40" y1="350" x2="920" y2="350" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="40.0" y="376.0" font-size="15" font-weight="bold" text-anchor="start" fill="#111111">Weak or no claim</text>
+<text x="920.0" y="376.0" font-size="15" font-weight="bold" text-anchor="end" fill="#111111">Strong claim</text>
+<text x="480.0" y="416.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Schematic; the outcome in any case depends on facts and on national law.</text>
+</svg>

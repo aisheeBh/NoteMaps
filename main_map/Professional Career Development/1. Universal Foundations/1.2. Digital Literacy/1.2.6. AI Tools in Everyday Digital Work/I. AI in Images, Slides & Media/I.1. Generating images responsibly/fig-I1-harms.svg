@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Harms from generated images</title>
+<desc>Four families of harm from generated images, each with typical workplace triggers.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Four families of harm</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Most workplace incidents begin with a reasonable intention and an unexamined default</text>
+<rect x="24.0" y="90" width="216.0" height="266" rx="6" fill="#FCEDED" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="26.5" y="92.5" width="211.0" height="10" fill="url(#lines)"/>
+<text x="132.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Deception</text>
+<text x="132.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Images taken as records</text>
+<text x="132.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">of real events</text>
+<text x="132.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Fake testimonials or</text>
+<text x="132.0" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'customer' photos</text>
+<text x="132.0" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Undisclosed realism in</text>
+<text x="132.0" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">news-like settings</text>
+<rect x="256.0" y="90" width="216.0" height="266" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="258.0" y="92" width="212.0" height="10" fill="url(#dots)"/>
+<text x="364.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Misrepresentation</text>
+<text x="364.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Stereotyped defaults</text>
+<text x="364.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">for jobs, places,</text>
+<text x="364.0" y="191.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">cultures</text>
+<text x="364.0" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Erasure of groups from</text>
+<text x="364.0" y="237.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'typical' scenes</text>
+<text x="364.0" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Historically false</text>
+<text x="364.0" y="283.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">depictions</text>
+<rect x="488.0" y="90" width="216.0" height="266" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="490.0" y="92" width="212.0" height="10" fill="url(#hatch)"/>
+<text x="596.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Rights and dignity</text>
+<text x="596.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Likeness used without</text>
+<text x="596.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">consent</text>
+<text x="596.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Sexualised or</text>
+<text x="596.0" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">humiliating images</text>
+<text x="596.0" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Imitation of a living</text>
+<text x="596.0" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">artist's style</text>
+<rect x="720.0" y="90" width="216.0" height="266" rx="6" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="721.5" y="91.5" width="213.0" height="10" fill="url(#grey)"/>
+<text x="828.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Wider costs</text>
+<text x="828.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Displacement of</text>
+<text x="828.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">commissioned creative</text>
+<text x="828.0" y="191.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">work</text>
+<text x="828.0" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Energy for many</text>
+<text x="828.0" y="237.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">discarded generations</text>
+<text x="828.0" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Erosion of trust in all</text>
+<text x="828.0" y="283.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">images</text>
+<text x="480.0" y="386.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Grouping is a teaching aid; real incidents often combine several families.</text>
+</svg>
