@@ -351,6 +351,44 @@ flowchart TD
 - **Result:** cracks reaching customers fell sharply; the second stage removed most false alarms before they cost production time. *Illustrative figures.*
 - **Lesson:** the "less accurate" model was the right choice. **Accuracy rewarded the wrong behaviour** for a rare-defect task; recall, precision and a two-stage design matched the real costs.
 
+**Figure 5.** A two-stage inspection: a high-recall first stage followed by high-precision checks (illustrative).
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial, Helvetica, sans-serif','fontSize':'15px','primaryColor':'#FFFFFF','primaryTextColor':'#111111','primaryBorderColor':'#222222','lineColor':'#333333','secondaryColor':'#F2F2F2','tertiaryColor':'#FFFFFF','clusterBkg':'#FAFAFA','clusterBorder':'#555555','edgeLabelBackground':'#FFFFFF','titleColor':'#111111'}}}%%
+flowchart TD
+    classDef core    fill:#1F3B5C,stroke:#000000,stroke-width:3px,color:#FFFFFF
+    classDef key     fill:#BCD5EE,stroke:#1F3B5C,stroke-width:2px,color:#000000
+    classDef good    fill:#D3ECD3,stroke:#1E5E24,stroke-width:3px,color:#000000
+    classDef caution fill:#F6CACA,stroke:#8B0000,stroke-width:2.5px,stroke-dasharray:3 3,color:#000000
+    classDef detail  fill:#FFFFFF,stroke:#333333,stroke-width:1.5px,color:#000000
+
+    A["50,000 bottles,<br/>100 cracked"]
+    M["Stage 1: Model Y<br/>high recall"]
+    X["4 cracked passed:<br/>false negatives"]
+    P["47,996 sound passed:<br/>true negatives"]
+    F["2,000 flagged:<br/>96 cracked, 1,904 sound"]
+    C["Stage 2: high-precision<br/>inspection camera"]
+    H["Human check of<br/>remaining flags"]
+    R["Cracked bottles rejected"]
+    B["Sound bottles returned<br/>to the line"]
+
+    A ==> M
+    M ==> F
+    M --> P
+    M --> X
+    F ==> C
+    C -- "still suspect" --> H
+    C -- "cleared" --> B
+    H ==> R
+    H -- "sound" --> B
+
+    class A core
+    class M,C,H key
+    class F,P detail
+    class X caution
+    class R,B good
+```
+
 ---
 
 ## Metrics in Professional Practice

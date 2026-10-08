@@ -179,6 +179,41 @@ A dataset can be accurate record by record and still be badly wrong as a whole, 
 
 > **Definition — Data cascade:** a chain of problems that begins with an upstream data issue and causes compounding, often delayed, failures in a model and its use.
 
+**Figure 4.** How a data cascade starts upstream and surfaces as a costly failure in use.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial, Helvetica, sans-serif','fontSize':'15px','primaryColor':'#FFFFFF','primaryTextColor':'#111111','primaryBorderColor':'#222222','lineColor':'#333333','secondaryColor':'#F2F2F2','tertiaryColor':'#FFFFFF','clusterBkg':'#FAFAFA','clusterBorder':'#555555','edgeLabelBackground':'#FFFFFF','titleColor':'#111111'}}}%%
+flowchart TD
+    classDef core    fill:#1F3B5C,stroke:#000000,stroke-width:3px,color:#FFFFFF
+    classDef key     fill:#BCD5EE,stroke:#1F3B5C,stroke-width:2px,color:#000000
+    classDef detail  fill:#FFFFFF,stroke:#333333,stroke-width:1.5px,color:#000000
+    classDef caution fill:#F6CACA,stroke:#8B0000,stroke-width:2.5px,stroke-dasharray:3 3,color:#000000
+
+    subgraph TRG["Triggers"]
+        T1["Poor data<br/>collection practices"]
+        T2["Conflicts with<br/>domain experts"]
+        T3["Physical-world changes:<br/>weather, equipment"]
+        T4["Inadequate<br/>documentation"]
+    end
+    U["Upstream data issue"]
+    H["Unnoticed during<br/>model building"]
+    S["Model passes tests<br/>sharing the same flaw"]
+    F["Failure surfaces in use"]
+    R["Costly rework:<br/>recollect data, retrain"]
+
+    T1 --> U
+    T2 --> U
+    T3 --> U
+    T4 --> U
+    U ==> H ==> S ==> F ==> R
+    R -. "late discovery<br/>multiplies the cost" .-> U
+
+    class T1,T2,T3,T4 detail
+    class U core
+    class H,S key
+    class F,R caution
+```
+
 ### Case study: COVID-19 detection from chest images
 
 - **Situation:** in 2020 hundreds of research groups rapidly built machine-learning models to diagnose COVID-19 or predict its course from chest X-rays and CT scans.
@@ -236,7 +271,7 @@ A dataset can be accurate record by record and still be badly wrong as a whole, 
 
 > **Definition — Datasheet for a dataset:** a structured document recording why a dataset was created, what it contains, how it was collected and processed, what it should and should not be used for, and how it is maintained.
 
-**Figure 4.** A continuous cycle for keeping data fit for an AI system.
+**Figure 5.** A continuous cycle for keeping data fit for an AI system.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontFamily':'Arial, Helvetica, sans-serif','fontSize':'15px','primaryColor':'#FFFFFF','primaryTextColor':'#111111','primaryBorderColor':'#222222','lineColor':'#333333','secondaryColor':'#F2F2F2','tertiaryColor':'#FFFFFF','clusterBkg':'#FAFAFA','clusterBorder':'#555555','edgeLabelBackground':'#FFFFFF','titleColor':'#111111'}}}%%
