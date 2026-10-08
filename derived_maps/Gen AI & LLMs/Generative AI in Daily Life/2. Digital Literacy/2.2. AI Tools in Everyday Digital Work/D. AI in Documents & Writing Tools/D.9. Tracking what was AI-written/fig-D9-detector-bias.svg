@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Detector misclassification by writer group</title>
+  <desc>Schematic bars: essays by native English speakers rarely flagged; essays by non-native writers flagged as AI-generated more than half the time in the 2023 study.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Who gets falsely flagged as AI?</text>
+  <text x="560" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Share of human-written essays misclassified as AI</text>
+  <text x="390" y="142" text-anchor="end" font-size="15" fill="#111111">Native English-speaking students' essays</text>
+  <rect x="400" y="124" width="36" height="57" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="446" y="158" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">rarely flagged</text>
+  <text x="390" y="217" text-anchor="end" font-size="15" fill="#111111">Non-native writers' TOEFL essays</text>
+  <rect x="400" y="199" width="270" height="57" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="680" y="232" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">more than half flagged</text>
+  <text x="480" y="345" text-anchor="middle" font-size="13" fill="#333333">Schematic of the direction and approximate size of findings reported by Liang and colleagues (2023); bar lengths are not exact values.</text>
+</svg>

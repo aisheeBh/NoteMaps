@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Requirements grid</title>
+<desc>A grid with rows for six recurring regulatory demands (regime contract, permitted location, security assurance, audit trail, retention control, no training) and columns for four AI routes (consumer chatbot, business plan of a general assistant, service named in a regime contract, private deployment). Each cell says Usually met, Sometimes or Rarely.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Recurring regulatory demands against four AI routes</text>
+<text x="360.0" y="110.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Consumer chatbot</text>
+<text x="520.0" y="110.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">General business</text>
+<text x="520.0" y="129.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">plan</text>
+<text x="680.0" y="110.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Named regime</text>
+<text x="680.0" y="129.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">service</text>
+<text x="840.0" y="110.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Private</text>
+<text x="840.0" y="129.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">deployment</text>
+<text x="266" y="180" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Regime contract (BAA etc.)</text>
+<rect x="286" y="152" width="148" height="50" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="327.25" y="163.25" width="65.5" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="360.0" y="182.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Rarely</text>
+<rect x="446" y="152" width="148" height="50" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="474.875" y="163.25" width="90.25" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="520.0" y="182.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Sometimes</text>
+<rect x="606" y="152" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="643.125" y="163.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="680.0" y="182.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="766" y="152" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="803.125" y="163.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="840.0" y="182.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<text x="266" y="242" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Permitted location</text>
+<rect x="286" y="214" width="148" height="50" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="327.25" y="225.25" width="65.5" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="360.0" y="244.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Rarely</text>
+<rect x="446" y="214" width="148" height="50" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="474.875" y="225.25" width="90.25" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="520.0" y="244.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Sometimes</text>
+<rect x="606" y="214" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="643.125" y="225.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="680.0" y="244.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="766" y="214" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="803.125" y="225.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="840.0" y="244.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<text x="266" y="304" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Security assurance</text>
+<rect x="286" y="276" width="148" height="50" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="327.25" y="287.25" width="65.5" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="360.0" y="306.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Rarely</text>
+<rect x="446" y="276" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="483.125" y="287.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="520.0" y="306.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="606" y="276" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="643.125" y="287.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="680.0" y="306.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="766" y="276" width="148" height="50" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="794.875" y="287.25" width="90.25" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="840.0" y="306.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Sometimes</text>
+<text x="266" y="366" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Audit trail</text>
+<rect x="286" y="338" width="148" height="50" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="327.25" y="349.25" width="65.5" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="360.0" y="368.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Rarely</text>
+<rect x="446" y="338" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="483.125" y="349.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="520.0" y="368.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="606" y="338" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="643.125" y="349.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="680.0" y="368.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="766" y="338" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="803.125" y="349.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="840.0" y="368.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<text x="266" y="428" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Retention control</text>
+<rect x="286" y="400" width="148" height="50" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="327.25" y="411.25" width="65.5" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="360.0" y="430.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Rarely</text>
+<rect x="446" y="400" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="483.125" y="411.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="520.0" y="430.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="606" y="400" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="643.125" y="411.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="680.0" y="430.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="766" y="400" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="803.125" y="411.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="840.0" y="430.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<text x="266" y="490" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">No training on data</text>
+<rect x="286" y="462" width="148" height="50" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="314.875" y="473.25" width="90.25" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="360.0" y="492.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Sometimes</text>
+<rect x="446" y="462" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="483.125" y="473.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="520.0" y="492.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="606" y="462" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="643.125" y="473.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="680.0" y="492.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<rect x="766" y="462" width="148" height="50" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="803.125" y="473.25" width="73.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="840.0" y="492.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<text x="480.0" y="545" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Typical position, simplified; actual coverage depends on the contract and configuration.</text>
+</svg>

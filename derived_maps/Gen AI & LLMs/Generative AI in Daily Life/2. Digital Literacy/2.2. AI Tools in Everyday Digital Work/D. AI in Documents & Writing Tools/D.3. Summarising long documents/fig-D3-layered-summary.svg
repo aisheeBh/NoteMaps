@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A layered summary</title>
+  <desc>Five levels from one line at the top to the full document at the bottom, each wider and more detailed; built from the bottom up and read from the top down.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The layered summary: build upward, read downward</text>
+  <rect x="340.0" y="80" width="200" height="78" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="440" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">One line</text>
+  <text x="440" y="138" text-anchor="middle" font-size="14" fill="#FFFFFF">the core message</text>
+  <rect x="275.0" y="172" width="330" height="78" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="440" y="204" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">One paragraph</text>
+  <text x="440" y="230" text-anchor="middle" font-size="14" fill="#111111">what, so what, what next</text>
+  <rect x="210.0" y="264" width="460" height="78" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="218.0" y="275" width="444" height="54" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="440" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">One page</text>
+  <text x="440" y="322" text-anchor="middle" font-size="14" fill="#111111">decision-maker's brief with section references</text>
+  <rect x="145.0" y="356" width="590" height="78" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="440" y="388" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Section digests</text>
+  <text x="440" y="414" text-anchor="middle" font-size="14" fill="#111111">claims, figures, obligations, exceptions per section</text>
+  <rect x="80.0" y="448" width="720" height="78" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="440" y="480" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">The full document</text>
+  <text x="440" y="506" text-anchor="middle" font-size="14" fill="#222222">sections, annexes, tables, definitions, footnotes</text>
+  <line x1="80" y1="520" x2="80" y2="90" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="60" y="300" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(-90 60 300)">BUILD: bottom-up</text>
+  <line x1="840" y1="90" x2="840" y2="520" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="870" y="300" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(90 870 300)">READ: top-down</text>
+  <text x="480" y="585" text-anchor="middle" font-size="13" fill="#333333">Each level keeps references to the level below, so any statement can be traced to the source text.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Account mixing</title>
+<desc>Two zones, work and personal, with five crossing paths: work file pasted into a personal browser tab; personal phone app used to draft a client reply; personal health question asked in the work tool; personal memory saving work details; work chats exported on leaving a job.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">How work and personal AI use become mixed</text>
+<rect x="40" y="80" width="300" height="420" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="620" y="80" width="300" height="420" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="124.52" y="93" width="130.96" height="27.400000000000002" fill="#FFFFFF" stroke="none"/>
+<text x="190" y="112.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Work account</text>
+<rect x="684.36" y="93" width="171.28000000000003" height="27.400000000000002" fill="#FFFFFF" stroke="none"/>
+<text x="770" y="112.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Personal account</text>
+<line x1="300" y1="170" x2="660" y2="170" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="323.79999999999995" y="144" width="312.40000000000003" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="480" y="160.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Work file pasted into a personal tab</text>
+<line x1="300" y1="236" x2="660" y2="236" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+<rect x="315.4" y="210" width="329.20000000000005" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="480" y="226.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Phone app used to draft a client reply</text>
+<line x1="660" y1="302" x2="300" y2="302" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="315.4" y="276" width="329.20000000000005" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="480" y="292.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Health question asked in the work tool</text>
+<line x1="300" y1="368" x2="660" y2="368" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+<rect x="332.2" y="342" width="295.6" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="480" y="358.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Personal memory saves work details</text>
+<line x1="300" y1="434" x2="660" y2="434" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="349.0" y="408" width="262.0" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="480" y="424.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Work chats exported on leaving</text>
+<text x="480" y="525" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Every crossing places data under the other account's terms and visibility.</text>
+</svg>

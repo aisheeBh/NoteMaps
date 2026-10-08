@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Closed captions, open captions and transcripts</title>
+<desc>Comparison of three text alternatives for recorded media and their main strengths and limits.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Three text deliverables for recorded media</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Most published media needs closed captions plus a transcript; social clips often add open captions</text>
+<rect x="24.0" y="90" width="293.3333333333333" height="322" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="26.0" y="92" width="289.3333333333333" height="10" fill="url(#hatch)"/>
+<text x="170.7" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Closed captions</text>
+<text x="170.7" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Separate timed-text file, e.g.</text>
+<text x="170.7" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">SRT or WebVTT</text>
+<text x="170.7" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Viewer can switch on or off,</text>
+<text x="170.7" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">resize, translate</text>
+<text x="170.7" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Searchable and editable</text>
+<text x="170.7" y="271.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Lost if the platform ignores the</text>
+<text x="170.7" y="290.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">file</text>
+<rect x="333.3333333333333" y="90" width="293.3333333333333" height="322" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="335.3333333333333" y="92" width="289.3333333333333" height="10" fill="url(#dots)"/>
+<text x="480.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Open (burned-in) captions</text>
+<text x="480.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Part of the picture itself</text>
+<text x="480.0" y="179.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Always visible, survives</text>
+<text x="480.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">re-sharing</text>
+<text x="480.0" y="225.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Cannot be resized, switched off</text>
+<text x="480.0" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">or corrected</text>
+<text x="480.0" y="271.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Often styled for social video</text>
+<rect x="642.6666666666666" y="90" width="293.3333333333333" height="322" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="645.6666666666666" y="93" width="287.3333333333333" height="10" fill="url(#cross)"/>
+<text x="789.3" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Transcript</text>
+<text x="789.3" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Full text, usually with speaker</text>
+<text x="789.3" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">labels</text>
+<text x="789.3" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Readable at own pace; quotable</text>
+<text x="789.3" y="225.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Essential for audio-only media</text>
+<text x="789.3" y="251.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Not synchronised unless</text>
+<text x="789.3" y="271.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">interactive</text>
+</svg>

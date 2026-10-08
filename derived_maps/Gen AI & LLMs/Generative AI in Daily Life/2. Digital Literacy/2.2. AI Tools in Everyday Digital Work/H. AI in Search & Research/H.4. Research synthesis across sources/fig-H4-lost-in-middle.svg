@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Use of information by its position in a long input</title>
+  <desc>Schematic chart. Horizontal axis: position of the relevant document in the input, from start to end. Vertical axis: accuracy of the answer. A solid U-shaped curve is high at the start, dips in the middle and rises again at the end. A dashed line shows the flat line that would be expected if position did not matter.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Use of information by its position in a long input</text>
+  <line x1="110" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="430" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="495" y="470" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Position of the relevant document in the input</text>
+  <text x="60" y="255" text-anchor="middle" font-size="16" font-weight="bold" transform="rotate(-90 60 255)" fill="#111111">Accuracy of the answer</text>
+  <text x="110" y="452" text-anchor="start" font-size="14" fill="#111111">Start</text>
+  <text x="880" y="452" text-anchor="end" font-size="14" fill="#111111">End</text>
+  <text x="100" y="426" text-anchor="end" font-size="14" fill="#111111">Lower</text>
+  <text x="100" y="90" text-anchor="end" font-size="14" fill="#111111">Higher</text>
+  <path d="M110 143 L226 192 L380 234 L495 244 L610 234 L764 199 L880 164" fill="none" stroke="#111111" stroke-width="3"/>
+  <rect x="383" y="266" width="205" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="387" y="283" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Typical pattern observed</text>
+  <path d="M110 143 L880 143" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="383" y="98" width="221" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="387" y="115" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">If position did not matter</text>
+  <text x="480" y="530" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Schematic of the U-shaped pattern reported in the 2023 "Lost in the Middle" experiments; not plotted from their data.</text>
+</svg>

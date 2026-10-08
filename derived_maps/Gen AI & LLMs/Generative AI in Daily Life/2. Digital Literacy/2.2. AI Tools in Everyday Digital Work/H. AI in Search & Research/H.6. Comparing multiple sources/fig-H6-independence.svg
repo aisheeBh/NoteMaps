@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four sources that are really one</title>
+  <desc>Left panel, apparent picture: four separate boxes, a news article, a reference page, a blog and an AI answer, each appearing to confirm the same claim. Right panel, real picture: one original report at the top with arrows to a news article, which feeds a reference page and a blog, and all three feed the AI answer. Only one independent origin exists.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Four sources that are really one</text>
+  <text x="240" y="82" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">What the reader sees</text>
+  <text x="720" y="82" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Where the claim came from</text>
+  <line x1="480" y1="70" x2="480" y2="470" stroke="#555555" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <rect x="70" y="104" width="340" height="66" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="240" y="129" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">News article</text>
+  <text x="240" y="155" text-anchor="middle" font-size="14" fill="#111111">states the claim</text>
+  <rect x="70" y="192" width="340" height="66" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="240" y="217" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Reference page</text>
+  <text x="240" y="243" text-anchor="middle" font-size="14" fill="#111111">states the claim</text>
+  <rect x="70" y="280" width="340" height="66" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="240" y="305" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Blog post</text>
+  <text x="240" y="331" text-anchor="middle" font-size="14" fill="#111111">states the claim</text>
+  <rect x="70" y="368" width="340" height="66" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="240" y="393" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">AI answer</text>
+  <text x="240" y="419" text-anchor="middle" font-size="14" fill="#111111">states the claim</text>
+  <rect x="590" y="100" width="260" height="64" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="720" y="124" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Original report</text>
+  <text x="720" y="150" text-anchor="middle" font-size="14" fill="#FFFFFF">the only real origin</text>
+  <rect x="590" y="206" width="260" height="58" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="720" y="227" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">News article</text>
+  <text x="720" y="253" text-anchor="middle" font-size="14" fill="#111111">quotes the report</text>
+  <rect x="510" y="304" width="190" height="58" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="605" y="325" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Reference page</text>
+  <text x="605" y="350" text-anchor="middle" font-size="13.5" fill="#111111">cites the article</text>
+  <rect x="740" y="304" width="190" height="58" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="835" y="325" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Blog post</text>
+  <text x="835" y="350" text-anchor="middle" font-size="13.5" fill="#111111">copies the article</text>
+  <rect x="590" y="400" width="260" height="58" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="720" y="421" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">AI answer</text>
+  <text x="720" y="447" text-anchor="middle" font-size="14" fill="#111111">restates all three</text>
+  <line x1="720" y1="164" x2="720" y2="204" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="690" y1="264" x2="620" y2="302" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="750" y1="264" x2="820" y2="302" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="605" y1="362" x2="670" y2="398" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="835" y1="362" x2="770" y2="398" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="720" y1="264" x2="720" y2="398" stroke="#222222" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="480" y="505" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Four confirmations on the left; one independent origin on the right.</text>
+</svg>

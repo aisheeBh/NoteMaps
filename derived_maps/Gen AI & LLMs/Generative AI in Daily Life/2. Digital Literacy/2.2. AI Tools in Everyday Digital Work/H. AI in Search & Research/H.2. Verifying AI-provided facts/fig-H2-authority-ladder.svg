@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 546" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The authority ladder for a factual claim</title>
+  <desc>Five stacked layers from strongest to weakest evidence: primary authoritative sources; reputable secondary sources; tertiary and aggregated sources; unvetted sources; AI outputs, which are a restatement and never the evidence. An arrow on the right runs from weaker at the bottom to stronger at the top.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The authority ladder for a factual claim</text>
+  <rect x="50" y="72" width="680" height="78" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="390" y="103" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Primary authoritative source</text>
+  <text x="390" y="130" text-anchor="middle" font-size="14.5" fill="#FFFFFF">Registry, statute, regulator, statistics office, the study itself</text>
+  <rect x="50" y="162" width="680" height="78" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="390" y="193" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Reputable secondary source</text>
+  <text x="390" y="220" text-anchor="middle" font-size="14.5" fill="#111111">Established news, professional bodies, academic reviews</text>
+  <rect x="50" y="252" width="680" height="78" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="390" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Tertiary or aggregated source</text>
+  <text x="390" y="310" text-anchor="middle" font-size="14.5" fill="#111111">Encyclopaedias, reference works, comparison sites</text>
+  <rect x="50" y="342" width="680" height="78" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="390" y="373" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Unvetted source</text>
+  <text x="390" y="400" text-anchor="middle" font-size="14.5" fill="#111111">Blogs, forums, marketing pages, social media</text>
+  <rect x="50" y="432" width="680" height="78" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="390" y="463" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">AI output</text>
+  <text x="390" y="490" text-anchor="middle" font-size="14.5" fill="#111111">A restatement of the above: shows where to look, never the evidence</text>
+  <line x1="775" y1="510" x2="775" y2="76" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="868" y="96" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#111111">Stronger evidence</text>
+  <text x="868" y="472" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#111111">Weaker evidence</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Flesch Reading Ease before and after a plain-language rewrite</title>
+  <desc>Before: 25 words per sentence and 1.7 syllables per word give a score of about 38, difficult. After: 15 words per sentence and 1.5 syllables per word give about 65, plain English.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Plain-language rewrite: the readability effect</text>
+  <line x1="170" y1="338.0" x2="790" y2="338.0" stroke="#999999" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="800" y="394" text-anchor="start" font-size="14" fill="#111111">very difficult</text>
+  <line x1="170" y1="270.0" x2="790" y2="270.0" stroke="#999999" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="800" y="309" text-anchor="start" font-size="14" fill="#111111">difficult</text>
+  <line x1="170" y1="236.0" x2="790" y2="236.0" stroke="#999999" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="800" y="258" text-anchor="start" font-size="14" fill="#111111">fairly difficult</text>
+  <line x1="170" y1="202.0" x2="790" y2="202.0" stroke="#999999" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="800" y="224" text-anchor="start" font-size="14" fill="#111111">plain English</text>
+  <line x1="170" y1="100.0" x2="790" y2="100.0" stroke="#999999" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="800" y="156" text-anchor="start" font-size="14" fill="#111111">easy</text>
+  <line x1="180" y1="440" x2="790" y2="440" stroke="#222222" stroke-width="2.5"/>
+  <line x1="180" y1="440" x2="180" y2="100.0" stroke="#222222" stroke-width="2.5"/>
+  <text x="164" y="445" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="164" y="343" text-anchor="end" font-size="14" fill="#111111">30</text>
+  <text x="164" y="275" text-anchor="end" font-size="14" fill="#111111">50</text>
+  <text x="164" y="241" text-anchor="end" font-size="14" fill="#111111">60</text>
+  <text x="164" y="207" text-anchor="end" font-size="14" fill="#111111">70</text>
+  <text x="164" y="105" text-anchor="end" font-size="14" fill="#111111">100</text>
+  <text x="100" y="270" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 100 270)">Flesch Reading Ease</text>
+  <rect x="280" y="312" width="150" height="128" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="315" y="272" width="80" height="30" fill="#FFFFFF"/>
+  <text x="355" y="294" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">38</text>
+  <text x="355" y="464" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Original</text>
+  <text x="355" y="484" text-anchor="middle" font-size="14" fill="#111111">25 words/sentence, 1.7 syllables/word</text>
+  <rect x="570" y="220" width="150" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="605" y="180" width="80" height="30" fill="#FFFFFF"/>
+  <text x="645" y="202" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">65</text>
+  <text x="645" y="464" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Rewrite</text>
+  <text x="645" y="484" text-anchor="middle" font-size="14" fill="#111111">15 words/sentence, 1.5 syllables/word</text>
+  <text x="480" y="528" text-anchor="middle" font-size="13" fill="#333333">Illustrative passage; the score measures sentence and word length only, not whether meaning survived.</text>
+</svg>

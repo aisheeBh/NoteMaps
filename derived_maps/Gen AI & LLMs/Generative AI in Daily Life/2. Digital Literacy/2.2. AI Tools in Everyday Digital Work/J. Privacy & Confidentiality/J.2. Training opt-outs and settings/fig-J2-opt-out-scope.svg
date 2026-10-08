@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Opt-out scope</title>
+<desc>Two columns. Stopped by a typical training opt-out: future conversations in training datasets; human rating for training. Continues regardless: storage and history; abuse and safety review; feedback submissions; other products' settings; third-party wrapper apps; legal holds and disclosure; past training.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">What a typical training opt-out changes</text>
+<rect x="40" y="80" width="400" height="56" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="197.35" y="92.3" width="85.30000000000001" height="31.400000000000002" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="240.0" y="114.3" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Stopped</text>
+<rect x="520" y="80" width="400" height="56" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="613.0" y="92.3" width="214.00000000000003" height="31.400000000000002" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="720.0" y="114.3" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Continues regardless</text>
+<rect x="40" y="150" width="400" height="330" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="240" y="250.0" font-size="17" text-anchor="middle" font-weight="normal" fill="#111111">Future chats added to</text>
+<text x="240" y="272.1" font-size="17" text-anchor="middle" font-weight="normal" fill="#111111">training datasets</text>
+<text x="240" y="294.2" font-size="17" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="240" y="316.3" font-size="17" text-anchor="middle" font-weight="normal" fill="#111111">Chats used for human</text>
+<text x="240" y="338.4" font-size="17" text-anchor="middle" font-weight="normal" fill="#111111">rating for training</text>
+<rect x="520" y="150" width="400" height="330" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="540" y="166" width="360" height="298" rx="6" fill="#FFFFFF"/>
+<text x="560" y="205" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">- Storage, history and backups</text>
+<text x="560" y="243" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">- Abuse and safety review</text>
+<text x="560" y="281" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">- Conversations sent as feedback</text>
+<text x="560" y="319" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">- Other products of the provider</text>
+<text x="560" y="357" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">- Third-party wrapper apps</text>
+<text x="560" y="395" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">- Legal holds and disclosure</text>
+<text x="560" y="433" font-size="16" text-anchor="start" font-weight="normal" fill="#111111">- Models already trained on past chats</text>
+<text x="480.0" y="515" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Typical position; the exact scope is set by each provider's current terms.</text>
+</svg>

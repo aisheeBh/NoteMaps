@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Registers from frozen to intimate</title>
+  <desc>Joos's five registers on a scale from fixed and impersonal to personal and close, with document examples: statutory wording, annual reports, project updates, team chat, personal messages.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Joos's five registers in working documents</text>
+  <rect x="30" y="120" width="170" height="200" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="115" y="196" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Frozen</text>
+  <text x="115" y="224" text-anchor="middle" font-size="14" fill="#FFFFFF">Statutory wording,</text>
+  <text x="115" y="242" text-anchor="middle" font-size="14" fill="#FFFFFF">oaths, defined</text>
+  <text x="115" y="260" text-anchor="middle" font-size="14" fill="#FFFFFF">contract terms</text>
+  <rect x="212" y="120" width="170" height="200" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="220" y="163" width="154" height="111" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="297" y="186" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Formal</text>
+  <text x="297" y="215" text-anchor="middle" font-size="14" fill="#111111">Annual reports,</text>
+  <text x="297" y="233" text-anchor="middle" font-size="14" fill="#111111">policies,</text>
+  <text x="297" y="251" text-anchor="middle" font-size="14" fill="#111111">regulatory</text>
+  <text x="297" y="270" text-anchor="middle" font-size="14" fill="#111111">submissions</text>
+  <rect x="394" y="120" width="170" height="200" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="479" y="196" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Consultative</text>
+  <text x="479" y="224" text-anchor="middle" font-size="14" fill="#111111">Proposals, client</text>
+  <text x="479" y="242" text-anchor="middle" font-size="14" fill="#111111">reports, project</text>
+  <text x="479" y="260" text-anchor="middle" font-size="14" fill="#111111">updates</text>
+  <rect x="576" y="120" width="170" height="200" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="661" y="205" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Casual</text>
+  <text x="661" y="233" text-anchor="middle" font-size="14" fill="#111111">Team chat, internal</text>
+  <text x="661" y="251" text-anchor="middle" font-size="14" fill="#111111">notes</text>
+  <rect x="758" y="120" width="170" height="200" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="843" y="205" text-anchor="middle" font-size="18" font-weight="bold" fill="#222222">Intimate</text>
+  <text x="843" y="233" text-anchor="middle" font-size="14" fill="#222222">Personal messages;</text>
+  <text x="843" y="251" text-anchor="middle" font-size="14" fill="#222222">rarely in documents</text>
+  <line x1="40" y1="370" x2="915" y2="370" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="915" y1="400" x2="40" y2="400" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="480" y="440" text-anchor="middle" font-size="15" fill="#111111">more personal, more shared background, more freedom to rewrite →</text>
+  <text x="480" y="470" text-anchor="middle" font-size="15" fill="#111111">← more fixed, more impersonal, less freedom to rewrite</text>
+  <text x="110" y="92" text-anchor="middle" font-size="14" font-style="italic" fill="#111111">do not rewrite</text>
+</svg>

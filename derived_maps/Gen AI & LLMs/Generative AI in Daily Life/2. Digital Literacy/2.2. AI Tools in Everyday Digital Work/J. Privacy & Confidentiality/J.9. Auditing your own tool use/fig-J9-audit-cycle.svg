@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Audit cycle</title>
+<desc>A cycle of six steps: list tools and accounts; check settings; review connections; review stored data; compare behaviour with obligations; record and set the next date. Trigger events around the cycle prompt an extra round: new job or client, terms change, new device, new tool or feature, incident or near miss.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The audit cycle and the events that trigger an extra round</text>
+<circle cx="480" cy="310" r="190" fill="none" stroke="#333333" stroke-width="2.5"/>
+<line x1="564.6" y1="139.5" x2="583.7" y2="150.5" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="670.0" y1="298.0" x2="670.0" y2="320.0" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="585.4" y1="468.5" x2="566.3" y2="479.5" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="395.4" y1="480.5" x2="376.3" y2="469.5" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="290.0" y1="322.0" x2="290.0" y2="300.0" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="374.6" y1="151.5" x2="393.7" y2="140.5" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="395.0" y="90.0" width="170" height="60" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="124.9" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">List tools</text>
+<rect x="559.5448267190434" y="185.0" width="170" height="60" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="644.5448267190434" y="219.9" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">Check settings</text>
+<rect x="559.5448267190434" y="375.0" width="170" height="60" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="594.1948267190434" y="382.8" width="100.7" height="44.4" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="644.5448267190434" y="400.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Review</text>
+<text x="644.5448267190434" y="418.99999999999994" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">connections</text>
+<rect x="395.0" y="470.0" width="170" height="60" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="495.79999999999995" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">Review stored</text>
+<text x="480.0" y="514.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">data</text>
+<rect x="230.45517328095673" y="375.00000000000006" width="170" height="60" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="261.25517328095674" y="382.80000000000007" width="108.4" height="44.4" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="315.4551732809567" y="400.8" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Compare with</text>
+<text x="315.4551732809567" y="419.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">obligations</text>
+<rect x="230.45517328095667" y="185.0" width="170" height="60" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="315.45517328095667" y="210.8" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">Record; set next</text>
+<text x="315.45517328095667" y="229.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#000000">date</text>
+<rect x="410" y="280" width="140" height="60" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="480.0" y="305.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Quarterly</text>
+<text x="480.0" y="325.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#FFFFFF">routine</text>
+<rect x="40" y="90" width="150" height="50" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="115.0" y="110.80000000000001" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">New job or</text>
+<text x="115.0" y="129.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">client</text>
+<rect x="770" y="90" width="150" height="50" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="845.0" y="119.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">Terms change</text>
+<rect x="40" y="500" width="150" height="50" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="115.0" y="529.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">New device</text>
+<rect x="770" y="500" width="150" height="50" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="845.0" y="520.8" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">New tool or</text>
+<text x="845.0" y="539.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">feature</text>
+<rect x="770" y="290" width="150" height="50" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="845.0" y="310.79999999999995" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">Incident or</text>
+<text x="845.0" y="328.99999999999994" font-size="14" text-anchor="middle" font-weight="normal" fill="#000000">near miss</text>
+</svg>

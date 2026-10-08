@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Signals of obligation strength</title>
+  <desc>A scale from prohibited and mandatory through recommended to optional, with typical words: must not and shall not; must, shall, is required to; should, is expected to, recommend; may, can, could consider.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">How strongly does the text require it?</text>
+  <rect x="40" y="110" width="205" height="170" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="48" y="155" width="189" height="78" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="142" y="178" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Prohibited</text>
+  <text x="142" y="207" text-anchor="middle" font-size="15" fill="#111111">must not, shall not,</text>
+  <text x="142" y="226" text-anchor="middle" font-size="15" fill="#111111">may not</text>
+  <rect x="265" y="110" width="205" height="170" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="368" y="178" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Mandatory</text>
+  <text x="368" y="207" text-anchor="middle" font-size="15" fill="#FFFFFF">must, shall, is</text>
+  <text x="368" y="226" text-anchor="middle" font-size="15" fill="#FFFFFF">required to, will</text>
+  <rect x="490" y="110" width="205" height="170" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="592" y="178" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Recommended</text>
+  <text x="592" y="207" text-anchor="middle" font-size="15" fill="#111111">should, is expected</text>
+  <text x="592" y="226" text-anchor="middle" font-size="15" fill="#111111">to, we recommend</text>
+  <rect x="715" y="110" width="205" height="170" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="818" y="178" text-anchor="middle" font-size="18" font-weight="bold" fill="#222222">Optional</text>
+  <text x="818" y="207" text-anchor="middle" font-size="15" fill="#222222">may, can, could</text>
+  <text x="818" y="226" text-anchor="middle" font-size="15" fill="#222222">consider</text>
+  <line x1="260" y1="330" x2="915" y2="330" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="590" y="360" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">binding force decreases →</text>
+  <rect x="40" y="390" width="880" height="80" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480" y="425" text-anchor="middle" font-size="15" fill="#111111">Extraction should quote the signal word for every action, so that a recommendation</text>
+  <text x="480" y="444" text-anchor="middle" font-size="15" fill="#111111">is never tracked as a requirement and a prohibition is never lost.</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Precision and recall in an extracted action list</title>
+  <desc>Of 20 genuine actions in a document, the tool extracted 16 correctly and missed 4; it also listed 8 items that were not actions. Precision 16 of 24, about 67 percent; recall 16 of 20, 80 percent.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Precision and recall: noise and misses</text>
+  <rect x="40" y="80" width="420" height="300" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="500" y="80" width="420" height="300" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="250" y="108" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Genuine actions in the document (20)</text>
+  <text x="710" y="108" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Items the tool listed (24)</text>
+  <rect x="93" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="133" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="173" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="213" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="253" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="293" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="333" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="373" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="93" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="133" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="173" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="213" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="253" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="293" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="333" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="373" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="250" y="236" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">16 extracted correctly</text>
+  <rect x="93" y="256" width="34" height="34" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="133" y="256" width="34" height="34" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="173" y="256" width="34" height="34" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="213" y="256" width="34" height="34" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="270" y="282" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">4 missed</text>
+  <rect x="553" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="593" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="633" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="673" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="713" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="753" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="793" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="833" y="130" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="553" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="593" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="633" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="673" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="713" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="753" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="793" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="833" y="170" width="34" height="34" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <text x="710" y="236" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">16 genuine</text>
+  <rect x="553" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="593" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="633" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="673" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="713" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="753" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="793" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="833" y="256" width="34" height="34" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="710" y="336" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">8 not actions (noise)</text>
+  <rect x="40" y="410" width="420" height="90" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="250" y="448" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Recall = 16 ÷ 20 = 80%</text>
+  <text x="250" y="474" text-anchor="middle" font-size="14" fill="#111111">share of real actions found</text>
+  <text x="480" y="528" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures.</text>
+  <rect x="500" y="410" width="420" height="90" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="710" y="448" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Precision = 16 ÷ 24 ≈ 67%</text>
+  <text x="710" y="474" text-anchor="middle" font-size="14" fill="#111111">share of listed items that are real</text>
+</svg>

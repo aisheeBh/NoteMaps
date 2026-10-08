@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Hidden AI</title>
+<desc>An iceberg. Above the waterline: standalone assistants opened deliberately. Below: AI in email, documents and spreadsheets, meeting transcription, writing aids and extensions, phone keyboards and photo apps, operating-system features, third-party wrappers, agents and automations.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Visible AI tools and the larger body of embedded AI</text>
+<polygon points="400,150 480,90 560,150 590,190 370,190" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="3"/>
+<text x="480" y="160" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Standalone</text>
+<text x="480" y="180" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">assistants</text>
+<rect x="40" y="190" width="880" height="4" fill="#1F3B5C"/>
+<text x="900" y="182" font-size="14" text-anchor="end" font-weight="normal" fill="#111111" font-style="italic">waterline</text>
+<polygon points="370,194 590,194 760,300 700,470 480,520 260,470 200,300" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="300" y="226" width="360" height="252" rx="6" fill="#FFFFFF"/>
+<text x="480" y="254" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Email: summaries, drafted replies</text>
+<text x="480" y="288" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Documents and spreadsheets</text>
+<text x="480" y="322" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Meeting transcription</text>
+<text x="480" y="356" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Writing aids and extensions</text>
+<text x="480" y="390" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Phone keyboards and photo apps</text>
+<text x="480" y="424" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Operating-system features</text>
+<text x="480" y="458" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Wrappers, agents, automations</text>
+<text x="480" y="545" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Most AI processing in a working day happens below the waterline.</text>
+</svg>

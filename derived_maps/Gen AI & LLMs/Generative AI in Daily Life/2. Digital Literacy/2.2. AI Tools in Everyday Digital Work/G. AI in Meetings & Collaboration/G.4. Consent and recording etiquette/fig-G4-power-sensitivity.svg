@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Consent level by power gap and sensitivity</title>
+<desc>Two-by-two matrix: power gap between participants against sensitivity of content, giving the recommended consent level.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Choosing a level of consent</text>
+<rect x="176" y="86" width="348.0" height="188.0" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="200" y="146.0" width="300.0" height="62" fill="#FFFFFF" rx="4"/>
+<text x="350.0" y="166.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Opt-in,</text>
+<text x="350.0" y="188.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">or no recording</text>
+<rect x="536.0" y="86" width="348.0" height="188.0" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="560.0" y="135.0" width="300.0" height="84" fill="#FFFFFF" rx="4"/>
+<text x="710.0" y="155.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Default: no recording;</text>
+<text x="710.0" y="177.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">human notes only</text>
+<text x="710.0" y="199.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">unless a record is required</text>
+<rect x="176" y="286.0" width="348.0" height="188.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<rect x="200" y="346.0" width="300.0" height="62" fill="#FFFFFF" rx="4"/>
+<text x="350.0" y="366.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Opt-out with a</text>
+<text x="350.0" y="388.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">clear announcement</text>
+<rect x="536.0" y="286.0" width="348.0" height="188.0" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="560.0" y="335.0" width="300.0" height="84" fill="#FFFFFF" rx="4"/>
+<text x="710.0" y="355.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Opt-in, with an</text>
+<text x="710.0" y="377.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">alternative offered</text>
+<text x="710.0" y="399.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">unprompted</text>
+<line x1="170" y1="500" x2="890" y2="500" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="530.0" y="532" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Power gap between participants</text>
+<text x="350.0" y="556" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Peers</text>
+<text x="710.0" y="556" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Manager, client, candidate, patient</text>
+<line x1="150" y1="480" x2="150" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="40" y="280.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111" transform="rotate(-90 40 280.0)">Sensitivity of the content</text>
+<text x="140" y="185.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Sensitive</text>
+<text x="140" y="385.0" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Routine</text>
+</svg>

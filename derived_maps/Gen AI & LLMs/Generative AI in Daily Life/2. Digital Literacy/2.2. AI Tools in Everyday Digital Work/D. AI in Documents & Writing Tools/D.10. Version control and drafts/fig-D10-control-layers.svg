@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of control for a policy document</title>
+  <desc>Concentric layers: the text; identifier and version; owner and approver; change history; review date and distribution; retention and withdrawal of superseded versions.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Controls around a controlled document</text>
+  <rect x="60" y="70" width="840" height="480" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="100" y="108" width="760" height="404" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="140" y="146" width="680" height="328" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="180" y="184" width="600" height="252" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="220" y="222" width="520" height="176" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="260" y="260" width="440" height="100" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="269" y="79" width="421" height="24" fill="#FFFFFF"/>
+  <text x="480" y="96" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Retention, archiving and withdrawal of old versions</text>
+  <rect x="341" y="117" width="278" height="24" fill="#FFFFFF"/>
+  <text x="480" y="134" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Review date and distribution list</text>
+  <rect x="392" y="155" width="175" height="24" fill="#FFFFFF"/>
+  <text x="480" y="172" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Change history table</text>
+  <rect x="400" y="193" width="159" height="24" fill="#FFFFFF"/>
+  <text x="480" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Owner and approver</text>
+  <rect x="357" y="231" width="247" height="24" fill="#FFFFFF"/>
+  <text x="480" y="248" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Identifier and version number</text>
+  <text x="480" y="316" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Policy text</text>
+</svg>

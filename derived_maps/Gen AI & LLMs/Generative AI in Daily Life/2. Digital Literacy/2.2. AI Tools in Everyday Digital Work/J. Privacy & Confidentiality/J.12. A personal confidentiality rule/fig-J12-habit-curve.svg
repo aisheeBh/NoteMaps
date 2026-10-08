@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Habit curve</title>
+<desc>A schematic curve of automaticity against days of repetition, rising steeply at first and levelling off. A marker at 66 days shows the median time to near-plateau in Lally and colleagues' 2010 study, with a shaded band from 18 to 254 days showing the range across individuals.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Automaticity rises with repetition, then levels off</text>
+<rect x="164.69230769230768" y="100" width="717.0769230769231" height="340" fill="url(#dots)" opacity="0.45"/>
+<rect x="361.43076923076916" y="111" width="323.6" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="523.2307692307692" y="126.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">range across individuals: 18 to 254 days</text>
+<line x1="110" y1="440" x2="910" y2="440" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="110" y1="440" x2="110" y2="90" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="510.0" y="476" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Days of daily repetition</text>
+<text x="80" y="265.0" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 80 265.0)">Automaticity</text>
+<path d="M110.0,440.0 L122.2,393.5 L134.3,354.6 L146.5,322.3 L158.6,295.3 L170.8,272.8 L182.9,254.1 L195.1,238.4 L207.2,225.4 L219.4,214.5 L231.5,205.4 L243.7,197.9 L255.8,191.6 L268.0,186.3 L280.2,182.0 L292.3,178.3 L304.5,175.3 L316.6,172.7 L328.8,170.6 L340.9,168.8 L353.1,167.4 L365.2,166.2 L377.4,165.1 L389.5,164.3 L401.7,163.6 L413.8,163.0 L426.0,162.5 L438.2,162.1 L450.3,161.7 L462.5,161.4 L474.6,161.2 L486.8,161.0 L498.9,160.8 L511.1,160.7 L523.2,160.6 L535.4,160.5 L547.5,160.4 L559.7,160.3 L571.8,160.3 L584.0,160.2 L596.2,160.2 L608.3,160.2 L620.5,160.1 L632.6,160.1 L644.8,160.1 L656.9,160.1 L669.1,160.1 L681.2,160.1 L693.4,160.0 L705.5,160.0 L717.7,160.0 L729.8,160.0 L742.0,160.0 L754.2,160.0 L766.3,160.0 L778.5,160.0 L790.6,160.0 L802.8,160.0 L814.9,160.0 L827.1,160.0 L839.2,160.0 L851.4,160.0 L863.5,160.0 L875.7,160.0 L887.8,160.0 L900.0,160.0" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+<line x1="310.53846153846155" y1="440" x2="310.53846153846155" y2="140" stroke="#111111" stroke-width="2.5" stroke-dasharray="10 6"/>
+<rect x="313.53846153846155" y="284" width="178.00000000000003" height="23.5" fill="#FFFFFF" stroke="none"/>
+<text x="318.53846153846155" y="300.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">median about 66 days</text>
+<text x="110.0" y="460" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">0</text>
+<text x="261.9230769230769" y="460" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">50</text>
+<text x="413.84615384615387" y="460" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">100</text>
+<text x="565.7692307692307" y="460" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">150</text>
+<text x="717.6923076923077" y="460" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">200</text>
+<text x="869.6153846153846" y="460" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">250</text>
+<text x="480.0" y="505" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Schematic curve; not plotted from the study's data.</text>
+</svg>

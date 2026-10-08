@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Volume against retention for meeting records</title>
+<desc>Pyramid: recordings at the wide base kept briefly, transcripts, reviewed summaries and actions, and decision logs and minutes at the narrow top kept longest.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Keep raw material briefly, decisions for longer</text>
+<polygon points="150.0,470.0 710.0,470.0 657.5,378.5 202.5,378.5" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="330.0" y="402.25" width="200" height="42" fill="#FFFFFF" rx="3"/>
+<text x="430" y="420.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Recordings</text>
+<text x="430" y="439.25" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111">largest, most sensitive</text>
+<line x1="718.0" y1="424.25" x2="740" y2="424.25" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="750" y="429.25" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Days to weeks</text>
+<polygon points="202.5,372.5 657.5,372.5 605.0,281.0 255.0,281.0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="334.0" y="304.75" width="192" height="42" fill="#FFFFFF" rx="3"/>
+<text x="430" y="322.75" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Transcripts</text>
+<text x="430" y="341.75" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111">every word, unreviewed</text>
+<line x1="665.5" y1="326.75" x2="740" y2="326.75" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="750" y="331.75" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Weeks</text>
+<polygon points="255.0,275.0 605.0,275.0 552.5,183.5 307.5,183.5" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="350.0" y="207.25" width="160" height="42" fill="#FFFFFF" rx="3"/>
+<text x="430" y="225.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Reviewed summaries</text>
+<text x="430" y="244.25" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111">and action lists</text>
+<line x1="613.0" y1="229.25" x2="740" y2="229.25" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="750" y="234.25" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Months to project end</text>
+<polygon points="307.5,177.5 552.5,177.5 500.0,86.0 360.0,86.0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="370.0" y="109.75" width="120" height="42" fill="#FFFFFF" rx="3"/>
+<text x="430" y="127.75" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Decision logs</text>
+<text x="430" y="146.75" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111">and minutes</text>
+<line x1="560.5" y1="131.75" x2="740" y2="131.75" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="750" y="136.75" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Years or permanent</text>
+<line x1="80" y1="80" x2="80" y2="470" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="60" y="275.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111" transform="rotate(-90 60 275.0)">More volume and sensitivity</text>
+<text x="750" y="70" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Typical retention</text>
+<text x="40" y="540" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Schematic; periods depend on law, sector and policy.</text>
+</svg>

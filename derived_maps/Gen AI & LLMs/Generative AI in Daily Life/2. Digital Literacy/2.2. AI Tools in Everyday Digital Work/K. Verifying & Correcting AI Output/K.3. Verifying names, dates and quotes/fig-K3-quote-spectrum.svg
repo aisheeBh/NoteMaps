@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From verbatim quotation to invention</title>
+  <desc>A spectrum of five kinds of reported speech, from verbatim quotation through trimmed quotation, close paraphrase and gist to invented quotation, with what each permits and the risk each carries.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">How far a quotation can travel from the words spoken</text>
+  <rect x="28.0" y="72" width="171.2" height="220" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="113.6" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Verbatim</text>
+  <text x="113.6" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Exact words,</text>
+  <text x="113.6" y="148.2" text-anchor="middle" font-size="15" fill="#111111">in quotation</text>
+  <text x="113.6" y="168.4" text-anchor="middle" font-size="15" fill="#111111">marks</text>
+  <text x="113.6" y="188.7" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="113.6" y="208.9" text-anchor="middle" font-size="15" fill="#111111">Checkable</text>
+  <text x="113.6" y="229.2" text-anchor="middle" font-size="15" fill="#111111">against source</text>
+  <rect x="211.2" y="72" width="171.2" height="220" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="296.79999999999995" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Trimmed</text>
+  <text x="296.79999999999995" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Exact words with</text>
+  <text x="296.79999999999995" y="148.2" text-anchor="middle" font-size="15" fill="#111111">marked omissions</text>
+  <text x="296.79999999999995" y="168.4" text-anchor="middle" font-size="15" fill="#111111">or brackets</text>
+  <text x="296.79999999999995" y="188.7" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="296.79999999999995" y="208.9" text-anchor="middle" font-size="15" fill="#111111">Meaning must</text>
+  <text x="296.79999999999995" y="229.2" text-anchor="middle" font-size="15" fill="#111111">be unchanged</text>
+  <rect x="394.4" y="72" width="171.2" height="220" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480.0" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Close</text>
+  <text x="480.0" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">paraphrase</text>
+  <text x="480.0" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Own words,</text>
+  <text x="480.0" y="171.2" text-anchor="middle" font-size="15" fill="#111111">same meaning,</text>
+  <text x="480.0" y="191.4" text-anchor="middle" font-size="15" fill="#111111">no quotation</text>
+  <text x="480.0" y="211.7" text-anchor="middle" font-size="15" fill="#111111">marks</text>
+  <text x="480.0" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="480.0" y="252.2" text-anchor="middle" font-size="15" fill="#111111">Attributed</text>
+  <rect x="577.6" y="72" width="171.2" height="220" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="663.2" y="105" text-anchor="middle" font-size="17" fill="#222222" font-weight="bold">Gist</text>
+  <text x="663.2" y="128.0" text-anchor="middle" font-size="15" fill="#222222">General thrust</text>
+  <text x="663.2" y="148.2" text-anchor="middle" font-size="15" fill="#222222">only</text>
+  <text x="663.2" y="168.4" text-anchor="middle" font-size="15" fill="#222222"></text>
+  <text x="663.2" y="188.7" text-anchor="middle" font-size="15" fill="#222222">Easily slides</text>
+  <text x="663.2" y="208.9" text-anchor="middle" font-size="15" fill="#222222">into distortion</text>
+  <rect x="760.8" y="72" width="171.2" height="220" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="846.4" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Invented</text>
+  <text x="846.4" y="128.0" text-anchor="middle" font-size="15" fill="#111111">Words never</text>
+  <text x="846.4" y="148.2" text-anchor="middle" font-size="15" fill="#111111">said, presented</text>
+  <text x="846.4" y="168.4" text-anchor="middle" font-size="15" fill="#111111">as a quotation</text>
+  <text x="846.4" y="188.7" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="846.4" y="208.9" text-anchor="middle" font-size="15" fill="#111111">Never</text>
+  <text x="846.4" y="229.2" text-anchor="middle" font-size="15" fill="#111111">acceptable</text>
+  <line x1="60" y1="326" x2="900" y2="326" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="480" y="354" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">increasing distance from the speaker's actual words</text>
+  <text x="480.0" y="400" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Generated text can move along this line silently while keeping the quotation marks.</text>
+</svg>

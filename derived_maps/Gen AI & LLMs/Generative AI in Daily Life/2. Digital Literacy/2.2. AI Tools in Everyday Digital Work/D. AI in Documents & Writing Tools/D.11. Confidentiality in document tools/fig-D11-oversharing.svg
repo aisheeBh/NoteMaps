@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Permission scope compared with need-to-know</title>
+  <desc>A large circle of everything a user's account can open contains a smaller circle of what the user needs for their role. The ring between them is overshared content, which an AI assistant can now surface.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What the assistant can reach versus what the user needs</text>
+  <ellipse cx="420" cy="300" rx="340" ry="220" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <ellipse cx="420" cy="320" rx="160" ry="110" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="420" y="312" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Need-to-know</text>
+  <text x="420" y="336" text-anchor="middle" font-size="15" fill="#111111">files for the user's role</text>
+  <rect x="250" y="110" width="340" height="56" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="420" y="134" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Overshared: everything else the</text>
+  <text x="420" y="156" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">account can open</text>
+  <rect x="790" y="120" width="150" height="170" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="865" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="#222222">Before AI</text>
+  <text x="865" y="195" text-anchor="middle" font-size="14" fill="#222222">Hidden by</text>
+  <text x="865" y="213" text-anchor="middle" font-size="14" fill="#222222">obscurity:</text>
+  <text x="865" y="232" text-anchor="middle" font-size="14" fill="#222222">nobody knew</text>
+  <text x="865" y="250" text-anchor="middle" font-size="14" fill="#222222">where to look</text>
+  <rect x="790" y="310" width="150" height="190" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="865" y="361" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">With AI</text>
+  <text x="865" y="386" text-anchor="middle" font-size="14" fill="#111111">Assistant</text>
+  <text x="865" y="404" text-anchor="middle" font-size="14" fill="#111111">searches the</text>
+  <text x="865" y="423" text-anchor="middle" font-size="14" fill="#111111">whole circle</text>
+  <text x="865" y="441" text-anchor="middle" font-size="14" fill="#111111">and surfaces it</text>
+  <text x="865" y="459" text-anchor="middle" font-size="14" fill="#111111">in answers</text>
+  <text x="480" y="548" text-anchor="middle" font-size="13" fill="#333333">Schematic.</text>
+</svg>

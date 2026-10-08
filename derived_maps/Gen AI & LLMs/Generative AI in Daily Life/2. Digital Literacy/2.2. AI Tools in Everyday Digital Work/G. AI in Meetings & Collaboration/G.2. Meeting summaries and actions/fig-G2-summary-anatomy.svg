@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Anatomy of an outcome-first meeting summary</title>
+<desc>A mock summary page with headline, decisions, actions, open questions and discussion, annotated with who reads each part.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Anatomy of an outcome-first summary</text>
+<rect x="60" y="70" width="470" height="500" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<rect x="76" y="86" width="438" height="82" rx="3" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+<text x="96" y="112" font-size="17" text-anchor="start" font-weight="bold" fill="#FFFFFF">Headline</text>
+<text x="96" y="133" font-size="14" text-anchor="start" font-weight="normal" fill="#FFFFFF">Launch confirmed for 2 June, subject</text>
+<text x="96" y="152" font-size="14" text-anchor="start" font-weight="normal" fill="#FFFFFF">to security sign-off by 19 May</text>
+<line x1="600" y1="127.0" x2="522" y2="127.0" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="612" y="132.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Everyone: the one thing to know</text>
+<rect x="76" y="178" width="438" height="82" rx="3" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="96" y="204" font-size="17" text-anchor="start" font-weight="bold" fill="#111111">Decisions</text>
+<text x="96" y="225" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Each with date, authority,</text>
+<text x="96" y="244" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">conditions and rationale</text>
+<line x1="600" y1="219.0" x2="522" y2="219.0" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="612" y="224.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Future readers, sponsors</text>
+<rect x="76" y="270" width="438" height="82" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="88" y="278" width="360" height="66" fill="#FFFFFF" rx="3"/>
+<text x="96" y="296" font-size="17" text-anchor="start" font-weight="bold" fill="#111111">Actions</text>
+<text x="96" y="317" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Owner | deliverable | date;</text>
+<text x="96" y="336" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">unowned items flagged</text>
+<line x1="600" y1="311.0" x2="522" y2="311.0" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="612" y="316.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Attendees and task trackers</text>
+<rect x="76" y="362" width="438" height="82" rx="3" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="88" y="370" width="360" height="66" fill="#FFFFFF" rx="3"/>
+<text x="96" y="388" font-size="17" text-anchor="start" font-weight="bold" fill="#111111">Open questions and risks</text>
+<text x="96" y="409" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">What is unresolved,</text>
+<text x="96" y="428" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">and who will resolve it</text>
+<line x1="600" y1="403.0" x2="522" y2="403.0" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="612" y="408.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Managers: what may slip</text>
+<rect x="76" y="454" width="438" height="82" rx="3" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+<text x="96" y="480" font-size="17" text-anchor="start" font-weight="bold" fill="#111111">Discussion</text>
+<text x="96" y="501" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Brief notes per agenda item,</text>
+<text x="96" y="520" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">with timestamps</text>
+<line x1="600" y1="495.0" x2="522" y2="495.0" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="612" y="500.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Absentees wanting context</text>
+<text x="612" y="560" font-size="14" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Order = priority for a hurried reader</text>
+</svg>

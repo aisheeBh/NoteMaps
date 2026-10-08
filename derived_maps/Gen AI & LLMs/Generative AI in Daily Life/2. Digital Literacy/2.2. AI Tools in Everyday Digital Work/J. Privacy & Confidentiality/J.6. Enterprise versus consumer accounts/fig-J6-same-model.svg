@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Same model</title>
+<desc>A single model in the centre feeds two wrappers. Consumer wrapper: individual is customer; training unless switched off; provider's standard retention; personal login; no administrator. Enterprise wrapper: organisation is customer with a data-processing agreement; training excluded by contract; configurable retention; corporate single sign-on; administrator controls and audit logs.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">One model, two wrappers</text>
+<rect x="380" y="220" width="200" height="110" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="480.0" y="269.9" font-size="17" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Same model</text>
+<text x="480.0" y="292.0" font-size="17" text-anchor="middle" font-weight="normal" fill="#FFFFFF">identical answers</text>
+<text x="180" y="92" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Consumer account</text>
+<text x="780" y="92" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Enterprise account</text>
+<rect x="40" y="110" width="280" height="58" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="64.74999999999999" y="125.25" width="230.50000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="180.0" y="144.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Individual is the customer</text>
+<rect x="40" y="182" width="280" height="58" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="56.499999999999986" y="197.25" width="247.00000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="180.0" y="216.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Training unless switched off</text>
+<rect x="40" y="254" width="280" height="58" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="52.374999999999986" y="269.25" width="255.25000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="180.0" y="288.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Provider's standard retention</text>
+<rect x="40" y="326" width="280" height="58" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="114.25" y="341.25" width="131.5" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="180.0" y="360.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Personal login</text>
+<rect x="40" y="398" width="280" height="58" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="106.0" y="413.25" width="148.0" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="180.0" y="432.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">No administrator</text>
+<rect x="640" y="110" width="280" height="58" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="652.375" y="125.25" width="255.25000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="780.0" y="144.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Organisation is customer, DPA</text>
+<rect x="640" y="182" width="280" height="58" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="652.375" y="197.25" width="255.25000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="780.0" y="216.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Training excluded by contract</text>
+<rect x="640" y="254" width="280" height="58" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="681.25" y="269.25" width="197.50000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="780.0" y="288.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Configurable retention</text>
+<rect x="640" y="326" width="280" height="58" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="673.0" y="341.25" width="214.00000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="780.0" y="360.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Corporate single sign-on</text>
+<rect x="640" y="398" width="280" height="58" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="664.75" y="413.25" width="230.50000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="780.0" y="432.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Admin controls, audit logs</text>
+<line x1="322" y1="275" x2="376" y2="275" stroke="#222222" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="638" y1="275" x2="584" y2="275" stroke="#222222" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+</svg>

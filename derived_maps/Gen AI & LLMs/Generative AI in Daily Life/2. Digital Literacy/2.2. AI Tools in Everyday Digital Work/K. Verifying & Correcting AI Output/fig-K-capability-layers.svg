@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three layers of verification capability</title>
+  <desc>Three nested layers. Individual habits: draft stance, checks by output type, release pass, correction log. Team routines: review levels, shared release passes, error gallery, second reviewers. Organisation: policy, approved tools, training, oversight records, incident handling.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Three layers of verification capability</text>
+  <rect x="28" y="66" width="904" height="370" rx="14" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="480" y="94" text-anchor="middle" font-size="16" fill="#222222" font-weight="bold">ORGANISATION: policy, approved tools, training, oversight records, incidents</text>
+  <rect x="80" y="112" width="800" height="300" rx="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="140" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">TEAM: review levels, shared release passes, second reviewers, error gallery</text>
+  <rect x="150" y="160" width="660" height="226" rx="10" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="480" y="192" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">INDIVIDUAL</text>
+  <text x="480" y="226" text-anchor="middle" font-size="15" fill="#111111">Treat output as a draft</text>
+  <text x="480" y="256" text-anchor="middle" font-size="15" fill="#111111">Check by output type: facts, names, instructions</text>
+  <text x="480" y="286" text-anchor="middle" font-size="15" fill="#111111">Correct, restart or abandon wisely</text>
+  <text x="480" y="316" text-anchor="middle" font-size="15" fill="#111111">Release pass and sign-off</text>
+  <text x="480" y="346" text-anchor="middle" font-size="15" fill="#111111">Record corrections</text>
+  <text x="480.0" y="456" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Each layer depends on the one inside it and makes it easier to sustain.</text>
+</svg>

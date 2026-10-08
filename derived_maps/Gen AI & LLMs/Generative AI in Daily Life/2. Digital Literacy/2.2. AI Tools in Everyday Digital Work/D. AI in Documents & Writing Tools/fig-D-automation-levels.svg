@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Degrees of AI involvement across stages of document work</title>
+  <desc>Four stages: acquisition of sources and analysis can be highly automated; action, meaning editing the file, moderately with review; decision about structure, argument and wording least.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Automate the gathering, not the judgement</text>
+  <rect x="90" y="180" width="130" height="240" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="155" y="168" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">high</text>
+  <text x="155" y="446" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Acquire</text>
+  <text x="155" y="468" text-anchor="middle" font-size="14" fill="#111111">find and gather sources</text>
+  <rect x="300" y="210" width="130" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="365" y="198" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">high</text>
+  <text x="365" y="446" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Analyse</text>
+  <text x="365" y="468" text-anchor="middle" font-size="14" fill="#111111">summarise, extract, compare</text>
+  <rect x="510" y="360" width="130" height="60" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="575" y="348" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">low</text>
+  <text x="575" y="446" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Decide</text>
+  <text x="575" y="468" text-anchor="middle" font-size="14" fill="#111111">structure, argument, wording</text>
+  <rect x="720" y="270" width="130" height="150" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="785" y="258" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">moderate, reviewed</text>
+  <text x="785" y="446" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Act</text>
+  <text x="785" y="468" text-anchor="middle" font-size="14" fill="#111111">write and edit the file</text>
+  <line x1="60" y1="420" x2="920" y2="420" stroke="#222222" stroke-width="2.5"/>
+  <text x="40" y="260" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 40 260)">Suitable degree of automation</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic, after the four-stage model of Parasuraman, Sheridan and Wickens (2000); heights are not measured values.</text>
+</svg>

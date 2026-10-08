@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Traffic light</title>
+<desc>Three rows. Green, public information such as published reports: any tool. Amber, internal information such as plans and drafts: approved tools only. Red, client, personal or regulated information: approved tool with minimum necessary detail, or not at all. Each row also carries a word label so it does not depend on colour.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">A traffic-light rule for AI tools</text>
+<circle cx="90" cy="145" r="40" fill="#D3ECD3" stroke="#222222" stroke-width="3"/>
+<text x="90" y="151" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">GREEN</text>
+<rect x="150" y="90" width="470" height="110" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="192.2" y="113.7" width="385.6" height="62.599999999999994" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="385.0" y="131.7" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Public</text>
+<text x="385.0" y="149.89999999999998" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">published reports, public web pages, own general</text>
+<text x="385.0" y="168.1" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">knowledge</text>
+<line x1="624" y1="145" x2="660" y2="145" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="665" y="105" width="255" height="80" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+<text x="792.5" y="150.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Any tool</text>
+<circle cx="90" cy="280" r="40" fill="#FFE6A8" stroke="#222222" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="90" y="286" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">AMBER</text>
+<rect x="150" y="225" width="470" height="110" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="199.89999999999998" y="248.7" width="370.20000000000005" height="62.599999999999994" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="385.0" y="266.7" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Internal</text>
+<text x="385.0" y="284.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">plans, drafts, internal processes, unpublished</text>
+<text x="385.0" y="303.09999999999997" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">but routine material</text>
+<line x1="624" y1="280" x2="660" y2="280" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="665" y="240" width="255" height="80" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="792.5" y="285.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000">Approved tools only</text>
+<circle cx="90" cy="415" r="40" fill="#F6CACA" stroke="#222222" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="90" y="421" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">RED</text>
+<rect x="150" y="360" width="470" height="110" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="203.75" y="383.7" width="362.5" height="62.599999999999994" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="385.0" y="401.7" font-size="14" text-anchor="middle" font-weight="bold" fill="#111111">Client, personal, regulated</text>
+<text x="385.0" y="419.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">client documents, names and personal details,</text>
+<text x="385.0" y="438.09999999999997" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">health, pay, card data</text>
+<line x1="624" y1="415" x2="660" y2="415" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="665" y="375" width="255" height="80" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="792.5" y="410.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Approved tool, minimum</text>
+<text x="792.5" y="430.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#FFFFFF">necessary, or none</text>
+<text x="480.0" y="505" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Illustrative classes; each organisation's own classification takes precedence.</text>
+</svg>

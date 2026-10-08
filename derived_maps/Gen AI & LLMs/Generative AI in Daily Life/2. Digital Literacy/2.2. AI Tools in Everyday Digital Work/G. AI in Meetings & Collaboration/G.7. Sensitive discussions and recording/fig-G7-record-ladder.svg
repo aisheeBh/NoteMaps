@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Forms of meeting record</title>
+<desc>Five forms of meeting record from no record to full recording, with what each captures.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="44" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Forms of meeting record, from least to most captured</text>
+<rect x="40.0" y="120" width="164.8" height="270" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<rect x="48.0" y="130" width="148.8" height="250" fill="#FFFFFF" rx="4"/>
+<text x="122.4" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">No</text>
+<text x="122.4" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">record</text>
+<text x="122.4" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Nothing kept</text>
+<text x="122.4" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="122.4" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Candour-</text>
+<text x="122.4" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">dependent talk</text>
+<rect x="218.8" y="120" width="164.8" height="270" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="226.8" y="130" width="148.8" height="250" fill="#FFFFFF" rx="4"/>
+<text x="301.20000000000005" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Human</text>
+<text x="301.20000000000005" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">outcome</text>
+<text x="301.20000000000005" y="202" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">notes</text>
+<text x="301.20000000000005" y="231" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Decisions and</text>
+<text x="301.20000000000005" y="250" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">actions only</text>
+<text x="301.20000000000005" y="269" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="301.20000000000005" y="288" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Personnel,</text>
+<text x="301.20000000000005" y="307" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">early strategy</text>
+<rect x="397.6" y="120" width="164.8" height="270" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="405.6" y="130" width="148.8" height="250" fill="#FFFFFF" rx="4"/>
+<text x="480.0" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">AI tidy-up</text>
+<text x="480.0" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">of human</text>
+<text x="480.0" y="202" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">notes</text>
+<text x="480.0" y="231" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">No audio;</text>
+<text x="480.0" y="250" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">the person</text>
+<text x="480.0" y="269" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">chooses content</text>
+<text x="480.0" y="288" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="480.0" y="307" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Sensitive but</text>
+<text x="480.0" y="326" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">routine</text>
+<rect x="576.4000000000001" y="120" width="164.8" height="270" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="584.4000000000001" y="130" width="148.8" height="250" fill="#FFFFFF" rx="4"/>
+<text x="658.8000000000001" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Restricted</text>
+<text x="658.8000000000001" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">transcript</text>
+<text x="658.8000000000001" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Named access,</text>
+<text x="658.8000000000001" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">short retention,</text>
+<text x="658.8000000000001" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">no auto-sending</text>
+<text x="658.8000000000001" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="658.8000000000001" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Mixed agendas</text>
+<rect x="755.2" y="120" width="164.8" height="270" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="763.2" y="130" width="148.8" height="250" fill="#FFFFFF" rx="4"/>
+<text x="837.6" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Full</text>
+<text x="837.6" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">recording</text>
+<text x="837.6" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Audio or video</text>
+<text x="837.6" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">kept under</text>
+<text x="837.6" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">strict controls</text>
+<text x="837.6" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="837.6" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Required by</text>
+<text x="837.6" y="305" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">regulation</text>
+<line x1="50" y1="430" x2="910" y2="430" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="50" y="458" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Least captured, least exposure</text>
+<text x="910" y="458" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Most captured, most exposure</text>
+</svg>

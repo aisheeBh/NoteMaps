@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Eight kinds of plausible-sounding error</title>
+  <desc>Eight boxes in two rows naming kinds of plausible error: typical instead of actual, outdated, wrong scope, dropped caveat, reasoning slip, answer to a different question, popular misconception, and accepted false premise.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Eight kinds of plausible-sounding error</text>
+  <rect x="28" y="70" width="219" height="165" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="137.5" y="107.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Typical, not actual</text>
+  <text x="137.5" y="128.7" text-anchor="middle" font-size="15" fill="#111111">What is usually true,</text>
+  <text x="137.5" y="148.9" text-anchor="middle" font-size="15" fill="#111111">not what is true here</text>
+  <text x="137.5" y="169.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="137.5" y="189.4" text-anchor="middle" font-size="15" fill="#111111">e.g. a standard notice</text>
+  <text x="137.5" y="209.7" text-anchor="middle" font-size="15" fill="#111111">period, not this one</text>
+  <rect x="257" y="70" width="219" height="165" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="366.5" y="107.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Outdated</text>
+  <text x="366.5" y="128.7" text-anchor="middle" font-size="15" fill="#111111">Was true once;</text>
+  <text x="366.5" y="148.9" text-anchor="middle" font-size="15" fill="#111111">has since changed</text>
+  <text x="366.5" y="169.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="366.5" y="189.4" text-anchor="middle" font-size="15" fill="#111111">e.g. last year's tax</text>
+  <text x="366.5" y="209.7" text-anchor="middle" font-size="15" fill="#111111">threshold</text>
+  <rect x="486" y="70" width="219" height="165" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="595.5" y="107.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Wrong scope</text>
+  <text x="595.5" y="128.7" text-anchor="middle" font-size="15" fill="#111111">True elsewhere: another</text>
+  <text x="595.5" y="148.9" text-anchor="middle" font-size="15" fill="#111111">country, sector, version</text>
+  <text x="595.5" y="169.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="595.5" y="189.4" text-anchor="middle" font-size="15" fill="#111111">e.g. US law in a</text>
+  <text x="595.5" y="209.7" text-anchor="middle" font-size="15" fill="#111111">UK contract</text>
+  <rect x="715" y="70" width="219" height="165" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="824.5" y="107.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Dropped caveat</text>
+  <text x="824.5" y="128.7" text-anchor="middle" font-size="15" fill="#111111">The condition that made</text>
+  <text x="824.5" y="148.9" text-anchor="middle" font-size="15" fill="#111111">it true has gone</text>
+  <text x="824.5" y="169.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="824.5" y="189.4" text-anchor="middle" font-size="15" fill="#111111">e.g. up to 40% becomes</text>
+  <text x="824.5" y="209.7" text-anchor="middle" font-size="15" fill="#111111">40%</text>
+  <rect x="28" y="249" width="219" height="165" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="137.5" y="286.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Reasoning slip</text>
+  <text x="137.5" y="307.7" text-anchor="middle" font-size="15" fill="#111111">Each step sounds fine;</text>
+  <text x="137.5" y="327.9" text-anchor="middle" font-size="15" fill="#111111">one does not follow</text>
+  <text x="137.5" y="348.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="137.5" y="368.4" text-anchor="middle" font-size="15" fill="#111111">e.g. correlation read</text>
+  <text x="137.5" y="388.7" text-anchor="middle" font-size="15" fill="#111111">as cause</text>
+  <rect x="257" y="249" width="219" height="165" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="366.5" y="286.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Different question</text>
+  <text x="366.5" y="307.7" text-anchor="middle" font-size="15" fill="#111111">A fluent answer to a</text>
+  <text x="366.5" y="327.9" text-anchor="middle" font-size="15" fill="#111111">nearby, easier question</text>
+  <text x="366.5" y="348.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="366.5" y="368.4" text-anchor="middle" font-size="15" fill="#111111">e.g. how to, when</text>
+  <text x="366.5" y="388.7" text-anchor="middle" font-size="15" fill="#111111">asked whether to</text>
+  <rect x="486" y="249" width="219" height="165" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="595.5" y="286.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Popular misconception</text>
+  <text x="595.5" y="307.7" text-anchor="middle" font-size="15" fill="#111111">Widely repeated, so</text>
+  <text x="595.5" y="327.9" text-anchor="middle" font-size="15" fill="#111111">well represented in text</text>
+  <text x="595.5" y="348.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="595.5" y="368.4" text-anchor="middle" font-size="15" fill="#111111">e.g. a myth repeated</text>
+  <text x="595.5" y="388.7" text-anchor="middle" font-size="15" fill="#111111">in many articles</text>
+  <rect x="715" y="249" width="219" height="165" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="824.5" y="286.1" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">False premise accepted</text>
+  <text x="824.5" y="307.7" text-anchor="middle" font-size="15" fill="#111111">The question assumed</text>
+  <text x="824.5" y="327.9" text-anchor="middle" font-size="15" fill="#111111">something untrue</text>
+  <text x="824.5" y="348.2" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="824.5" y="368.4" text-anchor="middle" font-size="15" fill="#111111">e.g. why did sales fall?</text>
+  <text x="824.5" y="388.7" text-anchor="middle" font-size="15" fill="#111111">when they rose</text>
+  <text x="480.0" y="448" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">The categories overlap; one error often combines several.</text>
+</svg>
