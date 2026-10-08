@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Brittleness of expert systems compared with human experts</title>
+  <desc>Schematic chart. Inside its narrow domain an expert system performs at expert level. As cases move away from that domain its competence falls off a cliff. A human expert's competence declines gradually and the human usually notices when out of depth.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Falling off the knowledge cliff</text>
+
+  <rect x="120" y="70" width="280" height="370" fill="url(#hatch)" opacity="0.55"/>
+  <rect x="160" y="400" width="200" height="28" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="260" y="420" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">inside the domain</text>
+
+  <line x1="120" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="440" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="476" text-anchor="middle" font-size="16" fill="#111111">How far a case is from those the rules were written for</text>
+  <text x="70" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 70 260)">Quality of the answer</text>
+
+  <path d="M120 120 L 400 120 C 420 120, 430 400, 460 410 L 860 412" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M120 150 C 400 150, 560 260, 860 340" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="2 5" stroke-linecap="round"/>
+
+  <rect x="140" y="82" width="250" height="28" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="265" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Expert system: expert level</text>
+
+  <rect x="480" y="358" width="370" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="665" y="377" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Expert system outside its rules:</text>
+  <text x="665" y="395" text-anchor="middle" font-size="14" fill="#111111">confident answers that are wrong</text>
+
+  <rect x="560" y="190" width="290" height="44" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="705" y="209" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Human expert: gradual decline,</text>
+  <text x="705" y="227" text-anchor="middle" font-size="14" fill="#111111">usually knows when out of depth</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

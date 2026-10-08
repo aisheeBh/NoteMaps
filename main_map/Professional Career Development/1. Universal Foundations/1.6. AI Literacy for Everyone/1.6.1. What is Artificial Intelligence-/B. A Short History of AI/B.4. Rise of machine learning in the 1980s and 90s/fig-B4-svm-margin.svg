@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Maximum-margin boundary of a support vector machine</title>
+  <desc>Two clusters of examples, squares for one class and circles for the other. Many lines could separate them. The support vector machine chooses the line with the widest empty band on either side; the examples touching the edges of that band are the support vectors.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Choose the boundary with the widest margin</text>
+
+  <rect x="80" y="60" width="800" height="420" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+
+  <polygon points="190,60 290,60 810,480 710,480" fill="url(#dots)" opacity="0.8"/>
+  <line x1="240" y1="60" x2="760" y2="480" stroke="#1F3B5C" stroke-width="4"/>
+  <line x1="190" y1="60" x2="710" y2="480" stroke="#1F3B5C" stroke-width="2" stroke-dasharray="10 6"/>
+  <line x1="290" y1="60" x2="810" y2="480" stroke="#1F3B5C" stroke-width="2" stroke-dasharray="10 6"/>
+
+  <line x1="330" y1="60" x2="640" y2="480" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="2 5" stroke-linecap="round"/>
+
+  <g fill="#111111">
+    <rect x="131" y="171" width="18" height="18"/><rect x="171" y="241" width="18" height="18"/>
+    <rect x="111" y="321" width="18" height="18"/><rect x="221" y="371" width="18" height="18"/>
+    <rect x="291" y="421" width="18" height="18"/><rect x="150" y="395" width="18" height="18"/>
+    <rect x="291" y="140" width="18" height="18"/><rect x="441" y="261" width="18" height="18"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#111111" stroke-width="3">
+    <circle cx="520" cy="110" r="10"/><circle cx="640" cy="150" r="10"/><circle cx="760" cy="120" r="10"/>
+    <circle cx="700" cy="250" r="10"/><circle cx="820" cy="300" r="10"/><circle cx="800" cy="400" r="10"/>
+    <circle cx="500" cy="230" r="10"/><circle cx="650" cy="351" r="10"/>
+  </g>
+  <g fill="none" stroke="#1E5E24" stroke-width="3">
+    <circle cx="300" cy="149" r="20"/><circle cx="450" cy="270" r="20"/>
+    <circle cx="500" cy="230" r="20"/><circle cx="650" cy="351" r="20"/>
+  </g>
+
+  <rect x="96" y="76" width="180" height="26" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="186" y="94" text-anchor="middle" font-size="15" fill="#111111">squares: class A</text>
+  <rect x="684" y="76" width="180" height="26" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="774" y="94" text-anchor="middle" font-size="15" fill="#111111">circles: class B</text>
+
+  <rect x="545" y="425" width="200" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="645" y="444" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">widest-margin boundary</text>
+  <text x="645" y="462" text-anchor="middle" font-size="14" fill="#111111">centre of the shaded band</text>
+
+  <rect x="96" y="444" width="200" height="26" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="196" y="462" text-anchor="middle" font-size="14" fill="#111111">ringed: support vectors</text>
+
+  <rect x="372" y="64" width="250" height="26" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="497" y="82" text-anchor="middle" font-size="14" fill="#111111">another line: separates, but too close</text>
+
+  <text x="480" y="512" text-anchor="middle" font-size="15" fill="#111111">The shaded band is the margin: the wider it is, the better new cases tend to be classified.</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic two-feature example; real problems have many features.</text>
+</svg>
