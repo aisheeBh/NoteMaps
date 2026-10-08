@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Technique and task as separate axes</title>
+  <desc>A four by four grid. Rows are techniques: rule-based, classical machine learning, deep learning and reinforcement learning. Columns are tasks: vision, language, physical action and structured data. Each cell gives a typical example system, showing that every technique has been applied to every kind of task.</desc>
+
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Any technique can serve any task</text>
+  <text x="570" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">TASK AND MODALITY</text>
+  <text x="40" y="310" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 40 310)">TECHNIQUE</text>
+  <rect x="200" y="84" width="185" height="26" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="292" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Vision</text>
+  <rect x="385" y="84" width="185" height="26" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="478" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Language</text>
+  <rect x="570" y="84" width="185" height="26" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="662" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Physical action</text>
+  <rect x="755" y="84" width="185" height="26" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="848" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Structured data</text>
+  <rect x="60" y="110" width="140" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="130" y="166" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Rule-based</text>
+  <rect x="200" y="110" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="292" y="156" text-anchor="middle" font-size="14" fill="#111111">early number-plate</text>
+  <text x="292" y="176" text-anchor="middle" font-size="14" fill="#111111">rules</text>
+  <rect x="385" y="110" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="478" y="156" text-anchor="middle" font-size="14" fill="#111111">keyword spam</text>
+  <text x="478" y="176" text-anchor="middle" font-size="14" fill="#111111">filters</text>
+  <rect x="570" y="110" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="662" y="156" text-anchor="middle" font-size="14" fill="#111111">fixed factory</text>
+  <text x="662" y="176" text-anchor="middle" font-size="14" fill="#111111">routines</text>
+  <rect x="755" y="110" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="848" y="156" text-anchor="middle" font-size="14" fill="#111111">tax and</text>
+  <text x="848" y="176" text-anchor="middle" font-size="14" fill="#111111">benefit engines</text>
+  <rect x="60" y="210" width="140" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="130" y="256" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Classical</text>
+  <text x="130" y="276" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">ML</text>
+  <rect x="200" y="210" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="292" y="256" text-anchor="middle" font-size="14" fill="#111111">hand-crafted face</text>
+  <text x="292" y="276" text-anchor="middle" font-size="14" fill="#111111">detection</text>
+  <rect x="385" y="210" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="478" y="256" text-anchor="middle" font-size="14" fill="#111111">naive Bayes</text>
+  <text x="478" y="276" text-anchor="middle" font-size="14" fill="#111111">spam filters</text>
+  <rect x="570" y="210" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="662" y="256" text-anchor="middle" font-size="14" fill="#111111">classic route</text>
+  <text x="662" y="276" text-anchor="middle" font-size="14" fill="#111111">planners*</text>
+  <rect x="755" y="210" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="848" y="256" text-anchor="middle" font-size="14" fill="#111111">credit and</text>
+  <text x="848" y="276" text-anchor="middle" font-size="14" fill="#111111">churn models</text>
+  <rect x="60" y="310" width="140" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="130" y="356" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Deep</text>
+  <text x="130" y="376" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">learning</text>
+  <rect x="200" y="310" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="292" y="356" text-anchor="middle" font-size="14" fill="#111111">face unlock</text>
+  <text x="292" y="376" text-anchor="middle" font-size="14" fill="#111111">scan reading</text>
+  <rect x="385" y="310" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="478" y="356" text-anchor="middle" font-size="14" fill="#111111">translation</text>
+  <text x="478" y="376" text-anchor="middle" font-size="14" fill="#111111">chatbots</text>
+  <rect x="570" y="310" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="662" y="356" text-anchor="middle" font-size="14" fill="#111111">robot</text>
+  <text x="662" y="376" text-anchor="middle" font-size="14" fill="#111111">grasping</text>
+  <rect x="755" y="310" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="848" y="356" text-anchor="middle" font-size="14" fill="#111111">fraud on</text>
+  <text x="848" y="376" text-anchor="middle" font-size="14" fill="#111111">rich histories</text>
+  <rect x="60" y="410" width="140" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="130" y="456" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Reinforcement</text>
+  <text x="130" y="476" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">learning</text>
+  <rect x="200" y="410" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="292" y="456" text-anchor="middle" font-size="14" fill="#111111">active camera</text>
+  <text x="292" y="476" text-anchor="middle" font-size="14" fill="#111111">control</text>
+  <rect x="385" y="410" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="478" y="456" text-anchor="middle" font-size="14" fill="#111111">tuning chatbots</text>
+  <text x="478" y="476" text-anchor="middle" font-size="14" fill="#111111">to preferences</text>
+  <rect x="570" y="410" width="185" height="100" fill="#F2F2F2" stroke="#333333" stroke-width="1"/>
+  <text x="662" y="456" text-anchor="middle" font-size="14" fill="#111111">robot</text>
+  <text x="662" y="476" text-anchor="middle" font-size="14" fill="#111111">locomotion</text>
+  <rect x="755" y="410" width="185" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="848" y="456" text-anchor="middle" font-size="14" fill="#111111">pricing and</text>
+  <text x="848" y="476" text-anchor="middle" font-size="14" fill="#111111">bidding</text>
+  <text x="480" y="540" text-anchor="middle" font-size="15" fill="#111111">Technique says how a system was built; task says what it does. Neither predicts the other.</text>
+  <text x="480" y="578" text-anchor="middle" font-size="13" fill="#333333">Typical examples; * classic route planners use search rather than learning, and many cells mix methods.</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Everyday AI along one customer journey</title>
+  <desc>Five boxes in a row show stages of an online shopping journey: search and discovery with ranking and recommendations; product page with personalised offers and dynamic price; checkout with fraud screening; delivery with route and arrival-time prediction; and support with a chatbot and human handoff. Beneath them a single bar lists shared outcome measures: complaints, repeat contacts, declined good orders, returns and repeat purchases.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Several AI systems, one customer</text>
+  <rect x="40" y="110" width="160" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="120" y="150.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">Discover</text>
+  <text x="120" y="170.25" text-anchor="middle" font-size="15" fill="#000000">search ranking,</text>
+  <text x="120" y="190.25" text-anchor="middle" font-size="15" fill="#000000">recommendations</text>
+  <line x1="202" y1="165" x2="218" y2="165" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="220" y="110" width="160" height="110" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="300" y="150.25" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Decide</text>
+  <text x="300" y="170.25" text-anchor="middle" font-size="15" fill="#111111">personalised offers,</text>
+  <text x="300" y="190.25" text-anchor="middle" font-size="15" fill="#111111">dynamic price</text>
+  <line x1="382" y1="165" x2="398" y2="165" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="400" y="110" width="160" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="150.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">Pay</text>
+  <text x="480" y="170.25" text-anchor="middle" font-size="15" fill="#000000">fraud screening,</text>
+  <text x="480" y="190.25" text-anchor="middle" font-size="15" fill="#000000">authentication</text>
+  <line x1="562" y1="165" x2="578" y2="165" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="580" y="110" width="160" height="110" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="660" y="150.25" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Receive</text>
+  <text x="660" y="170.25" text-anchor="middle" font-size="15" fill="#111111">route and arrival</text>
+  <text x="660" y="190.25" text-anchor="middle" font-size="15" fill="#111111">prediction</text>
+  <line x1="742" y1="165" x2="758" y2="165" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="760" y="110" width="160" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="840" y="150.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">Get help</text>
+  <text x="840" y="170.25" text-anchor="middle" font-size="15" fill="#000000">chatbot, then</text>
+  <text x="840" y="190.25" text-anchor="middle" font-size="15" fill="#000000">human handoff</text>
+  <line x1="120" y1="220" x2="120" y2="300" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+  <line x1="300" y1="220" x2="300" y2="300" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+  <line x1="480" y1="220" x2="480" y2="300" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+  <line x1="660" y1="220" x2="660" y2="300" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+  <line x1="840" y1="220" x2="840" y2="300" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+  <rect x="40" y="300" width="880" height="90" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="480" y="340.1" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Shared customer-outcome measures</text>
+  <text x="480" y="361.1" text-anchor="middle" font-size="16" fill="#000000">complaints · repeat contacts · declined good orders · returns · repeat purchases</text>
+  <text x="480" y="430" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Each system has its own metric; the customer experiences them together.</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Schematic; based on the illustrative retailer case study.</text>
+</svg>

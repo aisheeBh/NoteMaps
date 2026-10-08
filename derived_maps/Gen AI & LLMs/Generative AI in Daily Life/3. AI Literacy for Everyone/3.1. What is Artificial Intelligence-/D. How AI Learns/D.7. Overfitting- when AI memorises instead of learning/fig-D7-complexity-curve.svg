@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Training and new-data error as model flexibility increases</title>
+  <desc>As a model becomes more flexible, error on training data keeps falling. Error on new data falls at first, reaches a minimum and then rises. The region left of the minimum is underfitting; the region right of it is overfitting.</desc>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">More flexibility always helps on training data, not on new data</text>
+  <rect x="120" y="90" width="377" height="330" fill="#F2F2F2"/>
+  <line x1="120" y1="80" x2="120" y2="420" stroke="#222222" stroke-width="2"/>
+  <line x1="120" y1="420" x2="880" y2="420" stroke="#222222" stroke-width="2"/>
+  <text x="60" y="255" font-size="16" fill="#111111" text-anchor="middle" transform="rotate(-90 60 255)">Error</text>
+  <text x="490" y="455" font-size="16" fill="#111111" text-anchor="middle">Model flexibility (more parameters, more features, longer training)</text>
+  <polyline points="120.0,123.0 127.4,131.8 134.8,140.4 142.2,148.7 149.6,156.7 157.0,164.5 164.4,172.0 171.8,179.3 179.2,186.4 186.6,193.2 194.0,199.8 201.4,206.2 208.8,212.4 216.2,218.5 223.6,224.3 231.0,229.9 238.4,235.4 245.8,240.7 253.2,245.8 260.6,250.8 268.0,255.6 275.4,260.3 282.8,264.8 290.2,269.1 297.6,273.4 305.0,277.5 312.4,281.4 319.8,285.3 327.2,289.0 334.6,292.6 342.0,296.1 349.4,299.5 356.8,302.8 364.2,305.9 371.6,309.0 379.0,312.0 386.4,314.9 393.8,317.7 401.2,320.4 408.6,323.0 416.0,325.5 423.4,328.0 430.8,330.3 438.2,332.6 445.6,334.9 453.0,337.0 460.4,339.1 467.8,341.2 475.2,343.1 482.6,345.0 490.0,346.9 497.4,348.7 504.8,350.4 512.2,352.1 519.6,353.7 527.0,355.2 534.4,356.8 541.8,358.2 549.2,359.7 556.6,361.0 564.0,362.4 571.4,363.7 578.8,364.9 586.2,366.1 593.6,367.3 601.0,368.5 608.4,369.6 615.8,370.6 623.2,371.7 630.6,372.7 638.0,373.6 645.4,374.6 652.8,375.5 660.2,376.4 667.6,377.2 675.0,378.1 682.4,378.9 689.8,379.6 697.2,380.4 704.6,381.1 712.0,381.8 719.4,382.5 726.8,383.2 734.2,383.8 741.6,384.4 749.0,385.0 756.4,385.6 763.8,386.2 771.2,386.7 778.6,387.2 786.0,387.8 793.4,388.3 800.8,388.7 808.2,389.2 815.6,389.6 823.0,390.1 830.4,390.5 837.8,390.9 845.2,391.3 852.6,391.7 860.0,392.1" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <polyline points="120.0,103.2 127.4,112.0 134.8,120.6 142.2,128.8 149.6,136.7 157.0,144.4 164.4,151.8 171.8,159.0 179.2,165.9 186.6,172.5 194.0,178.9 201.4,185.0 208.8,190.9 216.2,196.6 223.6,202.1 231.0,207.3 238.4,212.4 245.8,217.2 253.2,221.8 260.6,226.3 268.0,230.5 275.4,234.6 282.8,238.5 290.2,242.2 297.6,245.7 305.0,249.1 312.4,252.3 319.8,255.3 327.2,258.2 334.6,260.9 342.0,263.5 349.4,265.9 356.8,268.2 364.2,270.3 371.6,272.3 379.0,274.2 386.4,275.9 393.8,277.5 401.2,279.0 408.6,280.3 416.0,281.5 423.4,282.6 430.8,283.6 438.2,284.5 445.6,285.3 453.0,285.9 460.4,286.5 467.8,286.9 475.2,287.2 482.6,287.4 490.0,287.6 497.4,287.6 504.8,287.5 512.2,287.3 519.6,287.1 527.0,286.7 534.4,286.3 541.8,285.7 549.2,285.1 556.6,284.4 564.0,283.6 571.4,282.7 578.8,281.7 586.2,280.7 593.6,279.5 601.0,278.3 608.4,277.0 615.8,275.6 623.2,274.2 630.6,272.6 638.0,271.0 645.4,269.3 652.8,267.6 660.2,265.8 667.6,263.8 675.0,261.9 682.4,259.8 689.8,257.7 697.2,255.5 704.6,253.3 712.0,250.9 719.4,248.5 726.8,246.1 734.2,243.5 741.6,240.9 749.0,238.3 756.4,235.6 763.8,232.8 771.2,229.9 778.6,227.0 786.0,224.0 793.4,221.0 800.8,217.8 808.2,214.7 815.6,211.4 823.0,208.2 830.4,204.8 837.8,201.4 845.2,197.9 852.6,194.4 860.0,190.8" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <line x1="497" y1="90" x2="497" y2="420" stroke="#333333" stroke-width="2" stroke-dasharray="2 4"/>
+  <rect x="422" y="304" width="150" height="46" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="497" y="324" font-size="15" fill="#111111" text-anchor="middle">Best balance:</text>
+  <text x="497" y="343" font-size="15" fill="#111111" text-anchor="middle">lowest new-data error</text>
+  <rect x="150" y="100" width="200" height="30" fill="#FFFFFF"/>
+  <text x="250" y="121" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">Underfitting</text>
+  <text x="679" y="121" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">Overfitting</text>
+  <rect x="700" y="197" width="170" height="26" fill="#FFFFFF"/>
+  <text x="710" y="216" font-size="16" fill="#111111">Error on new data</text>
+  <text x="700" y="411" font-size="16" fill="#111111">Error on training data</text>
+  <text x="679" y="321" font-size="15" fill="#111111" text-anchor="middle">widening gap = memorising</text>
+  <text x="480" y="540" font-size="13" fill="#333333" text-anchor="middle">Schematic; the classical picture. Very large modern networks can show a second fall in new-data error.</text>
+</svg>

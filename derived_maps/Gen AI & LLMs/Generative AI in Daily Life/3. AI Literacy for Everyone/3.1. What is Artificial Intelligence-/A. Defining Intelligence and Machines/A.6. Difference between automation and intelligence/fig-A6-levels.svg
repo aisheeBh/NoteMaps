@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Ten levels of automation</title>
+  <desc>Ten horizontal bars of increasing length. Level 1: the human does everything. Level 2: the computer offers a full set of options. Level 3: it narrows the options. Level 4: it suggests one. Level 5: it acts if the human approves. Level 6: it acts unless vetoed in time. Level 7: it acts and then informs. Level 8: it informs only if asked. Level 9: it informs only if it decides to. Level 10: it acts autonomously, ignoring the human.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Sheridan and Verplank's scale (1978), simplified</text>
+  <rect x="90" y="70" width="60" height="38" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="70" y="95" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">1</text>
+  <rect x="158" y="76" width="330" height="26" fill="#FFFFFF"/>
+  <text x="162" y="95" text-anchor="start" font-size="15" fill="#111111">Human does everything</text>
+  <rect x="90" y="122" width="105" height="38" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="70" y="147" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">2</text>
+  <rect x="203" y="128" width="330" height="26" fill="#FFFFFF"/>
+  <text x="207" y="147" text-anchor="start" font-size="15" fill="#111111">Computer offers all options</text>
+  <rect x="90" y="174" width="150" height="38" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="70" y="199" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">3</text>
+  <rect x="248" y="180" width="330" height="26" fill="#FFFFFF"/>
+  <text x="252" y="199" text-anchor="start" font-size="15" fill="#111111">Computer narrows the options</text>
+  <rect x="90" y="226" width="195" height="38" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="70" y="251" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">4</text>
+  <rect x="293" y="232" width="330" height="26" fill="#FFFFFF"/>
+  <text x="297" y="251" text-anchor="start" font-size="15" fill="#111111">Computer suggests one option</text>
+  <rect x="90" y="278" width="240" height="38" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="70" y="303" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">5</text>
+  <rect x="338" y="284" width="330" height="26" fill="#FFFFFF"/>
+  <text x="342" y="303" text-anchor="start" font-size="15" fill="#111111">Computer acts if human approves</text>
+  <rect x="90" y="330" width="285" height="38" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="70" y="355" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">6</text>
+  <rect x="383" y="336" width="330" height="26" fill="#FFFFFF"/>
+  <text x="387" y="355" text-anchor="start" font-size="15" fill="#111111">Computer acts unless vetoed in time</text>
+  <rect x="90" y="382" width="330" height="38" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="70" y="407" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">7</text>
+  <rect x="428" y="388" width="330" height="26" fill="#FFFFFF"/>
+  <text x="432" y="407" text-anchor="start" font-size="15" fill="#111111">Computer acts, then informs the human</text>
+  <rect x="90" y="434" width="375" height="38" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="70" y="459" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">8</text>
+  <rect x="473" y="440" width="330" height="26" fill="#FFFFFF"/>
+  <text x="477" y="459" text-anchor="start" font-size="15" fill="#111111">Computer informs only if asked</text>
+  <rect x="90" y="486" width="420" height="38" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="70" y="511" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">9</text>
+  <rect x="518" y="492" width="330" height="26" fill="#FFFFFF"/>
+  <text x="522" y="511" text-anchor="start" font-size="15" fill="#111111">Computer informs only if it decides to</text>
+  <rect x="90" y="538" width="465" height="38" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="70" y="563" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">10</text>
+  <rect x="563" y="544" width="330" height="26" fill="#FFFFFF"/>
+  <text x="567" y="563" text-anchor="start" font-size="15" fill="#111111">Computer acts alone, ignoring the human</text>
+  <text x="70" y="62" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">Level</text>
+  <rect x="640" y="82" width="290" height="62" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="785.0" y="108.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Levels 1 to 4</text>
+  <text x="785.0" y="127.4" text-anchor="middle" font-size="14" fill="#111111">human decides</text>
+  <rect x="640" y="160" width="290" height="62" rx="6" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="785.0" y="186.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Levels 5 to 7</text>
+  <text x="785.0" y="205.4" text-anchor="middle" font-size="14" fill="#111111">shared control</text>
+  <rect x="640" y="238" width="290" height="62" rx="6" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="785.0" y="264.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Levels 8 to 10</text>
+  <text x="785.0" y="283.4" text-anchor="middle" font-size="14" fill="#111111">machine decides</text>
+  <text x="480" y="625" text-anchor="middle" font-size="13" fill="#333333">Wording simplified from the original scale; bar length shows the growing share of control held by the machine.</text>
+</svg>

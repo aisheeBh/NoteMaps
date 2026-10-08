@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Parameters in GPT models, 2018 to 2020, on a logarithmic scale</title>
+  <desc>Bars on a logarithmic scale where each gridline is ten times the one below. GPT-1 in 2018 had about 117 million parameters, GPT-2 in 2019 had 1.5 billion and GPT-3 in 2020 had 175 billion, about 1,500 times GPT-1. GPT-4 in 2023 is labelled size not disclosed, with no bar.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">About 1,500 times larger in two years</text>
+  <text x="480" y="62" text-anchor="middle" font-size="15" fill="#111111">Each gridline is ten times the one below</text>
+
+  <line x1="160" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2.5"/>
+  <line x1="160" y1="440" x2="160" y2="90" stroke="#222222" stroke-width="2.5"/>
+  <g stroke="#CCCCCC" stroke-width="1" stroke-dasharray="3 4">
+    <line x1="160" y1="355" x2="880" y2="355"/><line x1="160" y1="270" x2="880" y2="270"/>
+    <line x1="160" y1="185" x2="880" y2="185"/><line x1="160" y1="100" x2="880" y2="100"/>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="150" y="444">100 million</text><text x="150" y="359">1 billion</text><text x="150" y="274">10 billion</text>
+    <text x="150" y="189">100 billion</text><text x="150" y="104">1 trillion</text>
+  </g>
+  <text x="40" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 40 270)">Parameters</text>
+
+  <rect x="220" y="434.2" width="110" height="5.8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="390" y="340" width="110" height="100" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="560" y="164.3" width="110" height="275.7" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+
+  <g font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="275" y="420">117 million</text>
+    <text x="445" y="328">1.5 billion</text>
+    <text x="615" y="152">175 billion</text>
+  </g>
+  <rect x="730" y="396" width="110" height="40" fill="#FFFFFF" stroke="#555555" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="785" y="412" text-anchor="middle" font-size="14" fill="#111111">size not</text>
+  <text x="785" y="429" text-anchor="middle" font-size="14" fill="#111111">disclosed</text>
+
+  <g font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="275" y="466">GPT-1</text><text x="445" y="466">GPT-2</text><text x="615" y="466">GPT-3</text><text x="785" y="466">GPT-4</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="275" y="486">2018</text><text x="445" y="486">2019</text><text x="615" y="486">2020</text><text x="785" y="486">2023</text>
+  </g>
+
+  <text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Parameter counts as published by OpenAI; OpenAI has not published GPT-4's size.</text>
+</svg>

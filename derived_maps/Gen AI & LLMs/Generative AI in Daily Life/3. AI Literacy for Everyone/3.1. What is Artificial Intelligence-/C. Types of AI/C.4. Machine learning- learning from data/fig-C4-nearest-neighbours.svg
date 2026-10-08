@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three nearest neighbours of a new customer</title>
+  <desc>Scatter plot of eight past customers by monthly usage hours and support tickets. Cancelled customers are triangles, customers who stayed are circles. The new customer at 6 hours and 3 tickets is a star; its three nearest neighbours, H, C and F, are joined to it by lines and enclosed in a circle. Two of the three cancelled, so the prediction is cancel.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker></defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Predicting from the most similar past customers (k = 3)</text>
+  <line x1="120" y1="450" x2="120" y2="100" stroke="#E0E0E0"/>
+  <text x="120" y="472" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <line x1="200" y1="450" x2="200" y2="100" stroke="#E0E0E0"/>
+  <text x="200" y="472" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <line x1="280" y1="450" x2="280" y2="100" stroke="#E0E0E0"/>
+  <text x="280" y="472" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <line x1="360" y1="450" x2="360" y2="100" stroke="#E0E0E0"/>
+  <text x="360" y="472" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <line x1="440" y1="450" x2="440" y2="100" stroke="#E0E0E0"/>
+  <text x="440" y="472" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <line x1="520" y1="450" x2="520" y2="100" stroke="#E0E0E0"/>
+  <text x="520" y="472" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <line x1="600" y1="450" x2="600" y2="100" stroke="#E0E0E0"/>
+  <text x="600" y="472" text-anchor="middle" font-size="14" fill="#111111">12</text>
+  <line x1="120" y1="450" x2="600" y2="450" stroke="#E0E0E0"/>
+  <text x="108" y="455" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <line x1="120" y1="392" x2="600" y2="392" stroke="#E0E0E0"/>
+  <text x="108" y="397" text-anchor="end" font-size="14" fill="#111111">1</text>
+  <line x1="120" y1="333" x2="600" y2="333" stroke="#E0E0E0"/>
+  <text x="108" y="338" text-anchor="end" font-size="14" fill="#111111">2</text>
+  <line x1="120" y1="275" x2="600" y2="275" stroke="#E0E0E0"/>
+  <text x="108" y="280" text-anchor="end" font-size="14" fill="#111111">3</text>
+  <line x1="120" y1="217" x2="600" y2="217" stroke="#E0E0E0"/>
+  <text x="108" y="222" text-anchor="end" font-size="14" fill="#111111">4</text>
+  <line x1="120" y1="158" x2="600" y2="158" stroke="#E0E0E0"/>
+  <text x="108" y="163" text-anchor="end" font-size="14" fill="#111111">5</text>
+  <line x1="120" y1="100" x2="600" y2="100" stroke="#E0E0E0"/>
+  <text x="108" y="105" text-anchor="end" font-size="14" fill="#111111">6</text>
+  <line x1="120" y1="450" x2="620" y2="450" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="360" y="500" text-anchor="middle" font-size="16" fill="#111111">Monthly usage hours</text>
+  <text x="60" y="275" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 275)">Support tickets raised</text>
+  <circle cx="360" cy="275" r="119" fill="none" stroke="#1F3B5C" stroke-width="2" stroke-dasharray="8 5"/>
+  <line x1="360" y1="275" x2="320" y2="217" stroke="#1F3B5C" stroke-width="2.5"/>
+  <line x1="360" y1="275" x2="280" y2="275" stroke="#1F3B5C" stroke-width="2.5"/>
+  <line x1="360" y1="275" x2="440" y2="333" stroke="#1F3B5C" stroke-width="2.5"/>
+  <polygon points="200,204 188,226 212,226" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="214" y="205" font-size="16" font-weight="bold" fill="#111111">A</text>
+  <polygon points="240,145 228,167 252,167" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="254" y="146" font-size="16" font-weight="bold" fill="#111111">B</text>
+  <polygon points="280,262 268,284 292,284" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="294" y="263" font-size="16" font-weight="bold" fill="#111111">C</text>
+  <circle cx="480" cy="392" r="11" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="494" y="380" font-size="16" font-weight="bold" fill="#111111">D</text>
+  <circle cx="560" cy="450" r="11" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="574" y="438" font-size="16" font-weight="bold" fill="#111111">E</text>
+  <circle cx="440" cy="333" r="11" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="454" y="321" font-size="16" font-weight="bold" fill="#111111">F</text>
+  <circle cx="520" cy="275" r="11" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="534" y="263" font-size="16" font-weight="bold" fill="#111111">G</text>
+  <polygon points="320,204 308,226 332,226" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="334" y="205" font-size="16" font-weight="bold" fill="#111111">H</text>
+  <polygon points="360.0,259.0 364.1,269.3 375.2,270.1 366.7,277.2 369.4,287.9 360.0,282.0 350.6,287.9 353.3,277.2 344.8,270.1 355.9,269.3" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="330" y="295" width="60" height="22" fill="#FFFFFF"/>
+  <text x="360" y="312" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">new</text>
+  <rect x="650" y="110" width="280" height="250" fill="#FFFFFF" stroke="#333333"/>
+  <polygon points="675,130 663,152 687,152" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="700" y="148" font-size="15" fill="#111111">cancelled</text>
+  <circle cx="675" cy="180" r="11" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="700" y="186" font-size="15" fill="#111111">stayed</text>
+  <polygon points="675.0,205.0 678.5,213.1 687.4,214.0 680.7,219.9 682.6,228.5 675.0,224.0 667.4,228.5 669.3,219.9 662.6,214.0 671.5,213.1" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text x="700" y="224" font-size="15" fill="#111111">new customer: 6 h, 3 tickets</text>
+  <text x="665" y="266" font-size="15" font-weight="bold" fill="#111111">Nearest three:</text>
+  <text x="665" y="290" font-size="15" fill="#111111">H 1.4, C 2.0, F 2.2</text>
+  <text x="665" y="324" font-size="15" font-weight="bold" fill="#111111">Vote 2 to 1: predict cancel</text>
+  <text x="480" y="546" text-anchor="middle" font-size="13" fill="#333333">Illustrative data for eight customers; real systems use far more examples and rescaled inputs.</text>
+</svg>

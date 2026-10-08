@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Inference in the cloud compared with inference on the device</title>
+  <desc>Left panel: a phone sends a request over the network to a large model in a data centre and receives the answer. Right panel: a small model runs on the phone itself. Beneath each, the main strengths and limits are listed.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Where the trained model runs when it is used</text>
+  <!-- panel frames -->
+  <rect x="30" y="60" width="440" height="510" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <rect x="490" y="60" width="440" height="510" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="250" y="92" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">In the cloud</text>
+  <text x="710" y="92" font-size="20" font-weight="bold" fill="#111111" text-anchor="middle">On the device</text>
+  <!-- cloud panel drawing -->
+  <rect x="60" y="130" width="80" height="140" rx="12" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="100" y="205" font-size="15" fill="#111111" text-anchor="middle">Phone</text>
+  <rect x="300" y="120" width="150" height="160" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="310" y="170" width="130" height="56" fill="#FFFFFF"/>
+  <text x="375" y="193" font-size="15" fill="#111111" text-anchor="middle">Data centre:</text>
+  <text x="375" y="214" font-size="15" fill="#111111" text-anchor="middle">large model</text>
+  <line x1="145" y1="175" x2="292" y2="175" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="295" y1="230" x2="148" y2="230" stroke="#222222" stroke-width="2" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <text x="220" y="165" font-size="14" fill="#111111" text-anchor="middle">request</text>
+  <text x="220" y="252" font-size="14" fill="#111111" text-anchor="middle">answer</text>
+  <!-- device panel drawing -->
+  <rect x="640" y="120" width="140" height="160" rx="16" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="660" y="160" width="100" height="80" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="666" y="186" width="88" height="28" fill="#FFFFFF"/>
+  <text x="710" y="205" font-size="15" fill="#111111" text-anchor="middle">small model</text>
+  <text x="710" y="268" font-size="15" fill="#111111" text-anchor="middle">Phone</text>
+  <!-- lists -->
+  <g font-size="15" fill="#111111">
+    <text x="50" y="320" font-weight="bold">Strengths</text>
+    <text x="50" y="345">+ Largest, most capable models</text>
+    <text x="50" y="368">+ Easy to update centrally</text>
+    <text x="50" y="391">+ Little demand on the user's device</text>
+    <text x="50" y="430" font-weight="bold">Limits</text>
+    <text x="50" y="455">- Needs a network connection</text>
+    <text x="50" y="478">- Network delay added to every answer</text>
+    <text x="50" y="501">- Data leaves the device</text>
+    <text x="50" y="524">- Provider pays for every request</text>
+    <text x="510" y="320" font-weight="bold">Strengths</text>
+    <text x="510" y="345">+ Works offline</text>
+    <text x="510" y="368">+ Fast: no round trip to a server</text>
+    <text x="510" y="391">+ Data can stay on the device</text>
+    <text x="510" y="414">+ No per-request server cost</text>
+    <text x="510" y="453" font-weight="bold">Limits</text>
+    <text x="510" y="478">- Model must be small and compressed</text>
+    <text x="510" y="501">- Uses battery and memory</text>
+    <text x="510" y="524">- Updates must reach every device</text>
+  </g>
+</svg>

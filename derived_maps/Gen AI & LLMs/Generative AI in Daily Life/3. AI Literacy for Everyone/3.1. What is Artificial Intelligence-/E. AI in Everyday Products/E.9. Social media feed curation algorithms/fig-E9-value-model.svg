@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Value model contributions for three posts</title>
+  <desc>Stacked horizontal bars show the contributions to the feed score for three posts using the worked example weights. Wedding photos: like 0.30, comment 0.75, share 0.30, viewing 0.40, minus 0.20 for hide risk, total 1.55. Sourdough video: 0.10, 0.15, 0.60, 1.25, minus 0.40, total 1.70. Political argument: 0.05, 1.20, 0.60, 0.75, minus 1.60, total 1.00. Negative contributions are drawn to the left of zero.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Weighted predictions add up to each post’s score</text>
+  <rect x="400.0" y="110" width="17.0" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="417.0" y="110" width="25.5" height="48" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="442.5" y="110" width="102.0" height="48" fill="url(#dots)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="544.5" y="110" width="212.5" height="48" fill="url(#cross)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="332.0" y="110" width="68.0" height="48" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="776.6" y="124" width="60.8" height="24" fill="#FFFFFF"/>
+  <text x="807" y="141" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">= 1.70</text>
+  <text x="60" y="102" text-anchor="start" font-size="16" fill="#111111" font-weight="bold">Sourdough video</text>
+  <rect x="400.0" y="220" width="51.0" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="451.0" y="220" width="127.5" height="48" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="578.5" y="220" width="51.0" height="48" fill="url(#dots)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="629.5" y="220" width="68.0" height="48" fill="url(#cross)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="366.0" y="220" width="34.0" height="48" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="717.1" y="234" width="60.8" height="24" fill="#FFFFFF"/>
+  <text x="747.5" y="251" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">= 1.55</text>
+  <text x="60" y="212" text-anchor="start" font-size="16" fill="#111111" font-weight="bold">Wedding photos</text>
+  <rect x="400.0" y="330" width="8.5" height="48" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="408.5" y="330" width="204.0" height="48" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="612.5" y="330" width="102.0" height="48" fill="url(#dots)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="714.5" y="330" width="127.5" height="48" fill="url(#cross)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="128.0" y="330" width="272.0" height="48" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="861.6" y="344" width="60.8" height="24" fill="#FFFFFF"/>
+  <text x="892" y="361" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">= 1.00</text>
+  <text x="60" y="322" text-anchor="start" font-size="16" fill="#111111" font-weight="bold">Political argument</text>
+  <line x1="400" y1="90" x2="400" y2="400" stroke="#222222" stroke-width="2.5"/>
+  <text x="400" y="420" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <rect x="60" y="460" width="28" height="20" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="96" y="475" text-anchor="start" font-size="14" fill="#111111">hide or report (negative)</text>
+  <rect x="322" y="460" width="28" height="20" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="358" y="475" text-anchor="start" font-size="14" fill="#111111">like</text>
+  <rect x="416" y="460" width="28" height="20" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="452" y="475" text-anchor="start" font-size="14" fill="#111111">comment</text>
+  <rect x="534" y="460" width="28" height="20" fill="url(#dots)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="570" y="475" text-anchor="start" font-size="14" fill="#111111">share</text>
+  <rect x="636" y="460" width="28" height="20" fill="url(#cross)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="672" y="475" text-anchor="start" font-size="14" fill="#111111">viewing time</text>
+  <text x="480" y="520" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Raising the weight on comments would push the political argument to the top.</text>
+  <text x="480" y="560" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures from the worked example; real value models combine many more predictions.</text>
+</svg>

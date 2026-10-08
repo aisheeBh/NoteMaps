@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Capability and capacity to feel</title>
+  <desc>A two-dimensional chart. Horizontal axis: capability on intellectual tasks. Vertical axis: capacity to feel, sentience. A thermostat sits low on both. A current AI assistant sits far to the right but at the bottom, with no accepted evidence of feeling. A dog sits in the middle horizontally and high vertically. An adult human sits high on both.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Two separate questions: how capable, and can it feel?</text>
+  <line x1="140" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="440" x2="140" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510.0" y="474" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Capability on intellectual tasks</text>
+  <text x="96" y="265.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 96 265.0)">Capacity to feel (sentience)</text>
+  <circle cx="200" cy="410" r="9" fill="#111111"/>
+  <circle cx="720" cy="400" r="9" fill="#111111"/>
+  <circle cx="430" cy="170" r="9" fill="#111111"/>
+  <circle cx="760" cy="130" r="9" fill="#111111"/>
+  <rect x="214" y="332" width="240" height="62" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="334.0" y="358.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Thermostat</text>
+  <text x="334.0" y="377.4" text-anchor="middle" font-size="14" fill="#111111">low on both</text>
+  <rect x="490" y="316" width="240" height="62" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="610.0" y="342.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Current AI assistant</text>
+  <text x="610.0" y="361.4" text-anchor="middle" font-size="14" fill="#FFFFFF">no accepted evidence of feeling</text>
+  <rect x="310" y="188" width="240" height="62" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="318" y="196" width="224" height="46" fill="#FFFFFF"/>
+  <text x="430.0" y="214.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Dog</text>
+  <text x="430.0" y="233.4" text-anchor="middle" font-size="14" fill="#111111">widely judged sentient</text>
+  <rect x="640" y="148" width="240" height="62" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="648" y="156" width="224" height="46" fill="#FFFFFF"/>
+  <text x="760.0" y="174.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Adult human</text>
+  <text x="760.0" y="193.4" text-anchor="middle" font-size="14" fill="#111111">high on both</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Placements reflect mainstream scientific views; the capacity to feel of any AI system is judged absent on current evidence.</text>
+</svg>

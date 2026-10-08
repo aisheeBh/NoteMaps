@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Interpreting an ambiguous touch</title>
+  <desc>The top row of a keyboard is shown with the letters Q to P. A touch lands on the border between W and E after the person has typed th. The touch position alone gives W 55 per cent and E 45 per cent. The language model says that after th the letter e is far more likely than w. Combining the two, E wins, and its invisible touch area has been enlarged.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Where the finger landed plus which letter is likely</text>
+  <rect x="80" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="118" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">Q</text>
+  <rect x="160" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="198" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">W</text>
+  <rect x="240" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="278" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">E</text>
+  <rect x="320" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="358" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">R</text>
+  <rect x="400" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="438" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">T</text>
+  <rect x="480" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="518" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">Y</text>
+  <rect x="560" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="598" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">U</text>
+  <rect x="640" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="678" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">I</text>
+  <rect x="720" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="758" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">O</text>
+  <rect x="800" y="112" width="76" height="84" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="838" y="166" text-anchor="middle" font-size="24" fill="#111111" font-weight="bold">P</text>
+  <rect x="218" y="102" width="110" height="104" rx="10" fill="none" stroke="#1E5E24" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="197.15" y="79" width="169.7" height="22" fill="#FFFFFF"/>
+  <text x="282" y="94" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">E touch area enlarged</text>
+  <circle cx="236" cy="160" r="16" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5"/>
+  <line x1="176" y1="270" x2="228" y2="178" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="71.9" y="275" width="208.2" height="22" fill="#FFFFFF"/>
+  <text x="176" y="290" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">finger lands on the border</text>
+  <text x="80" y="70" text-anchor="start" font-size="16" fill="#111111" font-weight="bold">Already typed: "th"</text>
+  <rect x="80" y="330" width="250" height="50" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="205" y="360.6" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Touch position alone</text>
+  <rect x="80" y="384" width="250" height="86" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="205" y="418" text-anchor="middle" font-size="18" fill="#111111">W 0.55</text>
+  <text x="205" y="452" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">E 0.45</text>
+  <text x="345" y="430" text-anchor="middle" font-size="26" fill="#111111" font-weight="bold">×</text>
+  <rect x="360" y="330" width="250" height="50" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="485" y="360.6" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Language model after "th"</text>
+  <rect x="360" y="384" width="250" height="86" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="485" y="418" text-anchor="middle" font-size="18" fill="#111111">w 0.01</text>
+  <text x="485" y="452" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">e 0.60</text>
+  <text x="625" y="430" text-anchor="middle" font-size="26" fill="#111111" font-weight="bold">=</text>
+  <rect x="640" y="330" width="250" height="50" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="765" y="360.6" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Combined decision</text>
+  <rect x="640" y="384" width="250" height="86" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="765" y="418" text-anchor="middle" font-size="18" fill="#111111">W 0.55 × 0.01 = 0.0055</text>
+  <text x="765" y="452" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">E 0.45 × 0.60 = 0.27</text>
+  <text x="480" y="500" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">E is entered: the product of the two pieces of evidence decides</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures; real keyboards combine many more signals.</text>
+</svg>

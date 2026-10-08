@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Performance against amount of data</title>
+  <desc>Schematic chart. With little data, traditional methods and neural networks perform similarly. As data grows, traditional methods level off, a small neural network improves a little more, and a large neural network keeps improving the longest.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">With more data, larger networks keep improving</text>
+
+  <line x1="120" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="440" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="476" text-anchor="middle" font-size="16" fill="#111111">Amount of training data</text>
+  <text x="70" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 70 260)">Performance</text>
+
+  <path d="M130 400 C 250 320, 330 290, 860 285" fill="none" stroke="#8B0000" stroke-width="4" stroke-dasharray="2 5" stroke-linecap="round"/>
+  <path d="M130 405 C 300 330, 450 240, 860 225" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <path d="M130 410 C 350 360, 550 200, 860 95" fill="none" stroke="#1F3B5C" stroke-width="4.5"/>
+
+  <rect x="640" y="296" width="220" height="26" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="750" y="314" text-anchor="middle" font-size="15" fill="#111111">traditional methods</text>
+  <rect x="640" y="236" width="220" height="26" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="750" y="254" text-anchor="middle" font-size="15" fill="#111111">small neural network</text>
+  <rect x="560" y="96" width="200" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="660" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">large neural network</text>
+
+  <rect x="140" y="140" width="250" height="62" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="265" y="163" text-anchor="middle" font-size="14" fill="#111111">with little data, methods</text>
+  <text x="265" y="183" text-anchor="middle" font-size="14" fill="#111111">perform about the same</text>
+  <line x1="200" y1="202" x2="170" y2="380" stroke="#222222" stroke-width="1.5"/>
+
+  <text x="480" y="510" text-anchor="middle" font-size="15" fill="#111111">The pattern helped persuade companies with large datasets to invest in deep learning.</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. Small tabular datasets often do not follow this pattern.</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The Chinese Room</title>
+  <desc>A closed room. Chinese questions are passed in through a slot on the left. Inside, a person who knows no Chinese follows a rule book that says which symbols to write in response. Fluent Chinese answers are passed out through a slot on the right. Observers outside conclude the room understands Chinese; the person inside understands nothing.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Searle's Chinese Room (1980)</text>
+  <rect x="240" y="90" width="480" height="360" rx="6" fill="#F2F2F2" stroke="#222222" stroke-width="3"/>
+  <text x="480" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Inside the room</text>
+  <rect x="290" y="150" width="180" height="120" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="380.0" y="195.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Person</text>
+  <text x="380.0" y="215.2" text-anchor="middle" font-size="15" fill="#FFFFFF">knows no</text>
+  <text x="380.0" y="235.2" text-anchor="middle" font-size="15" fill="#FFFFFF">Chinese</text>
+  <rect x="500" y="150" width="180" height="120" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="508" y="158" width="164" height="104" fill="#FFFFFF"/>
+  <text x="590.0" y="195.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Rule book</text>
+  <text x="590.0" y="215.2" text-anchor="middle" font-size="15" fill="#111111">if these symbols,</text>
+  <text x="590.0" y="235.2" text-anchor="middle" font-size="15" fill="#111111">write those</text>
+  <rect x="330" y="320" width="300" height="90" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480.0" y="350.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Symbols are matched</text>
+  <text x="480.0" y="369.9" text-anchor="middle" font-size="14" fill="#111111">and copied by rule —</text>
+  <text x="480.0" y="388.9" text-anchor="middle" font-size="14" fill="#111111">no meaning involved</text>
+  <line x1="470" y1="210" x2="498" y2="210" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="30" y="210" width="180" height="90" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="38" y="218" width="164" height="74" fill="#FFFFFF"/>
+  <text x="120.0" y="250.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Questions</text>
+  <text x="120.0" y="270.2" text-anchor="middle" font-size="15" fill="#111111">in Chinese</text>
+  <line x1="212" y1="255" x2="288" y2="230" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="750" y="210" width="180" height="90" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="758" y="218" width="164" height="74" fill="#FFFFFF"/>
+  <text x="840.0" y="250.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Fluent answers</text>
+  <text x="840.0" y="270.2" text-anchor="middle" font-size="15" fill="#111111">in Chinese</text>
+  <line x1="632" y1="365" x2="748" y2="270" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="240" y="470" width="480" height="52" rx="6" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="480.0" y="501.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Outside: it understands Chinese. Inside: no one does.</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Error falls as training data grows, with diminishing returns</title>
+  <desc>Schematic curves of error rate against amount of training data on a logarithmic scale. A larger model keeps improving as data grows; a small model levels off.</desc>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">More data lowers error, but each tenfold step buys less</text>
+  <!-- axes -->
+  <line x1="120" y1="80" x2="120" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="120" y1="440" x2="890" y2="440" stroke="#222222" stroke-width="2"/>
+  <text x="60" y="260" font-size="16" fill="#111111" text-anchor="middle" transform="rotate(-90 60 260)">Error on new examples</text>
+  <text x="96" y="104" font-size="14" fill="#111111" text-anchor="end">high</text>
+  <text x="96" y="436" font-size="14" fill="#111111" text-anchor="end">low</text>
+  <!-- x ticks -->
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <line x1="120" y1="440" x2="120" y2="448" stroke="#222222"/><text x="120" y="468">1 thousand</text>
+    <line x1="310" y1="440" x2="310" y2="448" stroke="#222222"/><text x="310" y="468">10 thousand</text>
+    <line x1="500" y1="440" x2="500" y2="448" stroke="#222222"/><text x="500" y="468">100 thousand</text>
+    <line x1="690" y1="440" x2="690" y2="448" stroke="#222222"/><text x="690" y="468">1 million</text>
+    <line x1="880" y1="440" x2="880" y2="448" stroke="#222222"/><text x="866" y="468">10 million</text>
+  </g>
+  <text x="500" y="500" font-size="16" fill="#111111" text-anchor="middle">Number of training examples (each step is ten times more)</text>
+  <!-- curves -->
+  <path d="M120 120 C 300 220, 600 330, 880 372" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M120 132 C 280 250, 450 310, 880 318" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <!-- labels -->
+  <rect x="650" y="276" width="220" height="26" fill="#FFFFFF"/>
+  <text x="760" y="295" font-size="16" fill="#111111" text-anchor="middle">Small model: levels off</text>
+  <rect x="520" y="392" width="330" height="26" fill="#FFFFFF"/>
+  <text x="685" y="411" font-size="16" fill="#111111" text-anchor="middle">Larger model: keeps improving</text>
+  <!-- annotation -->
+  <rect x="150" y="300" width="300" height="70" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="300" y="326" font-size="15" fill="#111111" text-anchor="middle">Early data: large gains</text>
+  <text x="300" y="350" font-size="15" fill="#111111" text-anchor="middle">Later data: smaller gains</text>
+  <text x="480" y="540" font-size="13" fill="#333333" text-anchor="middle">Schematic; not plotted from a single dataset. Shapes follow the pattern reported in data-scaling studies.</text>
+</svg>

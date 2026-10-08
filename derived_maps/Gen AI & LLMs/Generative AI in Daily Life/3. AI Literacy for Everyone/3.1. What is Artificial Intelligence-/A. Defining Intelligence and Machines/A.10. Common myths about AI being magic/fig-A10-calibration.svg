@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Calibrated trust</title>
+  <desc>A horizontal spectrum. At the left, underestimation: it is just a trick, refuse useful tools, miss real risks. At the right, overestimation: it is magic, blind trust, missed errors. In the centre, calibrated trust: trust in proportion to evidence about this system on this task.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Between magic and dismissal: calibrated trust</text>
+  <line x1="80" y1="240" x2="880" y2="240" stroke="#222222" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <rect x="60" y="90" width="250" height="120" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="68" y="98" width="234" height="104" fill="#FFFFFF"/>
+  <text x="185.0" y="126.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">“It is just a trick”</text>
+  <text x="185.0" y="145.4" text-anchor="middle" font-size="14" fill="#111111">underestimation:</text>
+  <text x="185.0" y="164.4" text-anchor="middle" font-size="14" fill="#111111">refuse useful tools,</text>
+  <text x="185.0" y="183.4" text-anchor="middle" font-size="14" fill="#111111">miss real risks</text>
+  <rect x="650" y="90" width="250" height="120" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="658" y="98" width="234" height="104" fill="#FFFFFF"/>
+  <text x="775.0" y="126.4" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">“It is magic”</text>
+  <text x="775.0" y="145.4" text-anchor="middle" font-size="14" fill="#111111">overestimation:</text>
+  <text x="775.0" y="164.4" text-anchor="middle" font-size="14" fill="#111111">blind trust,</text>
+  <text x="775.0" y="183.4" text-anchor="middle" font-size="14" fill="#111111">missed errors</text>
+  <rect x="345" y="270" width="270" height="140" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="353" y="278" width="254" height="124" fill="#FFFFFF"/>
+  <text x="480.0" y="315.2" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Calibrated trust</text>
+  <text x="480.0" y="335.2" text-anchor="middle" font-size="15" fill="#111111">trust in proportion to</text>
+  <text x="480.0" y="355.2" text-anchor="middle" font-size="15" fill="#111111">evidence about this</text>
+  <text x="480.0" y="375.2" text-anchor="middle" font-size="15" fill="#111111">system on this task</text>
+  <line x1="480" y1="240" x2="480" y2="268" stroke="#222222" stroke-width="2.5"/>
+  <circle cx="480" cy="240" r="10" fill="#1E5E24" stroke="#000000" stroke-width="2"/>
+  <text x="480" y="455" text-anchor="middle" font-size="13" fill="#333333">The right point differs by task: the same tool may deserve high trust for drafting and low trust for citations.</text>
+</svg>
