@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A layered defence against spam</title>
+  <desc>Incoming mail passes through five stages: connection checks, authentication, reputation, content models and personal signals. Each stage removes part of the unwanted mail, so that only a small remainder reaches the final decision of inbox, junk folder, warning or rejection.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Defence in layers: cheap checks first, detailed checks last</text>
+  <rect x="60" y="80" width="640" height="64" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="380" y="107.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">1. Connection checks</text>
+  <text x="380" y="127.25" text-anchor="middle" font-size="15" fill="#000000">blocklisted servers, abnormal volume</text>
+  <line x1="380" y1="144" x2="380" y2="157" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="100" y="158" width="560" height="64" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="380" y="185.25" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">2. Authentication</text>
+  <text x="380" y="205.25" text-anchor="middle" font-size="15" fill="#111111">SPF, DKIM, DMARC: is the sender genuine?</text>
+  <line x1="380" y1="222" x2="380" y2="235" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="140" y="236" width="480" height="64" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="380" y="263.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">3. Reputation</text>
+  <text x="380" y="283.25" text-anchor="middle" font-size="15" fill="#000000">history of sender, domain and links</text>
+  <line x1="380" y1="300" x2="380" y2="313" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="180" y="314" width="400" height="64" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="380" y="341.25" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">4. Content models</text>
+  <text x="380" y="361.25" text-anchor="middle" font-size="15" fill="#111111">words, images, links, attachments</text>
+  <line x1="380" y1="378" x2="380" y2="391" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="220" y="392" width="320" height="64" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="380" y="419.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">5. Personal signals</text>
+  <text x="380" y="439.25" text-anchor="middle" font-size="15" fill="#000000">past contact, the user’s own reports</text>
+  <line x1="380" y1="456" x2="380" y2="469" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="250" y="470" width="260" height="54" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="380" y="492.25" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="bold">Final decision</text>
+  <text x="380" y="512.25" text-anchor="middle" font-size="15" fill="#FFFFFF">inbox, junk, warning or reject</text>
+  <text x="845" y="92" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Removed at each stage</text>
+  <line x1="706" y1="112" x2="748" y2="112" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="756.3" y="102" width="177.4" height="22" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="845" y="117" text-anchor="middle" font-size="14" fill="#111111">most bulk spam refused</text>
+  <line x1="666" y1="190" x2="748" y2="190" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="760.15" y="180" width="169.7" height="22" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="845" y="195" text-anchor="middle" font-size="14" fill="#111111">forged senders caught</text>
+  <line x1="626" y1="268" x2="748" y2="268" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="748.6" y="258" width="192.8" height="22" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="845" y="273" text-anchor="middle" font-size="14" fill="#111111">new and bad domains held</text>
+  <line x1="586" y1="346" x2="748" y2="346" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="740.9" y="336" width="208.2" height="22" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="845" y="351" text-anchor="middle" font-size="14" fill="#111111">remaining campaigns scored</text>
+  <line x1="546" y1="424" x2="748" y2="424" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="756.3" y="414" width="177.4" height="22" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="845" y="429" text-anchor="middle" font-size="14" fill="#111111">individual fine-tuning</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic; the share of mail removed at each stage differs between providers and over time.</text>
+</svg>

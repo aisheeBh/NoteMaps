@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two-dimensional and three-dimensional face sensing</title>
+  <desc>Left: a 2D system uses the ordinary front camera to capture a flat image of the face; a printed photograph produces a similar flat image, so older 2D systems could be fooled. Right: a 3D system projects thousands of infrared dots and reads their distortion to build a depth map; a flat photograph produces an undistorted, flat pattern and is rejected.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Flat image versus depth map</text>
+  <rect x="40" y="66" width="420" height="420" rx="10" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="250" y="96" text-anchor="middle" font-size="19" fill="#111111" font-weight="bold">2D face unlock</text>
+  <text x="250" y="118" text-anchor="middle" font-size="14" fill="#111111">ordinary front camera</text>
+  <rect x="500" y="66" width="420" height="420" rx="10" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="710" y="96" text-anchor="middle" font-size="19" fill="#111111" font-weight="bold">3D face unlock</text>
+  <text x="710" y="118" text-anchor="middle" font-size="14" fill="#111111">infrared dot projector and camera</text>
+  <ellipse cx="150" cy="230" rx="48" ry="60" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <circle cx="132" cy="218" r="4.8" fill="#222222"/>
+  <circle cx="168" cy="218" r="4.8" fill="#222222"/>
+  <path d="M132 254 Q150 266 168 254" fill="none" stroke="#222222" stroke-width="2"/>
+  <text x="150" y="315" text-anchor="middle" font-size="14" fill="#111111">real face</text>
+  <rect x="250" y="168" width="110" height="130" fill="#E6E6E6" stroke="#222222" stroke-width="2"/>
+  <ellipse cx="305" cy="233" rx="35.2" ry="44" fill="#E6E6E6" stroke="#222222" stroke-width="2.5"/>
+  <circle cx="291.8" cy="224.2" r="3.52" fill="#222222"/>
+  <circle cx="318.2" cy="224.2" r="3.52" fill="#222222"/>
+  <path d="M291.8 250.6 Q305 259.4 318.2 250.6" fill="none" stroke="#222222" stroke-width="2"/>
+  <text x="305" y="315" text-anchor="middle" font-size="14" fill="#111111">printed photo</text>
+  <rect x="70" y="340" width="360" height="62" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="250" y="366.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">Both give a flat colour image</text>
+  <text x="250" y="386.25" text-anchor="middle" font-size="15" fill="#000000">similar to the camera</text>
+  <text x="250" y="430" text-anchor="middle" font-size="15" fill="#111111">Weak in the dark; older systems</text>
+  <text x="250" y="450" text-anchor="middle" font-size="15" fill="#111111">could be fooled by a photo</text>
+  <ellipse cx="610" cy="230" rx="48" ry="60" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <circle cx="592" cy="218" r="4.8" fill="#222222"/>
+  <circle cx="628" cy="218" r="4.8" fill="#222222"/>
+  <path d="M592 254 Q610 266 628 254" fill="none" stroke="#222222" stroke-width="2"/>
+  <circle cx="566.4" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="566.4" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="566.4" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="566.4" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="566.4" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="578.8" cy="197.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="578.8" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="578.8" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="578.8" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="578.8" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="578.8" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="578.8" cy="263.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="186.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="197.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="263.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="591.0" cy="274.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="175.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="186.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="197.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="263.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="274.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="602.7" cy="285.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="175.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="186.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="197.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="263.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="274.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="614.0" cy="285.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="175.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="186.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="197.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="263.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="274.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="624.7" cy="285.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="186.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="197.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="263.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="635.0" cy="274.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="644.8" cy="197.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="644.8" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="644.8" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="644.8" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="644.8" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="644.8" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="644.8" cy="263.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="654.4" cy="208.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="654.4" cy="219.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="654.4" cy="230.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="654.4" cy="241.0" r="2.2" fill="#1F3B5C"/>
+  <circle cx="654.4" cy="252.0" r="2.2" fill="#1F3B5C"/>
+  <text x="610" y="315" text-anchor="middle" font-size="14" fill="#111111">dots bend over the face</text>
+  <rect x="730" y="168" width="110" height="130" fill="#E6E6E6" stroke="#222222" stroke-width="2"/>
+  <circle cx="741" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="741" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="752" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="763" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="774" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="785" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="796" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="807" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="818" cy="288" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="178" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="189" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="200" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="211" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="222" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="233" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="244" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="255" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="266" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="277" r="2.2" fill="#1F3B5C"/>
+  <circle cx="829" cy="288" r="2.2" fill="#1F3B5C"/>
+  <text x="785" y="315" text-anchor="middle" font-size="14" fill="#111111">photo: dots stay flat</text>
+  <rect x="530" y="340" width="360" height="62" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="710" y="366.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">Depth map reveals real 3D shape</text>
+  <text x="710" y="386.25" text-anchor="middle" font-size="15" fill="#000000">flat photo rejected</text>
+  <text x="710" y="430" text-anchor="middle" font-size="15" fill="#111111">Works in the dark using infrared;</text>
+  <text x="710" y="450" text-anchor="middle" font-size="15" fill="#111111">masks are very hard to make</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic; real dot projectors use tens of thousands of dots and invisible infrared light.</text>
+</svg>

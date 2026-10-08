@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The recommendation funnel</title>
+  <desc>Four stages narrow an enormous catalogue to one screen. Candidate generation selects hundreds of items from millions; ranking scores them in detail; re-ranking applies diversity, freshness and safety rules; presentation arranges rows, artwork and autoplay.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">From millions of items to one screen in under a second</text>
+  <rect x="150" y="78" width="660" height="66" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="480" y="106.25" text-anchor="middle" font-size="15" fill="#222222" font-weight="bold">Catalogue</text>
+  <text x="480" y="126.25" text-anchor="middle" font-size="15" fill="#222222">millions to billions of items</text>
+  <line x1="480" y1="144" x2="480" y2="164" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="195" y="166" width="570" height="66" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="194.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">1. Candidate generation</text>
+  <text x="480" y="214.25" text-anchor="middle" font-size="15" fill="#000000">fast methods nominate a few hundred</text>
+  <line x1="480" y1="232" x2="480" y2="252" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="240" y="254" width="480" height="66" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480" y="282.25" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">2. Ranking</text>
+  <text x="480" y="302.25" text-anchor="middle" font-size="15" fill="#111111">large model predicts clicks, watch time, likes</text>
+  <line x1="480" y1="320" x2="480" y2="340" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="290" y="342" width="380" height="66" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480" y="370.25" text-anchor="middle" font-size="15" fill="#000000" font-weight="bold">3. Re-ranking</text>
+  <text x="480" y="390.25" text-anchor="middle" font-size="15" fill="#000000">diversity, freshness, rules, safety</text>
+  <line x1="480" y1="408" x2="480" y2="428" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="340" y="430" width="280" height="66" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="458.25" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="bold">4. Presentation</text>
+  <text x="480" y="478.25" text-anchor="middle" font-size="15" fill="#FFFFFF">rows, artwork, autoplay</text>
+  <text x="40" y="112" text-anchor="start" font-size="14" fill="#111111">Many items,</text>
+  <text x="40" y="130" text-anchor="start" font-size="14" fill="#111111">cheap scoring</text>
+  <text x="890" y="470" text-anchor="end" font-size="14" fill="#111111">Few items,</text>
+  <text x="890" y="488" text-anchor="end" font-size="14" fill="#111111">costly scoring</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic; the number of stages and items at each stage varies between services.</text>
+</svg>
