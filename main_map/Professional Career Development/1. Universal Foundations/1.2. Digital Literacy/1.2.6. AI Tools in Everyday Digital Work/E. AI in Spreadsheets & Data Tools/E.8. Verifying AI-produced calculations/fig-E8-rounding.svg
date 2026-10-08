@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Why displayed figures do not always add up to the displayed total</title>
+  <desc>A table of three costs stored as 1,234.40, 2,345.40 and 3,456.40, each displayed rounded to whole pounds as 1,234, 2,345 and 3,456. The displayed figures add to 7,035, but the total cell sums the stored values, 7,036.20, and displays 7,036. A reader adding the visible figures finds a one-pound difference.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Stored values, displayed values and a total that ‘does not add up’</text>
+  <rect x="160" y="90" width="200" height="36" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="260.0" y="114" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Item</text>
+  <rect x="360" y="90" width="200" height="36" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="460.0" y="114" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Stored value</text>
+  <rect x="560" y="90" width="220" height="36" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="670.0" y="114" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Displayed (whole £)</text>
+  <rect x="160" y="126" width="200" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="260.0" y="150" text-anchor="middle" font-size="15" fill="#111111">Venue</text>
+  <rect x="360" y="126" width="200" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="460.0" y="150" text-anchor="middle" font-size="15" fill="#111111">1,234.40</text>
+  <rect x="560" y="126" width="220" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="670.0" y="150" text-anchor="middle" font-size="15" fill="#111111">1,234</text>
+  <rect x="160" y="162" width="200" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="260.0" y="186" text-anchor="middle" font-size="15" fill="#111111">Catering</text>
+  <rect x="360" y="162" width="200" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="460.0" y="186" text-anchor="middle" font-size="15" fill="#111111">2,345.40</text>
+  <rect x="560" y="162" width="220" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="670.0" y="186" text-anchor="middle" font-size="15" fill="#111111">2,345</text>
+  <rect x="160" y="198" width="200" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="260.0" y="222" text-anchor="middle" font-size="15" fill="#111111">Travel</text>
+  <rect x="360" y="198" width="200" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="460.0" y="222" text-anchor="middle" font-size="15" fill="#111111">3,456.40</text>
+  <rect x="560" y="198" width="220" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="670.0" y="222" text-anchor="middle" font-size="15" fill="#111111">3,456</text>
+  <rect x="160" y="234" width="200" height="36" rx="0" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="260.0" y="258" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Total cell</text>
+  <rect x="360" y="234" width="200" height="36" rx="0" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="460.0" y="258" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">7,036.20</text>
+  <rect x="560" y="234" width="220" height="36" rx="0" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="670.0" y="258" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">7,036</text>
+  <rect x="160" y="290" width="300" height="110" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="310" y="341" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Reader adds the display</text>
+  <text x="310" y="361" text-anchor="middle" font-size="15" fill="#000000">1,234 + 2,345 + 3,456 = 7,035</text>
+  <rect x="500" y="290" width="300" height="110" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="650" y="331" text-anchor="middle" font-size="16" fill="#000000" font-weight="bold">Spreadsheet adds stored values</text>
+  <text x="650" y="351" text-anchor="middle" font-size="15" fill="#000000">1,234.40 + 2,345.40 + 3,456.40 =</text>
+  <text x="650" y="371" text-anchor="middle" font-size="15" fill="#000000">7,036.20, shown as 7,036</text>
+  <rect x="160" y="420" width="640" height="60" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="480" y="446" text-anchor="middle" font-size="15" fill="#222222">Fix: round the stored values with ROUND where the rounded figures are what</text>
+  <text x="480" y="466" text-anchor="middle" font-size="15" fill="#222222">count, or state that totals may not add due to rounding.</text>
+  <text x="480.0" y="505" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures.</text>
+</svg>

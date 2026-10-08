@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Places in a workbook where sensitive data can sit unseen</title>
+  <desc>A central box labelled what the sender sees: the visible table. Around it, ten boxes for places data can hide: hidden rows and columns, hidden and very hidden sheets, filtered-out rows, pivot caches, invisible formatting, comments and notes, document properties, version history, external connections, and charts or images with cached data.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">What travels with a spreadsheet besides the visible table</text>
+  <rect x="330" y="230" width="300" height="120" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="277" text-anchor="middle" font-size="18" fill="#FFFFFF" font-weight="bold">What the sender sees</text>
+  <text x="480" y="297" text-anchor="middle" font-size="15" fill="#FFFFFF">the visible table on the active</text>
+  <text x="480" y="317" text-anchor="middle" font-size="15" fill="#FFFFFF">sheet</text>
+  <rect x="40" y="80" width="210" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="145" y="120" text-anchor="middle" font-size="15" fill="#000000">Hidden rows and columns</text>
+  <rect x="260" y="80" width="210" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="365" y="110" text-anchor="middle" font-size="15" fill="#000000">Hidden and very hidden</text>
+  <text x="365" y="130" text-anchor="middle" font-size="15" fill="#000000">sheets</text>
+  <rect x="480" y="80" width="210" height="70" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="585" y="120" text-anchor="middle" font-size="15" fill="#000000">Filtered-out rows</text>
+  <rect x="700" y="80" width="210" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="805" y="120" text-anchor="middle" font-size="15" fill="#000000">Pivot caches</text>
+  <rect x="40" y="255" width="210" height="70" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="145" y="296" text-anchor="middle" font-size="15" fill="#000000">Invisible formatting</text>
+  <rect x="700" y="255" width="210" height="70" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="805" y="296" text-anchor="middle" font-size="15" fill="#000000">Comments and notes</text>
+  <rect x="40" y="430" width="210" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="145" y="470" text-anchor="middle" font-size="15" fill="#222222">Document properties</text>
+  <rect x="260" y="430" width="210" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="365" y="470" text-anchor="middle" font-size="15" fill="#222222">Version history</text>
+  <rect x="480" y="430" width="210" height="70" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="585" y="470" text-anchor="middle" font-size="15" fill="#000000">External connections</text>
+  <rect x="700" y="430" width="210" height="70" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="805" y="470" text-anchor="middle" font-size="15" fill="#222222">Charts and images</text>
+  <text x="480.0" y="560" text-anchor="middle" font-size="13" fill="#333333">Schematic. Inspection tools can find most of these; a values-only copy avoids them.</text>
+</svg>

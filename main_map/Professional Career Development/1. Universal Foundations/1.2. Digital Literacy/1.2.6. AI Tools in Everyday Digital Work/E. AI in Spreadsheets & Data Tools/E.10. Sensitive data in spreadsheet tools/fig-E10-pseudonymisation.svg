@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Pseudonymisation: the working file and the key held apart</title>
+  <desc>Left: an original table with names, employee numbers, department and absence days. Middle arrow labelled replace identifiers with random keys. Right top: the working file with keys K-4821 and K-0937, department and absence days, which can be shared with an approved tool. Right bottom: the key table linking keys to names and numbers, kept by HR under access control.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Pseudonymisation splits one table into two</text>
+  <text x="190" y="96" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Original extract</text>
+  <rect x="30" y="110" width="100" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="80.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Name</text>
+  <rect x="130" y="110" width="80" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="170.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Emp. no.</text>
+  <rect x="210" y="110" width="70" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="245.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Dept</text>
+  <rect x="280" y="110" width="60" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="310.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Days</text>
+  <rect x="30" y="142" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="80.0" y="164" text-anchor="middle" font-size="14" fill="#111111">A. Shah</text>
+  <rect x="130" y="142" width="80" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="170.0" y="164" text-anchor="middle" font-size="14" fill="#111111">10442</text>
+  <rect x="210" y="142" width="70" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="245.0" y="164" text-anchor="middle" font-size="14" fill="#111111">Sales</text>
+  <rect x="280" y="142" width="60" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="310.0" y="164" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <rect x="30" y="174" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="80.0" y="196" text-anchor="middle" font-size="14" fill="#111111">J. Byrne</text>
+  <rect x="130" y="174" width="80" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="170.0" y="196" text-anchor="middle" font-size="14" fill="#111111">10871</text>
+  <rect x="210" y="174" width="70" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="245.0" y="196" text-anchor="middle" font-size="14" fill="#111111">Ops</text>
+  <rect x="280" y="174" width="60" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="310.0" y="196" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <line x1="350" y1="158" x2="430" y2="158" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <text x="390.0" y="146" text-anchor="middle" font-size="14" fill="#111111">random keys</text>
+  <text x="640" y="96" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Working file: shared with an approved tool</text>
+  <rect x="470" y="110" width="110" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="525.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Key</text>
+  <rect x="580" y="110" width="90" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="625.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Dept</text>
+  <rect x="670" y="110" width="70" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="705.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Days</text>
+  <rect x="470" y="142" width="110" height="32" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="525.0" y="164" text-anchor="middle" font-size="14" fill="#111111">K-4821</text>
+  <rect x="580" y="142" width="90" height="32" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="625.0" y="164" text-anchor="middle" font-size="14" fill="#111111">Sales</text>
+  <rect x="670" y="142" width="70" height="32" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="705.0" y="164" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <rect x="470" y="174" width="110" height="32" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="525.0" y="196" text-anchor="middle" font-size="14" fill="#111111">K-0937</text>
+  <rect x="580" y="174" width="90" height="32" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="625.0" y="196" text-anchor="middle" font-size="14" fill="#111111">Ops</text>
+  <rect x="670" y="174" width="70" height="32" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="705.0" y="196" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <text x="640" y="296" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Key table: kept by HR, access-controlled</text>
+  <rect x="470" y="310" width="110" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="525.0" y="332" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Key</text>
+  <rect x="580" y="310" width="120" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="640.0" y="332" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Name</text>
+  <rect x="700" y="310" width="90" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="745.0" y="332" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Emp. no.</text>
+  <rect x="470" y="342" width="110" height="32" rx="0" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="525.0" y="364" text-anchor="middle" font-size="14" fill="#111111">K-4821</text>
+  <rect x="580" y="342" width="120" height="32" rx="0" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="640.0" y="364" text-anchor="middle" font-size="14" fill="#111111">A. Shah</text>
+  <rect x="700" y="342" width="90" height="32" rx="0" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="745.0" y="364" text-anchor="middle" font-size="14" fill="#111111">10442</text>
+  <rect x="470" y="374" width="110" height="32" rx="0" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="525.0" y="396" text-anchor="middle" font-size="14" fill="#111111">K-0937</text>
+  <rect x="580" y="374" width="120" height="32" rx="0" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="640.0" y="396" text-anchor="middle" font-size="14" fill="#111111">J. Byrne</text>
+  <rect x="700" y="374" width="90" height="32" rx="0" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="745.0" y="396" text-anchor="middle" font-size="14" fill="#111111">10871</text>
+  <line x1="350" y1="190" x2="466" y2="360" stroke="#222222" stroke-width="2.2" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+  <rect x="30" y="430" width="900" height="66" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480" y="458" text-anchor="middle" font-size="15" fill="#000000">Pseudonymised data are still personal data: anyone holding both files can re-identify people. Keep the key</text>
+  <text x="480" y="478" text-anchor="middle" font-size="15" fill="#000000">separate and never send it with the working file.</text>
+  <text x="480.0" y="526" text-anchor="middle" font-size="13" fill="#333333">Illustrative names and figures.</text>
+</svg>
