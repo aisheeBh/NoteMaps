@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Five layers of AI in meetings and collaboration</title>
+<desc>Stacked layers from capture at the bottom through interpretation, retrieval and action, with governance spanning all of them.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The meeting AI stack</text>
+<rect x="200" y="80" width="560" height="92" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="270" y="98" width="420" height="56" fill="#FFFFFF" rx="4"/>
+<text x="480.0" y="122" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Action</text>
+<text x="480.0" y="143" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">tasks, follow-ups, channel posts, agents</text>
+<rect x="200" y="182" width="560" height="92" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="270" y="200" width="420" height="56" fill="#FFFFFF" rx="4"/>
+<text x="480.0" y="224" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Retrieval</text>
+<text x="480.0" y="245" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">recaps, chapters, search, question answering</text>
+<rect x="200" y="284" width="560" height="92" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="270" y="302" width="420" height="56" fill="#FFFFFF" rx="4"/>
+<text x="480.0" y="326" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Interpretation</text>
+<text x="480.0" y="347" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">summaries, decisions, actions</text>
+<rect x="200" y="386" width="560" height="92" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="270" y="404" width="420" height="56" fill="#FFFFFF" rx="4"/>
+<text x="480.0" y="428" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Capture</text>
+<text x="480.0" y="449" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">live captions, transcripts, speaker labels</text>
+<rect x="790" y="80" width="130" height="398" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+<text x="855" y="229.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Governance</text>
+<text x="855" y="251.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#FFFFFF">consent,</text>
+<text x="855" y="273.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#FFFFFF">sensitivity,</text>
+<text x="855" y="295.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#FFFFFF">retention,</text>
+<text x="855" y="317.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#FFFFFF">sharing,</text>
+<text x="855" y="339.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#FFFFFF">ground rules</text>
+<line x1="150" y1="468" x2="150" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="120" y="284" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111" transform="rotate(-90 120 284)">Errors compound upwards</text>
+<text x="40" y="540" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Schematic.</text>
+</svg>
