@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The persona spectrum</title>
+  <desc>A grid with three rows, touch, see and hear, and three columns, permanent, temporary and situational. Examples: touch is one arm, an arm injury, a new parent holding a baby; see is blindness, cataract surgery recovery, bright sunlight on a screen; hear is deafness, an ear infection, a noisy bar. An arrow shows that a design for the permanent case also serves the other two.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">One limitation, three durations</text>
+
+  <g font-size="17" font-weight="bold" text-anchor="middle">
+    <rect x="200" y="62" width="230" height="46" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+    <text x="315" y="92" fill="#FFFFFF">Permanent</text>
+    <rect x="440" y="62" width="230" height="46" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="555" y="92" fill="#111111">Temporary</text>
+    <rect x="680" y="62" width="250" height="46" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="805" y="92" fill="#111111">Situational</text>
+  </g>
+
+  <g font-size="17" font-weight="bold" fill="#111111">
+    <rect x="30" y="118" width="160" height="104" fill="#F2F2F2" stroke="#555555"/><text x="46" y="176">Touch</text>
+    <rect x="30" y="232" width="160" height="104" fill="#F2F2F2" stroke="#555555"/><text x="46" y="290">See</text>
+    <rect x="30" y="346" width="160" height="104" fill="#F2F2F2" stroke="#555555"/><text x="46" y="404">Hear</text>
+  </g>
+
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <rect x="200" y="118" width="230" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="315" y="166">One arm</text><text x="315" y="188">(for example, amputation)</text>
+    <rect x="440" y="118" width="230" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="555" y="166">Arm injury</text><text x="555" y="188">in a cast</text>
+    <rect x="680" y="118" width="250" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="805" y="166">New parent</text><text x="805" y="188">holding a baby</text>
+
+    <rect x="200" y="232" width="230" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="315" y="280">Blindness</text>
+    <rect x="440" y="232" width="230" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="555" y="280">Recovery after</text><text x="555" y="302">eye surgery</text>
+    <rect x="680" y="232" width="250" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="805" y="280">Bright sunlight</text><text x="805" y="302">on a phone screen</text>
+
+    <rect x="200" y="346" width="230" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="315" y="394">Deafness</text>
+    <rect x="440" y="346" width="230" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="555" y="394">Ear infection</text>
+    <rect x="680" y="346" width="250" height="104" fill="#FFFFFF" stroke="#333333" stroke-width="2"/><text x="805" y="394">A noisy bar</text><text x="805" y="416">or station</text>
+  </g>
+
+  <line x1="315" y1="470" x2="805" y2="470" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="560" y="498" text-anchor="middle" font-size="15" fill="#111111">A design that works for the permanent case also serves the temporary and situational cases.</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">After the persona spectrum in Microsoft's inclusive design approach; examples are illustrative.</text>
+</svg>

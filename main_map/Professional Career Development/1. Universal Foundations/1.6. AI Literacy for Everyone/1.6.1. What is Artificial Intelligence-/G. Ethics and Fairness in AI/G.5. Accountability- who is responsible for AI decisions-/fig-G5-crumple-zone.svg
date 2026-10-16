@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The moral crumple zone</title>
+  <desc>Paired bars for five actors in an automated system: board, provider, deployer, system design, and front-line operator. One bar shows control over the outcome, the other shows the blame typically attributed after a failure. Control is concentrated with the provider, deployer and design; blame is concentrated on the front-line operator. The figures are schematic.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Control and blame in a typical automated-system failure</text>
+
+  <rect x="610" y="58" width="300" height="70" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <rect x="625" y="72" width="26" height="18" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="660" y="86" font-size="14" fill="#111111">Control over the outcome</text>
+  <rect x="625" y="100" width="26" height="18" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="660" y="114" font-size="14" fill="#111111">Blame attributed afterwards</text>
+
+  <line x1="100" y1="440" x2="920" y2="440" stroke="#222222" stroke-width="2.5"/>
+  <line x1="100" y1="440" x2="100" y2="140" stroke="#222222" stroke-width="2.5"/>
+  <text x="60" y="290" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 60 290)">Share (schematic)</text>
+  <text x="92" y="444" text-anchor="end" font-size="13" fill="#111111">low</text>
+  <text x="92" y="154" text-anchor="end" font-size="13" fill="#111111">high</text>
+
+  <!-- Board -->
+  <rect x="130" y="320" width="55" height="120" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="190" y="410" width="55" height="30" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <text x="188" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Board</text>
+
+  <!-- Provider -->
+  <rect x="290" y="170" width="55" height="270" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="350" y="400" width="55" height="40" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <text x="348" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Provider</text>
+
+  <!-- Deployer -->
+  <rect x="450" y="200" width="55" height="240" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="510" y="380" width="55" height="60" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <text x="508" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Deployer</text>
+
+  <!-- System design -->
+  <rect x="610" y="190" width="55" height="250" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="670" y="420" width="55" height="20" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <text x="668" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">System design</text>
+  <text x="668" y="484" text-anchor="middle" font-size="13" fill="#111111">"the computer"</text>
+
+  <!-- Operator -->
+  <rect x="770" y="370" width="55" height="70" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="830" y="150" width="55" height="290" fill="url(#lines)" stroke="#8B0000" stroke-width="3"/>
+  <text x="828" y="466" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Operator</text>
+  <text x="828" y="484" text-anchor="middle" font-size="13" fill="#111111">front-line human</text>
+
+  <rect x="560" y="140" width="250" height="44" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="685" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">The crumple zone: little control,</text>
+  <text x="685" y="178" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">most of the blame</text>
+
+  <text x="480" y="530" text-anchor="middle" font-size="14" fill="#111111">Accountable design moves blame back towards those with control over goals, data and workflow.</text>
+  <text x="480" y="556" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern described by Madeleine Clare Elish (2019); bar heights are not measurements.</text>
+</svg>

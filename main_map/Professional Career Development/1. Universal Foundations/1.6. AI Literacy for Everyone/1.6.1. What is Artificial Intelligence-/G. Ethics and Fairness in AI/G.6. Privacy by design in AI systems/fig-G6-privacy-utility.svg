@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The privacy-accuracy trade-off controlled by epsilon</title>
+  <desc>Horizontal axis: epsilon, from small (strong privacy) on the left to large (weak privacy) on the right. Two rising curves show accuracy against epsilon: a solid curve for a large group, which reaches high accuracy quickly, and a dashed curve for a small group, which stays lower for longer. A falling dotted line shows privacy protection declining as epsilon grows.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">More privacy means more noise — and small groups pay most</text>
+
+  <line x1="120" y1="450" x2="880" y2="450" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="490" text-anchor="middle" font-size="16" fill="#111111">Epsilon (ε): small, strong privacy  →  large, weak privacy</text>
+  <text x="70" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 70 260)">Accuracy, or privacy protection</text>
+
+  <path d="M130 380 C 220 200, 320 130, 860 110" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <path d="M130 430 C 300 400, 450 260, 860 150" fill="none" stroke="#333333" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <path d="M130 100 C 300 180, 500 350, 860 430" fill="none" stroke="#8B0000" stroke-width="3" stroke-dasharray="2 4"/>
+
+  <rect x="300" y="96" width="250" height="26" fill="#FFFFFF"/>
+  <text x="305" y="115" font-size="15" font-weight="bold" fill="#111111">Accuracy for a large group</text>
+  <rect x="560" y="248" width="260" height="26" fill="#FFFFFF"/>
+  <text x="565" y="267" font-size="15" font-weight="bold" fill="#111111">Accuracy for a small group</text>
+  <rect x="150" y="70" width="190" height="26" fill="#FFFFFF"/>
+  <text x="155" y="89" font-size="15" font-weight="bold" fill="#111111">Privacy protection</text>
+
+  <line x1="300" y1="140" x2="300" y2="450" stroke="#888888" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <rect x="200" y="300" width="200" height="66" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="300" y="324" text-anchor="middle" font-size="14" fill="#111111">A chosen budget: large</text>
+  <text x="300" y="344" text-anchor="middle" font-size="14" fill="#111111">group well served, small</text>
+  <text x="300" y="362" text-anchor="middle" font-size="14" fill="#111111">group still inaccurate</text>
+
+  <text x="480" y="530" text-anchor="middle" font-size="14" fill="#111111">Choosing ε is a value judgement: how much privacy to buy, and whose accuracy pays for it.</text>
+  <text x="480" y="556" text-anchor="middle" font-size="13" fill="#333333">Schematic; curve shapes vary by task and method and are not plotted from a single dataset.</text>
+</svg>

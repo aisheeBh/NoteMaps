@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Why most alerts can be false when the people sought are rare</title>
+  <desc>A flow of 50,000 people scanned at a station. 20 are wanted and 49,980 are not. Of the 20 wanted, 18 trigger alerts. Of the 49,980 others, about 50 trigger alerts. Of 68 alerts in total, 18 are correct, which is about 26 per cent. Figures are illustrative.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">One day at a station: who triggers an alert?</text>
+
+  <rect x="330" y="62" width="300" height="56" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="86" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">50,000 people scanned</text>
+  <text x="480" y="106" text-anchor="middle" font-size="14" fill="#FFFFFF">cameras compare every face</text>
+
+  <line x1="400" y1="118" x2="230" y2="170" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="560" y1="118" x2="720" y2="170" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="110" y="172" width="240" height="64" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="230" y="198" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">20 wanted people</text>
+  <text x="230" y="220" text-anchor="middle" font-size="14" fill="#111111">90 % recognised</text>
+  <rect x="590" y="172" width="260" height="64" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="720" y="198" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">49,980 other people</text>
+  <text x="720" y="220" text-anchor="middle" font-size="14" fill="#111111">1 in 1,000 wrongly matched</text>
+
+  <line x1="230" y1="236" x2="230" y2="300" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="720" y1="236" x2="720" y2="300" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="110" y="302" width="240" height="70" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="150" y="318" width="160" height="40" fill="#FFFFFF"/>
+  <text x="230" y="344" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">18 correct alerts</text>
+  <rect x="590" y="302" width="260" height="70" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="620" y="318" width="200" height="40" fill="#FFFFFF"/>
+  <text x="720" y="344" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">about 50 false alerts</text>
+
+  <line x1="230" y1="372" x2="440" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="720" y1="372" x2="520" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="290" y="432" width="380" height="76" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+  <text x="480" y="460" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">68 alerts in total; 18 are correct</text>
+  <text x="480" y="486" text-anchor="middle" font-size="16" fill="#111111">precision is about 26 %: about three in four alerts are wrong</text>
+
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures; a lower false-match rate or a larger wanted group would raise the share that is correct.</text>
+</svg>
