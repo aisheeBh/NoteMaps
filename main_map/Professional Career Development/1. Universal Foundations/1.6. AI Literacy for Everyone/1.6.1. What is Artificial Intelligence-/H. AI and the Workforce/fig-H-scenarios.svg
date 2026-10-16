@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four scenarios for AI and work</title>
+  <desc>Two-by-two matrix. Horizontal axis: how much AI substitutes for labour, from little to a lot. Vertical axis: how well institutions share the gains, from poorly to well. Well shared and little substitution: directed augmentation. Well shared and much substitution: broad displacement with new income and ownership models. Poorly shared and little substitution: gradual augmentation with uneven gains. Poorly shared and much substitution: uneven disruption with sharp gaps.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">Scenarios by substitution and sharing of gains</text>
+  <rect x="140" y="70" width="380" height="200" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="154" y="82" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="330" y="103" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Directed augmentation</text>
+  <rect x="158" y="123" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="135" r="5" fill="#000000"/>
+  <text x="184" y="140" font-size="15" text-anchor="start" fill="#111111">new work grows, wages rise</text>
+  <rect x="158" y="153" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="165" r="5" fill="#000000"/>
+  <text x="184" y="170" font-size="15" text-anchor="start" fill="#111111">gains broadly shared</text>
+  <rect x="520" y="70" width="380" height="200" rx="0" fill="#F2F2F2" stroke="#333333" stroke-width="2"/>
+  <rect x="534" y="82" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="710" y="103" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Displacement with new models</text>
+  <rect x="538" y="123" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="135" r="5" fill="#000000"/>
+  <text x="564" y="140" font-size="15" text-anchor="start" fill="#111111">weak labour demand</text>
+  <rect x="538" y="153" width="344" height="50" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="165" r="5" fill="#000000"/>
+  <text x="564" y="170" font-size="15" text-anchor="start" fill="#111111">income and ownership reforms share</text>
+  <text x="564" y="190" font-size="15" text-anchor="start" fill="#111111">gains</text>
+  <rect x="140" y="270" width="380" height="200" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="154" y="282" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="330" y="303" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Gradual augmentation, uneven gains</text>
+  <rect x="158" y="323" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="335" r="5" fill="#000000"/>
+  <text x="184" y="340" font-size="15" text-anchor="start" fill="#111111">tasks shift, jobs broadly stable</text>
+  <rect x="158" y="353" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="365" r="5" fill="#000000"/>
+  <text x="184" y="370" font-size="15" text-anchor="start" fill="#111111">gains accrue to the well placed</text>
+  <rect x="520" y="270" width="380" height="200" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="534" y="282" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="710" y="303" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Uneven disruption</text>
+  <rect x="538" y="323" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="335" r="5" fill="#000000"/>
+  <text x="564" y="340" font-size="15" text-anchor="start" fill="#111111">sharp entry-level and local losses</text>
+  <rect x="538" y="353" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="365" r="5" fill="#000000"/>
+  <text x="564" y="370" font-size="15" text-anchor="start" fill="#111111">large gaps by age, place and skill</text>
+  <line x1="140" y1="492" x2="900" y2="492" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="520" y="518" font-size="15" text-anchor="middle" fill="#111111">How much AI substitutes for labour: little to a lot →</text>
+  <line x1="110" y1="470" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="94" y="270" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 94 270)">How well institutions share the gains: poorly to well →</text>
+  <text x="480" y="564" font-size="13" text-anchor="middle" fill="#333333">Schematic scenarios for reasoning, not forecasts.</text>
+</svg>

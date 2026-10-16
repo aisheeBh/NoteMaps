@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From least to most intrusive uses of recognition technology</title>
+  <desc>Five steps rise from left to right, each taller and darker than the last: no recognition; consented one-to-one verification; retrospective search for a named investigation; live matching against a narrow watchlist; and scanning everyone in public against a broad list. A note says the choice should start at the left.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Start with the least intrusive option that achieves the aim</text>
+
+  <line x1="40" y1="470" x2="930" y2="470" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="40" y="496" font-size="15" fill="#111111">Less intrusive</text>
+  <text x="930" y="496" text-anchor="end" font-size="15" fill="#111111">More intrusive</text>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="40" y="380" width="164" height="80" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="122" y="408" font-weight="bold">0. No recognition</text><text x="122" y="430">other fixes first:</text><text x="122" y="448">layout, staffing</text>
+
+    <rect x="214" y="320" width="164" height="140" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="296" y="350" font-weight="bold">1. Verification</text><text x="296" y="372">1:1, consented,</text><text x="296" y="392">template kept</text><text x="296" y="412">on the device</text>
+
+    <rect x="388" y="260" width="164" height="200" fill="#FFFFFF" stroke="#333333" stroke-width="2.5"/>
+    <text x="470" y="290" font-weight="bold">2. Retrospective</text><text x="470" y="312">search for one</text><text x="470" y="332">named inquiry,</text><text x="470" y="352">human checks</text><text x="470" y="372">every result</text>
+
+    <rect x="562" y="200" width="164" height="260" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="644" y="230" font-weight="bold">3. Live, narrow</text><text x="644" y="252">small watchlist,</text><text x="644" y="272">serious crime,</text><text x="644" y="292">prior approval,</text><text x="644" y="312">non-matches</text><text x="644" y="332">deleted at once</text>
+
+    <rect x="736" y="130" width="194" height="330" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="833" y="160" font-weight="bold">4. Live, broad</text><text x="833" y="182">everyone scanned</text><text x="833" y="202">against a wide list;</text><text x="833" y="222">routine use in public</text><text x="833" y="262" font-style="italic">prohibited or</text><text x="833" y="282" font-style="italic">severely restricted</text><text x="833" y="302" font-style="italic">in several regimes</text>
+  </g>
+
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Schematic ordering by intrusion on people not suspected of anything; legal treatment differs by country.</text>
+</svg>

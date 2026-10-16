@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Value of time saved against expected harm for three tasks</title>
+  <desc>Horizontal bars on a logarithmic scale. Task A: benefit 25, expected harm 6, so worth using. Task B: benefit 100, expected harm 1,500. Task C: benefit 50, expected harm 20,000. For B and C expected harm far exceeds the benefit.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">When expected harm outweighs the time saved</text>
+<text x="290" y="120" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">A: summarise a meeting</text>
+<rect x="300" y="90" width="162.2" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="300" y="134" width="90.3" height="36" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="470.2" y="96" width="130" height="24" fill="#FFFFFF"/><text x="476.2" y="114" font-size="14" fill="#111111">benefit 25</text>
+<rect x="398.3" y="140" width="160" height="24" fill="#FFFFFF"/><text x="404.3" y="158" font-size="14" fill="#111111">expected harm 6</text>
+<text x="290" y="250" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">B: suggest a contract clause</text>
+<rect x="300" y="220" width="232.0" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="300" y="264" width="368.4" height="36" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="540.0" y="226" width="130" height="24" fill="#FFFFFF"/><text x="546.0" y="244" font-size="14" fill="#111111">benefit 100</text>
+<rect x="676.4" y="270" width="160" height="24" fill="#FFFFFF"/><text x="682.4" y="288" font-size="14" fill="#111111">expected harm 1,500</text>
+<text x="290" y="380" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">C: calculate a drug dose</text>
+<rect x="300" y="350" width="197.1" height="36" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="300" y="394" width="498.9" height="36" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="505.1" y="356" width="130" height="24" fill="#FFFFFF"/><text x="511.1" y="374" font-size="14" fill="#111111">benefit 50</text>
+<rect x="310" y="400" width="170" height="24" fill="#FFFFFF"/><text x="316" y="418" font-size="14" fill="#111111">expected harm 20,000</text>
+<line x1="300" y1="470" x2="880" y2="470" stroke="#222222" stroke-width="2"/>
+<line x1="300" y1="470" x2="300" y2="478" stroke="#222222"/><text x="300" y="496" text-anchor="middle" font-size="14" fill="#111111">1</text>
+<line x1="416" y1="470" x2="416" y2="478" stroke="#222222"/><text x="416" y="496" text-anchor="middle" font-size="14" fill="#111111">10</text>
+<line x1="532" y1="470" x2="532" y2="478" stroke="#222222"/><text x="532" y="496" text-anchor="middle" font-size="14" fill="#111111">100</text>
+<line x1="648" y1="470" x2="648" y2="478" stroke="#222222"/><text x="648" y="496" text-anchor="middle" font-size="14" fill="#111111">1,000</text>
+<line x1="764" y1="470" x2="764" y2="478" stroke="#222222"/><text x="764" y="496" text-anchor="middle" font-size="14" fill="#111111">10,000</text>
+<line x1="880" y1="470" x2="880" y2="478" stroke="#222222"/><text x="880" y="496" text-anchor="middle" font-size="14" fill="#111111">100,000</text>
+<text x="590" y="518" text-anchor="middle" font-size="14" fill="#111111">Value in arbitrary currency units (logarithmic scale)</text>
+<text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures from a worked example; hatched bar is benefit, lined bar is expected harm.</text>
+</svg>

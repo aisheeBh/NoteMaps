@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Overall accuracy hides a gap between two groups</title>
+  <desc>Three vertical bars: overall accuracy 94 per cent, Group A accuracy 97 per cent, Group B accuracy 78 per cent. The overall figure sits close to Group A because Group A is 85 per cent of the test set.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#E6E6E6"/><path d="M0 5H10" stroke="#666666" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The headline number hides who bears the errors</text>
+  <!-- axis: y=440 is 0%, y=90 is 100%, 3.5 px per percent -->
+  <line x1="100" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5"/>
+  <line x1="100" y1="440" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="48" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 48 255)">Word accuracy (per cent)</text>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="90" y="445">0</text><text x="90" y="270">50</text><text x="90" y="95">100</text>
+  </g>
+  <line x1="100" y1="265" x2="900" y2="265" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="100" y1="90" x2="900" y2="90" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="170" y="111" width="170" height="329" fill="url(#lines)" stroke="#222222" stroke-width="2"/>
+  <rect x="395" y="100.5" width="170" height="339.5" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="620" y="167" width="170" height="273" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <g font-size="18" font-weight="bold" fill="#111111" text-anchor="middle">
+    <rect x="225" y="120" width="60" height="26" fill="#FFFFFF" stroke="none"/><text x="255" y="140">94%</text>
+    <rect x="450" y="109" width="60" height="26" fill="#FFFFFF" stroke="none"/><text x="480" y="129">97%</text>
+    <rect x="675" y="176" width="60" height="26" fill="#FFFFFF" stroke="none"/><text x="705" y="196">78%</text>
+  </g>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="255" y="466" font-weight="bold">Overall</text><text x="255" y="484">the vendor's figure</text>
+    <text x="480" y="466" font-weight="bold">Group A</text><text x="480" y="484">85% of the test set</text>
+    <text x="705" y="466" font-weight="bold">Group B</text><text x="705" y="484">15% of the test set</text>
+  </g>
+  <line x1="570" y1="105" x2="615" y2="165" stroke="#8B0000" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="640" y="90" width="260" height="46" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="652" y="110" font-size="15" font-weight="bold" fill="#111111">19-point gap</text>
+  <text x="652" y="128" font-size="14" fill="#111111">invisible in the overall figure</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures for a hypothetical speech-to-text tool.</text>
+</svg>

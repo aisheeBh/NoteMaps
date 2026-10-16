@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five lenses applied to a single AI decision</title>
+  <desc>A central decision, whether to deploy a model that flags benefit claims for investigation, is surrounded by five lenses: consequences, duties and rights, character, care, and justice. Each lens asks a different question about the same decision.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">One decision, five ways of asking whether it is right</text>
+
+  <g stroke="#333333" stroke-width="2">
+    <line x1="480" y1="250" x2="480" y2="170" marker-end="url(#arrow)"/>
+    <line x1="400" y1="300" x2="300" y2="270" marker-end="url(#arrow)"/>
+    <line x1="560" y1="300" x2="660" y2="270" marker-end="url(#arrow)"/>
+    <line x1="420" y1="350" x2="330" y2="420" marker-end="url(#arrow)"/>
+    <line x1="540" y1="350" x2="630" y2="420" marker-end="url(#arrow)"/>
+  </g>
+
+  <rect x="370" y="250" width="220" height="100" rx="10" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="282" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">The decision</text>
+  <text x="480" y="306" text-anchor="middle" font-size="14" fill="#FFFFFF">Deploy a model that flags</text>
+  <text x="480" y="326" text-anchor="middle" font-size="14" fill="#FFFFFF">benefit claims for fraud checks?</text>
+
+  <rect x="330" y="62" width="300" height="104" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="88" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">1. Consequences</text>
+  <text x="480" y="112" text-anchor="middle" font-size="14" fill="#111111">Does it prevent more loss and harm</text>
+  <text x="480" y="132" text-anchor="middle" font-size="14" fill="#111111">than it causes to wrongly flagged</text>
+  <text x="480" y="152" text-anchor="middle" font-size="14" fill="#111111">claimants?</text>
+
+  <rect x="30" y="196" width="270" height="124" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="165" y="222" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">2. Duties and rights</text>
+  <text x="165" y="246" text-anchor="middle" font-size="14" fill="#111111">Are claimants told, presumed</text>
+  <text x="165" y="266" text-anchor="middle" font-size="14" fill="#111111">honest, and able to see and</text>
+  <text x="165" y="286" text-anchor="middle" font-size="14" fill="#111111">contest the evidence?</text>
+
+  <rect x="660" y="196" width="270" height="124" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="795" y="222" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">3. Character</text>
+  <text x="795" y="246" text-anchor="middle" font-size="14" fill="#111111">Would an honest, prudent</text>
+  <text x="795" y="266" text-anchor="middle" font-size="14" fill="#111111">official be candid about its</text>
+  <text x="795" y="286" text-anchor="middle" font-size="14" fill="#111111">known error rates?</text>
+
+  <rect x="90" y="424" width="300" height="124" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="240" y="450" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">4. Care</text>
+  <text x="240" y="474" text-anchor="middle" font-size="14" fill="#111111">What happens to a family whose</text>
+  <text x="240" y="494" text-anchor="middle" font-size="14" fill="#111111">payments are suspended while</text>
+  <text x="240" y="514" text-anchor="middle" font-size="14" fill="#111111">they are investigated?</text>
+
+  <rect x="570" y="424" width="300" height="124" rx="8" fill="#F2F2F2" stroke="#222222" stroke-width="2"/>
+  <text x="720" y="450" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">5. Justice</text>
+  <text x="720" y="474" text-anchor="middle" font-size="14" fill="#111111">Do false flags fall more often</text>
+  <text x="720" y="494" text-anchor="middle" font-size="14" fill="#111111">on some groups? Would all accept</text>
+  <text x="720" y="514" text-anchor="middle" font-size="14" fill="#111111">it behind the veil of ignorance?</text>
+
+  <text x="480" y="584" text-anchor="middle" font-size="13" fill="#333333">A strong decision survives scrutiny through every lens, not just the most convenient one.</text>
+</svg>

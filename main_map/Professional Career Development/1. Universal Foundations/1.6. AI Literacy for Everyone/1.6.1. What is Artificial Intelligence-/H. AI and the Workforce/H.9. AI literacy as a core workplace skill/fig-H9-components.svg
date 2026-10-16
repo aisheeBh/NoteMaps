@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five components of AI literacy and the question each answers</title>
+  <desc>Five columns: Understand asks what is AI and what can go wrong. Use asks how to get good work from the tool. Evaluate asks whether the output is right. Act responsibly asks what is allowed and fair. Adapt asks how work should change.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">UUEAA: five components of AI literacy</text>
+  <rect x="30" y="70" width="164" height="48" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="38" y="78" width="148" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="112" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Understand</text>
+  <rect x="30" y="134" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="156" font-size="15" text-anchor="start" fill="#111111">What is AI, and</text>
+  <text x="42" y="175" font-size="15" text-anchor="start" fill="#111111">what is it not?</text>
+  <rect x="30" y="196" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="218" font-size="15" text-anchor="start" fill="#111111">Why can it be</text>
+  <text x="42" y="237" font-size="15" text-anchor="start" fill="#111111">fluent and wrong?</text>
+  <rect x="214" y="70" width="164" height="48" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="222" y="78" width="148" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="296" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Use</text>
+  <rect x="214" y="134" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="226" y="156" font-size="15" text-anchor="start" fill="#111111">Which tool for</text>
+  <text x="226" y="175" font-size="15" text-anchor="start" fill="#111111">this task?</text>
+  <rect x="214" y="196" width="164" height="71" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="226" y="218" font-size="15" text-anchor="start" fill="#111111">How do I give</text>
+  <text x="226" y="237" font-size="15" text-anchor="start" fill="#111111">context and</text>
+  <text x="226" y="256" font-size="15" text-anchor="start" fill="#111111">iterate?</text>
+  <rect x="398" y="70" width="164" height="48" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="406" y="78" width="148" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="480" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Evaluate</text>
+  <rect x="398" y="134" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="410" y="156" font-size="15" text-anchor="start" fill="#111111">Is it correct and</text>
+  <text x="410" y="175" font-size="15" text-anchor="start" fill="#111111">complete?</text>
+  <rect x="398" y="196" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="410" y="218" font-size="15" text-anchor="start" fill="#111111">Is it biased or</text>
+  <text x="410" y="237" font-size="15" text-anchor="start" fill="#111111">invented?</text>
+  <rect x="582" y="70" width="164" height="48" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="590" y="78" width="148" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="664" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Act responsibly</text>
+  <rect x="582" y="134" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="594" y="156" font-size="15" text-anchor="start" fill="#111111">What data may I</text>
+  <text x="594" y="175" font-size="15" text-anchor="start" fill="#111111">share?</text>
+  <rect x="582" y="196" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="594" y="218" font-size="15" text-anchor="start" fill="#111111">What must I</text>
+  <text x="594" y="237" font-size="15" text-anchor="start" fill="#111111">disclose?</text>
+  <rect x="766" y="70" width="164" height="48" rx="0" fill="#F2F2F2" stroke="#333333" stroke-width="2.5"/>
+  <rect x="774" y="78" width="148" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="848" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Adapt</text>
+  <rect x="766" y="134" width="164" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="778" y="156" font-size="15" text-anchor="start" fill="#111111">How should my</text>
+  <text x="778" y="175" font-size="15" text-anchor="start" fill="#111111">work change?</text>
+  <rect x="766" y="196" width="164" height="71" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="778" y="218" font-size="15" text-anchor="start" fill="#111111">What have</text>
+  <text x="778" y="237" font-size="15" text-anchor="start" fill="#111111">colleagues</text>
+  <text x="778" y="256" font-size="15" text-anchor="start" fill="#111111">learned?</text>
+  <text x="480" y="384" font-size="13" text-anchor="middle" fill="#333333">Each component needs practice on real tasks, not only knowledge.</text>
+</svg>
