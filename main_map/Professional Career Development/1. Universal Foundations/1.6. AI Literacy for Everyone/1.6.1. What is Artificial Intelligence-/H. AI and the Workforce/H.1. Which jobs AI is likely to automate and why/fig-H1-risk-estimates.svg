@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 438" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Estimates of share of jobs at high risk of automation</title>
+  <desc>Horizontal bars. Frey and Osborne 2013, United States, occupation-based: 47 per cent of employment at high risk. Arntz, Gregory and Zierahn 2016, 21 OECD countries, task-based: 9 per cent. Nedelkoska and Quintini 2018, 32 countries, task-based: 14 per cent at high risk, with a further 32 per cent likely to change significantly.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">How many jobs are at high risk? It depends on the method</text>
+  <text x="356" y="94" font-size="15" text-anchor="end" fill="#111111">Frey and Osborne (2013), United</text>
+  <text x="356" y="112" font-size="15" text-anchor="end" fill="#111111">States, by occupation</text>
+  <rect x="370" y="80" width="384" height="36" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="760" y="86" width="34" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="764" y="104" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">47%</text>
+  <text x="356" y="156" font-size="15" text-anchor="end" fill="#111111">Arntz, Gregory and Zierahn (2016),</text>
+  <text x="356" y="174" font-size="15" text-anchor="end" fill="#111111">OECD average, by task</text>
+  <rect x="370" y="142" width="74" height="36" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="450" y="148" width="25" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="454" y="166" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">9%</text>
+  <text x="356" y="218" font-size="15" text-anchor="end" fill="#111111">Nedelkoska and Quintini (2018), 32</text>
+  <text x="356" y="236" font-size="15" text-anchor="end" fill="#111111">countries, by task</text>
+  <rect x="370" y="204" width="114" height="36" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="490" y="210" width="34" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="494" y="228" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">14%</text>
+  <text x="356" y="280" font-size="15" text-anchor="end" fill="#111111">Nedelkoska and Quintini (2018), likely</text>
+  <text x="356" y="298" font-size="15" text-anchor="end" fill="#111111">to change significantly</text>
+  <rect x="370" y="266" width="261" height="36" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="637" y="272" width="103" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="641" y="290" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">32% further</text>
+  <line x1="370" y1="70" x2="370" y2="328" stroke="#333333" stroke-width="2"/>
+  <line x1="370" y1="328" x2="860" y2="328" stroke="#333333" stroke-width="2"/>
+  <line x1="370" y1="328" x2="370" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="370" y="350" font-size="14" text-anchor="middle" fill="#111111">0</text>
+  <line x1="452" y1="328" x2="452" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="452" y="350" font-size="14" text-anchor="middle" fill="#111111">10</text>
+  <line x1="533" y1="328" x2="533" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="533" y="350" font-size="14" text-anchor="middle" fill="#111111">20</text>
+  <line x1="615" y1="328" x2="615" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="615" y="350" font-size="14" text-anchor="middle" fill="#111111">30</text>
+  <line x1="697" y1="328" x2="697" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="697" y="350" font-size="14" text-anchor="middle" fill="#111111">40</text>
+  <line x1="778" y1="328" x2="778" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="778" y="350" font-size="14" text-anchor="middle" fill="#111111">50</text>
+  <line x1="860" y1="328" x2="860" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="860" y="350" font-size="14" text-anchor="middle" fill="#111111">60</text>
+  <text x="615" y="372" font-size="15" text-anchor="middle" fill="#111111">Share of jobs (%)</text>
+  <text x="480" y="422" font-size="13" text-anchor="middle" fill="#333333">High risk = estimated probability of automation above 70%. Published estimates; different periods and samples.</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Trust compared with actual reliability of AI output</title>
+  <desc>Two-by-two matrix. Horizontal axis: how reliable the output actually is, from low to high. Vertical axis: how much the user trusts it, from low to high. High trust, low reliability: over-trust, risky. High trust, high reliability: appropriate trust. Low trust, low reliability: appropriate caution. Low trust, high reliability: under-trust, lost value.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">Calibration: trust should follow reliability</text>
+  <rect x="140" y="70" width="380" height="190" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="154" y="82" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="330" y="103" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Over-trust (risk)</text>
+  <rect x="158" y="123" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="135" r="5" fill="#000000"/>
+  <text x="184" y="140" font-size="15" text-anchor="start" fill="#111111">fabricated citations accepted</text>
+  <rect x="158" y="153" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="165" r="5" fill="#000000"/>
+  <text x="184" y="170" font-size="15" text-anchor="start" fill="#111111">biased summary adopted</text>
+  <rect x="520" y="70" width="380" height="190" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="534" y="82" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="710" y="103" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Appropriate trust</text>
+  <rect x="538" y="123" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="135" r="5" fill="#000000"/>
+  <text x="564" y="140" font-size="15" text-anchor="start" fill="#111111">checked figures used</text>
+  <rect x="538" y="153" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="165" r="5" fill="#000000"/>
+  <text x="564" y="170" font-size="15" text-anchor="start" fill="#111111">routine formatting accepted</text>
+  <rect x="140" y="260" width="380" height="190" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="154" y="272" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="330" y="293" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Appropriate caution</text>
+  <rect x="158" y="313" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="325" r="5" fill="#000000"/>
+  <text x="184" y="330" font-size="15" text-anchor="start" fill="#111111">unverified legal claim held back</text>
+  <rect x="158" y="343" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="170" cy="355" r="5" fill="#000000"/>
+  <text x="184" y="360" font-size="15" text-anchor="start" fill="#111111">unfamiliar topic double-checked</text>
+  <rect x="520" y="260" width="380" height="190" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="534" y="272" width="352" height="30" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="710" y="293" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Under-trust (lost value)</text>
+  <rect x="538" y="313" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="325" r="5" fill="#000000"/>
+  <text x="564" y="330" font-size="15" text-anchor="start" fill="#111111">good draft rejected</text>
+  <rect x="538" y="343" width="344" height="26" fill="#FFFFFF" stroke="none"/>
+  <circle cx="550" cy="355" r="5" fill="#000000"/>
+  <text x="564" y="360" font-size="15" text-anchor="start" fill="#111111">useful tool avoided</text>
+  <line x1="140" y1="472" x2="900" y2="472" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="520" y="498" font-size="15" text-anchor="middle" fill="#111111">Actual reliability of the output: low to high →</text>
+  <line x1="110" y1="450" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="94" y="260" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 94 260)">Trust placed in the output: low to high →</text>
+  <text x="480" y="544" font-size="13" text-anchor="middle" fill="#333333">Schematic examples; reliability depends on tool, task and context.</text>
+</svg>

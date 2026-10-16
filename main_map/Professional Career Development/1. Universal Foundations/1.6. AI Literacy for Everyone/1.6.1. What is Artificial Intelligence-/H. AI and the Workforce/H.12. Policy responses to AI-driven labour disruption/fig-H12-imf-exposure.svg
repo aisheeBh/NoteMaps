@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 438" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Share of jobs exposed to AI by country income group</title>
+  <desc>Horizontal bars of share of jobs exposed to AI: advanced economies about 60 per cent, emerging markets about 40 per cent, low-income countries about 26 per cent, world about 40 per cent.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">Exposure to AI by income group (IMF staff analysis, 2024)</text>
+  <text x="286" y="104" font-size="15" text-anchor="end" fill="#111111">Advanced economies</text>
+  <rect x="300" y="80" width="420" height="36" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="726" y="86" width="85" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="730" y="104" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">about 60%</text>
+  <text x="286" y="166" font-size="15" text-anchor="end" fill="#111111">World</text>
+  <rect x="300" y="142" width="280" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="586" y="148" width="94" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="590" y="166" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">almost 40%</text>
+  <text x="286" y="228" font-size="15" text-anchor="end" fill="#111111">Emerging markets</text>
+  <rect x="300" y="204" width="280" height="36" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="586" y="210" width="85" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="590" y="228" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">about 40%</text>
+  <text x="286" y="290" font-size="15" text-anchor="end" fill="#111111">Low-income countries</text>
+  <rect x="300" y="266" width="182" height="36" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="488" y="272" width="85" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="492" y="290" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">about 26%</text>
+  <line x1="300" y1="70" x2="300" y2="328" stroke="#333333" stroke-width="2"/>
+  <line x1="300" y1="328" x2="860" y2="328" stroke="#333333" stroke-width="2"/>
+  <line x1="300" y1="328" x2="300" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="300" y="350" font-size="14" text-anchor="middle" fill="#111111">0</text>
+  <line x1="440" y1="328" x2="440" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="440" y="350" font-size="14" text-anchor="middle" fill="#111111">20</text>
+  <line x1="580" y1="328" x2="580" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="580" y="350" font-size="14" text-anchor="middle" fill="#111111">40</text>
+  <line x1="720" y1="328" x2="720" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="720" y="350" font-size="14" text-anchor="middle" fill="#111111">60</text>
+  <line x1="860" y1="328" x2="860" y2="334" stroke="#333333" stroke-width="1.5"/>
+  <text x="860" y="350" font-size="14" text-anchor="middle" fill="#111111">80</text>
+  <text x="580" y="372" font-size="15" text-anchor="middle" fill="#111111">Share of jobs exposed (%)</text>
+  <text x="480" y="422" font-size="13" text-anchor="middle" fill="#333333">Approximate figures from the IMF staff discussion note; exposure is not a forecast of job loss.</text>
+</svg>
