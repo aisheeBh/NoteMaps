@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A ladder of evidence for pattern-recognition claims</title>
+  <desc>Six rungs from bottom to top: benchmark score, retrospective study, reader study, prospective silent trial, randomised controlled trial, improved outcomes for people. Lower rungs are cheap and common; higher rungs are costly and rare but show real benefit.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">From "beats experts on a test set" to "helps people"</text>
+  <line x1="200" y1="530" x2="200" y2="70" stroke="#222222" stroke-width="5"/>
+  <line x1="660" y1="530" x2="660" y2="70" stroke="#222222" stroke-width="5"/>
+  <rect x="210" y="462" width="440" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="430" y="486" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1. Benchmark score</text>
+  <text x="430" y="506" text-anchor="middle" font-size="14" fill="#111111">fixed public test set</text>
+  <rect x="210" y="390" width="440" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="430" y="414" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2. Retrospective study</text>
+  <text x="430" y="434" text-anchor="middle" font-size="14" fill="#111111">past local data, outcomes known</text>
+  <rect x="210" y="318" width="440" height="56" fill="#F2F2F2" stroke="#333333" stroke-width="1.5"/>
+  <text x="430" y="342" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3. Reader study</text>
+  <text x="430" y="362" text-anchor="middle" font-size="14" fill="#111111">same cases shown to experts and model</text>
+  <rect x="210" y="246" width="440" height="56" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="430" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">4. Prospective silent trial</text>
+  <text x="430" y="290" text-anchor="middle" font-size="14" fill="#111111">new cases scored without affecting decisions</text>
+  <rect x="210" y="174" width="440" height="56" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="430" y="198" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">5. Randomised controlled trial</text>
+  <text x="430" y="218" text-anchor="middle" font-size="14" fill="#111111">causal effect on detection and workload</text>
+  <rect x="210" y="102" width="440" height="56" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="270" y="110" width="320" height="40" fill="#FFFFFF"/>
+  <text x="430" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">6. Better outcomes for people</text>
+  <text x="430" y="146" text-anchor="middle" font-size="14" fill="#111111">fewer deaths, harms or costs over years</text>
+  <line x1="720" y1="510" x2="720" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="740" y="130" font-size="15" font-weight="bold" fill="#111111">Stronger evidence</text>
+  <text x="740" y="150" font-size="14" fill="#111111">costlier, slower, rarer</text>
+  <text x="740" y="490" font-size="15" font-weight="bold" fill="#111111">Weaker evidence</text>
+  <text x="740" y="510" font-size="14" fill="#111111">cheap, fast, common</text>
+  <text x="40" y="490" font-size="14" fill="#111111">Most "superhuman"</text>
+  <text x="40" y="508" font-size="14" fill="#111111">headlines start here</text>
+  <text x="480" y="562" text-anchor="middle" font-size="13" fill="#333333">A conceptual ordering; individual studies vary in quality within each rung.</text>
+</svg>

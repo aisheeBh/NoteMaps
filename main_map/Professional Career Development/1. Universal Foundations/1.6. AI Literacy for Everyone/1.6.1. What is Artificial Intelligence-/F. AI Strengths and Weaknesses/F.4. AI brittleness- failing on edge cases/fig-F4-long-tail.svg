@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The long tail of situations</title>
+  <desc>Schematic bar chart of situations ranked from most to least common. A few tall bars on the left are common situations well covered by training data. A long run of short bars to the right are rare situations, each unlikely but together numerous, and poorly covered by training and test data.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Few common situations, countless rare ones</text>
+  <line x1="100" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="430" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="466" text-anchor="middle" font-size="16" fill="#111111">Kinds of situation, from most to least common</text>
+  <text x="50" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 250)">How often each occurs</text>
+  <g stroke="#222222" stroke-width="1.2">
+    <rect x="110" y="100" width="34" height="330" fill="url(#hatch)"/>
+    <rect x="148" y="190" width="34" height="240" fill="url(#hatch)"/>
+    <rect x="186" y="250" width="34" height="180" fill="url(#hatch)"/>
+    <rect x="224" y="295" width="34" height="135" fill="url(#hatch)"/>
+    <rect x="262" y="325" width="34" height="105" fill="url(#hatch)"/>
+  </g>
+  <g stroke="#222222" stroke-width="1">
+    <rect x="300" y="350" width="22" height="80" fill="url(#dots)"/>
+    <rect x="326" y="365" width="22" height="65" fill="url(#dots)"/>
+    <rect x="352" y="376" width="22" height="54" fill="url(#dots)"/>
+    <rect x="378" y="385" width="22" height="45" fill="url(#dots)"/>
+    <rect x="404" y="392" width="22" height="38" fill="url(#dots)"/>
+    <rect x="430" y="398" width="22" height="32" fill="url(#dots)"/>
+    <rect x="456" y="402" width="22" height="28" fill="url(#dots)"/>
+    <rect x="482" y="406" width="22" height="24" fill="url(#dots)"/>
+    <rect x="508" y="409" width="22" height="21" fill="url(#dots)"/>
+    <rect x="534" y="411" width="22" height="19" fill="url(#dots)"/>
+    <rect x="560" y="413" width="22" height="17" fill="url(#dots)"/>
+    <rect x="586" y="415" width="22" height="15" fill="url(#dots)"/>
+    <rect x="612" y="416" width="22" height="14" fill="url(#dots)"/>
+    <rect x="638" y="418" width="22" height="12" fill="url(#dots)"/>
+    <rect x="664" y="419" width="22" height="11" fill="url(#dots)"/>
+    <rect x="690" y="420" width="22" height="10" fill="url(#dots)"/>
+    <rect x="716" y="421" width="22" height="9" fill="url(#dots)"/>
+    <rect x="742" y="422" width="22" height="8" fill="url(#dots)"/>
+    <rect x="768" y="423" width="22" height="7" fill="url(#dots)"/>
+    <rect x="794" y="423" width="22" height="7" fill="url(#dots)"/>
+    <rect x="820" y="424" width="22" height="6" fill="url(#dots)"/>
+    <rect x="846" y="424" width="22" height="6" fill="url(#dots)"/>
+  </g>
+  <rect x="160" y="80" width="300" height="64" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="172" y="102" font-size="15" font-weight="bold" fill="#111111">Head: common situations</text>
+  <text x="172" y="120" font-size="14" fill="#111111">plentiful in training and test data;</text>
+  <text x="172" y="136" font-size="14" fill="#111111">performance is usually good</text>
+  <rect x="520" y="200" width="360" height="82" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="532" y="222" font-size="15" font-weight="bold" fill="#111111">Tail: rare situations</text>
+  <text x="532" y="240" font-size="14" fill="#111111">each unlikely, together common;</text>
+  <text x="532" y="256" font-size="14" fill="#111111">scarce in training and testing;</text>
+  <text x="532" y="272" font-size="14" fill="#111111">where brittle failures concentrate</text>
+  <line x1="700" y1="282" x2="700" y2="410" stroke="#7A5200" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>
