@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three funders of adult learning</title>
+  <desc>Three columns. Individuals fund portable, self-chosen learning, but low-income adults cannot afford it. Employers fund firm-specific and job-linked training, but under-invest in general skills and train the already skilled. Governments fund general skills and target the disadvantaged, but are distant from employer needs.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">Who pays for learning, and what each tends to fund</text>
+  <rect x="30" y="70" width="287" height="48" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="38" y="78" width="271" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="173" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Individuals</text>
+  <rect x="30" y="134" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="156" font-size="15" text-anchor="start" fill="#111111">Portable, self-chosen courses and</text>
+  <text x="42" y="175" font-size="15" text-anchor="start" fill="#111111">degrees</text>
+  <rect x="30" y="196" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="218" font-size="15" text-anchor="start" fill="#111111">Strength: choice fits personal</text>
+  <text x="42" y="237" font-size="15" text-anchor="start" fill="#111111">goals</text>
+  <rect x="30" y="258" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="280" font-size="15" text-anchor="start" fill="#111111">Weakness: unaffordable for many</text>
+  <text x="42" y="299" font-size="15" text-anchor="start" fill="#111111">low-income adults</text>
+  <rect x="337" y="70" width="287" height="48" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="345" y="78" width="271" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="480" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Employers</text>
+  <rect x="337" y="134" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="349" y="156" font-size="15" text-anchor="start" fill="#111111">Firm-specific and job-linked</text>
+  <text x="349" y="175" font-size="15" text-anchor="start" fill="#111111">training</text>
+  <rect x="337" y="196" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="349" y="218" font-size="15" text-anchor="start" fill="#111111">Strength: close to real skill</text>
+  <text x="349" y="237" font-size="15" text-anchor="start" fill="#111111">needs</text>
+  <rect x="337" y="258" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="349" y="280" font-size="15" text-anchor="start" fill="#111111">Weakness: under-invest in general</text>
+  <text x="349" y="299" font-size="15" text-anchor="start" fill="#111111">skills; train the already skilled</text>
+  <rect x="643" y="70" width="287" height="48" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="651" y="78" width="271" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="787" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Government</text>
+  <rect x="643" y="134" width="287" height="71" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="655" y="156" font-size="15" text-anchor="start" fill="#111111">General skills, credits,</text>
+  <text x="655" y="175" font-size="15" text-anchor="start" fill="#111111">apprenticeships, displaced-worker</text>
+  <text x="655" y="194" font-size="15" text-anchor="start" fill="#111111">support</text>
+  <rect x="643" y="215" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="655" y="237" font-size="15" text-anchor="start" fill="#111111">Strength: can target the</text>
+  <text x="655" y="256" font-size="15" text-anchor="start" fill="#111111">disadvantaged</text>
+  <rect x="643" y="277" width="287" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="655" y="299" font-size="15" text-anchor="start" fill="#111111">Weakness: distant from employer</text>
+  <text x="655" y="318" font-size="15" text-anchor="start" fill="#111111">needs; quality hard to control</text>
+  <text x="480" y="384" font-size="13" text-anchor="middle" fill="#333333">Most effective systems combine all three, for example through co-funded credits and levies.</text>
+</svg>

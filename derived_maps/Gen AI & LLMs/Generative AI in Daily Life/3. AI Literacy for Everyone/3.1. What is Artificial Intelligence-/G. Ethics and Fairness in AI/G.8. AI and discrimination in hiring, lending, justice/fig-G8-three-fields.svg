@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The same causes in hiring, lending and justice</title>
+  <desc>A grid with three columns for hiring, lending and criminal justice and four rows for the recurring causes: what the past data records, typical proxies, the feedback loop, and what the affected person loses. Each cell gives a short example.</desc>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Same causes, three fields</text>
+
+  <g font-size="17" font-weight="bold" text-anchor="middle">
+    <rect x="200" y="60" width="240" height="44" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+    <text x="320" y="89" fill="#FFFFFF">Hiring</text>
+    <rect x="450" y="60" width="240" height="44" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="570" y="89" fill="#111111">Lending</text>
+    <rect x="700" y="60" width="240" height="44" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="820" y="89" fill="#111111">Criminal justice</text>
+  </g>
+
+  <g font-size="15" font-weight="bold" fill="#111111">
+    <rect x="20" y="114" width="170" height="88" fill="#F2F2F2" stroke="#555555"/><text x="30" y="146">What past data</text><text x="30" y="166">records</text>
+    <rect x="20" y="212" width="170" height="88" fill="#F2F2F2" stroke="#555555"/><text x="30" y="244">Typical proxy</text>
+    <rect x="20" y="310" width="170" height="88" fill="#F2F2F2" stroke="#555555"/><text x="30" y="342">Feedback loop</text>
+    <rect x="20" y="408" width="170" height="88" fill="#F2F2F2" stroke="#555555"/><text x="30" y="440">What the person</text><text x="30" y="460">loses</text>
+  </g>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="200" y="114" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="320" y="152">Who was hired</text><text x="320" y="172">and promoted</text>
+    <rect x="450" y="114" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="570" y="152">Who was approved</text><text x="570" y="172">and repaid</text>
+    <rect x="700" y="114" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="820" y="152">Who was arrested</text><text x="820" y="172">and charged</text>
+
+    <rect x="200" y="212" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="320" y="250">Name, postcode,</text><text x="320" y="270">career gaps</text>
+    <rect x="450" y="212" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="570" y="250">Postcode, shopping</text><text x="570" y="270">and device data</text>
+    <rect x="700" y="212" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="820" y="250">Neighbourhood,</text><text x="820" y="270">associates</text>
+
+    <rect x="200" y="310" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="320" y="348">New hires become</text><text x="320" y="368">next training data</text>
+    <rect x="450" y="310" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="570" y="348">Loans given become</text><text x="570" y="368">next repayment data</text>
+    <rect x="700" y="310" width="240" height="88" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="820" y="348">Patrols create</text><text x="820" y="368">more arrest records</text>
+
+    <rect x="200" y="408" width="240" height="88" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/><text x="320" y="446">A job, unseen</text><text x="320" y="466">and unexplained</text>
+    <rect x="450" y="408" width="240" height="88" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/><text x="570" y="446">Credit denied or</text><text x="570" y="466">priced higher</text>
+    <rect x="700" y="408" width="240" height="88" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/><text x="820" y="446">Liberty, and the</text><text x="820" y="466">chance to contest</text>
+  </g>
+
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of recurring patterns, not a measurement.</text>
+</svg>

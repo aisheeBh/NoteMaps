@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Cost of manual and automated handling as volume grows</title>
+  <desc>Schematic: manual cost rises steeply and in proportion to volume; automated cost starts at a fixed development cost and rises slowly. The lines cross at the break-even volume; beyond it automation is cheaper.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Automation pays only above a break-even volume</text>
+  <polygon points="417,314 880,100 880,290" fill="url(#cross)" stroke="none"/>
+  <rect x="740" y="225" width="125" height="44" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="802" y="243" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Saving from</text>
+  <text x="802" y="261" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">automation</text>
+  <line x1="100" y1="460" x2="900" y2="460" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="460" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="494" text-anchor="middle" font-size="16" fill="#111111">Number of cases handled</text>
+  <text x="50" y="265" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 265)">Total cost</text>
+  <line x1="100" y1="460" x2="880" y2="100" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <line x1="100" y1="330" x2="880" y2="290" stroke="#1F3B5C" stroke-width="4"/>
+  <rect x="300" y="110" width="250" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="312" y="130" font-size="15" font-weight="bold" fill="#111111">Manual handling</text>
+  <text x="312" y="148" font-size="14" fill="#111111">same cost for every case</text>
+  <line x1="550" y1="140" x2="620" y2="220" stroke="#222222" stroke-width="1"/>
+  <rect x="540" y="360" width="320" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="552" y="380" font-size="15" font-weight="bold" fill="#111111">Automated handling</text>
+  <text x="552" y="398" font-size="14" fill="#111111">fixed cost, then very low cost per case</text>
+  <line x1="700" y1="360" x2="700" y2="301" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="112" y="318" font-size="14" fill="#111111">fixed cost</text>
+  <circle cx="417" cy="314" r="7" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <line x1="417" y1="322" x2="417" y2="460" stroke="#555555" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="345" y="432" width="144" height="22" fill="#FFFFFF"/>
+  <text x="417" y="448" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">break-even volume</text>
+  <text x="235" y="420" text-anchor="middle" font-size="14" fill="#111111">below it: manual is cheaper</text>
+  <text x="480" y="525" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. Hidden costs such as monitoring and error correction raise the automated line.</text>
+</svg>

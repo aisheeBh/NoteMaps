@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A skewed training set</title>
+  <desc>One hundred squares represent training examples: ninety belong to Group A and ten to Group B. The model sees nine times as many examples of Group A, and its accuracy for Group B is lower.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What the model sees: 100 training examples</text>
+    <rect x="110" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="110" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="146" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="182" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="218" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="254" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="290" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="326" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="362" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="146" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="182" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="218" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="254" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="290" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="326" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="362" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="398" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="434" y="398" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="110" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="146" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="182" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="218" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="254" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="290" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="326" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="362" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="398" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="434" y="434" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="520" y="110" width="400" height="120" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="534" y="124" width="30" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="576" y="140" font-size="15" font-weight="bold" fill="#111111">Group A: 90 examples</text>
+  <text x="534" y="180" font-size="14" fill="#111111">Plenty of variety to learn from;</text>
+  <text x="534" y="200" font-size="14" fill="#111111">accuracy is high.</text>
+  <rect x="520" y="260" width="400" height="120" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="534" y="274" width="30" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="576" y="290" font-size="15" font-weight="bold" fill="#111111">Group B: 10 examples</text>
+  <text x="534" y="330" font-size="14" fill="#111111">Too few to learn the full range;</text>
+  <text x="534" y="350" font-size="14" fill="#111111">errors are more frequent.</text>
+  <rect x="520" y="410" width="400" height="70" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="534" y="434" font-size="14" fill="#111111">The overall score is dominated by Group A,</text>
+  <text x="534" y="454" font-size="14" fill="#111111">so the shortfall for Group B hardly shows.</text>
+  <text x="480" y="522" text-anchor="middle" font-size="13" fill="#333333">Schematic with illustrative proportions.</text>
+</svg>

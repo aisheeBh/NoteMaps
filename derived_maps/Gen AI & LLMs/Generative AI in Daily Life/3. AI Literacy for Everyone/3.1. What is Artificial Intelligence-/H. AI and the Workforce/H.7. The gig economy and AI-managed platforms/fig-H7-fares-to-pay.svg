@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Weekly fares to take-home pay in the worked example</title>
+  <desc>Horizontal bars in pounds, illustrative: passenger fares 760, platform commission minus 190, fuel minus 80, vehicle costs minus 120, take-home 370, which is 9.25 pounds per hour over 40 hours.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">Where a driver's weekly fares go</text>
+  <text x="346" y="104" font-size="15" text-anchor="end" fill="#111111">Passenger fares</text>
+  <rect x="360" y="80" width="475" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="841" y="86" width="42" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="845" y="104" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">£760</text>
+  <text x="346" y="166" font-size="15" text-anchor="end" fill="#111111">Platform commission (25%)</text>
+  <rect x="360" y="142" width="119" height="36" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="485" y="148" width="51" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="489" y="166" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">-£190</text>
+  <text x="346" y="228" font-size="15" text-anchor="end" fill="#111111">Fuel</text>
+  <rect x="360" y="204" width="50" height="36" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="416" y="210" width="42" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="420" y="228" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">-£80</text>
+  <text x="346" y="290" font-size="15" text-anchor="end" fill="#111111">Insurance, maintenance, depreciation</text>
+  <rect x="360" y="266" width="75" height="36" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="441" y="272" width="51" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="445" y="290" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">-£120</text>
+  <text x="346" y="352" font-size="15" text-anchor="end" fill="#111111">Take-home before tax (40 hours)</text>
+  <rect x="360" y="328" width="231" height="36" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="597" y="334" width="189" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="601" y="352" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">£370 = £9.25 per hour</text>
+  <line x1="360" y1="70" x2="360" y2="390" stroke="#333333" stroke-width="2"/>
+  <line x1="360" y1="390" x2="860" y2="390" stroke="#333333" stroke-width="2"/>
+  <line x1="360" y1="390" x2="360" y2="396" stroke="#333333" stroke-width="1.5"/>
+  <text x="360" y="412" font-size="14" text-anchor="middle" fill="#111111">0</text>
+  <line x1="485" y1="390" x2="485" y2="396" stroke="#333333" stroke-width="1.5"/>
+  <text x="485" y="412" font-size="14" text-anchor="middle" fill="#111111">200</text>
+  <line x1="610" y1="390" x2="610" y2="396" stroke="#333333" stroke-width="1.5"/>
+  <text x="610" y="412" font-size="14" text-anchor="middle" fill="#111111">400</text>
+  <line x1="735" y1="390" x2="735" y2="396" stroke="#333333" stroke-width="1.5"/>
+  <text x="735" y="412" font-size="14" text-anchor="middle" fill="#111111">600</text>
+  <line x1="860" y1="390" x2="860" y2="396" stroke="#333333" stroke-width="1.5"/>
+  <text x="860" y="412" font-size="14" text-anchor="middle" fill="#111111">800</text>
+  <text x="610" y="434" font-size="15" text-anchor="middle" fill="#111111">Pounds per week</text>
+  <text x="480" y="484" font-size="13" text-anchor="middle" fill="#333333">Illustrative figures for one invented driver; real earnings vary widely.</text>
+</svg>

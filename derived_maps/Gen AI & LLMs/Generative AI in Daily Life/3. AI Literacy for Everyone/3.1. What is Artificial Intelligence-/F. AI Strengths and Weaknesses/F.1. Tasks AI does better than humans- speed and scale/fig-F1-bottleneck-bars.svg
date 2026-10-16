@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Speeding up one stage of a mortgage process</title>
+  <desc>Two stacked horizontal bars. Before: document reading 6 hours, checks 2, decision 3, valuation and legal 13, total 24. After: document reading 0.1 hours, other stages unchanged, total about 18. The slowest stage now dominates.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Sixty times faster at one step, a quarter faster overall</text>
+  <text x="138" y="140" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Before</text>
+  <text x="138" y="160" text-anchor="end" font-size="14" fill="#111111">24 hours</text>
+  <rect x="150" y="115" width="180" height="60" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="330" y="115" width="60" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="390" y="115" width="90" height="60" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="480" y="115" width="390" height="60" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <text x="138" y="290" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">After</text>
+  <text x="138" y="310" text-anchor="end" font-size="14" fill="#111111">about 18 hours</text>
+  <rect x="150" y="265" width="4" height="60" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="154" y="265" width="60" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="214" y="265" width="90" height="60" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="304" y="265" width="390" height="60" fill="url(#lines)" stroke="#222222" stroke-width="1.5"/>
+  <rect x="165" y="190" width="160" height="40" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="245" y="207" text-anchor="middle" font-size="14" fill="#111111">Document reading</text>
+  <text x="245" y="224" text-anchor="middle" font-size="14" fill="#111111">6 h, then 0.1 h</text>
+  <line x1="240" y1="190" x2="240" y2="175" stroke="#1F3B5C" stroke-width="1.5"/>
+  <line x1="180" y1="230" x2="153" y2="265" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="560" y="190" width="240" height="40" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="680" y="207" text-anchor="middle" font-size="14" fill="#111111">Valuation and legal steps</text>
+  <text x="680" y="224" text-anchor="middle" font-size="14" fill="#111111">13 h in both cases</text>
+  <line x1="680" y1="190" x2="680" y2="175" stroke="#8B0000" stroke-width="1.5"/>
+  <line x1="600" y1="230" x2="560" y2="265" stroke="#8B0000" stroke-width="1.5"/>
+  <rect x="150" y="345" width="290" height="40" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="295" y="362" text-anchor="middle" font-size="14" fill="#111111">Checks 2 h (plain) and decision 3 h</text>
+  <text x="295" y="379" text-anchor="middle" font-size="14" fill="#111111">(dotted), unchanged</text>
+  <line x1="150" y1="420" x2="870" y2="420" stroke="#222222" stroke-width="1.5"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <line x1="150" y1="420" x2="150" y2="428" stroke="#222222"/><text x="150" y="446">0</text>
+    <line x1="300" y1="420" x2="300" y2="428" stroke="#222222"/><text x="300" y="446">5</text>
+    <line x1="450" y1="420" x2="450" y2="428" stroke="#222222"/><text x="450" y="446">10</text>
+    <line x1="600" y1="420" x2="600" y2="428" stroke="#222222"/><text x="600" y="446">15</text>
+    <line x1="750" y1="420" x2="750" y2="428" stroke="#222222"/><text x="750" y="446">20</text>
+    <line x1="870" y1="420" x2="870" y2="428" stroke="#222222"/><text x="870" y="446">24</text>
+  </g>
+  <text x="510" y="474" text-anchor="middle" font-size="16" fill="#111111">Hours per application</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures for a hypothetical lending process.</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A counterfactual explanation</title>
+  <desc>A chart with monthly income on the horizontal axis and existing monthly debt repayments on the vertical axis. A curved decision boundary separates a declined region at upper left from an approved region at lower right. The applicant's point lies in the declined region. Two arrows show the nearest changes that would cross into the approved region: lower debt repayments, or higher income. A third arrow, to a distant point, is marked as an unhelpful explanation.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">"What would have to change?" — the nearest route to a different decision</text>
+
+  <!-- plot area 120..840 x, 70..470 y -->
+  <path d="M120 70 L840 70 L840 110 C 700 140, 560 220, 470 300 C 400 360, 300 420, 220 470 L120 470 Z" fill="url(#lines)"/>
+  <path d="M840 110 C 700 140, 560 220, 470 300 C 400 360, 300 420, 220 470 L840 470 Z" fill="url(#cross)"/>
+  <path d="M840 110 C 700 140, 560 220, 470 300 C 400 360, 300 420, 220 470" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="120" y="70" width="720" height="400" fill="none" stroke="#222222" stroke-width="2"/>
+
+  <rect x="140" y="90" width="150" height="34" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="215" y="113" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Declined</text>
+  <rect x="670" y="410" width="150" height="34" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="745" y="433" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Approved</text>
+  <rect x="560" y="140" width="160" height="28" fill="#FFFFFF"/>
+  <text x="640" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Decision boundary</text>
+
+  <!-- applicant at (380,250) -->
+  <circle cx="380" cy="250" r="11" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <rect x="240" y="196" width="140" height="28" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="310" y="216" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">The applicant</text>
+
+  <!-- arrow down: lower debt -->
+  <line x1="380" y1="262" x2="380" y2="352" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="190" y="306" width="182" height="46" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="200" y="326" font-size="14" fill="#111111">A: repayments about</text>
+  <text x="200" y="344" font-size="14" fill="#111111">£150 a month lower</text>
+
+  <!-- arrow right: higher income -->
+  <line x1="392" y1="250" x2="512" y2="250" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="520" y="234" width="190" height="46" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="530" y="254" font-size="14" fill="#111111">B: income about</text>
+  <text x="530" y="272" font-size="14" fill="#111111">£600 a month higher</text>
+
+  <!-- long arrow to far point -->
+  <line x1="390" y1="258" x2="520" y2="404" stroke="#666666" stroke-width="2" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="400" y="414" width="250" height="46" fill="#FFFFFF" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="410" y="434" font-size="14" fill="#111111">C: far-off change — true but</text>
+  <text x="410" y="452" font-size="14" fill="#111111">unhelpful as an explanation</text>
+
+  <line x1="120" y1="470" x2="860" y2="470" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="500" text-anchor="middle" font-size="16" fill="#111111">Monthly income: lower to higher</text>
+  <line x1="120" y1="470" x2="120" y2="60" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="80" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 80 270)">Existing debt repayments</text>
+
+  <text x="480" y="540" text-anchor="middle" font-size="14" fill="#111111">A good counterfactual is near, realistic and within the person's control.</text>
+  <text x="480" y="566" text-anchor="middle" font-size="13" fill="#333333">Schematic with illustrative figures; real models use many more inputs than two.</text>
+</svg>

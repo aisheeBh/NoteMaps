@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Where to take a problem</title>
+  <desc>Five rising steps, each higher than the last, from the organisation's own complaints route, to an ombudsman, to a regulator, to a tribunal or court, with collective help from unions, charities and advice services shown as a base beneath all steps.</desc>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where to take a problem: step by step</text>
+
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="30" y="380" width="170" height="80" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="115" y="406" font-weight="bold" font-size="14">1. Ask the firm</text><text x="115" y="428">reasons, data,</text><text x="115" y="446">human review</text>
+
+    <rect x="210" y="320" width="170" height="140" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="295" y="348" font-weight="bold" font-size="15">2. Formal complaint</text><text x="295" y="370">in writing, with dates</text><text x="295" y="390">and evidence</text>
+
+    <rect x="390" y="260" width="170" height="200" fill="#FFFFFF" stroke="#333333" stroke-width="2.5"/>
+    <text x="475" y="288" font-weight="bold" font-size="15">3. Ombudsman</text><text x="475" y="310">independent and often</text><text x="475" y="330">free: finance, telecoms,</text><text x="475" y="350">public services</text>
+
+    <rect x="570" y="200" width="170" height="260" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="655" y="228" font-weight="bold" font-size="15">4. Regulator</text><text x="655" y="250">data-protection</text><text x="655" y="270">authority, equality</text><text x="655" y="290">body, consumer agency</text>
+
+    <rect x="750" y="140" width="180" height="320" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+    <text x="840" y="168" font-weight="bold" font-size="15" fill="#FFFFFF">5. Tribunal or court</text><text x="840" y="192" fill="#FFFFFF">appeal, judicial review,</text><text x="840" y="212" fill="#FFFFFF">compensation claims</text><text x="840" y="252" fill="#FFFFFF" font-style="italic">legal advice advised</text>
+  </g>
+
+  <rect x="30" y="472" width="900" height="44" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="480" y="500" text-anchor="middle" font-size="15" fill="#111111">At every step: unions, advice charities, digital-rights groups and legal-aid services can help, and can act collectively.</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">General outline; available steps and time limits differ by country and by type of decision.</text>
+</svg>

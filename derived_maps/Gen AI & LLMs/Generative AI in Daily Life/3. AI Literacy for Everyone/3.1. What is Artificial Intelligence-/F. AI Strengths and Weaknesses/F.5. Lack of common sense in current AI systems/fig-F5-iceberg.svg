@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The iceberg of common-sense knowledge</title>
+  <desc>An iceberg. Above the waterline: what people write about, such as news, surprises, expert facts and instructions. Below the waterline, much larger: what everyone knows and rarely states, such as objects fall, people have two hands, water is wet, customers want sensible quantities. Text-trained systems see mostly the part above the line.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What is written is the tip; what is known is the mass</text>
+  <polygon points="400,180 470,90 540,130 590,180" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
+  <line x1="40" y1="180" x2="920" y2="180" stroke="#1F3B5C" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="900" y="170" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">surface of written text</text>
+  <polygon points="400,180 590,180 720,300 690,450 520,530 330,490 230,360 280,240" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="610" y="70" width="300" height="84" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="622" y="92" font-size="15" font-weight="bold" fill="#111111">Often written down</text>
+  <text x="622" y="112" font-size="14" fill="#111111">news, surprises, disasters,</text>
+  <text x="622" y="130" font-size="14" fill="#111111">expert facts, instructions</text>
+  <text x="622" y="148" font-size="14" fill="#111111">— well represented in data</text>
+  <line x1="610" y1="112" x2="545" y2="135" stroke="#222222" stroke-width="1"/>
+  <rect x="320" y="250" width="330" height="190" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="485" y="276" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Known by everyone, rarely stated</text>
+  <text x="340" y="304" font-size="14" fill="#111111">unsupported objects fall</text>
+  <text x="340" y="326" font-size="14" fill="#111111">people usually have two hands</text>
+  <text x="340" y="348" font-size="14" fill="#111111">a meeting cannot end before it starts</text>
+  <text x="340" y="370" font-size="14" fill="#111111">a family does not order 260 nuggets</text>
+  <text x="340" y="392" font-size="14" fill="#111111">a cow on a beach is still a cow</text>
+  <text x="340" y="420" font-size="14" fill="#111111">— scarce in data, so often missed</text>
+  <rect x="40" y="200" width="200" height="64" fill="#FFFFFF" stroke="#555555" stroke-width="1" stroke-dasharray="8 4"/>
+  <text x="52" y="222" font-size="14" font-weight="bold" fill="#111111">Text-trained systems</text>
+  <text x="52" y="240" font-size="14" fill="#111111">learn mostly from what</text>
+  <text x="52" y="256" font-size="14" fill="#111111">lies above the line</text>
+  <text x="480" y="566" text-anchor="middle" font-size="13" fill="#333333">Conceptual illustration of reporting bias; proportions are not measured.</text>
+</svg>

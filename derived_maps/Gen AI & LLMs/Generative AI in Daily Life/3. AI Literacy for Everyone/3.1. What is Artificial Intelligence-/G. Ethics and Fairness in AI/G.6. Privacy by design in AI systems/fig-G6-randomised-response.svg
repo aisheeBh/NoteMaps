@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Randomised response</title>
+  <desc>A tree. A respondent flips a coin. Heads, with probability one half, leads to a truthful answer. Tails leads to a second coin flip: heads gives a forced yes with probability one quarter overall, tails a forced no with probability one quarter overall. Beside the tree, the calculation recovers the true rate from the observed rate of yes answers: observed equals one half times true plus one quarter, so 0.40 observed gives 0.30 true.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Randomised response: deniable answers, accurate totals</text>
+
+  <rect x="40" y="250" width="150" height="70" rx="10" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="115" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Respondent</text>
+  <text x="115" y="302" text-anchor="middle" font-size="14" fill="#FFFFFF">flips coin 1</text>
+
+  <line x1="190" y1="270" x2="270" y2="150" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="190" y1="300" x2="270" y2="410" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="190" y="182" width="72" height="24" fill="#FFFFFF"/>
+  <text x="226" y="200" text-anchor="middle" font-size="14" fill="#111111">heads ½</text>
+  <rect x="190" y="360" width="72" height="24" fill="#FFFFFF"/>
+  <text x="226" y="378" text-anchor="middle" font-size="14" fill="#111111">tails ½</text>
+
+  <rect x="275" y="110" width="200" height="76" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="375" y="142" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Answer truthfully</text>
+  <text x="375" y="166" text-anchor="middle" font-size="14" fill="#111111">probability ½</text>
+
+  <rect x="275" y="380" width="200" height="70" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="375" y="410" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Flip coin 2</text>
+  <text x="375" y="432" text-anchor="middle" font-size="14" fill="#111111">ignore the truth</text>
+
+  <line x1="475" y1="400" x2="535" y2="350" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="475" y1="430" x2="535" y2="490" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="540" y="310" width="150" height="66" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="615" y="338" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Say "yes"</text>
+  <text x="615" y="360" text-anchor="middle" font-size="14" fill="#111111">probability ¼</text>
+
+  <rect x="540" y="468" width="150" height="66" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="615" y="496" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Say "no"</text>
+  <text x="615" y="518" text-anchor="middle" font-size="14" fill="#111111">probability ¼</text>
+
+  <rect x="720" y="90" width="210" height="300" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="825" y="120" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Recovering the rate</text>
+  <text x="740" y="154" font-size="14" fill="#111111">observed "yes" share</text>
+  <text x="740" y="176" font-size="14" fill="#111111">= ½ × true rate + ¼</text>
+  <text x="740" y="214" font-size="14" fill="#111111">observed: 800 of 2,000</text>
+  <text x="740" y="236" font-size="14" fill="#111111">= 0.40</text>
+  <text x="740" y="274" font-size="14" fill="#111111">true rate</text>
+  <text x="740" y="296" font-size="14" fill="#111111">= (0.40 − 0.25) ÷ 0.5</text>
+  <text x="740" y="340" font-size="20" font-weight="bold" fill="#111111">= 0.30</text>
+  <text x="740" y="372" font-size="13" fill="#111111">illustrative figures</text>
+
+  <rect x="720" y="410" width="210" height="124" fill="#F2F2F2" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="825" y="438" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Why it is private</text>
+  <text x="732" y="464" font-size="14" fill="#111111">any single "yes" may</text>
+  <text x="732" y="484" font-size="14" fill="#111111">come from the coin, so</text>
+  <text x="732" y="504" font-size="14" fill="#111111">no answer incriminates</text>
+  <text x="732" y="524" font-size="14" fill="#111111">its respondent</text>
+
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Method introduced by Stanley Warner (1965); a simple instance of differential privacy with ε = ln 3 ≈ 1.1.</text>
+</svg>
