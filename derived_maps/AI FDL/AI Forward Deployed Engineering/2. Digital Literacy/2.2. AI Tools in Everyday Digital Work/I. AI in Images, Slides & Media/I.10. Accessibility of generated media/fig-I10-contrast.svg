@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Text contrast ratios</title>
+<desc>Six text and background colour pairs with their calculated contrast ratios and whether each passes the 4.5 to 1 threshold for normal text.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Contrast ratios for six text colour pairs</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Normal text needs at least 4.5:1; large text at least 3:1</text>
+<rect x="24" y="96" width="290" height="110" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+<text x="169.0" y="146.0" font-size="26" font-weight="bold" text-anchor="middle" fill="#111111">Sample text</text>
+<text x="169.0" y="180.0" font-size="16" font-weight="normal" text-anchor="middle" fill="#111111">Body text at 16 px</text>
+<text x="169.0" y="232.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Near-black on white</text>
+<text x="169.0" y="256.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">18.88:1  -  PASS</text>
+<rect x="336" y="96" width="290" height="110" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+<text x="481.0" y="146.0" font-size="26" font-weight="bold" text-anchor="middle" fill="#767676">Sample text</text>
+<text x="481.0" y="180.0" font-size="16" font-weight="normal" text-anchor="middle" fill="#767676">Body text at 16 px</text>
+<text x="481.0" y="232.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Mid grey on white</text>
+<text x="481.0" y="256.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">4.54:1  -  PASS</text>
+<rect x="648" y="96" width="290" height="110" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+<text x="793.0" y="146.0" font-size="26" font-weight="bold" text-anchor="middle" fill="#999999">Sample text</text>
+<text x="793.0" y="180.0" font-size="16" font-weight="normal" text-anchor="middle" fill="#999999">Body text at 16 px</text>
+<text x="793.0" y="232.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Light grey on white</text>
+<text x="793.0" y="256.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">2.85:1  -  FAIL</text>
+<rect x="24" y="306" width="290" height="110" fill="#1F3B5C" stroke="#222222" stroke-width="1.5"/>
+<text x="169.0" y="356.0" font-size="26" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Sample text</text>
+<text x="169.0" y="390.0" font-size="16" font-weight="normal" text-anchor="middle" fill="#FFFFFF">Body text at 16 px</text>
+<text x="169.0" y="442.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">White on dark blue</text>
+<text x="169.0" y="466.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">11.42:1  -  PASS</text>
+<rect x="336" y="306" width="290" height="110" fill="#E07A5F" stroke="#222222" stroke-width="1.5"/>
+<text x="481.0" y="356.0" font-size="26" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Sample text</text>
+<text x="481.0" y="390.0" font-size="16" font-weight="normal" text-anchor="middle" fill="#FFFFFF">Body text at 16 px</text>
+<text x="481.0" y="442.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">White on coral</text>
+<text x="481.0" y="466.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">2.95:1  -  FAIL</text>
+<rect x="648" y="306" width="290" height="110" fill="#BCD5EE" stroke="#222222" stroke-width="1.5"/>
+<text x="793.0" y="356.0" font-size="26" font-weight="bold" text-anchor="middle" fill="#1F3B5C">Sample text</text>
+<text x="793.0" y="390.0" font-size="16" font-weight="normal" text-anchor="middle" fill="#1F3B5C">Body text at 16 px</text>
+<text x="793.0" y="442.0" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Dark blue on pale blue</text>
+<text x="793.0" y="466.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">7.56:1  -  PASS</text>
+<text x="480.0" y="546.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Ratios calculated with the WCAG relative-luminance formula; colours are examples.</text>
+</svg>

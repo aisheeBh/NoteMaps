@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The shape of a field</title>
+  <desc>Horizontal stacked bars showing illustrative proportions of concepts, facts and procedures in five fields. Anatomy is mostly facts. Economics is mostly concepts. A programming language is mostly procedures. Contract law combines concepts and facts with some procedure. Clinical practice has a substantial share of all three.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Fields differ in what must be understood, remembered and practised</text>
+
+  <!-- legend with words inside swatches -->
+  <rect x="105" y="60" width="240" height="38" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="115" y="67" width="220" height="24" fill="#FFFFFF"/>
+  <text x="225" y="85" text-anchor="middle" font-size="15" fill="#111111">CONCEPTS: understand</text>
+  <rect x="360" y="60" width="240" height="38" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="370" y="67" width="220" height="24" fill="#FFFFFF"/>
+  <text x="480" y="85" text-anchor="middle" font-size="15" fill="#111111">FACTS: remember</text>
+  <rect x="615" y="60" width="240" height="38" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="625" y="67" width="220" height="24" fill="#FFFFFF"/>
+  <text x="735" y="85" text-anchor="middle" font-size="15" fill="#111111">PROCEDURES: practise</text>
+
+  <!-- bars: x from 260 to 900 = 640 px -->
+  <g font-size="16" fill="#111111" text-anchor="end">
+    <text x="245" y="152">Anatomy</text>
+    <text x="245" y="232">Economics</text>
+    <text x="245" y="312">Programming language</text>
+    <text x="245" y="392">Contract law</text>
+    <text x="245" y="472">Clinical practice</text>
+  </g>
+
+  <!-- Anatomy: C 20, F 65, P 15 -->
+  <rect x="260" y="122" width="128" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="388" y="122" width="416" height="50" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="804" y="122" width="96" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="556" y="135" width="80" height="24" fill="#FFFFFF"/><text x="596" y="153" text-anchor="middle" font-size="15" fill="#111111">facts</text>
+
+  <!-- Economics: C 65, F 15, P 20 -->
+  <rect x="260" y="202" width="416" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="676" y="202" width="96" height="50" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="772" y="202" width="128" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="418" y="215" width="100" height="24" fill="#FFFFFF"/><text x="468" y="233" text-anchor="middle" font-size="15" fill="#111111">concepts</text>
+
+  <!-- Programming: C 25, F 15, P 60 -->
+  <rect x="260" y="282" width="160" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="420" y="282" width="96" height="50" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="516" y="282" width="384" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="653" y="295" width="110" height="24" fill="#FFFFFF"/><text x="708" y="313" text-anchor="middle" font-size="15" fill="#111111">procedures</text>
+
+  <!-- Contract law: C 45, F 35, P 20 -->
+  <rect x="260" y="362" width="288" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="548" y="362" width="224" height="50" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="772" y="362" width="128" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="354" y="375" width="100" height="24" fill="#FFFFFF"/><text x="404" y="393" text-anchor="middle" font-size="15" fill="#111111">concepts</text>
+  <rect x="620" y="375" width="80" height="24" fill="#FFFFFF"/><text x="660" y="393" text-anchor="middle" font-size="15" fill="#111111">facts</text>
+
+  <!-- Clinical: C 35, F 30, P 35 -->
+  <rect x="260" y="442" width="224" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="484" y="442" width="192" height="50" fill="url(#dots)" stroke="#7A5200" stroke-width="1.5"/>
+  <rect x="676" y="442" width="224" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="322" y="455" width="100" height="24" fill="#FFFFFF"/><text x="372" y="473" text-anchor="middle" font-size="15" fill="#111111">concepts</text>
+  <rect x="540" y="455" width="80" height="24" fill="#FFFFFF"/><text x="580" y="473" text-anchor="middle" font-size="15" fill="#111111">facts</text>
+  <rect x="733" y="455" width="110" height="24" fill="#FFFFFF"/><text x="788" y="473" text-anchor="middle" font-size="15" fill="#111111">procedures</text>
+
+  <text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Illustrative proportions for discussion; not measured. The mix also depends on the learner's purpose.</text>
+</svg>

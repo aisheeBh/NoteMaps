@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Fading external support</title>
+  <desc>Two lines across four stages: I do, we do, you do with support, you do alone. External support from the teacher starts high and falls; the learner's own self-regulation starts low and rises. The lines cross between the second and third stages.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Support falls as self-regulation rises</text>
+
+  <line x1="120" y1="420" x2="880" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="420" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="60" y="245" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 245)">Share of regulation</text>
+  <g stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4">
+    <line x1="300" y1="420" x2="300" y2="80"/><line x1="480" y1="420" x2="480" y2="80"/><line x1="660" y1="420" x2="660" y2="80"/>
+  </g>
+  <g font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">
+    <text x="210" y="446">I DO</text><text x="390" y="446">WE DO</text><text x="570" y="446">YOU DO,</text><text x="750" y="446">YOU DO</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="210" y="466">expert models</text><text x="390" y="466">joint, prompted</text><text x="570" y="466">with support</text><text x="750" y="466">alone</text>
+  </g>
+
+  <!-- support: dashed falling -->
+  <path d="M150 110 C 300 120, 420 200, 520 280 C 600 340, 700 380, 850 395" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- self-regulation: solid rising -->
+  <path d="M150 395 C 300 385, 420 300, 520 230 C 600 175, 700 130, 850 112" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+
+  <rect x="160" y="130" width="230" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="172" y="148" font-size="15" font-weight="bold" fill="#111111">External support</text>
+  <text x="172" y="166" font-size="14" fill="#111111">teacher, mentor or tool</text>
+
+  <rect x="620" y="140" width="240" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="632" y="158" font-size="15" font-weight="bold" fill="#111111">Learner's self-regulation</text>
+  <text x="632" y="176" font-size="14" fill="#111111">plans, monitors, evaluates</text>
+
+  <text x="480" y="515" text-anchor="middle" font-size="13" fill="#333333">Schematic. The pace of fading should follow evidence of the learner's own regulation, not a fixed timetable.</text>
+</svg>

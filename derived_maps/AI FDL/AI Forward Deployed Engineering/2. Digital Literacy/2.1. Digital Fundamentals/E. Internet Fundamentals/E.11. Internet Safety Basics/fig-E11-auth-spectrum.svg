@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Sign-in methods by phishing resistance</title>
+  <desc>A horizontal spectrum from weakest to strongest: password only; password plus SMS code; password plus authenticator app code; push approval with number matching; passkey; hardware security key. A divider marks where methods become phishing-resistant.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">From weakest to strongest against phishing</text>
+  <rect x="40" y="140" width="135" height="80" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="69.5" y="160.25" width="76.0" height="21" fill="#FFFFFF"/>
+  <text x="107.5" y="175.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Password</text>
+  <rect x="86.0" y="180.25" width="43.0" height="21" fill="#FFFFFF"/>
+  <text x="107.5" y="195.25" text-anchor="middle" font-size="15" fill="#111111">only</text>
+  <line x1="177" y1="180" x2="190" y2="180" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="190" y="140" width="135" height="80" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="231.875" y="160.25" width="51.25" height="21" fill="#FFFFFF"/>
+  <text x="257.5" y="175.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">+ SMS</text>
+  <rect x="236.0" y="180.25" width="43.0" height="21" fill="#FFFFFF"/>
+  <text x="257.5" y="195.25" text-anchor="middle" font-size="15" fill="#111111">code</text>
+  <line x1="327" y1="180" x2="340" y2="180" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="340" y="140" width="135" height="80" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="381.875" y="160.25" width="51.25" height="21" fill="#FFFFFF"/>
+  <text x="407.5" y="175.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">+ app</text>
+  <rect x="386.0" y="180.25" width="43.0" height="21" fill="#FFFFFF"/>
+  <text x="407.5" y="195.25" text-anchor="middle" font-size="15" fill="#111111">code</text>
+  <line x1="477" y1="180" x2="490" y2="180" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="490" y="140" width="135" height="80" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="515.375" y="160.25" width="84.25" height="21" fill="#FFFFFF"/>
+  <text x="557.5" y="175.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Push with</text>
+  <rect x="503.0" y="180.25" width="109.00000000000001" height="21" fill="#FFFFFF"/>
+  <text x="557.5" y="195.25" text-anchor="middle" font-size="15" fill="#111111">number match</text>
+  <line x1="627" y1="180" x2="640" y2="180" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="640" y="140" width="135" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="673.625" y="160.25" width="67.75" height="21" fill="#FFFFFF"/>
+  <text x="707.5" y="175.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Passkey</text>
+  <rect x="665.375" y="180.25" width="84.25" height="21" fill="#FFFFFF"/>
+  <text x="707.5" y="195.25" text-anchor="middle" font-size="15" fill="#111111">on device</text>
+  <line x1="777" y1="180" x2="790" y2="180" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="790" y="140" width="135" height="80" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="819.5" y="160.25" width="76.0" height="21" fill="#FFFFFF"/>
+  <text x="857.5" y="175.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Security</text>
+  <rect x="840.125" y="180.25" width="34.75" height="21" fill="#FFFFFF"/>
+  <text x="857.5" y="195.25" text-anchor="middle" font-size="15" fill="#111111">key</text>
+  <line x1="40" y1="260" x2="925" y2="260" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="40" y="285" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">weaker</text>
+  <text x="925" y="285" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">stronger</text>
+  <line x1="637" y1="110" x2="637" y2="240" stroke="#222222" stroke-width="3" stroke-dasharray="8 5"/>
+  <rect x="516.5" y="90" width="241.00000000000003" height="22" fill="#FFFFFF"/>
+  <text x="637" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">phishing-resistant from here</text>
+  <rect x="40" y="320" width="560" height="80" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="320.0" y="355.25" text-anchor="middle" font-size="15" fill="#111111">Codes and approvals can be relayed by a fake site</text>
+  <text x="320.0" y="375.25" text-anchor="middle" font-size="15" fill="#111111">as the victim types or taps them.</text>
+  <rect x="640" y="320" width="285" height="80" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="782.5" y="355.25" text-anchor="middle" font-size="15" fill="#111111">Bound to the genuine site:</text>
+  <text x="782.5" y="375.25" text-anchor="middle" font-size="15" fill="#111111">nothing usable to steal</text>
+  <text x="480.0" y="445" text-anchor="middle" font-size="13" fill="#333333">Any multi-factor method is much better than a password alone.</text>
+</svg>

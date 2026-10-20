@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Levels of analysis in metacognition research</title>
+  <desc>Five stacked bands from bottom to top: neural, individual, dyad and team, organisation, and human-machine system. Each band names what is studied and an example finding, from prefrontal correlates of metacognitive accuracy to pooling of confidence in pairs, high-reliability practices and calibration of trust in AI.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Five levels at which metacognition is studied</text>
+
+  <!-- human-machine (top) -->
+  <rect x="40" y="60" width="880" height="96" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="56" y="72" width="250" height="72" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="181" y="104" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">HUMAN-MACHINE</text>
+  <text x="181" y="126" text-anchor="middle" font-size="14" fill="#111111">people with AI tools</text>
+  <rect x="320" y="72" width="584" height="72" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="336" y="102" font-size="15" fill="#111111">Fluent AI output raises users' confidence beyond accuracy;</text>
+  <text x="336" y="124" font-size="15" fill="#111111">model self-assessments help only with independent checks.</text>
+
+  <!-- organisation -->
+  <rect x="40" y="166" width="880" height="96" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="56" y="178" width="250" height="72" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="181" y="210" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">ORGANISATION</text>
+  <text x="181" y="232" text-anchor="middle" font-size="14" fill="#111111">structures and routines</text>
+  <rect x="320" y="178" width="584" height="72" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="336" y="208" font-size="15" fill="#111111">High-reliability organisations build vigilance into practice:</text>
+  <text x="336" y="230" font-size="15" fill="#111111">preoccupation with failure, reluctance to simplify.</text>
+
+  <!-- team -->
+  <rect x="40" y="272" width="880" height="96" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="56" y="284" width="250" height="72" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="181" y="316" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">DYAD AND TEAM</text>
+  <text x="181" y="338" text-anchor="middle" font-size="14" fill="#111111">shared confidence</text>
+  <rect x="320" y="284" width="584" height="72" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="336" y="314" font-size="15" fill="#111111">Pairs who pool confidence can outperform their better member;</text>
+  <text x="336" y="336" font-size="15" fill="#111111">teams regulate learning jointly.</text>
+
+  <!-- individual -->
+  <rect x="40" y="378" width="880" height="96" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <rect x="56" y="390" width="250" height="72" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="181" y="422" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">INDIVIDUAL</text>
+  <text x="181" y="444" text-anchor="middle" font-size="14" fill="#111111">knowledge, monitoring, control</text>
+  <rect x="320" y="390" width="584" height="72" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="336" y="420" font-size="15" fill="#111111">Judgements are cue-based inferences; delayed, retrieval-based</text>
+  <text x="336" y="442" font-size="15" fill="#111111">judgements are far more accurate than immediate ones.</text>
+
+  <!-- neural -->
+  <rect x="40" y="484" width="880" height="96" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="56" y="496" width="250" height="72" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="181" y="528" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">NEURAL</text>
+  <text x="181" y="550" text-anchor="middle" font-size="14" fill="#111111">brain structure and signals</text>
+  <rect x="320" y="496" width="584" height="72" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="336" y="526" font-size="15" fill="#111111">Anterior prefrontal cortex linked to metacognitive accuracy;</text>
+  <text x="336" y="548" font-size="15" fill="#111111">error signals arise within a fraction of a second.</text>
+
+  <text x="480" y="606" text-anchor="middle" font-size="13" fill="#333333">Each level adds structures that can support, or substitute for, the individual's own monitoring and control.</text>
+</svg>

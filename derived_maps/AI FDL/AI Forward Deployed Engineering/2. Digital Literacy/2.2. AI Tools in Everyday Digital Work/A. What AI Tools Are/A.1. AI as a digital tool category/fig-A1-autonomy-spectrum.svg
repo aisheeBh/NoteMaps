@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How much an AI tool does on its own</title>
+  <desc>Five boxes in a row from suggest, draft, decide within limits, act, to act independently, above an arrow running from person decides each step to tool pursues goal alone.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">How much an AI tool does on its own</text>
+  <rect x="24" y="76" width="171" height="268" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="110" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Suggest</text>
+  <text x="110" y="210" text-anchor="middle" font-size="13.5" fill="#111111">Proposes; the person</text>
+  <text x="110" y="227" text-anchor="middle" font-size="13.5" fill="#111111">chooses. Predictive</text>
+  <text x="110" y="245" text-anchor="middle" font-size="13.5" fill="#111111">text.</text>
+  <line x1="110" y1="344" x2="110" y2="372" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="110" cy="380" r="6" fill="#111111"/>
+  <rect x="209" y="76" width="171" height="268" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="295" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Draft</text>
+  <text x="295" y="210" text-anchor="middle" font-size="13.5" fill="#111111">Produces a full first</text>
+  <text x="295" y="227" text-anchor="middle" font-size="13.5" fill="#111111">version for editing.</text>
+  <text x="295" y="245" text-anchor="middle" font-size="13.5" fill="#111111">Report drafts.</text>
+  <line x1="295" y1="344" x2="295" y2="372" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="295" cy="380" r="6" fill="#111111"/>
+  <rect x="394" y="76" width="171" height="268" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="402" y="151" width="155" height="120" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="480" y="171" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Decide within</text>
+  <text x="480" y="191" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">limits</text>
+  <text x="480" y="211" text-anchor="middle" font-size="13.5" fill="#111111">Settles routine cases;</text>
+  <text x="480" y="228" text-anchor="middle" font-size="13.5" fill="#111111">people take exceptions.</text>
+  <text x="480" y="246" text-anchor="middle" font-size="13.5" fill="#111111">Small expense</text>
+  <text x="480" y="264" text-anchor="middle" font-size="13.5" fill="#111111">approvals.</text>
+  <line x1="480" y1="344" x2="480" y2="372" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="480" cy="380" r="6" fill="#111111"/>
+  <rect x="580" y="76" width="171" height="268" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="665" y="181" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Act</text>
+  <text x="665" y="201" text-anchor="middle" font-size="13.5" fill="#111111">Runs multi-step tasks</text>
+  <text x="665" y="218" text-anchor="middle" font-size="13.5" fill="#111111">with check-ins.</text>
+  <text x="665" y="236" text-anchor="middle" font-size="13.5" fill="#111111">Research and booking</text>
+  <text x="665" y="254" text-anchor="middle" font-size="13.5" fill="#111111">agents.</text>
+  <line x1="665" y1="344" x2="665" y2="372" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="665" cy="380" r="6" fill="#111111"/>
+  <rect x="765" y="76" width="171" height="268" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="850" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Act independently</text>
+  <text x="850" y="210" text-anchor="middle" font-size="13.5" fill="#111111">Pursues a goal with</text>
+  <text x="850" y="227" text-anchor="middle" font-size="13.5" fill="#111111">little oversight. Rare</text>
+  <text x="850" y="245" text-anchor="middle" font-size="13.5" fill="#111111">and risky at work.</text>
+  <line x1="850" y1="344" x2="850" y2="372" stroke="#222222" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="850" cy="380" r="6" fill="#111111"/>
+  <line x1="40" y1="380" x2="920" y2="380" stroke="#222222" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="40" y="410" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Person decides each step</text>
+  <text x="920" y="410" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Tool pursues the goal</text>
+  <text x="480" y="464" text-anchor="middle" font-size="13" font-style="italic" fill="#111111">The same model can sit at any point: autonomy is set by product design and permissions.</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The method of differences</title>
+  <desc>Three columns of wheels hold the current value of f(x) = x squared plus x plus 41, the first difference and the constant second difference 2. Each step adds the second difference to the first difference and the first difference to the value, producing 43, 47, 53, 61, 71, 83 using addition only.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Generating f(x) = x² + x + 41 by addition alone</text>
+  <text x="90" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">x</text>
+  <text x="90" y="140" text-anchor="middle" font-size="16" fill="#111111">0</text>
+  <text x="90" y="190" text-anchor="middle" font-size="16" fill="#111111">1</text>
+  <text x="90" y="240" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <text x="90" y="290" text-anchor="middle" font-size="16" fill="#111111">3</text>
+  <text x="90" y="340" text-anchor="middle" font-size="16" fill="#111111">4</text>
+  <text x="90" y="390" text-anchor="middle" font-size="16" fill="#111111">5</text>
+  <text x="90" y="440" text-anchor="middle" font-size="16" fill="#111111">6</text>
+  <text x="270" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Value f(x)</text>
+  <rect x="200" y="116" width="140" height="38" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="270.0" y="140.6" text-anchor="middle" font-size="16" fill="#FFFFFF">41</text>
+  <rect x="200" y="166" width="140" height="38" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="270.0" y="190.6" text-anchor="middle" font-size="16" fill="#FFFFFF">43</text>
+  <rect x="200" y="216" width="140" height="38" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="270.0" y="240.6" text-anchor="middle" font-size="16" fill="#FFFFFF">47</text>
+  <rect x="200" y="266" width="140" height="38" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="270.0" y="290.6" text-anchor="middle" font-size="16" fill="#FFFFFF">53</text>
+  <rect x="200" y="316" width="140" height="38" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="270.0" y="340.6" text-anchor="middle" font-size="16" fill="#FFFFFF">61</text>
+  <rect x="200" y="366" width="140" height="38" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="270.0" y="390.6" text-anchor="middle" font-size="16" fill="#FFFFFF">71</text>
+  <rect x="200" y="416" width="140" height="38" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <text x="270.0" y="440.6" text-anchor="middle" font-size="16" fill="#FFFFFF">83</text>
+  <text x="490" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">First difference</text>
+  <rect x="420" y="166" width="140" height="38" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="490.0" y="190.6" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <rect x="420" y="216" width="140" height="38" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="490.0" y="240.6" text-anchor="middle" font-size="16" fill="#111111">4</text>
+  <rect x="420" y="266" width="140" height="38" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="490.0" y="290.6" text-anchor="middle" font-size="16" fill="#111111">6</text>
+  <rect x="420" y="316" width="140" height="38" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="490.0" y="340.6" text-anchor="middle" font-size="16" fill="#111111">8</text>
+  <rect x="420" y="366" width="140" height="38" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="490.0" y="390.6" text-anchor="middle" font-size="16" fill="#111111">10</text>
+  <rect x="420" y="416" width="140" height="38" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="490.0" y="440.6" text-anchor="middle" font-size="16" fill="#111111">12</text>
+  <text x="710" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Second difference</text>
+  <rect x="640" y="216" width="140" height="38" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="710.0" y="240.6" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <rect x="640" y="266" width="140" height="38" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="710.0" y="290.6" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <rect x="640" y="316" width="140" height="38" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="710.0" y="340.6" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <rect x="640" y="366" width="140" height="38" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="710.0" y="390.6" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <rect x="640" y="416" width="140" height="38" rx="6" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="710.0" y="440.6" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <line x1="640" y1="431" x2="562" y2="431" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="601" y="423" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">+2</text>
+  <line x1="420" y1="439" x2="342" y2="439" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="381" y="461" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">+12</text>
+  <rect x="800" y="300" width="140" height="120" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="870.0" y="345.9" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Each new row</text>
+  <text x="870.0" y="364.9" text-anchor="middle" font-size="14" fill="#111111">needs only</text>
+  <text x="870.0" y="383.9" text-anchor="middle" font-size="14" fill="#111111">two additions</text>
+  <text x="480" y="545" text-anchor="middle" font-size="13" fill="#333333">Babbage's own demonstration polynomial; the values are exact.</text>
+</svg>

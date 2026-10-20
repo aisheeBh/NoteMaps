@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of rules governing AI use at work</title>
+  <desc>Five layers from law at the top through professional rules, contracts with clients and suppliers, organisational policy, to individual judgement at the base.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Layers of rules governing AI use at work</text>
+  <rect x="160" y="71" width="770" height="87" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="180" y="120" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">Law</text>
+  <text x="405" y="110" text-anchor="start" font-size="14.5" fill="#FFFFFF">Data protection, discrimination, consumer, copyright and</text>
+  <text x="405" y="129" text-anchor="start" font-size="14.5" fill="#FFFFFF">sector law; AI-specific laws such as the EU AI Act.</text>
+  <rect x="160" y="168" width="770" height="87" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="180" y="217" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Professional rules</text>
+  <text x="405" y="207" text-anchor="start" font-size="14.5" fill="#111111">Codes of conduct, regulator guidance, court practice</text>
+  <text x="405" y="226" text-anchor="start" font-size="14.5" fill="#111111">directions, publishing ethics.</text>
+  <rect x="160" y="265" width="770" height="87" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="172" y="274" width="745" height="69" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="180" y="314" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Contracts</text>
+  <text x="405" y="304" text-anchor="start" font-size="14.5" fill="#111111">Client engagement terms, supplier and AI provider agreements,</text>
+  <text x="405" y="322" text-anchor="start" font-size="14.5" fill="#111111">data processing terms.</text>
+  <rect x="160" y="361" width="770" height="87" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="180" y="411" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Organisational policy</text>
+  <text x="405" y="400" text-anchor="start" font-size="14.5" fill="#111111">Approved tools, data rules, permitted uses, verification and</text>
+  <text x="405" y="419" text-anchor="start" font-size="14.5" fill="#111111">disclosure duties.</text>
+  <rect x="160" y="458" width="770" height="87" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="180" y="508" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Individual judgement</text>
+  <text x="405" y="497" text-anchor="start" font-size="14.5" fill="#111111">Applying all of the above to the task at hand, and asking when</text>
+  <text x="405" y="516" text-anchor="start" font-size="14.5" fill="#111111">unsure.</text>
+  <line x1="80" y1="538" x2="80" y2="78" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <rect x="18" y="106" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Set</text>
+  <text x="80" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">externally</text>
+  <rect x="18" y="462" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="478" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Applied</text>
+  <text x="80" y="496" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">personally</text>
+</svg>

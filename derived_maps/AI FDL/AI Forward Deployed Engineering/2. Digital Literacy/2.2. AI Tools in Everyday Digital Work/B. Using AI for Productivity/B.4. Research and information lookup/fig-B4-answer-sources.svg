@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Where an AI answer comes from</title>
+  <desc>Three columns comparing the sources of an AI answer. Model memory: learned in training, has a cut-off date, cannot cite reliably. Retrieved sources: found by search at question time, current, citable but only as good as the pages retrieved. Supplied documents: provided by the user, controlled and checkable, limited to what was supplied.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where an AI answer comes from</text>
+  <rect x="40" y="80" width="279" height="260" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="179" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Model memory</text>
+  <text x="58" y="148" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="148" text-anchor="start" font-size="15" fill="#111111">Learned during training</text>
+  <text x="58" y="176" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="176" text-anchor="start" font-size="15" fill="#111111">Fixed at a cut-off date</text>
+  <text x="58" y="204" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="204" text-anchor="start" font-size="15" fill="#111111">Broad but blurred</text>
+  <text x="58" y="231" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="231" text-anchor="start" font-size="15" fill="#111111">Cannot reliably say where a</text>
+  <text x="72" y="250" text-anchor="start" font-size="15" fill="#111111">fact came from</text>
+  <rect x="341" y="80" width="279" height="260" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="351" y="90" width="259" height="240" fill="#FFFFFF" rx="4"/>
+  <text x="480" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Retrieved sources</text>
+  <text x="359" y="148" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="373" y="148" text-anchor="start" font-size="15" fill="#111111">Found by search when asked</text>
+  <text x="359" y="176" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="373" y="176" text-anchor="start" font-size="15" fill="#111111">Can be current</text>
+  <text x="359" y="204" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="373" y="204" text-anchor="start" font-size="15" fill="#111111">Citable, but citations may</text>
+  <text x="373" y="223" text-anchor="start" font-size="15" fill="#111111">not support claims</text>
+  <text x="359" y="250" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="373" y="250" text-anchor="start" font-size="15" fill="#111111">Only as good as the pages</text>
+  <text x="373" y="270" text-anchor="start" font-size="15" fill="#111111">found</text>
+  <rect x="641" y="80" width="279" height="260" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="781" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#000000">Supplied documents</text>
+  <text x="659" y="148" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="673" y="148" text-anchor="start" font-size="15" fill="#000000">Provided by the user</text>
+  <text x="659" y="176" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="673" y="176" text-anchor="start" font-size="15" fill="#000000">Controlled and checkable</text>
+  <text x="659" y="204" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="673" y="204" text-anchor="start" font-size="15" fill="#000000">Limited to what was</text>
+  <text x="673" y="223" text-anchor="start" font-size="15" fill="#000000">supplied</text>
+  <text x="659" y="250" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="673" y="250" text-anchor="start" font-size="15" fill="#000000">Best for questions about</text>
+  <text x="673" y="270" text-anchor="start" font-size="15" fill="#000000">those documents</text>
+  <text x="480" y="376" text-anchor="middle" font-size="13" fill="#333333">Most AI tools blend all three in one answer without saying which part came from where.</text>
+</svg>

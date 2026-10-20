@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Which features a churn model relied on most</title>
+  <desc>Horizontal bars showing the relative importance of seven features in a model predicting whether a subscriber will cancel. Recent lack of product use and monthly contracts carry the most weight; region carries little.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Feature importance in a subscription-cancellation model</text>
+  <line x1="400" y1="70" x2="400" y2="430" stroke="#222222" stroke-width="2"/>
+  <text x="388" y="109" font-size="15" fill="#111111" text-anchor="end">Months since last product use</text>
+  <rect x="400" y="88" width="465" height="32" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="871" y="92" width="48" height="24" fill="#FFFFFF"/>
+  <text x="875" y="110" font-size="15" fill="#111111">31%</text>
+  <text x="388" y="159" font-size="15" fill="#111111" text-anchor="end">Contract type: monthly</text>
+  <rect x="400" y="138" width="330" height="32" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="736" y="142" width="48" height="24" fill="#FFFFFF"/>
+  <text x="740" y="160" font-size="15" fill="#111111">22%</text>
+  <text x="388" y="209" font-size="15" fill="#111111" text-anchor="end">Support calls in last 90 days</text>
+  <rect x="400" y="188" width="225" height="32" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="631" y="192" width="48" height="24" fill="#FFFFFF"/>
+  <text x="635" y="210" font-size="15" fill="#111111">15%</text>
+  <text x="388" y="259" font-size="15" fill="#111111" text-anchor="end">Change in monthly usage</text>
+  <rect x="400" y="238" width="180" height="32" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="586" y="242" width="48" height="24" fill="#FFFFFF"/>
+  <text x="590" y="260" font-size="15" fill="#111111">12%</text>
+  <text x="388" y="309" font-size="15" fill="#111111" text-anchor="end">Tenure in years</text>
+  <rect x="400" y="288" width="135" height="32" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="541" y="292" width="48" height="24" fill="#FFFFFF"/>
+  <text x="545" y="310" font-size="15" fill="#111111">9%</text>
+  <text x="388" y="359" font-size="15" fill="#111111" text-anchor="end">Discount ending within 60 days</text>
+  <rect x="400" y="338" width="105" height="32" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="511" y="342" width="48" height="24" fill="#FFFFFF"/>
+  <text x="515" y="360" font-size="15" fill="#111111">7%</text>
+  <text x="388" y="409" font-size="15" fill="#111111" text-anchor="end">Region</text>
+  <rect x="400" y="388" width="60" height="32" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="466" y="392" width="48" height="24" fill="#FFFFFF"/>
+  <text x="470" y="410" font-size="15" fill="#111111">4%</text>
+  <line x1="400" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="1.5"/>
+  <text x="650" y="456" font-size="15" fill="#111111" text-anchor="middle">Share of the model's total reliance on its features</text>
+  <rect x="60" y="474" width="840" height="48" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="480" y="496" font-size="15" fill="#111111" text-anchor="middle">Importance shows what the model leaned on to predict cancellation in past data,</text>
+  <text x="480" y="515" font-size="15" fill="#111111" text-anchor="middle">not what causes customers to cancel or what would make them stay.</text>
+  <text x="480" y="548" font-size="13" fill="#333333" text-anchor="middle">Illustrative figures.</text>
+</svg>

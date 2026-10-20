@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>An example provenance log</title>
+  <desc>A table with columns Section, Origin, Tool, Sources, Checks and Approver, with four example rows.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Provenance log (example)</text>
+  <rect x="30" y="80" width="150" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="105" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Section</text>
+  <rect x="180" y="80" width="140" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="250" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Origin</text>
+  <rect x="320" y="80" width="130" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="385" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Tool</text>
+  <rect x="450" y="80" width="190" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="545" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Sources</text>
+  <rect x="640" y="80" width="190" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="735" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Checks</text>
+  <rect x="830" y="80" width="110" height="50" rx="0" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="885" y="110" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Approver</text>
+  <rect x="30" y="130" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="105" y="174" text-anchor="middle" font-size="15" fill="#111111">1 Summary</text>
+  <rect x="180" y="130" width="140" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="250" y="174" text-anchor="middle" font-size="15" fill="#111111">Human</text>
+  <rect x="320" y="130" width="130" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="385" y="174" text-anchor="middle" font-size="15" fill="#111111">—</text>
+  <rect x="450" y="130" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="545" y="174" text-anchor="middle" font-size="15" fill="#111111">—</text>
+  <rect x="640" y="130" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="735" y="174" text-anchor="middle" font-size="15" fill="#111111">Read by lead</text>
+  <rect x="830" y="130" width="110" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="885" y="174" text-anchor="middle" font-size="15" fill="#111111">Lead</text>
+  <rect x="30" y="210" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="105" y="254" text-anchor="middle" font-size="15" fill="#111111">2 Market size</text>
+  <rect x="180" y="210" width="140" height="80" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="188" y="234" width="124" height="30" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="250" y="254" text-anchor="middle" font-size="15" fill="#111111">AI-drafted</text>
+  <rect x="320" y="210" width="130" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="385" y="245" text-anchor="middle" font-size="15" fill="#111111">Suite</text>
+  <text x="385" y="264" text-anchor="middle" font-size="15" fill="#111111">assistant</text>
+  <rect x="450" y="210" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="545" y="254" text-anchor="middle" font-size="15" fill="#111111">Dataset; 2 reports</text>
+  <rect x="640" y="210" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="735" y="254" text-anchor="middle" font-size="15" fill="#111111">Figures recalculated</text>
+  <rect x="830" y="210" width="110" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="885" y="254" text-anchor="middle" font-size="15" fill="#111111">Analyst B</text>
+  <rect x="30" y="290" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="105" y="334" text-anchor="middle" font-size="15" fill="#111111">3 Competitors</text>
+  <rect x="180" y="290" width="140" height="80" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="188" y="314" width="124" height="30" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="250" y="334" text-anchor="middle" font-size="15" fill="#111111">AI-assisted</text>
+  <rect x="320" y="290" width="130" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="385" y="325" text-anchor="middle" font-size="15" fill="#111111">Suite</text>
+  <text x="385" y="344" text-anchor="middle" font-size="15" fill="#111111">assistant</text>
+  <rect x="450" y="290" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="545" y="334" text-anchor="middle" font-size="15" fill="#111111">—</text>
+  <rect x="640" y="290" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="735" y="334" text-anchor="middle" font-size="15" fill="#111111">Names and facts</text>
+  <rect x="830" y="290" width="110" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="885" y="334" text-anchor="middle" font-size="15" fill="#111111">Analyst C</text>
+  <rect x="30" y="370" width="150" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="105" y="414" text-anchor="middle" font-size="15" fill="#111111">4 Recommend.</text>
+  <rect x="180" y="370" width="140" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="250" y="414" text-anchor="middle" font-size="15" fill="#111111">Human</text>
+  <rect x="320" y="370" width="130" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="385" y="414" text-anchor="middle" font-size="15" fill="#111111">—</text>
+  <rect x="450" y="370" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="545" y="414" text-anchor="middle" font-size="15" fill="#111111">—</text>
+  <rect x="640" y="370" width="190" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="735" y="414" text-anchor="middle" font-size="15" fill="#111111">Partner review</text>
+  <rect x="830" y="370" width="110" height="80" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="885" y="414" text-anchor="middle" font-size="15" fill="#111111">Partner</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" fill="#333333">Illustrative entries.</text>
+</svg>

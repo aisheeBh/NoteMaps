@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Maturity of AI capabilities in 2026</title>
+  <desc>Four horizontal bands from most to least mature. Routine and largely invisible: fraud detection, spam filtering, recommendations, speech recognition, translation. Widely used with human checking: writing and summarising assistants, coding assistants, image generation, customer-service chatbots. Emerging in limited settings: autonomous agents, driverless taxis in some cities, AI-assisted scientific discovery, medical-imaging support. Research frontier: reliable factual accuracy, general-purpose household robots, learning continuously from experience, broadly general intelligence.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">From routine to research frontier</text>
+
+  <line x1="60" y1="80" x2="60" y2="520" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="40" y="300" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 40 300)">less mature, less reliable</text>
+
+  <rect x="80" y="70" width="840" height="100" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="80" y="180" width="840" height="100" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="80" y="290" width="840" height="100" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="80" y="400" width="840" height="100" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+
+  <g fill="#FFFFFF" stroke="#222222" stroke-width="1">
+    <rect x="95" y="85" width="230" height="70"/><rect x="340" y="85" width="565" height="70"/>
+    <rect x="95" y="195" width="230" height="70"/><rect x="340" y="195" width="565" height="70"/>
+    <rect x="95" y="305" width="230" height="70"/><rect x="340" y="305" width="565" height="70"/>
+    <rect x="95" y="415" width="230" height="70"/><rect x="340" y="415" width="565" height="70"/>
+  </g>
+
+  <g font-size="16" font-weight="bold" fill="#111111">
+    <text x="110" y="114">Routine, often</text><text x="110" y="136">invisible</text>
+    <text x="110" y="224">Widely used,</text><text x="110" y="246">with human checking</text>
+    <text x="110" y="334">Emerging in</text><text x="110" y="356">limited settings</text>
+    <text x="110" y="444">Research</text><text x="110" y="466">frontier</text>
+  </g>
+  <g font-size="15" fill="#111111">
+    <text x="355" y="114">fraud detection, spam filtering, recommendations,</text>
+    <text x="355" y="136">speech recognition, machine translation</text>
+    <text x="355" y="224">writing and summarising assistants, coding assistants,</text>
+    <text x="355" y="246">image generation, customer-service chatbots</text>
+    <text x="355" y="334">autonomous agents, driverless taxis in some cities,</text>
+    <text x="355" y="356">AI-assisted science, medical-imaging support</text>
+    <text x="355" y="444">reliable factual accuracy, general household robots,</text>
+    <text x="355" y="466">continual learning, broadly general intelligence</text>
+  </g>
+
+  <text x="480" y="548" text-anchor="middle" font-size="15" fill="#111111">Capabilities move up the bands over time; placement reflects deployment in 2026, not test scores.</text>
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Conceptual classification; boundaries between bands are judgements and differ by country and sector.</text>
+</svg>

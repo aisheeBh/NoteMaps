@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of the workplace AI landscape</title>
+  <desc>Five layers from foundation models at the base, through cloud platforms and APIs, general assistants, embedded and specialist applications, to agents acting across tools at the top.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Layers of the workplace AI landscape</text>
+  <rect x="160" y="71" width="770" height="87" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="180" y="120" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Agents</text>
+  <text x="405" y="110" text-anchor="start" font-size="14.5" fill="#111111">Carry out multi-step tasks across email, files and business</text>
+  <text x="405" y="129" text-anchor="start" font-size="14.5" fill="#111111">systems.</text>
+  <rect x="160" y="168" width="770" height="87" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="180" y="207" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Embedded and</text>
+  <text x="180" y="227" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">specialist apps</text>
+  <text x="405" y="207" text-anchor="start" font-size="14.5" fill="#111111">Office suites, CRM, service desks, legal and clinical tools</text>
+  <text x="405" y="226" text-anchor="start" font-size="14.5" fill="#111111">with AI built in.</text>
+  <rect x="160" y="265" width="770" height="87" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="180" y="314" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">General assistants</text>
+  <text x="405" y="304" text-anchor="start" font-size="14.5" fill="#111111">ChatGPT, Gemini, Claude, Copilot and others, used directly by</text>
+  <text x="405" y="322" text-anchor="start" font-size="14.5" fill="#111111">people.</text>
+  <rect x="160" y="361" width="770" height="87" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="172" y="370" width="745" height="69" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="180" y="401" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Cloud platforms and</text>
+  <text x="180" y="421" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">APIs</text>
+  <text x="405" y="400" text-anchor="start" font-size="14.5" fill="#111111">Model access for developers and in-house tools, priced by</text>
+  <text x="405" y="419" text-anchor="start" font-size="14.5" fill="#111111">usage.</text>
+  <rect x="160" y="458" width="770" height="87" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="180" y="508" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">Foundation models</text>
+  <text x="405" y="497" text-anchor="start" font-size="14.5" fill="#FFFFFF">A small number of frontier and open-weight models underneath</text>
+  <text x="405" y="516" text-anchor="start" font-size="14.5" fill="#FFFFFF">almost everything.</text>
+  <line x1="80" y1="538" x2="80" y2="78" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <rect x="18" y="106" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Closer to the</text>
+  <text x="80" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">worker</text>
+  <rect x="18" y="462" width="124" height="44" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="80" y="478" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Closer to the</text>
+  <text x="80" y="496" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">model</text>
+</svg>

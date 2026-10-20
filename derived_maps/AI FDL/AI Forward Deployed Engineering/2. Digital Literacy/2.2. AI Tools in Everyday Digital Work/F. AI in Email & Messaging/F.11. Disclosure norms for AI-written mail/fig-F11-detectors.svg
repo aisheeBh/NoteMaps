@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>AI detectors and writing by non-native English speakers</title>
+  <desc>Horizontal bars from a 2023 study: across seven detectors, essays written by non-native English speakers for a language test were misclassified as AI-generated on average about 61 per cent of the time, while essays by native-speaking US school students were misclassified rarely.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">AI detectors and writing by non-native English speakers</text>
+  <text x="370" y="97" text-anchor="end" font-size="15" fill="#111111">Non-native speakers' test essays (average</text>
+  <text x="370" y="115" text-anchor="end" font-size="15" fill="#111111">false 'AI' rate)</text>
+  <rect x="384" y="86" width="278" height="36" rx="3" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5"/>
+  <text x="672" y="110" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about 61%</text>
+  <text x="370" y="168" text-anchor="end" font-size="15" fill="#111111">Native-speaking US students' essays</text>
+  <rect x="384" y="148" width="23" height="36" rx="3" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="417" y="172" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">rarely misclassified</text>
+  <line x1="384" y1="76" x2="384" y2="204" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="248" text-anchor="middle" font-size="13" fill="#333333">Liang and colleagues (2023); averages across seven detectors available at the time. Human-written texts throughout; the short</text>
+  <text x="480" y="264" text-anchor="middle" font-size="13" fill="#333333">bar is schematic, indicating a low rate.</text>
+</svg>

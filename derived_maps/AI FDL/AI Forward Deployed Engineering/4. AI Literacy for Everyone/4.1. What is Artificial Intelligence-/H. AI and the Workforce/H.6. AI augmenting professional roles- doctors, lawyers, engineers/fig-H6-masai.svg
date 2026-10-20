@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 376" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Reported effects of AI-supported breast screening in a randomised trial</title>
+  <desc>Horizontal bars. Screen-reading workload reduction 44 per cent. Increase in cancer detection about 29 per cent. Increase in false positives about zero per cent.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">AI-supported screening: change versus standard double reading</text>
+  <text x="326" y="104" font-size="15" text-anchor="end" fill="#111111">Screen-reading workload (reduction)</text>
+  <rect x="340" y="80" width="458" height="36" rx="0" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="804" y="86" width="42" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="808" y="104" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">-44%</text>
+  <text x="326" y="166" font-size="15" text-anchor="end" fill="#111111">Cancer detection (increase)</text>
+  <rect x="340" y="142" width="302" height="36" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="648" y="148" width="42" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="652" y="166" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">+29%</text>
+  <text x="326" y="228" font-size="15" text-anchor="end" fill="#111111">False positives (change)</text>
+  <rect x="340" y="204" width="5" height="36" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <rect x="351" y="210" width="68" height="24" fill="#FFFFFF" stroke="none"/>
+  <text x="355" y="228" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">no rise</text>
+  <line x1="340" y1="70" x2="340" y2="266" stroke="#333333" stroke-width="2"/>
+  <line x1="340" y1="266" x2="860" y2="266" stroke="#333333" stroke-width="2"/>
+  <line x1="340" y1="266" x2="340" y2="272" stroke="#333333" stroke-width="1.5"/>
+  <text x="340" y="288" font-size="14" text-anchor="middle" fill="#111111">0</text>
+  <line x1="444" y1="266" x2="444" y2="272" stroke="#333333" stroke-width="1.5"/>
+  <text x="444" y="288" font-size="14" text-anchor="middle" fill="#111111">10</text>
+  <line x1="548" y1="266" x2="548" y2="272" stroke="#333333" stroke-width="1.5"/>
+  <text x="548" y="288" font-size="14" text-anchor="middle" fill="#111111">20</text>
+  <line x1="652" y1="266" x2="652" y2="272" stroke="#333333" stroke-width="1.5"/>
+  <text x="652" y="288" font-size="14" text-anchor="middle" fill="#111111">30</text>
+  <line x1="756" y1="266" x2="756" y2="272" stroke="#333333" stroke-width="1.5"/>
+  <text x="756" y="288" font-size="14" text-anchor="middle" fill="#111111">40</text>
+  <line x1="860" y1="266" x2="860" y2="272" stroke="#333333" stroke-width="1.5"/>
+  <text x="860" y="288" font-size="14" text-anchor="middle" fill="#111111">50</text>
+  <text x="600" y="310" font-size="15" text-anchor="middle" fill="#111111">Change relative to standard double reading (%)</text>
+  <text x="480" y="360" font-size="13" text-anchor="middle" fill="#333333">Summary of published trial results (Sweden); one programme and one system.</text>
+</svg>

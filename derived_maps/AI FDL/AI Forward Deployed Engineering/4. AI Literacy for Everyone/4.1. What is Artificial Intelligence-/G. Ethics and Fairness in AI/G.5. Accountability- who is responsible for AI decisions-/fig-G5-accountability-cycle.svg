@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The accountability relationship</title>
+  <desc>On the left, the actor: an organisation deploying an AI system. On the right, the forum: a board, regulator, court or the public. Three arrows pass between them in order: information from actor to forum, debate in both directions, and consequences from forum to actor. Beneath, a box shows redress flowing to the affected person.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Accountability: an actor answers to a forum</text>
+
+  <rect x="40" y="90" width="250" height="250" rx="12" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="165" y="150" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">ACTOR</text>
+  <text x="165" y="190" text-anchor="middle" font-size="15" fill="#FFFFFF">organisation that</text>
+  <text x="165" y="212" text-anchor="middle" font-size="15" fill="#FFFFFF">builds or deploys</text>
+  <text x="165" y="234" text-anchor="middle" font-size="15" fill="#FFFFFF">the AI system</text>
+  <text x="165" y="280" text-anchor="middle" font-size="14" fill="#FFFFFF">and its named</text>
+  <text x="165" y="300" text-anchor="middle" font-size="14" fill="#FFFFFF">senior owner</text>
+
+  <rect x="670" y="90" width="250" height="250" rx="12" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="795" y="150" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">FORUM</text>
+  <text x="795" y="190" text-anchor="middle" font-size="15" fill="#111111">board, regulator,</text>
+  <text x="795" y="212" text-anchor="middle" font-size="15" fill="#111111">court, auditor,</text>
+  <text x="795" y="234" text-anchor="middle" font-size="15" fill="#111111">parliament or public</text>
+
+  <line x1="300" y1="130" x2="660" y2="130" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="340" y="100" width="280" height="24" fill="#FFFFFF"/>
+  <text x="480" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1. Information</text>
+  <text x="480" y="154" text-anchor="middle" font-size="14" fill="#111111">reports, logs, documentation</text>
+
+  <line x1="300" y1="215" x2="660" y2="215" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <rect x="340" y="185" width="280" height="24" fill="#FFFFFF"/>
+  <text x="480" y="203" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2. Debate</text>
+  <text x="480" y="239" text-anchor="middle" font-size="14" fill="#111111">questions asked, choices justified</text>
+
+  <line x1="660" y1="300" x2="300" y2="300" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="340" y="270" width="280" height="24" fill="#FFFFFF"/>
+  <text x="480" y="288" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3. Consequences</text>
+  <text x="480" y="324" text-anchor="middle" font-size="14" fill="#111111">judgement, sanctions, required fixes</text>
+
+  <line x1="165" y1="345" x2="400" y2="420" stroke="#1E5E24" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="400" y="390" width="320" height="90" rx="10" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="560" y="420" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Redress to the affected person</text>
+  <text x="560" y="446" text-anchor="middle" font-size="14" fill="#111111">correction, reconsideration,</text>
+  <text x="560" y="466" text-anchor="middle" font-size="14" fill="#111111">apology, compensation</text>
+
+  <text x="480" y="520" text-anchor="middle" font-size="14" fill="#111111">Without all three phases, and a route to redress, there is answerability at most — not accountability.</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">After the account of accountability given by Mark Bovens (2007).</text>
+</svg>

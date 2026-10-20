@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Plausibility and accuracy are independent</title>
+  <desc>A two-by-two grid. Columns: the statement sounds plausible, or sounds implausible. Rows: it is true, or false. Plausible and true: ordinary knowledge. Plausible and false: the danger zone, where errors pass review. Implausible and true: surprising truths that get wrongly rejected. Implausible and false: obvious errors that are easy to catch.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Plausibility and accuracy are separate questions</text>
+  <text x="385.0" y="86" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Sounds plausible</text>
+  <text x="745.0" y="86" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Sounds implausible</text>
+  <text x="120" y="195.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 120 195.0)">True</text>
+  <text x="120" y="395.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 120 395.0)">False</text>
+  <rect x="210" y="100" width="350" height="190" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="385.0" y="160.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">FAMILIAR TRUTH</text>
+  <text x="385.0" y="183.0" text-anchor="middle" font-size="15" fill="#111111">Ordinary, expected</text>
+  <text x="385.0" y="203.2" text-anchor="middle" font-size="15" fill="#111111">knowledge</text>
+  <text x="385.0" y="223.5" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="385.0" y="243.7" text-anchor="middle" font-size="15" fill="#111111">Accepted, rightly</text>
+  <rect x="570" y="100" width="350" height="190" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="745.0" y="160.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">SURPRISING TRUTH</text>
+  <text x="745.0" y="183.0" text-anchor="middle" font-size="15" fill="#111111">Counter-intuitive but</text>
+  <text x="745.0" y="203.2" text-anchor="middle" font-size="15" fill="#111111">correct</text>
+  <text x="745.0" y="223.5" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="745.0" y="243.7" text-anchor="middle" font-size="15" fill="#111111">Risk: wrongly rejected</text>
+  <rect x="210" y="300" width="350" height="190" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="385.0" y="360.4" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">THE DANGER ZONE</text>
+  <text x="385.0" y="384.7" text-anchor="middle" font-size="15" fill="#111111">Sounds right, is wrong</text>
+  <text x="385.0" y="404.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="385.0" y="425.2" text-anchor="middle" font-size="15" fill="#111111">Passes casual review;</text>
+  <text x="385.0" y="445.4" text-anchor="middle" font-size="15" fill="#111111">needs deliberate checking</text>
+  <rect x="570" y="300" width="350" height="190" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="745.0" y="370.1" text-anchor="middle" font-size="17" fill="#222222" font-weight="bold">OBVIOUS ERROR</text>
+  <text x="745.0" y="393.1" text-anchor="middle" font-size="15" fill="#222222">Sounds wrong, is wrong</text>
+  <text x="745.0" y="413.3" text-anchor="middle" font-size="15" fill="#222222"></text>
+  <text x="745.0" y="433.6" text-anchor="middle" font-size="15" fill="#222222">Usually caught at once</text>
+  <text x="480.0" y="530" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Generated text is optimised to sound plausible, so its errors concentrate in the lower-left cell.</text>
+</svg>

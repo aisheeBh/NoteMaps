@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Internet use by group, 2025</title>
+  <desc>Horizontal bars show the share of people using the Internet in 2025 according to ITU estimates: world about 74 percent, high-income countries 94, low-income countries 23, urban 85, rural 58, men 77, women 71.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Who uses the Internet? Share of people online, 2025</text>
+  <text x="286" y="106" text-anchor="end" font-size="15" fill="#111111">World</text>
+  <rect x="300" y="86" width="414.4" height="30" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="727.025" y="92" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="744.4" y="107" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">74%</text>
+  <text x="286" y="166" text-anchor="end" font-size="15" fill="#111111">High-income countries</text>
+  <rect x="300" y="146" width="526.4" height="30" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="839.025" y="152" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="856.4" y="167" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">94%</text>
+  <text x="286" y="226" text-anchor="end" font-size="15" fill="#111111">Low-income countries</text>
+  <rect x="300" y="206" width="128.8" height="30" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="441.425" y="212" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="458.8" y="227" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">23%</text>
+  <text x="286" y="286" text-anchor="end" font-size="15" fill="#111111">Urban residents</text>
+  <rect x="300" y="266" width="476.0" height="30" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="788.625" y="272" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="806.0" y="287" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">85%</text>
+  <text x="286" y="346" text-anchor="end" font-size="15" fill="#111111">Rural residents</text>
+  <rect x="300" y="326" width="324.8" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="637.425" y="332" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="654.8" y="347" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">58%</text>
+  <text x="286" y="406" text-anchor="end" font-size="15" fill="#111111">Men</text>
+  <rect x="300" y="386" width="431.2" height="30" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="743.825" y="392" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="761.2" y="407" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">77%</text>
+  <text x="286" y="466" text-anchor="end" font-size="15" fill="#111111">Women</text>
+  <rect x="300" y="446" width="397.6" height="30" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="710.225" y="452" width="34.75" height="22" fill="#FFFFFF"/>
+  <text x="727.6" y="467" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">71%</text>
+  <line x1="300" y1="75" x2="300" y2="505" stroke="#222222" stroke-width="2"/>
+  <text x="300.0" y="525" text-anchor="middle" font-size="14" fill="#111111">0%</text>
+  <text x="580.0" y="525" text-anchor="middle" font-size="14" fill="#111111">50%</text>
+  <text x="860.0" y="525" text-anchor="middle" font-size="14" fill="#111111">100%</text>
+  <text x="480.0" y="572" text-anchor="middle" font-size="13" fill="#333333">Rounded estimates from the International Telecommunication Union for 2025; world figure is about three-quarters of the population.</text>
+</svg>

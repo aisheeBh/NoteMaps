@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Reliability falls with distance from the training conditions</title>
+  <desc>Schematic chart. As cases move from familiar, through shifted, to unfamiliar conditions, actual accuracy falls steeply while the system's stated confidence stays high, opening a gap in which errors go unnoticed.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#F6CACA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8B0000" stroke-width="1.2"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Accuracy falls outside familiar conditions; confidence often does not</text>
+
+  <!-- zone bands -->
+  <rect x="100" y="70" width="250" height="370" fill="#F2F2F2"/>
+  <rect x="350" y="70" width="250" height="370" fill="#FFFFFF"/>
+  <rect x="600" y="70" width="300" height="370" fill="#F2F2F2"/>
+  <text x="225" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">FAMILIAR</text>
+  <text x="225" y="114" text-anchor="middle" font-size="14" fill="#111111">like the training data</text>
+  <text x="475" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">SHIFTED</text>
+  <text x="475" y="114" text-anchor="middle" font-size="14" fill="#111111">new site, season, users</text>
+  <text x="750" y="94" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">UNFAMILIAR</text>
+  <text x="750" y="114" text-anchor="middle" font-size="14" fill="#111111">rare or novel cases</text>
+
+  <!-- gap area between confidence and accuracy -->
+  <path d="M350 165 C 450 168, 600 172, 880 178 L 880 400 C 760 395, 650 370, 600 330 C 520 260, 430 190, 350 165 Z" fill="url(#hatch)" stroke="none"/>
+
+  <!-- axes -->
+  <line x1="100" y1="440" x2="910" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="440" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="505" y="474" text-anchor="middle" font-size="16" fill="#111111">Distance from the conditions the system was built for</text>
+  <text x="54" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 54 260)">Accuracy or stated confidence</text>
+
+  <!-- confidence: dashed, stays high -->
+  <path d="M110 150 C 250 152, 350 160, 450 168 C 600 172, 750 175, 880 178" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- accuracy: solid, falls -->
+  <path d="M110 145 C 250 148, 320 155, 350 165 C 430 190, 520 260, 600 330 C 650 370, 760 395, 880 400" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+
+  <rect x="660" y="134" width="210" height="28" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="765" y="154" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Stated confidence</text>
+  <rect x="660" y="410" width="210" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="765" y="429" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Actual accuracy</text>
+
+  <rect x="610" y="236" width="230" height="50" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="725" y="257" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Danger gap</text>
+  <text x="725" y="277" text-anchor="middle" font-size="14" fill="#111111">confident, unnoticed errors</text>
+
+  <text x="480" y="510" text-anchor="middle" font-size="15" fill="#111111">Remedies: test where the system is used, monitor drift, route unusual cases to people.</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic of a widely observed pattern; not plotted from a single dataset. Many systems are better calibrated than shown.</text>
+</svg>

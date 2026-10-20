@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Object level and meta level</title>
+  <desc>The meta level holds a model of the object level. Monitoring carries information upward from the object level to the meta level; control carries decisions downward from the meta level to the object level.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Two levels of processing, linked in two directions</text>
+
+  <rect x="250" y="70" width="460" height="130" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="290" y="88" width="380" height="94" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="480" y="116" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">META LEVEL</text>
+  <text x="480" y="142" text-anchor="middle" font-size="15" fill="#111111">a simplified model of what the</text>
+  <text x="480" y="162" text-anchor="middle" font-size="15" fill="#111111">object level is doing and how well</text>
+
+  <rect x="250" y="340" width="460" height="130" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="480" y="384" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">OBJECT LEVEL</text>
+  <text x="480" y="410" text-anchor="middle" font-size="15" fill="#111111">the cognition itself: encoding,</text>
+  <text x="480" y="430" text-anchor="middle" font-size="15" fill="#111111">retrieving, reasoning, deciding</text>
+
+  <line x1="340" y1="336" x2="340" y2="208" stroke="#222222" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="620" y1="204" x2="620" y2="332" stroke="#222222" stroke-width="4" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+
+  <text x="40" y="250" font-size="18" font-weight="bold" fill="#111111">MONITORING</text>
+  <text x="40" y="272" font-size="15" fill="#111111">information flows up</text>
+  <text x="40" y="300" font-size="14" fill="#111111">e.g. "This definition</text>
+  <text x="40" y="318" font-size="14" fill="#111111">is not sticking."</text>
+  <line x1="200" y1="265" x2="330" y2="265" stroke="#555555" stroke-width="1"/>
+
+  <text x="740" y="250" font-size="18" font-weight="bold" fill="#111111">CONTROL</text>
+  <text x="740" y="272" font-size="15" fill="#111111">decisions flow down</text>
+  <text x="740" y="300" font-size="14" fill="#111111">e.g. "Stop re-reading;</text>
+  <text x="740" y="318" font-size="14" fill="#111111">test myself instead."</text>
+  <line x1="630" y1="265" x2="732" y2="265" stroke="#555555" stroke-width="1"/>
+
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#333333">After Nelson and Narens (1990). The meta level never sees the object level directly, only its model of it.</text>
+</svg>

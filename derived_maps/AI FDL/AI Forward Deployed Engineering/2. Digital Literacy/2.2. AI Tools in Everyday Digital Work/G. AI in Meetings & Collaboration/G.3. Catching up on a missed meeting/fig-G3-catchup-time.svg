@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Time to catch up on a 60-minute meeting</title>
+<desc>Bar chart of approximate review time for a 60-minute meeting by method.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="44" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Minutes to catch up on a 60-minute meeting</text>
+<line x1="290.0" y1="74" x2="290.0" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="290.0" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">0</text>
+<line x1="420.7142857142857" y1="74" x2="420.7142857142857" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="420.7142857142857" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">15</text>
+<line x1="551.4285714285714" y1="74" x2="551.4285714285714" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="551.4285714285714" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">30</text>
+<line x1="682.1428571428571" y1="74" x2="682.1428571428571" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="682.1428571428571" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">45</text>
+<line x1="812.8571428571429" y1="74" x2="812.8571428571429" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="812.8571428571429" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">60</text>
+<line x1="290" y1="74" x2="290" y2="460" stroke="#222222" stroke-width="2"/>
+<text x="278" y="116.66666666666667" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Read the AI recap</text>
+<rect x="290" y="92.03333333333333" width="26.142857142857142" height="39.266666666666666" rx="2" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+<text x="324.14285714285717" y="116.66666666666667" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">about 3 min</text>
+<text x="278" y="171.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Recap, then key</text>
+<text x="278" y="189.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">passages only</text>
+<rect x="290" y="155.36666666666667" width="130.71428571428572" height="39.266666666666666" rx="2" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<text x="428.7142857142857" y="180.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">about 15 min</text>
+<text x="278" y="234.33333333333334" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Read full transcript</text>
+<text x="278" y="252.33333333333334" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">(about 250 words/min)</text>
+<rect x="290" y="218.70000000000002" width="313.7142857142857" height="39.266666666666666" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<text x="611.7142857142858" y="243.33333333333334" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">about 36 min</text>
+<text x="278" y="306.6666666666667" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Recording at 2x</text>
+<rect x="290" y="282.03333333333336" width="261.42857142857144" height="39.266666666666666" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="559.4285714285714" y="306.6666666666667" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">30 min</text>
+<text x="278" y="370.00000000000006" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Recording at 1.5x</text>
+<rect x="290" y="345.36666666666673" width="348.57142857142856" height="39.266666666666666" rx="2" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="646.5714285714286" y="370.00000000000006" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">40 min</text>
+<text x="278" y="433.33333333333337" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Recording at normal speed</text>
+<rect x="290" y="408.70000000000005" width="522.8571428571429" height="39.266666666666666" rx="2" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<text x="820.8571428571429" y="433.33333333333337" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">60 min</text>
+<text x="40" y="516" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Illustrative figures: assumes about 9,000 spoken words; reading and review times vary by person.</text>
+</svg>

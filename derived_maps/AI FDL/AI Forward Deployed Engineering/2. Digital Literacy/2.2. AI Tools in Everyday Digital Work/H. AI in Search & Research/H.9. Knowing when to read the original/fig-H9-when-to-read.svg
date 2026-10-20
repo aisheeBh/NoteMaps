@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>When the summary is enough</title>
+  <desc>Two by two grid. Horizontal axis: how much depends on detail, little to a lot. Vertical axis: stakes, low to high. Top left: read the key passage. Top right: read the original in full, the relevant sections. Bottom left: the summary is enough. Bottom right: read targeted sections such as tables, definitions and exceptions.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">When the summary is enough</text>
+  <rect x="176" y="82" width="358" height="198" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="355" y="164" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Read the key passage</text>
+  <text x="355" y="191" text-anchor="middle" font-size="14.5" fill="#111111">Confirm the headline in context before</text>
+  <text x="355" y="210" text-anchor="middle" font-size="14.5" fill="#111111">relying on it.</text>
+  <rect x="546" y="82" width="358" height="198" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="554" y="145" width="342" height="75" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="725" y="164" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Read the original</text>
+  <text x="725" y="191" text-anchor="middle" font-size="14.5" fill="#111111">Quoted, decisive or binding: read the</text>
+  <text x="725" y="210" text-anchor="middle" font-size="14.5" fill="#111111">relevant text in full.</text>
+  <rect x="176" y="292" width="358" height="198" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="355" y="374" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Summary is enough</text>
+  <text x="355" y="401" text-anchor="middle" font-size="14.5" fill="#111111">Orientation and background; label it as a</text>
+  <text x="355" y="420" text-anchor="middle" font-size="14.5" fill="#111111">summary.</text>
+  <rect x="546" y="292" width="358" height="198" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="554" y="364" width="342" height="56" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="725" y="383" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Targeted reading</text>
+  <text x="725" y="410" text-anchor="middle" font-size="14.5" fill="#111111">Tables, definitions, exceptions and dates.</text>
+  <line x1="170" y1="512" x2="910" y2="512" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="540" y="542" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">How much depends on detail</text>
+  <text x="170" y="542" text-anchor="start" font-size="14" fill="#111111">Little</text>
+  <text x="910" y="542" text-anchor="end" font-size="14" fill="#111111">A lot</text>
+  <line x1="154" y1="496" x2="154" y2="76" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="126" y="286" text-anchor="middle" font-size="16" font-weight="bold" transform="rotate(-90 126 286)" fill="#111111">Stakes of the use</text>
+  <text x="100" y="496" text-anchor="start" font-size="14" transform="rotate(-90 100 496)" fill="#111111">Low</text>
+  <text x="100" y="76" text-anchor="end" font-size="14" transform="rotate(-90 100 76)" fill="#111111">High</text>
+</svg>

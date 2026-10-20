@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A confusion matrix for a fraud model</title>
+  <desc>A two-by-two grid. Rows show what was actually true: fraud or genuine. Columns show what the model predicted: flagged or not flagged. The four cells hold 80 true positives, 20 false negatives, 70 false positives and 9,830 true negatives. Formulas for precision and recall are shown alongside.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">The confusion matrix: four kinds of outcome</text>
+  <text x="470" y="84" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">What the model predicted</text>
+  <text x="345" y="112" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Flagged as fraud</text>
+  <text x="595" y="112" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Not flagged</text>
+  <text x="70" y="250" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle" transform="rotate(-90 70 250)">What was actually true</text>
+  <text x="200" y="185" font-size="16" font-weight="bold" fill="#111111" text-anchor="end">Fraud</text>
+  <text x="200" y="335" font-size="16" font-weight="bold" fill="#111111" text-anchor="end">Genuine</text>
+  <rect x="220" y="124" width="250" height="150" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="245" y="146" width="200" height="106" fill="#FFFFFF"/>
+  <text x="345" y="174" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">True positive</text>
+  <text x="345" y="208" font-size="26" font-weight="bold" fill="#111111" text-anchor="middle">80</text>
+  <text x="345" y="236" font-size="15" fill="#111111" text-anchor="middle">fraud caught</text>
+  <rect x="470" y="124" width="250" height="150" fill="url(#lines)" stroke="#8B0000" stroke-width="3"/>
+  <rect x="495" y="146" width="200" height="106" fill="#FFFFFF"/>
+  <text x="595" y="174" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">False negative</text>
+  <text x="595" y="208" font-size="26" font-weight="bold" fill="#111111" text-anchor="middle">20</text>
+  <text x="595" y="236" font-size="15" fill="#111111" text-anchor="middle">fraud missed</text>
+  <rect x="220" y="274" width="250" height="150" fill="url(#dots)" stroke="#7A5200" stroke-width="3"/>
+  <rect x="245" y="296" width="200" height="106" fill="#FFFFFF"/>
+  <text x="345" y="324" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">False positive</text>
+  <text x="345" y="358" font-size="26" font-weight="bold" fill="#111111" text-anchor="middle">70</text>
+  <text x="345" y="386" font-size="15" fill="#111111" text-anchor="middle">genuine flagged</text>
+  <rect x="470" y="274" width="250" height="150" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="495" y="296" width="200" height="106" fill="#FFFFFF"/>
+  <text x="595" y="324" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">True negative</text>
+  <text x="595" y="358" font-size="26" font-weight="bold" fill="#111111" text-anchor="middle">9,830</text>
+  <text x="595" y="386" font-size="15" fill="#111111" text-anchor="middle">genuine passed</text>
+  <g font-size="15" fill="#111111">
+    <text x="740" y="150" font-weight="bold">Recall</text>
+    <text x="740" y="172">caught ÷ all real fraud</text>
+    <text x="740" y="194">80 ÷ (80 + 20) = 80%</text>
+    <text x="740" y="300" font-weight="bold">Specificity</text>
+    <text x="740" y="322">passed ÷ all genuine</text>
+    <text x="740" y="344">9,830 ÷ 9,900 = 99.3%</text>
+  </g>
+  <rect x="220" y="440" width="250" height="76" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="345" y="464" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">Precision</text>
+  <text x="345" y="486" font-size="15" fill="#111111" text-anchor="middle">caught ÷ all flagged</text>
+  <text x="345" y="508" font-size="15" fill="#111111" text-anchor="middle">80 ÷ (80 + 70) = 53%</text>
+  <rect x="490" y="440" width="300" height="76" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="640" y="464" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">Accuracy</text>
+  <text x="640" y="486" font-size="15" fill="#111111" text-anchor="middle">all correct ÷ all cases</text>
+  <text x="640" y="508" font-size="15" fill="#111111" text-anchor="middle">(80 + 9,830) ÷ 10,000 = 99.1%</text>
+  <text x="480" y="575" font-size="13" fill="#333333" text-anchor="middle">Illustrative figures: 10,000 transactions, of which 100 are fraudulent.</text>
+</svg>

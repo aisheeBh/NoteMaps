@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Accuracy against labelled examples, with and without a pre-trained starting point</title>
+  <desc>Two curves of accuracy on new data against the number of labelled examples on a logarithmic scale. A model starting from pre-trained knowledge is far more accurate when few labelled examples exist; a model trained from scratch catches up only with very large amounts of data.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Transfer pays most when labelled data is scarce</text>
+  <line x1="120" y1="80" x2="120" y2="430" stroke="#222222" stroke-width="2"/>
+  <line x1="120" y1="430" x2="890" y2="430" stroke="#222222" stroke-width="2"/>
+  <text x="60" y="255" font-size="16" fill="#111111" text-anchor="middle" transform="rotate(-90 60 255)">Accuracy on new data</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <line x1="120" y1="430" x2="120" y2="438" stroke="#222222"/><text x="120" y="458">100</text>
+    <line x1="373" y1="430" x2="373" y2="438" stroke="#222222"/><text x="373" y="458">1,000</text>
+    <line x1="627" y1="430" x2="627" y2="438" stroke="#222222"/><text x="627" y="458">10,000</text>
+    <line x1="880" y1="430" x2="880" y2="438" stroke="#222222"/><text x="880" y="458">100,000</text>
+  </g>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <line x1="112" y1="373" x2="120" y2="373" stroke="#222222"/><text x="106" y="378">50%</text>
+    <line x1="112" y1="317" x2="120" y2="317" stroke="#222222"/><text x="106" y="322">60%</text>
+    <line x1="112" y1="260" x2="120" y2="260" stroke="#222222"/><text x="106" y="265">70%</text>
+    <line x1="112" y1="203" x2="120" y2="203" stroke="#222222"/><text x="106" y="208">80%</text>
+    <line x1="112" y1="147" x2="120" y2="147" stroke="#222222"/><text x="106" y="152">90%</text>
+  </g>
+  <polyline points="120.0,279.5 127.6,277.9 135.2,276.2 142.8,274.5 150.4,272.6 158.0,270.7 165.6,268.7 173.2,266.6 180.8,264.4 188.4,262.2 196.0,259.8 203.6,257.4 211.2,254.9 218.8,252.4 226.4,249.8 234.0,247.1 241.6,244.4 249.2,241.6 256.8,238.8 264.4,235.9 272.0,233.0 279.6,230.1 287.2,227.1 294.8,224.2 302.4,221.2 310.0,218.2 317.6,215.3 325.2,212.4 332.8,209.5 340.4,206.6 348.0,203.8 355.6,201.0 363.2,198.3 370.8,195.7 378.4,193.1 386.0,190.6 393.6,188.1 401.2,185.7 408.8,183.4 416.4,181.2 424.0,179.0 431.6,177.0 439.2,175.0 446.8,173.1 454.4,171.3 462.0,169.5 469.6,167.9 477.2,166.3 484.8,164.8 492.4,163.4 500.0,162.0 507.6,160.7 515.2,159.5 522.8,158.4 530.4,157.3 538.0,156.2 545.6,155.3 553.2,154.4 560.8,153.5 568.4,152.7 576.0,151.9 583.6,151.2 591.2,150.6 598.8,149.9 606.4,149.3 614.0,148.8 621.6,148.3 629.2,147.8 636.8,147.3 644.4,146.9 652.0,146.5 659.6,146.1 667.2,145.8 674.8,145.5 682.4,145.2 690.0,144.9 697.6,144.6 705.2,144.4 712.8,144.1 720.4,143.9 728.0,143.7 735.6,143.5 743.2,143.4 750.8,143.2 758.4,143.1 766.0,142.9 773.6,142.8 781.2,142.7 788.8,142.5 796.4,142.4 804.0,142.3 811.6,142.2 819.2,142.2 826.8,142.1 834.4,142.0 842.0,141.9 849.6,141.9 857.2,141.8 864.8,141.8 872.4,141.7 880.0,141.7" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <polyline points="120.0,398.1 127.6,397.8 135.2,397.6 142.8,397.3 150.4,397.0 158.0,396.7 165.6,396.4 173.2,396.0 180.8,395.6 188.4,395.2 196.0,394.8 203.6,394.4 211.2,393.9 218.8,393.4 226.4,392.8 234.0,392.3 241.6,391.6 249.2,391.0 256.8,390.3 264.4,389.6 272.0,388.8 279.6,387.9 287.2,387.1 294.8,386.1 302.4,385.2 310.0,384.1 317.6,383.0 325.2,381.8 332.8,380.6 340.4,379.3 348.0,377.9 355.6,376.5 363.2,375.0 370.8,373.3 378.4,371.7 386.0,369.9 393.6,368.0 401.2,366.1 408.8,364.0 416.4,361.9 424.0,359.7 431.6,357.3 439.2,354.9 446.8,352.4 454.4,349.7 462.0,347.0 469.6,344.2 477.2,341.2 484.8,338.2 492.4,335.1 500.0,331.9 507.6,328.6 515.2,325.2 522.8,321.7 530.4,318.2 538.0,314.6 545.6,310.9 553.2,307.2 560.8,303.4 568.4,299.6 576.0,295.7 583.6,291.8 591.2,287.9 598.8,284.0 606.4,280.0 614.0,276.1 621.6,272.2 629.2,268.3 636.8,264.5 644.4,260.7 652.0,256.9 659.6,253.2 667.2,249.5 674.8,245.9 682.4,242.4 690.0,239.0 697.6,235.6 705.2,232.4 712.8,229.2 720.4,226.1 728.0,223.1 735.6,220.2 743.2,217.4 750.8,214.7 758.4,212.1 766.0,209.6 773.6,207.2 781.2,204.9 788.8,202.7 796.4,200.6 804.0,198.6 811.6,196.7 819.2,194.8 826.8,193.1 834.4,191.4 842.0,189.9 849.6,188.4 857.2,186.9 864.8,185.6 872.4,184.3 880.0,183.1" fill="none" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <line x1="373" y1="195" x2="373" y2="373" stroke="#333333" stroke-width="2" stroke-dasharray="2 4"/>
+  <line x1="373" y1="284" x2="640" y2="352" stroke="#333333" stroke-width="1.5"/>
+  <rect x="640" y="330" width="250" height="46" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="650" y="350" font-size="15" fill="#111111">With 1,000 examples, the</text>
+  <text x="650" y="369" font-size="15" fill="#111111">pre-trained model is far ahead</text>
+  <rect x="160" y="285" width="210" height="26" fill="#FFFFFF"/>
+  <text x="170" y="304" font-size="16" fill="#111111">Starting from pre-training</text>
+  <rect x="135" y="355" width="180" height="26" fill="#FFFFFF"/>
+  <text x="140" y="374" font-size="16" fill="#111111">Training from scratch</text>
+  <text x="505" y="490" font-size="16" fill="#111111" text-anchor="middle">Labelled examples for the new task (each step is ten times more)</text>
+  <text x="480" y="540" font-size="13" fill="#333333" text-anchor="middle">Schematic with illustrative values; the size of the advantage varies greatly between tasks.</text>
+</svg>

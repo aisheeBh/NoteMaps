@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three phases of skill learning</title>
+  <desc>Schematic graph across practice. Performance rises steeply then levels off, while the conscious attention the skill demands falls. The cognitive phase is slow and error-prone, the associative phase refines and links steps, and the autonomous phase is fast and largely automatic.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">From thinking through every step to doing it without thinking</text>
+
+  <!-- phase bands -->
+  <rect x="110" y="70" width="220" height="350" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <rect x="330" y="70" width="260" height="350" fill="url(#hatch)" stroke="#999999" stroke-width="1"/>
+  <rect x="590" y="70" width="300" height="350" fill="#F2F2F2" stroke="#999999" stroke-width="1"/>
+  <rect x="140" y="80" width="160" height="26" fill="#FFFFFF"/>
+  <text x="220" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1. COGNITIVE</text>
+  <rect x="380" y="80" width="160" height="26" fill="#FFFFFF"/>
+  <text x="460" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2. ASSOCIATIVE</text>
+  <rect x="660" y="80" width="160" height="26" fill="#FFFFFF"/>
+  <text x="740" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3. AUTONOMOUS</text>
+
+  <!-- axes -->
+  <line x1="110" y1="420" x2="900" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="420" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="505" y="448" text-anchor="middle" font-size="16" fill="#111111">Amount of practice</text>
+  <text x="62" y="245" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 245)">Level (low to high)</text>
+
+  <!-- performance: solid -->
+  <path d="M112 390 C 200 330, 300 230, 420 180 C 540 140, 700 128, 880 124" fill="none" stroke="#1F3B5C" stroke-width="4.5"/>
+  <!-- attention demand: dashed -->
+  <path d="M112 130 C 230 140, 330 200, 450 290 C 560 360, 700 380, 880 386" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <!-- direct labels -->
+  <rect x="640" y="140" width="230" height="44" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="652" y="159" font-size="15" font-weight="bold" fill="#111111">Performance</text>
+  <text x="652" y="176" font-size="14" fill="#111111">speed and accuracy</text>
+  <rect x="640" y="330" width="230" height="44" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="652" y="349" font-size="15" font-weight="bold" fill="#111111">Conscious attention needed</text>
+  <text x="652" y="366" font-size="14" fill="#111111">effort and self-talk</text>
+
+  <!-- descriptors -->
+  <g font-size="14" fill="#111111">
+    <text x="120" y="472">Rules held in mind; slow,</text>
+    <text x="120" y="490">frequent errors; needs</text>
+    <text x="120" y="508">explanation and examples</text>
+    <text x="340" y="472">Steps linked and refined;</text>
+    <text x="340" y="490">fewer errors; needs varied</text>
+    <text x="340" y="508">practice and feedback</text>
+    <text x="600" y="472">Fast, fluent, resistant to</text>
+    <text x="600" y="490">distraction; hard to explain;</text>
+    <text x="600" y="508">needs challenge to keep improving</text>
+  </g>
+
+  <text x="480" y="556" text-anchor="middle" font-size="13" fill="#333333">Schematic after Fitts and Posner (1967); phases overlap and are not sharply bounded.</text>
+</svg>

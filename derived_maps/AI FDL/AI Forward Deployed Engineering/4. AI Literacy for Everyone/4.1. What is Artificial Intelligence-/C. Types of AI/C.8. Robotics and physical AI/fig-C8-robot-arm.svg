@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Anatomy of a robot arm</title>
+  <desc>A six-jointed industrial robot arm on a base, with labelled parts: base, joints driven by motors with encoders, links, a wrist camera, a force and torque sensor at the wrist, and a gripper as the end effector holding a box. A controller cabinet is connected by a cable.</desc>
+
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Sensors, actuators and the tool at the end</text>
+  <rect x="230" y="460" width="160" height="40" fill="#E6E6E6" stroke="#333333" stroke-width="2"/>
+  <rect x="270" y="410" width="80" height="52" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <path d="M310 400 L310 300" stroke="#1F3B5C" stroke-width="34" stroke-linecap="round"/>
+  <path d="M310 300 L470 200" stroke="#1F3B5C" stroke-width="30" stroke-linecap="round"/>
+  <path d="M470 200 L600 240" stroke="#1F3B5C" stroke-width="24" stroke-linecap="round"/>
+  <path d="M600 240 L650 300" stroke="#1F3B5C" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="310" cy="400" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="310" cy="400" r="6" fill="#000000"/>
+  <circle cx="310" cy="300" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="310" cy="300" r="6" fill="#000000"/>
+  <circle cx="470" cy="200" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="470" cy="200" r="6" fill="#000000"/>
+  <circle cx="600" cy="240" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="600" cy="240" r="6" fill="#000000"/>
+  <circle cx="650" cy="300" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <circle cx="650" cy="300" r="6" fill="#000000"/>
+  <rect x="638" y="306" width="26" height="16" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <path d="M640 322 L630 360 M660 322 L670 360" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+  <rect x="628" y="360" width="46" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="606" y="206" width="30" height="20" fill="#FFFFFF" stroke="#111111" stroke-width="2"/><circle cx="636" cy="216" r="5" fill="#111111"/>
+  <rect x="60" y="380" width="110" height="120" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+  <text x="115" y="430" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Controller</text>
+  <text x="115" y="452" text-anchor="middle" font-size="14" fill="#111111">plans and</text>
+  <text x="115" y="470" text-anchor="middle" font-size="14" fill="#111111">feedback loops</text>
+  <path d="M170 480 L230 480" stroke="#333333" stroke-width="3" stroke-dasharray="6 4"/>
+  <line x1="310" y1="300" x2="160" y2="250" stroke="#333333" stroke-width="1.5"/>
+  <text x="154" y="255" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Joint with motor</text>
+  <text x="154" y="275" text-anchor="end" font-size="15" fill="#111111">and encoder</text>
+  <line x1="400" y1="245" x2="330" y2="150" stroke="#333333" stroke-width="1.5"/>
+  <text x="324" y="155" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Link</text>
+  <line x1="470" y1="200" x2="470" y2="110" stroke="#333333" stroke-width="1.5"/>
+  <text x="476" y="115" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Joints give six</text>
+  <text x="476" y="135" text-anchor="start" font-size="15" fill="#111111">degrees of freedom</text>
+  <line x1="621" y1="206" x2="720" y2="150" stroke="#333333" stroke-width="1.5"/>
+  <text x="726" y="155" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Wrist camera</text>
+  <text x="726" y="175" text-anchor="start" font-size="15" fill="#111111">sees the object</text>
+  <line x1="664" y1="314" x2="760" y2="270" stroke="#333333" stroke-width="1.5"/>
+  <text x="766" y="275" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Force-torque sensor</text>
+  <text x="766" y="295" text-anchor="start" font-size="15" fill="#111111">feels contact</text>
+  <line x1="674" y1="380" x2="760" y2="380" stroke="#333333" stroke-width="1.5"/>
+  <text x="766" y="385" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">End effector:</text>
+  <text x="766" y="405" text-anchor="start" font-size="15" fill="#111111">gripper holding a box</text>
+  <line x1="330" y1="480" x2="430" y2="505" stroke="#333333" stroke-width="1.5"/>
+  <text x="436" y="510" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Base, fixed to the floor</text>
+  <text x="480" y="548" text-anchor="middle" font-size="13" fill="#333333">Schematic; real arms differ in layout and sensors.</text>
+</svg>

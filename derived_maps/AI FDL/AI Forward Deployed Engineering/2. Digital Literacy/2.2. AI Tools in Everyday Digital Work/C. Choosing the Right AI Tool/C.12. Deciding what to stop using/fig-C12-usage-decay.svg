@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Usage decay after launch</title>
+  <desc>Bar chart of active monthly users out of 60 paid seats over twelve months after launch: month 1, 48; month 2, 52; month 3, 41; month 4, 33; month 5, 28; month 6, 24; month 7, 22; month 8, 20; month 9, 19; month 10, 18; month 11, 18; month 12, 18. A horizontal line at 60 shows paid seats; the gap is idle seats.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Use often settles far below the number of seats bought</text>
+  <line x1="120.0" y1="430.0" x2="900.0" y2="430.0" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120.0" y1="430.0" x2="120.0" y2="90.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="70.0" y="270.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 70 270.0)">Active users per month</text>
+  <text x="110.0" y="435.0" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="110.0" y="328.3" text-anchor="end" font-size="14" fill="#111111">20</text>
+  <text x="110.0" y="221.7" text-anchor="end" font-size="14" fill="#111111">40</text>
+  <text x="110.0" y="115.0" text-anchor="end" font-size="14" fill="#111111">60</text>
+  <rect x="140.0" y="174.0" width="50.0" height="256.0" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="165.0" y="166.0" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">48</text>
+  <text x="165.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <rect x="204.0" y="152.7" width="50.0" height="277.3" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="229.0" y="144.7" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">52</text>
+  <text x="229.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <rect x="268.0" y="211.3" width="50.0" height="218.7" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="293.0" y="203.3" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">41</text>
+  <text x="293.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <rect x="332.0" y="254.0" width="50.0" height="176.0" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="357.0" y="246.0" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">33</text>
+  <text x="357.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <rect x="396.0" y="280.7" width="50.0" height="149.3" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="421.0" y="272.7" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">28</text>
+  <text x="421.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <rect x="460.0" y="302.0" width="50.0" height="128.0" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="485.0" y="294.0" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">24</text>
+  <text x="485.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <rect x="524.0" y="312.7" width="50.0" height="117.3" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="549.0" y="304.7" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">22</text>
+  <text x="549.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">7</text>
+  <rect x="588.0" y="323.3" width="50.0" height="106.7" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="613.0" y="315.3" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">20</text>
+  <text x="613.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <rect x="652.0" y="328.7" width="50.0" height="101.3" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="677.0" y="320.7" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">19</text>
+  <text x="677.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">9</text>
+  <rect x="716.0" y="334.0" width="50.0" height="96.0" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="741.0" y="326.0" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">18</text>
+  <text x="741.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <rect x="780.0" y="334.0" width="50.0" height="96.0" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="805.0" y="326.0" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">18</text>
+  <text x="805.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">11</text>
+  <rect x="844.0" y="334.0" width="50.0" height="96.0" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="869.0" y="326.0" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">18</text>
+  <text x="869.0" y="450.0" text-anchor="middle" font-size="14" fill="#111111">12</text>
+  <line x1="120.0" y1="110.0" x2="900.0" y2="110.0" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="900.0" y="100.0" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">60 paid seats</text>
+  <text x="748.0" y="216.7" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Idle seats: 42 of 60</text>
+  <text x="510.0" y="478.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Months after launch</text>
+  <text x="480.0" y="505.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Illustrative figures; 18 of 60 seats active gives 30% utilisation.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Global data-centre electricity demand, 2024 and 2030 projection</title>
+  <desc>Two vertical bars. 2024: about 415 terawatt-hours, roughly 1.5 per cent of world electricity. 2030 base-case projection: about 945 terawatt-hours, just under 3 per cent.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Data-centre electricity: more than doubling by 2030</text>
+  <!-- 0.3 px per TWh; baseline y=440 -->
+  <line x1="120" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="440" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="52" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 52 255)">Electricity use (terawatt-hours a year)</text>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="110" y="445">0</text><text x="110" y="295">500</text><text x="110" y="145">1,000</text>
+  </g>
+  <line x1="120" y1="290" x2="880" y2="290" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="120" y1="140" x2="880" y2="140" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="220" y="315.5" width="200" height="124.5" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="560" y="156.5" width="200" height="283.5" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="270" y="338" width="100" height="30" fill="#FFFFFF"/>
+  <text x="320" y="360" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">415</text>
+  <rect x="610" y="190" width="100" height="30" fill="#FFFFFF"/>
+  <text x="660" y="212" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">945</text>
+  <text x="320" y="466" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2024</text>
+  <text x="320" y="486" text-anchor="middle" font-size="14" fill="#111111">about 1.5% of world electricity</text>
+  <text x="660" y="466" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2030</text>
+  <text x="660" y="486" text-anchor="middle" font-size="14" fill="#111111">base-case projection: just under 3%</text>
+  <line x1="430" y1="370" x2="550" y2="260" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="440" y="300" width="110" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="495" y="320" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">about 15%</text>
+  <text x="495" y="338" text-anchor="middle" font-size="14" fill="#111111">growth a year</text>
+  <text x="480" y="522" text-anchor="middle" font-size="13" fill="#333333">Figures from the International Energy Agency's 2025 analysis; the 2030 value is a projection and depends on assumptions.</text>
+</svg>

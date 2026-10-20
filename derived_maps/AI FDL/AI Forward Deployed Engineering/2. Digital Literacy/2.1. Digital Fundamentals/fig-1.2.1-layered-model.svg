@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>The layered model of the digital world</title>
+<desc>Six technical layers stacked from devices at the bottom to communication at the top, flanked on the left by the human and social layer and on the right by AI and emerging technologies cutting across every layer.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The layered model of the digital world</text>
+<rect x="230" y="80" width="500" height="80" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="114" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Communication and collaboration</text>
+<text x="480.0" y="140" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">email, messaging, meetings, shared workspaces</text>
+<rect x="230" y="170" width="500" height="80" fill="#F2F2F2" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="204" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">The web, browsers and search</text>
+<text x="480.0" y="230" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">pages, applications, search engines, answer engines</text>
+<rect x="230" y="260" width="500" height="80" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="294" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Networks and the internet</text>
+<text x="480.0" y="320" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Wi-Fi, mobile networks, routing, addresses, names</text>
+<rect x="230" y="350" width="500" height="80" fill="#F2F2F2" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="384" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Files, storage and data</text>
+<text x="480.0" y="410" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">files, folders, formats, drives, cloud storage, backups</text>
+<rect x="230" y="440" width="500" height="80" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="474" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Operating systems</text>
+<text x="480.0" y="500" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Windows, macOS, Linux, Android, iOS: managing hardware</text>
+<rect x="230" y="530" width="500" height="80" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="480.0" y="564" font-size="18" text-anchor="middle" font-weight="bold" fill="#111111">Devices and hardware</text>
+<text x="480.0" y="590" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">processors, memory, screens, sensors, phones, laptops</text>
+<rect x="40" y="80" width="170" height="530" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+<rect x="52" y="94" width="146" height="502" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+<text x="125" y="126" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">PEOPLE AND</text>
+<text x="125" y="148" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">SOCIETY</text>
+<text x="125" y="210" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Citizenship</text>
+<text x="125" y="232" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">rights and duties</text>
+<text x="125" y="300" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Ethics</text>
+<text x="125" y="322" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">right and wrong uses</text>
+<text x="125" y="390" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Accessibility</text>
+<text x="125" y="412" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">use by everyone</text>
+<text x="125" y="480" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Wellbeing</text>
+<text x="125" y="502" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">health and balance</text>
+<rect x="750" y="80" width="170" height="530" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="762" y="94" width="146" height="502" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+<text x="835" y="126" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">AI AND</text>
+<text x="835" y="148" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">EMERGING</text>
+<text x="835" y="170" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">TECHNOLOGY</text>
+<text x="835" y="220" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">on-device</text>
+<text x="835" y="239" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">AI models</text>
+<text x="835" y="290" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">self-optimising</text>
+<text x="835" y="309" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">networks</text>
+<text x="835" y="360" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">AI-organised</text>
+<text x="835" y="379" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">storage</text>
+<text x="835" y="430" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">AI answers</text>
+<text x="835" y="449" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">in search</text>
+<text x="835" y="500" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">AI drafting and</text>
+<text x="835" y="519" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">summarising</text>
+<line x1="480" y1="640" x2="480" y2="618" stroke="#222222" stroke-width="0"/>
+<rect x="230" y="626" width="500" height="44" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+<text x="480" y="654" font-size="16" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Each layer relies on the one below and hides its detail</text>
+</svg>

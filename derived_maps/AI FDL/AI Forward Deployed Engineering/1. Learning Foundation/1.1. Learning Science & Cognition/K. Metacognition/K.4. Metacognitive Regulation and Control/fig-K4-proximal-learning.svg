@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Region of proximal learning</title>
+  <desc>Items are arranged from already known on the left to far beyond reach on the right. The gain from each minute of study is low for known items, highest for items just beyond current mastery, and low again for very hard items, where effort is labour in vain.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Study time pays most just beyond current mastery</text>
+
+  <!-- zones -->
+  <rect x="120" y="70" width="230" height="350" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="350" y="70" width="260" height="350" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="610" y="70" width="250" height="350" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+
+  <!-- axes -->
+  <line x1="120" y1="420" x2="880" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="420" x2="120" y2="60" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="452" text-anchor="middle" font-size="16" fill="#111111">Item difficulty relative to what is already known</text>
+  <text x="140" y="474" font-size="14" fill="#111111">already known</text>
+  <text x="860" y="474" text-anchor="end" font-size="14" fill="#111111">far beyond reach</text>
+  <text x="60" y="245" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 245)">Gain per minute of study</text>
+
+  <!-- curve -->
+  <path d="M130 395 C 250 385, 330 200, 450 140 C 540 110, 600 220, 680 330 C 740 380, 800 395, 860 400" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+
+  <!-- zone labels -->
+  <rect x="140" y="90" width="190" height="70" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="235" y="116" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">ALREADY KNOWN</text>
+  <text x="235" y="138" text-anchor="middle" font-size="14" fill="#111111">a light check only</text>
+
+  <rect x="380" y="280" width="200" height="90" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="480" y="306" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">PROXIMAL REGION</text>
+  <text x="480" y="328" text-anchor="middle" font-size="14" fill="#111111">nearly known:</text>
+  <text x="480" y="348" text-anchor="middle" font-size="14" fill="#111111">most gain per minute</text>
+
+  <rect x="630" y="90" width="210" height="90" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="735" y="116" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">TOO HARD FOR NOW</text>
+  <text x="735" y="138" text-anchor="middle" font-size="14" fill="#111111">labour in vain unless</text>
+  <text x="735" y="158" text-anchor="middle" font-size="14" fill="#111111">high value or prerequisite</text>
+
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">Schematic, after Metcalfe (2002) and Nelson and Leonesio (1988); not plotted from a single dataset.</text>
+</svg>

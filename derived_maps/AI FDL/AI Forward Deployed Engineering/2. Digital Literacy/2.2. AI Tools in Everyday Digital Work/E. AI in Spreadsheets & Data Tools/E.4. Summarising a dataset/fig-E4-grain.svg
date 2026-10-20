@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The same orders at two grains</title>
+  <desc>Left: an order-lines table with six rows for three orders, line values 20, 30, 50, 100, 40 and 60. Averaging the rows gives 50, the average line value. Right: the same data aggregated to one row per order with totals 100, 100 and 100. Averaging gives 100, the true average order value.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Same data, two grains: what is the average order value?</text>
+  <text x="210" y="96" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Grain: one row = one order line</text>
+  <rect x="50" y="110" width="100" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="100.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Order</text>
+  <rect x="150" y="110" width="130" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="215.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Item</text>
+  <rect x="280" y="110" width="90" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="325.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Value £</text>
+  <rect x="50" y="142" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="100.0" y="164" text-anchor="middle" font-size="14" fill="#111111">A-101</text>
+  <rect x="150" y="142" width="130" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="215.0" y="164" text-anchor="middle" font-size="14" fill="#111111">Pens</text>
+  <rect x="280" y="142" width="90" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="325.0" y="164" text-anchor="middle" font-size="14" fill="#111111">20</text>
+  <rect x="50" y="174" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="100.0" y="196" text-anchor="middle" font-size="14" fill="#111111">A-101</text>
+  <rect x="150" y="174" width="130" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="215.0" y="196" text-anchor="middle" font-size="14" fill="#111111">Paper</text>
+  <rect x="280" y="174" width="90" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="325.0" y="196" text-anchor="middle" font-size="14" fill="#111111">30</text>
+  <rect x="50" y="206" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="100.0" y="228" text-anchor="middle" font-size="14" fill="#111111">A-101</text>
+  <rect x="150" y="206" width="130" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="215.0" y="228" text-anchor="middle" font-size="14" fill="#111111">Toner</text>
+  <rect x="280" y="206" width="90" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="325.0" y="228" text-anchor="middle" font-size="14" fill="#111111">50</text>
+  <rect x="50" y="238" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="100.0" y="260" text-anchor="middle" font-size="14" fill="#111111">A-102</text>
+  <rect x="150" y="238" width="130" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="215.0" y="260" text-anchor="middle" font-size="14" fill="#111111">Chair</text>
+  <rect x="280" y="238" width="90" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="325.0" y="260" text-anchor="middle" font-size="14" fill="#111111">100</text>
+  <rect x="50" y="270" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="100.0" y="292" text-anchor="middle" font-size="14" fill="#111111">A-103</text>
+  <rect x="150" y="270" width="130" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="215.0" y="292" text-anchor="middle" font-size="14" fill="#111111">Desk lamp</text>
+  <rect x="280" y="270" width="90" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="325.0" y="292" text-anchor="middle" font-size="14" fill="#111111">40</text>
+  <rect x="50" y="302" width="100" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="100.0" y="324" text-anchor="middle" font-size="14" fill="#111111">A-103</text>
+  <rect x="150" y="302" width="130" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="215.0" y="324" text-anchor="middle" font-size="14" fill="#111111">Bulbs</text>
+  <rect x="280" y="302" width="90" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="325.0" y="324" text-anchor="middle" font-size="14" fill="#111111">60</text>
+  <rect x="50" y="360" width="320" height="90" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="210" y="402" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Average of rows = £50</text>
+  <text x="210" y="422" text-anchor="middle" font-size="15" fill="#000000">300 ÷ 6 lines: the average LINE value</text>
+  <text x="735" y="96" text-anchor="middle" font-size="16" fill="#111111" font-weight="bold">Grain: one row = one order</text>
+  <rect x="560" y="110" width="120" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="620.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Order</text>
+  <rect x="680" y="110" width="110" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="735.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Lines</text>
+  <rect x="790" y="110" width="120" height="32" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="850.0" y="132" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Total £</text>
+  <rect x="560" y="142" width="120" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="620.0" y="164" text-anchor="middle" font-size="14" fill="#111111">A-101</text>
+  <rect x="680" y="142" width="110" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="735.0" y="164" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <rect x="790" y="142" width="120" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="850.0" y="164" text-anchor="middle" font-size="14" fill="#111111">100</text>
+  <rect x="560" y="174" width="120" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="620.0" y="196" text-anchor="middle" font-size="14" fill="#111111">A-102</text>
+  <rect x="680" y="174" width="110" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="735.0" y="196" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <rect x="790" y="174" width="120" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="850.0" y="196" text-anchor="middle" font-size="14" fill="#111111">100</text>
+  <rect x="560" y="206" width="120" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="620.0" y="228" text-anchor="middle" font-size="14" fill="#111111">A-103</text>
+  <rect x="680" y="206" width="110" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="735.0" y="228" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <rect x="790" y="206" width="120" height="32" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="850.0" y="228" text-anchor="middle" font-size="14" fill="#111111">100</text>
+  <rect x="560" y="360" width="350" height="90" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="735" y="392" text-anchor="middle" font-size="17" fill="#000000" font-weight="bold">Average of rows = £100</text>
+  <text x="735" y="412" text-anchor="middle" font-size="15" fill="#000000">300 ÷ 3 orders: the true average ORDER</text>
+  <text x="735" y="432" text-anchor="middle" font-size="15" fill="#000000">value</text>
+  <line x1="380" y1="210" x2="552" y2="210" stroke="#222222" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <text x="466.0" y="234" text-anchor="middle" font-size="14" fill="#111111">sum lines per order</text>
+  <rect x="50" y="470" width="860" height="54" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480" y="503" text-anchor="middle" font-size="16" fill="#000000">The total (£300) is the same at both grains; averages, counts and rates are not.</text>
+  <text x="480.0" y="546" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures.</text>
+</svg>

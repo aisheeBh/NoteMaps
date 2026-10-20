@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Regimes for meeting AI</title>
+<desc>Spectrum of organisational regimes from unmanaged through ban, approved defaults and tiered rules.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="44" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Regimes for meeting AI, from permissive to restrictive</text>
+<rect x="40.0" y="120" width="209.5" height="290" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="48.0" y="130" width="193.5" height="270" fill="#FFFFFF" rx="4"/>
+<text x="144.75" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Unmanaged</text>
+<text x="144.75" y="189" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Any tool, any</text>
+<text x="144.75" y="208" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">meeting; vendor</text>
+<text x="144.75" y="227" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">defaults rule</text>
+<text x="144.75" y="246" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="144.75" y="265" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Shadow tools,</text>
+<text x="144.75" y="284" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">leaks</text>
+<rect x="263.5" y="120" width="209.5" height="290" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="271.5" y="130" width="193.5" height="270" fill="#FFFFFF" rx="4"/>
+<text x="368.25" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Approved,</text>
+<text x="368.25" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">always on</text>
+<text x="368.25" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">One tool,</text>
+<text x="368.25" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">transcribes</text>
+<text x="368.25" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">everything</text>
+<text x="368.25" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="368.25" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Over-collection,</text>
+<text x="368.25" y="305" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">chilled candour</text>
+<rect x="487.0" y="120" width="209.5" height="290" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="495.0" y="130" width="193.5" height="270" fill="#FFFFFF" rx="4"/>
+<text x="591.75" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Tiered</text>
+<text x="591.75" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">rules</text>
+<text x="591.75" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Approved tool;</text>
+<text x="591.75" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">capture by</text>
+<text x="591.75" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">meeting type;</text>
+<text x="591.75" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">safe defaults</text>
+<text x="591.75" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="591.75" y="305" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Usual best fit</text>
+<rect x="710.5" y="120" width="209.5" height="290" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+<rect x="718.5" y="130" width="193.5" height="270" fill="#FFFFFF" rx="4"/>
+<text x="815.25" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Ban</text>
+<text x="815.25" y="189" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">No meeting AI</text>
+<text x="815.25" y="208" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">at all</text>
+<text x="815.25" y="227" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="815.25" y="246" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Shadow use,</text>
+<text x="815.25" y="265" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">lost access</text>
+<text x="815.25" y="284" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">benefits</text>
+<line x1="50" y1="450" x2="910" y2="450" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="50" y="478" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Most permissive</text>
+<text x="910" y="478" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Most restrictive</text>
+</svg>

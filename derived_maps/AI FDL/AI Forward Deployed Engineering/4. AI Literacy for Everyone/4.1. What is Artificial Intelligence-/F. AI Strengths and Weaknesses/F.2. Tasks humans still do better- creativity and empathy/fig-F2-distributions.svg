@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Distributions of creativity scores for people and chatbots</title>
+  <desc>Schematic: the human score distribution is wide, with a long upper tail; the chatbot distribution is narrower and shifted to the right. The chatbot average is higher, but the best human scores reach as high or higher.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">A higher average is not a higher ceiling</text>
+  <line x1="90" y1="430" x2="900" y2="430" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="90" y1="430" x2="90" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="495" y="470" text-anchor="middle" font-size="16" fill="#111111">Rated originality of ideas</text>
+  <text x="48" y="250" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 48 250)">Share of responses</text>
+  <path d="M110 428 C 200 420, 280 250, 380 240 C 480 230, 560 340, 680 400 C 760 420, 830 424, 860 426" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M330 428 C 420 420, 470 130, 540 125 C 610 120, 660 380, 760 426" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <line x1="380" y1="430" x2="380" y2="240" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <line x1="540" y1="430" x2="540" y2="125" stroke="#1F3B5C" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="380" y="450" text-anchor="middle" font-size="14" fill="#111111">human average</text>
+  <text x="550" y="450" text-anchor="middle" font-size="14" fill="#111111">chatbot average</text>
+  <rect x="110" y="140" width="230" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="122" y="160" font-size="15" font-weight="bold" fill="#111111">People</text>
+  <text x="122" y="178" font-size="14" fill="#111111">wide spread, long upper tail</text>
+  <line x1="250" y1="186" x2="300" y2="265" stroke="#222222" stroke-width="1"/>
+  <rect x="610" y="90" width="260" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="622" y="110" font-size="15" font-weight="bold" fill="#111111">Chatbots</text>
+  <text x="622" y="128" font-size="14" fill="#111111">higher floor, narrower spread</text>
+  <line x1="610" y1="125" x2="575" y2="150" stroke="#1F3B5C" stroke-width="1"/>
+  <rect x="700" y="300" width="200" height="64" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="800" y="322" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Best human ideas</text>
+  <text x="800" y="340" text-anchor="middle" font-size="14" fill="#111111">reach beyond the</text>
+  <text x="800" y="356" text-anchor="middle" font-size="14" fill="#111111">chatbots' range</text>
+  <line x1="790" y1="364" x2="800" y2="418" stroke="#222222" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the pattern reported on a divergent-thinking task (2023); not plotted from the study's data.</text>
+</svg>

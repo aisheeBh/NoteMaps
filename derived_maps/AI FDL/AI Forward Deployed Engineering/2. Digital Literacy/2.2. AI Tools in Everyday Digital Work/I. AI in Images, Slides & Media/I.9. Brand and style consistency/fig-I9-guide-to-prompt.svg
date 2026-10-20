@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>From style guide to prompt block</title>
+<desc>Comparison showing how a written visual style guide is translated into a reusable prompt style block and a review list.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Turning a style guide into something tools can use</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Words guide the generator; templates and review enforce the brand</text>
+<rect x="24.0" y="90" width="293.3333333333333" height="286" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="26.0" y="92" width="289.3333333333333" height="10" fill="url(#hatch)"/>
+<text x="170.7" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Style guide says</text>
+<text x="170.7" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Warm, optimistic, real-world</text>
+<text x="170.7" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">settings</text>
+<text x="170.7" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Palette: deep teal, sand, coral</text>
+<text x="170.7" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">accent</text>
+<text x="170.7" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">People: candid, diverse,</text>
+<text x="170.7" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">mid-action</text>
+<text x="170.7" y="290.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Never: stock handshakes, neon,</text>
+<text x="170.7" y="310.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">clutter</text>
+<rect x="333.3333333333333" y="90" width="293.3333333333333" height="286" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="335.3333333333333" y="92" width="289.3333333333333" height="10" fill="url(#dots)"/>
+<text x="480.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Prompt style block</text>
+<text x="480.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'Candid editorial photograph</text>
+<text x="480.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">style, natural window light'</text>
+<text x="480.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'Muted deep teal and warm sand</text>
+<text x="480.0" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">tones, one coral accent'</text>
+<text x="480.0" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">'No text, no logos, uncluttered</text>
+<text x="480.0" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">background'</text>
+<rect x="642.6666666666666" y="90" width="293.3333333333333" height="286" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="645.6666666666666" y="93" width="287.3333333333333" height="10" fill="url(#cross)"/>
+<text x="789.3" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Review list</text>
+<text x="789.3" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Palette within tolerance?</text>
+<text x="789.3" y="179.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Mood and lighting match</text>
+<text x="789.3" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">references?</text>
+<text x="789.3" y="225.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">No banned motifs?</text>
+<text x="789.3" y="251.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Logo and text added only in</text>
+<text x="789.3" y="271.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">templates?</text>
+<text x="480.0" y="406.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Illustrative style guide content.</text>
+</svg>

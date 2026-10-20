@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Context against capability</title>
+  <desc>Two by two grid. Horizontal axis relevant context the tool can see, low to high. Vertical axis raw capability, moderate to high. Top left: frontier standalone tool given only a question, risk of confident gaps. Top right: frontier tool with the right material by connector or upload, best for complex work. Bottom left: limited feature on fragments, little value. Bottom right: suite assistant on the thread in front of it, best for routine work.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Relevant context matters as much as raw capability</text>
+  <rect x="180.0" y="80.0" width="350.0" height="200.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="188.0" y="118.5" width="334.0" height="124.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="355.0" y="136.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">High capability, little context</text>
+  <text x="355.0" y="156.0" text-anchor="middle" font-size="15" fill="#111111">Frontier standalone tool</text>
+  <text x="355.0" y="175.5" text-anchor="middle" font-size="15" fill="#111111">given only a question</text>
+  <text x="355.0" y="195.0" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="355.0" y="214.5" text-anchor="middle" font-size="15" fill="#111111">Risk: confident answers</text>
+  <text x="355.0" y="234.0" text-anchor="middle" font-size="15" fill="#111111">built on missing facts</text>
+  <rect x="546.0" y="80.0" width="350.0" height="200.0" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="721.0" y="136.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">High capability, rich context</text>
+  <text x="721.0" y="156.0" text-anchor="middle" font-size="15" fill="#FFFFFF">Frontier tool given the right</text>
+  <text x="721.0" y="175.5" text-anchor="middle" font-size="15" fill="#FFFFFF">material by connector or upload</text>
+  <text x="721.0" y="195.0" text-anchor="middle" font-size="15" fill="#FFFFFF"></text>
+  <text x="721.0" y="214.5" text-anchor="middle" font-size="15" fill="#FFFFFF">Best for complex, novel or</text>
+  <text x="721.0" y="234.0" text-anchor="middle" font-size="15" fill="#FFFFFF">multi-source work</text>
+  <rect x="180.0" y="292.0" width="350.0" height="200.0" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="355.0" y="348.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#222222">Modest capability, little context</text>
+  <text x="355.0" y="368.0" text-anchor="middle" font-size="15" fill="#222222">Limited feature working</text>
+  <text x="355.0" y="387.5" text-anchor="middle" font-size="15" fill="#222222">on fragments</text>
+  <text x="355.0" y="407.0" text-anchor="middle" font-size="15" fill="#222222"></text>
+  <text x="355.0" y="426.5" text-anchor="middle" font-size="15" fill="#222222">Little value; often</text>
+  <text x="355.0" y="446.0" text-anchor="middle" font-size="15" fill="#222222">worse than no AI</text>
+  <rect x="546.0" y="292.0" width="350.0" height="200.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="554.0" y="330.5" width="334.0" height="124.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="721.0" y="348.5" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Modest capability, rich context</text>
+  <text x="721.0" y="368.0" text-anchor="middle" font-size="15" fill="#111111">Suite assistant on the thread</text>
+  <text x="721.0" y="387.5" text-anchor="middle" font-size="15" fill="#111111">or document in front of it</text>
+  <text x="721.0" y="407.0" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="721.0" y="426.5" text-anchor="middle" font-size="15" fill="#111111">Best for routine work on</text>
+  <text x="721.0" y="446.0" text-anchor="middle" font-size="15" fill="#111111">the organisation's own content</text>
+  <line x1="170.0" y1="512.0" x2="906.0" y2="512.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="538.0" y="546.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Relevant context the tool can see</text>
+  <text x="180.0" y="534.0" text-anchor="start" font-size="14" fill="#111111">Little</text>
+  <text x="896.0" y="534.0" text-anchor="end" font-size="14" fill="#111111">Rich</text>
+  <line x1="158.0" y1="496.0" x2="158.0" y2="74.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="128.0" y="286.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 128 286)">Raw capability of the model</text>
+  <text x="150.0" y="492.0" text-anchor="end" font-size="14" fill="#111111">Modest</text>
+  <text x="150.0" y="104.0" text-anchor="end" font-size="14" fill="#111111">High</text>
+</svg>

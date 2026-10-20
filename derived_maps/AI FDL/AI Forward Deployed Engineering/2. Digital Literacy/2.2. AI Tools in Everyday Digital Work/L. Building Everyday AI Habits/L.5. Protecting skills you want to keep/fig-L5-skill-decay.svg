@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Unaided skill after AI takes over a task</title>
+  <desc>Two schematic curves of unaided skill over two years after AI begins doing a task. The solid curve, with no unaided practice, declines steadily towards a low level. The dashed curve, with brief unaided practice every few months, dips a little between sessions but is restored each time and stays high.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Unaided skill after AI takes over a task</text>
+  <line x1="120" y1="450" x2="900" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="120" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="120" y="474" text-anchor="middle" font-size="14" fill="#111111">start</text>
+  <line x1="315" y1="450" x2="315" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="315" y="474" text-anchor="middle" font-size="14" fill="#111111">6 months</text>
+  <line x1="510" y1="450" x2="510" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="510" y="474" text-anchor="middle" font-size="14" fill="#111111">1 year</text>
+  <line x1="705" y1="450" x2="705" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="705" y="474" text-anchor="middle" font-size="14" fill="#111111">18 months</text>
+  <line x1="900" y1="450" x2="900" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="474" text-anchor="middle" font-size="14" fill="#111111">2 years</text>
+  <line x1="114" y1="398" x2="120" y2="398" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="402" text-anchor="end" font-size="14" fill="#111111">low</text>
+  <line x1="114" y1="275" x2="120" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="280" text-anchor="end" font-size="14" fill="#111111">moderate</text>
+  <line x1="114" y1="142" x2="120" y2="142" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="147" text-anchor="end" font-size="14" fill="#111111">high</text>
+  <text x="510" y="502" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Time since AI began doing the task</text>
+  <text x="50" y="275" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 50 275.0)">Unaided skill</text>
+  <path d="M120.0 142.0 L135.6 153.0 L151.2 163.5 L166.8 173.6 L182.4 183.2 L198.0 192.5 L213.6 201.3 L229.2 209.7 L244.8 217.8 L260.4 225.5 L276.0 232.9 L291.6 240.0 L307.2 246.8 L322.8 253.3 L338.4 259.5 L354.0 265.4 L369.6 271.1 L385.2 276.6 L400.8 281.8 L416.4 286.8 L432.0 291.5 L447.6 296.1 L463.2 300.5 L478.8 304.6 L494.4 308.6 L510.0 312.5 L525.6 316.1 L541.2 319.6 L556.8 323.0 L572.4 326.2 L588.0 329.2 L603.6 332.2 L619.2 335.0 L634.8 337.7 L650.4 340.3 L666.0 342.7 L681.6 345.1 L697.2 347.3 L712.8 349.5 L728.4 351.6 L744.0 353.5 L759.6 355.4 L775.2 357.2 L790.8 359.0 L806.4 360.6 L822.0 362.2 L837.6 363.7 L853.2 365.2 L868.8 366.6 L884.4 367.9 L900.0 369.2" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <rect x="522" y="251" width="179" height="44" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="529" y="268" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">No unaided practice:</text>
+  <text x="529" y="287" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">skill fades</text>
+  <path d="M120.0 142.0 L127.8 145.7 L135.6 149.1 L143.4 152.4 L151.2 155.4 L159.0 158.3 L166.8 161.0 L174.6 163.6 L182.4 166.0 L190.2 168.3 L198.0 170.4 L205.8 172.4 L213.6 174.3 L221.4 176.1 L229.2 177.8 L237.0 179.4 L244.8 180.9 L252.6 182.3 L260.4 183.6 L268.2 184.9 L276.0 186.0 L283.8 187.1 L291.6 188.2 L299.4 189.2 L307.2 190.1 L315.0 190.9 L315.0 149.0 L315.0 142.0 L322.8 145.7 L330.6 149.1 L338.4 152.4 L346.2 155.4 L354.0 158.3 L361.8 161.0 L369.6 163.6 L377.4 166.0 L385.2 168.3 L393.0 170.4 L400.8 172.4 L408.6 174.3 L416.4 176.1 L424.2 177.8 L432.0 179.4 L439.8 180.9 L447.6 182.3 L455.4 183.6 L463.2 184.9 L471.0 186.0 L478.8 187.1 L486.6 188.2 L494.4 189.2 L502.2 190.1 L510.0 190.9 L510.0 149.0 L510.0 142.0 L517.8 145.7 L525.6 149.1 L533.4 152.4 L541.2 155.4 L549.0 158.3 L556.8 161.0 L564.6 163.6 L572.4 166.0 L580.2 168.3 L588.0 170.4 L595.8 172.4 L603.6 174.3 L611.4 176.1 L619.2 177.8 L627.0 179.4 L634.8 180.9 L642.6 182.3 L650.4 183.6 L658.2 184.9 L666.0 186.0 L673.8 187.1 L681.6 188.2 L689.4 189.2 L697.2 190.1 L705.0 190.9 L705.0 149.0 L705.0 142.0 L712.8 145.7 L720.6 149.1 L728.4 152.4 L736.2 155.4 L744.0 158.3 L751.8 161.0 L759.6 163.6 L767.4 166.0 L775.2 168.3 L783.0 170.4 L790.8 172.4 L798.6 174.3 L806.4 176.1 L814.2 177.8 L822.0 179.4 L829.8 180.9 L837.6 182.3 L845.4 183.6 L853.2 184.9 L861.0 186.0 L868.8 187.1 L876.6 188.2 L884.4 189.2 L892.2 190.1 L900.0 190.9 L900.0 149.0" fill="none" stroke="#111111" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="350" y="58" width="278" height="44" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="357" y="76" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Brief practice every few months:</text>
+  <text x="357" y="94" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">skill held</text>
+  <text x="315" y="233" text-anchor="middle" font-size="14" fill="#111111">practice</text>
+  <text x="510" y="233" text-anchor="middle" font-size="14" fill="#111111">practice</text>
+  <text x="705" y="233" text-anchor="middle" font-size="14" fill="#111111">practice</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic; shape follows general findings on skill decay with non-use, not a single dataset.</text>
+</svg>

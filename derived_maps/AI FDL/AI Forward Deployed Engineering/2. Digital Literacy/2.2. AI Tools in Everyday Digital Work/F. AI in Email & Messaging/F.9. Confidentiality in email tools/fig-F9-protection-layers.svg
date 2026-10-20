@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 522" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers that protect confidential mail when AI is used</title>
+  <desc>Five layers from organisational to personal: contract and data-processing terms with the provider; tenant configuration of which features and data the AI may reach; access permissions on mailboxes and files; sensitivity labels and data-loss prevention; and the individual user's judgement about what to share.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Layers that protect confidential mail when AI is used</text>
+  <rect x="60" y="66" width="840" height="72" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="82" y="96" text-anchor="start" font-size="16" font-weight="bold" fill="#FFFFFF">Contract and processing terms</text>
+  <text x="82" y="118" text-anchor="start" font-size="14.5" fill="#FFFFFF">What the provider may store, use for training, and where</text>
+  <rect x="60" y="148" width="840" height="72" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="82" y="178" text-anchor="start" font-size="16" font-weight="bold" fill="#000000">Configuration</text>
+  <text x="82" y="200" text-anchor="start" font-size="14.5" fill="#000000">Which AI features are on, and what data they can reach</text>
+  <rect x="60" y="230" width="840" height="72" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="69" y="239" width="822" height="54" rx="4" fill="#FFFFFF"/>
+  <text x="82" y="260" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Permissions</text>
+  <text x="82" y="282" text-anchor="start" font-size="14.5" fill="#111111">The assistant sees whatever the user can see - so permissions must be right</text>
+  <rect x="60" y="312" width="840" height="72" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="69" y="321" width="822" height="54" rx="4" fill="#FFFFFF"/>
+  <text x="82" y="342" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Labels and loss prevention</text>
+  <text x="82" y="364" text-anchor="start" font-size="14.5" fill="#111111">Sensitivity labels; rules blocking sensitive data leaving</text>
+  <rect x="60" y="394" width="840" height="72" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="69" y="403" width="822" height="54" rx="4" fill="#FFFFFF"/>
+  <text x="82" y="424" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">User judgement</text>
+  <text x="82" y="446" text-anchor="start" font-size="14.5" fill="#111111">Minimum necessary; approved tools; untrusted mail treated as untrusted</text>
+  <text x="480" y="506" text-anchor="middle" font-size="13" fill="#333333">Each layer catches what the others miss; none is sufficient alone.</text>
+</svg>

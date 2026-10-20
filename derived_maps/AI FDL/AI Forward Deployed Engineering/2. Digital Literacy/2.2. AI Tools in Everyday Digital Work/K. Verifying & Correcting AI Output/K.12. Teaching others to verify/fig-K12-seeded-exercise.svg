@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 484" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A practice output with seeded errors</title>
+  <desc>A short AI-style meeting summary used for training, with four errors deliberately inserted and labelled: a wrong date and weekday, an action assigned to the wrong person, a dropped condition, and an invented commitment.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">A practice exercise: find the four seeded errors</text>
+  <rect x="28" y="66" width="904" height="176" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="480.0" y="98" text-anchor="middle" font-size="16" fill="#111111">Summary of project steering meeting, Tuesday 11 March 2026</text>
+  <text x="480.0" y="119.6" text-anchor="middle" font-size="16" fill="#111111"></text>
+  <text x="480.0" y="141.2" text-anchor="middle" font-size="16" fill="#111111">1. The board approved the revised budget of 2.4 million.</text>
+  <text x="480.0" y="162.8" text-anchor="middle" font-size="16" fill="#111111">2. Priya will send the risk register to the client by Friday.</text>
+  <text x="480.0" y="184.4" text-anchor="middle" font-size="16" fill="#111111">3. The vendor will start testing next month.</text>
+  <text x="480.0" y="206.0" text-anchor="middle" font-size="16" fill="#111111">4. As agreed, we will provide weekly progress reports to the client.</text>
+  <rect x="28" y="258" width="190" height="40" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="123.0" y="282.9" text-anchor="middle" font-size="15" fill="#111111">Date</text>
+  <rect x="230" y="258" width="702" height="40" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="581.0" y="282.9" text-anchor="middle" font-size="15" fill="#222222">11 March 2026 was a Wednesday; the meeting was on Tuesday 10 March</text>
+  <rect x="28" y="306" width="190" height="40" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="123.0" y="330.9" text-anchor="middle" font-size="15" fill="#111111">Owner</text>
+  <rect x="230" y="306" width="702" height="40" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="581.0" y="330.9" text-anchor="middle" font-size="15" fill="#222222">Arjun, not Priya, agreed to send the risk register</text>
+  <rect x="28" y="354" width="190" height="40" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="123.0" y="378.9" text-anchor="middle" font-size="15" fill="#111111">Caveat</text>
+  <rect x="230" y="354" width="702" height="40" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="581.0" y="378.9" text-anchor="middle" font-size="15" fill="#222222">Budget approved subject to finance committee sign-off; condition dropped</text>
+  <rect x="28" y="402" width="190" height="40" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="123.0" y="426.9" text-anchor="middle" font-size="15" fill="#111111">Commitment</text>
+  <rect x="230" y="402" width="702" height="40" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="581.0" y="426.9" text-anchor="middle" font-size="15" fill="#222222">Weekly client reports were discussed, never agreed</text>
+  <text x="480.0" y="466" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Illustrative exercise; trainees see the summary and the meeting notes, and must find the errors before seeing the answers.</text>
+</svg>

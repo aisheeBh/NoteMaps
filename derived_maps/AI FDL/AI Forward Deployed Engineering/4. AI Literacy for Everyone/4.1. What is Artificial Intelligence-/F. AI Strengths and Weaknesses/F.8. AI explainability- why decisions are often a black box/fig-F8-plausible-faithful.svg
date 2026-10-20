@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Plausible and faithful explanations</title>
+  <desc>A two-by-two matrix. Horizontal axis: how faithful the explanation is to what the model actually did. Vertical axis: how plausible it sounds to a person. High plausibility with low faithfulness is the dangerous quadrant, where an explanation persuades without informing.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">An explanation can persuade without informing</text>
+  <rect x="170" y="70" width="350" height="200" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="520" y="70" width="350" height="200" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="170" y="270" width="350" height="200" fill="#F2F2F2" stroke="#666666" stroke-width="1.5"/>
+  <rect x="520" y="270" width="350" height="200" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="190" y="95" width="310" height="150" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="345" y="122" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Plausible but unfaithful</text>
+  <text x="345" y="150" text-anchor="middle" font-size="14" fill="#111111">A saliency map that looks the same</text>
+  <text x="345" y="168" text-anchor="middle" font-size="14" fill="#111111">for a randomised model; a chatbot's</text>
+  <text x="345" y="186" text-anchor="middle" font-size="14" fill="#111111">tidy reasoning that omits the real cause</text>
+  <text x="345" y="216" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">most dangerous: it earns trust</text>
+  <rect x="540" y="95" width="310" height="150" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="695" y="122" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Plausible and faithful</text>
+  <text x="695" y="150" text-anchor="middle" font-size="14" fill="#111111">A scorecard's points; a rule that fired;</text>
+  <text x="695" y="168" text-anchor="middle" font-size="14" fill="#111111">a tested attribution confirmed by</text>
+  <text x="695" y="186" text-anchor="middle" font-size="14" fill="#111111">removing the factor</text>
+  <text x="695" y="216" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">the aim</text>
+  <rect x="190" y="295" width="310" height="150" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="345" y="322" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Neither</text>
+  <text x="345" y="350" text-anchor="middle" font-size="14" fill="#111111">A random or nonsensical rationale;</text>
+  <text x="345" y="368" text-anchor="middle" font-size="14" fill="#111111">easily spotted and discarded</text>
+  <rect x="540" y="295" width="310" height="150" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="695" y="322" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Faithful but implausible</text>
+  <text x="695" y="350" text-anchor="middle" font-size="14" fill="#111111">A true account that is hard to read:</text>
+  <text x="695" y="368" text-anchor="middle" font-size="14" fill="#111111">thousands of weights, unreadable</text>
+  <text x="695" y="386" text-anchor="middle" font-size="14" fill="#111111">to a person</text>
+  <line x1="170" y1="490" x2="880" y2="490" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="525" y="514" text-anchor="middle" font-size="16" fill="#111111">Faithful to what the model did: low to high</text>
+  <line x1="150" y1="470" x2="150" y2="62" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="112" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 112 270)">Sounds convincing to a person: low to high</text>
+  <text x="480" y="550" text-anchor="middle" font-size="13" fill="#333333">A conceptual framing; examples are illustrative.</text>
+</svg>

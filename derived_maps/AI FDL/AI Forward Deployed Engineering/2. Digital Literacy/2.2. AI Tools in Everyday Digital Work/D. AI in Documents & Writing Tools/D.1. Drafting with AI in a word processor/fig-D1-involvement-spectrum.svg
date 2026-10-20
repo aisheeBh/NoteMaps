@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Spectrum of AI involvement in a document</title>
+  <desc>Five positions from author-written to AI-generated, with the review demanded rising from light to full independent checking.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">How much of the document did the AI write?</text>
+  <polygon points="60,300 900,300 900,240" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <line x1="60" y1="320" x2="905" y2="320" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="108" y1="312" x2="108" y2="330" stroke="#222222" stroke-width="3"/>
+  <rect x="24" y="360" width="168" height="120" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="108" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Author-written</text>
+  <text x="108" y="428" text-anchor="middle" font-size="14" fill="#111111">AI checks spelling</text>
+  <text x="108" y="447" text-anchor="middle" font-size="14" fill="#111111">and grammar only</text>
+  <line x1="294" y1="312" x2="294" y2="330" stroke="#222222" stroke-width="3"/>
+  <rect x="210" y="360" width="168" height="120" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="294" y="395" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Author-led</text>
+  <text x="294" y="419" text-anchor="middle" font-size="14" fill="#111111">AI suggests</text>
+  <text x="294" y="438" text-anchor="middle" font-size="14" fill="#111111">rewording; author</text>
+  <text x="294" y="456" text-anchor="middle" font-size="14" fill="#111111">accepts selectively</text>
+  <line x1="480" y1="312" x2="480" y2="330" stroke="#222222" stroke-width="3"/>
+  <rect x="396" y="360" width="168" height="120" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="395" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Co-written</text>
+  <text x="480" y="419" text-anchor="middle" font-size="14" fill="#111111">AI drafts sections</text>
+  <text x="480" y="438" text-anchor="middle" font-size="14" fill="#111111">from the author's</text>
+  <text x="480" y="456" text-anchor="middle" font-size="14" fill="#111111">outline</text>
+  <line x1="666" y1="312" x2="666" y2="330" stroke="#222222" stroke-width="3"/>
+  <rect x="582" y="360" width="168" height="120" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="666" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">AI-led</text>
+  <text x="666" y="428" text-anchor="middle" font-size="14" fill="#111111">AI drafts the</text>
+  <text x="666" y="447" text-anchor="middle" font-size="14" fill="#111111">whole; author edits</text>
+  <line x1="852" y1="312" x2="852" y2="330" stroke="#222222" stroke-width="3"/>
+  <rect x="768" y="360" width="168" height="120" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="852" y="404" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">AI-generated</text>
+  <text x="852" y="428" text-anchor="middle" font-size="14" fill="#111111">Little human change</text>
+  <text x="852" y="447" text-anchor="middle" font-size="14" fill="#111111">before use</text>
+  <text x="80" y="240" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Review needed</text>
+  <text x="880" y="236" text-anchor="end" font-size="14" fill="#111111">full independent check</text>
+  <text x="80" y="270" text-anchor="start" font-size="14" fill="#111111">light</text>
+  <text x="480" y="150" text-anchor="middle" font-size="16" fill="#111111">Further right: more fact-checking, a stronger case for</text>
+  <text x="480" y="174" text-anchor="middle" font-size="16" fill="#111111">disclosure, and less of the author's own thinking in the text</text>
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">Schematic; positions are illustrative, not measured.</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The parts of a prompt-library entry</title>
+  <desc>A library entry shown as a card. At the top, the name and purpose. In the middle, the template with placeholders and the inputs it needs. Around it, use boundaries, an example, the tool and date last tested, known failure modes, checking notes, a data note and a version log.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Anatomy of a library entry</text>
+  <rect x="40" y="85" width="880" height="490" rx="10" fill="#FFFFFF" stroke="#333333" stroke-width="2.5"/>
+  <rect x="60" y="100" width="840" height="60" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="122" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Name: Call notes to client status summary</text>
+  <text x="480" y="152" text-anchor="middle" font-size="14" fill="#FFFFFF">Purpose: weekly update for a sponsor who did not attend</text>
+  <rect x="60" y="175" width="410" height="165" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="68" y="210" width="394" height="94" rx="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="265" y="231" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Template</text>
+  <text x="265" y="260" text-anchor="middle" font-size="14" fill="#111111">Task, audience, delimited input, output format,</text>
+  <text x="265" y="278" text-anchor="middle" font-size="14" fill="#111111">grounding rules, placeholders such as {{client}}</text>
+  <text x="265" y="297" text-anchor="middle" font-size="14" fill="#111111">and {{notes}}</text>
+  <rect x="490" y="175" width="410" height="75" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="695" y="204" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Inputs required</text>
+  <text x="695" y="232" text-anchor="middle" font-size="14" fill="#111111">Call notes; last week's summary</text>
+  <rect x="490" y="265" width="410" height="75" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="695" y="294" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Use boundaries</text>
+  <text x="695" y="322" text-anchor="middle" font-size="14" fill="#111111">Status updates only; not contractual commitments</text>
+  <rect x="60" y="355" width="270" height="95" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="195" y="385" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Example</text>
+  <text x="195" y="413" text-anchor="middle" font-size="14" fill="#111111">Fictionalised input and a good</text>
+  <text x="195" y="431" text-anchor="middle" font-size="14" fill="#111111">output</text>
+  <rect x="345" y="355" width="270" height="95" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="353" y="374" width="254" height="56" rx="4" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="480" y="394" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Tested on</text>
+  <text x="480" y="422" text-anchor="middle" font-size="14" fill="#111111">Tool, model and date last tested</text>
+  <rect x="630" y="355" width="270" height="95" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="638" y="374" width="254" height="56" rx="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="765" y="394" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Known failures</text>
+  <text x="765" y="422" text-anchor="middle" font-size="14" fill="#111111">Marks open issues as resolved</text>
+  <rect x="60" y="465" width="270" height="95" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="195" y="495" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Checking notes</text>
+  <text x="195" y="523" text-anchor="middle" font-size="14" fill="#111111">Verify every name, date and</text>
+  <text x="195" y="541" text-anchor="middle" font-size="14" fill="#111111">status</text>
+  <rect x="345" y="465" width="270" height="95" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="353" y="484" width="254" height="56" rx="4" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="480" y="504" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Data note</text>
+  <text x="480" y="532" text-anchor="middle" font-size="14" fill="#111111">What may be pasted in</text>
+  <rect x="630" y="465" width="270" height="95" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="765" y="504" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Version log</text>
+  <text x="765" y="532" text-anchor="middle" font-size="14" fill="#111111">What changed, when and why</text>
+  <text x="480" y="604" text-anchor="middle" font-size="13" fill="#333333">Illustrative entry; field names vary between practitioners.</text>
+</svg>

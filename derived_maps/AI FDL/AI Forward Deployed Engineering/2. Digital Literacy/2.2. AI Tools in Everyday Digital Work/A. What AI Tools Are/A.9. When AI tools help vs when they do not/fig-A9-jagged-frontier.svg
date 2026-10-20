@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The jagged frontier</title>
+  <desc>A jagged line divides tasks AI handles well, below the line, from tasks of similar apparent difficulty it handles poorly, above the line. Example tasks are placed on each side.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The jagged frontier</text>
+  <text x="480" y="66" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Schematic: tasks ordered by how difficult they look to a person</text>
+  <polygon points="90,330 170,330 170,250 260,250 260,380 350,380 350,210 450,210 450,340 540,340 540,180 630,180 630,300 720,300 720,150 810,150 810,260 900,260 900,470 90,470" fill="url(#cross)" stroke="none"/>
+  <polygon points="90,90 900,90 900,260 810,260 810,150 720,150 720,300 630,300 630,180 540,180 540,340 450,340 450,210 350,210 350,380 260,380 260,250 170,250 170,330 90,330" fill="url(#lines)" stroke="none"/>
+  <polyline points="90,330 170,330 170,250 260,250 260,380 350,380 350,210 450,210 450,340 540,340 540,180 630,180 630,300 720,300 720,150 810,150 810,260 900,260" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="90" y="90" width="810" height="380" fill="none" stroke="#333333" stroke-width="1.5"/>
+  <rect x="116" y="405" width="198" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="215" y="421" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Drafting a press release</text>
+  <rect x="316" y="415" width="168" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="400" y="431" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Summarising a report</text>
+  <rect x="497" y="385" width="176" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="585" y="401" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Brainstorming options</text>
+  <rect x="696" y="345" width="168" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="780" y="361" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Explaining a concept</text>
+  <rect x="131" y="190" width="168" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="215" y="206" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Exact legal citation</text>
+  <rect x="297" y="135" width="206" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="400" y="151" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Reading subtle data traps</text>
+  <rect x="509" y="115" width="153" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="585" y="131" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Niche recent facts</text>
+  <rect x="700" y="103" width="160" height="22" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="780" y="119" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#111111">Local tacit context</text>
+  <rect x="100" y="440" width="250" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="225" y="457" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Inside: AI helps</text>
+  <line x1="90" y1="490" x2="900" y2="490" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="495" y="516" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Apparent difficulty of the task to a person</text>
+  <rect x="100" y="98" width="250" height="24" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="225" y="115" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Outside: AI misleads</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" font-style="italic" fill="#111111">Schematic; task placement illustrative. The line moves with each model generation.</text>
+</svg>

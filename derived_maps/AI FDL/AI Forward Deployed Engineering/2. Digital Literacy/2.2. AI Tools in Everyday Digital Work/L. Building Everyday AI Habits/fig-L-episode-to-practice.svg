@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>From episodic use to a sustained practice</title>
+  <desc>Three stages left to right. Episodic use: bursts of trial driven by novelty, with no stable cue, no fixed check and no record. Habit: one recurring task with a stable cue, saved instruction and fixed check. Practice: several habits held together by principles, personal limits and rhythms of review. Beneath, a line shows value rising from erratic to compounding.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Episodes, habits and practice</text>
+  <rect x="30" y="100" width="270" height="260" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="38" y="159" width="254" height="139" rx="4" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="165" y="182" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Episodic use</text>
+  <text x="165" y="214" text-anchor="middle" font-size="15" fill="#111111">Bursts of trial driven by</text>
+  <text x="165" y="234" text-anchor="middle" font-size="15" fill="#111111">novelty or deadlines. No</text>
+  <text x="165" y="253" text-anchor="middle" font-size="15" fill="#111111">stable cue, no fixed check,</text>
+  <text x="165" y="273" text-anchor="middle" font-size="15" fill="#111111">nothing recorded. Value</text>
+  <text x="165" y="292" text-anchor="middle" font-size="15" fill="#111111">erratic; often abandoned.</text>
+  <rect x="345" y="100" width="270" height="260" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="353" y="159" width="254" height="139" rx="4" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="182" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Habit</text>
+  <text x="480" y="214" text-anchor="middle" font-size="15" fill="#111111">One recurring task with a</text>
+  <text x="480" y="234" text-anchor="middle" font-size="15" fill="#111111">stable cue, a saved</text>
+  <text x="480" y="253" text-anchor="middle" font-size="15" fill="#111111">instruction and a fixed check.</text>
+  <text x="480" y="273" text-anchor="middle" font-size="15" fill="#111111">Value repeatable within that</text>
+  <text x="480" y="292" text-anchor="middle" font-size="15" fill="#111111">task.</text>
+  <rect x="660" y="100" width="270" height="260" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+  <rect x="668" y="159" width="254" height="139" rx="4" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="795" y="182" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Practice</text>
+  <text x="795" y="214" text-anchor="middle" font-size="15" fill="#111111">Several habits held together</text>
+  <text x="795" y="234" text-anchor="middle" font-size="15" fill="#111111">by principles, personal limits</text>
+  <text x="795" y="253" text-anchor="middle" font-size="15" fill="#111111">and rhythms of review. Value</text>
+  <text x="795" y="273" text-anchor="middle" font-size="15" fill="#111111">compounds and adapts as tools</text>
+  <text x="795" y="292" text-anchor="middle" font-size="15" fill="#111111">change.</text>
+  <line x1="302" y1="230" x2="343" y2="230" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="617" y1="230" x2="658" y2="230" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="322" y="218" text-anchor="middle" font-size="13" fill="#111111">repeat</text>
+  <text x="637" y="218" text-anchor="middle" font-size="13" fill="#111111">extend</text>
+  <line x1="60" y1="470" x2="900" y2="470" stroke="#222222" stroke-width="2"/>
+  <path d="M60 450 L90 420 L120 455 L150 430 L180 460 L210 440 L240 462 L270 445 L300 455" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="2 4"/>
+  <path d="M330 445 L620 425" fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M650 445 C 760 430, 840 405, 900 378" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <text x="165" y="500" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">erratic value</text>
+  <text x="480" y="500" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">steady value</text>
+  <text x="780" y="500" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">compounding value</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Conceptual progression; people can move back as well as forward.</text>
+</svg>

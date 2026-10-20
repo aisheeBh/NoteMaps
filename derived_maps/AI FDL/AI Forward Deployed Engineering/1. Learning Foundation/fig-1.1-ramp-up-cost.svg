@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two ramp-up curves and the productivity lost before full proficiency</title>
+  <desc>Productivity rises linearly from 25 per cent to 100 per cent over four months for a redesigned onboarding and over six months for the current one. The triangle above the faster line is productivity lost in both cases; the wedge between the two lines is the extra loss from the slower ramp-up.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Ramp-up to full proficiency: what slow learning costs</text>
+
+  <!-- shaded areas -->
+  <polygon points="120,120 120,360 480,120" fill="url(#dots)" stroke="none"/>
+  <polygon points="120,360 480,120 660,120" fill="url(#hatch)" stroke="none"/>
+
+  <!-- axes -->
+  <line x1="120" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="120" y1="440" x2="120" y2="90" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="110" y="125">100%</text>
+    <text x="110" y="205">75%</text>
+    <text x="110" y="285">50%</text>
+    <text x="110" y="365">25%</text>
+    <text x="110" y="445">0</text>
+  </g>
+  <line x1="120" y1="120" x2="860" y2="120" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="120" y="462">0</text><text x="210" y="462">1</text><text x="300" y="462">2</text>
+    <text x="390" y="462">3</text><text x="480" y="462">4</text><text x="570" y="462">5</text>
+    <text x="660" y="462">6</text><text x="750" y="462">7</text><text x="840" y="462">8</text>
+  </g>
+  <text x="490" y="492" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Months since starting the role</text>
+  <text x="50" y="280" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 50 280)">Productivity, % of full</text>
+
+  <!-- lines -->
+  <polyline points="120,360 480,120 860,120" fill="none" stroke="#1E5E24" stroke-width="3.5"/>
+  <polyline points="120,360 660,120 860,120" fill="none" stroke="#7A5200" stroke-width="3.5" stroke-dasharray="10 6"/>
+
+  <!-- direct labels -->
+  <rect x="490" y="78" width="250" height="24" fill="#FFFFFF"/>
+  <text x="496" y="96" font-size="15" font-weight="bold" fill="#111111">Redesigned: full at 4 months</text>
+  <line x1="490" y1="100" x2="480" y2="118" stroke="#222222" stroke-width="1.5"/>
+  <rect x="670" y="140" width="210" height="24" fill="#FFFFFF"/>
+  <text x="676" y="158" font-size="15" font-weight="bold" fill="#111111">Current: full at 6 months</text>
+  <line x1="672" y1="142" x2="662" y2="124" stroke="#222222" stroke-width="1.5"/>
+
+  <rect x="132" y="150" width="196" height="44" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="140" y="168" font-size="14" fill="#111111">Lost in both designs:</text>
+  <text x="140" y="186" font-size="14" fill="#111111">0.375 x 4 months</text>
+
+  <rect x="430" y="250" width="250" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="438" y="270" font-size="14" fill="#111111">Extra loss from the slower</text>
+  <text x="438" y="288" font-size="14" fill="#111111">ramp-up: 0.375 x 2 months,</text>
+  <text x="438" y="306" font-size="14" fill="#111111">3,750 per hire at 5,000 a month</text>
+  <line x1="480" y1="250" x2="500" y2="168" stroke="#222222" stroke-width="1.5"/>
+
+  <text x="480" y="535" text-anchor="middle" font-size="13" fill="#333333">Illustrative figures from the worked example; real ramp-ups are rarely linear.</text>
+</svg>

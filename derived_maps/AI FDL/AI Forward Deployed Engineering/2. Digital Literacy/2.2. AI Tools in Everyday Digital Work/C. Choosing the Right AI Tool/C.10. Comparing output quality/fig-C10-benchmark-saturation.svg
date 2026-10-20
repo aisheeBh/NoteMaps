@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Benchmark saturation</title>
+  <desc>Schematic line chart over time. Three successive benchmarks, an older knowledge test, a harder reasoning test and a frontier test, each show best model scores rising in an S-shaped curve towards a ceiling at the top. As each approaches the ceiling, a newer, harder benchmark begins lower and rises in turn.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Tests saturate, and harder tests replace them</text>
+  <line x1="120.0" y1="440.0" x2="900.0" y2="440.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120.0" y1="440.0" x2="120.0" y2="80.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510.0" y="484.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Time</text>
+  <text x="76.0" y="260.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 76 260.0)">Best model score</text>
+  <text x="110.0" y="436.0" text-anchor="end" font-size="14" fill="#111111">Low</text>
+  <text x="110.0" y="94.0" text-anchor="end" font-size="14" fill="#111111">Ceiling</text>
+  <line x1="120.0" y1="100.0" x2="880.0" y2="100.0" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <path d="M120.0 339.1 L127.6 336.6 L135.2 333.8 L142.8 330.6 L150.4 327.0 L158.0 323.1 L165.6 318.7 L173.2 313.9 L180.8 308.6 L188.4 302.9 L196.0 296.7 L203.6 290.1 L211.2 283.0 L218.8 275.5 L226.4 267.6 L234.0 259.5 L241.6 251.1 L249.2 242.5 L256.8 233.9 L264.4 225.2 L272.0 216.7 L279.6 208.3 L287.2 200.1 L294.8 192.3 L302.4 184.8 L310.0 177.7 L317.6 171.1 L325.2 164.9 L332.8 159.1 L340.4 153.9 L348.0 149.1 L355.6 144.7 L363.2 140.7 L370.8 137.2 L378.4 134.0 L386.0 131.2 L393.6 128.6 L401.2 126.4 L408.8 124.4 L416.4 122.6 L424.0 121.1 L431.6 119.7 L439.2 118.5 L446.8 117.5 L454.4 116.5 L462.0 115.7 L469.6 115.0 L477.2 114.4 L484.8 113.9 L492.4 113.4 L500.0 113.0 L507.6 112.6 L515.2 112.3 L522.8 112.0 L530.4 111.8 L538.0 111.6 L545.6 111.4 L553.2 111.2 L560.8 111.1 L568.4 111.0 L576.0 110.9 L583.6 110.8 L591.2 110.7 L598.8 110.7 L606.4 110.6 L614.0 110.5 L621.6 110.5 L629.2 110.5 L636.8 110.4 L644.4 110.4 L652.0 110.4 L659.6 110.3 L667.2 110.3 L674.8 110.3 L682.4 110.3 L690.0 110.3 L697.6 110.3 L705.2 110.3 L712.8 110.3 L720.4 110.2 L728.0 110.2 L735.6 110.2 L743.2 110.2 L750.8 110.2 L758.4 110.2 L766.0 110.2 L773.6 110.2 L781.2 110.2 L788.8 110.2 L796.4 110.2 L804.0 110.2 L811.6 110.2 L819.2 110.2 L826.8 110.2 L834.4 110.2 L842.0 110.2 L849.6 110.2 L857.2 110.2 L864.8 110.2 L872.4 110.2 L880.0 110.2" fill="none" stroke="#111111" stroke-width="4"/>
+  <path d="M348.0 404.7 L355.6 403.4 L363.2 402.0 L370.8 400.3 L378.4 398.4 L386.0 396.2 L393.6 393.8 L401.2 391.0 L408.8 387.9 L416.4 384.4 L424.0 380.5 L431.6 376.2 L439.2 371.3 L446.8 366.0 L454.4 360.1 L462.0 353.6 L469.6 346.6 L477.2 339.0 L484.8 330.8 L492.4 322.1 L500.0 312.9 L507.6 303.3 L515.2 293.3 L522.8 283.0 L530.4 272.5 L538.0 261.9 L545.6 251.3 L553.2 240.8 L560.8 230.5 L568.4 220.5 L576.0 210.9 L583.6 201.7 L591.2 193.0 L598.8 184.8 L606.4 177.2 L614.0 170.2 L621.6 163.8 L629.2 157.9 L636.8 152.5 L644.4 147.7 L652.0 143.3 L659.6 139.4 L667.2 135.9 L674.8 132.8 L682.4 130.0 L690.0 127.6 L697.6 125.4 L705.2 123.5 L712.8 121.9 L720.4 120.4 L728.0 119.1 L735.6 118.0 L743.2 117.0 L750.8 116.1 L758.4 115.3 L766.0 114.7 L773.6 114.1 L781.2 113.6 L788.8 113.2 L796.4 112.8 L804.0 112.4 L811.6 112.2 L819.2 111.9 L826.8 111.7 L834.4 111.5 L842.0 111.3 L849.6 111.2 L857.2 111.0 L864.8 110.9 L872.4 110.8 L880.0 110.8" fill="none" stroke="#111111" stroke-width="4" stroke-dasharray="10 6"/>
+  <path d="M591.2 421.6 L598.8 420.5 L606.4 419.4 L614.0 418.0 L621.6 416.6 L629.2 414.9 L636.8 413.1 L644.4 411.1 L652.0 408.8 L659.6 406.3 L667.2 403.5 L674.8 400.4 L682.4 397.0 L690.0 393.3 L697.6 389.2 L705.2 384.7 L712.8 379.9 L720.4 374.6 L728.0 368.8 L735.6 362.7 L743.2 356.1 L750.8 349.0 L758.4 341.5 L766.0 333.6 L773.6 325.4 L781.2 316.7 L788.8 307.8 L796.4 298.6 L804.0 289.3 L811.6 279.7 L819.2 270.2 L826.8 260.6 L834.4 251.1 L842.0 241.7 L849.6 232.5 L857.2 223.6 L864.8 214.9 L872.4 206.7 L880.0 198.8" fill="none" stroke="#111111" stroke-width="4" stroke-dasharray="2 4"/>
+  <text x="130.0" y="370.6" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Older knowledge test</text>
+  <text x="340.0" y="409.7" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Harder reasoning test</text>
+  <text x="583.2" y="426.6" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Frontier test</text>
+  <text x="880.0" y="90.0" text-anchor="end" font-size="14" font-style="italic" fill="#111111">Saturation: scores no longer separate leading models</text>
+  <text x="480.0" y="525.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

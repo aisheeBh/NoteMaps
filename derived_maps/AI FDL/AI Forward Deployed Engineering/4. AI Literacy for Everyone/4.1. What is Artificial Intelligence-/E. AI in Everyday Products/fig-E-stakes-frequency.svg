@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 630" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Everyday AI products by how often they act and how costly errors are</title>
+  <desc>A two-by-two matrix. Horizontal axis: how often the system acts on its own, from rarely to constantly. Vertical axis: cost of an error to the user, from low to high. Low cost and frequent: autocorrect, feed ranking, recommendations. Low cost and rare: photo memories, playlist suggestions. High cost and rare: heart-rhythm alerts, symptom triage. High cost and frequent: fraud declines, spam filtering of important mail, face unlock security.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">Where errors matter most</text>
+  <rect x="140" y="80" width="380" height="220" fill="#F2F2F2" stroke="#333333" stroke-width="2"/>
+  <text x="330" y="114" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">High cost, acts rarely</text>
+  <circle cx="210" cy="149" r="6" fill="#000000"/>
+  <text x="226" y="154" text-anchor="start" font-size="15" fill="#111111">heart-rhythm alerts</text>
+  <circle cx="210" cy="183" r="6" fill="#000000"/>
+  <text x="226" y="188" text-anchor="start" font-size="15" fill="#111111">symptom-checker triage</text>
+  <rect x="520" y="80" width="380" height="220" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="710" y="114" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">High cost, acts constantly</text>
+  <circle cx="590" cy="149" r="6" fill="#000000"/>
+  <text x="606" y="154" text-anchor="start" font-size="15" fill="#111111">card-fraud declines</text>
+  <circle cx="590" cy="183" r="6" fill="#000000"/>
+  <text x="606" y="188" text-anchor="start" font-size="15" fill="#111111">spam filtering of key mail</text>
+  <circle cx="590" cy="217" r="6" fill="#000000"/>
+  <text x="606" y="222" text-anchor="start" font-size="15" fill="#111111">face-unlock security</text>
+  <rect x="140" y="300" width="380" height="220" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="330" y="334" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Low cost, acts rarely</text>
+  <circle cx="210" cy="369" r="6" fill="#000000"/>
+  <text x="226" y="374" text-anchor="start" font-size="15" fill="#111111">photo "memories"</text>
+  <circle cx="210" cy="403" r="6" fill="#000000"/>
+  <text x="226" y="408" text-anchor="start" font-size="15" fill="#111111">playlist suggestions</text>
+  <rect x="520" y="300" width="380" height="220" fill="#F2F2F2" stroke="#333333" stroke-width="2"/>
+  <text x="710" y="334" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Low cost, acts constantly</text>
+  <circle cx="590" cy="369" r="6" fill="#000000"/>
+  <text x="606" y="374" text-anchor="start" font-size="15" fill="#111111">autocorrect</text>
+  <circle cx="590" cy="403" r="6" fill="#000000"/>
+  <text x="606" y="408" text-anchor="start" font-size="15" fill="#111111">feed and video ranking</text>
+  <circle cx="590" cy="437" r="6" fill="#000000"/>
+  <text x="606" y="442" text-anchor="start" font-size="15" fill="#111111">product recommendations</text>
+  <rect x="524" y="84" width="372" height="212" fill="none" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <text x="710" y="284" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">needs the strongest safeguards</text>
+  <line x1="140" y1="540" x2="900" y2="540" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="520" y="566" text-anchor="middle" font-size="15" fill="#111111">How often the system acts on its own →</text>
+  <line x1="110" y1="520" x2="110" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="94" y="300" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 94 300)">Cost of an error to the user →</text>
+  <text x="480" y="612" text-anchor="middle" font-size="13" fill="#333333">Schematic placement; individual products and settings vary.</text>
+</svg>

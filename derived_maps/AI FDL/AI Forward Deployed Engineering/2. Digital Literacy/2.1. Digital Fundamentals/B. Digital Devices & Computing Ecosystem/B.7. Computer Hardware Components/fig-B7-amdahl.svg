@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Amdahl's law</title>
+  <desc>Speed-up against number of cores from 1 to 64, for tasks that are 95, 80 and 50 percent parallel. The 95 percent task rises to about 15 times at 64 cores; the 80 percent task levels off below 5 times; the 50 percent task levels off below 2 times.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Amdahl's law: the serial part sets the ceiling</text>
+  <line x1="140" y1="450" x2="830" y2="450" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="450" x2="140" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="140" y="472">1</text><text x="250" y="472">2</text><text x="360" y="472">4</text><text x="470" y="472">8</text><text x="580" y="472">16</text><text x="690" y="472">32</text><text x="800" y="472">64</text>
+  </g>
+  <text x="470" y="505" text-anchor="middle" font-size="16" fill="#111111">Number of cores (each step doubles)</text>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="130" y="454">0×</text><text x="130" y="364">5×</text><text x="130" y="274">10×</text><text x="130" y="184">15×</text><text x="130" y="94">20×</text>
+  </g>
+  <g stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4">
+    <line x1="140" y1="360" x2="820" y2="360"/><line x1="140" y1="270" x2="820" y2="270"/><line x1="140" y1="180" x2="820" y2="180"/><line x1="140" y1="90" x2="820" y2="90"/>
+  </g>
+  <text x="70" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 70 270)">Speed-up</text>
+
+  <polyline points="140,432 250,415.8 360,387.4 470,343.3 580,285.5 690,224.1 800,172.4" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <polyline points="140,432 250,420 360,405 470,390 580,378 690,370 800,365.2" fill="none" stroke="#7A5200" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <polyline points="140,432 250,426 360,421.2 470,418 580,416.2 690,415 800,414.5" fill="none" stroke="#8B0000" stroke-width="3.5" stroke-dasharray="2 4"/>
+
+  <g font-size="15" fill="#111111">
+    <rect x="806" y="150" width="140" height="42" fill="#FFFFFF"/>
+    <text x="812" y="168">95% parallel</text><text x="812" y="186">≈ 15×</text>
+    <rect x="806" y="340" width="140" height="42" fill="#FFFFFF"/>
+    <text x="812" y="358">80% parallel</text><text x="812" y="376">≈ 4.7×</text>
+    <rect x="806" y="398" width="140" height="42" fill="#FFFFFF"/>
+    <text x="812" y="416">50% parallel</text><text x="812" y="434">≈ 2×</text>
+  </g>
+  <text x="920" y="545" text-anchor="end" font-size="13" fill="#111111">Calculated from speed-up = 1 ÷ [(1 − p) + p ÷ n]; ignores overheads.</text>
+</svg>

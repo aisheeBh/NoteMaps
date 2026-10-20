@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>The rights stack of a generated image</title>
+<desc>Five layers of rights that can attach to a single generated image, from the tool's terms at the base to the intended use at the top.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Five layers of rights in one generated image</text>
+<rect x="24" y="86.0" width="912" height="75.6" rx="6" fill="#EEF7EE" stroke="#1E5E24" stroke-width="3"/>
+<rect x="27" y="89.0" width="14" height="69.6" fill="url(#cross)"/>
+<text x="48.0" y="128.8" font-size="16" font-weight="bold" text-anchor="start" fill="#111111">Intended use and contracts</text>
+<text x="314.0" y="119.7" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">Client contracts, campaign terms, platform rules: may require originality,</text>
+<text x="314.0" y="137.9" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">exclusivity or warranties</text>
+<rect x="24" y="169.6" width="912" height="75.6" rx="6" fill="#FCEDED" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="26.5" y="172.1" width="14" height="70.6" fill="url(#lines)"/>
+<text x="48.0" y="212.4" font-size="16" font-weight="bold" text-anchor="start" fill="#111111">People</text>
+<text x="314.0" y="203.3" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">Likeness, voice and privacy rights of anyone recognisable; consent and</text>
+<text x="314.0" y="221.5" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">personality rights</text>
+<rect x="24" y="253.2" width="912" height="75.6" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="26" y="255.2" width="14" height="71.6" fill="url(#dots)"/>
+<text x="48.0" y="286.0" font-size="16" font-weight="bold" text-anchor="start" fill="#111111">Third-party content in the</text>
+<text x="48.0" y="306.8" font-size="16" font-weight="bold" text-anchor="start" fill="#111111">output</text>
+<text x="314.0" y="286.9" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">Logos, characters, artworks, buildings or text the output reproduces or closely</text>
+<text x="314.0" y="305.1" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">resembles</text>
+<rect x="24" y="336.8" width="912" height="75.6" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="26" y="338.8" width="14" height="71.6" fill="url(#hatch)"/>
+<text x="48.0" y="369.6" font-size="16" font-weight="bold" text-anchor="start" fill="#111111">Copyright in the output</text>
+<text x="48.0" y="390.4" font-size="16" font-weight="bold" text-anchor="start" fill="#111111">itself</text>
+<text x="314.0" y="370.5" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">May be weak or absent where there is little human authorship; varies by</text>
+<text x="314.0" y="388.7" font-size="14" font-weight="normal" text-anchor="start" fill="#111111">jurisdiction</text>
+<rect x="24" y="420.4" width="912" height="75.6" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+<text x="48.0" y="463.2" font-size="16" font-weight="bold" text-anchor="start" fill="#FFFFFF">Tool licence and terms</text>
+<text x="314.0" y="463.2" font-size="14" font-weight="normal" text-anchor="start" fill="#FFFFFF">Who may use outputs, for what, on which plan; indemnities and their conditions</text>
+<text x="480.0" y="526.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Each layer is cleared separately; a 'commercially safe' tool addresses mainly the bottom layers.</text>
+</svg>

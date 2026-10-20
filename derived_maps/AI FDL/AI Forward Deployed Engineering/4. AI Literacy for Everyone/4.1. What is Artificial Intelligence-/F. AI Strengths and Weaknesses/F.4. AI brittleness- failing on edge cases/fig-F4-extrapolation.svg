@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Interpolation and extrapolation</title>
+  <desc>Schematic: training points lie within a middle band. A fitted curve follows the true relationship closely within the band (interpolation) but diverges sharply from it outside the band on both sides (extrapolation).</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#EEF4FA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#9BB3CC" stroke-width="1.2"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Reliable between the data, unreliable beyond it</text>
+  <rect x="300" y="70" width="360" height="370" fill="url(#hatch)" stroke="#555555" stroke-width="1" stroke-dasharray="4 4"/>
+  <rect x="380" y="78" width="200" height="24" fill="#FFFFFF"/>
+  <text x="480" y="96" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">INTERPOLATION</text>
+  <text x="200" y="96" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">EXTRAPOLATION</text>
+  <text x="780" y="96" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">EXTRAPOLATION</text>
+  <line x1="100" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="440" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="474" text-anchor="middle" font-size="16" fill="#111111">Input condition</text>
+  <text x="50" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 255)">Outcome</text>
+  <path d="M110 330 C 300 300, 600 220, 880 200" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M110 150 C 200 220, 260 300, 320 300 C 420 290, 560 245, 640 236 C 720 228, 800 330, 880 420" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <g fill="#000000">
+    <circle cx="320" cy="296" r="5"/><circle cx="350" cy="290" r="5"/><circle cx="380" cy="286" r="5"/><circle cx="410" cy="276" r="5"/>
+    <circle cx="440" cy="270" r="5"/><circle cx="470" cy="265" r="5"/><circle cx="500" cy="256" r="5"/><circle cx="530" cy="252" r="5"/>
+    <circle cx="560" cy="246" r="5"/><circle cx="590" cy="240" r="5"/><circle cx="620" cy="238" r="5"/><circle cx="645" cy="232" r="5"/>
+  </g>
+  <rect x="340" y="330" width="280" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="352" y="350" font-size="15" font-weight="bold" fill="#111111">Training examples (dots)</text>
+  <text x="352" y="368" font-size="14" fill="#111111">model fits the true pattern here</text>
+  <rect x="690" y="130" width="200" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="702" y="150" font-size="15" font-weight="bold" fill="#111111">True relationship</text>
+  <text x="702" y="168" font-size="14" fill="#111111">(dashed line)</text>
+  <line x1="760" y1="176" x2="760" y2="206" stroke="#222222" stroke-width="1"/>
+  <rect x="690" y="370" width="200" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="702" y="390" font-size="15" font-weight="bold" fill="#111111">Model's prediction</text>
+  <text x="702" y="408" font-size="14" fill="#111111">diverges beyond the data</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

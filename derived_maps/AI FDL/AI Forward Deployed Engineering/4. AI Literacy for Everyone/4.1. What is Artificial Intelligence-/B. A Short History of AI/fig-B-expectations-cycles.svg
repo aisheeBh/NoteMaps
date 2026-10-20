@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Expectations of AI over seventy years</title>
+  <desc>Schematic curve from 1950 to 2026. Expectations rise to a peak in the late 1960s, fall into the first winter from about 1974 to 1980, rise to a second peak in the mid-1980s with expert systems, fall into the second winter from about 1987 to 1993, recover slowly through the 1990s and 2000s as machine learning spreads, climb with deep learning after 2012 and rise steeply with generative AI from 2022, the highest level yet.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Two winters, then the largest boom yet</text>
+
+  <rect x="356" y="70" width="62" height="370" fill="url(#lines)" opacity="0.55"/>
+  <rect x="490" y="70" width="62" height="370" fill="url(#lines)" opacity="0.55"/>
+  <rect x="340" y="404" width="94" height="26" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="387" y="422" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">first winter</text>
+  <rect x="470" y="404" width="104" height="26" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="522" y="422" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">second winter</text>
+
+  <line x1="110" y1="440" x2="905" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="440" x2="110" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="60" y="260" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 260)">Expectations and investment</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="110" y="462">1950</text><text x="213" y="462">1960</text><text x="315" y="462">1970</text><text x="418" y="462">1980</text>
+    <text x="520" y="462">1990</text><text x="623" y="462">2000</text><text x="726" y="462">2010</text><text x="828" y="462">2020</text>
+  </g>
+
+  <path d="M115 400 C 200 360, 260 240, 315 240 C 345 240, 350 350, 387 360 C 420 368, 440 250, 470 240 C 495 232, 505 360, 540 370 C 600 380, 680 340, 746 300 C 800 268, 830 230, 849 190 C 865 150, 880 105, 892 82" fill="none" stroke="#1F3B5C" stroke-width="4.5"/>
+
+  <rect x="170" y="196" width="190" height="40" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="265" y="213" text-anchor="middle" font-size="14" fill="#111111">early programs and</text>
+  <text x="265" y="229" text-anchor="middle" font-size="14" fill="#111111">bold forecasts</text>
+
+  <rect x="400" y="160" width="150" height="40" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="475" y="177" text-anchor="middle" font-size="14" fill="#111111">expert systems,</text>
+  <text x="475" y="193" text-anchor="middle" font-size="14" fill="#111111">national programmes</text>
+
+  <rect x="580" y="292" width="150" height="40" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="655" y="309" text-anchor="middle" font-size="14" fill="#111111">machine learning,</text>
+  <text x="655" y="325" text-anchor="middle" font-size="14" fill="#111111">often not called AI</text>
+
+  <rect x="640" y="200" width="150" height="40" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="715" y="217" text-anchor="middle" font-size="14" fill="#111111">deep learning,</text>
+  <text x="715" y="233" text-anchor="middle" font-size="14" fill="#111111">from 2012</text>
+
+  <rect x="660" y="84" width="170" height="40" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="745" y="101" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">generative AI,</text>
+  <text x="745" y="117" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">from 2022</text>
+
+  <text x="480" y="500" text-anchor="middle" font-size="15" fill="#111111">Whether the present boom is followed by a correction is an open question.</text>
+  <text x="480" y="536" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset. Heights indicate relative mood, not measured amounts.</text>
+</svg>

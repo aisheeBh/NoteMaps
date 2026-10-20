@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two working days compared</title>
+  <desc>Two horizontal timelines from 08:00 to 18:00. The first, reactive day, is broken into many short fragments of email and chat checking between short work periods. The second, batched day, has three email and chat sessions (around 09:00, 12:30 and 16:30) with long blocks of focused work between them.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">A reactive day and a batched day (illustrative)</text>
+  <line x1="170" y1="70" x2="170" y2="300" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="170" y="322" text-anchor="middle" font-size="14" fill="#111111">08:00</text>
+  <line x1="322" y1="70" x2="322" y2="300" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="322" y="322" text-anchor="middle" font-size="14" fill="#111111">10:00</text>
+  <line x1="474" y1="70" x2="474" y2="300" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="474" y="322" text-anchor="middle" font-size="14" fill="#111111">12:00</text>
+  <line x1="626" y1="70" x2="626" y2="300" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="626" y="322" text-anchor="middle" font-size="14" fill="#111111">14:00</text>
+  <line x1="778" y1="70" x2="778" y2="300" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="778" y="322" text-anchor="middle" font-size="14" fill="#111111">16:00</text>
+  <line x1="930" y1="70" x2="930" y2="300" stroke="#888888" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="930" y="322" text-anchor="middle" font-size="14" fill="#111111">18:00</text>
+  <text x="110" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Reactive</text>
+  <text x="110" y="228" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Batched</text>
+  <rect x="170.0" y="100" width="16.8" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="186.8" y="100" width="4.6" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="191.4" y="100" width="20.4" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="211.8" y="100" width="5.0" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="216.8" y="100" width="12.9" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="229.7" y="100" width="6.9" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="236.5" y="100" width="32.3" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="268.9" y="100" width="9.9" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="278.8" y="100" width="28.8" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="307.6" y="100" width="5.5" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="313.1" y="100" width="23.6" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="336.7" y="100" width="5.9" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="342.6" y="100" width="15.3" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="358.0" y="100" width="4.6" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="362.6" y="100" width="16.3" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="378.9" y="100" width="10.8" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="389.7" y="100" width="30.3" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="420.0" y="100" width="9.9" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="429.9" y="100" width="29.7" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="459.6" y="100" width="5.3" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="464.9" y="100" width="18.5" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="483.3" y="100" width="8.6" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="491.9" y="100" width="28.1" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="520.0" y="100" width="10.3" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="530.3" y="100" width="31.5" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="561.7" y="100" width="4.5" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="566.2" y="100" width="25.2" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="591.4" y="100" width="8.9" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="600.3" y="100" width="22.9" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="623.2" y="100" width="5.2" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="628.4" y="100" width="22.2" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="650.6" y="100" width="4.5" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="655.1" y="100" width="32.7" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="687.8" y="100" width="10.4" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="698.2" y="100" width="23.9" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="722.0" y="100" width="6.1" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="728.1" y="100" width="32.1" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="760.3" y="100" width="8.1" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="768.4" y="100" width="31.5" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="799.9" y="100" width="10.2" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="810.2" y="100" width="23.0" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="833.2" y="100" width="6.9" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="840.1" y="100" width="25.1" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="865.2" y="100" width="7.1" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="872.2" y="100" width="15.1" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="887.3" y="100" width="6.1" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="893.4" y="100" width="29.9" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="923.4" y="100" width="4.1" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1"/>
+  <rect x="927.5" y="100" width="12.5" height="44" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <rect x="170.0" y="200" width="57.0" height="44" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="227.0" y="200" width="38.0" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5"/>
+  <rect x="265.0" y="200" width="247.0" height="44" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="512.0" y="200" width="38.0" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5"/>
+  <rect x="550.0" y="200" width="38.0" height="44" fill="#E6E6E6" stroke="#666666" stroke-width="1.5"/>
+  <rect x="588.0" y="200" width="228.0" height="44" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="816.0" y="200" width="57.0" height="44" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5"/>
+  <rect x="873.0" y="200" width="57.0" height="44" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <rect x="328" y="211" width="120" height="22" fill="#FFFFFF"/>
+  <text x="388" y="227" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Focused work</text>
+  <rect x="642" y="211" width="120" height="22" fill="#FFFFFF"/>
+  <text x="702" y="227" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Focused work</text>
+  <text x="569" y="192" text-anchor="middle" font-size="13" fill="#111111">Lunch</text>
+  <rect x="200" y="345" width="30" height="20" fill="url(#lines)" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="240" y="360" text-anchor="start" font-size="14" fill="#111111">Email and chat</text>
+  <rect x="420" y="345" width="30" height="20" fill="url(#cross)" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="460" y="360" text-anchor="start" font-size="14" fill="#111111">Focused work (batched day)</text>
+  <rect x="700" y="345" width="30" height="20" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="740" y="360" text-anchor="start" font-size="14" fill="#111111">Work fragments</text>
+  <text x="480" y="384" text-anchor="middle" font-size="13" fill="#333333">Schematic; illustrative timings, not measured data.</text>
+</svg>

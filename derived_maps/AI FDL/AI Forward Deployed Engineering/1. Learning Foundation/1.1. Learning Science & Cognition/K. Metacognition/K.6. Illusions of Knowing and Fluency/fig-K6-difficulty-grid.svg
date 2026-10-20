@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Effort compared with learning gain</title>
+  <desc>A two-by-two grid crossing felt effort, low or high, with long-term learning gain, low or high. High effort and high gain: desirable difficulties such as retrieval, spacing and interleaving. High effort and low gain: undesirable difficulties such as hard-to-read fonts, missing prerequisites and overload. Low effort and low gain: comfortable illusions such as re-reading and highlighting. Low effort and high gain: brief spaced checks of material already well learned.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Effort is not the same as learning</text>
+
+  <line x1="200" y1="540" x2="900" y2="540" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="200" y1="540" x2="200" y2="66" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="550" y="572" text-anchor="middle" font-size="16" fill="#111111">How effortful it feels</text>
+  <text x="365" y="560" text-anchor="middle" font-size="14" fill="#111111">low</text>
+  <text x="725" y="560" text-anchor="middle" font-size="14" fill="#111111">high</text>
+  <text x="120" y="300" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 120 300)">Long-term learning gain</text>
+  <text x="185" y="185" text-anchor="end" font-size="14" fill="#111111">high</text>
+  <text x="185" y="420" text-anchor="end" font-size="14" fill="#111111">low</text>
+
+  <rect x="220" y="80" width="320" height="220" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="560" y="80" width="320" height="220" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="220" y="310" width="320" height="220" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="560" y="310" width="320" height="220" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+
+  <text x="380" y="140" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">EFFICIENT UPKEEP</text>
+  <text x="380" y="168" text-anchor="middle" font-size="14" fill="#111111">brief spaced checks of</text>
+  <text x="380" y="188" text-anchor="middle" font-size="14" fill="#111111">material already well learned</text>
+  <text x="380" y="218" text-anchor="middle" font-size="14" fill="#111111">small effort keeps</text>
+  <text x="380" y="238" text-anchor="middle" font-size="14" fill="#111111">retrieval strong</text>
+
+  <rect x="580" y="110" width="280" height="160" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1.5"/>
+  <text x="720" y="140" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">DESIRABLE DIFFICULTY</text>
+  <text x="720" y="168" text-anchor="middle" font-size="14" fill="#111111">retrieval, spacing,</text>
+  <text x="720" y="188" text-anchor="middle" font-size="14" fill="#111111">interleaving, generation</text>
+  <text x="720" y="218" text-anchor="middle" font-size="14" fill="#111111">feels hard because it does</text>
+  <text x="720" y="238" text-anchor="middle" font-size="14" fill="#111111">the work that builds memory</text>
+
+  <rect x="240" y="340" width="280" height="160" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="380" y="370" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">COMFORTABLE ILLUSION</text>
+  <text x="380" y="398" text-anchor="middle" font-size="14" fill="#111111">re-reading, highlighting,</text>
+  <text x="380" y="418" text-anchor="middle" font-size="14" fill="#111111">watching demonstrations</text>
+  <text x="380" y="448" text-anchor="middle" font-size="14" fill="#111111">feels productive; builds</text>
+  <text x="380" y="468" text-anchor="middle" font-size="14" fill="#111111">familiarity, not recall</text>
+
+  <rect x="580" y="340" width="280" height="160" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="720" y="370" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">UNDESIRABLE DIFFICULTY</text>
+  <text x="720" y="398" text-anchor="middle" font-size="14" fill="#111111">hard-to-read fonts, missing</text>
+  <text x="720" y="418" text-anchor="middle" font-size="14" fill="#111111">prerequisites, overload</text>
+  <text x="720" y="448" text-anchor="middle" font-size="14" fill="#111111">hard for reasons unrelated</text>
+  <text x="720" y="468" text-anchor="middle" font-size="14" fill="#111111">to the learning itself</text>
+</svg>

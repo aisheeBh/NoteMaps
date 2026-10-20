@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Sharing channels by reach and control</title>
+<desc>Schematic plot of sharing channels by reach of the audience and control after sending.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Sharing channels: reach against control</text>
+<rect x="150" y="80" width="760" height="380" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<line x1="340.0" y1="80" x2="340.0" y2="460" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="175.0" x2="910" y2="175.0" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="530.0" y1="80" x2="530.0" y2="460" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="270.0" x2="910" y2="270.0" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="720.0" y1="80" x2="720.0" y2="460" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="365.0" x2="910" y2="365.0" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="478" x2="910" y2="478" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="530.0" y="508" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Reach of the audience</text>
+<text x="150" y="508" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Low</text>
+<text x="910" y="508" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">High</text>
+<line x1="132" y1="460" x2="132" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="80" y="270.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111" transform="rotate(-90 80 270.0)">Control after sharing</text>
+<text x="118" y="460" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Low</text>
+<text x="118" y="94" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">High</text>
+<circle cx="241.2" cy="137.0" r="8" fill="#111111"/>
+<rect x="253.2" y="125.0" width="122.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="259.2" y="142.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Shared page,</text>
+<text x="259.2" y="161.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">named access</text>
+<circle cx="340.0" cy="250.99999999999997" r="8" fill="#111111"/>
+<rect x="352.0" y="238.99999999999997" width="140.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="358.0" y="255.99999999999997" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Task tracker</text>
+<text x="358.0" y="275.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">(actions only)</text>
+<circle cx="492.0" cy="224.4" r="8" fill="#111111"/>
+<rect x="504.0" y="212.4" width="167.0" height="25" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="510.0" y="229.4" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Team chat channel</text>
+<circle cx="438.8" cy="391.6" r="8" fill="#111111"/>
+<rect x="450.8" y="379.6" width="158.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="456.8" y="396.6" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Email, including</text>
+<text x="456.8" y="415.6" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">external</text>
+<circle cx="818.8" cy="289.0" r="8" fill="#111111"/>
+<rect x="633.8" y="277.0" width="167.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="800.8" y="294.0" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Knowledge base,</text>
+<text x="800.8" y="313.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">enterprise search</text>
+<circle cx="849.2" cy="422.0" r="8" fill="#111111"/>
+<rect x="709.2" y="410.0" width="122.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="831.2" y="427.0" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">"Anyone with</text>
+<text x="831.2" y="446.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">the link"</text>
+<text x="40" y="562" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Schematic; positions are approximate and depend on configuration.</text>
+</svg>

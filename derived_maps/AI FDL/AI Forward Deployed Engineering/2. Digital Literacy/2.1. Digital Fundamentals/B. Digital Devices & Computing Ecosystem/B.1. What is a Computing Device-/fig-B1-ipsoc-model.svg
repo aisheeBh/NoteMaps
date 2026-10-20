@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The five functions of a computing device</title>
+  <desc>Input flows into processing, which produces output. Processing exchanges data with memory and storage below it, and with other devices through communication links shown on the right.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Input, processing, storage, output, communication</text>
+
+  <!-- device boundary -->
+  <rect x="40" y="70" width="700" height="450" fill="none" stroke="#555555" stroke-width="2" stroke-dasharray="10 6"/>
+  <rect x="56" y="80" width="170" height="26" fill="#FFFFFF"/>
+  <text x="64" y="99" font-size="16" font-weight="bold" fill="#111111">The device</text>
+
+  <!-- input -->
+  <rect x="70" y="160" width="170" height="130" rx="8" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="85" y="178" width="140" height="94" fill="#FFFFFF"/>
+  <text x="155" y="202" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">INPUT</text>
+  <text x="155" y="226" text-anchor="middle" font-size="14" fill="#111111">keys, touch,</text>
+  <text x="155" y="245" text-anchor="middle" font-size="14" fill="#111111">camera, sensors,</text>
+  <text x="155" y="264" text-anchor="middle" font-size="14" fill="#111111">card reader</text>
+
+  <!-- processing -->
+  <rect x="300" y="150" width="180" height="150" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="390" y="200" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">PROCESSING</text>
+  <text x="390" y="228" text-anchor="middle" font-size="14" fill="#FFFFFF">follows the stored</text>
+  <text x="390" y="247" text-anchor="middle" font-size="14" fill="#FFFFFF">program: calculate,</text>
+  <text x="390" y="266" text-anchor="middle" font-size="14" fill="#FFFFFF">compare, decide</text>
+
+  <!-- output -->
+  <rect x="540" y="160" width="170" height="130" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="555" y="178" width="140" height="94" fill="#FFFFFF"/>
+  <text x="625" y="202" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">OUTPUT</text>
+  <text x="625" y="226" text-anchor="middle" font-size="14" fill="#111111">screen, sound,</text>
+  <text x="625" y="245" text-anchor="middle" font-size="14" fill="#111111">print, vibration,</text>
+  <text x="625" y="264" text-anchor="middle" font-size="14" fill="#111111">motor or valve</text>
+
+  <!-- storage -->
+  <rect x="210" y="370" width="360" height="120" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="226" y="384" width="328" height="92" fill="#FFFFFF"/>
+  <text x="390" y="408" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">STORAGE</text>
+  <text x="390" y="434" text-anchor="middle" font-size="14" fill="#111111">Memory (RAM): work in progress, lost at power-off</text>
+  <text x="390" y="458" text-anchor="middle" font-size="14" fill="#111111">Storage (SSD, flash): kept when power is off</text>
+
+  <!-- arrows -->
+  <line x1="240" y1="225" x2="296" y2="225" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="480" y1="225" x2="536" y2="225" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="370" y1="304" x2="370" y2="366" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="410" y1="366" x2="410" y2="304" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="425" y="342" font-size="14" fill="#111111">read and write</text>
+
+  <!-- communication -->
+  <rect x="780" y="150" width="150" height="150" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="855" y="190" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">COMMUNI-</text>
+  <text x="855" y="212" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">CATION</text>
+  <text x="855" y="240" text-anchor="middle" font-size="14" fill="#111111">other devices,</text>
+  <text x="855" y="259" text-anchor="middle" font-size="14" fill="#111111">servers, cloud</text>
+  <text x="855" y="278" text-anchor="middle" font-size="14" fill="#111111">via Wi-Fi, cable</text>
+  <path d="M480 175 Q620 110 776 175" fill="none" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="628" y="122" text-anchor="middle" font-size="14" fill="#111111">send and receive data</text>
+</svg>

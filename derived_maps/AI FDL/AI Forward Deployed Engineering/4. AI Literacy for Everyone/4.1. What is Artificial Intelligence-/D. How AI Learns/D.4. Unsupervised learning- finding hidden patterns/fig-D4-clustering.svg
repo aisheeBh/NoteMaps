@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Clustering finds groups in unlabelled data</title>
+  <desc>Left: unlabelled customers plotted by two measured properties, all drawn alike. Right: after clustering, the same points are assigned to three groups, each drawn with a different marker shape, with a cross marking each group's centre.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Clustering: the same points before and after grouping</text>
+  <text x="250" y="78" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">Before: no labels</text>
+  <text x="710" y="78" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">After: three groups found</text>
+  <rect x="50" y="90" width="400" height="360" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <circle cx="111" cy="180" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="182" cy="206" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="107" cy="193" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="165" cy="159" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="111" cy="228" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="173" cy="177" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="199" cy="163" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="147" cy="199" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="232" cy="199" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="125" cy="224" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="153" cy="187" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="327" cy="200" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="347" cy="178" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="373" cy="192" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="281" cy="178" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="293" cy="203" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="291" cy="198" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="313" cy="192" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="430" cy="199" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="365" cy="236" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="329" cy="179" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="335" cy="187" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="245" cy="389" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="260" cy="383" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="302" cy="375" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="264" cy="360" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="272" cy="377" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="274" cy="364" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="282" cy="342" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="247" cy="382" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="267" cy="347" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="295" cy="371" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="260" cy="345" r="7" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <rect x="510" y="90" width="400" height="360" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <circle cx="571" cy="180" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="642" cy="206" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="567" cy="193" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="625" cy="159" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="571" cy="228" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="633" cy="177" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="659" cy="163" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="607" cy="199" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="692" cy="199" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="585" cy="224" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <circle cx="613" cy="187" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="780" y="193" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="800" y="171" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="826" y="185" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="734" y="171" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="746" y="196" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="744" y="191" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="766" y="185" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="883" y="192" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="818" y="229" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="782" y="172" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="788" y="180" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <path d="M705 380L714 396L696 396Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M720 374L729 390L711 390Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M762 366L771 382L753 382Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M724 351L733 367L715 367Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M732 368L741 384L723 384Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M734 355L743 371L725 371Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M742 333L751 349L733 349Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M707 373L716 389L698 389Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M727 338L736 354L718 354Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M755 362L764 378L746 378Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M720 336L729 352L711 352Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <path d="M605 192H625M615 182V202" stroke="#111111" stroke-width="3"/>
+  <circle cx="615" cy="192" r="68" fill="none" stroke="#333333" stroke-width="1.5" stroke-dasharray="10 6"/>
+  <path d="M785 195H805M795 185V205" stroke="#111111" stroke-width="3"/>
+  <circle cx="795" cy="195" r="68" fill="none" stroke="#333333" stroke-width="1.5" stroke-dasharray="10 6"/>
+  <path d="M720 367H740M730 357V377" stroke="#111111" stroke-width="3"/>
+  <circle cx="730" cy="367" r="68" fill="none" stroke="#333333" stroke-width="1.5" stroke-dasharray="10 6"/>
+  <line x1="462" y1="270" x2="500" y2="270" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="250" y="480" font-size="15" fill="#111111" text-anchor="middle">Each point is a customer: visits along, spend up</text>
+  <g font-size="15" fill="#111111">
+    <circle cx="530" cy="476" r="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/><text x="544" y="481">Group 1</text>
+    <rect x="623" y="469" width="14" height="14" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/><text x="644" y="481">Group 2</text>
+    <path d="M740 467L749 483L731 483Z" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/><text x="756" y="481">Group 3</text>
+    <path d="M832 476H852M842 466V486" stroke="#111111" stroke-width="3"/><text x="858" y="481">Centre</text>
+  </g>
+  <text x="480" y="520" font-size="15" fill="#111111" text-anchor="middle">The algorithm is told only how many groups to find; what each group means must be interpreted by people.</text>
+  <text x="480" y="560" font-size="13" fill="#333333" text-anchor="middle">Illustrative data.</text>
+</svg>

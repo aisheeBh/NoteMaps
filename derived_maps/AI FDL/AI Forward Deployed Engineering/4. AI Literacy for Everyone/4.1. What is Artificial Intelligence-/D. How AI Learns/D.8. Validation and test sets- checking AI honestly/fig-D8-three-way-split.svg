@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Dividing data into training, validation and test sets</title>
+  <desc>A single bar representing all labelled data is divided into a large training portion, a smaller validation portion and a smaller test portion. Beneath each, its job and how often it is used are listed.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">One dataset, three separate jobs</text>
+  <text x="480" y="82" font-size="16" fill="#111111" text-anchor="middle">All labelled examples</text>
+  <rect x="60" y="100" width="588" height="80" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="648" y="100" width="126" height="80" fill="url(#dots)" stroke="#7A5200" stroke-width="2"/>
+  <rect x="774" y="100" width="126" height="80" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="244" y="124" width="220" height="32" fill="#FFFFFF"/>
+  <text x="354" y="146" font-size="18" font-weight="bold" fill="#111111" text-anchor="middle">Training: 70%</text>
+  <rect x="658" y="112" width="106" height="56" fill="#FFFFFF"/>
+  <text x="711" y="135" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">Validation</text>
+  <text x="711" y="157" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">15%</text>
+  <rect x="784" y="112" width="106" height="56" fill="#FFFFFF"/>
+  <text x="837" y="135" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">Test</text>
+  <text x="837" y="157" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">15%</text>
+  <g font-size="15" fill="#111111">
+    <text x="70" y="220" font-weight="bold">Job: learn the parameters</text>
+    <text x="70" y="244">The model studies these examples</text>
+    <text x="70" y="266">and adjusts itself to fit them.</text>
+    <text x="70" y="294" font-weight="bold">Used: constantly, during training</text>
+    <text x="70" y="318">Like textbook exercises with answers</text>
+  </g>
+  <line x1="711" y1="182" x2="711" y2="218" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M890 182V398H880" fill="none" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <g font-size="15" fill="#111111">
+    <rect x="540" y="222" width="330" height="112" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="552" y="246" font-weight="bold">Validation: choose and tune</text>
+    <text x="552" y="270">Compare models and settings;</text>
+    <text x="552" y="292">decide when to stop training.</text>
+    <text x="552" y="316">Used: many times. Like mock exams.</text>
+    <rect x="540" y="356" width="336" height="96" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+    <text x="552" y="380" font-weight="bold">Test: final, honest estimate</text>
+    <text x="552" y="404">Touched once, after all choices</text>
+    <text x="552" y="426">are made. Like the real examination.</text>
+  </g>
+  <text x="60" y="546" font-size="13" fill="#333333">Proportions are a common example, not a rule; very large datasets often hold back far smaller shares.</text>
+</svg>

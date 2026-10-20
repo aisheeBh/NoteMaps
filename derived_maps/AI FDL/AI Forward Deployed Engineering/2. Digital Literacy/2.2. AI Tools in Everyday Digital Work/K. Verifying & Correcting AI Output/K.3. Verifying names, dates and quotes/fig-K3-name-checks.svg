@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 384" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five things to verify about every name</title>
+  <desc>Five columns describing what to check about a named person or organisation: spelling and form, identity, role and title, current status, and form of address.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Five things to verify about every name</text>
+  <rect x="28.0" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="113.6" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Spelling</text>
+  <text x="113.6" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">and form</text>
+  <text x="113.6" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Exact spelling,</text>
+  <text x="113.6" y="171.2" text-anchor="middle" font-size="15" fill="#111111">accents, hyphens,</text>
+  <text x="113.6" y="191.4" text-anchor="middle" font-size="15" fill="#111111">transliteration,</text>
+  <text x="113.6" y="211.7" text-anchor="middle" font-size="15" fill="#111111">legal entity name</text>
+  <text x="113.6" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="113.6" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. Siobhán,</text>
+  <text x="113.6" y="272.4" text-anchor="middle" font-size="15" fill="#111111">not Siobhan</text>
+  <rect x="211.2" y="72" width="171.2" height="250" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="296.79999999999995" y="105" text-anchor="middle" font-size="17" fill="#FFFFFF" font-weight="bold">Identity</text>
+  <text x="296.79999999999995" y="128.0" text-anchor="middle" font-size="15" fill="#FFFFFF">The right person</text>
+  <text x="296.79999999999995" y="148.2" text-anchor="middle" font-size="15" fill="#FFFFFF">or body, not</text>
+  <text x="296.79999999999995" y="168.4" text-anchor="middle" font-size="15" fill="#FFFFFF">another with a</text>
+  <text x="296.79999999999995" y="188.7" text-anchor="middle" font-size="15" fill="#FFFFFF">similar name</text>
+  <text x="296.79999999999995" y="208.9" text-anchor="middle" font-size="15" fill="#FFFFFF"></text>
+  <text x="296.79999999999995" y="229.2" text-anchor="middle" font-size="15" fill="#FFFFFF">e.g. two J. Shahs</text>
+  <text x="296.79999999999995" y="249.4" text-anchor="middle" font-size="15" fill="#FFFFFF">at one client</text>
+  <rect x="394.4" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Role and</text>
+  <text x="480.0" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">title</text>
+  <text x="480.0" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Job title, rank,</text>
+  <text x="480.0" y="171.2" text-anchor="middle" font-size="15" fill="#111111">qualification,</text>
+  <text x="480.0" y="191.4" text-anchor="middle" font-size="15" fill="#111111">department,</text>
+  <text x="480.0" y="211.7" text-anchor="middle" font-size="15" fill="#111111">employer</text>
+  <text x="480.0" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="480.0" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. Head of Risk,</text>
+  <text x="480.0" y="272.4" text-anchor="middle" font-size="15" fill="#111111">not Risk Director</text>
+  <rect x="577.6" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="663.2" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Current</text>
+  <text x="663.2" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">status</text>
+  <text x="663.2" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Still in post?</text>
+  <text x="663.2" y="171.2" text-anchor="middle" font-size="15" fill="#111111">Company renamed,</text>
+  <text x="663.2" y="191.4" text-anchor="middle" font-size="15" fill="#111111">merged or</text>
+  <text x="663.2" y="211.7" text-anchor="middle" font-size="15" fill="#111111">dissolved?</text>
+  <text x="663.2" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="663.2" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. a chief</text>
+  <text x="663.2" y="272.4" text-anchor="middle" font-size="15" fill="#111111">executive who left</text>
+  <rect x="760.8" y="72" width="171.2" height="250" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="846.4" y="105" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">Form of</text>
+  <text x="846.4" y="128.0" text-anchor="middle" font-size="17" fill="#111111" font-weight="bold">address</text>
+  <text x="846.4" y="150.9" text-anchor="middle" font-size="15" fill="#111111">Honorifics,</text>
+  <text x="846.4" y="171.2" text-anchor="middle" font-size="15" fill="#111111">pronouns, name</text>
+  <text x="846.4" y="191.4" text-anchor="middle" font-size="15" fill="#111111">order and the</text>
+  <text x="846.4" y="211.7" text-anchor="middle" font-size="15" fill="#111111">preferred name</text>
+  <text x="846.4" y="231.9" text-anchor="middle" font-size="15" fill="#111111"></text>
+  <text x="846.4" y="252.2" text-anchor="middle" font-size="15" fill="#111111">e.g. family name</text>
+  <text x="846.4" y="272.4" text-anchor="middle" font-size="15" fill="#111111">written first</text>
+  <text x="480.0" y="356" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Identity errors are the most serious: every other detail can be right about the wrong person.</text>
+</svg>

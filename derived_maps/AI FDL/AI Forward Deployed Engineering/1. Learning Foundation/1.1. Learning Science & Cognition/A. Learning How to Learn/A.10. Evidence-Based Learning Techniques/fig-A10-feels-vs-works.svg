@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How a technique feels versus how well it works</title>
+  <desc>A two-by-two matrix. Horizontal axis: how the technique feels during study, from hard to easy. Vertical axis: typical long-term benefit, from weak to strong. Top left, feels hard and works: practice testing, spacing, interleaving, self-explanation. Top right, feels easy and works: worked examples for novices, concrete examples, relevant diagrams. Bottom right, feels easy but weak: re-reading, highlighting, imagery for text. Bottom left, feels hard but weak: disfluent fonts, untrained summarising.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">What feels effective is often not what is effective</text>
+
+  <!-- quadrants -->
+  <rect x="120" y="70" width="380" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="500" y="70" width="380" height="210" fill="#F2F2F2" stroke="#333333" stroke-width="1.5"/>
+  <rect x="120" y="280" width="380" height="210" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="500" y="280" width="380" height="210" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- top-left -->
+  <rect x="140" y="86" width="340" height="178" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="310" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">FEELS HARD, WORKS</text>
+  <text x="310" y="136" text-anchor="middle" font-size="14" fill="#111111">desirable difficulties</text>
+  <text x="160" y="168" font-size="15" fill="#111111">• Practice testing</text>
+  <text x="160" y="192" font-size="15" fill="#111111">• Spaced practice</text>
+  <text x="160" y="216" font-size="15" fill="#111111">• Interleaving</text>
+  <text x="160" y="240" font-size="15" fill="#111111">• Self-explanation</text>
+
+  <!-- top-right -->
+  <rect x="520" y="86" width="340" height="178" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="690" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">FEELS EASY, WORKS</text>
+  <text x="690" y="136" text-anchor="middle" font-size="14" fill="#111111">good support, mainly for novices</text>
+  <text x="540" y="168" font-size="15" fill="#111111">• Worked examples (novices)</text>
+  <text x="540" y="192" font-size="15" fill="#111111">• Concrete examples</text>
+  <text x="540" y="216" font-size="15" fill="#111111">• Relevant diagrams with text</text>
+
+  <!-- bottom-left -->
+  <rect x="140" y="296" width="340" height="178" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="310" y="324" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">FEELS HARD, WEAK</text>
+  <text x="310" y="346" text-anchor="middle" font-size="14" fill="#111111">undesirable difficulties</text>
+  <text x="160" y="378" font-size="15" fill="#111111">• Hard-to-read fonts</text>
+  <text x="160" y="402" font-size="15" fill="#111111">• Summarising without training</text>
+  <text x="160" y="426" font-size="15" fill="#111111">• Retrieval with no feedback</text>
+  <text x="174" y="450" font-size="15" fill="#111111">when almost nothing is recalled</text>
+
+  <!-- bottom-right -->
+  <rect x="520" y="296" width="340" height="178" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <text x="690" y="324" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">FEELS EASY, WEAK</text>
+  <text x="690" y="346" text-anchor="middle" font-size="14" fill="#111111">the illusion-of-competence zone</text>
+  <text x="540" y="378" font-size="15" fill="#111111">• Re-reading</text>
+  <text x="540" y="402" font-size="15" fill="#111111">• Highlighting</text>
+  <text x="540" y="426" font-size="15" fill="#111111">• Imagery for text</text>
+  <text x="540" y="450" font-size="15" fill="#111111">• Massed cramming</text>
+
+  <!-- axes -->
+  <line x1="120" y1="500" x2="890" y2="500" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="110" y1="490" x2="110" y2="62" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="120" y="524" font-size="15" fill="#111111">feels hard</text>
+  <text x="880" y="524" text-anchor="end" font-size="15" fill="#111111">feels easy</text>
+  <text x="500" y="524" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">How the technique feels during study</text>
+  <text x="62" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 62 280)">Typical long-term benefit</text>
+  <text x="92" y="90" text-anchor="end" font-size="14" fill="#111111">strong</text>
+  <text x="92" y="486" text-anchor="end" font-size="14" fill="#111111">weak</text>
+
+  <text x="480" y="574" text-anchor="middle" font-size="13" fill="#333333">Schematic placement based on utility ratings and later meta-analyses; not plotted from a single dataset.</text>
+</svg>

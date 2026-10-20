@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Productivity gains by worker experience</title>
+  <desc>Customer-support agents with an AI assistant: about 14 percent more issues resolved per hour on average; about 34 percent for the least experienced and lowest-skilled; little or no gain for the most experienced.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Who gained from AI assistance in customer support</text>
+  <text x="410" y="112" text-anchor="end" font-size="15" fill="#111111">Least experienced, lowest-skilled agents</text>
+  <rect x="420" y="94" width="408" height="82" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <text x="838" y="140" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about +34%</text>
+  <text x="410" y="212" text-anchor="end" font-size="15" fill="#111111">All agents (average)</text>
+  <rect x="420" y="194" width="168" height="82" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="598" y="240" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">about +14%</text>
+  <text x="410" y="312" text-anchor="end" font-size="15" fill="#111111">Most experienced, highest-skilled agents</text>
+  <rect x="420" y="294" width="12" height="82" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="442" y="340" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">little or none</text>
+  <text x="480" y="465" text-anchor="middle" font-size="13" fill="#333333">Approximate effects on issues resolved per hour; Brynjolfsson, Li and Raymond (2023; 2025).</text>
+</svg>

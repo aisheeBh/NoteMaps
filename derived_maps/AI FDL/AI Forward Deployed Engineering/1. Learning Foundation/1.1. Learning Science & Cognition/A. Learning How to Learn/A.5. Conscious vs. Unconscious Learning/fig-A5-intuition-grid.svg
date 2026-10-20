@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>When intuition can be trusted</title>
+  <desc>A two-by-two grid crossing the regularity of the environment with the opportunity to learn through practice and timely feedback. Only a regular environment with rich feedback produces skilled intuition; the other cells produce uncalibrated hunches, an illusion of skill, or guesswork.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+
+  <text x="520" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">When can a gut feeling be trusted?</text>
+
+  <text x="530" y="72" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Opportunity to learn: extensive practice with timely, clear feedback</text>
+  <text x="345" y="96" text-anchor="middle" font-size="15" fill="#111111">POOR</text>
+  <text x="715" y="96" text-anchor="middle" font-size="15" fill="#111111">RICH</text>
+  <text x="62" y="325" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 62 325)">Regularity of the environment</text>
+  <text x="120" y="215" text-anchor="middle" font-size="15" fill="#111111">HIGH</text>
+  <text x="120" y="440" text-anchor="middle" font-size="15" fill="#111111">LOW</text>
+
+  <!-- top-left -->
+  <rect x="160" y="108" width="365" height="212" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="174" y="122" width="337" height="184" fill="#FFFFFF" stroke="#7A5200" stroke-width="1"/>
+  <text x="342" y="150" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Learnable, not yet learned</text>
+  <text x="188" y="182" font-size="14" fill="#111111">Patterns exist, but outcomes are rarely</text>
+  <text x="188" y="200" font-size="14" fill="#111111">seen or are seen too late.</text>
+  <text x="188" y="232" font-size="14" fill="#111111">e.g. a manager who never learns how</text>
+  <text x="188" y="250" font-size="14" fill="#111111">past hires actually performed</text>
+  <text x="188" y="282" font-size="14" font-weight="bold" fill="#111111">Fix: build feedback loops</text>
+
+  <!-- top-right -->
+  <rect x="535" y="108" width="365" height="212" fill="url(#cross)" stroke="#1E5E24" stroke-width="4"/>
+  <rect x="549" y="122" width="337" height="184" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="717" y="150" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Skilled intuition</text>
+  <text x="563" y="182" font-size="14" fill="#111111">Real cues, learned through many cases</text>
+  <text x="563" y="200" font-size="14" fill="#111111">with fast, accurate feedback.</text>
+  <text x="563" y="232" font-size="14" fill="#111111">e.g. fire commanders, chess masters,</text>
+  <text x="563" y="250" font-size="14" fill="#111111">anaesthetists, experienced code reviewers</text>
+  <text x="563" y="282" font-size="14" font-weight="bold" fill="#111111">Use it, then sanity-check</text>
+
+  <!-- bottom-left -->
+  <rect x="160" y="330" width="365" height="212" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="342" y="372" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Guesswork</text>
+  <text x="188" y="404" font-size="14" fill="#111111">Little to learn and little feedback</text>
+  <text x="188" y="422" font-size="14" fill="#111111">on what there is.</text>
+  <text x="188" y="454" font-size="14" fill="#111111">e.g. long-range political or</text>
+  <text x="188" y="472" font-size="14" fill="#111111">technology forecasts</text>
+  <text x="188" y="504" font-size="14" font-weight="bold" fill="#111111">Use base rates and humility</text>
+
+  <!-- bottom-right -->
+  <rect x="535" y="330" width="365" height="212" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="549" y="344" width="337" height="184" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="717" y="372" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Illusion of skill</text>
+  <text x="563" y="404" font-size="14" fill="#111111">Plenty of outcomes, but mostly noise:</text>
+  <text x="563" y="422" font-size="14" fill="#111111">confident patterns found in luck.</text>
+  <text x="563" y="454" font-size="14" fill="#111111">e.g. picking individual stocks for</text>
+  <text x="563" y="472" font-size="14" fill="#111111">short-term gains</text>
+  <text x="563" y="504" font-size="14" font-weight="bold" fill="#111111">Distrust confidence; use models</text>
+
+  <text x="530" y="576" text-anchor="middle" font-size="13" fill="#333333">After the conditions agreed by Daniel Kahneman and Gary Klein (2009); examples are illustrative.</text>
+</svg>

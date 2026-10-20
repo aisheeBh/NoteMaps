@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The two-speed learning system</title>
+  <desc>Experience passes through attention and working memory to the hippocampus, a fast learner that stores specific episodes after one exposure. During sleep and rest, replay gradually trains the neocortex, a slow learner that extracts general structure and stores durable knowledge. Retrieval reactivates neocortical knowledge, and existing knowledge speeds integration.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">A fast learner and a slow learner working together</text>
+
+  <!-- experience -->
+  <rect x="60" y="74" width="300" height="56" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="210" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Experience</text>
+  <text x="210" y="118" text-anchor="middle" font-size="14" fill="#111111">reading, doing, watching, listening</text>
+  <line x1="210" y1="130" x2="210" y2="162" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- attention + WM -->
+  <rect x="60" y="166" width="300" height="70" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="210" y="192" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Attention and working memory</text>
+  <text x="210" y="212" text-anchor="middle" font-size="14" fill="#111111">select a little; hold it for seconds;</text>
+  <text x="210" y="229" text-anchor="middle" font-size="14" fill="#111111">link it to what is already known</text>
+  <line x1="210" y1="236" x2="210" y2="282" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- hippocampus -->
+  <rect x="60" y="286" width="300" height="190" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="76" y="300" width="268" height="162" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="210" y="326" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">HIPPOCAMPUS</text>
+  <text x="210" y="348" text-anchor="middle" font-size="15" fill="#111111">FAST learner</text>
+  <text x="90" y="378" font-size="14" fill="#111111">- binds a new episode after</text>
+  <text x="90" y="396" font-size="14" fill="#111111">  a single exposure</text>
+  <text x="90" y="418" font-size="14" fill="#111111">- keeps similar events separate</text>
+  <text x="90" y="440" font-size="14" fill="#111111">- capacity and detail fade</text>
+
+  <!-- neocortex -->
+  <rect x="520" y="74" width="400" height="402" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="540" y="94" width="360" height="362" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="720" y="124" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">NEOCORTEX</text>
+  <text x="720" y="146" text-anchor="middle" font-size="15" fill="#111111">SLOW learner</text>
+  <text x="556" y="180" font-size="14" fill="#111111">- changes a little with each replay</text>
+  <text x="556" y="204" font-size="14" fill="#111111">- extracts what episodes share:</text>
+  <text x="556" y="222" font-size="14" fill="#111111">  concepts, rules, schemas</text>
+  <text x="556" y="246" font-size="14" fill="#111111">- long-term, durable store</text>
+  <text x="556" y="270" font-size="14" fill="#111111">- old knowledge protected because</text>
+  <text x="556" y="288" font-size="14" fill="#111111">  new and old are interleaved</text>
+  <rect x="566" y="318" width="308" height="60" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="720" y="342" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Existing schemas</text>
+  <text x="720" y="362" text-anchor="middle" font-size="14" fill="#111111">fitting new knowledge integrates faster</text>
+
+  <!-- replay arrows: dashed -->
+  <path d="M360 330 C 420 300, 460 260, 516 240" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <path d="M360 380 C 430 380, 470 370, 516 350" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#arrow)"/>
+  <rect x="376" y="404" width="132" height="60" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="442" y="424" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">REPLAY</text>
+  <text x="442" y="441" text-anchor="middle" font-size="14" fill="#111111">during sleep</text>
+  <text x="442" y="457" text-anchor="middle" font-size="14" fill="#111111">and quiet rest</text>
+
+  <!-- retrieval arrow: dotted -->
+  <path d="M600 476 C 560 530, 260 540, 220 480" fill="none" stroke="#555555" stroke-width="3" stroke-dasharray="2 4" marker-end="url(#arrow)"/>
+  <rect x="290" y="530" width="380" height="36" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <text x="480" y="553" text-anchor="middle" font-size="14" fill="#111111">RETRIEVAL reactivates and updates the memory</text>
+
+  <text x="480" y="588" text-anchor="middle" font-size="13" fill="#333333">Schematic of complementary learning systems theory; not anatomical.</text>
+</svg>

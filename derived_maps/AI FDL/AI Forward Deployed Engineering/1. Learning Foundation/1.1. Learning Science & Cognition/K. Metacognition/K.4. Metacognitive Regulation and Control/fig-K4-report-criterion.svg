@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The quantity and accuracy trade-off</title>
+  <desc>As the confidence threshold for volunteering an answer rises from low to high, the accuracy of volunteered answers rises while the number of correct answers volunteered falls. A moderate criterion balances informativeness and trustworthiness.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">A stricter report criterion: fewer answers, more of them right</text>
+
+  <rect x="430" y="70" width="140" height="350" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+
+  <line x1="120" y1="420" x2="880" y2="420" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="420" x2="120" y2="60" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="452" text-anchor="middle" font-size="16" fill="#111111">Report criterion: confidence needed before volunteering an answer</text>
+  <text x="130" y="474" font-size="14" fill="#111111">answer everything</text>
+  <text x="870" y="474" text-anchor="end" font-size="14" fill="#111111">answer only when certain</text>
+  <text x="60" y="245" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 60 245)">Relative level</text>
+
+  <!-- accuracy rising: solid -->
+  <path d="M130 330 C 300 260, 520 160, 860 95" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <!-- quantity falling: dashed -->
+  <path d="M130 100 C 380 120, 600 220, 860 390" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <rect x="660" y="120" width="210" height="46" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="672" y="140" font-size="15" font-weight="bold" fill="#111111">Accuracy</text>
+  <text x="672" y="158" font-size="14" fill="#111111">share of answers that are right</text>
+
+  <rect x="140" y="130" width="230" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="152" y="150" font-size="15" font-weight="bold" fill="#111111">Quantity</text>
+  <text x="152" y="168" font-size="14" fill="#111111">number of correct answers given</text>
+
+  <rect x="440" y="320" width="120" height="70" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="500" y="344" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Balanced</text>
+  <text x="500" y="364" text-anchor="middle" font-size="14" fill="#111111">set by the</text>
+  <text x="500" y="380" text-anchor="middle" font-size="14" fill="#111111">cost of errors</text>
+
+  <text x="480" y="530" text-anchor="middle" font-size="13" fill="#333333">Schematic, after Koriat and Goldsmith (1996). The trade-off is favourable only when confidence separates right from wrong answers.</text>
+</svg>

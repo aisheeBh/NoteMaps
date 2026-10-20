@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A docked laptop</title>
+  <desc>A laptop on the left connects by a single USB-C or Thunderbolt cable to a docking station in the centre. The cable carries video, data and power in both directions. From the dock, separate connections run to two monitors, wired network, a keyboard and mouse, a webcam and headset, and the mains power adaptor that powers both dock and laptop.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">One cable from laptop to dock, everything else from the dock</text>
+  <!-- laptop -->
+  <rect x="40" y="230" width="170" height="100" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <rect x="25" y="330" width="200" height="14" rx="4" fill="#E6E6E6" stroke="#111111" stroke-width="2"/>
+  <text x="125" y="285" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Laptop</text>
+  <!-- cable -->
+  <line x1="228" y1="285" x2="386" y2="285" stroke="#1F3B5C" stroke-width="7"/>
+  <rect x="236" y="300" width="140" height="62" fill="#FFFFFF"/>
+  <text x="306" y="318" text-anchor="middle" font-size="14" fill="#111111">one USB-C or</text>
+  <text x="306" y="336" text-anchor="middle" font-size="14" fill="#111111">Thunderbolt cable:</text>
+  <text x="306" y="354" text-anchor="middle" font-size="14" fill="#111111">video, data, power</text>
+  <!-- dock -->
+  <rect x="390" y="240" width="160" height="90" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="470" y="292" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Dock</text>
+  <!-- devices -->
+  <g font-size="15" fill="#111111">
+    <rect x="660" y="70" width="240" height="50" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="675" y="82" width="210" height="26" fill="#FFFFFF"/>
+    <text x="780" y="100" text-anchor="middle">Monitor 1</text>
+    <rect x="660" y="140" width="240" height="50" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+    <rect x="675" y="152" width="210" height="26" fill="#FFFFFF"/>
+    <text x="780" y="170" text-anchor="middle">Monitor 2</text>
+    <rect x="660" y="210" width="240" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+    <text x="780" y="240" text-anchor="middle">Wired network</text>
+    <rect x="660" y="280" width="240" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+    <text x="780" y="310" text-anchor="middle">Keyboard and mouse</text>
+    <rect x="660" y="350" width="240" height="50" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+    <text x="780" y="380" text-anchor="middle">Webcam and headset</text>
+    <rect x="660" y="430" width="240" height="50" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="780" y="460" text-anchor="middle">Mains power adaptor</text>
+  </g>
+  <g stroke="#222222" stroke-width="2">
+    <line x1="552" y1="255" x2="656" y2="95" marker-end="url(#arrow)"/>
+    <line x1="552" y1="265" x2="656" y2="165" marker-end="url(#arrow)"/>
+    <line x1="552" y1="278" x2="656" y2="235"/>
+    <line x1="552" y1="290" x2="656" y2="305"/>
+    <line x1="552" y1="305" x2="656" y2="375"/>
+  </g>
+  <line x1="656" y1="455" x2="552" y2="318" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <rect x="380" y="400" width="210" height="62" fill="#FFFFFF" stroke="#BBBBBB"/>
+  <text x="485" y="422" text-anchor="middle" font-size="14" fill="#111111">dock must supply enough</text>
+  <text x="485" y="440" text-anchor="middle" font-size="14" fill="#111111">watts to charge the laptop</text>
+  <text x="485" y="458" text-anchor="middle" font-size="14" fill="#111111">under full load</text>
+</svg>

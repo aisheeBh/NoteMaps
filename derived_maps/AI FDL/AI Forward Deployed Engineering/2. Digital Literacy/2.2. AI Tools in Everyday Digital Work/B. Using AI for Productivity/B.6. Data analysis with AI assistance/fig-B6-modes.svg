@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four ways AI can take part in an analysis</title>
+  <desc>Four columns from safest to riskiest. AI explains: methods and concepts, the person does the analysis. AI writes code: formulas, queries or scripts that the person reads and runs. AI runs code: the assistant writes and executes code in a sandbox and reports results. AI answers directly: the model states numbers from the data without running code, which is the least reliable.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Four ways AI can take part in an analysis</text>
+  <rect x="40" y="80" width="204" height="250" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="142" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#000000">AI explains</text>
+  <text x="58" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="147" text-anchor="start" font-size="14" fill="#000000">Methods, tests,</text>
+  <text x="72" y="165" text-anchor="start" font-size="14" fill="#000000">concepts</text>
+  <text x="58" y="192" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="192" text-anchor="start" font-size="14" fill="#000000">Person does the</text>
+  <text x="72" y="210" text-anchor="start" font-size="14" fill="#000000">analysis</text>
+  <text x="58" y="236" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="236" text-anchor="start" font-size="14" fill="#000000">Lowest risk</text>
+  <rect x="266" y="80" width="204" height="250" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="367" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#000000">AI writes code</text>
+  <text x="284" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="298" y="147" text-anchor="start" font-size="14" fill="#000000">Formulas, SQL,</text>
+  <text x="298" y="165" text-anchor="start" font-size="14" fill="#000000">scripts</text>
+  <text x="284" y="192" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="298" y="192" text-anchor="start" font-size="14" fill="#000000">Person reads and</text>
+  <text x="298" y="210" text-anchor="start" font-size="14" fill="#000000">runs it</text>
+  <text x="284" y="236" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="298" y="236" text-anchor="start" font-size="14" fill="#000000">Errors visible in</text>
+  <text x="298" y="254" text-anchor="start" font-size="14" fill="#000000">code</text>
+  <rect x="491" y="80" width="204" height="250" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="501" y="90" width="184" height="230" fill="#FFFFFF" rx="4"/>
+  <text x="593" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">AI runs code</text>
+  <text x="509" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="147" text-anchor="start" font-size="14" fill="#111111">Executes in a</text>
+  <text x="523" y="165" text-anchor="start" font-size="14" fill="#111111">sandbox</text>
+  <text x="509" y="192" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="192" text-anchor="start" font-size="14" fill="#111111">Reports tables and</text>
+  <text x="523" y="210" text-anchor="start" font-size="14" fill="#111111">charts</text>
+  <text x="509" y="236" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="236" text-anchor="start" font-size="14" fill="#111111">Check code and row</text>
+  <text x="523" y="254" text-anchor="start" font-size="14" fill="#111111">counts</text>
+  <rect x="716" y="80" width="204" height="250" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="818" y="114" text-anchor="middle" font-size="17" font-weight="bold" fill="#000000">AI answers directly</text>
+  <text x="734" y="147" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="748" y="147" text-anchor="start" font-size="14" fill="#000000">Numbers stated from</text>
+  <text x="748" y="165" text-anchor="start" font-size="14" fill="#000000">text</text>
+  <text x="734" y="192" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="748" y="192" text-anchor="start" font-size="14" fill="#000000">No computation</text>
+  <text x="748" y="210" text-anchor="start" font-size="14" fill="#000000">shown</text>
+  <text x="734" y="236" text-anchor="start" font-size="14" font-weight="bold" fill="#000000">•</text>
+  <text x="748" y="236" text-anchor="start" font-size="14" fill="#000000">Least reliable</text>
+  <text x="480" y="366" text-anchor="middle" font-size="13" fill="#333333">Reliability depends on whether the computation is real, visible and checked.</text>
+</svg>

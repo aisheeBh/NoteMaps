@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Weekly time spent on status</title>
+<desc>Bar chart comparing team minutes per week for a status meeting and for a written update with an exceptions meeting.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="44" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Team minutes per week spent on status</text>
+<line x1="270.0" y1="74" x2="270.0" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="270.0" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">0</text>
+<line x1="427.5" y1="74" x2="427.5" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="427.5" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">200</text>
+<line x1="585.0" y1="74" x2="585.0" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="585.0" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">400</text>
+<line x1="742.5" y1="74" x2="742.5" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="742.5" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">600</text>
+<line x1="900.0" y1="74" x2="900.0" y2="460" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="900.0" y="482" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">800</text>
+<line x1="270" y1="74" x2="270" y2="460" stroke="#222222" stroke-width="2"/>
+<text x="258" y="114.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Weekly meeting:</text>
+<text x="258" y="132.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">preparation</text>
+<rect x="270" y="96.0" width="94.5" height="44" rx="2" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+<text x="372.5" y="123.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">120 min</text>
+<text x="258" y="190.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Weekly meeting:</text>
+<text x="258" y="208.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">12 people x 60 min</text>
+<rect x="270" y="172.0" width="567.0" height="44" rx="2" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<text x="845.0" y="199.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">720 min</text>
+<text x="258" y="266.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Written update:</text>
+<text x="258" y="284.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">editing AI draft</text>
+<rect x="270" y="248.0" width="23.625" height="44" rx="2" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<text x="301.625" y="275.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">30 min</text>
+<text x="258" y="342.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Written update:</text>
+<text x="258" y="360.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">12 readers x 6 min</text>
+<rect x="270" y="324.0" width="56.7" height="44" rx="2" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<text x="334.7" y="351.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">72 min</text>
+<text x="258" y="418.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Exceptions meeting:</text>
+<text x="258" y="436.0" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">5 people x 20 min</text>
+<rect x="270" y="400.0" width="78.75" height="44" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<text x="356.75" y="427.0" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">100 min</text>
+<text x="40" y="516" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Illustrative figures. Totals: 840 minutes for the meeting; 202 minutes for update plus exceptions meeting.</text>
+</svg>

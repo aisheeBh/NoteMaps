@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Each extra regeneration adds less and costs the same</title>
+  <desc>Two schematic lines against the number of attempts. The best quality so far, solid, rises steeply over the first two or three attempts and then flattens. Cumulative time spent, dashed, rises in a straight line. Beyond about three attempts, time keeps rising while quality barely improves.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Each extra regeneration adds less and costs the same</text>
+  <line x1="120" y1="450" x2="900" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="450" x2="120" y2="90" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="120" y="474" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <line x1="276" y1="450" x2="276" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="276" y="474" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <line x1="432" y1="450" x2="432" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="432" y="474" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <line x1="588" y1="450" x2="588" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="588" y="474" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <line x1="744" y1="450" x2="744" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="744" y="474" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <line x1="900" y1="450" x2="900" y2="456" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="474" text-anchor="middle" font-size="14" fill="#111111">6+</text>
+  <line x1="114" y1="450" x2="120" y2="450" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="455" text-anchor="end" font-size="14" fill="#111111">low</text>
+  <line x1="114" y1="275" x2="120" y2="275" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="280" text-anchor="end" font-size="14" fill="#111111">medium</text>
+  <line x1="114" y1="100" x2="120" y2="100" stroke="#222222" stroke-width="1.5"/>
+  <text x="110" y="105" text-anchor="end" font-size="14" fill="#111111">high</text>
+  <text x="510" y="502" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Number of attempts at the same output</text>
+  <text x="50" y="275" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 50 275.0)">Relative level</text>
+  <rect x="120" y="100" width="234" height="350" rx="0" fill="#D3ECD3" stroke="#1E5E24" stroke-width="1"/>
+  <path d="M120.0 450.0 L135.6 413.5 L151.2 380.9 L166.8 351.6 L182.4 325.4 L198.0 301.9 L213.6 280.9 L229.2 262.1 L244.8 245.2 L260.4 230.1 L276.0 216.5 L291.6 204.4 L307.2 193.5 L322.8 183.8 L338.4 175.0 L354.0 167.2 L369.6 160.2 L385.2 153.9 L400.8 148.3 L416.4 143.3 L432.0 138.8 L447.6 134.7 L463.2 131.1 L478.8 127.9 L494.4 125.0 L510.0 122.4 L525.6 120.0 L541.2 118.0 L556.8 116.1 L572.4 114.4 L588.0 112.9 L603.6 111.6 L619.2 110.4 L634.8 109.3 L650.4 108.3 L666.0 107.4 L681.6 106.7 L697.2 106.0 L712.8 105.4 L728.4 104.8 L744.0 104.3 L759.6 103.8 L775.2 103.4 L790.8 103.1 L806.4 102.8 L822.0 102.5 L837.6 102.2 L853.2 102.0 L868.8 101.8 L884.4 101.6 L900.0 101.4" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <rect x="545" y="125" width="171" height="25" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="552" y="142" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Best quality so far</text>
+  <path d="M120.0 450.0 L159.0 433.4 L198.0 416.8 L237.0 400.1 L276.0 383.5 L315.0 366.9 L354.0 350.2 L393.0 333.6 L432.0 317.0 L471.0 300.4 L510.0 283.8 L549.0 267.1 L588.0 250.5 L627.0 233.9 L666.0 217.3 L705.0 200.6 L744.0 184.0 L783.0 167.4 L822.0 150.8 L861.0 134.1 L900.0 117.5" fill="none" stroke="#111111" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="662" y="258" width="96" height="25" fill="#FFFFFF" stroke="#999999" stroke-width="1"/>
+  <text x="669" y="275" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Time spent</text>
+  <text x="237" y="310" text-anchor="middle" font-size="14" fill="#111111">Most gain</text>
+  <text x="237" y="328" text-anchor="middle" font-size="14" fill="#111111">happens here</text>
+  <text x="480" y="544" text-anchor="middle" font-size="13" fill="#333333">Schematic; illustrates diminishing returns, not measured data.</text>
+</svg>

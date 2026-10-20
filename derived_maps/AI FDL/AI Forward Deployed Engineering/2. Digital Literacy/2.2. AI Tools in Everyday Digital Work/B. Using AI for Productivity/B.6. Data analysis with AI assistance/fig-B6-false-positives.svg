@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>More tests, more false discoveries</title>
+  <desc>Line chart: the probability of at least one false-positive result when running independent tests at the 5 per cent significance level on data with no real effects rises from 5 per cent for one test to about 40 per cent for ten tests, 64 per cent for twenty and about 87 per cent for forty.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">More tests, more false discoveries</text>
+  <line x1="130" y1="445" x2="912" y2="445" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="130" y1="445" x2="130" y2="74" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="515" y="497" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Number of independent tests run (no real effects present)</text>
+  <text x="72" y="266" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 72 266)">Probability</text>
+  <text x="130" y="469" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="322" y="469" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <text x="515" y="469" text-anchor="middle" font-size="14" fill="#111111">20</text>
+  <text x="708" y="469" text-anchor="middle" font-size="14" fill="#111111">30</text>
+  <text x="900" y="469" text-anchor="middle" font-size="14" fill="#111111">40</text>
+  <text x="120" y="450" text-anchor="end" font-size="14" fill="#111111">0%</text>
+  <text x="120" y="360" text-anchor="end" font-size="14" fill="#111111">25%</text>
+  <text x="120" y="270" text-anchor="end" font-size="14" fill="#111111">50%</text>
+  <text x="120" y="181" text-anchor="end" font-size="14" fill="#111111">75%</text>
+  <text x="120" y="91" text-anchor="end" font-size="14" fill="#111111">100%</text>
+  <path d="M130 445 L149 427 L168 410 L188 394 L207 378 L226 364 L246 350 L265 337 L284 324 L303 312 L322 301 L342 290 L361 280 L380 270 L400 261 L419 252 L438 244 L457 236 L476 229 L496 221 L515 215 L534 208 L554 202 L573 196 L592 191 L611 186 L630 181 L650 176 L669 171 L688 167 L708 163 L727 159 L746 156 L765 152 L784 149 L804 146 L823 143 L842 140 L862 137 L881 135 L900 132" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="448" y="266" width="242" height="44" fill="#FFFFFF"/>
+  <text x="453" y="283" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">Chance of at least one false</text>
+  <text x="453" y="302" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">positive</text>
+  <text x="530" y="244" text-anchor="start" font-size="14" fill="#222222">20 tests: about 64%</text>
+  <text x="338" y="330" text-anchor="start" font-size="14" fill="#222222">10 tests: about 40%</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#333333">Computed as 1 − 0.95 to the power of the number of tests, for independent tests at the 5% level.</text>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A deep network builds increasingly abstract features</title>
+  <desc>Columns of neurons from an input image of pixels through three hidden layers to an output layer. Labels beneath show what each stage typically detects: pixels, edges, textures and shapes, parts, and finally the answer, such as face or not face.</desc>
+
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker></defs>
+
+  <defs>
+    <pattern id="px" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#FFFFFF"/><rect width="6" height="6" fill="#BBBBBB"/><rect x="6" y="6" width="6" height="6" fill="#777777"/>
+    </pattern>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">From pixels to an answer, one layer at a time</text>
+  <line x1="132" y1="125" x2="268" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="125" x2="268" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="125" x2="268" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="125" x2="268" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="125" x2="268" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="187" x2="268" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="187" x2="268" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="187" x2="268" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="187" x2="268" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="187" x2="268" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="249" x2="268" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="249" x2="268" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="249" x2="268" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="249" x2="268" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="249" x2="268" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="311" x2="268" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="311" x2="268" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="311" x2="268" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="311" x2="268" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="311" x2="268" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="373" x2="268" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="373" x2="268" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="373" x2="268" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="373" x2="268" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="373" x2="268" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="435" x2="268" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="435" x2="268" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="435" x2="268" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="435" x2="268" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="132" y1="435" x2="268" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="156" x2="448" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="156" x2="448" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="156" x2="448" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="156" x2="448" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="156" x2="448" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="218" x2="448" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="218" x2="448" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="218" x2="448" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="218" x2="448" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="218" x2="448" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="280" x2="448" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="280" x2="448" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="280" x2="448" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="280" x2="448" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="280" x2="448" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="342" x2="448" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="342" x2="448" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="342" x2="448" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="342" x2="448" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="342" x2="448" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="404" x2="448" y2="156" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="404" x2="448" y2="218" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="404" x2="448" y2="280" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="404" x2="448" y2="342" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="312" y1="404" x2="448" y2="404" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="156" x2="628" y2="187" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="156" x2="628" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="156" x2="628" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="156" x2="628" y2="373" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="218" x2="628" y2="187" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="218" x2="628" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="218" x2="628" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="218" x2="628" y2="373" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="280" x2="628" y2="187" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="280" x2="628" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="280" x2="628" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="280" x2="628" y2="373" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="342" x2="628" y2="187" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="342" x2="628" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="342" x2="628" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="342" x2="628" y2="373" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="404" x2="628" y2="187" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="404" x2="628" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="404" x2="628" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="492" y1="404" x2="628" y2="373" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="187" x2="808" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="187" x2="808" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="249" x2="808" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="249" x2="808" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="311" x2="808" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="311" x2="808" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="373" x2="808" y2="249" stroke="#9A9A9A" stroke-width="1"/>
+  <line x1="672" y1="373" x2="808" y2="311" stroke="#9A9A9A" stroke-width="1"/>
+  <rect x="88" y="103" width="44" height="44" fill="url(#px)" stroke="#333333" stroke-width="2"/>
+  <rect x="88" y="165" width="44" height="44" fill="url(#px)" stroke="#333333" stroke-width="2"/>
+  <rect x="88" y="227" width="44" height="44" fill="url(#px)" stroke="#333333" stroke-width="2"/>
+  <rect x="88" y="289" width="44" height="44" fill="url(#px)" stroke="#333333" stroke-width="2"/>
+  <rect x="88" y="351" width="44" height="44" fill="url(#px)" stroke="#333333" stroke-width="2"/>
+  <rect x="88" y="413" width="44" height="44" fill="url(#px)" stroke="#333333" stroke-width="2"/>
+  <text x="110" y="490" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Input</text>
+  <text x="110" y="514" text-anchor="middle" font-size="15" fill="#111111">raw pixels</text>
+  <circle cx="290" cy="156" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="290" cy="218" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="290" cy="280" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="290" cy="342" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="290" cy="404" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="290" y="490" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Hidden 1</text>
+  <text x="290" y="514" text-anchor="middle" font-size="15" fill="#111111">edges, colour blobs</text>
+  <circle cx="470" cy="156" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="470" cy="218" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="470" cy="280" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="470" cy="342" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="470" cy="404" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="470" y="490" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Hidden 2</text>
+  <text x="470" y="514" text-anchor="middle" font-size="15" fill="#111111">textures, shapes</text>
+  <circle cx="650" cy="187" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="650" cy="249" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="650" cy="311" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <circle cx="650" cy="373" r="22" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="650" y="490" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Hidden 3</text>
+  <text x="650" y="514" text-anchor="middle" font-size="15" fill="#111111">parts: eyes, wheels</text>
+  <circle cx="830" cy="249" r="22" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="830" cy="311" r="22" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="830" y="490" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Output</text>
+  <text x="830" y="514" text-anchor="middle" font-size="15" fill="#111111">the answer</text>
+  <text x="860" y="221" text-anchor="middle" font-size="15" fill="#111111">face</text>
+  <text x="860" y="355" text-anchor="middle" font-size="15" fill="#111111">not face</text>
+  <line x1="110" y1="556" x2="830" y2="556" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="110" y="546" font-size="15" fill="#111111">simple, local features</text>
+  <text x="830" y="546" text-anchor="end" font-size="15" fill="#111111">abstract, whole-object features</text>
+  <text x="480" y="594" text-anchor="middle" font-size="13" fill="#333333">Schematic; real networks have thousands to billions of units and many more layers.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Utility ratings of ten learning techniques</title>
+  <desc>Three stacked bands. High utility: practice testing and distributed practice. Moderate utility: interleaved practice, elaborative interrogation and self-explanation. Low utility: summarisation, highlighting, keyword mnemonic, imagery for text and re-reading. Based on Dunlosky and colleagues, 2013.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Ten techniques, three levels of utility</text>
+
+  <!-- HIGH band -->
+  <rect x="30" y="66" width="900" height="130" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="44" y="80" width="170" height="102" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="129" y="122" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">HIGH</text>
+  <text x="129" y="148" text-anchor="middle" font-size="14" fill="#111111">robust, general</text>
+  <rect x="240" y="96" width="320" height="70" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <text x="400" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Practice testing</text>
+  <text x="400" y="150" text-anchor="middle" font-size="14" fill="#111111">recall or apply without looking</text>
+  <rect x="590" y="96" width="320" height="70" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <text x="750" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Distributed practice</text>
+  <text x="750" y="150" text-anchor="middle" font-size="14" fill="#111111">spread sessions over time</text>
+
+  <!-- MODERATE band -->
+  <rect x="30" y="212" width="900" height="130" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2" stroke-dasharray="10 6"/>
+  <rect x="44" y="226" width="170" height="102" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="129" y="268" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">MODERATE</text>
+  <text x="129" y="294" text-anchor="middle" font-size="14" fill="#111111">conditional</text>
+  <rect x="240" y="242" width="210" height="70" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="345" y="272" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Interleaved</text>
+  <text x="345" y="296" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">practice</text>
+  <rect x="470" y="242" width="210" height="70" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="575" y="272" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Elaborative</text>
+  <text x="575" y="296" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">interrogation</text>
+  <rect x="700" y="242" width="210" height="70" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="805" y="284" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Self-explanation</text>
+
+  <!-- LOW band -->
+  <rect x="30" y="358" width="900" height="150" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="44" y="372" width="170" height="122" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  <text x="129" y="420" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">LOW</text>
+  <text x="129" y="446" text-anchor="middle" font-size="14" fill="#111111">limited or</text>
+  <text x="129" y="466" text-anchor="middle" font-size="14" fill="#111111">inconsistent</text>
+  <rect x="240" y="378" width="210" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="345" y="409" text-anchor="middle" font-size="16" fill="#111111">Summarisation</text>
+  <rect x="470" y="378" width="210" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="575" y="409" text-anchor="middle" font-size="16" fill="#111111">Highlighting</text>
+  <rect x="700" y="378" width="210" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="805" y="409" text-anchor="middle" font-size="16" fill="#111111">Keyword mnemonic</text>
+  <rect x="355" y="440" width="210" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="460" y="471" text-anchor="middle" font-size="16" fill="#111111">Imagery for text</text>
+  <rect x="585" y="440" width="210" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="690" y="471" text-anchor="middle" font-size="16" fill="#111111">Re-reading</text>
+
+  <text x="480" y="538" text-anchor="middle" font-size="13" fill="#333333">Ratings from Dunlosky, Rawson, Marsh, Nathan and Willingham (2013); "low" means limited benefit, not harm.</text>
+</svg>

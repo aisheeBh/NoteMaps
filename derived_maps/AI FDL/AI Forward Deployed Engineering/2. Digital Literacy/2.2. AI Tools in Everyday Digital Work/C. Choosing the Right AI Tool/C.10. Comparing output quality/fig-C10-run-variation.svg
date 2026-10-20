@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Run-to-run variation</title>
+  <desc>Dot plot of quality scores from 1 to 4 for 60 outputs each from Assistant A and Assistant B. Assistant A's scores cluster between about 2.6 and 4 with mean 3.3. Assistant B's cluster slightly higher, mean 3.4, but with a longer tail of low scores down to about 1.9, including three critical errors marked with crosses.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Similar averages, different worst cases</text>
+  <line x1="200.0" y1="90.0" x2="200.0" y2="380.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="200.0" y="405.0" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <line x1="426.7" y1="90.0" x2="426.7" y2="380.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="426.7" y="405.0" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <line x1="653.3" y1="90.0" x2="653.3" y2="380.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="653.3" y="405.0" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <line x1="880.0" y1="90.0" x2="880.0" y2="380.0" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="880.0" y="405.0" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <text x="540.0" y="435.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Weighted quality score per output (1 to 4)</text>
+  <text x="180.0" y="165.0" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Assistant A</text>
+  <circle cx="707.3" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="763.0" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="709.5" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="703.0" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="658.4" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="710.4" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="806.5" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="756.6" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="801.1" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="743.9" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="754.5" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="739.3" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="605.0" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="787.9" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="762.6" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="762.0" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="603.2" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="599.4" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="661.3" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="691.9" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="748.0" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="722.5" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="763.7" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="679.3" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="748.3" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="754.5" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="677.9" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="850.4" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="766.2" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="812.7" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="680.9" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="672.2" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700.9" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="718.1" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="771.7" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="743.9" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="693.4" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="656.5" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="688.1" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="814.4" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="667.3" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="743.6" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="756.8" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="617.8" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="729.4" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="820.6" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="579.8" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="702.5" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="718.2" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="666.6" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="761.9" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="721.3" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="619.6" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="785.9" cy="170.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="774.4" cy="180.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="794.5" cy="190.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="830.4" cy="130.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="752.1" cy="140.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734.5" cy="150.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="631.6" cy="160.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <line x1="721.3" y1="116.0" x2="721.3" y2="204.0" stroke="#222222" stroke-width="3.5"/>
+  <text x="721.3" y="108.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">mean 3.3</text>
+  <text x="180.0" y="305.0" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Assistant B</text>
+  <circle cx="808.5" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="725.1" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="735.9" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="680.7" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700.9" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="730.6" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="854.3" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="628.5" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="667.5" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="782.9" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="864.8" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="806.0" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="637.5" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="595.4" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="791.0" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="716.6" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="690.5" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="833.1" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="841.6" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="777.4" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="783.4" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="796.2" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="875.1" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="808.8" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="801.9" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="803.9" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="660.0" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="853.8" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="831.6" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802.7" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="632.4" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="723.6" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="823.9" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="643.5" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="754.2" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836.0" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="677.5" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="876.2" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="804.2" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="756.5" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="788.8" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="810.9" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="774.9" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="844.6" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="721.7" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="738.5" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="837.5" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768.5" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="706.8" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="831.0" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="866.3" cy="280.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="736.4" cy="290.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="672.8" cy="300.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="757.5" cy="310.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="756.5" cy="320.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="746.4" cy="330.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="862.2" cy="270.0" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+  <line x1="397.0" y1="293.0" x2="411.0" y2="307.0" stroke="#222222" stroke-width="3"/>
+  <line x1="397.0" y1="307.0" x2="411.0" y2="293.0" stroke="#222222" stroke-width="3"/>
+  <line x1="419.7" y1="293.0" x2="433.7" y2="307.0" stroke="#222222" stroke-width="3"/>
+  <line x1="419.7" y1="307.0" x2="433.7" y2="293.0" stroke="#222222" stroke-width="3"/>
+  <line x1="442.3" y1="293.0" x2="456.3" y2="307.0" stroke="#222222" stroke-width="3"/>
+  <line x1="442.3" y1="307.0" x2="456.3" y2="293.0" stroke="#222222" stroke-width="3"/>
+  <line x1="744.0" y1="256.0" x2="744.0" y2="344.0" stroke="#222222" stroke-width="3.5"/>
+  <text x="744.0" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">mean 3.4</text>
+  <text x="426.7" y="340.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">critical errors</text>
+  <text x="480.0" y="465.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Circle: one output. Cross: an output with a critical error. Illustrative figures for the worked example.</text>
+</svg>

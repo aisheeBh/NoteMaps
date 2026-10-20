@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Multistakeholder and multilateral models</title>
+  <desc>Left: a circle of four stakeholder groups - governments, business, civil society, technical community and academia - around a shared table, deciding by consensus. Right: a table of states only, deciding by negotiation among governments, with other groups observing from outside.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Two ways of making Internet policy</text>
+  <text x="240" y="85" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Multistakeholder</text>
+  <circle cx="240" cy="270" r="120" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="165" y="245" width="150" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="240.0" y="265.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Shared decision</text>
+  <text x="240.0" y="284.4" text-anchor="middle" font-size="14" fill="#111111">by consensus</text>
+  <rect x="160" y="96" width="160" height="48" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="240.0" y="124.9" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Governments</text>
+  <rect x="310" y="246" width="160" height="48" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="390.0" y="274.9" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Business</text>
+  <rect x="160" y="396" width="160" height="48" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="240.0" y="424.9" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Civil society</text>
+  <rect x="15" y="246" width="160" height="48" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="95.0" y="265.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Technical and</text>
+  <text x="95.0" y="284.4" text-anchor="middle" font-size="14" fill="#111111">academic</text>
+  <text x="720" y="85" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Multilateral</text>
+  <rect x="600" y="160" width="240" height="220" rx="14" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="640" y="190" width="160" height="44" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="720.0" y="217.25" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">States only</text>
+  <rect x="630" y="260" width="180" height="60" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="720.0" y="285.4" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Decision by negotiation</text>
+  <text x="720.0" y="304.4" text-anchor="middle" font-size="14" fill="#111111">among governments</text>
+  <rect x="490" y="410" width="140" height="40" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="560.0" y="434.9" text-anchor="middle" font-size="14" fill="#222222">Business</text>
+  <rect x="650" y="410" width="140" height="40" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="720.0" y="434.9" text-anchor="middle" font-size="14" fill="#222222">Civil society</text>
+  <rect x="810" y="410" width="140" height="40" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="880.0" y="434.9" text-anchor="middle" font-size="14" fill="#222222">Technical</text>
+  <text x="720" y="480" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">other groups may observe or advise</text>
+  <text x="480.0" y="510" text-anchor="middle" font-size="13" fill="#333333">Real institutions often mix the two: ICANN's governments advise; UN processes consult non-state groups.</text>
+</svg>

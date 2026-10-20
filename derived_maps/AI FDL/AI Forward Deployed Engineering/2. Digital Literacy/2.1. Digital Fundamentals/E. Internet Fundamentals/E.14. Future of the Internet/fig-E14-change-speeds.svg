@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Speed of change by layer</title>
+  <desc>Four layers with horizontal bars showing typical time for major change: services and applications change in a few years; transport and security protocols in five to fifteen years; addressing and core protocols over decades; physical infrastructure such as cables and fibre over decades with long asset lives. Examples are given for each.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Fast at the top, slow at the bottom</text>
+  <text x="316" y="102" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Services and applications</text>
+  <text x="316" y="122" text-anchor="end" font-size="13" fill="#333333">streaming, social apps, AI assistants</text>
+  <rect x="330" y="86" width="60" height="40" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="395.875" y="97" width="84.25" height="22" fill="#FFFFFF"/>
+  <text x="438" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">1-5 years</text>
+  <text x="316" y="192" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Transport and security protocols</text>
+  <text x="316" y="212" text-anchor="end" font-size="13" fill="#333333">HTTP/3, TLS 1.3, post-quantum keys</text>
+  <rect x="330" y="176" width="200" height="40" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="531.75" y="187" width="92.5" height="22" fill="#FFFFFF"/>
+  <text x="578" y="202" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">5-15 years</text>
+  <text x="316" y="282" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Addressing and core protocols</text>
+  <text x="316" y="302" text-anchor="end" font-size="13" fill="#333333">IPv4 to IPv6, TCP still dominant</text>
+  <rect x="330" y="266" width="440" height="40" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="507.875" y="277" width="84.25" height="22" fill="#FFFFFF"/>
+  <text x="550.0" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">20+ years</text>
+  <text x="316" y="372" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Physical infrastructure</text>
+  <text x="316" y="392" text-anchor="end" font-size="13" fill="#333333">fibre routes, submarine cables, ducts</text>
+  <rect x="330" y="356" width="540" height="40" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <rect x="549.625" y="367" width="100.75000000000001" height="22" fill="#FFFFFF"/>
+  <text x="600.0" y="382" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">20-30 years</text>
+  <line x1="330" y1="440" x2="930" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="330" y="462" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="530" y="462" text-anchor="middle" font-size="14" fill="#111111">10</text>
+  <text x="730" y="462" text-anchor="middle" font-size="14" fill="#111111">20</text>
+  <text x="930" y="462" text-anchor="middle" font-size="14" fill="#111111">30</text>
+  <text x="630" y="485" text-anchor="middle" font-size="14" fill="#111111">Typical time for a major change to spread (years, indicative)</text>
+  <text x="480.0" y="508" text-anchor="middle" font-size="13" fill="#333333">Indicative ranges drawn from past transitions; individual cases vary widely.</text>
+</svg>

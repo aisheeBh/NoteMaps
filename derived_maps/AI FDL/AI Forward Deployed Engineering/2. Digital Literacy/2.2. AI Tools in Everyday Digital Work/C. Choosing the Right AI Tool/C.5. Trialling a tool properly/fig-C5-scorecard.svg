@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Trial scorecard</title>
+  <desc>A table-like scorecard with four criteria set in advance: net time per letter reduced by at least 25 percent, result 32 percent, met; no increase in corrections, 12 to 14 percent, within normal variation, met with caution; no invented policy term reaching customers, two found in review, not met; unprompted use in final week, 10 of 12, met. Decision: adopt for routine claims only.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Results judged against criteria set before the trial</text>
+  <rect x="40.0" y="70.0" width="880.0" height="44.0" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="230.0" y="98.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Criterion set in advance</text>
+  <text x="530.0" y="98.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Result</text>
+  <text x="780.0" y="98.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Verdict</text>
+  <rect x="40.0" y="114.0" width="880.0" height="62.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="54.0" y="151.0" text-anchor="start" font-size="15.5" fill="#111111">Net time per letter cut by 25% or more</text>
+  <text x="530.0" y="151.0" text-anchor="middle" font-size="15.5" fill="#111111">32% reduction</text>
+  <rect x="680.0" y="124.0" width="200.0" height="42.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="688.0" y="131.6" width="184.0" height="28.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="780.0" y="150.6" text-anchor="middle" font-size="16" fill="#111111">Met</text>
+  <rect x="40.0" y="176.0" width="880.0" height="62.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="54.0" y="213.0" text-anchor="start" font-size="15.5" fill="#111111">No rise in reviewer corrections</text>
+  <text x="530.0" y="213.0" text-anchor="middle" font-size="15.5" fill="#111111">12% to 14%</text>
+  <rect x="680.0" y="186.0" width="200.0" height="42.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="688.0" y="193.6" width="184.0" height="28.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="780.0" y="212.6" text-anchor="middle" font-size="16" fill="#111111">Borderline</text>
+  <rect x="40.0" y="238.0" width="880.0" height="62.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="54.0" y="275.0" text-anchor="start" font-size="15.5" fill="#111111">No invented policy term reaching customers</text>
+  <text x="530.0" y="275.0" text-anchor="middle" font-size="15.5" fill="#111111">2 found in review</text>
+  <rect x="680.0" y="248.0" width="200.0" height="42.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="688.0" y="255.6" width="184.0" height="28.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="780.0" y="274.6" text-anchor="middle" font-size="16" fill="#111111">Not met</text>
+  <rect x="40.0" y="300.0" width="880.0" height="62.0" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="54.0" y="337.0" text-anchor="start" font-size="15.5" fill="#111111">Most handlers still using it unprompted</text>
+  <text x="530.0" y="337.0" text-anchor="middle" font-size="15.5" fill="#111111">10 of 12</text>
+  <rect x="680.0" y="310.0" width="200.0" height="42.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="688.0" y="317.6" width="184.0" height="28.0" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="780.0" y="336.6" text-anchor="middle" font-size="16" fill="#111111">Met</text>
+  <rect x="140.0" y="388.0" width="680.0" height="70.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="418.2" text-anchor="middle" font-size="16" fill="#111111">Decision: adopt for routine claims only;</text>
+  <text x="480.0" y="439.0" text-anchor="middle" font-size="16" fill="#111111">exclude complex claims; re-test after model updates</text>
+  <text x="480.0" y="486.0" text-anchor="middle" font-size="13.5" font-style="italic" fill="#333333">Illustrative figures from the claims-handling worked example.</text>
+</svg>

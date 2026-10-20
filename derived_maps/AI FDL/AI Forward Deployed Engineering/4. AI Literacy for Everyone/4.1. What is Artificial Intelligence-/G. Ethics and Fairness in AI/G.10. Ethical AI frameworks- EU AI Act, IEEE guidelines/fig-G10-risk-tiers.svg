@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The risk tiers of the EU AI Act</title>
+  <desc>A pyramid of four tiers. At the top, a narrow tier of unacceptable-risk practices, which are prohibited. Below it, high-risk systems subject to strict requirements. Below that, limited-risk systems with transparency duties. At the base, the widest tier of minimal-risk systems with no new obligations. Examples sit beside each tier.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Obligations rise with risk</text>
+
+  <polygon points="300,70 360,70 390,150 270,150" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="330" y="106" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Prohibited</text>
+  <text x="330" y="126" text-anchor="middle" font-size="13" fill="#FFFFFF">unacceptable</text>
+
+  <polygon points="270,158 390,158 450,260 210,260" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="262" y="190" width="136" height="48" fill="#FFFFFF"/>
+  <text x="330" y="212" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">High risk</text>
+  <text x="330" y="230" text-anchor="middle" font-size="13" fill="#111111">strict requirements</text>
+
+  <polygon points="210,268 450,268 510,370 150,370" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="222" y="298" width="216" height="48" fill="#FFFFFF"/>
+  <text x="330" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Limited risk</text>
+  <text x="330" y="338" text-anchor="middle" font-size="13" fill="#111111">transparency duties</text>
+
+  <polygon points="150,378 510,378 570,500 90,500" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="222" y="416" width="216" height="52" fill="#FFFFFF"/>
+  <text x="330" y="438" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Minimal risk</text>
+  <text x="330" y="456" text-anchor="middle" font-size="13" fill="#111111">no new obligations</text>
+
+  <g font-size="14" fill="#111111">
+    <rect x="600" y="70" width="330" height="86" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+    <text x="612" y="94" font-weight="bold">Examples: prohibited</text>
+    <text x="612" y="114">Social scoring; manipulation; untargeted</text>
+    <text x="612" y="134">face scraping; workplace emotion recognition</text>
+
+    <rect x="600" y="170" width="330" height="86" fill="#FFFFFF" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="612" y="194" font-weight="bold">Examples: high risk</text>
+    <text x="612" y="214">CV screening; credit scoring; exam marking;</text>
+    <text x="612" y="234">border control; AI in medical devices</text>
+
+    <rect x="600" y="270" width="330" height="86" fill="#FFFFFF" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="612" y="294" font-weight="bold">Examples: limited risk</text>
+    <text x="612" y="314">Chatbots; deepfakes and other synthetic</text>
+    <text x="612" y="334">content that must be disclosed</text>
+
+    <rect x="600" y="370" width="330" height="86" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2.5"/>
+    <text x="612" y="394" font-weight="bold">Examples: minimal risk</text>
+    <text x="612" y="414">Spam filters; game characters;</text>
+    <text x="612" y="434">inventory forecasting</text>
+  </g>
+
+  <text x="480" y="548" text-anchor="middle" font-size="14" fill="#111111">General-purpose AI models are subject to a separate set of rules.</text>
+  <text x="480" y="574" text-anchor="middle" font-size="13" fill="#333333">Simplified outline of Regulation (EU) 2024/1689; widths are schematic and do not represent the number of systems.</text>
+</svg>

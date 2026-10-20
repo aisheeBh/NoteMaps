@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Fitts's law</title>
+  <desc>Top: a pointer start position with two targets, one small and far, one large and near, labelled with distance D and width W. Bottom: movement time plotted against the index of difficulty, log base two of 2D over W, rising in a straight line; the large near target sits low on the line and the small far target high.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Fitts's law: distance and size set pointing time</text>
+  <!-- top scene -->
+  <circle cx="90" cy="130" r="10" fill="#111111"/>
+  <text x="90" y="165" text-anchor="middle" font-size="14" fill="#111111">start</text>
+  <rect x="250" y="95" width="80" height="70" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="258" y="118" width="64" height="24" fill="#FFFFFF"/>
+  <text x="290" y="135" text-anchor="middle" font-size="14" fill="#111111">large</text>
+  <rect x="820" y="115" width="24" height="30" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="832" y="170" text-anchor="middle" font-size="14" fill="#111111">small</text>
+  <line x1="102" y1="200" x2="246" y2="200" stroke="#222222" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="175" y="222" text-anchor="middle" font-size="14" fill="#111111">short D</text>
+  <line x1="102" y1="245" x2="816" y2="245" stroke="#222222" stroke-width="2" stroke-dasharray="10 6" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="460" y="268" text-anchor="middle" font-size="14" fill="#111111">long D</text>
+  <!-- graph -->
+  <line x1="140" y1="510" x2="760" y2="510" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="140" y1="510" x2="140" y2="290" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="450" y="545" text-anchor="middle" font-size="15" fill="#111111">Index of difficulty: log₂(2D ÷ W), in bits</text>
+  <text x="95" y="400" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 95 400)">Movement time</text>
+  <line x1="140" y1="480" x2="740" y2="310" stroke="#1F3B5C" stroke-width="3.5"/>
+  <circle cx="230" cy="455" r="9" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="250" y="478" font-size="14" fill="#111111">large, near target: fast</text>
+  <circle cx="680" cy="327" r="9" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="660" y="305" text-anchor="end" font-size="14" fill="#111111">small, far target: slow</text>
+  <rect x="770" y="380" width="170" height="70" fill="#FFFFFF" stroke="#BBBBBB"/>
+  <text x="855" y="405" text-anchor="middle" font-size="14" fill="#111111">time = a + b ×</text>
+  <text x="855" y="428" text-anchor="middle" font-size="14" fill="#111111">log₂(2D ÷ W)</text>
+</svg>

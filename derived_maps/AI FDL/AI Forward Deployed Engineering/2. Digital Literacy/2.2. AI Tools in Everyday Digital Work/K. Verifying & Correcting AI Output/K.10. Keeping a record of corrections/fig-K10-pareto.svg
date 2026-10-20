@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Corrections by type over one quarter</title>
+  <desc>A Pareto chart of 120 recorded corrections in one team over a quarter, illustrative figures. Bars in descending order: wrong date or deadline 38, dropped condition or caveat 26, wrong name or role 18, unsupported figure 14, tone 10, invented commitment 8, other 6. A cumulative line shows the first three types account for about 68 per cent of corrections.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Most corrections fall into a few types</text>
+  <line x1="110" y1="430" x2="840" y2="430" stroke="#222222" stroke-width="2"/>
+  <line x1="110" y1="430" x2="110" y2="82" stroke="#222222" stroke-width="2"/>
+  <line x1="840" y1="430" x2="840" y2="82" stroke="#222222" stroke-width="2"/>
+  <text x="100" y="435.0" text-anchor="end" font-size="15" fill="#111111">0</text>
+  <text x="100" y="350.0" text-anchor="end" font-size="15" fill="#111111">10</text>
+  <text x="100" y="265.0" text-anchor="end" font-size="15" fill="#111111">20</text>
+  <text x="100" y="180.0" text-anchor="end" font-size="15" fill="#111111">30</text>
+  <text x="100" y="95.0" text-anchor="end" font-size="15" fill="#111111">40</text>
+  <text x="850" y="435.0" text-anchor="start" font-size="15" fill="#111111">0%</text>
+  <text x="850" y="350.0" text-anchor="start" font-size="15" fill="#111111">25%</text>
+  <text x="850" y="265.0" text-anchor="start" font-size="15" fill="#111111">50%</text>
+  <text x="850" y="180.0" text-anchor="start" font-size="15" fill="#111111">75%</text>
+  <text x="850" y="95.0" text-anchor="start" font-size="15" fill="#111111">100%</text>
+  <rect x="120.0" y="107.0" width="84.3" height="323.0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="144.1" y="81.0" width="36" height="22" fill="#FFFFFF"/>
+  <text x="162.1" y="98.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">38</text>
+  <text x="162.1" y="452" text-anchor="middle" font-size="14" fill="#111111">Date or</text>
+  <text x="162.1" y="470" text-anchor="middle" font-size="14" fill="#111111">deadline</text>
+  <rect x="224.3" y="209.0" width="84.3" height="221.0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="248.4" y="183.0" width="36" height="22" fill="#FFFFFF"/>
+  <text x="266.4" y="200.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">26</text>
+  <text x="266.4" y="452" text-anchor="middle" font-size="14" fill="#111111">Dropped</text>
+  <text x="266.4" y="470" text-anchor="middle" font-size="14" fill="#111111">caveat</text>
+  <rect x="328.6" y="277.0" width="84.3" height="153.0" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="352.7" y="251.0" width="36" height="22" fill="#FFFFFF"/>
+  <text x="370.7" y="268.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">18</text>
+  <text x="370.7" y="452" text-anchor="middle" font-size="14" fill="#111111">Name or</text>
+  <text x="370.7" y="470" text-anchor="middle" font-size="14" fill="#111111">role</text>
+  <rect x="432.9" y="311.0" width="84.3" height="119.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="457.0" y="285.0" width="36" height="22" fill="#FFFFFF"/>
+  <text x="475.0" y="302.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">14</text>
+  <text x="475.0" y="452" text-anchor="middle" font-size="14" fill="#111111">Unsupported</text>
+  <text x="475.0" y="470" text-anchor="middle" font-size="14" fill="#111111">figure</text>
+  <rect x="537.1" y="345.0" width="84.3" height="85.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="561.3" y="319.0" width="36" height="22" fill="#FFFFFF"/>
+  <text x="579.3" y="336.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">10</text>
+  <text x="579.3" y="452" text-anchor="middle" font-size="14" fill="#111111">Tone</text>
+  <rect x="641.4" y="362.0" width="84.3" height="68.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="665.6" y="336.0" width="36" height="22" fill="#FFFFFF"/>
+  <text x="683.6" y="353.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">8</text>
+  <text x="683.6" y="452" text-anchor="middle" font-size="14" fill="#111111">Invented</text>
+  <text x="683.6" y="470" text-anchor="middle" font-size="14" fill="#111111">commitment</text>
+  <rect x="745.7" y="379.0" width="84.3" height="51.0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="769.9" y="353.0" width="36" height="22" fill="#FFFFFF"/>
+  <text x="787.9" y="370.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">6</text>
+  <text x="787.9" y="452" text-anchor="middle" font-size="14" fill="#111111">Other</text>
+  <path d="M162.1,322.3 L266.4,248.7 L370.7,197.7 L475.0,158.0 L579.3,129.7 L683.6,107.0 L787.9,90.0" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="162.1" cy="322.3" r="5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="266.4" cy="248.7" r="5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="370.7" cy="197.7" r="5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="475.0" cy="158.0" r="5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="579.3" cy="129.7" r="5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="683.6" cy="107.0" r="5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="787.9" cy="90.0" r="5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <rect x="410.7142857142857" y="219.66666666666669" width="210" height="26" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="515.7142857142858" y="237.66666666666669" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">First three types: 68%</text>
+  <text x="56" y="260.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(-90 56 260.0)">Number of corrections</text>
+  <text x="912" y="260.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111" transform="rotate(90 912 260.0)">Cumulative share</text>
+  <rect x="429.2857142857142" y="85.66666666666669" width="200" height="24" fill="#FFFFFF"/>
+  <text x="529.2857142857142" y="103.66666666666669" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Running share of total</text>
+  <text x="480.0" y="520" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Illustrative figures: 120 corrections recorded by one team in a quarter.</text>
+</svg>

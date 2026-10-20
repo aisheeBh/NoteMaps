@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>True speakers and system labels</title>
+<desc>Two timelines: who actually spoke and how the system labelled them, with a boundary confusion and a merge marked.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Who spoke, and who the system said spoke</text>
+<text x="40" y="135" font-size="16" text-anchor="start" font-weight="bold" fill="#111111">True speaker</text>
+<text x="40" y="255" font-size="16" text-anchor="start" font-weight="bold" fill="#111111">System label</text>
+<rect x="200" y="105" width="213" height="50" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="416" y="105" width="69" height="50" rx="3" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="488" y="105" width="177" height="50" rx="3" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="668" y="105" width="54.59999999999999" height="50" rx="3" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="725.6" y="105" width="191.4" height="50" rx="3" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="200" y="225" width="285" height="50" rx="3" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="488" y="225" width="177" height="50" rx="3" fill="url(#cross)" stroke="#1E5E24" stroke-width="2"/>
+<rect x="668" y="225" width="249" height="50" rx="3" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="2 4"/>
+<rect x="283.6" y="118" width="48.8" height="24" fill="#FFFFFF" rx="3"/>
+<text x="308" y="135" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Kate</text>
+<rect x="395.4" y="118" width="113.19999999999999" height="24" fill="#FFFFFF" rx="3"/>
+<text x="452" y="135" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Client lead</text>
+<rect x="558.2" y="118" width="39.599999999999994" height="24" fill="#FFFFFF" rx="3"/>
+<text x="578.0" y="135" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Tom</text>
+<rect x="681.5999999999999" y="118" width="30.4" height="24" fill="#FFFFFF" rx="3"/>
+<text x="696.8" y="135" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">PM</text>
+<rect x="775.4000000000001" y="118" width="94.8" height="24" fill="#FFFFFF" rx="3"/>
+<text x="822.8000000000001" y="135" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Architect</text>
+<rect x="319.6" y="238" width="48.8" height="24" fill="#FFFFFF" rx="3"/>
+<text x="344" y="255" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Kate</text>
+<rect x="558.2" y="238" width="39.599999999999994" height="24" fill="#FFFFFF" rx="3"/>
+<text x="578.0" y="255" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Tom</text>
+<rect x="714.4" y="238" width="159.2" height="24" fill="#FFFFFF" rx="3"/>
+<text x="794.0" y="255" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Room - Speaker 1</text>
+<line x1="200" y1="290" x2="200" y2="298" stroke="#333333" stroke-width="1.5"/>
+<text x="200" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">0 s</text>
+<line x1="380" y1="290" x2="380" y2="298" stroke="#333333" stroke-width="1.5"/>
+<text x="380" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">5 s</text>
+<line x1="560" y1="290" x2="560" y2="298" stroke="#333333" stroke-width="1.5"/>
+<text x="560" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">10 s</text>
+<line x1="740" y1="290" x2="740" y2="298" stroke="#333333" stroke-width="1.5"/>
+<text x="740" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">15 s</text>
+<line x1="920" y1="290" x2="920" y2="298" stroke="#333333" stroke-width="1.5"/>
+<text x="920" y="316" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">20 s</text>
+<line x1="200" y1="290" x2="920" y2="290" stroke="#333333" stroke-width="1.5"/>
+<line x1="452" y1="380" x2="452" y2="280" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="292" y="400" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">Confusion: client lead's "Fine -</text>
+<text x="292" y="420" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">we'll absorb it" given to Kate</text>
+<line x1="794.0" y1="380" x2="794.0" y2="280" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="644.0" y="400" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">Merge: PM's "Agreed" and the</text>
+<text x="644.0" y="420" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">architect shown as one speaker</text>
+<text x="40" y="515" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Illustrative exchange; segment lengths are schematic.</text>
+</svg>

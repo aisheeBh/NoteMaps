@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Browser reference architecture</title>
+  <desc>User interface at top, browser engine below it, rendering engine below that; the rendering engine uses networking, the JavaScript engine and the UI backend; data storage runs alongside all layers.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The functional components of a browser</text>
+  <rect x="60.0" y="70.0" width="640.0" height="70.0" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="380.0" y="99.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">User interface</text>
+  <text x="380.0" y="119.2" text-anchor="middle" font-size="15" fill="#000000">address bar, tabs, buttons, menus, dialogs</text>
+  <rect x="60.0" y="180.0" width="640.0" height="70.0" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="185.0" y="192.8" width="390.1" height="45.0" fill="#FFFFFF"/>
+  <text x="380.0" y="209.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Browser engine</text>
+  <text x="380.0" y="229.2" text-anchor="middle" font-size="15" fill="#111111">co-ordinates the interface and the renderer</text>
+  <rect x="60.0" y="290.0" width="640.0" height="70.0" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="380.0" y="319.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Rendering engine</text>
+  <text x="380.0" y="339.2" text-anchor="middle" font-size="15" fill="#FFFFFF">Blink, WebKit or Gecko: HTML and CSS to pixels</text>
+  <rect x="60.0" y="410.0" width="200.0" height="90.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="160.0" y="449.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">Networking</text>
+  <text x="160.0" y="469.2" text-anchor="middle" font-size="15" fill="#000000">HTTP, TLS, cache</text>
+  <rect x="280.0" y="410.0" width="200.0" height="90.0" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="380.0" y="440.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">JavaScript engine</text>
+  <text x="380.0" y="459.5" text-anchor="middle" font-size="15" fill="#000000">V8, JavaScriptCore,</text>
+  <text x="380.0" y="479.0" text-anchor="middle" font-size="15" fill="#000000">SpiderMonkey</text>
+  <rect x="500.0" y="410.0" width="200.0" height="90.0" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="600.0" y="440.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#000000">UI backend</text>
+  <text x="600.0" y="459.5" text-anchor="middle" font-size="15" fill="#000000">drawing and GPU</text>
+  <text x="600.0" y="479.0" text-anchor="middle" font-size="15" fill="#000000">compositing</text>
+  <rect x="740.0" y="70.0" width="170.0" height="430.0" rx="6" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="756.1" y="223.8" width="137.8" height="123.0" fill="#FFFFFF"/>
+  <text x="825.0" y="240.8" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Data storage</text>
+  <text x="825.0" y="260.2" text-anchor="middle" font-size="15" fill="#111111">cookies</text>
+  <text x="825.0" y="279.8" text-anchor="middle" font-size="15" fill="#111111">cache</text>
+  <text x="825.0" y="299.2" text-anchor="middle" font-size="15" fill="#111111">history</text>
+  <text x="825.0" y="318.8" text-anchor="middle" font-size="15" fill="#111111">passwords</text>
+  <text x="825.0" y="338.2" text-anchor="middle" font-size="15" fill="#111111">site databases</text>
+  <line x1="380.0" y1="140.0" x2="380.0" y2="178.0" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="380.0" y1="250.0" x2="380.0" y2="288.0" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="160.0" y1="360.0" x2="160.0" y2="408.0" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="380.0" y1="360.0" x2="380.0" y2="408.0" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="600.0" y1="360.0" x2="600.0" y2="408.0" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="702.0" y1="105.0" x2="738.0" y2="105.0" stroke="#222222" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <line x1="702.0" y1="215.0" x2="738.0" y2="215.0" stroke="#222222" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <line x1="702.0" y1="325.0" x2="738.0" y2="325.0" stroke="#222222" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <line x1="702.0" y1="455.0" x2="738.0" y2="455.0" stroke="#222222" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="480.0" y="535.0" text-anchor="middle" font-size="13" fill="#333333">Every major browser implements these parts, though code bases differ.</text>
+</svg>

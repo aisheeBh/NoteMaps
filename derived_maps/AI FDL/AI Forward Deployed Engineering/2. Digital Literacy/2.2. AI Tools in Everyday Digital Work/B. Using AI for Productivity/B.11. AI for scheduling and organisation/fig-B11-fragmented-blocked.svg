@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A fragmented day and a blocked day</title>
+  <desc>Two columns compare the same eight-hour day. Fragmented: meetings scattered at 9.30, 11, 13.30 and 15.30, leaving gaps of 30 to 60 minutes and no block longer than an hour. Blocked: meetings grouped from 13.00 to 16.00, a three-hour focus block in the morning, and set times for email.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">A fragmented day and a blocked day</text>
+  <rect x="40" y="80" width="418" height="200" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="50" y="90" width="398" height="180" fill="#FFFFFF" rx="4"/>
+  <text x="249" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Fragmented day</text>
+  <text x="58" y="148" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="148" text-anchor="start" font-size="15" fill="#111111">Meetings at 9.30, 11.00, 13.30, 15.30</text>
+  <text x="58" y="176" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="176" text-anchor="start" font-size="15" fill="#111111">Gaps of 30 to 60 minutes between them</text>
+  <text x="58" y="204" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="204" text-anchor="start" font-size="15" fill="#111111">Email checked constantly</text>
+  <text x="58" y="231" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="72" y="231" text-anchor="start" font-size="15" fill="#111111">Longest uninterrupted block: under 1 hour</text>
+  <line x1="462" y1="180" x2="498" y2="180" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="502" y="80" width="418" height="200" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="711" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#000000">Blocked day</text>
+  <text x="520" y="148" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="534" y="148" text-anchor="start" font-size="15" fill="#000000">Focus block 9.00 to 12.00</text>
+  <text x="520" y="176" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="534" y="176" text-anchor="start" font-size="15" fill="#000000">Email at 12.00 and 16.30</text>
+  <text x="520" y="204" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="534" y="204" text-anchor="start" font-size="15" fill="#000000">Meetings grouped 13.00 to 16.00</text>
+  <text x="520" y="231" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="534" y="231" text-anchor="start" font-size="15" fill="#000000">Longest uninterrupted block: 3 hours</text>
+  <text x="480" y="316" text-anchor="middle" font-size="13" fill="#333333">Same hours, same meetings: the arrangement decides whether deep work is possible.</text>
+</svg>

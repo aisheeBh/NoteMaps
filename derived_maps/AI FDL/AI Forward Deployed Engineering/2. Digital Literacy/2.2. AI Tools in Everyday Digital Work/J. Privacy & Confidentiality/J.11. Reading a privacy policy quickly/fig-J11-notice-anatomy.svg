@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Notice anatomy</title>
+<desc>A privacy notice drawn as a long page with ten sections: scope and controller; data collected; how we use it; lawful bases; how we share it; international transfers; how long we keep it; your rights and choices; children; changes and contact. Five are marked read first for AI tools: scope, use, sharing, retention, choices.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">The usual sections of a privacy notice</text>
+<rect x="250" y="70" width="380" height="500" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+<rect x="266" y="84" width="348" height="38" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="349.5" y="89.25" width="181.0" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="440.0" y="108.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Scope and who we are</text>
+<line x1="700" y1="103" x2="618" y2="103" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="708" y="108" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">read first</text>
+<rect x="266" y="132" width="348" height="38" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="440.0" y="156.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Information we collect</text>
+<rect x="266" y="180" width="348" height="38" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="378.375" y="185.25" width="123.25000000000001" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="440.0" y="204.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">How we use it</text>
+<line x1="700" y1="199" x2="618" y2="199" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="708" y="204" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">read first</text>
+<rect x="266" y="228" width="348" height="38" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="440.0" y="252.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Lawful bases</text>
+<rect x="266" y="276" width="348" height="38" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="370.125" y="281.25" width="139.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="440.0" y="300.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">How we share it</text>
+<line x1="700" y1="295" x2="618" y2="295" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="708" y="300" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">read first</text>
+<rect x="266" y="324" width="348" height="38" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="440.0" y="348.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">International transfers</text>
+<rect x="266" y="372" width="348" height="38" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="353.625" y="377.25" width="172.75" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="440.0" y="396.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">How long we keep it</text>
+<line x1="700" y1="391" x2="618" y2="391" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="708" y="396" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">read first</text>
+<rect x="266" y="420" width="348" height="38" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="337.125" y="425.25" width="205.75000000000003" height="27.5" rx="4" fill="#FFFFFF" stroke="none"/>
+<text x="440.0" y="444.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#111111">Your rights and choices</text>
+<line x1="700" y1="439" x2="618" y2="439" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="708" y="444" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">read first</text>
+<rect x="266" y="468" width="348" height="38" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="440.0" y="492.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Children</text>
+<rect x="266" y="516" width="348" height="38" rx="4" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="440.0" y="540.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#000000">Changes and contact</text>
+<text x="130" y="300" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Usually</text>
+<text x="130" y="322" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">routine:</text>
+<text x="130" y="344" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">skim or</text>
+<text x="130" y="366" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">skip</text>
+</svg>

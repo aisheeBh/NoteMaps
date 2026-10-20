@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Typical and live speeds on a commuter road</title>
+  <desc>A line chart of average speed against time of day from 5 a.m. to 11 a.m. The typical weekday profile, a solid line, dips from 60 to about 25 kilometres per hour at 8 a.m. and recovers by 10 a.m. Today’s live speeds, a dashed line, follow the typical curve until 7 a.m., then drop further after an incident. A dotted forecast line continues from the current time, 7:40, combining the typical pattern with today’s deviation.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" fill="#111111" font-weight="bold">An ETA forecasts the speed a road will have when it is reached</text>
+  <line x1="110" y1="450" x2="880" y2="450" stroke="#222222" stroke-width="2.5"/>
+  <line x1="110" y1="450" x2="110" y2="80" stroke="#222222" stroke-width="2.5"/>
+  <line x1="110" y1="450" x2="110" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="110" y="474" text-anchor="middle" font-size="14" fill="#111111">5:00</text>
+  <line x1="238.333" y1="450" x2="238.333" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="238.333" y="474" text-anchor="middle" font-size="14" fill="#111111">6:00</text>
+  <line x1="366.667" y1="450" x2="366.667" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="366.667" y="474" text-anchor="middle" font-size="14" fill="#111111">7:00</text>
+  <line x1="495" y1="450" x2="495" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="495" y="474" text-anchor="middle" font-size="14" fill="#111111">8:00</text>
+  <line x1="623.333" y1="450" x2="623.333" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="623.333" y="474" text-anchor="middle" font-size="14" fill="#111111">9:00</text>
+  <line x1="751.667" y1="450" x2="751.667" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="751.667" y="474" text-anchor="middle" font-size="14" fill="#111111">10:00</text>
+  <line x1="880" y1="450" x2="880" y2="456" stroke="#222222" stroke-width="2"/>
+  <text x="880" y="474" text-anchor="middle" font-size="14" fill="#111111">11:00</text>
+  <text x="100" y="455" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="100" y="352.143" text-anchor="end" font-size="14" fill="#111111">20</text>
+  <line x1="110" y1="347.143" x2="880" y2="347.143" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="100" y="249.286" text-anchor="end" font-size="14" fill="#111111">40</text>
+  <line x1="110" y1="244.286" x2="880" y2="244.286" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="100" y="146.429" text-anchor="end" font-size="14" fill="#111111">60</text>
+  <line x1="110" y1="141.429" x2="880" y2="141.429" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="56" y="270" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 56 270)">Average speed (km/h)</text>
+  <text x="495" y="500" text-anchor="middle" font-size="15" fill="#111111">Time of day</text>
+  <path d="M110.0 141.5 L116.4 141.5 L122.8 141.5 L129.3 141.5 L135.7 141.5 L142.1 141.6 L148.5 141.6 L154.9 141.6 L161.3 141.7 L167.8 141.8 L174.2 141.9 L180.6 142.0 L187.0 142.1 L193.4 142.3 L199.8 142.5 L206.2 142.8 L212.7 143.1 L219.1 143.4 L225.5 143.9 L231.9 144.4 L238.3 145.0 L244.7 145.7 L251.2 146.6 L257.6 147.6 L264.0 148.7 L270.4 150.0 L276.8 151.5 L283.2 153.3 L289.7 155.2 L296.1 157.4 L302.5 159.9 L308.9 162.7 L315.3 165.8 L321.8 169.2 L328.2 173.0 L334.6 177.1 L341.0 181.5 L347.4 186.3 L353.8 191.5 L360.2 197.0 L366.7 202.8 L373.1 209.0 L379.5 215.4 L385.9 222.1 L392.3 229.0 L398.8 236.1 L405.2 243.3 L411.6 250.6 L418.0 257.9 L424.4 265.1 L430.8 272.1 L437.2 279.0 L443.7 285.6 L450.1 291.8 L456.5 297.6 L462.9 302.9 L469.3 307.6 L475.7 311.7 L482.2 315.1 L488.6 317.9 L495.0 319.8 L501.4 321.0 L507.8 321.4 L514.2 321.0 L520.7 319.8 L527.1 317.9 L533.5 315.1 L539.9 311.7 L546.3 307.6 L552.7 302.9 L559.2 297.6 L565.6 291.8 L572.0 285.6 L578.4 279.0 L584.8 272.1 L591.2 265.1 L597.7 257.9 L604.1 250.6 L610.5 243.3 L616.9 236.1 L623.3 229.0 L629.8 222.1 L636.2 215.4 L642.6 209.0 L649.0 202.8 L655.4 197.0 L661.8 191.5 L668.2 186.3 L674.7 181.5 L681.1 177.1 L687.5 173.0 L693.9 169.2 L700.3 165.8 L706.8 162.7 L713.2 159.9 L719.6 157.4 L726.0 155.2 L732.4 153.3 L738.8 151.5 L745.2 150.0 L751.7 148.7 L758.1 147.6 L764.5 146.6 L770.9 145.7 L777.3 145.0 L783.8 144.4 L790.2 143.9 L796.6 143.4 L803.0 143.1 L809.4 142.8 L815.8 142.5 L822.3 142.3 L828.7 142.1 L835.1 142.0 L841.5 141.9 L847.9 141.8 L854.3 141.7 L860.8 141.6 L867.2 141.6 L873.6 141.6 L880.0 141.5" fill="none" stroke="#222222" stroke-width="3"/>
+  <path d="M110.0 141.5 L114.3 141.5 L118.6 141.5 L122.8 141.5 L127.1 141.5 L131.4 141.5 L135.7 141.5 L139.9 141.5 L144.2 141.6 L148.5 141.6 L152.8 141.6 L157.1 141.7 L161.3 141.7 L165.6 141.8 L169.9 141.8 L174.2 141.9 L178.4 141.9 L182.7 142.0 L187.0 142.1 L191.3 142.2 L195.6 142.4 L199.8 142.5 L204.1 142.7 L208.4 142.9 L212.7 143.1 L216.9 143.3 L221.2 143.6 L225.5 143.9 L229.8 144.2 L234.1 144.6 L238.3 145.0 L242.6 145.5 L246.9 146.0 L251.2 146.6 L255.4 147.2 L259.7 147.9 L264.0 148.7 L268.3 149.6 L272.6 150.5 L276.8 151.5 L281.1 152.7 L285.4 153.9 L289.7 155.2 L293.9 156.7 L298.2 158.2 L302.5 159.9 L306.8 161.7 L311.1 163.7 L315.3 165.8 L319.6 168.0 L323.9 170.4 L328.2 173.0 L332.4 175.6 L336.7 178.5 L341.0 181.5 L345.3 184.7 L349.6 188.0 L353.8 191.5 L358.1 195.1 L362.4 198.9 L366.7 202.8 L370.9 211.0 L375.2 219.3 L379.5 227.8 L383.8 236.3 L388.1 245.0 L392.3 253.7 L396.6 262.6 L400.9 271.4 L405.2 280.4 L409.4 289.3 L413.7 298.3 L418.0 307.2 L422.3 316.2 L426.6 325.0 L430.8 333.8 L435.1 338.4 L439.4 342.9 L443.7 347.3 L447.9 351.5 L452.2 355.5" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M452.2 355.5 L458.3 357.3 L464.3 358.8 L470.4 360.0 L476.5 360.9 L482.5 361.3 L488.6 361.2 L494.6 360.6 L500.7 359.4 L506.8 357.7 L512.8 355.4 L518.9 352.5 L524.9 349.0 L531.0 344.9 L537.1 340.3 L543.1 335.2 L549.2 329.6 L555.2 323.5 L561.3 317.0 L567.4 310.2 L573.4 303.1 L579.5 295.7 L585.5 288.2 L591.6 280.6 L597.7 272.8 L603.7 265.1 L609.8 257.4 L615.8 249.9 L621.9 242.4 L628.0 235.2 L634.0 228.1 L640.1 221.4 L646.1 214.9 L652.2 208.7 L658.3 202.8 L664.3 197.2 L670.4 192.0 L676.4 187.2 L682.5 182.7 L688.6 178.5 L694.6 174.6 L700.7 171.1 L706.8 167.9 L712.8 164.9 L718.9 162.3 L724.9 159.9 L731.0 157.8 L737.1 155.8 L743.1 154.1 L749.2 152.6 L755.2 151.3 L761.3 150.1 L767.4 149.0 L773.4 148.1 L779.5 147.3 L785.5 146.6 L791.6 146.0 L797.7 145.5 L803.7 145.0 L809.8 144.6 L815.8 144.3" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="2 4"/>
+  <line x1="452.222" y1="450" x2="452.222" y2="90" stroke="#8B0000" stroke-width="2"/>
+  <rect x="417.422" y="73" width="69.6" height="22" fill="#FFFFFF"/>
+  <text x="452.222" y="88" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">now 7:40</text>
+  <rect x="183" y="110.143" width="123.5" height="22" fill="#FFFFFF"/>
+  <text x="187" y="125.143" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">typical weekday</text>
+  <rect x="271.967" y="301.286" width="92.7" height="22" fill="#FFFFFF"/>
+  <text x="360.667" y="316.286" text-anchor="end" font-size="14" fill="#111111" font-weight="bold">today, live</text>
+  <rect x="625.75" y="321.857" width="208.2" height="22" fill="#FFFFFF"/>
+  <text x="629.75" y="336.857" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">forecast for arrival times</text>
+  <rect x="181.717" y="280.714" width="131.2" height="22" fill="#FFFFFF"/>
+  <text x="308.917" y="295.714" text-anchor="end" font-size="14" fill="#111111">incident at 7:00</text>
+  <line x1="315.333" y1="290.571" x2="373.083" y2="218.571" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Moravec's paradox</title>
+  <desc>A two-by-two grid. Rows: hard or easy for humans. Columns: hard or easy for machines. Hard for humans but easy for machines: long arithmetic, chess, searching records. Easy for humans but hard for machines: folding laundry, walking on rough ground, common sense. Easy for both: simple sorting. Hard for both: open-ended scientific discovery.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">Moravec's paradox: difficulty depends on who is solving</text>
+  <text x="400.0" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Easy for machines</text>
+  <text x="760.0" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Hard for machines</text>
+  <text x="200" y="205.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111" transform="rotate(-90 200 205.0)">Hard for humans</text>
+  <text x="200" y="415.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111" transform="rotate(-90 200 415.0)">Easy for humans</text>
+  <rect x="230" y="110" width="340" height="190" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="238" y="118" width="324" height="174" fill="#FFFFFF"/>
+  <text x="400.0" y="179.1" text-anchor="middle" font-size="16" fill="#111111">Long arithmetic</text>
+  <text x="400.0" y="200.1" text-anchor="middle" font-size="16" fill="#111111">Chess and Go</text>
+  <text x="400.0" y="221.1" text-anchor="middle" font-size="16" fill="#111111">Searching millions of records</text>
+  <text x="400.0" y="242.1" text-anchor="middle" font-size="16" fill="#111111">Remembering every detail</text>
+  <rect x="590" y="110" width="340" height="190" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="760.0" y="189.6" text-anchor="middle" font-size="16" fill="#111111">Open-ended discovery</text>
+  <text x="760.0" y="210.6" text-anchor="middle" font-size="16" fill="#111111">Judging values and trade-offs</text>
+  <text x="760.0" y="231.6" text-anchor="middle" font-size="16" fill="#111111">Wicked social problems</text>
+  <rect x="230" y="320" width="340" height="190" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="400.0" y="399.6" text-anchor="middle" font-size="16" fill="#111111">Simple sorting</text>
+  <text x="400.0" y="420.6" text-anchor="middle" font-size="16" fill="#111111">Recognising printed digits</text>
+  <text x="400.0" y="441.6" text-anchor="middle" font-size="16" fill="#111111">Following clear rules</text>
+  <rect x="590" y="320" width="340" height="190" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="598" y="328" width="324" height="174" fill="#FFFFFF"/>
+  <text x="760.0" y="389.1" text-anchor="middle" font-size="16" fill="#111111">Folding laundry</text>
+  <text x="760.0" y="410.1" text-anchor="middle" font-size="16" fill="#111111">Walking on rough ground</text>
+  <text x="760.0" y="431.1" text-anchor="middle" font-size="16" fill="#111111">Everyday common sense</text>
+  <text x="760.0" y="452.1" text-anchor="middle" font-size="16" fill="#111111">Reading a social situation</text>
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">Examples are typical cases; machine abilities in each cell continue to change.</text>
+</svg>

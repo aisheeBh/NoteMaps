@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Choosing a reliance policy by stakes and verifiability</title>
+  <desc>A two-by-two matrix. Horizontal axis: how easily the output can be verified, from hard to easy. Vertical axis: cost of an undetected error, from low to high. Low stakes and easy to verify: use freely with spot checks. Low stakes and hard to verify: ideas and drafts only. High stakes and easy to verify: draft, then verify everything. High stakes and hard to verify: do not rely.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">How much to rely: stakes against verifiability</text>
+  <rect x="170" y="70" width="350" height="210" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="520" y="70" width="350" height="210" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="170" y="280" width="350" height="210" fill="#F2F2F2" stroke="#666666" stroke-width="1.5"/>
+  <rect x="520" y="280" width="350" height="210" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="190" y="100" width="310" height="150" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="345" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Do not rely</text>
+  <text x="345" y="160" text-anchor="middle" font-size="14" fill="#111111">Involve a qualified person or work</text>
+  <text x="345" y="178" text-anchor="middle" font-size="14" fill="#111111">another way; at most, AI as one input</text>
+  <text x="345" y="208" text-anchor="middle" font-size="14" fill="#111111">e.g. a drug dose, a legal opinion,</text>
+  <text x="345" y="226" text-anchor="middle" font-size="14" fill="#111111">a selection decision about people</text>
+  <rect x="540" y="100" width="310" height="150" fill="#FFFFFF" stroke="#7A5200" stroke-width="1.5"/>
+  <text x="695" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Draft, then verify everything</text>
+  <text x="695" y="160" text-anchor="middle" font-size="14" fill="#111111">Check each claim against a</text>
+  <text x="695" y="178" text-anchor="middle" font-size="14" fill="#111111">trusted source before acting</text>
+  <text x="695" y="208" text-anchor="middle" font-size="14" fill="#111111">e.g. figures in a client report,</text>
+  <text x="695" y="226" text-anchor="middle" font-size="14" fill="#111111">citations in a filing</text>
+  <rect x="190" y="310" width="310" height="150" fill="#FFFFFF" stroke="#666666" stroke-width="1"/>
+  <text x="345" y="340" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Ideas and drafts only</text>
+  <text x="345" y="370" text-anchor="middle" font-size="14" fill="#111111">Use to explore; do not pass on</text>
+  <text x="345" y="388" text-anchor="middle" font-size="14" fill="#111111">as established fact</text>
+  <text x="345" y="418" text-anchor="middle" font-size="14" fill="#111111">e.g. brainstorming angles on an</text>
+  <text x="345" y="436" text-anchor="middle" font-size="14" fill="#111111">unfamiliar topic</text>
+  <rect x="540" y="310" width="310" height="150" fill="#FFFFFF" stroke="#1E5E24" stroke-width="2"/>
+  <text x="695" y="340" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Use freely, spot-check</text>
+  <text x="695" y="370" text-anchor="middle" font-size="14" fill="#111111">Errors are cheap and easy to see</text>
+  <text x="695" y="400" text-anchor="middle" font-size="14" fill="#111111">e.g. rewording an email,</text>
+  <text x="695" y="418" text-anchor="middle" font-size="14" fill="#111111">summarising a text you can read,</text>
+  <text x="695" y="436" text-anchor="middle" font-size="14" fill="#111111">routine formatting</text>
+  <line x1="170" y1="520" x2="880" y2="520" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="525" y="546" text-anchor="middle" font-size="16" fill="#111111">How easily the output can be verified: hard to easy</text>
+  <line x1="150" y1="500" x2="150" y2="62" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="112" y="285" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 112 285)">Cost of an undetected error: low to high</text>
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">A decision aid; real tasks fall on a continuum.</text>
+</svg>

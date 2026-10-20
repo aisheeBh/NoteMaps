@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Internet, web, browser and search engine</title>
+  <desc>Four stacked layers: the internet as network infrastructure at the bottom, the web as a service running on it, the browser as the client on the user device, and a search engine as one website among many reached through the browser.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Four layers that are often confused</text>
+  <rect x="60.0" y="70.0" width="840.0" height="92.0" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="80" y="84" width="230" height="64" fill="#FFFFFF"/>
+  <rect x="330" y="84" width="550" height="64" fill="#FFFFFF"/>
+  <text x="195.0" y="124.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Search engine</text>
+  <text x="345.0" y="112.0" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">A website that indexes pages and ranks results</text>
+  <text x="345.0" y="136.0" text-anchor="start" font-size="15" fill="#111111">e.g. Google Search, Bing, DuckDuckGo</text>
+  <rect x="60.0" y="174.0" width="840.0" height="92.0" rx="4" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="195.0" y="228.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">Web browser</text>
+  <text x="345.0" y="216.0" text-anchor="start" font-size="16" font-weight="bold" fill="#FFFFFF">The client program that fetches and displays pages</text>
+  <text x="345.0" y="240.0" text-anchor="start" font-size="15" fill="#FFFFFF">e.g. Chrome, Safari, Edge, Firefox</text>
+  <rect x="60.0" y="278.0" width="840.0" height="92.0" rx="4" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="80" y="292" width="230" height="64" fill="#FFFFFF"/>
+  <rect x="330" y="292" width="550" height="64" fill="#FFFFFF"/>
+  <text x="195.0" y="332.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">World Wide Web</text>
+  <text x="345.0" y="320.0" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">Linked documents and applications with addresses</text>
+  <text x="345.0" y="344.0" text-anchor="start" font-size="15" fill="#111111">one service among many on the internet</text>
+  <rect x="60.0" y="382.0" width="840.0" height="92.0" rx="4" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="195.0" y="436.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">Internet</text>
+  <text x="345.0" y="424.0" text-anchor="start" font-size="16" font-weight="bold" fill="#111111">The global network of networks that moves data</text>
+  <text x="345.0" y="448.0" text-anchor="start" font-size="15" fill="#111111">also carries email, calls, games, updates</text>
+  <text x="480.0" y="500.0" text-anchor="middle" font-size="13" fill="#333333">Each layer depends on the one beneath it; none is the same thing as another.</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Data lifecycle of a prompt</title>
+  <desc>Flow from left to right: prompt submitted, then processing and response. From there branches: conversation history kept until deleted; memory of user facts if enabled; safety logs retained for a period; human review of a sample or flagged items; training if terms permit. All lead to deletion, then backups cleared, unless a legal hold applies, shown as a dotted barrier.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where a prompt can go after it is submitted</text>
+  <rect x="30.0" y="250.0" width="150.0" height="80.0" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="105.0" y="285.5" text-anchor="middle" font-size="15" fill="#FFFFFF">Prompt and</text>
+  <text x="105.0" y="305.0" text-anchor="middle" font-size="15" fill="#FFFFFF">files submitted</text>
+  <rect x="220.0" y="250.0" width="150.0" height="80.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="295.0" y="285.5" text-anchor="middle" font-size="15" fill="#111111">Processing</text>
+  <text x="295.0" y="305.0" text-anchor="middle" font-size="15" fill="#111111">and response</text>
+  <line x1="180.0" y1="290.0" x2="218.0" y2="290.0" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="420.0" y="70.0" width="290.0" height="74.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="565.0" y="102.8" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Conversation history</text>
+  <text x="565.0" y="121.0" text-anchor="middle" font-size="14" fill="#111111">kept until the user deletes</text>
+  <line x1="370.0" y1="290.0" x2="418.0" y2="107.0" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="710.0" y1="107.0" x2="758.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="420.0" y="162.0" width="290.0" height="74.0" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="565.0" y="194.8" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Memory</text>
+  <text x="565.0" y="213.0" text-anchor="middle" font-size="14" fill="#111111">facts about the user, if on</text>
+  <line x1="370.0" y1="290.0" x2="418.0" y2="199.0" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="710.0" y1="199.0" x2="758.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="420.0" y="254.0" width="290.0" height="74.0" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="565.0" y="286.8" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Safety logs</text>
+  <text x="565.0" y="305.0" text-anchor="middle" font-size="14" fill="#111111">kept for a period, even with history off</text>
+  <line x1="370.0" y1="290.0" x2="418.0" y2="291.0" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="710.0" y1="291.0" x2="758.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="420.0" y="346.0" width="290.0" height="74.0" rx="8" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="428.0" y="361.8" width="274.0" height="44.2" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="565.0" y="378.8" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Human review</text>
+  <text x="565.0" y="397.0" text-anchor="middle" font-size="14" fill="#111111">sample or flagged content</text>
+  <line x1="370.0" y1="290.0" x2="418.0" y2="383.0" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="710.0" y1="383.0" x2="758.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="420.0" y="438.0" width="290.0" height="74.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="428.0" y="453.8" width="274.0" height="44.2" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="565.0" y="470.8" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Training</text>
+  <text x="565.0" y="489.0" text-anchor="middle" font-size="14" fill="#111111">only where terms permit</text>
+  <line x1="370.0" y1="290.0" x2="418.0" y2="475.0" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="710.0" y1="475.0" x2="758.0" y2="290.0" stroke="#222222" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <rect x="760.0" y="250.0" width="170.0" height="80.0" rx="8" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="768.0" y="267.5" width="154.0" height="46.5" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="845.0" y="285.5" text-anchor="middle" font-size="15" fill="#111111">Deletion, then</text>
+  <text x="845.0" y="305.0" text-anchor="middle" font-size="15" fill="#111111">backups cleared</text>
+  <rect x="760.0" y="390.0" width="170.0" height="86.0" rx="8" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="768.0" y="411.1" width="154.0" height="45.4" rx="4" fill="#FFFFFF" stroke="none"/>
+  <text x="845.0" y="428.6" text-anchor="middle" font-size="14.5" fill="#111111">Legal hold can</text>
+  <text x="845.0" y="447.5" text-anchor="middle" font-size="14.5" fill="#111111">suspend deletion</text>
+  <line x1="845.0" y1="388.0" x2="845.0" y2="334.0" stroke="#222222" stroke-width="2.5" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+  <text x="480.0" y="560.0" text-anchor="middle" font-size="14" fill="#111111">Which document decides: privacy policy and settings (history, memory, training); DPA for business accounts (retention, review).</text>
+</svg>

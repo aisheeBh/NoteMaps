@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Gone timeline</title>
+<desc>A day scale from 0 to 80. Conversation created day 0, deleted day 10, purged by day 40, out of backups by day 70. Safety log purged by day 30 and out of backups by day 60. Attachment and memory entry persist until deleted separately. Under a legal hold, all copies persist.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">One deleted conversation under an illustrative policy</text>
+<line x1="260.0" y1="90" x2="260.0" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="260.0" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 0</text>
+<line x1="342.5" y1="90" x2="342.5" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="342.5" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 10</text>
+<line x1="425.0" y1="90" x2="425.0" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="425.0" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 20</text>
+<line x1="507.5" y1="90" x2="507.5" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="507.5" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 30</text>
+<line x1="590.0" y1="90" x2="590.0" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="590.0" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 40</text>
+<line x1="672.5" y1="90" x2="672.5" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="672.5" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 50</text>
+<line x1="755.0" y1="90" x2="755.0" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="755.0" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 60</text>
+<line x1="837.5" y1="90" x2="837.5" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="837.5" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 70</text>
+<line x1="920.0" y1="90" x2="920.0" y2="440" stroke="#999999" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="920.0" y="462" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">day 80</text>
+<text x="246" y="128" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Conversation (visible)</text>
+<rect x="260.0" y="108" width="82.5" height="30" rx="4" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<text x="246" y="184" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Conversation (pending purge)</text>
+<rect x="342.5" y="164" width="247.5" height="30" rx="4" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="246" y="240" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Conversation in backups</text>
+<rect x="260.0" y="220" width="577.5" height="30" rx="4" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="246" y="296" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Safety log</text>
+<rect x="260.0" y="276" width="247.5" height="30" rx="4" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="246" y="352" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Attachment not deleted</text>
+<rect x="260.0" y="332" width="660.0" height="30" rx="4" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="912.0" y="354" font-size="18" text-anchor="end" font-weight="bold" fill="#111111">...</text>
+<text x="246" y="408" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">Memory entry not deleted</text>
+<rect x="260.0" y="388" width="660.0" height="30" rx="4" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="912.0" y="410" font-size="18" text-anchor="end" font-weight="bold" fill="#111111">...</text>
+<line x1="342.5" y1="84" x2="342.5" y2="440" stroke="#8B0000" stroke-width="2.5"/>
+<rect x="343.5" y="67" width="182.48000000000002" height="22.2" fill="#FFFFFF" stroke="none"/>
+<text x="348.5" y="82.0" font-size="14" text-anchor="start" font-weight="bold" fill="#111111">user deletes on day 10</text>
+<text x="480.0" y="520" font-size="13" text-anchor="middle" font-weight="normal" fill="#111111" font-style="italic">Illustrative figures; actual periods vary by provider and plan.</text>
+</svg>

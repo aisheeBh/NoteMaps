@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 590" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Errors that readers and spellcheckers both miss</title>
+  <desc>Four example errors: a doubled 'the', 'form' for 'from', 'of' for 'or', and a correctly spelled but wrong client name. Each is either a real word or a correctly spelled name, so dictionary checks pass and readers who predict meaning skim past.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Correctly spelled, still wrong</text>
+  <rect x="40" y="80" width="520" height="75" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="300" y="123" text-anchor="middle" font-size="17" fill="#111111">Please return the the form by Friday.</text>
+  <rect x="590" y="80" width="330" height="75" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="598" y="102" width="314" height="29" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="755" y="122" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Doubled common word</text>
+  <rect x="40" y="175" width="520" height="75" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="300" y="218" text-anchor="middle" font-size="17" fill="#111111">Goods were moved form the warehouse.</text>
+  <rect x="590" y="175" width="330" height="75" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="598" y="197" width="314" height="29" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="755" y="217" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Real word: form for from</text>
+  <rect x="40" y="270" width="520" height="75" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="300" y="313" text-anchor="middle" font-size="17" fill="#111111">Choose one of two options.</text>
+  <rect x="590" y="270" width="330" height="75" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="598" y="292" width="314" height="29" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="755" y="312" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Real word: of for or (one or two)</text>
+  <rect x="40" y="365" width="520" height="75" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="300" y="408" text-anchor="middle" font-size="17" fill="#111111">Prepared for Northwind Ltd</text>
+  <rect x="590" y="365" width="330" height="75" rx="6" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="598" y="387" width="314" height="29" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="755" y="407" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Right spelling, wrong client</text>
+  <rect x="40" y="470" width="880" height="64" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="497" text-anchor="middle" font-size="15" fill="#111111">Spellcheck passes all four; a reader predicting meaning skims past them.</text>
+  <text x="480" y="516" text-anchor="middle" font-size="15" fill="#111111">Remedies: read aloud, search for specific names, read one thing at a time.</text>
+  <text x="480" y="575" text-anchor="middle" font-size="13" fill="#333333">Illustrative examples.</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Moravec's paradox</title>
+  <desc>A two by two grid. Horizontal axis: how hard a task feels to people. Vertical axis: how hard it proved for early AI. Chess and logic felt hard to people but were easy for early machines; walking, seeing and everyday conversation felt easy to people but were very hard for machines.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">What felt hard to people was not what proved hard for machines</text>
+
+  <rect x="180" y="70" width="340" height="215" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="520" y="70" width="340" height="215" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <rect x="180" y="285" width="340" height="215" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <rect x="520" y="285" width="340" height="215" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+
+  <rect x="200" y="90" width="300" height="175" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="350" y="118" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Easy for people,</text>
+  <text x="350" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">hard for machines</text>
+  <text x="350" y="172" text-anchor="middle" font-size="15" fill="#111111">walking across a room</text>
+  <text x="350" y="194" text-anchor="middle" font-size="15" fill="#111111">recognising a face</text>
+  <text x="350" y="216" text-anchor="middle" font-size="15" fill="#111111">everyday conversation</text>
+  <text x="350" y="238" text-anchor="middle" font-size="15" fill="#111111">common-sense judgement</text>
+
+  <rect x="540" y="90" width="300" height="175" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="690" y="118" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Hard for people,</text>
+  <text x="690" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">hard for machines</text>
+  <text x="690" y="172" text-anchor="middle" font-size="15" fill="#111111">original scientific insight</text>
+  <text x="690" y="194" text-anchor="middle" font-size="15" fill="#111111">long-range strategy</text>
+  <text x="690" y="216" text-anchor="middle" font-size="15" fill="#111111">in open, changing worlds</text>
+
+  <rect x="200" y="305" width="300" height="175" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="350" y="333" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Easy for people,</text>
+  <text x="350" y="355" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">easy for machines</text>
+  <text x="350" y="387" text-anchor="middle" font-size="15" fill="#111111">simple arithmetic</text>
+  <text x="350" y="409" text-anchor="middle" font-size="15" fill="#111111">looking up a stored fact</text>
+
+  <rect x="540" y="305" width="300" height="175" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="690" y="333" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Hard for people,</text>
+  <text x="690" y="355" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">easy for early machines</text>
+  <text x="690" y="387" text-anchor="middle" font-size="15" fill="#111111">proving logic theorems</text>
+  <text x="690" y="409" text-anchor="middle" font-size="15" fill="#111111">symbolic algebra</text>
+  <text x="690" y="431" text-anchor="middle" font-size="15" fill="#111111">checkers and, later, chess</text>
+
+  <line x1="180" y1="530" x2="860" y2="530" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="520" y="556" text-anchor="middle" font-size="16" fill="#111111">How hard the task feels to people</text>
+  <line x1="150" y1="500" x2="150" y2="74" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="120" y="285" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 120 285)">How hard it proved for early AI</text>
+
+  <text x="480" y="586" text-anchor="middle" font-size="13" fill="#333333">Conceptual grid; the placement of tasks reflects the experience of AI research from the 1950s to the 1980s.</text>
+</svg>

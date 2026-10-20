@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two analyses of the same risk score</title>
+  <desc>Left panel, error rates as reported by journalists in 2016: among defendants who did not reoffend, about 45 per cent of Black defendants and 23 per cent of white defendants were labelled higher risk; among those who did reoffend, about 28 per cent of Black and 48 per cent of white defendants were labelled lower risk. Right panel, the company's argument: at each score, reoffending rates were similar across groups, so the score was approximately calibrated.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Same score, two verdicts</text>
+
+  <rect x="24" y="56" width="500" height="470" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="274" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Error rates differed (separation fails)</text>
+
+  <line x1="80" y1="430" x2="500" y2="430" stroke="#222222" stroke-width="2"/>
+  <line x1="80" y1="430" x2="80" y2="120" stroke="#222222" stroke-width="2"/>
+  <g font-size="13" fill="#111111" text-anchor="end">
+    <text x="74" y="434">0 %</text><text x="74" y="334">20 %</text><text x="74" y="234">40 %</text><text x="74" y="134">60 %</text>
+  </g>
+  <g stroke="#CCCCCC" stroke-dasharray="3 4"><line x1="80" y1="330" x2="500" y2="330"/><line x1="80" y1="230" x2="500" y2="230"/><line x1="80" y1="130" x2="500" y2="130"/></g>
+
+  <!-- scale 5px per % -->
+  <rect x="105" y="205" width="80" height="225" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="145" y="196" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">45 %</text>
+  <rect x="195" y="315" width="80" height="115" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="235" y="306" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">23 %</text>
+  <text x="190" y="452" text-anchor="middle" font-size="14" fill="#111111">Did not reoffend,</text>
+  <text x="190" y="470" text-anchor="middle" font-size="14" fill="#111111">labelled higher risk</text>
+
+  <rect x="305" y="290" width="80" height="140" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="345" y="281" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">28 %</text>
+  <rect x="395" y="190" width="80" height="240" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="435" y="181" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">48 %</text>
+  <text x="390" y="452" text-anchor="middle" font-size="14" fill="#111111">Did reoffend,</text>
+  <text x="390" y="470" text-anchor="middle" font-size="14" fill="#111111">labelled lower risk</text>
+
+  <rect x="110" y="488" width="22" height="18" fill="#1F3B5C" stroke="#000000"/>
+  <text x="140" y="502" font-size="14" fill="#111111">Black defendants</text>
+  <rect x="290" y="488" width="22" height="18" fill="url(#hatch)" stroke="#1F3B5C"/>
+  <text x="320" y="502" font-size="14" fill="#111111">White defendants</text>
+
+  <rect x="544" y="56" width="392" height="470" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="740" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Scores meant the same (sufficiency holds)</text>
+  <line x1="600" y1="430" x2="910" y2="430" stroke="#222222" stroke-width="2"/>
+  <line x1="600" y1="430" x2="600" y2="120" stroke="#222222" stroke-width="2"/>
+  <text x="755" y="458" text-anchor="middle" font-size="14" fill="#111111">Risk score: low to high</text>
+  <text x="572" y="275" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 572 275)">Share who reoffended</text>
+  <polyline points="620,400 680,350 740,300 800,240 860,180 900,150" fill="none" stroke="#1F3B5C" stroke-width="3.5"/>
+  <polyline points="620,392 680,356 740,292 800,248 860,172 900,158" fill="none" stroke="#333333" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="616" y="138" width="200" height="56" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+  <line x1="626" y1="154" x2="664" y2="154" stroke="#1F3B5C" stroke-width="3.5"/>
+  <text x="672" y="159" font-size="14" fill="#111111">Black defendants</text>
+  <line x1="626" y1="180" x2="664" y2="180" stroke="#333333" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="672" y="185" font-size="14" fill="#111111">White defendants</text>
+  <text x="755" y="490" text-anchor="middle" font-size="14" fill="#111111">The two lines nearly coincide: at each</text>
+  <text x="755" y="508" text-anchor="middle" font-size="14" fill="#111111">score, reoffending rates were similar.</text>
+
+  <text x="480" y="556" text-anchor="middle" font-size="14" fill="#111111">Left: approximate rates from the 2016 Broward County analysis. Right: schematic of the calibration argument.</text>
+  <text x="480" y="580" text-anchor="middle" font-size="13" fill="#333333">With different recorded base rates, both panels can be true at once.</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A learned boundary separating spam from genuine email</title>
+  <desc>Training emails plotted by two measured properties. Spam examples, drawn as crosses, cluster at the upper right; genuine emails, drawn as circles, cluster at the lower left. A learned boundary line separates them, and a new unlabelled email is classified by the side on which it falls.</desc>
+  <text x="480" y="40" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">Learning a boundary from labelled examples</text>
+  <line x1="120" y1="80" x2="120" y2="460" stroke="#222222" stroke-width="2"/>
+  <line x1="120" y1="460" x2="890" y2="460" stroke="#222222" stroke-width="2"/>
+  <text x="500" y="500" font-size="16" fill="#111111" text-anchor="middle">Count of words such as "free" or "winner"</text>
+  <text x="60" y="275" font-size="16" fill="#111111" text-anchor="middle" transform="rotate(-90 60 275)">Number of links in the email</text>
+  <circle cx="427" cy="396" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="197" cy="317" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="526" cy="357" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="504" cy="389" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="482" cy="417" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="533" cy="350" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="263" cy="348" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="183" cy="246" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="346" cy="275" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="480" cy="336" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="439" cy="381" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="193" cy="372" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="316" cy="340" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="275" cy="299" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="180" cy="223" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="163" cy="353" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="356" cy="384" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="461" cy="402" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="182" cy="391" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="189" cy="392" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="624" cy="398" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <circle cx="179" cy="289" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <path d="M317 120L333 136M317 136L333 120" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M835 309L851 325M835 325L851 309" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M695 200L711 216M695 216L711 200" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M772 143L788 159M772 159L788 143" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M821 131L837 147M821 147L837 131" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M664 142L680 158M664 158L680 142" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M709 188L725 204M709 204L725 188" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M766 191L782 207M766 207L782 191" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M446 164L462 180M446 180L462 164" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M438 183L454 199M438 199L454 183" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M521 150L537 166M521 166L537 150" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M361 147L377 163M361 163L377 147" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M469 147L485 163M469 163L485 147" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M773 319L789 335M773 335L789 319" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M424 139L440 155M424 155L440 139" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M806 173L822 189M806 189L822 173" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M703 180L719 196M703 196L719 180" stroke="#8B0000" stroke-width="3.5"/>
+  <path d="M544 139L560 155M544 155L560 139" stroke="#8B0000" stroke-width="3.5"/>
+  <line x1="158" y1="108" x2="842" y2="442" stroke="#1F3B5C" stroke-width="3" stroke-dasharray="10 6"/>
+  <rect x="652" y="357" width="170" height="30" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1.5"/>
+  <text x="737" y="377" font-size="15" fill="#111111" text-anchor="middle">Learned boundary</text>
+  <rect x="640" y="84" width="230" height="30" fill="#FFFFFF"/>
+  <text x="755" y="105" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Side predicted: spam</text>
+  <rect x="135" y="420" width="250" height="30" fill="#FFFFFF"/>
+  <text x="260" y="441" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">Side predicted: not spam</text>
+  <circle cx="591" cy="253" r="16" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <text x="591" y="259" font-size="18" font-weight="bold" fill="#111111" text-anchor="middle">?</text>
+  <rect x="615" y="239" width="170" height="48" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="625" y="258" font-size="15" fill="#111111">New email: falls on</text>
+  <text x="625" y="278" font-size="15" fill="#111111">the spam side</text>
+  <g font-size="15" fill="#111111">
+    <path d="M152 532L168 548M152 548L168 532" stroke="#8B0000" stroke-width="3.5"/><text x="180" y="546">Labelled spam</text>
+    <circle cx="360" cy="540" r="8" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/><text x="376" y="546">Labelled not spam</text>
+  </g>
+  <text x="900" y="572" font-size="13" fill="#333333" text-anchor="end">Illustrative data; real filters use thousands of measured properties.</text>
+</svg>

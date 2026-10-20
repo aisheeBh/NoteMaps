@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A timeline of the development of AI ethics</title>
+  <desc>Nine milestones from 1950 to 2026, each in a row with its year, a short description and a phase label: warning, evidence, principles or rules.</desc>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">From early warnings to binding rules</text>
+  <rect x="30" y="60" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="89" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1950</text>
+  <rect x="190" y="60" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="89" font-size="14" fill="#111111">Wiener warns that automation can be used to control people</text>
+  <rect x="770" y="60" width="160" height="46" fill="#E6E6E6" stroke="#333333" stroke-width="2" stroke-dasharray="2 4"/><text x="850" y="89" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Warning</text>
+  <rect x="30" y="112" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1976</text>
+  <rect x="190" y="112" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="141" font-size="14" fill="#111111">Weizenbaum argues some judgements should not be delegated to machines</text>
+  <rect x="770" y="112" width="160" height="46" fill="#E6E6E6" stroke="#333333" stroke-width="2" stroke-dasharray="2 4"/><text x="850" y="141" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Warning</text>
+  <rect x="30" y="164" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="193" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1996</text>
+  <rect x="190" y="164" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="193" font-size="14" fill="#111111">Friedman and Nissenbaum set out pre-existing, technical and emergent bias</text>
+  <rect x="770" y="164" width="160" height="46" fill="#E6E6E6" stroke="#333333" stroke-width="2" stroke-dasharray="2 4"/><text x="850" y="193" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Warning</text>
+  <rect x="30" y="216" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="245" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2013 to 2016</text>
+  <rect x="190" y="216" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="245" font-size="14" fill="#111111">Studies and investigations show unequal performance; disparate impact analysed</text>
+  <rect x="770" y="216" width="160" height="46" fill="#BCD5EE" stroke="#333333" stroke-width="2"/><text x="850" y="245" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Evidence</text>
+  <rect x="30" y="268" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="297" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2017 to 2019</text>
+  <rect x="190" y="268" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="297" font-size="14" fill="#111111">Asilomar, Montreal, OECD and EU guidelines; dozens of corporate statements</text>
+  <rect x="770" y="268" width="160" height="46" fill="#FFE6A8" stroke="#333333" stroke-width="2" stroke-dasharray="8 4"/><text x="850" y="297" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Principles</text>
+  <rect x="30" y="320" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="349" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2018 to 2020</text>
+  <rect x="190" y="320" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="349" font-size="14" fill="#111111">Employee protests and campaigns; some uses paused or restricted</text>
+  <rect x="770" y="320" width="160" height="46" fill="#BCD5EE" stroke="#333333" stroke-width="2"/><text x="850" y="349" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Evidence</text>
+  <rect x="30" y="372" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="401" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2021</text>
+  <rect x="190" y="372" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="401" font-size="14" fill="#111111">UNESCO adopts a global recommendation on AI ethics</text>
+  <rect x="770" y="372" width="160" height="46" fill="#FFE6A8" stroke="#333333" stroke-width="2" stroke-dasharray="8 4"/><text x="850" y="401" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Principles</text>
+  <rect x="30" y="424" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="453" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2022 to 2024</text>
+  <rect x="190" y="424" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="453" font-size="14" fill="#111111">Generative AI widens the agenda; EU AI Act adopted</text>
+  <rect x="770" y="424" width="160" height="46" fill="#D3ECD3" stroke="#333333" stroke-width="2"/><text x="850" y="453" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Rules</text>
+  <rect x="30" y="476" width="150" height="46" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/><text x="105" y="505" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">2025 to 2026</text>
+  <rect x="190" y="476" width="570" height="46" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/><text x="202" y="505" font-size="14" fill="#111111">Enforcement begins; some deadlines adjusted</text>
+  <rect x="770" y="476" width="160" height="46" fill="#D3ECD3" stroke="#333333" stroke-width="2"/><text x="850" y="505" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Rules</text>
+  <text x="480" y="548" text-anchor="middle" font-size="14" fill="#111111">The recurring pattern: warning, harm, scrutiny, principles, rules.</text>
+  <text x="480" y="570" text-anchor="middle" font-size="13" fill="#333333">Selected milestones; dates are those of publication or adoption.</text>
+</svg>

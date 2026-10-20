@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Where inclusion fails and the safeguard for each stage</title>
+  <desc>Five stages in a row: problem definition, data, model and evaluation, interface, and operation. Beneath each stage, a typical exclusion failure is paired with a safeguard.</desc>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Where inclusion fails, and what prevents it</text>
+
+  <g font-size="16" font-weight="bold" text-anchor="middle">
+    <rect x="24" y="64" width="176" height="56" rx="8" fill="#1F3B5C" stroke="#000000" stroke-width="3"/><text x="112" y="98" fill="#FFFFFF">Problem</text>
+    <rect x="206" y="64" width="176" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/><text x="294" y="98" fill="#111111">Data</text>
+    <rect x="388" y="64" width="176" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/><text x="476" y="98" fill="#111111">Model and test</text>
+    <rect x="570" y="64" width="176" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/><text x="658" y="98" fill="#111111">Interface</text>
+    <rect x="752" y="64" width="184" height="56" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/><text x="844" y="98" fill="#111111">Operation</text>
+  </g>
+
+  <text x="30" y="156" font-size="15" font-weight="bold" fill="#111111">Typical failure</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="24" y="166" width="176" height="130" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <rect x="34" y="190" width="156" height="84" fill="#FFFFFF"/>
+    <text x="112" y="214">One imagined</text><text x="112" y="234">"typical user";</text><text x="112" y="254">no affected</text><text x="112" y="270">voices</text>
+
+    <rect x="206" y="166" width="176" height="130" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <rect x="216" y="190" width="156" height="84" fill="#FFFFFF"/>
+    <text x="294" y="214">Some languages,</text><text x="294" y="234">ages, accents</text><text x="294" y="254">or abilities</text><text x="294" y="270">missing</text>
+
+    <rect x="388" y="166" width="176" height="130" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <rect x="398" y="190" width="156" height="84" fill="#FFFFFF"/>
+    <text x="476" y="214">Only averages</text><text x="476" y="234">reported; outliers</text><text x="476" y="254">treated as noise</text>
+
+    <rect x="570" y="166" width="176" height="130" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <rect x="580" y="190" width="156" height="84" fill="#FFFFFF"/>
+    <text x="658" y="214">Voice only, text</text><text x="658" y="234">only, or no screen-</text><text x="658" y="254">reader support</text>
+
+    <rect x="752" y="166" width="184" height="130" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <rect x="762" y="190" width="164" height="84" fill="#FFFFFF"/>
+    <text x="844" y="214">No one watches</text><text x="844" y="234">who gives up or</text><text x="844" y="254">complains</text>
+  </g>
+
+  <text x="30" y="332" font-size="15" font-weight="bold" fill="#111111">Safeguard</text>
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <rect x="24" y="342" width="176" height="130" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="34" y="366" width="156" height="84" fill="#FFFFFF"/>
+    <text x="112" y="390">Co-design with</text><text x="112" y="410">affected people;</text><text x="112" y="430">persona spectrum</text>
+
+    <rect x="206" y="342" width="176" height="130" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="216" y="366" width="156" height="84" fill="#FFFFFF"/>
+    <text x="294" y="390">Targeted, consented,</text><text x="294" y="410">paid data collection;</text><text x="294" y="430">datasheets</text>
+
+    <rect x="388" y="342" width="176" height="130" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="398" y="366" width="156" height="84" fill="#FFFFFF"/>
+    <text x="476" y="390">Group and</text><text x="476" y="410">intersectional</text><text x="476" y="430">results with targets</text>
+
+    <rect x="570" y="342" width="176" height="130" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="580" y="366" width="156" height="84" fill="#FFFFFF"/>
+    <text x="658" y="390">Several modes;</text><text x="658" y="410">assistive-technology</text><text x="658" y="430">testing</text>
+
+    <rect x="752" y="342" width="184" height="130" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <rect x="762" y="366" width="164" height="84" fill="#FFFFFF"/>
+    <text x="844" y="390">Human fallback;</text><text x="844" y="410">monitoring of drop-out;</text><text x="844" y="430">accessible feedback</text>
+  </g>
+
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic summary of recurring failure points; examples are typical, not drawn from a single case.</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 565" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The five parts of a drafting brief</title>
+  <desc>A drafting brief has five parts: purpose, audience, required points, tone and size or constraints. Each part removes one kind of guesswork from the draft.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">The five parts of a drafting brief</text>
+  <rect x="40" y="82" width="880" height="80" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="58" y="128" text-anchor="start" font-size="17" font-weight="bold" fill="#FFFFFF">Purpose</text>
+  <text x="310" y="118" text-anchor="start" font-size="15" fill="#FFFFFF">What the message must achieve: inform, request, decline, apologise,</text>
+  <text x="310" y="137" text-anchor="start" font-size="15" fill="#FFFFFF">persuade, escalate.</text>
+  <rect x="40" y="170" width="880" height="80" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="58" y="217" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">Audience</text>
+  <text x="310" y="206" text-anchor="start" font-size="15" fill="#000000">Who reads it, what they already know, the relationship and their</text>
+  <text x="310" y="225" text-anchor="start" font-size="15" fill="#000000">likely reaction.</text>
+  <rect x="40" y="259" width="880" height="80" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="50" y="267" width="860" height="64" fill="#FFFFFF" rx="4"/>
+  <text x="58" y="305" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Required points</text>
+  <text x="310" y="294" text-anchor="start" font-size="15" fill="#111111">The facts, figures, dates and commitments that must appear, supplied</text>
+  <text x="310" y="314" text-anchor="start" font-size="15" fill="#111111">by the writer.</text>
+  <rect x="40" y="347" width="880" height="80" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="58" y="393" text-anchor="start" font-size="17" font-weight="bold" fill="#000000">Tone</text>
+  <text x="310" y="383" text-anchor="start" font-size="15" fill="#000000">Register and warmth: formal or familiar, firm or conciliatory, brief</text>
+  <text x="310" y="402" text-anchor="start" font-size="15" fill="#000000">or expansive.</text>
+  <rect x="40" y="436" width="880" height="80" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="58" y="482" text-anchor="start" font-size="17" font-weight="bold" fill="#111111">Size and constraints</text>
+  <text x="310" y="471" text-anchor="start" font-size="15" fill="#111111">Length, format, channel, words to avoid, legal or policy limits, the</text>
+  <text x="310" y="490" text-anchor="start" font-size="15" fill="#111111">action asked for.</text>
+  <text x="480" y="551" text-anchor="middle" font-size="13" fill="#333333">Each missing part is filled by the model's defaults: generic purpose, average reader, invented details, neutral tone, excess length.</text>
+</svg>

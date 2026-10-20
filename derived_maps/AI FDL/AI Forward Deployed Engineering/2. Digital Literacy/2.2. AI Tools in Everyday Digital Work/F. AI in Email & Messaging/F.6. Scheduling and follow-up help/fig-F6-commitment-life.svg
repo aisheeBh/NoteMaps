@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The life of a commitment made in email</title>
+  <desc>Five stages left to right: a commitment is made in a message; it is detected; it is tracked as a task or reminder; a reminder or follow-up is sent at the right time; the commitment is closed by delivery or explicit release.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The life of a commitment made in email</text>
+  <rect x="24" y="75" width="155" height="195" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="102" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">1. Made</text>
+  <text x="102" y="136" text-anchor="middle" font-size="14.5" fill="#111111">"I'll send the</text>
+  <text x="102" y="154" text-anchor="middle" font-size="14.5" fill="#111111">figures by</text>
+  <text x="102" y="173" text-anchor="middle" font-size="14.5" fill="#111111">Friday" or</text>
+  <text x="102" y="192" text-anchor="middle" font-size="14.5" fill="#111111">"Could you</text>
+  <text x="102" y="211" text-anchor="middle" font-size="14.5" fill="#111111">review this?"</text>
+  <line x1="182" y1="172" x2="210" y2="172" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="213" y="75" width="155" height="195" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="291" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">2. Detected</text>
+  <text x="291" y="136" text-anchor="middle" font-size="14.5" fill="#000000">Noticed by the</text>
+  <text x="291" y="154" text-anchor="middle" font-size="14.5" fill="#000000">person, or</text>
+  <text x="291" y="173" text-anchor="middle" font-size="14.5" fill="#000000">flagged by an AI</text>
+  <text x="291" y="192" text-anchor="middle" font-size="14.5" fill="#000000">tool</text>
+  <line x1="371" y1="172" x2="399" y2="172" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="402" y="75" width="155" height="195" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="411" y="84" width="137" height="177" rx="4" fill="#FFFFFF"/>
+  <text x="480" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">3. Tracked</text>
+  <text x="480" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Becomes a task,</text>
+  <text x="480" y="154" text-anchor="middle" font-size="14.5" fill="#111111">calendar block</text>
+  <text x="480" y="173" text-anchor="middle" font-size="14.5" fill="#111111">or reminder</text>
+  <line x1="561" y1="172" x2="589" y2="172" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="592" y="75" width="155" height="195" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="601" y="84" width="137" height="177" rx="4" fill="#FFFFFF"/>
+  <text x="669" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">4. Followed up</text>
+  <text x="669" y="136" text-anchor="middle" font-size="14.5" fill="#111111">Reminder to</text>
+  <text x="669" y="154" text-anchor="middle" font-size="14.5" fill="#111111">self, or a chase</text>
+  <text x="669" y="173" text-anchor="middle" font-size="14.5" fill="#111111">to the other</text>
+  <text x="669" y="192" text-anchor="middle" font-size="14.5" fill="#111111">person</text>
+  <line x1="750" y1="172" x2="778" y2="172" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="781" y="75" width="155" height="195" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="858" y="106" text-anchor="middle" font-size="16" font-weight="bold" fill="#000000">5. Closed</text>
+  <text x="858" y="136" text-anchor="middle" font-size="14.5" fill="#000000">Delivered,</text>
+  <text x="858" y="154" text-anchor="middle" font-size="14.5" fill="#000000">declined or</text>
+  <text x="858" y="173" text-anchor="middle" font-size="14.5" fill="#000000">explicitly</text>
+  <text x="858" y="192" text-anchor="middle" font-size="14.5" fill="#000000">released</text>
+  <text x="480" y="314" text-anchor="middle" font-size="13" fill="#333333">Most dropped commitments are lost between stages 1 and 3: made in passing, never recorded.</text>
+</svg>

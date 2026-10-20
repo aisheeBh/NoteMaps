@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two ways of working with AI</title>
+  <desc>Two columns. Centaurs divide the work: the person decides which sub-tasks go to AI and which to keep, and switches between them. Cyborgs integrate the work: the person and AI interleave continuously within each sub-task.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Two ways of working with AI</text>
+  <rect x="40" y="80" width="429" height="190" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="254" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#000000">Centaur: divide the work</text>
+  <text x="58" y="148" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="148" text-anchor="start" font-size="15" fill="#000000">Clear split of sub-tasks</text>
+  <text x="58" y="176" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="176" text-anchor="start" font-size="15" fill="#000000">Person keeps judgement-heavy parts</text>
+  <text x="58" y="204" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="204" text-anchor="start" font-size="15" fill="#000000">AI does well-defined parts</text>
+  <text x="58" y="231" text-anchor="start" font-size="15" font-weight="bold" fill="#000000">•</text>
+  <text x="72" y="231" text-anchor="start" font-size="15" fill="#000000">Easier to check and to explain</text>
+  <rect x="491" y="80" width="429" height="190" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="501" y="90" width="409" height="170" fill="#FFFFFF" rx="4"/>
+  <text x="706" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Cyborg: integrate the work</text>
+  <text x="509" y="148" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="148" text-anchor="start" font-size="15" fill="#111111">Continuous back-and-forth</text>
+  <text x="509" y="176" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="176" text-anchor="start" font-size="15" fill="#111111">AI inside every step</text>
+  <text x="509" y="204" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="204" text-anchor="start" font-size="15" fill="#111111">Fast, fluid, exploratory</text>
+  <text x="509" y="231" text-anchor="start" font-size="15" font-weight="bold" fill="#111111">•</text>
+  <text x="523" y="231" text-anchor="start" font-size="15" fill="#111111">Harder to see where errors entered</text>
+  <text x="480" y="306" text-anchor="middle" font-size="13" fill="#333333">Labels from studies of consultants by Dell'Acqua, Mollick and colleagues; many people mix both.</text>
+</svg>

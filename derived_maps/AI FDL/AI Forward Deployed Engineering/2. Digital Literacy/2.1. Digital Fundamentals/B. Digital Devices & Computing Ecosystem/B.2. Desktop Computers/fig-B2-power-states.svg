@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Typical power draw of desktop types in different states</title>
+  <desc>Grouped bars for three desktop types: mini PC, office small-form-factor desktop and high-end tower. Each group has bars for sleep, idle and full load. Sleep is a few watts for all; idle rises from low for the mini PC to moderate for the tower; full load is far higher for the high-end tower than for the others.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where desktop energy goes: sleep, idle and full load</text>
+
+  <line x1="120" y1="460" x2="900" y2="460" stroke="#222222" stroke-width="2.5"/>
+  <line x1="120" y1="460" x2="120" y2="80" stroke="#222222" stroke-width="2.5"/>
+  <text x="62" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 270)">Relative power draw</text>
+  <g stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 4">
+    <line x1="120" y1="360" x2="900" y2="360"/><line x1="120" y1="260" x2="900" y2="260"/><line x1="120" y1="160" x2="900" y2="160"/>
+  </g>
+
+  <!-- mini PC -->
+  <rect x="170" y="455" width="50" height="5" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="230" y="445" width="50" height="15" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="290" y="400" width="50" height="60" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="255" y="490" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Mini PC</text>
+
+  <!-- office SFF -->
+  <rect x="420" y="455" width="50" height="5" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="480" y="430" width="50" height="30" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="540" y="350" width="50" height="110" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="505" y="490" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Office desktop</text>
+
+  <!-- tower -->
+  <rect x="670" y="454" width="50" height="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <rect x="730" y="400" width="50" height="60" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="790" y="110" width="50" height="350" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="755" y="490" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">High-end tower</text>
+
+  <!-- direct labels -->
+  <g font-size="14" fill="#111111" text-anchor="middle">
+    <text x="195" y="440">sleep</text><text x="255" y="432">idle</text><text x="315" y="390">load</text>
+    <text x="445" y="440">sleep</text><text x="505" y="418">idle</text><text x="565" y="340">load</text>
+    <text x="695" y="440">sleep</text><text x="755" y="390">idle</text><text x="815" y="100">load</text>
+  </g>
+  <rect x="150" y="90" width="430" height="56" fill="#FFFFFF" stroke="#BBBBBB"/>
+  <text x="365" y="113" text-anchor="middle" font-size="15" fill="#111111">Sleep costs a few watts for every type;</text>
+  <text x="365" y="134" text-anchor="middle" font-size="15" fill="#111111">idle hours across a year are the usual waste.</text>
+  <text x="900" y="560" text-anchor="end" font-size="13" fill="#111111">Schematic; relative heights only, not measured values for any product.</text>
+</svg>

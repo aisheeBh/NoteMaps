@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two neurons and the synapse between them</title>
+  <desc>Left: a sending neuron with dendrites, cell body and axon, whose terminal meets a receiving neuron at a synapse. Right: an enlarged synapse showing vesicles of neurotransmitter in the presynaptic terminal, the synaptic cleft and receptors on the postsynaptic membrane.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Where learning is stored: connections between neurons</text>
+
+  <!-- LEFT PANEL -->
+  <text x="260" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Two connected neurons</text>
+  <!-- neuron A dendrites -->
+  <g stroke="#1F3B5C" stroke-width="3" fill="none">
+    <path d="M100 250 L60 200 M80 225 L50 230"/>
+    <path d="M108 236 L90 160 M98 196 L72 170"/>
+    <path d="M100 280 L56 320 M78 300 L52 290"/>
+    <path d="M116 292 L104 360"/>
+  </g>
+  <circle cx="135" cy="262" r="38" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <!-- axon -->
+  <line x1="173" y1="262" x2="372" y2="262" stroke="#1F3B5C" stroke-width="6"/>
+  <circle cx="382" cy="262" r="11" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <!-- direction arrow -->
+  <line x1="200" y1="292" x2="330" y2="292" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="265" y="314" text-anchor="middle" font-size="14" fill="#111111">signal travels this way</text>
+
+  <!-- neuron B -->
+  <g stroke="#333333" stroke-width="3" fill="none">
+    <path d="M400 276 L438 352"/>
+    <path d="M470 352 L500 300 M486 326 L506 330"/>
+    <path d="M436 412 L410 460"/>
+    <path d="M480 410 L500 452"/>
+  </g>
+  <circle cx="455" cy="380" r="34" fill="#F2F2F2" stroke="#333333" stroke-width="3"/>
+
+  <!-- zoom marker -->
+  <rect x="366" y="244" width="44" height="44" fill="none" stroke="#222222" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="410" y1="250" x2="560" y2="110" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="410" y1="288" x2="560" y2="470" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- left labels -->
+  <rect x="40" y="110" width="150" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="1"/>
+  <text x="50" y="128" font-size="14" font-weight="bold" fill="#111111">Dendrites</text>
+  <text x="50" y="144" font-size="14" fill="#111111">receive signals</text>
+  <text x="150" y="334" font-size="14" font-weight="bold" fill="#111111">Cell body</text>
+  <text x="270" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Axon</text>
+  <text x="270" y="250" text-anchor="middle" font-size="14" fill="#111111">electrical impulse</text>
+  <text x="455" y="384" text-anchor="middle" font-size="14" fill="#111111">receiving</text>
+  <text x="455" y="400" text-anchor="middle" font-size="14" fill="#111111">neuron</text>
+  <text x="388" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Synapse</text>
+
+  <!-- RIGHT PANEL: enlarged synapse -->
+  <rect x="560" y="90" width="370" height="400" fill="#FFFFFF" stroke="#222222" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="745" y="82" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">The synapse, enlarged</text>
+
+  <!-- presynaptic terminal -->
+  <path d="M680 110 H890 Q910 110 910 130 V250 H680 Q660 250 660 230 V130 Q660 110 680 110 Z" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="3"/>
+  <rect x="700" y="122" width="170" height="26" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="785" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">sending terminal</text>
+  <g stroke="#7A5200" stroke-width="2">
+    <circle cx="710" cy="190" r="17" fill="url(#dots)"/>
+    <circle cx="765" cy="210" r="17" fill="url(#dots)"/>
+    <circle cx="825" cy="185" r="17" fill="url(#dots)"/>
+    <circle cx="875" cy="215" r="17" fill="url(#dots)"/>
+  </g>
+
+  <!-- neurotransmitter in cleft -->
+  <g fill="#7A5200">
+    <circle cx="720" cy="264" r="4"/><circle cx="742" cy="274" r="4"/><circle cx="770" cy="262" r="4"/>
+    <circle cx="800" cy="276" r="4"/><circle cx="830" cy="266" r="4"/><circle cx="858" cy="274" r="4"/>
+  </g>
+
+  <!-- postsynaptic -->
+  <rect x="660" y="290" width="250" height="130" fill="#F2F2F2" stroke="#333333" stroke-width="3"/>
+  <g fill="#1F3B5C" stroke="#000000" stroke-width="1">
+    <rect x="690" y="282" width="16" height="16"/><rect x="740" y="282" width="16" height="16"/>
+    <rect x="790" y="282" width="16" height="16"/><rect x="840" y="282" width="16" height="16"/>
+    <rect x="880" y="282" width="16" height="16"/>
+  </g>
+  <text x="785" y="340" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">receiving membrane</text>
+  <text x="785" y="360" text-anchor="middle" font-size="14" fill="#111111">receptors detect the</text>
+  <text x="785" y="378" text-anchor="middle" font-size="14" fill="#111111">transmitter and pass</text>
+  <text x="785" y="396" text-anchor="middle" font-size="14" fill="#111111">the signal on</text>
+
+  <!-- side labels -->
+  <text x="572" y="186" font-size="14" fill="#111111">vesicles</text>
+  <line x1="630" y1="182" x2="690" y2="188" stroke="#222222" stroke-width="1.5"/>
+  <text x="572" y="266" font-size="14" fill="#111111">cleft</text>
+  <text x="572" y="282" font-size="14" fill="#111111">(gap)</text>
+  <line x1="612" y1="270" x2="712" y2="268" stroke="#222222" stroke-width="1.5"/>
+  <text x="572" y="318" font-size="14" fill="#111111">receptors</text>
+  <line x1="636" y1="312" x2="690" y2="296" stroke="#222222" stroke-width="1.5"/>
+
+  <text x="745" y="446" text-anchor="middle" font-size="14" fill="#111111">Learning can add receptors, release</text>
+  <text x="745" y="464" text-anchor="middle" font-size="14" fill="#111111">more transmitter, or grow new synapses.</text>
+
+  <text x="480" y="524" text-anchor="middle" font-size="15" fill="#111111">A memory is not stored in one cell: it is a pattern of strengthened and weakened synapses across many neurons.</text>
+  <text x="480" y="552" text-anchor="middle" font-size="13" fill="#333333">Schematic; not to scale.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four kinds of consequence in operant conditioning</title>
+  <desc>A two-by-two grid. Columns: a consequence is added or removed. Rows: the behaviour becomes more likely (reinforcement) or less likely (punishment). Cells give positive reinforcement, negative reinforcement, positive punishment and negative punishment with workplace examples.</desc>
+  <defs>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <text x="480" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Operant conditioning: four kinds of consequence</text>
+
+  <!-- column headers -->
+  <rect x="200" y="62" width="350" height="54" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="375" y="86" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">Something is ADDED</text>
+  <text x="375" y="106" text-anchor="middle" font-size="14" fill="#FFFFFF">"positive"</text>
+  <rect x="560" y="62" width="350" height="54" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="735" y="86" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Something is REMOVED</text>
+  <text x="735" y="106" text-anchor="middle" font-size="14" fill="#111111">"negative"</text>
+
+  <!-- row headers -->
+  <rect x="40" y="126" width="150" height="190" fill="#FFFFFF" stroke="#1E5E24" stroke-width="3"/>
+  <text x="115" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Behaviour</text>
+  <text x="115" y="216" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">becomes MORE</text>
+  <text x="115" y="236" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">likely</text>
+  <text x="115" y="262" text-anchor="middle" font-size="14" fill="#111111">REINFORCEMENT</text>
+  <rect x="40" y="326" width="150" height="190" fill="#FFFFFF" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="115" y="396" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Behaviour</text>
+  <text x="115" y="416" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">becomes LESS</text>
+  <text x="115" y="436" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">likely</text>
+  <text x="115" y="462" text-anchor="middle" font-size="14" fill="#111111">PUNISHMENT</text>
+
+  <!-- cells -->
+  <rect x="200" y="126" width="350" height="190" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="216" y="140" width="318" height="162" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="375" y="168" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Positive reinforcement</text>
+  <text x="232" y="198" font-size="14" fill="#111111">A pleasant consequence is added.</text>
+  <text x="232" y="230" font-size="14" fill="#111111">e.g. a sales representative earns</text>
+  <text x="232" y="248" font-size="14" fill="#111111">commission for every renewal, and</text>
+  <text x="232" y="266" font-size="14" fill="#111111">chases renewals more often</text>
+
+  <rect x="560" y="126" width="350" height="190" fill="url(#cross)" stroke="#1E5E24" stroke-width="3"/>
+  <rect x="576" y="140" width="318" height="162" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="735" y="168" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Negative reinforcement</text>
+  <text x="592" y="198" font-size="14" fill="#111111">An unpleasant condition is removed.</text>
+  <text x="592" y="230" font-size="14" fill="#111111">e.g. daily reminder e-mails stop once</text>
+  <text x="592" y="248" font-size="14" fill="#111111">the timesheet is filed, so timesheets</text>
+  <text x="592" y="266" font-size="14" fill="#111111">are filed sooner</text>
+
+  <rect x="200" y="326" width="350" height="190" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="216" y="340" width="318" height="162" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="375" y="368" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Positive punishment</text>
+  <text x="232" y="398" font-size="14" fill="#111111">An unpleasant consequence is added.</text>
+  <text x="232" y="430" font-size="14" fill="#111111">e.g. a junior who asks a question in</text>
+  <text x="232" y="448" font-size="14" fill="#111111">a meeting is ridiculed, and stops</text>
+  <text x="232" y="466" font-size="14" fill="#111111">asking questions</text>
+
+  <rect x="560" y="326" width="350" height="190" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <rect x="576" y="340" width="318" height="162" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="735" y="368" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Negative punishment</text>
+  <text x="592" y="398" font-size="14" fill="#111111">A pleasant condition is removed.</text>
+  <text x="592" y="430" font-size="14" fill="#111111">e.g. flexible hours are withdrawn after</text>
+  <text x="592" y="448" font-size="14" fill="#111111">repeated missed deadlines, and</text>
+  <text x="592" y="466" font-size="14" fill="#111111">deadlines are missed less often</text>
+
+  <text x="480" y="548" text-anchor="middle" font-size="15" fill="#111111">"Positive" and "negative" mean added and removed, not good and bad.</text>
+  <text x="480" y="576" text-anchor="middle" font-size="13" fill="#333333">After B. F. Skinner's analysis of operant behaviour; examples are illustrative.</text>
+</svg>

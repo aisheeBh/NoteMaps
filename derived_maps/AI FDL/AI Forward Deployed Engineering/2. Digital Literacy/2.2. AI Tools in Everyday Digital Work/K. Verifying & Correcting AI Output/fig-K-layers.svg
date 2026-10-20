@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Four layers at which AI output can be wrong</title>
+  <desc>Four stacked layers, from top to bottom: surface (spelling, format, tone), substance (facts, figures, names, quotations, reasoning), fit (right task, audience, scope, jurisdiction, date), and consequence (instructions and actions that change the world). Lower layers are harder to see and more costly when wrong.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="40" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Four layers at which output can be wrong</text>
+  <rect x="28" y="74" width="904" height="78" rx="8" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="480.0" y="108.0" text-anchor="middle" font-size="18" fill="#222222" font-weight="bold">SURFACE</text>
+  <text x="480.0" y="132.3" text-anchor="middle" font-size="16" fill="#222222">spelling, format, tone, length</text>
+  <text x="920" y="144" text-anchor="end" font-size="14" fill="#222222" font-style="italic">Easy to see; usually cheap</text>
+  <rect x="58" y="166" width="844" height="78" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480.0" y="200.1" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">SUBSTANCE</text>
+  <text x="480.0" y="224.4" text-anchor="middle" font-size="16" fill="#111111">facts, figures, names, quotations, reasoning</text>
+  <text x="890" y="236" text-anchor="end" font-size="14" fill="#222222" font-style="italic">Needs sources to check</text>
+  <rect x="88" y="258" width="784" height="78" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480.0" y="292.1" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">FIT</text>
+  <text x="480.0" y="316.4" text-anchor="middle" font-size="16" fill="#111111">right task, audience, scope, jurisdiction, date</text>
+  <text x="860" y="328" text-anchor="end" font-size="14" fill="#222222" font-style="italic">Needs knowledge of the situation</text>
+  <rect x="118" y="350" width="724" height="78" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="480.0" y="384.1" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">CONSEQUENCE</text>
+  <text x="480.0" y="408.4" text-anchor="middle" font-size="16" fill="#111111">instructions followed, actions taken</text>
+  <text x="830" y="420" text-anchor="end" font-size="14" fill="#222222" font-style="italic">Needs testing; may be irreversible</text>
+  <text x="480.0" y="478" text-anchor="middle" font-size="14" fill="#333333" font-style="italic">Fluent output hides lower-layer errors behind a clean surface.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Accuracy under attack for a standard model and an adversarially trained model</title>
+  <desc>Schematic: as the size of the permitted perturbation grows, the accuracy of a standard model collapses towards zero almost immediately. An adversarially trained model starts with somewhat lower accuracy on clean inputs but declines far more slowly.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Robustness costs some clean accuracy but holds up under attack</text>
+  <line x1="100" y1="440" x2="900" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="100" y1="440" x2="100" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="486" text-anchor="middle" font-size="16" fill="#111111">Size of the attacker's change to each input (from none to larger)</text>
+  <text x="50" y="255" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 50 255)">Accuracy on attacked inputs</text>
+  <g font-size="14" fill="#111111" text-anchor="end">
+    <text x="90" y="445">0%</text><text x="90" y="260">50%</text><text x="90" y="95">100%</text>
+  </g>
+  <line x1="100" y1="255" x2="880" y2="255" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M100 110 C 130 120, 150 380, 200 430 L 880 436" fill="none" stroke="#222222" stroke-width="3" stroke-dasharray="10 6"/>
+  <path d="M100 150 C 300 170, 450 230, 650 330 C 750 380, 820 405, 880 415" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <rect x="190" y="320" width="260" height="46" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="202" y="340" font-size="15" font-weight="bold" fill="#111111">Standard model</text>
+  <text x="202" y="358" font-size="14" fill="#111111">near-perfect, then collapses</text>
+  <line x1="190" y1="345" x2="165" y2="330" stroke="#222222" stroke-width="1"/>
+  <rect x="470" y="150" width="330" height="62" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="482" y="170" font-size="15" font-weight="bold" fill="#111111">Adversarially trained model</text>
+  <text x="482" y="188" font-size="14" fill="#111111">lower at the start, declines slowly;</text>
+  <text x="482" y="204" font-size="14" fill="#111111">still falls as attacks strengthen</text>
+  <line x1="560" y1="212" x2="520" y2="245" stroke="#1F3B5C" stroke-width="1"/>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#333333">Schematic of the typical pattern; not plotted from a single dataset.</text>
+</svg>

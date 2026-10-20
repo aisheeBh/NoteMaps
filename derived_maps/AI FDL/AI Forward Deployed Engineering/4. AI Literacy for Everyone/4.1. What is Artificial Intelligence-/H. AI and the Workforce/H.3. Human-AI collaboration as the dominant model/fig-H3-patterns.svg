@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five patterns of human-AI collaboration</title>
+  <desc>Five columns from left to right, with increasing AI autonomy. Tool: person acts, AI performs a sub-step. Assistant: AI drafts, person edits and decides. Reviewer: person acts, AI checks. Delegate with escalation: AI handles routine cases and passes hard ones to a person. Autopilot with monitoring: AI acts, person monitors and overrides.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">From AI as tool to AI on autopilot</text>
+  <rect x="30" y="70" width="148" height="88" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="2.5"/>
+  <rect x="38" y="98" width="132" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="104" y="119" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Tool</text>
+  <rect x="30" y="174" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="196" font-size="15" text-anchor="start" fill="#111111">Person performs</text>
+  <text x="42" y="215" font-size="15" text-anchor="start" fill="#111111">the task</text>
+  <rect x="30" y="236" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="258" font-size="15" text-anchor="start" fill="#111111">AI does one</text>
+  <text x="42" y="277" font-size="15" text-anchor="start" fill="#111111">sub-step</text>
+  <rect x="30" y="298" width="148" height="71" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="42" y="320" font-size="15" text-anchor="start" fill="#111111">e.g. remove an</text>
+  <text x="42" y="339" font-size="15" text-anchor="start" fill="#111111">image</text>
+  <text x="42" y="358" font-size="15" text-anchor="start" fill="#111111">background</text>
+  <line x1="182" y1="114" x2="214" y2="114" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="218" y="70" width="148" height="88" rx="0" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="226" y="98" width="132" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="292" y="119" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Assistant</text>
+  <rect x="218" y="174" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="230" y="196" font-size="15" text-anchor="start" fill="#111111">AI drafts or</text>
+  <text x="230" y="215" font-size="15" text-anchor="start" fill="#111111">suggests</text>
+  <rect x="218" y="236" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="230" y="258" font-size="15" text-anchor="start" fill="#111111">Person edits</text>
+  <text x="230" y="277" font-size="15" text-anchor="start" fill="#111111">and decides</text>
+  <rect x="218" y="298" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="230" y="320" font-size="15" text-anchor="start" fill="#111111">e.g. contract</text>
+  <text x="230" y="339" font-size="15" text-anchor="start" fill="#111111">clause drafts</text>
+  <line x1="370" y1="114" x2="402" y2="114" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="406" y="70" width="148" height="88" rx="0" fill="url(#dots)" stroke="#7A5200" stroke-width="2.5"/>
+  <rect x="414" y="98" width="132" height="32" fill="#FFFFFF" stroke="none"/>
+  <text x="480" y="119" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Reviewer</text>
+  <rect x="406" y="174" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="418" y="196" font-size="15" text-anchor="start" fill="#111111">Person performs</text>
+  <text x="418" y="215" font-size="15" text-anchor="start" fill="#111111">the task</text>
+  <rect x="406" y="236" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="418" y="258" font-size="15" text-anchor="start" fill="#111111">AI checks and</text>
+  <text x="418" y="277" font-size="15" text-anchor="start" fill="#111111">flags</text>
+  <rect x="406" y="298" width="148" height="71" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="418" y="320" font-size="15" text-anchor="start" fill="#111111">e.g. second</text>
+  <text x="418" y="339" font-size="15" text-anchor="start" fill="#111111">reader in</text>
+  <text x="418" y="358" font-size="15" text-anchor="start" fill="#111111">screening</text>
+  <line x1="558" y1="114" x2="590" y2="114" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="594" y="70" width="148" height="88" rx="0" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2.5"/>
+  <rect x="602" y="88" width="132" height="52" fill="#FFFFFF" stroke="none"/>
+  <text x="668" y="109" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Delegate with</text>
+  <text x="668" y="129" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">escalation</text>
+  <rect x="594" y="174" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="606" y="196" font-size="15" text-anchor="start" fill="#111111">AI handles</text>
+  <text x="606" y="215" font-size="15" text-anchor="start" fill="#111111">routine cases</text>
+  <rect x="594" y="236" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="606" y="258" font-size="15" text-anchor="start" fill="#111111">Hard cases go</text>
+  <text x="606" y="277" font-size="15" text-anchor="start" fill="#111111">to a person</text>
+  <rect x="594" y="298" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="606" y="320" font-size="15" text-anchor="start" fill="#111111">e.g. support</text>
+  <text x="606" y="339" font-size="15" text-anchor="start" fill="#111111">bot hand-off</text>
+  <line x1="746" y1="114" x2="778" y2="114" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="782" y="70" width="148" height="88" rx="0" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5"/>
+  <rect x="790" y="78" width="132" height="72" fill="#FFFFFF" stroke="none"/>
+  <text x="856" y="99" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Autopilot</text>
+  <text x="856" y="119" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">with</text>
+  <text x="856" y="139" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">monitoring</text>
+  <rect x="782" y="174" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="794" y="196" font-size="15" text-anchor="start" fill="#111111">AI acts at</text>
+  <text x="794" y="215" font-size="15" text-anchor="start" fill="#111111">speed</text>
+  <rect x="782" y="236" width="148" height="52" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="794" y="258" font-size="15" text-anchor="start" fill="#111111">Person monitors</text>
+  <text x="794" y="277" font-size="15" text-anchor="start" fill="#111111">and overrides</text>
+  <rect x="782" y="298" width="148" height="71" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="794" y="320" font-size="15" text-anchor="start" fill="#111111">e.g. trading</text>
+  <text x="794" y="339" font-size="15" text-anchor="start" fill="#111111">with risk</text>
+  <text x="794" y="358" font-size="15" text-anchor="start" fill="#111111">limits</text>
+  <text x="480" y="424" font-size="13" text-anchor="middle" fill="#333333">AI autonomy increases from left to right; the person's role shifts from doing to supervising.</text>
+</svg>

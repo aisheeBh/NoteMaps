@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Common loudness targets</title>
+<desc>Horizontal bars showing commonly cited integrated loudness targets for broadcast, podcasts and streaming platforms.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Commonly cited integrated loudness targets</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Longer bar = quieter target (bar length is the distance below 0 LUFS)</text>
+<text x="352.0" y="122.0" font-size="15" font-weight="normal" text-anchor="end" fill="#111111">European broadcast (EBU R 128)</text>
+<rect x="364" y="100.0" width="349.6" height="34.0" fill="url(#hatch)" stroke="#222222" stroke-width="1.5"/>
+<rect x="719.6" y="106.0" width="72" height="22" fill="#FFFFFF"/>
+<text x="723.6" y="122.0" font-size="14" font-weight="bold" text-anchor="start" fill="#111111">-23 LUFS</text>
+<text x="352.0" y="185.3" font-size="15" font-weight="normal" text-anchor="end" fill="#111111">Many podcast platforms</text>
+<rect x="364" y="163.33333333333334" width="243.2" height="34.0" fill="url(#dots)" stroke="#222222" stroke-width="1.5"/>
+<rect x="613.2" y="169.3" width="120" height="22" fill="#FFFFFF"/>
+<text x="617.2" y="185.3" font-size="14" font-weight="bold" text-anchor="start" fill="#111111">about -16 LUFS</text>
+<text x="352.0" y="248.7" font-size="15" font-weight="normal" text-anchor="end" fill="#111111">Many music and video streaming services</text>
+<rect x="364" y="226.66666666666669" width="212.8" height="34.0" fill="url(#cross)" stroke="#222222" stroke-width="1.5"/>
+<rect x="582.8" y="232.7" width="120" height="22" fill="#FFFFFF"/>
+<text x="586.8" y="248.7" font-size="14" font-weight="bold" text-anchor="start" fill="#111111">about -14 LUFS</text>
+<line x1="364" y1="92" x2="364" y2="290" stroke="#222222" stroke-width="2"/>
+<text x="480.0" y="346.0" font-size="13" font-weight="normal" text-anchor="middle" fill="#333333" font-style="italic">Platform targets change and differ; check the destination's current specification.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Typical failure families by medium</title>
+<desc>Four columns listing the commonest quality failures in generated images, slides, audio and video.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<pattern id="grey" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#E6E6E6"/><circle cx="5" cy="5" r="1" fill="#666666"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480.0" y="40.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#111111">Where generated media typically fails</text>
+<text x="480.0" y="64.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#333333">Each medium has characteristic faults; inspection should target them</text>
+<rect x="24.0" y="90" width="216.0" height="312" rx="6" fill="#EAF2FA" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="26.0" y="92" width="212.0" height="10" fill="url(#hatch)"/>
+<text x="132.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Images</text>
+<text x="132.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Hands, teeth, ears,</text>
+<text x="132.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">jewellery</text>
+<text x="132.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Text, numbers, logos</text>
+<text x="132.0" y="225.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Counts and positions</text>
+<text x="132.0" y="251.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Shadows, reflections,</text>
+<text x="132.0" y="271.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">physics</text>
+<text x="132.0" y="297.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Melting backgrounds</text>
+<rect x="256.0" y="90" width="216.0" height="312" rx="6" fill="#FFF6DD" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="258.0" y="92" width="212.0" height="10" fill="url(#dots)"/>
+<text x="364.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Slides</text>
+<text x="364.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Invented figures and</text>
+<text x="364.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">sources</text>
+<text x="364.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Numbers that disagree</text>
+<text x="364.0" y="225.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Generic,</text>
+<text x="364.0" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">interchangeable text</text>
+<text x="364.0" y="271.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Charts not built from</text>
+<text x="364.0" y="290.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">data</text>
+<text x="364.0" y="317.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Overflowing layouts</text>
+<rect x="488.0" y="90" width="216.0" height="312" rx="6" fill="#FCEDED" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+<rect x="490.5" y="92.5" width="211.0" height="10" fill="url(#lines)"/>
+<text x="596.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Audio</text>
+<text x="596.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Mispronounced names and</text>
+<text x="596.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">numbers</text>
+<text x="596.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Wrong stress and flat</text>
+<text x="596.0" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">tone</text>
+<text x="596.0" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Skipped or repeated</text>
+<text x="596.0" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">words</text>
+<text x="596.0" y="290.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Metallic artefacts</text>
+<text x="596.0" y="317.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Voice drifting mid-clip</text>
+<rect x="720.0" y="90" width="216.0" height="312" rx="6" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x="721.5" y="91.5" width="213.0" height="10" fill="url(#grey)"/>
+<text x="828.0" y="124.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">Video</text>
+<text x="828.0" y="152.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Flicker and morphing</text>
+<text x="828.0" y="172.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">between frames</text>
+<text x="828.0" y="198.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Objects appearing or</text>
+<text x="828.0" y="218.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">vanishing</text>
+<text x="828.0" y="244.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Unnatural motion and</text>
+<text x="828.0" y="264.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">physics</text>
+<text x="828.0" y="290.5" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Lip-sync drift</text>
+<text x="828.0" y="317.0" font-size="15" font-weight="normal" text-anchor="middle" fill="#111111">Changing text on signs</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Styles of meeting text</title>
+<desc>Spectrum from true verbatim through clean verbatim and edited transcript to summary notes.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="44" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Styles of meeting text</text>
+<rect x="40.0" y="120" width="209.5" height="250" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<rect x="48.0" y="130" width="193.5" height="230" fill="#FFFFFF" rx="4"/>
+<text x="144.75" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">True</text>
+<text x="144.75" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">verbatim</text>
+<text x="144.75" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Every word, filler,</text>
+<text x="144.75" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">false start and</text>
+<text x="144.75" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">audible event</text>
+<text x="144.75" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="144.75" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Legal, research,</text>
+<text x="144.75" y="305" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">investigations</text>
+<rect x="263.5" y="120" width="209.5" height="250" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="271.5" y="130" width="193.5" height="230" fill="#FFFFFF" rx="4"/>
+<text x="368.25" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Clean</text>
+<text x="368.25" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">verbatim</text>
+<text x="368.25" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Fillers and stutters</text>
+<text x="368.25" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">removed; wording</text>
+<text x="368.25" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">unchanged</text>
+<text x="368.25" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="368.25" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Default for most</text>
+<text x="368.25" y="305" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">AI transcripts</text>
+<rect x="487.0" y="120" width="209.5" height="250" rx="6" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+<rect x="495.0" y="130" width="193.5" height="230" fill="#FFFFFF" rx="4"/>
+<text x="591.75" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Edited</text>
+<text x="591.75" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">transcript</text>
+<text x="591.75" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Grammar tidied,</text>
+<text x="591.75" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">sentences</text>
+<text x="591.75" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">restructured</text>
+<text x="591.75" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="591.75" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Published</text>
+<text x="591.75" y="305" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">interviews</text>
+<rect x="710.5" y="120" width="209.5" height="250" rx="6" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+<rect x="718.5" y="130" width="193.5" height="230" fill="#FFFFFF" rx="4"/>
+<text x="815.25" y="160" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Summary</text>
+<text x="815.25" y="181" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">notes</text>
+<text x="815.25" y="210" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Substance only,</text>
+<text x="815.25" y="229" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">in the writer's</text>
+<text x="815.25" y="248" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">or model's words</text>
+<text x="815.25" y="267" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111"></text>
+<text x="815.25" y="286" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Recaps, minutes,</text>
+<text x="815.25" y="305" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">action notes</text>
+<line x1="50" y1="410" x2="910" y2="410" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="50" y="438" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Exact record, less interpretation</text>
+<text x="910" y="438" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Short record, more interpretation</text>
+</svg>

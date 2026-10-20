@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 333" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>What a research trail records</title>
+  <desc>Three columns. What: the question and purpose, AI outputs saved in full, sources with version and access date. How: tools and modes, exact queries and prompts, dates and times, verification checks and outcomes. Why: inclusion and exclusion decisions, how conflicts were resolved, remaining uncertainties, who did and reviewed each step.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">What a research trail records</text>
+  <rect x="24" y="70" width="292" height="233" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="170" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">WHAT was asked and found</text>
+  <line x1="38" y1="116" x2="302" y2="116" stroke="#555555" stroke-width="1.2"/>
+  <text x="170" y="140" text-anchor="middle" font-size="14.5" fill="#111111">Question and purpose</text>
+  <text x="170" y="171" text-anchor="middle" font-size="14.5" fill="#111111">AI outputs, saved in full</text>
+  <text x="170" y="202" text-anchor="middle" font-size="14.5" fill="#111111">Sources with version and access</text>
+  <text x="170" y="221" text-anchor="middle" font-size="14.5" fill="#111111">date</text>
+  <rect x="334" y="70" width="292" height="233" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="480" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">HOW it was found and checked</text>
+  <line x1="348" y1="116" x2="612" y2="116" stroke="#555555" stroke-width="1.2"/>
+  <text x="480" y="140" text-anchor="middle" font-size="14.5" fill="#111111">Tools and modes used</text>
+  <text x="480" y="171" text-anchor="middle" font-size="14.5" fill="#111111">Exact queries and prompts</text>
+  <text x="480" y="202" text-anchor="middle" font-size="14.5" fill="#111111">Dates and times</text>
+  <text x="480" y="233" text-anchor="middle" font-size="14.5" fill="#111111">Checks made and their outcomes</text>
+  <rect x="644" y="70" width="292" height="233" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="790" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">WHY choices were made</text>
+  <line x1="658" y1="116" x2="922" y2="116" stroke="#555555" stroke-width="1.2"/>
+  <text x="790" y="140" text-anchor="middle" font-size="14.5" fill="#111111">Sources included or excluded, and</text>
+  <text x="790" y="159" text-anchor="middle" font-size="14.5" fill="#111111">why</text>
+  <text x="790" y="190" text-anchor="middle" font-size="14.5" fill="#111111">How conflicts were resolved</text>
+  <text x="790" y="221" text-anchor="middle" font-size="14.5" fill="#111111">What remains uncertain</text>
+  <text x="790" y="252" text-anchor="middle" font-size="14.5" fill="#111111">Who did and who reviewed each step</text>
+</svg>

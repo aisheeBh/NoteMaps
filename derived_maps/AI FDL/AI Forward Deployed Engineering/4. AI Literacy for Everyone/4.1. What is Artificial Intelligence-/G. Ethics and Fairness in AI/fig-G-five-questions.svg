@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five questions for any AI system that affects people</title>
+  <desc>Five boxes around a central circle: what is it for, what data does it use, how was it tested and on whom, who can override it, and how can an affected person challenge it. Each box lists a warning sign that suggests the answer is inadequate.</desc>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Five questions before relying on AI that affects people</text>
+
+  <circle cx="480" cy="290" r="82" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="284" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">An AI system</text>
+  <text x="480" y="306" text-anchor="middle" font-size="14" fill="#FFFFFF">that affects people</text>
+
+  <g stroke="#222222" stroke-width="2.5">
+    <line x1="420" y1="228" x2="290" y2="150"/><line x1="540" y1="228" x2="670" y2="150"/>
+    <line x1="400" y1="320" x2="260" y2="340"/><line x1="560" y1="320" x2="700" y2="340"/>
+    <line x1="480" y1="372" x2="480" y2="420"/>
+  </g>
+
+  <g font-size="14" fill="#111111">
+    <rect x="40" y="86" width="290" height="110" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+    <text x="52" y="110" font-weight="bold" font-size="15">1. What is it for?</text>
+    <text x="52" y="134">Warning sign: a vague goal</text><text x="52" y="154">such as "improve efficiency",</text><text x="52" y="174">or a proxy for the real aim</text>
+
+    <rect x="630" y="86" width="290" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="2.5"/>
+    <text x="642" y="110" font-weight="bold" font-size="15">2. What data does it use?</text>
+    <text x="642" y="134">Warning sign: unknown source,</text><text x="642" y="154">no consent or lawful basis,</text><text x="642" y="174">whole groups missing</text>
+
+    <rect x="30" y="296" width="280" height="110" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="42" y="320" font-weight="bold" font-size="15">3. How was it tested, and on whom?</text>
+    <text x="42" y="344">Warning sign: averages only,</text><text x="42" y="364">no results by group or in</text><text x="42" y="384">real conditions</text>
+
+    <rect x="650" y="296" width="280" height="110" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+    <text x="662" y="320" font-weight="bold" font-size="15">4. Who can override it?</text>
+    <text x="662" y="344">Warning sign: a reviewer with</text><text x="662" y="364">no time, no reasons and no</text><text x="662" y="384">authority to disagree</text>
+
+    <rect x="290" y="424" width="380" height="96" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <text x="302" y="448" font-weight="bold" font-size="15">5. How can an affected person challenge it?</text>
+    <text x="302" y="472">Warning sign: no notice, no reasons,</text><text x="302" y="492">no human review, no route to redress</text>
+  </g>
+
+  <text x="480" y="548" text-anchor="middle" font-size="13" fill="#333333">If a vendor or team cannot answer all five clearly, the system is not ready to affect people.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>AND is linearly separable; XOR is not</title>
+  <desc>Two panels each showing four input points. For AND, only the point where both inputs are 1 is true, and one straight line separates it from the rest. For XOR, the true points sit on opposite corners, so no single straight line can separate true from false.</desc>
+  <text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">One straight line can separate AND, but not exclusive-or</text>
+
+  <!-- legend -->
+  <rect x="300" y="56" width="16" height="16" fill="#111111"/>
+  <text x="324" y="70" font-size="15" fill="#111111">output true</text>
+  <circle cx="478" cy="64" r="8" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <text x="494" y="70" font-size="15" fill="#111111">output false</text>
+
+  <!-- left panel -->
+  <rect x="80" y="100" width="360" height="330" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="260" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">AND</text>
+  <line x1="120" y1="390" x2="410" y2="390" stroke="#222222" stroke-width="1.5"/>
+  <line x1="120" y1="390" x2="120" y2="140" stroke="#222222" stroke-width="1.5"/>
+  <text x="140" y="412" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="360" y="412" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <text x="106" y="385" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="106" y="165" text-anchor="end" font-size="14" fill="#111111">1</text>
+  <circle cx="160" cy="370" r="11" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <circle cx="360" cy="370" r="11" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <circle cx="160" cy="170" r="11" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <rect x="349" y="159" width="22" height="22" fill="#111111"/>
+  <line x1="230" y1="140" x2="420" y2="320" stroke="#1E5E24" stroke-width="4"/>
+  <rect x="250" y="250" width="150" height="26" fill="#FFFFFF" stroke="#1E5E24" stroke-width="1"/>
+  <text x="325" y="268" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">one line works</text>
+
+  <!-- right panel -->
+  <rect x="520" y="100" width="360" height="330" fill="#FAFAFA" stroke="#555555" stroke-width="1.5"/>
+  <text x="700" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Exclusive-or (XOR)</text>
+  <line x1="560" y1="390" x2="850" y2="390" stroke="#222222" stroke-width="1.5"/>
+  <line x1="560" y1="390" x2="560" y2="140" stroke="#222222" stroke-width="1.5"/>
+  <text x="600" y="412" text-anchor="middle" font-size="14" fill="#111111">0</text>
+  <text x="800" y="412" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <text x="546" y="375" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="546" y="175" text-anchor="end" font-size="14" fill="#111111">1</text>
+  <circle cx="600" cy="370" r="11" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <circle cx="800" cy="170" r="11" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <rect x="589" y="159" width="22" height="22" fill="#111111"/>
+  <rect x="789" y="359" width="22" height="22" fill="#111111"/>
+  <line x1="580" y1="300" x2="870" y2="230" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <line x1="680" y1="140" x2="740" y2="420" stroke="#8B0000" stroke-width="3" stroke-dasharray="3 3"/>
+  <rect x="600" y="276" width="140" height="24" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  <text x="670" y="293" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">every line fails</text>
+
+  <!-- captions -->
+  <text x="260" y="458" text-anchor="middle" font-size="15" fill="#111111">True only when both inputs are 1.</text>
+  <text x="700" y="458" text-anchor="middle" font-size="15" fill="#111111">True when exactly one input is 1.</text>
+  <rect x="150" y="478" width="660" height="34" fill="#FFFFFF" stroke="#222222" stroke-width="1"/>
+  <text x="480" y="500" text-anchor="middle" font-size="15" fill="#111111">A network with a hidden layer can combine two lines and so learn XOR.</text>
+  <text x="480" y="540" text-anchor="middle" font-size="13" fill="#333333">Inputs are two binary values; each panel shows all four possible combinations.</text>
+</svg>

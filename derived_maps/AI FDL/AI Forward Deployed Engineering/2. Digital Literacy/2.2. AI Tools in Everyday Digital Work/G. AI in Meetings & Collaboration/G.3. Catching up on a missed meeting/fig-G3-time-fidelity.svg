@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="100%" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<title>Catch-up options by time and fidelity</title>
+<desc>Schematic plot of catch-up options: recap, question answering, chapters, transcript, recording and asking an attendee, by time cost and fidelity.</desc>
+<defs>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/></pattern>
+<pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/></pattern>
+<pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/></pattern>
+<pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#222222"/></marker>
+</defs>
+<text x="480" y="40" font-size="22" text-anchor="middle" font-weight="bold" fill="#111111">Catch-up options: time against fidelity</text>
+<rect x="150" y="80" width="760" height="380" rx="0" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<line x1="340.0" y1="80" x2="340.0" y2="460" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="175.0" x2="910" y2="175.0" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="530.0" y1="80" x2="530.0" y2="460" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="270.0" x2="910" y2="270.0" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="720.0" y1="80" x2="720.0" y2="460" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="365.0" x2="910" y2="365.0" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="2 4"/>
+<line x1="150" y1="478" x2="910" y2="478" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="530.0" y="508" font-size="16" text-anchor="middle" font-weight="bold" fill="#111111">Time cost to the reader</text>
+<text x="150" y="508" font-size="14" text-anchor="start" font-weight="normal" fill="#111111">Low</text>
+<text x="910" y="508" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">High</text>
+<line x1="132" y1="460" x2="132" y2="80" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="80" y="270.0" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111" transform="rotate(-90 80 270.0)">Fidelity to the meeting</text>
+<text x="118" y="460" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">Low</text>
+<text x="118" y="94" font-size="14" text-anchor="end" font-weight="normal" fill="#111111">High</text>
+<circle cx="195.6" cy="391.6" r="8" fill="#111111"/>
+<rect x="207.6" y="379.6" width="86.0" height="25" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="213.6" y="396.6" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">AI recap</text>
+<circle cx="271.6" cy="300.40000000000003" r="8" fill="#111111"/>
+<rect x="283.6" y="288.40000000000003" width="140.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="289.6" y="305.40000000000003" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Questions with</text>
+<text x="289.6" y="324.40000000000003" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">timestamps</text>
+<circle cx="393.20000000000005" cy="250.99999999999997" r="8" fill="#111111"/>
+<rect x="405.20000000000005" y="238.99999999999997" width="122.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="411.20000000000005" y="255.99999999999997" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Chapters and</text>
+<text x="411.20000000000005" y="275.0" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">key passages</text>
+<circle cx="590.8" cy="201.59999999999997" r="8" fill="#111111"/>
+<rect x="602.8" y="189.59999999999997" width="149.0" height="25" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="608.8" y="206.59999999999997" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Full transcript</text>
+<circle cx="849.2" cy="110.39999999999998" r="8" fill="#111111"/>
+<rect x="691.2" y="98.39999999999998" width="140.0" height="25" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="831.2" y="115.39999999999998" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Full recording</text>
+<circle cx="682.0" cy="125.6" r="8" fill="#111111"/>
+<rect x="497.0" y="113.6" width="167.0" height="25" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="664.0" y="130.6" font-size="15" text-anchor="end" font-weight="bold" fill="#111111">Recording at 1.5x</text>
+<circle cx="256.4" cy="186.4" r="8" fill="#111111"/>
+<rect x="268.4" y="174.4" width="167.0" height="44" fill="#FFFFFF" stroke="#666666" stroke-width="1" rx="3"/>
+<text x="274.4" y="191.4" font-size="15" text-anchor="start" font-weight="bold" fill="#111111">Ask an attendee</text>
+<text x="274.4" y="210.4" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">(adds their bias)</text>
+<text x="40" y="562" font-size="13" text-anchor="start" font-weight="normal" fill="#333333" font-style="italic">Schematic; positions are approximate and not plotted from a single dataset.</text>
+</svg>

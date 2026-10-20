@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The crossover test of the matching hypothesis</title>
+  <desc>Left panel: the pattern the matching hypothesis requires. Visual-style learners score higher with visual instruction and verbal-style learners score higher with verbal instruction, so the two lines cross. Right panel: the pattern careful studies usually find. Both groups score higher with the method that suits the content, so the lines run parallel and do not cross.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#111111">The crossover test</text>
+
+  <!-- Left panel -->
+  <rect x="30" y="56" width="420" height="390" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="240" y="86" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">What matching predicts</text>
+  <text x="240" y="108" text-anchor="middle" font-size="15" fill="#111111">the lines must cross</text>
+  <line x1="90" y1="390" x2="330" y2="390" stroke="#222222" stroke-width="2.5"/>
+  <line x1="90" y1="390" x2="90" y2="130" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="62" y="262" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 62 262)">Score on the same test</text>
+  <text x="130" y="412" text-anchor="middle" font-size="14" fill="#111111">Visual</text>
+  <text x="130" y="430" text-anchor="middle" font-size="14" fill="#111111">instruction</text>
+  <text x="290" y="412" text-anchor="middle" font-size="14" fill="#111111">Verbal</text>
+  <text x="290" y="430" text-anchor="middle" font-size="14" fill="#111111">instruction</text>
+  <line x1="130" y1="170" x2="290" y2="350" stroke="#1F3B5C" stroke-width="4"/>
+  <line x1="130" y1="350" x2="290" y2="170" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <circle cx="130" cy="170" r="7" fill="#1F3B5C"/>
+  <circle cx="290" cy="350" r="7" fill="#1F3B5C"/>
+  <rect x="123" y="343" width="14" height="14" fill="#FFFFFF" stroke="#7A5200" stroke-width="3"/>
+  <rect x="283" y="163" width="14" height="14" fill="#FFFFFF" stroke="#7A5200" stroke-width="3"/>
+  <text x="304" y="344" font-size="14" font-weight="bold" fill="#111111">Visual-style</text>
+  <text x="304" y="361" font-size="14" font-weight="bold" fill="#111111">learners</text>
+  <text x="304" y="168" font-size="14" font-weight="bold" fill="#111111">Verbal-style</text>
+  <text x="304" y="185" font-size="14" font-weight="bold" fill="#111111">learners</text>
+
+  <!-- Right panel -->
+  <rect x="500" y="56" width="430" height="390" fill="#FFFFFF" stroke="#555555" stroke-width="1.5"/>
+  <text x="715" y="86" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">What careful tests usually find</text>
+  <text x="715" y="108" text-anchor="middle" font-size="15" fill="#111111">one method is better for everyone</text>
+  <line x1="560" y1="390" x2="800" y2="390" stroke="#222222" stroke-width="2.5"/>
+  <line x1="560" y1="390" x2="560" y2="130" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="532" y="262" text-anchor="middle" font-size="15" fill="#111111" transform="rotate(-90 532 262)">Score on the same test</text>
+  <text x="600" y="412" text-anchor="middle" font-size="14" fill="#111111">Visual</text>
+  <text x="600" y="430" text-anchor="middle" font-size="14" fill="#111111">instruction</text>
+  <text x="760" y="412" text-anchor="middle" font-size="14" fill="#111111">Verbal</text>
+  <text x="760" y="430" text-anchor="middle" font-size="14" fill="#111111">instruction</text>
+  <line x1="600" y1="160" x2="760" y2="290" stroke="#1F3B5C" stroke-width="4"/>
+  <line x1="600" y1="205" x2="760" y2="335" stroke="#7A5200" stroke-width="4" stroke-dasharray="10 6"/>
+  <circle cx="600" cy="160" r="7" fill="#1F3B5C"/>
+  <circle cx="760" cy="290" r="7" fill="#1F3B5C"/>
+  <rect x="593" y="198" width="14" height="14" fill="#FFFFFF" stroke="#7A5200" stroke-width="3"/>
+  <rect x="753" y="328" width="14" height="14" fill="#FFFFFF" stroke="#7A5200" stroke-width="3"/>
+  <text x="774" y="284" font-size="14" font-weight="bold" fill="#111111">Visual-style</text>
+  <text x="774" y="301" font-size="14" font-weight="bold" fill="#111111">learners</text>
+  <text x="774" y="334" font-size="14" font-weight="bold" fill="#111111">Verbal-style</text>
+  <text x="774" y="351" font-size="14" font-weight="bold" fill="#111111">learners</text>
+  <text x="618" y="142" font-size="14" fill="#111111">e.g. the content is a map</text>
+
+  <!-- Bottom message -->
+  <rect x="30" y="462" width="900" height="62" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="488" text-anchor="middle" font-size="16" fill="#111111">Only a crossover supports matching. Parallel lines mean the method suits the</text>
+  <text x="480" y="510" text-anchor="middle" font-size="16" fill="#111111">content for every learner, whatever their stated style.</text>
+  <text x="480" y="548" text-anchor="middle" font-size="13" fill="#333333">Schematic; not plotted from a single dataset.</text>
+</svg>

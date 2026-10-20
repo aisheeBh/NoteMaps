@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 516" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Annual licence cost for a 50-person team</title>
+  <desc>Horizontal bars: free tools 0 dollars; reimbursed individual plans 12,000 dollars; business plan 15,000 dollars; suite-embedded assistant 18,000 dollars; compared with a cautious value estimate of 82,800 dollars.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" text-anchor="middle" font-size="23" font-weight="bold" fill="#111111">Annual licence cost for a 50-person team</text>
+  <text x="480" y="66" text-anchor="middle" font-size="15" font-style="italic" fill="#111111">Illustrative 2026 list prices; value assumes 1 hour a week saved and 60% adoption</text>
+  <text x="326" y="120" text-anchor="end" font-size="14.5" fill="#111111">A. Free tools (consumer terms)</text>
+  <rect x="340" y="96" width="3" height="38" rx="2" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="350" y="120" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">$0, but data risk</text>
+  <text x="326" y="182" text-anchor="end" font-size="14.5" fill="#111111">B. Reimbursed individual plans</text>
+  <rect x="340" y="158" width="67" height="38" rx="2" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="417" y="182" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">$12,000</text>
+  <text x="326" y="244" text-anchor="end" font-size="14.5" fill="#111111">C. Business plan</text>
+  <rect x="340" y="220" width="84" height="38" rx="2" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="434" y="244" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">$15,000</text>
+  <text x="326" y="306" text-anchor="end" font-size="14.5" fill="#111111">D. Suite-embedded assistant</text>
+  <rect x="340" y="282" width="101" height="38" rx="2" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="451" y="306" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">$18,000</text>
+  <text x="326" y="368" text-anchor="end" font-size="14.5" fill="#111111">Cautious annual value estimate</text>
+  <rect x="340" y="344" width="464" height="38" rx="2" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="814" y="368" text-anchor="start" font-size="14.5" font-weight="bold" fill="#111111">$82,800</text>
+  <line x1="340" y1="86" x2="340" y2="406" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="406" x2="900" y2="406" stroke="#222222" stroke-width="2"/>
+  <line x1="340" y1="406" x2="340" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="340" y="428" text-anchor="middle" font-size="13.5" fill="#111111">0k</text>
+  <line x1="480" y1="406" x2="480" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="480" y="428" text-anchor="middle" font-size="13.5" fill="#111111">25k</text>
+  <line x1="620" y1="406" x2="620" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="620" y="428" text-anchor="middle" font-size="13.5" fill="#111111">50k</text>
+  <line x1="760" y1="406" x2="760" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="760" y="428" text-anchor="middle" font-size="13.5" fill="#111111">75k</text>
+  <line x1="900" y1="406" x2="900" y2="412" stroke="#222222" stroke-width="1.5"/>
+  <text x="900" y="428" text-anchor="middle" font-size="13.5" fill="#111111">100k</text>
+  <text x="620" y="454" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Thousands of US dollars per year</text>
+  <text x="480" y="500" text-anchor="middle" font-size="13" font-style="italic" fill="#111111">Licence fees are usually the smallest part of the decision.</text>
+</svg>

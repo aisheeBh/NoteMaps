@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Anatomy of a URL</title>
+  <desc>The URL https://reports.example.com:443/finance/2026/q2-results.pdf?lang=en&amp;format=print#page=4 split into labelled parts: scheme, host and port forming the authority, path, query and fragment, with a note that the fragment is not sent to the server.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+
+  <text x="480.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The parts of a URL</text>
+  <rect x="30" y="150" width="70" height="50" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="65.0" y="181" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">https</text>
+  <text x="114" y="181" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">://</text>
+  <rect x="128" y="150" width="190" height="50" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="146.8" y="163" width="152.4" height="24" fill="#FFFFFF"/>
+  <text x="223.0" y="181" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">reports.example.com</text>
+  <rect x="318" y="150" width="55" height="50" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="345.5" y="181" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">:443</text>
+  <rect x="373" y="150" width="250" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="498.0" y="181" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">/finance/2026/q2-results.pdf</text>
+  <rect x="623" y="150" width="200" height="50" fill="url(#dots)" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="639.2" y="163" width="167.6" height="24" fill="#FFFFFF"/>
+  <text x="723.0" y="181" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">?lang=en&amp;format=print</text>
+  <rect x="823" y="150" width="85" height="50" fill="url(#cross)" stroke="#1E5E24" stroke-width="2.5"/>
+  <rect x="834.9" y="163" width="61.199999999999996" height="24" fill="#FFFFFF"/>
+  <text x="865.5" y="181" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">#page=4</text>
+  <line x1="65.0" y1="202" x2="65.0" y2="240" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="65.0" y="260" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Scheme</text>
+  <text x="65.0" y="280" text-anchor="middle" font-size="14" fill="#111111">how to fetch</text>
+  <line x1="223.0" y1="202" x2="223.0" y2="310" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="223.0" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Host</text>
+  <text x="223.0" y="350" text-anchor="middle" font-size="14" fill="#111111">who holds it</text>
+  <line x1="345.5" y1="202" x2="345.5" y2="240" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="345.5" y="260" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Port</text>
+  <text x="345.5" y="280" text-anchor="middle" font-size="14" fill="#111111">usually implied</text>
+  <line x1="498.0" y1="202" x2="498.0" y2="310" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="498.0" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Path</text>
+  <text x="498.0" y="350" text-anchor="middle" font-size="14" fill="#111111">where on the host</text>
+  <line x1="723.0" y1="202" x2="723.0" y2="240" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="723.0" y="260" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Query</text>
+  <text x="723.0" y="280" text-anchor="middle" font-size="14" fill="#111111">parameters for the server</text>
+  <line x1="865.5" y1="202" x2="865.5" y2="310" stroke="#222222" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="865.5" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Fragment</text>
+  <text x="865.5" y="350" text-anchor="middle" font-size="14" fill="#111111">not sent to server</text>
+  <path d="M128 140 L128 126 L373 126 L373 140" fill="none" stroke="#222222" stroke-width="2"/>
+  <text x="250.5" y="116" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">authority = host + port</text>
+  <text x="480.0" y="470" text-anchor="middle" font-size="13" fill="#333333">Example: https://reports.example.com:443/finance/2026/q2-results.pdf?lang=en&amp;format=print#page=4</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Layers of governance for AI in spreadsheets and data tools</title>
+  <desc>Five nested layers from outside in: organisation policy and AI use rules; tools and access, including approved tools, add-in control and permission hygiene; data protection, including sensitivity labels and data loss prevention; workbook controls, including inventory, change control, saved methods and no live AI formulas in reporting; and at the centre, the person verifying: specify, test, reconcile and sign.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480.0" y="38" text-anchor="middle" font-size="23" fill="#111111" font-weight="bold">Governance layers around AI-assisted spreadsheet work</text>
+  <rect x="40" y="70" width="880" height="480" rx="6" fill="#E6E6E6" stroke="#666666" stroke-width="1" stroke-dasharray="2 4"/>
+  <rect x="180" y="78" width="600" height="26" fill="#FFFFFF"/>
+  <text x="480" y="97" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Policy: AI use rules, risk tiers, disclosure</text>
+  <rect x="86" y="116" width="788" height="388" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="180" y="124" width="600" height="26" fill="#FFFFFF"/>
+  <text x="480" y="143" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Tools and access: approved tools, add-in control, permission hygiene</text>
+  <rect x="132" y="162" width="696" height="296" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="180" y="170" width="600" height="26" fill="#FFFFFF"/>
+  <text x="480" y="189" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Data protection: classification, sensitivity labels, DLP</text>
+  <rect x="178" y="208" width="604" height="204" rx="6" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="180" y="216" width="600" height="26" fill="#FFFFFF"/>
+  <text x="480" y="235" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Workbook controls: inventory, change control, saved methods, frozen AI outputs</text>
+  <rect x="260" y="270" width="440" height="120" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="327" text-anchor="middle" font-size="18" fill="#FFFFFF" font-weight="bold">The person verifying</text>
+  <text x="480" y="347" text-anchor="middle" font-size="15" fill="#FFFFFF">specify, ask for a method, test, reconcile, sign</text>
+  <text x="480.0" y="585" text-anchor="middle" font-size="13" fill="#333333">Schematic; controls scale with the risk tier of the workbook.</text>
+</svg>

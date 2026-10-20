@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Typical life cycle of a new job title</title>
+  <desc>Schematic chart with time on the horizontal axis. A solid line shows demand for the dedicated job title, rising through emergence and specialisation, peaking, and falling during absorption. A dashed line shows the number of people using the underlying skill, rising steadily throughout. Four phases are marked: emergence, specialisation, standardisation, absorption or establishment.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+    <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#D3ECD3"/><path d="M0 5H10M5 0V10" stroke="#1E5E24" stroke-width="1"/>
+    </pattern>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <text x="480" y="40" font-size="22" text-anchor="middle" fill="#111111" font-weight="bold">Titles rise and fall; the underlying skill keeps spreading</text>
+  <line x1="120" y1="450" x2="900" y2="450" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="70" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="510" y="490" font-size="15" text-anchor="middle" fill="#111111">Time since the technology appears →</text>
+  <text x="90" y="265" font-size="15" text-anchor="middle" fill="#111111" transform="rotate(-90 90 265)">Demand →</text>
+  <line x1="292" y1="90" x2="292" y2="450" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="206" y="105" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Emergence</text>
+  <line x1="494" y1="90" x2="494" y2="450" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="393" y="105" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Specialisation</text>
+  <line x1="682" y1="90" x2="682" y2="450" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="588" y="105" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Standardisation</text>
+  <line x1="900" y1="90" x2="900" y2="450" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="791" y="105" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Absorption or establishment</text>
+  <path d="M120.0 438.9 L213.6 420.4 L315.0 339.0 L416.4 220.6 L494.4 183.6 L572.4 220.6 L681.6 309.4 L790.8 357.5 L900.0 376.0" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <rect x="506" y="145" width="166" height="25" fill="#FFFFFF" stroke="none"/>
+  <text x="510" y="161" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Dedicated job title</text>
+  <path d="M120.0 442.6 L276.0 420.4 L432.0 357.5 L588.0 265.0 L744.0 183.6 L900.0 135.5" fill="none" stroke="#111111" stroke-width="3.5" stroke-dasharray="10 6"/>
+  <rect x="662" y="219" width="231" height="44" fill="#FFFFFF" stroke="none"/>
+  <text x="666" y="235" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">People using the underlying</text>
+  <text x="666" y="254" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">skill</text>
+  <text x="480" y="524" font-size="13" text-anchor="middle" fill="#333333">Schematic; not plotted from a single dataset. Some titles become established occupations instead of being absorbed.</text>
+</svg>
