@@ -14,6 +14,7 @@ Rules:
 - The order is a strict learning path from absolute novice to expert for the purpose above.
 - If the map needs a node that the main map does not have, add it to the MAIN map first (source_json/Professional_Career_Development.json, via a new scripts/apply_NN_*.py file modelled on apply_05), but only where it genuinely belongs and never redundantly or in a way that clogs the main map. Tell me about each such node before adding it.
 - Do not write any note content. Folders and empty notes only.
+- The derived map lives on its own git branch, never on main: create branch derived/<map-slug> from main, and keep derived_maps/<Map Name>/ on that branch only. The JSON (source_json/<Map_Name>.json) and any new main-map nodes follow the normal rules for the branch they are committed on. Main must never get a derived_maps/ folder.
 - Ask me questions before you start rather than assume. Give me a short brief of your understanding and the proposed outline (steps, which main-map nodes go in each, and any nodes to be added to main) and wait for my approval before generating anything.
 
 After I approve:
@@ -21,7 +22,7 @@ After I approve:
 2. Write scripts/derive_<map_slug>.py (modelled on derive_gen_ai_and_llms.py) that generates source_json/<Map_Name>.json.
 3. Create the branch derived/<map-slug> and a separate git worktree for it at C:\abh_pers_od_tfr\NoteMaps\NoteMaps-derived-<map-slug>, so the main checkout is never switched.
 4. In that worktree run: git merge main, then python scripts/sync_derived_map.py source_json/<Map_Name>.json "derived_maps/<Map Name>", and confirm it prints IDENTICAL TO MAIN MAP.
-5. Commit locally. Do not push until I say so.
+5. Commit locally on the derived branch. Do not push until I say so. (When I do, the new branch is pushed to GitHub with git push -u origin derived/<map-slug>; prompt 11 covers it. Any new nodes added to main are committed on main and pushed separately.)
 
 Report: the number of nodes, the number that already have content, the nodes added to main (if any), and the commands to continue.
 ```
