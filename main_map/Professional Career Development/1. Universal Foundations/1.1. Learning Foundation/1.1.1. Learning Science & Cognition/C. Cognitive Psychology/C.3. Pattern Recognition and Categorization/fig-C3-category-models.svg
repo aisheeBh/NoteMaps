@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <clipPath id="clip1"><rect x="0" y="0" width="260" height="240"/></clipPath>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three accounts of the same two categories</title>
+  <desc>Three panels show one set of category A items (filled circles) and category B items (open squares) in a two-dimensional feature space. Left: a rule account draws one boundary. Middle: a prototype account compares each new item with two category centres (diamonds). Right: an exemplar account retrieves stored items near a probe (cross), shown inside a dashed ring. Schematic; illustrative positions.</desc>
+
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Three accounts of the same two categories</text>
+
+  <!-- Panel 1: rule -->
+  <g transform="translate(40,130)">
+    <rect x="0" y="0" width="260" height="240" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <line x1="130" y1="0" x2="130" y2="240" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="10 6"/>
+    <g fill="#1F3B5C">
+      <circle cx="60" cy="60" r="6"/><circle cx="80" cy="90" r="6"/><circle cx="50" cy="120" r="6"/><circle cx="95" cy="50" r="6"/>
+      <circle cx="110" cy="100" r="6"/><circle cx="70" cy="150" r="6"/><circle cx="120" cy="130" r="6"/><circle cx="40" cy="95" r="6"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#111111" stroke-width="2">
+      <rect x="184" y="64" width="12" height="12"/><rect x="204" y="104" width="12" height="12"/><rect x="174" y="144" width="12" height="12"/>
+      <rect x="224" y="134" width="12" height="12"/><rect x="194" y="184" width="12" height="12"/><rect x="164" y="194" width="12" height="12"/>
+      <rect x="219" y="54" width="12" height="12"/><rect x="144" y="104" width="12" height="12"/>
+    </g>
+  </g>
+  <text x="170" y="402" text-anchor="middle" font-size="17" font-weight="700" fill="#111111">Rule</text>
+  <text x="170" y="424" text-anchor="middle" font-size="15" fill="#111111">one boundary, clear conditions</text>
+
+  <!-- Panel 2: prototype -->
+  <g transform="translate(350,130)">
+    <rect x="0" y="0" width="260" height="240" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <g clip-path="url(#clip1)">
+      <line x1="172.75" y1="-31.5" x2="99.25" y2="259.5" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="10 6"/>
+    </g>
+    <g fill="#1F3B5C">
+      <circle cx="60" cy="60" r="6"/><circle cx="80" cy="90" r="6"/><circle cx="50" cy="120" r="6"/><circle cx="95" cy="50" r="6"/>
+      <circle cx="110" cy="100" r="6"/><circle cx="70" cy="150" r="6"/><circle cx="120" cy="130" r="6"/><circle cx="40" cy="95" r="6"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#111111" stroke-width="2">
+      <rect x="184" y="64" width="12" height="12"/><rect x="204" y="104" width="12" height="12"/><rect x="174" y="144" width="12" height="12"/>
+      <rect x="224" y="134" width="12" height="12"/><rect x="194" y="184" width="12" height="12"/><rect x="164" y="194" width="12" height="12"/>
+      <rect x="219" y="54" width="12" height="12"/><rect x="144" y="104" width="12" height="12"/>
+    </g>
+    <polygon points="78,89 88,99 78,109 68,99" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+    <polygon points="194,119 204,129 194,139 184,129" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  </g>
+  <text x="480" y="402" text-anchor="middle" font-size="17" font-weight="700" fill="#111111">Prototype</text>
+  <text x="480" y="424" text-anchor="middle" font-size="15" fill="#111111">nearest category centre</text>
+
+  <!-- Panel 3: exemplar -->
+  <g transform="translate(660,130)">
+    <rect x="0" y="0" width="260" height="240" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+    <circle cx="125" cy="120" r="60" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="4 4"/>
+    <g fill="#1F3B5C">
+      <circle cx="60" cy="60" r="6"/><circle cx="80" cy="90" r="6"/><circle cx="50" cy="120" r="6"/><circle cx="95" cy="50" r="6"/>
+      <circle cx="110" cy="100" r="6"/><circle cx="70" cy="150" r="6"/><circle cx="120" cy="130" r="6"/><circle cx="40" cy="95" r="6"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#111111" stroke-width="2">
+      <rect x="184" y="64" width="12" height="12"/><rect x="204" y="104" width="12" height="12"/><rect x="174" y="144" width="12" height="12"/>
+      <rect x="224" y="134" width="12" height="12"/><rect x="194" y="184" width="12" height="12"/><rect x="164" y="194" width="12" height="12"/>
+      <rect x="219" y="54" width="12" height="12"/><rect x="144" y="104" width="12" height="12"/>
+    </g>
+    <line x1="117" y1="112" x2="133" y2="128" stroke="#000000" stroke-width="3"/>
+    <line x1="133" y1="112" x2="117" y2="128" stroke="#000000" stroke-width="3"/>
+  </g>
+  <text x="790" y="402" text-anchor="middle" font-size="17" font-weight="700" fill="#111111">Exemplar</text>
+  <text x="790" y="424" text-anchor="middle" font-size="15" fill="#111111">similar stored cases</text>
+
+  <text x="40" y="470" font-size="15" fill="#111111">Filled circles: category A. Open squares: category B. Cross: new item. Dashed ring: stored items similar to it.</text>
+  <text x="40" y="500" font-size="14" fill="#111111">Schematic; illustrative positions in a two-feature space, not measured data.</text>
+</svg>

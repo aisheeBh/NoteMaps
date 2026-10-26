@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Decision weights compared with stated probabilities</title>
+  <desc>Schematic weighting curve. Small stated probabilities receive more decision weight than their value, while moderate and high probabilities receive less. The dashed diagonal shows the case with no distortion.</desc>
+
+  <text x="480" y="60" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">How stated probabilities map onto decision weights</text>
+
+  <!-- axes -->
+  <line x1="120" y1="470" x2="860" y2="470" stroke="#333333" stroke-width="1.5"/>
+  <line x1="120" y1="110" x2="120" y2="470" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- tick labels -->
+  <text x="120" y="492" text-anchor="middle" font-size="15" fill="#111111">0</text>
+  <text x="480" y="492" text-anchor="middle" font-size="15" fill="#111111">0.5</text>
+  <text x="840" y="492" text-anchor="middle" font-size="15" fill="#111111">1</text>
+  <text x="104" y="475" text-anchor="end" font-size="15" fill="#111111">0</text>
+  <text x="104" y="305" text-anchor="end" font-size="15" fill="#111111">0.5</text>
+  <text x="104" y="135" text-anchor="end" font-size="15" fill="#111111">1</text>
+
+  <!-- axis titles -->
+  <text x="480" y="515" text-anchor="middle" font-size="16" fill="#111111">Stated probability</text>
+  <text x="128" y="104" font-size="16" fill="#111111">Decision weight</text>
+
+  <!-- no-distortion diagonal -->
+  <line x1="120" y1="470" x2="840" y2="130" stroke="#333333" stroke-width="2" stroke-dasharray="10 6"/>
+
+  <!-- weighting curve -->
+  <polyline points="120,470 156,426 192,402 336,351 480,327 624,283 768,205 840,130" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+
+  <!-- legend with line samples -->
+  <line x1="140" y1="150" x2="180" y2="150" stroke="#333333" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="192" y="155" font-size="15" fill="#111111">Stated probability (no distortion)</text>
+  <line x1="140" y1="184" x2="180" y2="184" stroke="#1F3B5C" stroke-width="4"/>
+  <text x="192" y="189" font-size="15" fill="#111111">Decision weight (schematic)</text>
+
+  <!-- annotations in the empty lower-right area -->
+  <text x="400" y="400" font-size="16" font-weight="700" fill="#111111">Near zero: small probabilities gain weight</text>
+  <text x="400" y="428" font-size="16" font-weight="700" fill="#111111">Middle and high: probabilities lose weight</text>
+
+  <text x="48" y="530" font-size="13" fill="#111111">Schematic; not plotted from a single dataset. Shape follows the weighting function in prospect theory.</text>
+</svg>

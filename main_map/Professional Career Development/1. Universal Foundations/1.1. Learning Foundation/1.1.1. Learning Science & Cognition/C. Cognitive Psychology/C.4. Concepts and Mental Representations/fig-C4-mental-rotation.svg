@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Time to judge a match grows with the angle of rotation</title>
+  <desc>Schematic line chart. Time to decide whether two views show the same object rises in a straight line as the angular difference between them grows from zero to one hundred and eighty degrees. Schematic; not plotted from a single dataset.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Judging a match takes longer the more an object must be turned</text>
+
+  <!-- axes -->
+  <line x1="130" y1="460" x2="830" y2="460" stroke="#222222" stroke-width="2"/>
+  <line x1="130" y1="120" x2="130" y2="460" stroke="#222222" stroke-width="2"/>
+
+  <!-- y ticks -->
+  <line x1="122" y1="375" x2="130" y2="375" stroke="#222222" stroke-width="2"/>
+  <line x1="122" y1="205" x2="130" y2="205" stroke="#222222" stroke-width="2"/>
+  <text x="112" y="381" text-anchor="end" font-size="15" fill="#111111">900</text>
+  <text x="112" y="211" text-anchor="end" font-size="15" fill="#111111">1500</text>
+
+  <!-- x ticks -->
+  <line x1="130" y1="460" x2="130" y2="468" stroke="#222222" stroke-width="2"/>
+  <line x1="363" y1="460" x2="363" y2="468" stroke="#222222" stroke-width="2"/>
+  <line x1="597" y1="460" x2="597" y2="468" stroke="#222222" stroke-width="2"/>
+  <line x1="830" y1="460" x2="830" y2="468" stroke="#222222" stroke-width="2"/>
+  <g font-size="16" fill="#111111" text-anchor="middle">
+    <text x="130" y="490">0°</text>
+    <text x="363" y="490">60°</text>
+    <text x="597" y="490">120°</text>
+    <text x="830" y="490">180°</text>
+  </g>
+  <text x="480" y="512" text-anchor="middle" font-size="16" fill="#111111">Angular difference between the two views</text>
+  <text transform="rotate(-90)" x="-290" y="70" text-anchor="middle" font-size="16" fill="#111111">Time to decide (ms, schematic)</text>
+
+  <!-- line -->
+  <polyline points="130,375 246.7,345.3 363.3,315.5 480,285.7 596.7,256 713.3,226.2 830,196.5" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <g fill="#1F3B5C">
+    <circle cx="130" cy="375" r="5"/><circle cx="246.7" cy="345.3" r="5"/><circle cx="363.3" cy="315.5" r="5"/>
+    <circle cx="480" cy="285.7" r="5"/><circle cx="596.7" cy="256" r="5"/><circle cx="713.3" cy="226.2" r="5"/><circle cx="830" cy="196.5" r="5"/>
+  </g>
+  <text x="560" y="322" font-size="17" font-weight="700" fill="#1F3B5C">Same object, rotated</text>
+
+  <text x="40" y="532" font-size="14" fill="#111111">Schematic; not plotted from a single dataset. Response time rose in proportion to the angle in the original analysis.</text>
+</svg>

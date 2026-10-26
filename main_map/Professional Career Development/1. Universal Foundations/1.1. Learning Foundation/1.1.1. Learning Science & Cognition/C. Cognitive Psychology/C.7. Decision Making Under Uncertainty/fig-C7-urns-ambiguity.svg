@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two urns in the classic ambiguity problem</title>
+  <desc>Left urn holds five red and five black balls, so the chance of each colour is known. Right urn holds red and black balls in an unknown mixture, shown as balls with question marks. Most people prefer to bet on the left urn whichever colour they choose.</desc>
+
+  <text x="480" y="60" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Two urns: known odds and unknown odds</text>
+
+  <!-- left urn: known mix -->
+  <text x="250" y="118" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Known proportions</text>
+  <rect x="80" y="130" width="340" height="300" rx="12" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+
+  <!-- row 1: R R R B B -->
+  <circle cx="130" cy="220" r="24" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="130" y="227" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">R</text>
+  <circle cx="190" cy="220" r="24" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="190" y="227" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">R</text>
+  <circle cx="250" cy="220" r="24" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="250" y="227" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">R</text>
+  <circle cx="310" cy="220" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="310" y="227" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">B</text>
+  <circle cx="370" cy="220" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="370" y="227" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">B</text>
+
+  <!-- row 2: R R B B B -->
+  <circle cx="130" cy="330" r="24" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="130" y="337" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">R</text>
+  <circle cx="190" cy="330" r="24" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="190" y="337" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">R</text>
+  <circle cx="250" cy="330" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="250" y="337" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">B</text>
+  <circle cx="310" cy="330" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="310" y="337" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">B</text>
+  <circle cx="370" cy="330" r="24" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <text x="370" y="337" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">B</text>
+
+  <text x="250" y="466" text-anchor="middle" font-size="17" fill="#111111">Five red and five black balls</text>
+
+  <!-- versus -->
+  <text x="480" y="300" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">versus</text>
+
+  <!-- right urn: unknown mix -->
+  <text x="710" y="118" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Unknown proportions</text>
+  <rect x="540" y="130" width="340" height="300" rx="12" fill="#F2F2F2" stroke="#222222" stroke-width="2" stroke-dasharray="8 5"/>
+
+  <circle cx="590" cy="220" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="590" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="650" cy="220" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="650" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="710" cy="220" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="710" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="770" cy="220" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="770" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="830" cy="220" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="830" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+
+  <circle cx="590" cy="330" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="590" y="338" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="650" cy="330" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="650" y="338" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="710" cy="330" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="710" y="338" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="770" cy="330" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="770" y="338" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+  <circle cx="830" cy="330" r="24" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="830" y="338" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">?</text>
+
+  <text x="710" y="466" text-anchor="middle" font-size="17" fill="#111111">Red and black in an unknown mix</text>
+
+  <text x="480" y="508" text-anchor="middle" font-size="17" font-weight="700" fill="#111111">Most people bet on the known urn, whichever colour they choose.</text>
+  <text x="48" y="530" font-size="13" fill="#111111">Schematic. The unknown mix is drawn with question marks because its proportions are not stated.</text>
+</svg>

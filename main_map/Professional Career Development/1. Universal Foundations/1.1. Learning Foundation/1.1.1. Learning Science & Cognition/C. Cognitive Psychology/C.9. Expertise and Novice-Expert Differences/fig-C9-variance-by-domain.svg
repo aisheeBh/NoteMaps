@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Share of performance variance associated with practice, by domain</title>
+  <desc>Horizontal bars for five domains: games about 26 percent, music 21 percent, sports 18 percent, education 4 percent, and professions under 1 percent of performance variance associated with accumulated practice.</desc>
+
+  <text x="480" y="60" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Performance variance associated with practice</text>
+  <text x="480" y="90" text-anchor="middle" font-size="16" fill="#111111">Share of variance explained, by domain</text>
+
+  <!-- axis -->
+  <line x1="300" y1="120" x2="300" y2="455" stroke="#333333" stroke-width="1.5"/>
+  <line x1="300" y1="455" x2="640" y2="455" stroke="#333333" stroke-width="1.5"/>
+  <line x1="300" y1="455" x2="300" y2="462" stroke="#333333" stroke-width="1.5"/>
+  <line x1="410" y1="455" x2="410" y2="462" stroke="#333333" stroke-width="1.5"/>
+  <line x1="520" y1="455" x2="520" y2="462" stroke="#333333" stroke-width="1.5"/>
+  <line x1="630" y1="455" x2="630" y2="462" stroke="#333333" stroke-width="1.5"/>
+  <text x="300" y="482" text-anchor="middle" font-size="15" fill="#111111">0%</text>
+  <text x="410" y="482" text-anchor="middle" font-size="15" fill="#111111">10%</text>
+  <text x="520" y="482" text-anchor="middle" font-size="15" fill="#111111">20%</text>
+  <text x="630" y="482" text-anchor="middle" font-size="15" fill="#111111">30%</text>
+
+  <!-- Games 26% -->
+  <text x="280" y="158" text-anchor="end" font-size="17" font-weight="700" fill="#111111">Games</text>
+  <rect x="300" y="132" width="286" height="40" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="598" y="158" font-size="17" font-weight="700" fill="#111111">26%</text>
+
+  <!-- Music 21% -->
+  <text x="280" y="228" text-anchor="end" font-size="17" font-weight="700" fill="#111111">Music</text>
+  <rect x="300" y="202" width="231" height="40" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="543" y="228" font-size="17" font-weight="700" fill="#111111">21%</text>
+
+  <!-- Sports 18% -->
+  <text x="280" y="298" text-anchor="end" font-size="17" font-weight="700" fill="#111111">Sports</text>
+  <rect x="300" y="272" width="198" height="40" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="510" y="298" font-size="17" font-weight="700" fill="#111111">18%</text>
+
+  <!-- Education 4% -->
+  <text x="280" y="368" text-anchor="end" font-size="17" font-weight="700" fill="#111111">Education</text>
+  <rect x="300" y="342" width="44" height="40" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="356" y="368" font-size="17" font-weight="700" fill="#111111">4%</text>
+
+  <!-- Professions under 1% -->
+  <text x="280" y="438" text-anchor="end" font-size="17" font-weight="700" fill="#111111">Professions</text>
+  <rect x="300" y="412" width="4" height="40" fill="#1F3B5C"/>
+  <text x="316" y="438" font-size="17" font-weight="700" fill="#111111">under 1%</text>
+
+  <text x="48" y="520" font-size="13" fill="#111111">Values as reported for 88 studies in a meta-analysis of deliberate practice and performance (Macnamara, Hambrick and Oswald, 2014).</text>
+</svg>

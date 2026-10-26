@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Sensation as a logarithmic function of stimulus intensity</title>
+  <desc>Schematic. Sensation rises steeply at low intensities and more slowly at high intensities, following a logarithmic curve. A dashed straight line shows a linear relation for contrast only. Schematic; not plotted from a single dataset.</desc>
+  <text x="480" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Sensation grows with the logarithm of intensity</text>
+  <line x1="130" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="130" y1="120" x2="130" y2="440" stroke="#222222" stroke-width="2"/>
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <text x="130.0" y="462">0</text>
+    <text x="317.5" y="462">250</text>
+    <text x="505.0" y="462">500</text>
+    <text x="692.5" y="462">750</text>
+    <text x="880.0" y="462">1000</text>
+  </g>
+  <g font-size="15" fill="#111111" text-anchor="end">
+    <text x="120" y="445.0">0</text>
+    <text x="120" y="285.0">50</text>
+    <text x="120" y="125.0">100</text>
+  </g>
+  <text x="505" y="500" text-anchor="middle" font-size="16" fill="#111111">Stimulus intensity (physical units, schematic)</text>
+  <text transform="rotate(-90)" x="-290" y="80" text-anchor="middle" font-size="16" fill="#111111">Sensation (schematic units)</text>
+  <polyline points="130.0,440.0 880.0,120.0" fill="none" stroke="#111111" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <polyline points="130.0,440.0 137.5,328.9 145.0,299.0 152.5,280.9 160.0,268.0 167.5,257.9 175.0,249.6 182.5,242.5 190.0,236.4 197.5,231.0 205.0,226.2 212.5,221.8 220.0,217.8 227.5,214.2 235.0,210.7 242.5,207.6 250.0,204.6 257.5,201.8 265.0,199.2 272.5,196.7 280.0,194.3 287.5,192.1 295.0,189.9 302.5,187.9 310.0,185.9 317.5,184.0 325.0,182.2 332.5,180.5 340.0,178.8 347.5,177.2 355.0,175.6 362.5,174.1 370.0,172.6 377.5,171.2 385.0,169.8 392.5,168.5 400.0,167.2 407.5,165.9 415.0,164.7 422.5,163.5 430.0,162.3 437.5,161.2 445.0,160.1 452.5,159.0 460.0,157.9 467.5,156.9 475.0,155.9 482.5,154.9 490.0,153.9 497.5,153.0 505.0,152.0 512.5,151.1 520.0,150.2 527.5,149.3 535.0,148.5 542.5,147.6 550.0,146.8 557.5,146.0 565.0,145.2 572.5,144.4 580.0,143.6 587.5,142.8 595.0,142.1 602.5,141.3 610.0,140.6 617.5,139.9 625.0,139.2 632.5,138.5 640.0,137.8 647.5,137.1 655.0,136.5 662.5,135.8 670.0,135.2 677.5,134.5 685.0,133.9 692.5,133.3 700.0,132.7 707.5,132.0 715.0,131.5 722.5,130.9 730.0,130.3 737.5,129.7 745.0,129.1 752.5,128.6 760.0,128.0 767.5,127.5 775.0,126.9 782.5,126.4 790.0,125.9 797.5,125.3 805.0,124.8 812.5,124.3 820.0,123.8 827.5,123.3 835.0,122.8 842.5,122.3 850.0,121.8 857.5,121.4 865.0,120.9 872.5,120.4 880.0,120.0" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+  <text x="300" y="150" font-size="17" font-weight="700" fill="#1F3B5C">Logarithmic law</text>
+  <text x="640" y="300" font-size="16" fill="#111111">Linear relation, for contrast only</text>
+  <text x="40" y="520" font-size="14" fill="#111111">Schematic; not plotted from a single dataset.</text>
+</svg>

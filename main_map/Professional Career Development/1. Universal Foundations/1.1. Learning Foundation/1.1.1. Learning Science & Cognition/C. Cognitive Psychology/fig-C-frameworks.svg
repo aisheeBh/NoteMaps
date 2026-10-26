@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three frameworks of cognitive psychology compared</title>
+  <desc>A grid comparing three frameworks: symbolic information processing, connectionist networks and ecological approaches. For each, the grid gives the central claim, a strength and a limit. The three frameworks differ in whether they explain cognition through discrete representations, learned distributed patterns, or information in the environment linked to action. Schematic comparison.</desc>
+
+  <text x="480" y="46" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Three frameworks, three kinds of explanation</text>
+
+  <!-- column headers -->
+  <rect x="220" y="66" width="215" height="66" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="327" y="94" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Symbolic</text>
+  <text x="327" y="116" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">information processing</text>
+  <rect x="485" y="66" width="215" height="66" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="592" y="94" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Connectionist</text>
+  <text x="592" y="116" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">networks</text>
+  <rect x="750" y="66" width="190" height="66" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="845" y="94" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Ecological</text>
+  <text x="845" y="116" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">approaches</text>
+
+  <!-- row labels -->
+  <text x="30" y="200" font-size="17" font-weight="700" fill="#111111">Central claim</text>
+  <text x="30" y="330" font-size="17" font-weight="700" fill="#111111">Strength</text>
+  <text x="30" y="460" font-size="17" font-weight="700" fill="#111111">Limit</text>
+
+  <!-- central claim row -->
+  <rect x="220" y="150" width="215" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="327" y="186" text-anchor="middle" font-size="15" fill="#111111">Discrete representations</text>
+  <text x="327" y="208" text-anchor="middle" font-size="15" fill="#111111">and operations on them</text>
+  <rect x="485" y="150" width="215" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="592" y="186" text-anchor="middle" font-size="15" fill="#111111">Many simple units whose</text>
+  <text x="592" y="208" text-anchor="middle" font-size="15" fill="#111111">weights change with</text>
+  <text x="592" y="230" text-anchor="middle" font-size="15" fill="#111111">experience</text>
+  <rect x="750" y="150" width="190" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="845" y="186" text-anchor="middle" font-size="15" fill="#111111">Information in the</text>
+  <text x="845" y="208" text-anchor="middle" font-size="15" fill="#111111">environment and the</text>
+  <text x="845" y="230" text-anchor="middle" font-size="15" fill="#111111">action it affords</text>
+
+  <!-- strength row -->
+  <rect x="220" y="280" width="215" height="100" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="327" y="314" text-anchor="middle" font-size="15" fill="#111111">Precise; runs as a</text>
+  <text x="327" y="336" text-anchor="middle" font-size="15" fill="#111111">program; suits reasoning</text>
+  <text x="327" y="358" text-anchor="middle" font-size="15" fill="#111111">and skill</text>
+  <rect x="485" y="280" width="215" height="100" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="592" y="314" text-anchor="middle" font-size="15" fill="#111111">Learns from examples;</text>
+  <text x="592" y="336" text-anchor="middle" font-size="15" fill="#111111">captures graded</text>
+  <text x="592" y="358" text-anchor="middle" font-size="15" fill="#111111">similarity</text>
+  <rect x="750" y="280" width="190" height="100" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="845" y="314" text-anchor="middle" font-size="15" fill="#111111">Ties perception to</text>
+  <text x="845" y="336" text-anchor="middle" font-size="15" fill="#111111">action and to the</text>
+  <text x="845" y="358" text-anchor="middle" font-size="15" fill="#111111">environment</text>
+
+  <!-- limit row -->
+  <rect x="220" y="400" width="215" height="100" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="327" y="434" text-anchor="middle" font-size="15" fill="#111111">Needs added assumptions</text>
+  <text x="327" y="456" text-anchor="middle" font-size="15" fill="#111111">for graded, learned</text>
+  <text x="327" y="478" text-anchor="middle" font-size="15" fill="#111111">behaviour</text>
+  <rect x="485" y="400" width="215" height="100" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="592" y="434" text-anchor="middle" font-size="15" fill="#111111">Internal states are hard</text>
+  <text x="592" y="456" text-anchor="middle" font-size="15" fill="#111111">to read psychologically</text>
+  <rect x="750" y="400" width="190" height="100" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="845" y="434" text-anchor="middle" font-size="15" fill="#111111">Less developed for</text>
+  <text x="845" y="456" text-anchor="middle" font-size="15" fill="#111111">memory, language and</text>
+  <text x="845" y="478" text-anchor="middle" font-size="15" fill="#111111">reasoning</text>
+
+  <text x="30" y="524" font-size="14" fill="#111111">Schematic comparison; the frameworks are often combined in current research.</text>
+</svg>

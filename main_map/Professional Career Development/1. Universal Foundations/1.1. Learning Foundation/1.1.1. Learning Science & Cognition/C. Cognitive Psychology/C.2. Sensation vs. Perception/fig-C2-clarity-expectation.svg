@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#FFE6A8"/><circle cx="5" cy="5" r="1.6" fill="#7A5200"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>What is perceived depends on input clarity and expectation</title>
+  <desc>A two-by-two matrix. Rows: clear input and ambiguous input. Columns: no strong expectation and strong expectation. Clear input without expectation gives veridical perception. Clear input with expectation gives confirmed perception. Ambiguous input without expectation gives uncertainty. Ambiguous input with strong expectation lets expectation decide, which can produce misperception.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">What is perceived depends on input and expectation</text>
+
+  <!-- column headers -->
+  <text x="340" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">No strong expectation</text>
+  <text x="680" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Strong expectation</text>
+
+  <!-- row headers -->
+  <text x="110" y="200" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Clear input</text>
+  <text x="110" y="390" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Ambiguous input</text>
+
+  <!-- cells -->
+  <rect x="220" y="130" width="240" height="180" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="340" y="170" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Veridical</text>
+  <text x="340" y="198" text-anchor="middle" font-size="15" fill="#111111">The stimulus is seen</text>
+  <text x="340" y="220" text-anchor="middle" font-size="15" fill="#111111">as it is, without</text>
+  <text x="340" y="242" text-anchor="middle" font-size="15" fill="#111111">special help</text>
+
+  <rect x="480" y="130" width="240" height="180" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2.5"/>
+  <text x="600" y="170" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Confirmed</text>
+  <text x="600" y="198" text-anchor="middle" font-size="15" fill="#111111">Input and expectation</text>
+  <text x="600" y="220" text-anchor="middle" font-size="15" fill="#111111">agree: fast and</text>
+  <text x="600" y="242" text-anchor="middle" font-size="15" fill="#111111">usually accurate</text>
+
+  <rect x="220" y="320" width="240" height="180" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="232" y="332" width="216" height="156" fill="#FFFFFF"/>
+  <text x="340" y="362" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Uncertain</text>
+  <text x="340" y="390" text-anchor="middle" font-size="15" fill="#111111">The observer hesitates,</text>
+  <text x="340" y="412" text-anchor="middle" font-size="15" fill="#111111">searches more, or guesses</text>
+  <text x="340" y="434" text-anchor="middle" font-size="15" fill="#111111">and may be wrong</text>
+
+  <rect x="480" y="320" width="240" height="180" fill="url(#dots)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <rect x="492" y="332" width="216" height="156" fill="#FFFFFF"/>
+  <text x="600" y="362" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Expectation decides</text>
+  <text x="600" y="390" text-anchor="middle" font-size="15" fill="#111111">The observer sees what</text>
+  <text x="600" y="412" text-anchor="middle" font-size="15" fill="#111111">was expected, which can</text>
+  <text x="600" y="434" text-anchor="middle" font-size="15" fill="#111111">be a misperception</text>
+
+  <text x="40" y="530" font-size="14" fill="#111111">Schematic conceptual summary; not measured data.</text>
+</svg>
