@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Example findings placed by strength of replication and directness for practice</title>
+  <desc>A two-by-two plane. Horizontal axis: strength of replicated evidence, from contested to robust. Vertical axis: directness for practice. Robust and directly relevant findings include retrieval practice and the forgetting curve. Contested findings include the strong form of linguistic relativity and an action-sentence effect that failed a large pre-registered replication. Schematic placement; a judgement, not a measured score.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Strength of evidence and relevance to practice</text>
+
+  <line x1="120" y1="450" x2="880" y2="450" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="450" x2="120" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="482" text-anchor="middle" font-size="16" fill="#111111">Strength of replicated evidence: contested to robust</text>
+  <text x="62" y="280" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 280)">Directness for practice</text>
+
+  <line x1="500" y1="130" x2="500" y2="440" stroke="#999999" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="140" y1="280" x2="860" y2="280" stroke="#999999" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- robust, directly relevant -->
+  <rect x="540" y="140" width="300" height="44" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="690" y="167" text-anchor="middle" font-size="16" fill="#111111">Retrieval practice over restudy</text>
+  <rect x="540" y="196" width="300" height="44" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="690" y="223" text-anchor="middle" font-size="16" fill="#111111">Forgetting curve shape</text>
+
+  <!-- robust, less direct -->
+  <rect x="540" y="330" width="300" height="44" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="690" y="357" text-anchor="middle" font-size="16" fill="#111111">Stroop interference</text>
+
+  <!-- contested -->
+  <rect x="150" y="140" width="300" height="44" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="300" y="167" text-anchor="middle" font-size="16" fill="#111111">Time metaphors and thought</text>
+  <rect x="150" y="196" width="300" height="44" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="300" y="223" text-anchor="middle" font-size="16" fill="#111111">Action-sentence effect</text>
+
+  <rect x="150" y="330" width="300" height="44" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="300" y="357" text-anchor="middle" font-size="16" fill="#111111">Strong linguistic relativity</text>
+
+
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Schematic placement; a judgement about the evidence, not a measured score.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Depth of processing as a continuum linked to durability</title>
+  <desc>A horizontal arrow runs from shallow processing of form and sound to deep processing of meaning and links to prior knowledge. Below it, bars rise from left to right to show schematically that durability of memory increases with depth. Schematic, not plotted from a single dataset.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Depth as a continuum</text>
+  <text x="480" y="100" text-anchor="middle" font-size="18" fill="#111111">Depth of processing at encoding</text>
+
+  <line x1="80" y1="150" x2="880" y2="150" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="80" y="128" font-size="15" fill="#111111">Shallow</text>
+  <text x="880" y="128" text-anchor="end" font-size="15" fill="#111111">Deep</text>
+
+  <text x="150" y="182" text-anchor="middle" font-size="16" fill="#111111">Form</text>
+  <text x="300" y="182" text-anchor="middle" font-size="16" fill="#111111">Sound</text>
+  <text x="470" y="182" text-anchor="middle" font-size="16" fill="#111111">Category</text>
+  <text x="640" y="182" text-anchor="middle" font-size="16" fill="#111111">Meaning</text>
+  <text x="810" y="182" text-anchor="middle" font-size="16" fill="#111111">Prior knowledge</text>
+
+  <!-- axes for durability bars -->
+  <line x1="110" y1="470" x2="880" y2="470" stroke="#111111" stroke-width="2"/>
+  <line x1="110" y1="230" x2="110" y2="470" stroke="#111111" stroke-width="2"/>
+  <text x="62" y="350" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 350)">Durability of memory</text>
+
+  <rect x="105" y="410" width="90" height="60" fill="#E6E6E6" stroke="#333333" stroke-width="1.5"/>
+  <rect x="255" y="370" width="90" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <rect x="425" y="320" width="90" height="150" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="595" y="270" width="90" height="200" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="765" y="220" width="90" height="250" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+
+  <text x="480" y="510" text-anchor="middle" font-size="14" fill="#111111">Schematic; not plotted from a single dataset. Bar heights are illustrative only.</text>
+</svg>

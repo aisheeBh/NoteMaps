@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Method of loci: vivid images placed at successive locations along a route</title>
+  <desc>Five locations along a familiar route, each holding one vivid image. Walking the route in order recalls the items in order. Illustrative items; schematic.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">A route of places, each holding one image</text>
+
+  <line x1="60" y1="330" x2="900" y2="330" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="480" y="372" text-anchor="middle" font-size="16" fill="#111111">Walking the route in order recalls the items in the same order</text>
+
+  <rect x="60" y="110" width="150" height="180" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="135" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">1. Front door</text>
+  <text x="135" y="185" text-anchor="middle" font-size="16" fill="#111111">a bell</text>
+  <text x="135" y="210" text-anchor="middle" font-size="16" fill="#111111">ringing loudly</text>
+  <text x="135" y="260" text-anchor="middle" font-size="14" fill="#111111">item one</text>
+
+  <rect x="230" y="110" width="150" height="180" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="305" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">2. Hall table</text>
+  <text x="305" y="185" text-anchor="middle" font-size="16" fill="#111111">a banana</text>
+  <text x="305" y="210" text-anchor="middle" font-size="16" fill="#111111">wearing a hat</text>
+  <text x="305" y="260" text-anchor="middle" font-size="14" fill="#111111">item two</text>
+
+  <rect x="400" y="110" width="150" height="180" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="475" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">3. Kitchen</text>
+  <text x="475" y="185" text-anchor="middle" font-size="16" fill="#111111">a glass</text>
+  <text x="475" y="210" text-anchor="middle" font-size="16" fill="#111111">smashing on tiles</text>
+  <text x="475" y="260" text-anchor="middle" font-size="14" fill="#111111">item three</text>
+
+  <rect x="570" y="110" width="150" height="180" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="645" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">4. Staircase</text>
+  <text x="645" y="185" text-anchor="middle" font-size="16" fill="#111111">a cat</text>
+  <text x="645" y="210" text-anchor="middle" font-size="16" fill="#111111">climbing the steps</text>
+  <text x="645" y="260" text-anchor="middle" font-size="14" fill="#111111">item four</text>
+
+  <rect x="740" y="110" width="150" height="180" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="815" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">5. Bedroom</text>
+  <text x="815" y="185" text-anchor="middle" font-size="16" fill="#111111">a red umbrella</text>
+  <text x="815" y="210" text-anchor="middle" font-size="16" fill="#111111">on the bed</text>
+  <text x="815" y="260" text-anchor="middle" font-size="14" fill="#111111">item five</text>
+
+  <text x="480" y="440" text-anchor="middle" font-size="16" fill="#111111">Each image is vivid and unusual, and each sits at a fixed place in the order.</text>
+  <text x="480" y="500" text-anchor="middle" font-size="14" fill="#111111">Illustrative items and locations; schematic.</text>
+</svg>

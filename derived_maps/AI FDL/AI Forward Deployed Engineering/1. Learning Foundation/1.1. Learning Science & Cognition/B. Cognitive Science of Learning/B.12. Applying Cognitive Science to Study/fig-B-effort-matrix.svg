@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Study activities placed by effort and engagement with the target processes</title>
+  <desc>A plane with effort demanded on the horizontal axis and engagement with the target processes on the vertical axis. Unaided retrieval, self-explanation and applied problems from memory sit high in engagement at moderate effort. Re-reading and passive highlighting sit low on both. Copying notes in full and decorative diagrams demand effort without engagement. Schematic placement; not measured.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Where study effort pays</text>
+
+  <line x1="120" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="440" x2="120" y2="110" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="500" y="472" text-anchor="middle" font-size="16" fill="#111111">Effort demanded</text>
+  <text x="62" y="275" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 275)">Engagement with target processes</text>
+
+  <line x1="500" y1="130" x2="500" y2="430" stroke="#999999" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="140" y1="275" x2="860" y2="275" stroke="#999999" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- high engagement, moderate effort -->
+  <rect x="320" y="150" width="200" height="40" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="420" y="176" text-anchor="middle" font-size="16" fill="#111111">Unaided retrieval</text>
+  <rect x="320" y="205" width="200" height="40" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="420" y="231" text-anchor="middle" font-size="16" fill="#111111">Self-explanation</text>
+
+  <!-- high engagement, higher effort -->
+  <rect x="580" y="150" width="240" height="40" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="700" y="176" text-anchor="middle" font-size="16" fill="#111111">Applied problems from memory</text>
+  <rect x="580" y="205" width="240" height="40" fill="#E6E6E6" stroke="#666666" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="700" y="231" text-anchor="middle" font-size="16" fill="#111111">Extended unfamiliar problems</text>
+
+  <!-- low engagement, low effort -->
+  <rect x="150" y="330" width="220" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="260" y="356" text-anchor="middle" font-size="16" fill="#111111">Re-reading</text>
+  <rect x="150" y="385" width="220" height="40" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="260" y="411" text-anchor="middle" font-size="16" fill="#111111">Passive highlighting</text>
+
+  <!-- low engagement, high effort -->
+  <rect x="600" y="330" width="220" height="40" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="604" y="334" width="212" height="32" fill="#FFFFFF"/>
+  <text x="710" y="356" text-anchor="middle" font-size="16" fill="#111111">Copying notes in full</text>
+  <rect x="600" y="385" width="220" height="40" fill="url(#lines)" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <rect x="604" y="389" width="212" height="32" fill="#FFFFFF"/>
+  <text x="710" y="411" text-anchor="middle" font-size="16" fill="#111111">Decorative diagrams</text>
+
+  <text x="480" y="500" text-anchor="middle" font-size="14" fill="#111111">Schematic placement; not measured.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Retrieval tasks ordered by the amount of cueing they provide</title>
+  <desc>Three retrieval tasks from left to right: free recall, cued recall and recognition. Cueing increases from left to right; reconstruction demanded by the searcher decreases. Schematic ordering, not measured values.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">From free recall to recognition</text>
+
+  <line x1="90" y1="140" x2="870" y2="140" stroke="#222222" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="90" y="118" font-size="16" fill="#111111">Less cueing, more reconstruction</text>
+  <text x="870" y="118" text-anchor="end" font-size="16" fill="#111111">More cueing, less reconstruction</text>
+
+  <rect x="90" y="180" width="230" height="130" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="205" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">Free recall</text>
+  <text x="205" y="258" text-anchor="middle" font-size="16" fill="#FFFFFF">Reproduce with</text>
+  <text x="205" y="280" text-anchor="middle" font-size="16" fill="#FFFFFF">only a general prompt</text>
+
+  <rect x="365" y="180" width="230" height="130" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="480" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Cued recall</text>
+  <text x="480" y="258" text-anchor="middle" font-size="16" fill="#111111">Produce from a</text>
+  <text x="480" y="280" text-anchor="middle" font-size="16" fill="#111111">partial prompt</text>
+
+  <rect x="640" y="180" width="230" height="130" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="755" y="228" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Recognition</text>
+  <text x="755" y="258" text-anchor="middle" font-size="16" fill="#111111">Identify the target</text>
+  <text x="755" y="280" text-anchor="middle" font-size="16" fill="#111111">among alternatives</text>
+
+  <text x="205" y="360" text-anchor="middle" font-size="16" fill="#111111">e.g. list every step</text>
+  <text x="480" y="360" text-anchor="middle" font-size="16" fill="#111111">e.g. complete a named process</text>
+  <text x="755" y="360" text-anchor="middle" font-size="16" fill="#111111">e.g. choose from four options</text>
+
+  <text x="480" y="440" text-anchor="middle" font-size="16" fill="#111111">Tests at the right-hand end overstate unaided retrieval.</text>
+  <text x="480" y="500" text-anchor="middle" font-size="14" fill="#111111">Schematic ordering; not measured values.</text>
+</svg>

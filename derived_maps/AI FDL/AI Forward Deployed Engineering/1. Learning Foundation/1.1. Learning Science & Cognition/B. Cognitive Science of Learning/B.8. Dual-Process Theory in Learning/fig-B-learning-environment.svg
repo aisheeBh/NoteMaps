@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Learning environments classified by regularity and feedback</title>
+  <desc>A two-by-two matrix. Columns: feedback prompt and accurate, or delayed and sparse. Rows: stable patterns, or shifting patterns. The prompt-feedback, stable-pattern cell is kind, where fast judgement can be trusted. The delayed-feedback, shifting-pattern cell is wicked, where a deliberate method should be taught first. Schematic classification.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">When fast judgement can be trusted</text>
+
+  <text x="340" y="120" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Feedback prompt and accurate</text>
+  <text x="620" y="120" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Feedback delayed or sparse</text>
+
+  <text x="200" y="232" text-anchor="end" font-size="18" font-weight="700" fill="#111111">Stable</text>
+  <text x="200" y="256" text-anchor="end" font-size="18" font-weight="700" fill="#111111">patterns</text>
+  <text x="200" y="402" text-anchor="end" font-size="18" font-weight="700" fill="#111111">Shifting</text>
+  <text x="200" y="426" text-anchor="end" font-size="18" font-weight="700" fill="#111111">patterns</text>
+
+  <!-- stable, prompt: kind -->
+  <rect x="210" y="140" width="260" height="130" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="340" y="190" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Kind</text>
+  <text x="340" y="220" text-anchor="middle" font-size="16" fill="#111111">Fast judgement is</text>
+  <text x="340" y="242" text-anchor="middle" font-size="16" fill="#111111">usually reliable</text>
+
+  <!-- stable, delayed -->
+  <rect x="490" y="140" width="260" height="130" fill="#E6E6E6" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="620" y="190" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Partly kind</text>
+  <text x="620" y="220" text-anchor="middle" font-size="16" fill="#111111">Add feedback that</text>
+  <text x="620" y="242" text-anchor="middle" font-size="16" fill="#111111">arrives sooner</text>
+
+  <!-- shifting, prompt -->
+  <rect x="210" y="290" width="260" height="130" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="340" y="340" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Partly wicked</text>
+  <text x="340" y="370" text-anchor="middle" font-size="16" fill="#111111">Check when the</text>
+  <text x="340" y="392" text-anchor="middle" font-size="16" fill="#111111">pattern may have shifted</text>
+
+  <!-- shifting, delayed: wicked -->
+  <rect x="490" y="290" width="260" height="130" fill="url(#lines)" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="620" y="340" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Wicked</text>
+  <rect x="520" y="352" width="200" height="50" fill="#FFFFFF"/>
+  <text x="620" y="370" text-anchor="middle" font-size="16" fill="#111111">Teach a deliberate</text>
+  <text x="620" y="392" text-anchor="middle" font-size="16" fill="#111111">method first</text>
+
+  <text x="480" y="480" text-anchor="middle" font-size="16" fill="#111111">Classify the environment before deciding how much to trust a fast answer.</text>
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Schematic classification; not a measured scale.</text>
+</svg>

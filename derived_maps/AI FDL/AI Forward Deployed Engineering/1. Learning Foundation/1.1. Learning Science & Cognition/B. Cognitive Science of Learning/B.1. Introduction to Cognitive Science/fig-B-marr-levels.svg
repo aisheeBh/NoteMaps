@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Three levels of explanation for one information-processing system</title>
+  <desc>Three stacked layers: computational level (what problem is solved and why), algorithmic level (representations and procedure), and implementation level (physical substrate). A worked case is a cash register adding two numbers.</desc>
+
+  <text x="480" y="50" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Three levels of explanation</text>
+
+  <!-- Layer 1 -->
+  <rect x="60" y="90" width="560" height="110" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="90" y="132" font-size="20" font-weight="700" fill="#FFFFFF">Computational level</text>
+  <text x="90" y="162" font-size="16" fill="#FFFFFF">What problem is solved, and why</text>
+  <text x="90" y="184" font-size="16" fill="#FFFFFF">Cash register: combine two amounts into a total</text>
+
+  <!-- Layer 2 -->
+  <rect x="60" y="220" width="560" height="110" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="90" y="262" font-size="20" font-weight="700" fill="#111111">Algorithmic level</text>
+  <text x="90" y="292" font-size="16" fill="#111111">Representations and the procedure that uses them</text>
+  <text x="90" y="314" font-size="16" fill="#111111">Digits held as symbols, added column by column, with carrying</text>
+
+  <!-- Layer 3 -->
+  <rect x="60" y="350" width="560" height="110" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="90" y="392" font-size="20" font-weight="700" fill="#111111">Implementation level</text>
+  <text x="90" y="422" font-size="16" fill="#111111">The physical system that runs the procedure</text>
+  <text x="90" y="444" font-size="16" fill="#111111">Switching circuits, or neurons in a brain</text>
+
+  <!-- Side annotation -->
+  <line x1="640" y1="145" x2="700" y2="145" stroke="#222222" stroke-width="2" stroke-dasharray="6 5"/>
+  <rect x="700" y="90" width="220" height="110" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="1.5"/>
+  <rect x="706" y="96" width="208" height="98" fill="#FFFFFF"/>
+  <text x="716" y="124" font-size="16" font-weight="700" fill="#111111">Knowing one level</text>
+  <text x="716" y="148" font-size="15" fill="#111111">does not determine</text>
+  <text x="716" y="170" font-size="15" fill="#111111">the other two</text>
+
+  <text x="60" y="490" font-size="14" fill="#111111">Illustrative example. Schematic.</text>
+</svg>
