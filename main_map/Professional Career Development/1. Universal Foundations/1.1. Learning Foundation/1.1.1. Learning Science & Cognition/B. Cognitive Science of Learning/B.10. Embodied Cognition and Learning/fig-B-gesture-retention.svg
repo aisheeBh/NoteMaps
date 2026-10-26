@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Retention after speech-only, gesture-only and speech-plus-gesture teaching</title>
+  <desc>Paired bars for three teaching conditions. All three conditions reach a similar level immediately after the lesson. A month later, the speech-only bar falls to a much lower level, while the gesture-only and speech-plus-gesture bars stay high. Schematic, illustrating the pattern described for this kind of study, not plotted data.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Retention after a lesson, by how it was taught</text>
+
+  <line x1="120" y1="130" x2="120" y2="440" stroke="#111111" stroke-width="2"/>
+  <line x1="120" y1="440" x2="860" y2="440" stroke="#111111" stroke-width="2"/>
+  <text x="62" y="290" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 290)">Retention (schematic)</text>
+
+  <!-- Speech only: immediate 0.62, delayed 0.30 -->
+  <rect x="150" y="254" width="70" height="186" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="230" y="350" width="70" height="90" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+  <text x="185" y="244" text-anchor="middle" font-size="15" fill="#111111">immediately</text>
+  <text x="265" y="340" text-anchor="middle" font-size="15" fill="#111111">a month later</text>
+
+  <!-- Gesture only: immediate 0.62, delayed 0.58 -->
+  <rect x="400" y="254" width="70" height="186" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="480" y="266" width="70" height="174" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+
+  <!-- Speech and gesture: immediate 0.62, delayed 0.60 -->
+  <rect x="650" y="254" width="70" height="186" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <rect x="730" y="260" width="70" height="180" fill="#1F3B5C" stroke="#000000" stroke-width="2"/>
+
+  <text x="230" y="470" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Speech only</text>
+  <text x="480" y="470" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Gesture only</text>
+  <text x="730" y="470" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Speech and gesture</text>
+
+  <text x="480" y="508" text-anchor="middle" font-size="14" fill="#111111">Schematic; illustrates the pattern reported for this kind of study, not plotted data.</text>
+</svg>

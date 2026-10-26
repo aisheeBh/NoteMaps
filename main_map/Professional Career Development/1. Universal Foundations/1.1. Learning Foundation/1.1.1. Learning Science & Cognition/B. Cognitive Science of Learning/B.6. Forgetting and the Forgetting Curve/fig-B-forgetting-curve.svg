@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Two schematic forgetting curves: exponential and power-law shapes</title>
+  <desc>Retention plotted against time since learning. The exponential curve falls quickly and levels off near zero. The power-law curve falls quickly at first and then keeps a slow, long tail. Both start at full retention. Schematic; curves illustrate two functional forms and are not fitted to data.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Forgetting curves: two functional forms</text>
+
+  <line x1="110" y1="110" x2="110" y2="440" stroke="#111111" stroke-width="2"/>
+  <line x1="110" y1="440" x2="870" y2="440" stroke="#111111" stroke-width="2"/>
+  <text x="62" y="275" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 275)">Retention (schematic)</text>
+  <text x="100" y="145" text-anchor="end" font-size="15" fill="#111111">1.0</text>
+  <text x="100" y="290" text-anchor="end" font-size="15" fill="#111111">0.5</text>
+
+  <text x="130" y="466" text-anchor="middle" font-size="16" fill="#111111">0</text>
+  <text x="270" y="466" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <text x="410" y="466" text-anchor="middle" font-size="16" fill="#111111">4</text>
+  <text x="550" y="466" text-anchor="middle" font-size="16" fill="#111111">6</text>
+  <text x="690" y="466" text-anchor="middle" font-size="16" fill="#111111">8</text>
+  <text x="830" y="466" text-anchor="middle" font-size="16" fill="#111111">10</text>
+  <text x="490" y="496" text-anchor="middle" font-size="16" fill="#111111">Time since learning (schematic units)</text>
+
+  <!-- exponential: dashed -->
+  <path d="M130 140 L200 228.5 L270 290.9 L340 335 L410 365.9 L480 387.8 L550 403.4 L620 413.9 L690 421.7 L760 427.1 L830 431" fill="none" stroke="#111111" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <!-- power law: solid, heavier -->
+  <path d="M130 140 L200 228 L270 267 L340 290 L410 306 L480 318 L550 327 L620 334 L690 340 L760 345 L830 349" fill="none" stroke="#111111" stroke-width="4"/>
+
+  <text x="560" y="372" font-size="16" fill="#111111">Exponential decay</text>
+  <text x="640" y="296" font-size="16" fill="#111111">Power function</text>
+
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Schematic; curves illustrate two functional forms and are not fitted to data.</text>
+</svg>

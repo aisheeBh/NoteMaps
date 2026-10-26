@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <clipPath id="leftclip"><circle cx="330" cy="290" r="170"/></clipPath>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Encoding specificity as overlap between encoded context and retrieval cues</title>
+  <desc>Two overlapping circles. The left circle holds the context and content present at encoding; the right circle holds the cues present at retrieval. The overlap is shaded and labelled as matched cues, which are effective. Schematic, not a measured model.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Encoding specificity: overlap is what helps</text>
+
+  <text x="330" y="100" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">At encoding</text>
+  <text x="560" y="100" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">At retrieval</text>
+
+  <!-- right circle shaded only inside the left circle (overlap) -->
+  <circle cx="560" cy="290" r="170" fill="#BCD5EE" clip-path="url(#leftclip)"/>
+  <!-- outlines -->
+  <circle cx="330" cy="290" r="170" fill="none" stroke="#111111" stroke-width="2.5"/>
+  <circle cx="560" cy="290" r="170" fill="none" stroke="#111111" stroke-width="2.5" stroke-dasharray="10 6"/>
+
+  <text x="236" y="282" text-anchor="middle" font-size="16" fill="#111111">Context and</text>
+  <text x="236" y="306" text-anchor="middle" font-size="16" fill="#111111">content, not</text>
+  <text x="236" y="330" text-anchor="middle" font-size="16" fill="#111111">present as cues</text>
+
+  <text x="445" y="284" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Matched</text>
+  <text x="445" y="308" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">cues</text>
+  <text x="445" y="332" text-anchor="middle" font-size="15" fill="#111111">effective</text>
+
+  <text x="615" y="282" text-anchor="middle" font-size="16" fill="#111111">Cues that were</text>
+  <text x="615" y="306" text-anchor="middle" font-size="16" fill="#111111">not encoded</text>
+  <text x="615" y="330" text-anchor="middle" font-size="16" fill="#111111">with the target</text>
+
+  <text x="480" y="500" text-anchor="middle" font-size="16" fill="#111111">A cue helps to the extent that it overlaps what was encoded with the target.</text>
+  <text x="480" y="518" text-anchor="middle" font-size="14" fill="#111111">Schematic; not a measured model.</text>
+</svg>

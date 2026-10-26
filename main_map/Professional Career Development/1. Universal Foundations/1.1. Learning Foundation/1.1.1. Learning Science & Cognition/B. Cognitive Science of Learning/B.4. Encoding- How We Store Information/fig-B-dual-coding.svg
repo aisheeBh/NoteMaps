@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Dual coding: verbal and imagery routes converging on one concept</title>
+  <desc>Two stored systems, a verbal system for words and an imagery system for pictures and mental images, each connect to a shared concept in the centre. Dashed return arrows show retrieval cues from the concept back to each system. Schematic of Paivio's proposal, not a model of brain structure.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Two routes to one meaning</text>
+
+  <rect x="110" y="110" width="290" height="110" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="255" y="148" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Verbal system</text>
+  <text x="255" y="176" text-anchor="middle" font-size="16" fill="#111111">words, labels, explanations</text>
+  <text x="255" y="200" text-anchor="middle" font-size="16" fill="#111111">stored as language</text>
+
+  <rect x="560" y="110" width="290" height="110" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="705" y="148" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">Imagery system</text>
+  <text x="705" y="176" text-anchor="middle" font-size="16" fill="#111111">pictures, mental images, layout</text>
+  <text x="705" y="200" text-anchor="middle" font-size="16" fill="#111111">stored as a picture of the thing</text>
+
+  <line x1="255" y1="220" x2="400" y2="330" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="705" y1="220" x2="560" y2="330" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="110" y="262" font-size="16" fill="#111111">word-to-meaning links</text>
+  <text x="850" y="262" text-anchor="end" font-size="16" fill="#111111">image-to-meaning links</text>
+
+  <rect x="370" y="330" width="220" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="480" y="372" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">Shared concept</text>
+  <text x="480" y="402" text-anchor="middle" font-size="16" fill="#FFFFFF">the meaning itself</text>
+
+  <path d="M400 350 Q 330 300 290 228" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+  <path d="M560 350 Q 630 300 670 228" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+  <text x="330" y="320" text-anchor="end" font-size="15" fill="#111111">retrieval cue</text>
+  <text x="640" y="320" font-size="15" fill="#111111">retrieval cue</text>
+
+  <text x="480" y="480" text-anchor="middle" font-size="16" fill="#111111">A picture that represents the content adds a second route. A decorative picture does not.</text>
+  <text x="480" y="508" text-anchor="middle" font-size="14" fill="#111111">Schematic of a proposal; not a model of brain structure.</text>
+</svg>

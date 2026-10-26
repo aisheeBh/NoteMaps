@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#FFFFFF"/><line x1="0" y1="0" x2="0" y2="8" stroke="#666666" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A study session as five blocks, each with a different process</title>
+  <desc>Five consecutive blocks along a timeline: unaided recall, explanation of a worked case, a short break, new cases from memory, and a brief reflection on what was hard. Durations are illustrative for a sixty-minute session.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">One study session, block by block</text>
+  <text x="480" y="82" text-anchor="middle" font-size="16" fill="#111111">Illustrative durations within a sixty-minute session</text>
+
+  <!-- block 1: unaided recall, 10 min, width 140 -->
+  <rect x="60" y="200" width="140" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="130" y="246" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Recall</text>
+  <text x="130" y="272" text-anchor="middle" font-size="15" fill="#FFFFFF">10 min</text>
+
+  <!-- block 2: explain worked case, 20 min, width 280 -->
+  <rect x="200" y="200" width="280" height="100" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="340" y="246" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Explain a worked case</text>
+  <text x="340" y="272" text-anchor="middle" font-size="15" fill="#111111">20 min</text>
+
+  <!-- block 3: break, 5 min, width 70 -->
+  <rect x="480" y="200" width="70" height="100" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="515" y="246" text-anchor="middle" font-size="16" fill="#111111">Rest</text>
+  <text x="515" y="272" text-anchor="middle" font-size="15" fill="#111111">5 min</text>
+
+  <!-- block 4: new cases from memory, 20 min, width 280 -->
+  <rect x="550" y="200" width="280" height="100" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="690" y="246" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">New cases from memory</text>
+  <text x="690" y="272" text-anchor="middle" font-size="15" fill="#FFFFFF">20 min</text>
+
+  <!-- block 5: reflection, 5 min, width 70 -->
+  <rect x="830" y="200" width="70" height="100" fill="url(#hatch)" stroke="#333333" stroke-width="2"/>
+  <rect x="834" y="236" width="62" height="36" fill="#FFFFFF"/>
+  <text x="865" y="252" text-anchor="middle" font-size="15" fill="#111111">Reflect</text>
+  <text x="865" y="270" text-anchor="middle" font-size="15" fill="#111111">5 min</text>
+
+  <!-- timeline -->
+  <line x1="60" y1="330" x2="900" y2="330" stroke="#222222" stroke-width="2"/>
+  <text x="130" y="356" text-anchor="middle" font-size="15" fill="#111111">0</text>
+  <text x="200" y="356" text-anchor="middle" font-size="15" fill="#111111">10</text>
+  <text x="480" y="356" text-anchor="middle" font-size="15" fill="#111111">30</text>
+  <text x="550" y="356" text-anchor="middle" font-size="15" fill="#111111">35</text>
+  <text x="830" y="356" text-anchor="middle" font-size="15" fill="#111111">55</text>
+  <text x="900" y="356" text-anchor="middle" font-size="15" fill="#111111">60</text>
+
+  <text x="60" y="420" font-size="16" fill="#111111">Each block engages a different process, and the order is designed.</text>
+  <text x="60" y="446" font-size="16" fill="#111111">The break is part of the plan, not lost time.</text>
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Schematic; durations are illustrative.</text>
+</svg>

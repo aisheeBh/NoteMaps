@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Schematic serial position curves for immediate and delayed recall</title>
+  <desc>Proportion recalled plotted against position in a list of ten items. The immediate curve is U-shaped with high primacy and recency. The delayed curve keeps the primacy end but loses most of the recency advantage. Schematic, not plotted from a single dataset.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Serial position effect (schematic)</text>
+
+  <!-- axes -->
+  <line x1="120" y1="110" x2="120" y2="430" stroke="#111111" stroke-width="2"/>
+  <line x1="120" y1="430" x2="880" y2="430" stroke="#111111" stroke-width="2"/>
+
+  <!-- y label -->
+  <text x="62" y="270" text-anchor="middle" font-size="16" fill="#111111" transform="rotate(-90 62 270)">Proportion recalled</text>
+
+  <!-- x tick labels -->
+  <text x="150" y="458" text-anchor="middle" font-size="16" fill="#111111">1</text>
+  <text x="227.8" y="458" text-anchor="middle" font-size="16" fill="#111111">2</text>
+  <text x="305.6" y="458" text-anchor="middle" font-size="16" fill="#111111">3</text>
+  <text x="383.3" y="458" text-anchor="middle" font-size="16" fill="#111111">4</text>
+  <text x="461.1" y="458" text-anchor="middle" font-size="16" fill="#111111">5</text>
+  <text x="538.9" y="458" text-anchor="middle" font-size="16" fill="#111111">6</text>
+  <text x="616.7" y="458" text-anchor="middle" font-size="16" fill="#111111">7</text>
+  <text x="694.4" y="458" text-anchor="middle" font-size="16" fill="#111111">8</text>
+  <text x="772.2" y="458" text-anchor="middle" font-size="16" fill="#111111">9</text>
+  <text x="850" y="458" text-anchor="middle" font-size="16" fill="#111111">10</text>
+  <text x="500" y="488" text-anchor="middle" font-size="16" fill="#111111">Position in the list</text>
+
+  <!-- delayed curve: dashed, hollow markers -->
+  <path d="M150 190 L227.8 265 L305.6 286 L383.3 298 L461.1 310 L538.9 310 L616.7 304 L694.4 298 L772.2 292 L850 280" fill="none" stroke="#111111" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <g fill="#FFFFFF" stroke="#111111" stroke-width="2">
+    <circle cx="150" cy="190" r="5"/><circle cx="227.8" cy="265" r="5"/><circle cx="305.6" cy="286" r="5"/>
+    <circle cx="383.3" cy="298" r="5"/><circle cx="461.1" cy="310" r="5"/><circle cx="538.9" cy="310" r="5"/>
+    <circle cx="616.7" cy="304" r="5"/><circle cx="694.4" cy="298" r="5"/><circle cx="772.2" cy="292" r="5"/>
+    <circle cx="850" cy="280" r="5"/>
+  </g>
+
+  <!-- immediate curve: solid, filled markers -->
+  <path d="M150 175 L227.8 250 L305.6 280 L383.3 295 L461.1 310 L538.9 304 L616.7 295 L694.4 280 L772.2 244 L850 160" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <g fill="#111111">
+    <circle cx="150" cy="175" r="6"/><circle cx="227.8" cy="250" r="6"/><circle cx="305.6" cy="280" r="6"/>
+    <circle cx="383.3" cy="295" r="6"/><circle cx="461.1" cy="310" r="6"/><circle cx="538.9" cy="304" r="6"/>
+    <circle cx="616.7" cy="295" r="6"/><circle cx="694.4" cy="280" r="6"/><circle cx="772.2" cy="244" r="6"/>
+    <circle cx="850" cy="160" r="6"/>
+  </g>
+
+  <!-- direct labels -->
+  <text x="150" y="146" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Primacy</text>
+  <text x="850" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Recency</text>
+  <text x="560" y="200" text-anchor="start" font-size="16" fill="#111111">Immediate recall</text>
+  <text x="600" y="350" text-anchor="start" font-size="16" fill="#111111">After a distracting task</text>
+
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Schematic; not plotted from a single dataset.</text>
+</svg>

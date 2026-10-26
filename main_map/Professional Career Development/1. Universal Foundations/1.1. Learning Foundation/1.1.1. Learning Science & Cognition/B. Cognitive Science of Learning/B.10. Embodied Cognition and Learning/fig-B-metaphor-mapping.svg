@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Metaphor mapping from a physical walk to the progress of a project</title>
+  <desc>Four pairs of elements. Left, the source domain of a walk along a path: starting point, route taken, obstacles on the way, arrival. Right, the target domain of a project: kick-off, milestones passed, blockers raised, delivery. Dashed arrows map each source element onto its counterpart. Illustrative mapping; not a measured result.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#111111">Structure carried from a walk to a project</text>
+
+  <text x="230" y="120" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Source: a walk along a path</text>
+  <text x="730" y="120" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Target: progress on a project</text>
+
+  <rect x="80" y="150" width="300" height="50" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="230" y="181" text-anchor="middle" font-size="16" fill="#111111">Starting point</text>
+  <rect x="80" y="230" width="300" height="50" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="230" y="261" text-anchor="middle" font-size="16" fill="#111111">Route taken</text>
+  <rect x="80" y="310" width="300" height="50" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="230" y="341" text-anchor="middle" font-size="16" fill="#111111">Obstacles on the way</text>
+  <rect x="80" y="390" width="300" height="50" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+  <text x="230" y="421" text-anchor="middle" font-size="16" fill="#111111">Arrival</text>
+
+  <rect x="580" y="150" width="300" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="730" y="181" text-anchor="middle" font-size="16" fill="#111111">Kick-off</text>
+  <rect x="580" y="230" width="300" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="730" y="261" text-anchor="middle" font-size="16" fill="#111111">Milestones passed</text>
+  <rect x="580" y="310" width="300" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="730" y="341" text-anchor="middle" font-size="16" fill="#111111">Blockers raised</text>
+  <rect x="580" y="390" width="300" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="730" y="421" text-anchor="middle" font-size="16" fill="#111111">Delivery</text>
+
+  <line x1="380" y1="175" x2="580" y2="175" stroke="#222222" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="255" x2="580" y2="255" stroke="#222222" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="335" x2="580" y2="335" stroke="#222222" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="415" x2="580" y2="415" stroke="#222222" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+
+  <text x="480" y="486" text-anchor="middle" font-size="16" fill="#111111">The sequence and the obstacles carry over; the mapping can also mislead.</text>
+  <text x="480" y="512" text-anchor="middle" font-size="14" fill="#111111">Illustrative mapping; not a measured result.</text>
+</svg>
