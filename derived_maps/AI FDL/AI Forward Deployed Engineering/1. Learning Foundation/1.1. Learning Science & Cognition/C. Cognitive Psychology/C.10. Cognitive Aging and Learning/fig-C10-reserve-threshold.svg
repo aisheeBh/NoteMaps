@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>The same brain pathology produces different symptoms depending on reserve</title>
+  <desc>Two schematic curves of symptom severity against brain pathology. The lower-reserve curve rises at lower pathology levels; the higher-reserve curve rises only at higher levels, so the same pathology produces fewer symptoms in people with more reserve.</desc>
+
+  <text x="480" y="60" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">The same pathology, different symptoms</text>
+
+  <!-- axes -->
+  <line x1="120" y1="440" x2="840" y2="440" stroke="#333333" stroke-width="1.5"/>
+  <line x1="120" y1="130" x2="120" y2="440" stroke="#333333" stroke-width="1.5"/>
+  <text x="108" y="444" text-anchor="end" font-size="15" fill="#111111">None</text>
+  <text x="108" y="144" text-anchor="end" font-size="15" fill="#111111">Severe</text>
+  <text x="140" y="462" text-anchor="middle" font-size="15" fill="#111111">Low</text>
+  <text x="820" y="462" text-anchor="middle" font-size="15" fill="#111111">High</text>
+  <text x="480" y="492" text-anchor="middle" font-size="16" fill="#111111">Brain pathology</text>
+  <text x="128" y="118" font-size="16" fill="#111111">Symptom severity</text>
+
+  <!-- lower reserve: solid -->
+  <polyline points="140,436.7 208,425.8 276,385.3 344,290 412,194.7 480,154.2 548,143.3 616,140.7 684,140.3 752,140 820,140" fill="none" stroke="#1F3B5C" stroke-width="4"/>
+
+  <!-- higher reserve: dashed -->
+  <polyline points="140,440 208,439.8 276,439.3 344,436.7 412,425.8 480,385.3 548,290 616,194.7 684,154.2 752,143.3 820,140.7" fill="none" stroke="#333333" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <!-- direct labels -->
+  <text x="420" y="112" font-size="15" font-weight="700" fill="#111111">Lower reserve: symptoms appear at less pathology</text>
+  <text x="600" y="392" font-size="15" font-weight="700" fill="#111111">Higher reserve: symptoms appear later</text>
+
+  <text x="48" y="524" font-size="13" fill="#111111">Schematic threshold illustration of cognitive reserve. Not plotted from data.</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Choosing triples that can separate a narrow hypothesis from the hidden rule</title>
+  <desc>A table of five candidate tests in the 2-4-6 task. The solver's hypothesis is increase by two; the hidden rule is any ascending sequence. For each triple the table shows what each account predicts and what the result can show. Triples 1, 2, 3 and 3, 5, 100 separate the two accounts, because the hypothesis predicts failure and the rule predicts success. The other triples give the same prediction under both accounts. Schematic illustration.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Which test can separate the hypothesis from the rule?</text>
+  <text x="480" y="80" text-anchor="middle" font-size="16" fill="#111111">Solver's hypothesis: increase by two. Hidden rule: any ascending sequence.</text>
+
+  <!-- header -->
+  <rect x="40" y="100" width="180" height="40" fill="#1F3B5C"/>
+  <text x="130" y="126" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Triple tested</text>
+  <rect x="220" y="100" width="200" height="40" fill="#1F3B5C"/>
+  <text x="320" y="126" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Hypothesis predicts</text>
+  <rect x="420" y="100" width="200" height="40" fill="#1F3B5C"/>
+  <text x="520" y="126" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Rule predicts</text>
+  <rect x="620" y="100" width="300" height="40" fill="#1F3B5C"/>
+  <text x="770" y="126" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">What the result can show</text>
+
+  <!-- row 1 -->
+  <rect x="40" y="140" width="180" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="130" y="174" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">8, 10, 12</text>
+  <rect x="220" y="140" width="200" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="174" text-anchor="middle" font-size="16" fill="#111111">Yes</text>
+  <rect x="420" y="140" width="200" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="520" y="174" text-anchor="middle" font-size="16" fill="#111111">Yes</text>
+  <rect x="620" y="140" width="300" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="630" y="168" font-size="15" fill="#111111">Confirms both. A yes adds</text>
+  <text x="630" y="188" font-size="15" fill="#111111">confidence but separates nothing.</text>
+
+  <!-- row 2 -->
+  <rect x="40" y="200" width="180" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="130" y="234" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">6, 4, 2</text>
+  <rect x="220" y="200" width="200" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="234" text-anchor="middle" font-size="16" fill="#111111">No</text>
+  <rect x="420" y="200" width="200" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="520" y="234" text-anchor="middle" font-size="16" fill="#111111">No</text>
+  <rect x="620" y="200" width="300" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="630" y="228" font-size="15" fill="#111111">Confirms both. A no separates</text>
+  <text x="630" y="248" font-size="15" fill="#111111">nothing; the descending order is excluded.</text>
+
+  <!-- row 3 -->
+  <rect x="40" y="260" width="180" height="56" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="130" y="294" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">1, 2, 3</text>
+  <rect x="220" y="260" width="200" height="56" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="320" y="294" text-anchor="middle" font-size="16" fill="#111111">No</text>
+  <rect x="420" y="260" width="200" height="56" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="520" y="294" text-anchor="middle" font-size="16" fill="#111111">Yes</text>
+  <rect x="620" y="260" width="300" height="56" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="630" y="288" font-size="15" font-weight="700" fill="#111111">Separates them. A yes shows the step</text>
+  <text x="630" y="308" font-size="15" fill="#111111">of two is too narrow a hypothesis.</text>
+
+  <!-- row 4 -->
+  <rect x="40" y="320" width="180" height="56" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="130" y="354" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">3, 5, 100</text>
+  <rect x="220" y="320" width="200" height="56" fill="#F6CACA" stroke="#8B0000" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="320" y="354" text-anchor="middle" font-size="16" fill="#111111">No</text>
+  <rect x="420" y="320" width="200" height="56" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="520" y="354" text-anchor="middle" font-size="16" fill="#111111">Yes</text>
+  <rect x="620" y="320" width="300" height="56" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="630" y="348" font-size="15" font-weight="700" fill="#111111">Separates them. A yes shows equal</text>
+  <text x="630" y="368" font-size="15" fill="#111111">steps are not needed.</text>
+
+  <!-- row 5 -->
+  <rect x="40" y="380" width="180" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="130" y="414" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">10, 12, 14</text>
+  <rect x="220" y="380" width="200" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="414" text-anchor="middle" font-size="16" fill="#111111">Yes</text>
+  <rect x="420" y="380" width="200" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="520" y="414" text-anchor="middle" font-size="16" fill="#111111">Yes</text>
+  <rect x="620" y="380" width="300" height="56" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+  <text x="630" y="408" font-size="15" fill="#111111">Confirms both. The usual choice:</text>
+  <text x="630" y="428" font-size="15" fill="#111111">adds confidence, no new information.</text>
+
+  <text x="40" y="478" font-size="15" fill="#111111">Shaded rows with heavy borders: tests whose outcome can separate the two accounts. Dashed-outline cell: the outcome the hypothesis predicts to fail.</text>
+  <text x="40" y="508" font-size="14" fill="#111111">Schematic illustration of the 2-4-6 task; not a record of participants' choices.</text>
+</svg>

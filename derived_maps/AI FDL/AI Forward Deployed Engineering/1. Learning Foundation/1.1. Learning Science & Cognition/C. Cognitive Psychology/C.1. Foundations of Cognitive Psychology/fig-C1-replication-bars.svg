@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Statistically significant results in original studies and in replications</title>
+  <desc>Two bars. About 97 percent of the original psychology studies reported statistically significant results. About 36 percent of their replications reached statistical significance. Source: Open Science Collaboration, 2015, 100 studies.</desc>
+
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Significant results: originals and replications</text>
+
+  <!-- axis -->
+  <line x1="240" y1="140" x2="240" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="240" y1="440" x2="760" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="232" y1="440" x2="240" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="232" y1="290" x2="240" y2="290" stroke="#222222" stroke-width="2"/>
+  <line x1="232" y1="140" x2="240" y2="140" stroke="#222222" stroke-width="2"/>
+  <text x="222" y="446" text-anchor="end" font-size="15" fill="#111111">0%</text>
+  <text x="222" y="296" text-anchor="end" font-size="15" fill="#111111">50%</text>
+  <text x="222" y="146" text-anchor="end" font-size="15" fill="#111111">100%</text>
+  <text transform="rotate(-90)" x="-290" y="130" text-anchor="middle" font-size="16" fill="#111111">Share of studies</text>
+
+  <!-- bars: 300 px = 100 percent -->
+  <rect x="320" y="149" width="160" height="291" fill="#1F3B5C" stroke="#000000" stroke-width="2.5"/>
+  <rect x="560" y="332" width="160" height="108" fill="url(#hatch)" stroke="#1F3B5C" stroke-width="2"/>
+
+  <text x="400" y="136" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">97%</text>
+  <text x="640" y="318" text-anchor="middle" font-size="20" font-weight="700" fill="#111111">36%</text>
+
+  <text x="400" y="472" text-anchor="middle" font-size="17" fill="#111111">Original studies</text>
+  <text x="640" y="472" text-anchor="middle" font-size="17" fill="#111111">Replications</text>
+
+  <text x="480" y="508" text-anchor="middle" font-size="15" fill="#111111">Replication effects were, on average, about half the size of the originals.</text>
+  <text x="40" y="530" font-size="14" fill="#111111">Open Science Collaboration (2015): 100 studies from three psychology journals.</text>
+</svg>

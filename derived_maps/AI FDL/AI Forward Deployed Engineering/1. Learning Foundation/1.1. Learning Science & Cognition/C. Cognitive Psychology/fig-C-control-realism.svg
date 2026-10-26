@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Trade-off between causal control and realism in four approaches</title>
+  <desc>A two-by-two grid. Columns run from low to high causal control; rows run from low to high realism of conditions. Laboratory experiments have high control and low realism. Field experiments have high control and high realism but are costly. Field observation has high realism and low control. Descriptive tasks have low control and low realism. Schematic illustration.</desc>
+
+  <text x="480" y="46" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Causal control and realism pull in different directions</text>
+
+  <!-- axis labels -->
+  <text x="150" y="106" font-size="16" font-weight="700" fill="#111111">Low causal control</text>
+  <text x="810" y="106" text-anchor="end" font-size="16" font-weight="700" fill="#111111">High causal control</text>
+  <text transform="rotate(-90)" x="-300" y="60" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Realism of conditions</text>
+  <text x="130" y="200" text-anchor="end" font-size="15" fill="#111111">High</text>
+  <text x="130" y="400" text-anchor="end" font-size="15" fill="#111111">Low</text>
+
+  <!-- cells -->
+  <rect x="150" y="120" width="320" height="180" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+  <text x="310" y="152" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Field observation</text>
+  <text x="310" y="180" text-anchor="middle" font-size="15" fill="#111111">Realistic behaviour; many</text>
+  <text x="310" y="202" text-anchor="middle" font-size="15" fill="#111111">interacting causes are hard</text>
+  <text x="310" y="224" text-anchor="middle" font-size="15" fill="#111111">to separate</text>
+
+  <rect x="490" y="120" width="320" height="180" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="650" y="152" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Field experiment</text>
+  <text x="650" y="180" text-anchor="middle" font-size="15" fill="#111111">Manipulation in real settings;</text>
+  <text x="650" y="202" text-anchor="middle" font-size="15" fill="#111111">strong on both counts but costly</text>
+  <text x="650" y="224" text-anchor="middle" font-size="15" fill="#111111">and hard to keep clean</text>
+
+  <rect x="150" y="320" width="320" height="180" fill="#F2F2F2" stroke="#666666" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="310" y="352" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Descriptive tasks</text>
+  <text x="310" y="380" text-anchor="middle" font-size="15" fill="#111111">Little manipulation; simple</text>
+  <text x="310" y="402" text-anchor="middle" font-size="15" fill="#111111">conditions; patterns only</text>
+
+  <rect x="490" y="320" width="320" height="180" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="650" y="352" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">Laboratory experiment</text>
+  <text x="650" y="380" text-anchor="middle" font-size="15" fill="#111111">Strong causal inference;</text>
+  <text x="650" y="402" text-anchor="middle" font-size="15" fill="#111111">simplified tasks and settings</text>
+
+  <text x="40" y="520" font-size="14" fill="#111111">Schematic. Computational models sit outside this grid: their control is over assumptions, and their realism depends on the data used.</text>
+</svg>

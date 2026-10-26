@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Landmark findings in the history of cognitive psychology</title>
+  <desc>A vertical timeline of nine landmark findings from 1879 to 2015: Wundt's Leipzig laboratory, Bartlett's reconstructive memory, Miller's chunks, Hubel and Wiesel's orientation-selective neurons, Neisser's book, Shepard and Metzler's mental rotation, Gick and Holyoak's analogy study, Kanwisher and colleagues' face-responsive region, and the Open Science Collaboration's replication project. Years are dates of publication or of the work described. Summaries, not a complete history.</desc>
+
+  <text x="480" y="46" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Landmark findings, 1879 to 2015</text>
+
+  <line x1="130" y1="90" x2="130" y2="500" stroke="#222222" stroke-width="3"/>
+
+  <g font-size="17" font-weight="700" fill="#1F3B5C" text-anchor="end">
+    <text x="105" y="111">1879</text>
+    <text x="105" y="159">1932</text>
+    <text x="105" y="207">1956</text>
+    <text x="105" y="255">1959</text>
+    <text x="105" y="303">1967</text>
+    <text x="105" y="351">1971</text>
+    <text x="105" y="399">1980</text>
+    <text x="105" y="447">1997</text>
+    <text x="105" y="495">2015</text>
+  </g>
+
+  <g fill="#1F3B5C" stroke="#000000" stroke-width="2">
+    <circle cx="130" cy="106" r="7"/>
+    <circle cx="130" cy="154" r="7"/>
+    <circle cx="130" cy="202" r="7"/>
+    <circle cx="130" cy="250" r="7"/>
+    <circle cx="130" cy="298" r="7"/>
+    <circle cx="130" cy="346" r="7"/>
+    <circle cx="130" cy="394" r="7"/>
+    <circle cx="130" cy="442" r="7"/>
+    <circle cx="130" cy="490" r="7"/>
+  </g>
+
+  <g font-size="17" fill="#111111">
+    <text x="160" y="112">Wundt opens an experimental laboratory at Leipzig</text>
+    <text x="160" y="160">Bartlett: remembered stories are rebuilt from prior knowledge</text>
+    <text x="160" y="208">Miller: short-term capacity described in chunks</text>
+    <text x="160" y="256">Hubel and Wiesel: single neurons tuned to edge orientation</text>
+    <text x="160" y="304">Neisser's Cognitive Psychology gives the field its scope</text>
+    <text x="160" y="352">Shepard and Metzler: time to match rotated objects grows with angle</text>
+    <text x="160" y="400">Gick and Holyoak: analogies used once their relevance is pointed out</text>
+    <text x="160" y="448">Kanwisher and colleagues: face-responsive region of the fusiform gyrus</text>
+    <text x="160" y="496">Open Science Collaboration: 100 replications, weaker effects</text>
+  </g>
+
+  <text x="40" y="526" font-size="14" fill="#111111">Years are dates of publication or of the work described. Entries are summaries, not a complete history.</text>
+</svg>

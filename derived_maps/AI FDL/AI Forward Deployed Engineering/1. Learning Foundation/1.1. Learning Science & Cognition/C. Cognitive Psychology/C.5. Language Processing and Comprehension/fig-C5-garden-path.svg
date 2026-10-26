@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+    <marker id="arrowgold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#7A5200"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>A garden-path sentence and the regression that repairs it</title>
+  <desc>The sentence The horse raced past the barn fell is shown as a row of words. Forward reading runs left to right. The word fell, where the first analysis breaks down, is highlighted. A curved backward arrow shows a regression to the word raced, where the reader revises the structure so that raced past the barn describes the horse. Schematic illustration.</desc>
+
+  <text x="480" y="50" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">A garden-path sentence and its repair</text>
+
+  <!-- reading order -->
+  <line x1="60" y1="170" x2="900" y2="170" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="160" text-anchor="middle" font-size="15" fill="#111111">reading order</text>
+
+  <!-- words -->
+  <rect x="40" y="200" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="95" y="232" text-anchor="middle" font-size="18" fill="#111111">The</text>
+  <rect x="165" y="200" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="220" y="232" text-anchor="middle" font-size="18" fill="#111111">horse</text>
+  <rect x="290" y="200" width="110" height="50" rx="8" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5"/>
+  <text x="345" y="232" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">raced</text>
+  <rect x="415" y="200" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="470" y="232" text-anchor="middle" font-size="18" fill="#111111">past</text>
+  <rect x="540" y="200" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="595" y="232" text-anchor="middle" font-size="18" fill="#111111">the</text>
+  <rect x="665" y="200" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="720" y="232" text-anchor="middle" font-size="18" fill="#111111">barn</text>
+  <rect x="790" y="200" width="110" height="50" rx="8" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="845" y="232" text-anchor="middle" font-size="18" font-weight="700" fill="#111111">fell</text>
+
+  <!-- forward fixation dots -->
+  <g fill="#1F3B5C">
+    <circle cx="95" cy="272" r="5"/><circle cx="220" cy="272" r="5"/><circle cx="345" cy="272" r="5"/>
+    <circle cx="470" cy="272" r="5"/><circle cx="595" cy="272" r="5"/><circle cx="720" cy="272" r="5"/><circle cx="845" cy="272" r="5"/>
+  </g>
+
+  <!-- regression -->
+  <path d="M845 252 C 845 380, 345 380, 345 252" fill="none" stroke="#7A5200" stroke-width="3" stroke-dasharray="8 4" marker-end="url(#arrowgold)"/>
+  <rect x="440" y="330" width="330" height="30" fill="#FFFFFF"/>
+  <text x="605" y="351" text-anchor="middle" font-size="17" font-weight="700" fill="#7A5200">regression: eyes return to repair</text>
+
+  <!-- annotations -->
+  <text x="40" y="420" font-size="17" font-weight="700" fill="#111111">First analysis:</text>
+  <text x="200" y="420" font-size="17" fill="#111111">raced is the main verb, and the horse is the subject of raced.</text>
+  <text x="40" y="450" font-size="17" font-weight="700" fill="#111111">Revised analysis:</text>
+  <text x="222" y="450" font-size="17" fill="#111111">raced past the barn describes the horse; fell is the main verb.</text>
+
+  <text x="40" y="520" font-size="14" fill="#111111">Schematic illustration of reading order and a regression, not eye-tracking data.</text>
+</svg>

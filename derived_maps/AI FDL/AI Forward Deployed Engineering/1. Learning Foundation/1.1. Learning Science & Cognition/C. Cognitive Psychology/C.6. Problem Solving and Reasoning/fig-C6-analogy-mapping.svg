@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Mapping the fortress story onto the radiation problem</title>
+  <desc>Two columns of relations, aligned in four rows. Left: the source story about a general and a fortress. Right: the target radiation problem. Dashed lines map each source relation to a target relation: an army too large for one road maps to a ray too strong for healthy tissue; splitting the army into small groups maps to splitting the ray into weak beams; several roads map to several directions; convergence on the fortress maps to convergence on the tumour. Schematic illustration.</desc>
+
+  <text x="480" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">Mapping the structure, not the surface</text>
+
+  <text x="180" y="100" text-anchor="middle" font-size="19" font-weight="700" fill="#111111">Source: fortress story</text>
+  <text x="780" y="100" text-anchor="middle" font-size="19" font-weight="700" fill="#111111">Target: radiation problem</text>
+
+  <!-- row 1 -->
+  <rect x="40" y="130" width="280" height="62" rx="8" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="180" y="158" text-anchor="middle" font-size="16" fill="#111111">Army too large for any one road</text>
+  <text x="180" y="180" text-anchor="middle" font-size="15" fill="#111111">mines block the direct route</text>
+  <rect x="640" y="130" width="280" height="62" rx="8" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="780" y="158" text-anchor="middle" font-size="16" fill="#111111">Ray too strong for healthy tissue</text>
+  <text x="780" y="180" text-anchor="middle" font-size="15" fill="#111111">it would destroy what it passes</text>
+  <line x1="320" y1="161" x2="640" y2="161" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <text x="480" y="152" text-anchor="middle" font-size="15" font-weight="700" fill="#7A5200">same constraint</text>
+
+  <!-- row 2 -->
+  <rect x="40" y="226" width="280" height="62" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="180" y="254" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Army split into small groups</text>
+  <text x="180" y="276" text-anchor="middle" font-size="15" fill="#111111">each small enough to pass</text>
+  <rect x="640" y="226" width="280" height="62" rx="8" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="780" y="254" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Ray split into weak beams</text>
+  <text x="780" y="276" text-anchor="middle" font-size="15" fill="#111111">each too weak to harm tissue</text>
+  <line x1="320" y1="257" x2="640" y2="257" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <text x="480" y="248" text-anchor="middle" font-size="15" font-weight="700" fill="#7A5200">same solution</text>
+
+  <!-- row 3 -->
+  <rect x="40" y="322" width="280" height="62" rx="8" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="180" y="350" text-anchor="middle" font-size="16" fill="#111111">Roads from several directions</text>
+  <text x="180" y="372" text-anchor="middle" font-size="15" fill="#111111">the groups approach separately</text>
+  <rect x="640" y="322" width="280" height="62" rx="8" fill="#F2F2F2" stroke="#222222" stroke-width="1.5"/>
+  <text x="780" y="350" text-anchor="middle" font-size="16" fill="#111111">Beams from several directions</text>
+  <text x="780" y="372" text-anchor="middle" font-size="15" fill="#111111">each path avoids the tissue</text>
+  <line x1="320" y1="353" x2="640" y2="353" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <text x="480" y="344" text-anchor="middle" font-size="15" font-weight="700" fill="#7A5200">same means</text>
+
+  <!-- row 4 -->
+  <rect x="40" y="418" width="280" height="62" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="180" y="446" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Groups converge on the fortress</text>
+  <text x="180" y="468" text-anchor="middle" font-size="15" fill="#111111">their forces add up at the target</text>
+  <rect x="640" y="418" width="280" height="62" rx="8" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2.5"/>
+  <text x="780" y="446" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">Beams converge on the tumour</text>
+  <text x="780" y="468" text-anchor="middle" font-size="15" fill="#111111">their doses add up at the target</text>
+  <line x1="320" y1="449" x2="640" y2="449" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="8 4" marker-end="url(#arrow)"/>
+  <text x="480" y="440" text-anchor="middle" font-size="15" font-weight="700" fill="#7A5200">same goal</text>
+
+  <text x="40" y="524" font-size="14" fill="#111111">Schematic. Each dashed line maps a relation in the source to a relation in the target; the objects differ, the structure is shared.</text>
+</svg>
