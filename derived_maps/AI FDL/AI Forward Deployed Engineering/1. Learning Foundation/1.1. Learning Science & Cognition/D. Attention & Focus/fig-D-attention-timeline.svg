@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Key findings in the study of attention, 1948 to 2010</title>
+  <desc>A timeline marks selected studies and models of attention from 1948 to 2010, each labelled with its author or authors and its contribution. Schematic timeline; the placement shows only the year of publication.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="44" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Landmarks in the study of attention</text>
+  <text x="480" y="70" text-anchor="middle" font-size="15" fill="#111111">Selected publications by year; the position shows the year of publication only.</text>
+  <line x1="50.0" y1="490" x2="907.6" y2="490" stroke="#222222" stroke-width="2"/>
+  <line x1="114.0" y1="490" x2="114.0" y2="496" stroke="#222222" stroke-width="1.5"/>
+  <text x="114.0" y="514" text-anchor="middle" font-size="14" fill="#111111">1950</text>
+  <line x1="242.0" y1="490" x2="242.0" y2="496" stroke="#222222" stroke-width="1.5"/>
+  <text x="242.0" y="514" text-anchor="middle" font-size="14" fill="#111111">1960</text>
+  <line x1="370.0" y1="490" x2="370.0" y2="496" stroke="#222222" stroke-width="1.5"/>
+  <text x="370.0" y="514" text-anchor="middle" font-size="14" fill="#111111">1970</text>
+  <line x1="498.0" y1="490" x2="498.0" y2="496" stroke="#222222" stroke-width="1.5"/>
+  <text x="498.0" y="514" text-anchor="middle" font-size="14" fill="#111111">1980</text>
+  <line x1="626.0" y1="490" x2="626.0" y2="496" stroke="#222222" stroke-width="1.5"/>
+  <text x="626.0" y="514" text-anchor="middle" font-size="14" fill="#111111">1990</text>
+  <line x1="754.0" y1="490" x2="754.0" y2="496" stroke="#222222" stroke-width="1.5"/>
+  <text x="754.0" y="514" text-anchor="middle" font-size="14" fill="#111111">2000</text>
+  <line x1="882.0" y1="490" x2="882.0" y2="496" stroke="#222222" stroke-width="1.5"/>
+  <text x="882.0" y="514" text-anchor="middle" font-size="14" fill="#111111">2010</text>
+  <circle cx="88.4" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(92.4 476) rotate(-90)" font-size="14" fill="#111111">1948 Mackworth: vigilance clock</text>
+  <circle cx="152.4" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(156.4 450) rotate(-90)" font-size="14" fill="#111111">1953 Cherry: cocktail party problem</text>
+  <circle cx="216.4" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(220.4 476) rotate(-90)" font-size="14" fill="#111111">1958 Broadbent: early filter</text>
+  <circle cx="280.4" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(284.4 450) rotate(-90)" font-size="14" fill="#111111">1963 Deutsch and Deutsch: late selection</text>
+  <circle cx="293.2" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(297.2 476) rotate(-90)" font-size="14" fill="#111111">1964 Treisman: attenuation</text>
+  <circle cx="408.4" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(412.4 450) rotate(-90)" font-size="14" fill="#111111">1973 Kahneman: capacity model</text>
+  <circle cx="498.0" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(502.0 476) rotate(-90)" font-size="14" fill="#111111">1980 Posner: spatial cueing</text>
+  <circle cx="626.0" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(630.0 450) rotate(-90)" font-size="14" fill="#111111">1990 Posner and Petersen: networks</text>
+  <circle cx="651.6" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(655.6 476) rotate(-90)" font-size="14" fill="#111111">1992 Raymond et al.: attentional blink</text>
+  <circle cx="690.0" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(694.0 450) rotate(-90)" font-size="14" fill="#111111">1995 Lavie: perceptual load</text>
+  <circle cx="741.2" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(745.2 476) rotate(-90)" font-size="14" fill="#111111">1999 Simons and Chabris: gorilla study</text>
+  <circle cx="779.6" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(783.6 450) rotate(-90)" font-size="14" fill="#111111">2002 Corbetta and Shulman: two networks</text>
+  <circle cx="869.2" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(873.2 476) rotate(-90)" font-size="14" fill="#111111">2009 Ophir et al.: media multitasking</text>
+  <circle cx="882.0" cy="490" r="5" fill="#1F3B5C" stroke="#000000" stroke-width="1.5"/>
+  <text transform="translate(886.0 450) rotate(-90)" font-size="14" fill="#111111">2010 Watson and Strayer: supertaskers</text>
+  <text x="480" y="526" text-anchor="middle" font-size="13" fill="#111111">Schematic timeline. Labels are summaries of each contribution, not full titles. Dates are years of publication.</text>
+</svg>

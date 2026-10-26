@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>A vigilance clock task with occasional double jumps</title>
+  <desc>A clock-face pointer moves one step at a time. At rare, irregular intervals it makes a double step, which is the signal the observer must detect by pressing a key. The schematic shows the pointer position and the rules of the task. Schematic.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">A vigilance clock task</text>
+  <text x="480" y="80" text-anchor="middle" font-size="15" fill="#111111">Schematic of the general design; the pointer moves in small steps.</text>
+  <circle cx="300" cy="290" r="165" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <circle cx="300" cy="290" r="6" fill="#111111"/>
+  <line x1="300" y1="290" x2="300" y2="150" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <line x1="300" y1="290" x2="382" y2="232" stroke="#8B0000" stroke-width="5" stroke-linecap="round"/>
+  <line x1="300" y1="290" x2="408" y2="290" stroke="#111111" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="300" y="118" text-anchor="middle" font-size="15" fill="#111111">Start</text>
+  <text x="520" y="200" font-size="15" font-weight="bold" fill="#8B0000">Double step</text>
+  <text x="520" y="222" font-size="14" fill="#111111">the signal, rare and irregular</text>
+  <text x="520" y="290" font-size="15" font-weight="bold" fill="#111111">Single steps</text>
+  <text x="520" y="312" font-size="14" fill="#111111">the ordinary movement, every second</text>
+  <text x="520" y="382" font-size="15" font-weight="bold" fill="#111111">Response</text>
+  <text x="520" y="404" font-size="14" fill="#111111">press a key on each double step</text>
+  <rect x="520" y="420" width="340" height="50" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <text x="690" y="450" text-anchor="middle" font-size="14" fill="#111111">Detection of signals across the watch is the measure.</text>
+  <text x="480" y="515" text-anchor="middle" font-size="14" fill="#111111">Schematic; the rate and timing of signals in the original procedure are not reproduced here.</text>
+</svg>

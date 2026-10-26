@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Distraction and interruption on one task timeline</title>
+  <desc>Two schematic timelines. In the first, a task continues while attention is briefly diverted. In the second, the task is suspended by a phone call and resumed after a lag.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+<text x="40" y="60" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">One task, two kinds of disruption</text>
+<text x="40" y="150" font-size="18" text-anchor="start" font-weight="bold" fill="#111111">Distraction</text>
+<rect x="200" y="125" width="680" height="50" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2" color="#111111"/>
+<text x="540.0" y="155.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Writing the report: the task stays active throughout</text>
+<rect x="470" y="66" width="200" height="36" rx="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" color="#111111"/>
+<text x="570.0" y="88.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">glance at a notification</text>
+<line x1="570" y1="102" x2="570" y2="125" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="40" y="300" font-size="18" text-anchor="start" font-weight="bold" fill="#111111">Interruption</text>
+<rect x="200" y="275" width="260" height="50" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2" color="#111111"/>
+<text x="330.0" y="305.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Writing the report</text>
+<rect x="460" y="275" width="160" height="50" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" color="#111111"/>
+<text x="540.0" y="305.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Phone call</text>
+<rect x="620" y="275" width="260" height="50" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3" color="#111111"/>
+<text x="750.0" y="305.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Resumed after rebuilding context</text>
+<line x1="620" y1="345" x2="740" y2="345" stroke="#222222" stroke-width="2"/>
+<line x1="620" y1="338" x2="620" y2="352" stroke="#222222" stroke-width="2"/>
+<line x1="740" y1="338" x2="740" y2="352" stroke="#222222" stroke-width="2"/>
+<text x="680" y="375" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">resumption lag</text>
+<line x1="200" y1="440" x2="880" y2="440" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="880" y="470" font-size="15" text-anchor="end" font-weight="normal" fill="#111111">time</text>
+<text x="40" y="510" font-size="14" text-anchor="start" font-weight="normal" fill="#333333">Schematic timelines; segment widths are not to scale.</text>
+</svg>

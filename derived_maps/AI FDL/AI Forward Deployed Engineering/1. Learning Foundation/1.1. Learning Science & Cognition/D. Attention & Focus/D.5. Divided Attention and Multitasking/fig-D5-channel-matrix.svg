@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Which pairs of tasks tend to interfere, by channel</title>
+  <desc>A three-by-three grid pairs three channels: visual reading, listening and spoken reply. Pairs that use the same channel are shaded as more likely to interfere; pairs that use different channels are white and dashed as less likely. Schematic and illustrative.</desc>
+  <defs>
+    <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F6CACA"/><path d="M0 5H10" stroke="#8B0000" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Which pairs of tasks tend to interfere</text>
+  <text x="480" y="80" text-anchor="middle" font-size="15" fill="#111111">Schematic; the pattern describes the general tendency, not measured values.</text>
+  <text x="620" y="124" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Second task channel</text>
+  <text x="440" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Visual reading</text>
+  <text x="620" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Listening</text>
+  <text x="800" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Spoken reply</text>
+  <text x="170" y="210" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Visual reading</text>
+  <text x="170" y="330" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Listening</text>
+  <text x="170" y="450" text-anchor="end" font-size="15" font-weight="bold" fill="#111111">Spoken reply</text>
+  <text x="90" y="330" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111" transform="rotate(-90 90 330)">First task channel</text>
+  <!-- Row 1 -->
+  <rect x="360" y="165" width="160" height="110" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="540" y="165" width="160" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="720" y="165" width="160" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <!-- Row 2 -->
+  <rect x="360" y="285" width="160" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="540" y="285" width="160" height="110" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <rect x="720" y="285" width="160" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <!-- Row 3 -->
+  <rect x="360" y="405" width="160" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="540" y="405" width="160" height="110" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="720" y="405" width="160" height="110" fill="url(#lines)" stroke="#8B0000" stroke-width="2"/>
+  <!-- Cell labels -->
+  <text x="440" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Same channel</text>
+  <text x="440" y="222" text-anchor="middle" font-size="14" fill="#111111">more interference</text>
+  <text x="620" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Different channel</text>
+  <text x="620" y="222" text-anchor="middle" font-size="14" fill="#111111">less interference</text>
+  <text x="800" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Different channel</text>
+  <text x="800" y="222" text-anchor="middle" font-size="14" fill="#111111">less interference</text>
+  <text x="440" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Different channel</text>
+  <text x="440" y="342" text-anchor="middle" font-size="14" fill="#111111">less interference</text>
+  <text x="620" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Same channel</text>
+  <text x="620" y="342" text-anchor="middle" font-size="14" fill="#111111">more interference</text>
+  <text x="800" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Different channel</text>
+  <text x="800" y="342" text-anchor="middle" font-size="14" fill="#111111">less interference</text>
+  <text x="440" y="440" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Different channel</text>
+  <text x="440" y="462" text-anchor="middle" font-size="14" fill="#111111">less interference</text>
+  <text x="620" y="440" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Different channel</text>
+  <text x="620" y="462" text-anchor="middle" font-size="14" fill="#111111">less interference</text>
+  <text x="800" y="440" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Same channel</text>
+  <text x="800" y="462" text-anchor="middle" font-size="14" fill="#111111">more interference</text>
+  <text x="480" y="532" text-anchor="middle" font-size="14" fill="#111111">Shaded with lines: more likely to interfere. White and dashed: less likely. Schematic.</text>
+</svg>

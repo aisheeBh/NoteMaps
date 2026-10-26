@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Schematic of switch cost when alternating between two tasks</title>
+  <desc>Two timelines compare one task worked on continuously with the same work split between two tasks. Hatched gaps mark the time lost at each switch. Schematic; the gap lengths are illustrative.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#F6CACA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8B0000" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Switch cost: time lost each time attention changes task</text>
+  <text x="480" y="80" text-anchor="middle" font-size="15" fill="#111111">Schematic; the length of each gap is illustrative, not measured.</text>
+  <text x="60" y="190" font-size="16" font-weight="bold" fill="#111111">One task</text>
+  <text x="60" y="214" font-size="14" fill="#111111">continuous work</text>
+  <rect x="220" y="160" width="640" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="540" y="190" text-anchor="middle" font-size="15" fill="#111111">Task A, all in one run</text>
+  <text x="60" y="330" font-size="16" font-weight="bold" fill="#111111">Two tasks alternating</text>
+  <text x="60" y="354" font-size="14" fill="#111111">same total work, split</text>
+  <rect x="220" y="300" width="120" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="280" y="330" text-anchor="middle" font-size="14" fill="#111111">A</text>
+  <rect x="340" y="300" width="60" height="50" fill="url(#hatch)" stroke="#8B0000" stroke-width="1.5"/>
+  <rect x="400" y="300" width="120" height="50" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="460" y="330" text-anchor="middle" font-size="14" fill="#111111">B</text>
+  <rect x="520" y="300" width="60" height="50" fill="url(#hatch)" stroke="#8B0000" stroke-width="1.5"/>
+  <rect x="580" y="300" width="120" height="50" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="640" y="330" text-anchor="middle" font-size="14" fill="#111111">A</text>
+  <rect x="700" y="300" width="60" height="50" fill="url(#hatch)" stroke="#8B0000" stroke-width="1.5"/>
+  <rect x="760" y="300" width="100" height="50" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="810" y="330" text-anchor="middle" font-size="14" fill="#111111">B</text>
+  <text x="370" y="385" text-anchor="middle" font-size="14" font-weight="bold" fill="#8B0000">switch</text>
+  <text x="550" y="385" text-anchor="middle" font-size="14" font-weight="bold" fill="#8B0000">switch</text>
+  <text x="730" y="385" text-anchor="middle" font-size="14" font-weight="bold" fill="#8B0000">switch</text>
+  <rect x="60" y="430" width="840" height="60" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <text x="480" y="458" text-anchor="middle" font-size="15" fill="#111111">Hatched gaps are the switch cost. Each switch consumes time before useful work resumes.</text>
+  <text x="480" y="480" text-anchor="middle" font-size="14" fill="#111111">Switch costs add up across many switches, even when each one looks small.</text>
+  <text x="480" y="520" text-anchor="middle" font-size="13" fill="#111111">Schematic; not drawn from a particular experiment.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Attention restoration theory as a schematic process</title>
+  <desc>Left-to-right chain from effortful work through directed-attention fatigue, a restorative setting, rest of directed attention and restored focus. Below, scrolling during a break loops back to fatigue, while a walk or view of trees leads to restoration.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+<text x="40" y="60" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">How restoration is described by attention restoration theory</text>
+<rect x="40" y="165" width="140" height="100" rx="6" fill="#1F3B5C" stroke="#000000" stroke-width="3" color="#FFFFFF"/>
+<text x="110.0" y="210.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#FFFFFF">Effortful work</text>
+<text x="110.0" y="228.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#FFFFFF">directed attention</text>
+<rect x="215" y="165" width="140" height="100" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" color="#111111"/>
+<text x="285.0" y="210.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Directed-attention</text>
+<text x="285.0" y="228.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">fatigue</text>
+<rect x="390" y="150" width="140" height="130" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2" color="#111111"/>
+<text x="460.0" y="192.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Restorative setting:</text>
+<text x="460.0" y="210.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">being away, soft</text>
+<text x="460.0" y="228.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">fascination, extent,</text>
+<text x="460.0" y="246.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">compatibility</text>
+<rect x="565" y="165" width="140" height="100" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2" color="#111111"/>
+<text x="635.0" y="201.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Directed attention</text>
+<text x="635.0" y="219.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">rests; involuntary</text>
+<text x="635.0" y="237.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">attention engaged</text>
+<rect x="740" y="165" width="140" height="100" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3" color="#111111"/>
+<text x="810.0" y="210.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Focus restored</text>
+<text x="810.0" y="228.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">back to work</text>
+<line x1="180" y1="215" x2="215" y2="215" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="355" y1="215" x2="390" y2="215" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="530" y1="215" x2="565" y2="215" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="705" y1="215" x2="740" y2="215" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="215" y="340" width="170" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" color="#111111"/>
+<text x="300.0" y="370.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">Scrolling or email</text>
+<text x="300.0" y="388.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">during a break</text>
+<line x1="300" y1="340" x2="285" y2="282" stroke="#222222" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<text x="300" y="432" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">keeps directed attention busy</text>
+<rect x="565" y="340" width="170" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3" color="#111111"/>
+<text x="650.0" y="370.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">A walk, a view of trees,</text>
+<text x="650.0" y="388.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">an unrelated chat</text>
+<line x1="650" y1="340" x2="650" y2="282" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="40" y="470" font-size="14" text-anchor="start" font-weight="normal" fill="#333333">Schematic of the theory's account; not a measurement.</text>
+</svg>
