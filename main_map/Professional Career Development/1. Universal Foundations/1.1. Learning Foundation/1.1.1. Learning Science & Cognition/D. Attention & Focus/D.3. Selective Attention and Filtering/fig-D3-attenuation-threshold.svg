@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Attenuation of an unattended signal and two thresholds</title>
+  <desc>Three bars show an attended signal at full strength, an unattended ordinary word after attenuation, and an own name in the unattended channel after attenuation. A higher threshold applies to ordinary words and a lower threshold to the own name. Only the own name passes its threshold. Schematic.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Attenuation: weakened signals and different thresholds</text>
+  <text x="480" y="80" text-anchor="middle" font-size="15" fill="#111111">Schematic; the heights are illustrative and not measured.</text>
+  <text transform="translate(110 300) rotate(-90)" text-anchor="middle" font-size="15" fill="#111111">Strength of the signal (schematic)</text>
+  <line x1="170" y1="450" x2="700" y2="450" stroke="#222222" stroke-width="2"/>
+  <line x1="170" y1="130" x2="170" y2="450" stroke="#222222" stroke-width="2"/>
+  <line x1="170" y1="260" x2="700" y2="260" stroke="#111111" stroke-width="2.5" stroke-dasharray="10 6"/>
+  <line x1="170" y1="350" x2="700" y2="350" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="2 4"/>
+  <text x="715" y="252" font-size="15" font-weight="bold" fill="#111111">Ordinary-word threshold</text>
+  <text x="715" y="272" font-size="14" fill="#111111">(black dashed line)</text>
+  <text x="715" y="342" font-size="15" font-weight="bold" fill="#8B0000">Own-name threshold</text>
+  <text x="715" y="362" font-size="14" fill="#111111">(red dotted line, lower)</text>
+  <rect x="200" y="150" width="110" height="300" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="255" y="476" text-anchor="middle" font-size="15" fill="#111111">Attended signal</text>
+  <rect x="380" y="380" width="110" height="70" fill="#FFFFFF" stroke="#333333" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="435" y="476" text-anchor="middle" font-size="15" fill="#111111">Unattended word</text>
+  <text x="435" y="496" text-anchor="middle" font-size="14" fill="#111111">after attenuation</text>
+  <text x="435" y="366" text-anchor="middle" font-size="14" fill="#111111">Below both</text>
+  <rect x="560" y="300" width="110" height="150" fill="#F6CACA" stroke="#8B0000" stroke-width="2"/>
+  <text x="615" y="476" text-anchor="middle" font-size="15" fill="#111111">Own name in</text>
+  <text x="615" y="496" text-anchor="middle" font-size="14" fill="#111111">unattended channel</text>
+  <text x="615" y="286" text-anchor="middle" font-size="14" fill="#111111">Above own-name only</text>
+  <text x="480" y="524" text-anchor="middle" font-size="14" fill="#111111">Only signals above the relevant threshold receive full analysis. Schematic.</text>
+</svg>

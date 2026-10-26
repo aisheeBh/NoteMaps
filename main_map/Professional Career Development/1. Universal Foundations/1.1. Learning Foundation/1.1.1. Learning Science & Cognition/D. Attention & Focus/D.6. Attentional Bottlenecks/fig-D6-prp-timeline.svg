@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Two responses close together: the second is delayed</title>
+  <desc>Two timelines show two tasks, each with a signal (S) and a response (R). When the second signal follows the first closely, the second response waits for the first to finish its central step; with a longer interval, the wait is shorter. Schematic.</desc>
+  <defs>
+    <pattern id="wait" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#F6CACA"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8B0000" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Two responses close together: the second waits</text>
+  <text x="480" y="80" text-anchor="middle" font-size="15" fill="#111111">Schematic timelines; the durations are illustrative, not measured.</text>
+  <text x="60" y="160" font-size="16" font-weight="bold" fill="#111111">Short gap</text>
+  <text x="60" y="182" font-size="14" fill="#111111">between signals</text>
+  <line x1="160" y1="200" x2="900" y2="200" stroke="#222222" stroke-width="2"/>
+  <line x1="200" y1="150" x2="200" y2="210" stroke="#111111" stroke-width="2.5"/>
+  <text x="200" y="142" text-anchor="middle" font-size="15" fill="#111111">S1</text>
+  <line x1="260" y1="150" x2="260" y2="210" stroke="#111111" stroke-width="2.5"/>
+  <text x="260" y="142" text-anchor="middle" font-size="15" fill="#111111">S2</text>
+  <rect x="300" y="186" width="300" height="28" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="450" y="205" text-anchor="middle" font-size="14" fill="#111111">Task 1 central step</text>
+  <rect x="600" y="186" width="160" height="28" fill="url(#wait)" stroke="#8B0000" stroke-width="2"/>
+  <text x="680" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#8B0000">R2 waits</text>
+  <line x1="600" y1="150" x2="600" y2="210" stroke="#111111" stroke-width="2.5"/>
+  <text x="600" y="142" text-anchor="middle" font-size="15" fill="#111111">R1</text>
+  <line x1="760" y1="150" x2="760" y2="210" stroke="#111111" stroke-width="2.5"/>
+  <text x="760" y="142" text-anchor="middle" font-size="15" fill="#111111">R2</text>
+  <text x="480" y="250" text-anchor="middle" font-size="14" fill="#111111">The second response is delayed while the first finishes its central step.</text>
+  <text x="60" y="350" font-size="16" font-weight="bold" fill="#111111">Longer gap</text>
+  <text x="60" y="372" font-size="14" fill="#111111">between signals</text>
+  <line x1="160" y1="390" x2="900" y2="390" stroke="#222222" stroke-width="2"/>
+  <line x1="200" y1="340" x2="200" y2="400" stroke="#111111" stroke-width="2.5"/>
+  <text x="200" y="332" text-anchor="middle" font-size="15" fill="#111111">S1</text>
+  <line x1="700" y1="340" x2="700" y2="400" stroke="#111111" stroke-width="2.5"/>
+  <text x="700" y="332" text-anchor="middle" font-size="15" fill="#111111">S2</text>
+  <rect x="240" y="376" width="200" height="28" fill="#D3ECD3" stroke="#1E5E24" stroke-width="2"/>
+  <text x="340" y="395" text-anchor="middle" font-size="14" fill="#111111">Task 1 central step</text>
+  <line x1="440" y1="340" x2="440" y2="400" stroke="#111111" stroke-width="2.5"/>
+  <text x="440" y="332" text-anchor="middle" font-size="15" fill="#111111">R1</text>
+  <rect x="700" y="376" width="110" height="28" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="755" y="395" text-anchor="middle" font-size="14" fill="#111111">Task 2</text>
+  <line x1="830" y1="340" x2="830" y2="400" stroke="#111111" stroke-width="2.5"/>
+  <text x="830" y="332" text-anchor="middle" font-size="15" fill="#111111">R2</text>
+  <text x="480" y="450" text-anchor="middle" font-size="14" fill="#111111">With more time between the signals, the second response follows with little delay.</text>
+  <rect x="120" y="470" width="720" height="44" fill="#F2F2F2" stroke="#555555" stroke-width="1.5"/>
+  <text x="480" y="498" text-anchor="middle" font-size="14" fill="#111111">Shorter gap between signals, longer delay for the second response. Schematic.</text>
+  <text x="480" y="527" text-anchor="middle" font-size="13" fill="#111111">Hatched segment: the wait for the central step to be free.</text>
+</svg>

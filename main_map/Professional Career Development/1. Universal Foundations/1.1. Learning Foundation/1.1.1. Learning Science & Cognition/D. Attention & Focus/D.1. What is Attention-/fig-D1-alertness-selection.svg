@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Alertness and selection vary independently</title>
+  <desc>A two-by-two grid crosses alertness (alert or drowsy) with selection (precise or diffuse), with one illustrative case in each cell. Schematic.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="56" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Alertness and selection vary independently</text>
+  <text x="350" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Selection precise</text>
+  <text x="650" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Selection diffuse</text>
+  <text x="180" y="210" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Alert</text>
+  <text x="180" y="350" text-anchor="end" font-size="16" font-weight="bold" fill="#111111">Drowsy</text>
+  <!-- top left -->
+  <rect x="200" y="130" width="300" height="150" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="216" y="160" font-size="18" font-weight="bold" fill="#111111">Alert and selective</text>
+  <text x="216" y="188" font-size="15" fill="#111111">A surgeon tracks one monitor,</text>
+  <text x="216" y="210" font-size="15" fill="#111111">ignoring incidental noise.</text>
+  <!-- top right -->
+  <rect x="500" y="130" width="300" height="150" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="8 5"/>
+  <text x="516" y="160" font-size="18" font-weight="bold" fill="#111111">Alert but diffuse</text>
+  <text x="516" y="188" font-size="15" fill="#111111">A newsroom notices everything</text>
+  <text x="516" y="210" font-size="15" fill="#111111">but prioritises nothing.</text>
+  <!-- bottom left -->
+  <rect x="200" y="290" width="300" height="150" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="216" y="320" font-size="18" font-weight="bold" fill="#111111">Drowsy but selective</text>
+  <text x="216" y="348" font-size="15" fill="#111111">A tired reviewer fixes on one</text>
+  <text x="216" y="370" font-size="15" fill="#111111">familiar line and misses the</text>
+  <text x="216" y="392" font-size="15" fill="#111111">anomaly on the next.</text>
+  <!-- bottom right -->
+  <rect x="500" y="290" width="300" height="150" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="516" y="320" font-size="18" font-weight="bold" fill="#111111">Drowsy and diffuse</text>
+  <text x="516" y="348" font-size="15" fill="#111111">Eyes move along the page;</text>
+  <text x="516" y="370" font-size="15" fill="#111111">the mind is somewhere else.</text>
+  <text x="480" y="492" text-anchor="middle" font-size="14" fill="#111111">Schematic; the four cases are illustrative and are not measured groups.</text>
+</svg>

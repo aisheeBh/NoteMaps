@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Schematic office plan with quiet, collaboration and call zones</title>
+  <desc>Schematic plan of an office floor. A quiet focus area with desks is separated by a dashed wall from a collaboration area with a table, a row of enclosed phone booths and a shared kitchen and printing area.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+<text x="40" y="60" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">A plan of an office with separate zones</text>
+<rect x="80" y="100" width="800" height="340" fill="#FFFFFF" stroke="#222222" stroke-width="2.5"/>
+<rect x="100" y="120" width="260" height="300" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="230" y="150" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Quiet focus area</text>
+<rect x="130" y="190" width="60" height="34" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<rect x="210" y="190" width="60" height="34" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<rect x="130" y="270" width="60" height="34" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<rect x="210" y="270" width="60" height="34" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<text x="230" y="355" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">silence agreed</text>
+<rect x="400" y="120" width="280" height="190" fill="#F2F2F2" stroke="#333333" stroke-width="1.5"/>
+<text x="540" y="150" font-size="17" text-anchor="middle" font-weight="bold" fill="#111111">Collaboration area</text>
+<circle cx="540" cy="225" r="40" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+<circle cx="540" cy="180" r="7" fill="#BCD5EE" stroke="#1F3B5C"/>
+<circle cx="540" cy="270" r="7" fill="#BCD5EE" stroke="#1F3B5C"/>
+<circle cx="500" cy="225" r="7" fill="#BCD5EE" stroke="#1F3B5C"/>
+<circle cx="580" cy="225" r="7" fill="#BCD5EE" stroke="#1F3B5C"/>
+<rect x="720" y="130" width="70" height="70" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+<text x="755" y="172" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">booth</text>
+<rect x="720" y="215" width="70" height="70" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+<text x="755" y="257" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">booth</text>
+<rect x="720" y="300" width="70" height="70" fill="#FFFFFF" stroke="#1F3B5C" stroke-width="2"/>
+<text x="755" y="342" font-size="14" text-anchor="middle" font-weight="normal" fill="#111111">booth</text>
+<rect x="400" y="330" width="280" height="90" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="540" y="382" font-size="16" text-anchor="middle" font-weight="normal" fill="#111111">Shared kitchen and printing</text>
+<line x1="380" y1="300" x2="400" y2="300" stroke="#333333" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<text x="40" y="470" font-size="14" text-anchor="start" font-weight="normal" fill="#333333">Schematic plan; not to scale. Zone sizes and positions are illustrative.</text>
+</svg>

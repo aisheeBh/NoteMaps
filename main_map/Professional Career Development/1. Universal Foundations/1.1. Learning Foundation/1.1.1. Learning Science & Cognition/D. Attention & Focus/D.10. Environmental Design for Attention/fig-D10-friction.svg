@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Friction added to distraction and removed from focus</title>
+  <desc>Two rows of boxes. The distraction route has three friction barriers between intention and distraction. The focus route has prepared elements that remove steps before focused work begins.</desc>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#BCD5EE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#1F3B5C" stroke-width="1.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+<text x="40" y="60" font-size="22" text-anchor="start" font-weight="bold" fill="#111111">Friction placed on two routes to the same task</text>
+<text x="40" y="140" font-size="17" text-anchor="start" font-weight="bold" fill="#111111">Distraction route: friction added</text>
+<rect x="40" y="160" width="170" height="70" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2" color="#111111"/>
+<text x="125.0" y="190.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Intention: stay</text>
+<text x="125.0" y="209.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">on the report</text>
+<line x1="210" y1="195" x2="260" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="260" y="160" width="170" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" color="#111111"/>
+<text x="345.0" y="190.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Phone in another</text>
+<text x="345.0" y="209.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">room</text>
+<line x1="430" y1="195" x2="480" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="480" y="160" width="170" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" color="#111111"/>
+<text x="565.0" y="190.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Apps off the</text>
+<text x="565.0" y="209.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">home screen</text>
+<line x1="650" y1="195" x2="700" y2="195" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="700" y="160" width="170" height="70" rx="6" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3" color="#111111"/>
+<text x="785.0" y="190.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Signed out of</text>
+<text x="785.0" y="209.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">social sites</text>
+<text x="40" y="300" font-size="17" text-anchor="start" font-weight="bold" fill="#111111">Focus route: friction removed</text>
+<rect x="40" y="320" width="170" height="70" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2" color="#111111"/>
+<text x="125.0" y="360.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Start the task</text>
+<line x1="210" y1="355" x2="260" y2="355" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="260" y="320" width="170" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3" color="#111111"/>
+<text x="345.0" y="360.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">File already open</text>
+<line x1="430" y1="355" x2="480" y2="355" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="480" y="320" width="170" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3" color="#111111"/>
+<text x="565.0" y="360.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Materials within reach</text>
+<line x1="650" y1="355" x2="700" y2="355" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="700" y="320" width="170" height="70" rx="6" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3" color="#111111"/>
+<text x="785.0" y="360.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#111111">Focus mode on</text>
+<text x="40" y="450" font-size="15" text-anchor="start" font-weight="normal" fill="#111111">Each barrier adds a small step to the distraction; each prepared element removes a step from the task.</text>
+<text x="40" y="505" font-size="14" text-anchor="start" font-weight="normal" fill="#333333">Schematic: friction is placed on the distraction route and removed from the focus route.</text>
+</svg>

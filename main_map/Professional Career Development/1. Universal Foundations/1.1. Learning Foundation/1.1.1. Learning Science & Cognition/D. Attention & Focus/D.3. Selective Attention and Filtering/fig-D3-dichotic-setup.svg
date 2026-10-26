@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Dichotic listening: one message attended, one ignored</title>
+  <desc>Two spoken messages reach the two ears. The attended message is repeated aloud and processed for meaning. The unattended message is largely reduced to physical features, with an exception for personally important words such as one's own name. Schematic.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Dichotic listening: one message attended, one ignored</text>
+  <text x="480" y="80" text-anchor="middle" font-size="15" fill="#111111">Schematic of the general procedure used in shadowing experiments.</text>
+  <rect x="40" y="130" width="250" height="120" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="3"/>
+  <text x="165" y="162" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Right ear</text>
+  <text x="165" y="190" text-anchor="middle" font-size="15" fill="#111111">Message A (attended)</text>
+  <text x="165" y="212" text-anchor="middle" font-size="15" fill="#111111">repeated aloud</text>
+  <rect x="40" y="290" width="250" height="120" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="8 5"/>
+  <text x="165" y="322" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Left ear</text>
+  <text x="165" y="350" text-anchor="middle" font-size="15" fill="#111111">Message B (unattended)</text>
+  <text x="165" y="372" text-anchor="middle" font-size="15" fill="#111111">to be ignored</text>
+  <rect x="360" y="200" width="200" height="150" fill="#1F3B5C" stroke="#000000" stroke-width="3"/>
+  <text x="460" y="240" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">Selection</text>
+  <text x="460" y="268" text-anchor="middle" font-size="15" fill="#FFFFFF">stage (filter or</text>
+  <text x="460" y="290" text-anchor="middle" font-size="15" fill="#FFFFFF">attenuation)</text>
+  <line x1="290" y1="190" x2="356" y2="250" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="290" y1="350" x2="356" y2="290" stroke="#222222" stroke-width="2" stroke-dasharray="8 5" marker-end="url(#arrow)"/>
+  <rect x="650" y="110" width="270" height="120" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="785" y="142" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Full analysis</text>
+  <text x="785" y="170" text-anchor="middle" font-size="15" fill="#111111">Message A: words, meaning,</text>
+  <text x="785" y="192" text-anchor="middle" font-size="15" fill="#111111">speech shadowed accurately</text>
+  <rect x="650" y="260" width="270" height="120" fill="#FFFFFF" stroke="#333333" stroke-width="1.5" stroke-dasharray="8 5"/>
+  <text x="785" y="292" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Physical features only</text>
+  <text x="785" y="320" text-anchor="middle" font-size="15" fill="#111111">Message B: voice, loudness,</text>
+  <text x="785" y="342" text-anchor="middle" font-size="15" fill="#111111">gender of speaker, not content</text>
+  <rect x="650" y="400" width="270" height="92" fill="#FFE6A8" stroke="#7A5200" stroke-width="2.5" stroke-dasharray="4 4"/>
+  <text x="785" y="432" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Exception: own name</text>
+  <text x="785" y="458" text-anchor="middle" font-size="14" fill="#111111">can break through from Message B</text>
+  <line x1="560" y1="215" x2="646" y2="170" stroke="#222222" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="560" y1="300" x2="646" y2="320" stroke="#222222" stroke-width="2" stroke-dasharray="8 5" marker-end="url(#arrow)"/>
+  <line x1="560" y1="330" x2="646" y2="440" stroke="#7A5200" stroke-width="2" stroke-dasharray="3 4" marker-end="url(#arrow)"/>
+  <text x="480" y="527" text-anchor="middle" font-size="14" fill="#111111">Solid line: attended channel. Dashed line: unattended channel. Schematic, not drawn from a single experiment.</text>
+</svg>

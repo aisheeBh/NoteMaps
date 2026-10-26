@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <title>Schematic attentional blink: second target detection by lag</title>
+  <desc>A schematic curve shows the probability of detecting a second target in a rapid stream as the lag after the first target grows. Detection dips a few items after the first target and recovers over the following items. Schematic, not plotted data.</desc>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="480" y="52" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">The attentional blink: a temporary dip</text>
+  <text x="480" y="80" text-anchor="middle" font-size="15" fill="#111111">Schematic; the shape describes the general pattern in rapid serial streams.</text>
+  <text transform="translate(96 290) rotate(-90)" text-anchor="middle" font-size="15" fill="#111111">Probability of detecting second target (schematic)</text>
+  <text x="480" y="500" text-anchor="middle" font-size="15" fill="#111111">Lag after the first target (items in the stream)</text>
+  <line x1="160" y1="440" x2="800" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="160" y1="120" x2="160" y2="440" stroke="#222222" stroke-width="2"/>
+  <line x1="160" y1="200" x2="800" y2="200" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 5"/>
+  <line x1="160" y1="280" x2="800" y2="280" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 5"/>
+  <line x1="160" y1="360" x2="800" y2="360" stroke="#BBBBBB" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="150" y="445" text-anchor="end" font-size="14" fill="#111111">0</text>
+  <text x="150" y="365" text-anchor="end" font-size="14" fill="#111111">25</text>
+  <text x="150" y="285" text-anchor="end" font-size="14" fill="#111111">50</text>
+  <text x="150" y="205" text-anchor="end" font-size="14" fill="#111111">75</text>
+  <text x="150" y="125" text-anchor="end" font-size="14" fill="#111111">100</text>
+  <text x="240" y="462" text-anchor="middle" font-size="14" fill="#111111">1</text>
+  <text x="320" y="462" text-anchor="middle" font-size="14" fill="#111111">2</text>
+  <text x="400" y="462" text-anchor="middle" font-size="14" fill="#111111">3</text>
+  <text x="480" y="462" text-anchor="middle" font-size="14" fill="#111111">4</text>
+  <text x="560" y="462" text-anchor="middle" font-size="14" fill="#111111">5</text>
+  <text x="640" y="462" text-anchor="middle" font-size="14" fill="#111111">6</text>
+  <text x="720" y="462" text-anchor="middle" font-size="14" fill="#111111">7</text>
+  <text x="800" y="462" text-anchor="middle" font-size="14" fill="#111111">8</text>
+  <polyline points="240,160 320,330 400,350 480,300 560,215 640,160 720,150 800,145" fill="none" stroke="#111111" stroke-width="3.5"/>
+  <circle cx="240" cy="160" r="5" fill="#111111"/>
+  <circle cx="320" cy="330" r="5" fill="#111111"/>
+  <circle cx="400" cy="350" r="5" fill="#111111"/>
+  <circle cx="480" cy="300" r="5" fill="#111111"/>
+  <circle cx="560" cy="215" r="5" fill="#111111"/>
+  <circle cx="640" cy="160" r="5" fill="#111111"/>
+  <circle cx="720" cy="150" r="5" fill="#111111"/>
+  <circle cx="800" cy="145" r="5" fill="#111111"/>
+  <rect x="300" y="300" width="120" height="58" fill="#F6CACA" fill-opacity="0.6" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="360" y="412" text-anchor="middle" font-size="15" font-weight="bold" fill="#8B0000">The blink</text>
+  <text x="360" y="430" text-anchor="middle" font-size="14" fill="#111111">second target often missed</text>
+  <text x="640" y="124" text-anchor="middle" font-size="14" fill="#111111">Recovery as the stream continues</text>
+</svg>
