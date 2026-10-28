@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#222222"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>Five modes of delegation to an AI system</title>
+  <desc>Five boxes along an arrow running from human-led work to AI-led work with audit. Each box gives the mode, what the professional and the system do, and the typical check.</desc>
+
+  <text x="480" y="56" text-anchor="middle" font-size="22" font-weight="bold" fill="#111111">Five modes of delegation to an AI system</text>
+
+  <text x="40" y="98" font-size="16" fill="#111111">Professional leads</text>
+  <text x="920" y="98" font-size="16" text-anchor="end" fill="#111111">System leads</text>
+  <line x1="40" y1="110" x2="920" y2="110" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Box 1 -->
+  <rect x="23" y="130" width="170" height="278" rx="6" fill="#FFFFFF" stroke="#222222" stroke-width="1.5"/>
+  <text x="108" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">1</text>
+  <text x="108" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Human only</text>
+  <text x="108" y="244" text-anchor="middle" font-size="14" fill="#111111">The professional</text>
+  <text x="108" y="264" text-anchor="middle" font-size="14" fill="#111111">does the work.</text>
+  <text x="108" y="284" text-anchor="middle" font-size="14" fill="#111111">AI may explain</text>
+  <text x="108" y="304" text-anchor="middle" font-size="14" fill="#111111">background ideas.</text>
+  <line x1="35" y1="336" x2="181" y2="336" stroke="#555555" stroke-width="1"/>
+  <text x="108" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Typical check</text>
+  <text x="108" y="378" text-anchor="middle" font-size="14" fill="#111111">Nothing to verify</text>
+  <text x="108" y="396" text-anchor="middle" font-size="14" fill="#111111">from AI output</text>
+
+  <!-- Box 2 -->
+  <rect x="209" y="130" width="170" height="278" rx="6" fill="#EEF4FA" stroke="#222222" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="294" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">2</text>
+  <text x="294" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Human-led with</text>
+  <text x="294" y="210" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">AI options</text>
+  <text x="294" y="244" text-anchor="middle" font-size="14" fill="#111111">The professional</text>
+  <text x="294" y="264" text-anchor="middle" font-size="14" fill="#111111">writes; AI offers</text>
+  <text x="294" y="284" text-anchor="middle" font-size="14" fill="#111111">alternatives or</text>
+  <text x="294" y="304" text-anchor="middle" font-size="14" fill="#111111">critiques a draft.</text>
+  <line x1="221" y1="336" x2="367" y2="336" stroke="#555555" stroke-width="1"/>
+  <text x="294" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Typical check</text>
+  <text x="294" y="378" text-anchor="middle" font-size="14" fill="#111111">Judge which options</text>
+  <text x="294" y="396" text-anchor="middle" font-size="14" fill="#111111">hold up.</text>
+
+  <!-- Box 3 -->
+  <rect x="395" y="130" width="170" height="278" rx="6" fill="#DCEAF6" stroke="#222222" stroke-width="2.5" stroke-dasharray="2 4"/>
+  <text x="480" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">3</text>
+  <text x="480" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Shared drafting</text>
+  <text x="480" y="244" text-anchor="middle" font-size="14" fill="#111111">AI drafts; the</text>
+  <text x="480" y="264" text-anchor="middle" font-size="14" fill="#111111">professional edits,</text>
+  <text x="480" y="284" text-anchor="middle" font-size="14" fill="#111111">restructures and</text>
+  <text x="480" y="304" text-anchor="middle" font-size="14" fill="#111111">decides the content.</text>
+  <line x1="407" y1="336" x2="553" y2="336" stroke="#555555" stroke-width="1"/>
+  <text x="480" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Typical check</text>
+  <text x="480" y="378" text-anchor="middle" font-size="14" fill="#111111">Verify every</text>
+  <text x="480" y="396" text-anchor="middle" font-size="14" fill="#111111">factual claim.</text>
+
+  <!-- Box 4 -->
+  <rect x="581" y="130" width="170" height="278" rx="6" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="666" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">4</text>
+  <text x="666" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">AI-led, human</text>
+  <text x="666" y="210" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">checks</text>
+  <text x="666" y="244" text-anchor="middle" font-size="14" fill="#111111">AI completes the</text>
+  <text x="666" y="264" text-anchor="middle" font-size="14" fill="#111111">work; the</text>
+  <text x="666" y="284" text-anchor="middle" font-size="14" fill="#111111">professional checks</text>
+  <text x="666" y="304" text-anchor="middle" font-size="14" fill="#111111">each claim and number.</text>
+  <line x1="593" y1="336" x2="739" y2="336" stroke="#555555" stroke-width="1"/>
+  <text x="666" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Typical check</text>
+  <text x="666" y="378" text-anchor="middle" font-size="14" fill="#111111">Check every output</text>
+  <text x="666" y="396" text-anchor="middle" font-size="14" fill="#111111">before release.</text>
+
+  <!-- Box 5 -->
+  <rect x="767" y="130" width="170" height="278" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="3.5"/>
+  <text x="852" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#111111">5</text>
+  <text x="852" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">AI-led, audited</text>
+  <text x="852" y="244" text-anchor="middle" font-size="14" fill="#111111">The system acts</text>
+  <text x="852" y="264" text-anchor="middle" font-size="14" fill="#111111">within set limits;</text>
+  <text x="852" y="284" text-anchor="middle" font-size="14" fill="#111111">the professional</text>
+  <text x="852" y="304" text-anchor="middle" font-size="14" fill="#111111">samples and reviews</text>
+  <text x="852" y="324" text-anchor="middle" font-size="14" fill="#111111">logs.</text>
+  <line x1="779" y1="336" x2="925" y2="336" stroke="#555555" stroke-width="1"/>
+  <text x="852" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">Typical check</text>
+  <text x="852" y="378" text-anchor="middle" font-size="14" fill="#111111">Sample and audit;</text>
+  <text x="852" y="396" text-anchor="middle" font-size="14" fill="#111111">fits reversible errors.</text>
+
+  <text x="480" y="446" text-anchor="middle" font-size="16" fill="#111111">Where a task belongs on the arrow depends on the cost of error and how easily the output can be checked.</text>
+  <text x="480" y="488" text-anchor="middle" font-size="14" fill="#333333">Schematic arrangement of modes. Positions show increasing delegation, not measured outcomes.</text>
+</svg>
