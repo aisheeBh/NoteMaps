@@ -1,4 +1,4 @@
-# B.2. Desktop Computers
+# A.2. Desktop Computers
 
 An architect renders a building overnight on a machine under her desk. A bank's call-centre agents work on small boxes bolted behind their monitors. A video editor adds a second graphics card to a tower that is already six years old. A school laboratory runs thirty identical machines that pupils cannot carry home. In each case the computer **stays in one place** — and that single fact shapes its power, price, lifespan and use.
 

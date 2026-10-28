@@ -1,4 +1,4 @@
-# E.12. Common Internet Services
+# B.12. Common Internet Services
 
 Before nine in the morning, a typical professional has already used a dozen Internet services without thinking of them as such: a weather app, a news site, email, a messaging group, a music stream on the commute, a calendar invitation, a cloud document, a video meeting, a payment for coffee, an AI assistant asked to summarise a report. Each is a distinct **service** — a capability delivered over the network by someone else's computers — and each rests on the same underlying Internet.
 

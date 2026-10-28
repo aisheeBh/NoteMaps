@@ -1,4 +1,4 @@
-# H.7. Integrating Learning Into Busy Schedules
+# C.7. Integrating Learning Into Busy Schedules
 
 A newly promoted engineering manager has back-to-back meetings from nine to five, two young children and an hour's commute. For six months she has learned nothing deliberately; every plan to "find an hour" has failed, because there is no hour to find. What eventually works is not a free hour but a different question: not "when can I add learning?" but "**where can learning live inside what I already do?**"
 

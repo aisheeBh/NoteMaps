@@ -1,4 +1,4 @@
-# E.1. What is the Internet?
+# B.1. What is the Internet?
 
 A nurse in Pune checks a patient's laboratory results on a tablet. A sales manager in Leeds joins a video call with a client in São Paulo. A teenager streams a film while a smart meter in the same house reports electricity use to the supplier. None of these people owns, controls or even sees the system that carries their data — yet each relies on the same thing: the **Internet**.
 

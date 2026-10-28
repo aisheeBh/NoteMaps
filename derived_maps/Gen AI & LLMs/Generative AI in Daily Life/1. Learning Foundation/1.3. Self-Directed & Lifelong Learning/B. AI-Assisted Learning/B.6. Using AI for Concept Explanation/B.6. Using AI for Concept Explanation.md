@@ -1,4 +1,4 @@
-# G.6. Using AI for Concept Explanation
+# B.6. Using AI for Concept Explanation
 
 A backend engineer asks an AI assistant to explain eventual consistency. The answer is lucid, well structured and illustrated with a neat analogy about bank branches. She nods along, closes the window and, the next morning, cannot explain to a colleague why her application occasionally shows stale data. Generative AI is the most patient explainer ever built, but an explanation that has been **read** is not yet an idea that has been **understood**.
 

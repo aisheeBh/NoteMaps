@@ -1,4 +1,4 @@
-# B.6. Smart Home & IoT Devices
+# A.6. Smart Home & IoT Devices
 
 A thermostat learns that a household leaves at eight and turns the heating down. A doorbell shows a courier's face on a phone in another country. A sensor on a factory pump detects a vibration pattern that predicts failure weeks ahead. A farmer's soil probes decide when to irrigate. And in 2016, hundreds of thousands of poorly secured cameras and video recorders were hijacked to knock major websites offline. All of these are **things on the internet** — ordinary objects given sensors, processors and network connections.
 

@@ -1,4 +1,4 @@
-# B.11. Peripheral Devices
+# A.11. Peripheral Devices
 
 A consultant arrives at a hot desk, plugs one cable into her laptop, and two monitors, a keyboard, a webcam, a headset, wired network and power all spring to life.
 

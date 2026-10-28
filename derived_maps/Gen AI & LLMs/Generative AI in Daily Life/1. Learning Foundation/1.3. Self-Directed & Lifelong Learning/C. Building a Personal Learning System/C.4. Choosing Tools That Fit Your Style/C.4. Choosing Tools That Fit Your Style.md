@@ -1,4 +1,4 @@
-# H.4. Choosing Tools That Fit Your Style
+# C.4. Choosing Tools That Fit Your Style
 
 A management consultant moved her notes between four applications in three years. Each migration consumed several weekends, each new tool promised to "change how she thinks", and at the end of the three years she was learning exactly as before — but with notes scattered across four export formats. Tools matter, but mostly in the way a shoe matters to a runner: a bad fit causes injury; a good fit simply disappears from attention.
 

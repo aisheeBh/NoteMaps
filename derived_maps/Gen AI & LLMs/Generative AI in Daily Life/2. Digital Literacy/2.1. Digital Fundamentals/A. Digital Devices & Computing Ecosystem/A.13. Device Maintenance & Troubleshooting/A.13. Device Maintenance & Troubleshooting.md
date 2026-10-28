@@ -1,4 +1,4 @@
-# B.13. Device Maintenance & Troubleshooting
+# A.13. Device Maintenance & Troubleshooting
 
 Five minutes before a client presentation, a laptop refuses to show anything on the projector. One person unplugs everything, restarts twice, reinstalls a driver and runs out of time. Another checks the input setting on the projector, swaps the adaptor, and is presenting within ninety seconds. The difference is not luck or technical genius. It is **method** — and behind it, the habits of maintenance that stop most problems happening at all.
 

@@ -1,4 +1,4 @@
-# F.7. Search Engines
+# C.7. Search Engines
 
 A procurement officer types "sustainable packaging suppliers EU regulation" and, in under half a second, receives a ranked page drawn from hundreds of billions of documents. Nothing was searched at that moment in the sense most people imagine: the pages had been fetched, read and filed long before.
 

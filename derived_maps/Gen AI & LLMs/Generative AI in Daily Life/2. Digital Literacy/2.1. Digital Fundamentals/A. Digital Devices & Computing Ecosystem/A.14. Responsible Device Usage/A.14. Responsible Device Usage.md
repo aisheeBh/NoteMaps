@@ -1,4 +1,4 @@
-# B.14. Responsible Device Usage
+# A.14. Responsible Device Usage
 
 A consultant leaves her unlocked laptop on a café table while she queues for coffee.
 

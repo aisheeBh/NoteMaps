@@ -1,4 +1,4 @@
-# H.1. What is a Personal Learning System?
+# C.1. What is a Personal Learning System?
 
 Two analysts join the same firm in the same month. Both read widely, enrol in online courses and save dozens of articles a week. A year later one can explain, build and defend work in three new areas; the other has bookmarks, four unfinished courses and a vague sense of having "read about" many things. What differed was not effort but **architecture**: one turned what came in into something that stayed and could be used; the other had a pile.
 

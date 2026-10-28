@@ -1,4 +1,4 @@
-# K.5. Knowing What You Don't Know
+# B.5. Knowing What You Don't Know
 
 Ask a room of adults whether they understand how a zip fastener works and most will say yes. Ask them to explain, step by step, how the teeth lock together, and confidence collapses. The same happens to a new manager who "knows" how budgeting works until the first quarterly forecast, and to a developer who "understands" the authentication flow until a security reviewer asks what happens when a token expires. The hardest gaps to fill are the ones a person **cannot see**.
 

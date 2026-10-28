@@ -1,4 +1,4 @@
-# L.2. Formative vs. Summative Assessment
+# H.2. Formative vs. Summative Assessment
 
 When a cook tastes the soup, the tasting changes the soup — a pinch more salt, five more minutes on the heat. When the guests taste it, the verdict is final. The same spoon and the same soup serve two entirely different purposes. Assessment works the same way: a practice question answered on Monday can redirect a week of study, while the identical question in a licensing examination decides a career.
 

@@ -1,4 +1,4 @@
-# E.2. History & Evolution of the Internet
+# B.2. History & Evolution of the Internet
 
 On 29 October 1969, a student programmer at the University of California, Los Angeles, tried to log in to a computer at the Stanford Research Institute, some 500 kilometres away. He typed "L", then "O" — and the remote system crashed. The first message ever sent across the network that became the Internet was therefore "LO". Barely half a century later, around six billion people use its descendant every day.
 

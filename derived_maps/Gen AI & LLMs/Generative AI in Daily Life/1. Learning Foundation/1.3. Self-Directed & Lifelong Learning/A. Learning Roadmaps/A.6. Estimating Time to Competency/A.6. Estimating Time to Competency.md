@@ -1,4 +1,4 @@
-# C.6. Estimating Time to Competency
+# A.6. Estimating Time to Competency
 
 A coding school advertises "job-ready in twelve weeks". A manager tells a new hire she should be "fully up to speed in a month". A learner decides to become conversational in Japanese "by the summer". Each is a forecast of **how long learning will take** — and each will shape decisions about money, jobs and self-belief. Most such forecasts are made in seconds, on optimism, and turn out wrong in the same direction: too short.
 

@@ -1,4 +1,4 @@
-# E.7. Domain Names & DNS
+# B.7. Domain Names & DNS
 
 Nobody types 142.250.180.14 to search the web or 2a03:2880:f10c::1 to message a friend. People type names — a company's brand followed by ".com", a government service ending ".gov.uk", a bank ending ".co.in" — and within a few milliseconds a worldwide, distributed directory turns each name into the numbers machines need. When that directory fails, perfectly healthy services vanish from the Internet.
 

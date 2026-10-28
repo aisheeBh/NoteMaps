@@ -1,4 +1,4 @@
-# H.6. Combining Capture, Review, and Output
+# C.6. Combining Capture, Review, and Output
 
 A policy researcher has three thousand highlighted passages in her reading app and has published nothing in two years. A colleague with a fraction of her notes writes a short briefing every fortnight, and each briefing sends him back to his notes, then to new reading, then to the next briefing. Both capture; only one has joined capture to **review** and **output** so that each feeds the others. The difference is not diligence but **integration**.
 

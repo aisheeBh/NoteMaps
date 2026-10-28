@@ -1,4 +1,4 @@
-# B.5. Wearable Devices
+# A.5. Wearable Devices
 
 A runner's watch tells her she ran 10 kilometres at a steady pace. A man in his sixties receives a notification that his heart rhythm looks irregular, sees a doctor and is diagnosed with atrial fibrillation. A warehouse picker scans parcels with a ring on his finger. A field engineer wearing smart glasses sees a remote expert's arrows drawn over the machine in front of her. Each is wearing a computer — one that **senses the body and its surroundings continuously** and is almost never taken off.
 

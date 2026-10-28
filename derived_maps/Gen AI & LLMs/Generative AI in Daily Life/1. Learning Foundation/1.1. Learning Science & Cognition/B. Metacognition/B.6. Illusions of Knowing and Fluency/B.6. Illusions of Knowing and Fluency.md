@@ -1,4 +1,4 @@
-# K.6. Illusions of Knowing and Fluency
+# B.6. Illusions of Knowing and Fluency
 
 A student re-reads a chapter until every sentence feels familiar, and concludes she knows it. A team rates a polished training video excellent; a month later few can perform the procedure. A manager repeats a claim from a beautifully written AI briefing; it turns out to be wrong. In each case the **ease** of processing was taken as evidence of **knowledge** or **truth**. Usually that inference is sound; in learning, it is often badly wrong.
 

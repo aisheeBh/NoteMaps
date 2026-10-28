@@ -1,4 +1,4 @@
-# C.2. Mapping Skills in a Domain
+# A.2. Mapping Skills in a Domain
 
 Ask ten customer-success managers what their job requires and the answers will overlap only partly: one stresses product knowledge, another negotiation, a third data dashboards. Watch them work for a week and a richer picture appears — renewal forecasting, handling escalations, translating customer complaints into product requests, judging when to involve sales. Turning that picture into an organised, checkable inventory of capabilities is the work of **skill mapping**, and every sound learning roadmap rests on it.
 

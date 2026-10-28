@@ -1,4 +1,4 @@
-# B.10. Storage Devices
+# A.10. Storage Devices
 
 A photographer's memory card holds a wedding that cannot be reshot. A hospital's archive must keep scans for decades. A second-hand laptop bought online still contains its previous owner's tax returns. A company hit by ransomware recovers because last week's backup sat on a tape in a vault, disconnected from everything. In each case the question is the same: **where, physically, does the data live — and how safely?**
 

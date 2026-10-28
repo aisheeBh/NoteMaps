@@ -1,4 +1,4 @@
-# L.6. Tracking Knowledge Gaps
+# H.6. Tracking Knowledge Gaps
 
 A new site-reliability engineer keeps a simple spreadsheet: every service she is expected to support, every runbook procedure, and for each one a status, the date she last proved she could do it and what she will do next. During her first serious incident she is not guessing where her weaknesses lie — she already knows that database failover is "practised once, two months ago" and asks a colleague to pair with her.
 

@@ -1,4 +1,4 @@
-# C.7. Adapting Roadmaps as You Progress
+# A.7. Adapting Roadmaps as You Progress
 
 Five months into a carefully built roadmap towards data science, a marketing analyst notices three things at once: two milestones have slipped by weeks, the third was surprisingly easy, and her employer has just reorganised around AI-assisted analytics, creating roles she had not known existed. She can push on exactly as planned, abandon the whole effort, or change something. What she should change — and how she decides — is the subject of roadmap **adaptation**.
 

@@ -1,4 +1,4 @@
-# B.8. Input Devices
+# A.8. Input Devices
 
 A journalist types two thousand words before lunch without looking at the keys. A pharmacist scans a barcode before handing over a medicine. A designer draws a logo with a pen on glass. A driver asks the car to call home. A paralysed patient selects letters with her eyes. Every one of these acts begins the same way: something in the physical world — a press, a touch, a sound, a pattern of light — is **turned into data** a computer can use.
 

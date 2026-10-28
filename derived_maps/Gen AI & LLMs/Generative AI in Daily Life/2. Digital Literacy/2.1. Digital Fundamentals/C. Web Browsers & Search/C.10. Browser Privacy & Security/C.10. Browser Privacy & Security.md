@@ -1,4 +1,4 @@
-# F.10. Browser Privacy & Security
+# C.10. Browser Privacy & Security
 
 In March 2023 a popular technology channel with millions of subscribers was taken over within minutes. No password was guessed and no two-factor code was stolen: an employee had opened what looked like a sponsorship offer, which quietly copied the browser's **session cookies**, and the attackers simply resumed the employee's signed-in sessions from their own machines. The browser held the keys to everything — and the attack went around every defence that relied on signing in.
 

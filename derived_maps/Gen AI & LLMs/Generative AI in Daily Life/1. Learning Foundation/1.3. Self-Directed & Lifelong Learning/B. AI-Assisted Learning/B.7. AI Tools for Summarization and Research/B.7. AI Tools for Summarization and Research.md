@@ -1,4 +1,4 @@
-# G.7. AI Tools for Summarization and Research
+# B.7. AI Tools for Summarization and Research
 
 A policy analyst has two days to brief a minister on the evidence for a four-day working week. She asks a research assistant tool to find and summarise the main studies. The brief is polished, until a colleague notices that one cited trial is said to show productivity gains its authors never reported, and another reference does not exist. A summary is only as trustworthy as the **checking** behind it, and only as educational as the **thinking** the reader still does.
 

@@ -1,4 +1,4 @@
-# C.4. Sequencing Learning Milestones
+# A.4. Sequencing Learning Milestones
 
 A new software engineer's onboarding plan reads: "Week 1 — complete orientation modules. Week 2 — read architecture documentation. Week 3 — complete security training." By week four she has finished everything and still has not changed a line of production code. Her colleague at another company ships a one-line fix on day two, a small feature in week two and takes a supervised on-call shift in week six. Both plans had **milestones**; only one sequenced them so that each step was a **real capability**, built on the last.
 

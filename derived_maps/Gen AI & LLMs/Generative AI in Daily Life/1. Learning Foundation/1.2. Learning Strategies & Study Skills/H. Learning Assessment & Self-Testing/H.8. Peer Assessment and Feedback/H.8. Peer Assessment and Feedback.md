@@ -1,4 +1,4 @@
-# L.8. Peer Assessment and Feedback
+# H.8. Peer Assessment and Feedback
 
 At most software companies no change reaches production until a colleague has read it. In many hospitals, junior doctors present their cases to one another before the consultant arrives. Writing groups, design critiques and bid reviews all rest on the same idea: people at a similar level, judging each other's work against a shared standard, can find what the author missed — and in doing so sharpen their own sense of quality.
 

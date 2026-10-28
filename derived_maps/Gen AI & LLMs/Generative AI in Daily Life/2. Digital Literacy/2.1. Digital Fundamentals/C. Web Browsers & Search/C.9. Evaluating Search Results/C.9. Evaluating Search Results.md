@@ -1,4 +1,4 @@
-# F.9. Evaluating Search Results
+# C.9. Evaluating Search Results
 
 A small-business owner calls the first support number a search shows and grants "remote support" access to a stranger. A junior analyst quotes a statistic from an AI summary that its cited article does not contain. A manager researching a medical condition reads three versions of the same supplement advertisement.
 

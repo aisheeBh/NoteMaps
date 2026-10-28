@@ -1,4 +1,4 @@
-# C.3. Identifying Prerequisite Knowledge
+# A.3. Identifying Prerequisite Knowledge
 
 Two people set out to learn machine learning. The first decides she must "do the maths properly first" and spends eight months on calculus textbooks before writing a line of model code — then discovers she needed perhaps a tenth of what she studied. The second dives straight into a tutorial on neural networks and is lost within an hour, because every step assumes he can multiply matrices. Both misjudged the same thing: **what must come first**.
 

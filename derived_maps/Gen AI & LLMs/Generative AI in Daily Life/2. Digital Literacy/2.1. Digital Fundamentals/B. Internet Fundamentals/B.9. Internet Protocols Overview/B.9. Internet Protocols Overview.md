@@ -1,4 +1,4 @@
-# E.9. Internet Protocols Overview
+# B.9. Internet Protocols Overview
 
 Two diplomats who share no language can still negotiate if they agree on an interpreter, on who speaks first, on how to signal agreement and on what to do if a message is misheard. Computers made by different companies, running different software in different countries, communicate on the Internet in exactly this way — by following shared, written rules called **protocols**. Several dozen of them are at work every time someone opens an app.
 

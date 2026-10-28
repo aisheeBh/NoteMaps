@@ -1,4 +1,4 @@
-# F.14. Modern Web Browsing Trends
+# C.14. Modern Web Browsing Trends
 
 For thirty years the browser's central gesture was the same: type an address or a query, then read and click. In 2025 several companies released browsers in which the user types a **goal** instead — "find three flights under £400 and add the cheapest to my calendar" — and an AI agent does the clicking.
 

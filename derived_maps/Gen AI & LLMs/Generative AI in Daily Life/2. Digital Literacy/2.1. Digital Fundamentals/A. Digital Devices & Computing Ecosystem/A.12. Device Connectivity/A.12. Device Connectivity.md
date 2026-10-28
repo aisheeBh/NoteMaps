@@ -1,4 +1,4 @@
-# B.12. Device Connectivity
+# A.12. Device Connectivity
 
 A presenter arrives at a client's boardroom and discovers that her laptop has only USB-C ports and the projector only an old video socket. A pair of earbuds switches seamlessly from a phone call to a laptop meeting. A phone pays for a coffee when held near a terminal and unlocks a car from a pocket. A team's video calls stutter every afternoon when the office fills up. Every one of these moments depends on **how devices connect** — by cable or by radio, over centimetres or kilometres.
 

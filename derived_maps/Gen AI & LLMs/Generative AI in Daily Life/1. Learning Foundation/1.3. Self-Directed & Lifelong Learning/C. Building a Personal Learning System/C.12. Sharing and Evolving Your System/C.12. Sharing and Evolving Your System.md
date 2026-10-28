@@ -1,4 +1,4 @@
-# H.12. Sharing and Evolving Your System
+# C.12. Sharing and Evolving Your System
 
 A data engineer kept a private set of practice exercises, decision notes and a weekly routine. When two new colleagues struggled, she shared it, and adapted by the team it became the group's onboarding programme and halved the time newcomers took to work unaided. A colleague elsewhere copied a well-known author's elaborate system and abandoned it within a month. One system grew by being **shared and adapted**; the other failed by being **copied without fit**.
 

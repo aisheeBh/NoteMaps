@@ -1,4 +1,4 @@
-# F.4. Tabs, Windows & Navigation
+# C.4. Tabs, Windows & Navigation
 
 An analyst preparing a market report has forty tabs open across three windows: sources still to read, reference pages, duplicates and two unsaved web forms. When the browser crashes, the analyst is not sure what was lost. Tabs, windows and the back button are so familiar that few people think about how they work — yet they shape memory use, focus, security and the ability to retrace one's steps.
 

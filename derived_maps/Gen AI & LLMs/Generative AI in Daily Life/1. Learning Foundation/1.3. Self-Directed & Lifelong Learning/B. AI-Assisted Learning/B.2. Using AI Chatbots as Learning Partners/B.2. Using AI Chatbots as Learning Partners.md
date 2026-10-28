@@ -1,4 +1,4 @@
-# G.2. Using AI Chatbots as Learning Partners
+# B.2. Using AI Chatbots as Learning Partners
 
 Two junior analysts join the same firm and are given the same chatbot. One types "write a SQL query that finds customers who churned last quarter", pastes the answer and moves on. The other writes her own query first, asks the chatbot what is wrong with it, explains the fix back in her own words and asks to be tested on a similar problem the next morning. After three months only the second can write such a query in a client meeting. The tool was identical; the **partnership** was not.
 

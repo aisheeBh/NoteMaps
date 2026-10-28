@@ -1,4 +1,4 @@
-# G.3. Personalized Learning With AI
+# B.3. Personalized Learning With AI
 
 Two new hires sit through the same three-hour data-protection workshop. One studied information law at university and spends the session answering email; the other has never heard of a lawful basis for processing and is lost by the second slide. The workshop failed both: one was taught what she already knew, the other too much too fast. Fitting instruction to the person is one of the oldest ambitions in education, and AI has made it cheap.
 

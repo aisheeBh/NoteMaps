@@ -1,4 +1,4 @@
-# B.9. Output Devices
+# A.9. Output Devices
 
 A radiologist studies a chest image on a calibrated screen, looking for a shadow a few millimetres across. A finance team prints a board pack that must look identical to the version on screen. A commuter's earbuds cancel the roar of a train. A blind lawyer reads a contract with her fingertips on a refreshable braille display. A dental laboratory prints a crown overnight. Computers do their work invisibly; **output devices** are how that work reaches human senses and the physical world.
 

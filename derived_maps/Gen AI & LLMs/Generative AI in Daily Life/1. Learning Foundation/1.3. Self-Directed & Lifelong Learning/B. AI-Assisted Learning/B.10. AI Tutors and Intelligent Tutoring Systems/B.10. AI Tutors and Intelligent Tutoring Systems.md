@@ -1,4 +1,4 @@
-# G.10. AI Tutors and Intelligent Tutoring Systems
+# B.10. AI Tutors and Intelligent Tutoring Systems
 
 In the 1990s, Pittsburgh algebra students worked on a computer that watched every step and offered a hint tailored to each misstep. In 2023, Harvard physics students learned fluid dynamics at home with an AI tutor that conversed in plain language. Both aimed at the same goal: to give every learner a **personal tutor**.
 

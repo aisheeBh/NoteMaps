@@ -1,4 +1,4 @@
-# K.4. Metacognitive Regulation and Control
+# B.4. Metacognitive Regulation and Control
 
 Two candidates have the same three evenings before an exam and the same sense of which topics are weak. One polishes topics already understood, because it feels productive; the other moves straight to topics just beyond her reach. A barrister knows when to stop researching and write; a data scientist drops a failing approach after an hour, not a week. Each is acting on a judgement about their own mind — **control** — and the quality of that action decides how much the judgement is worth.
 

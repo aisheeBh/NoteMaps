@@ -1,4 +1,4 @@
-# H.11. Stress-Testing Your Learning System
+# C.11. Stress-Testing Your Learning System
 
 A strategy consultant had a learning system that worked beautifully in ordinary weeks. Then came a three-week client crunch, followed by the theft of her laptop on a train. Her routines stopped, her review queue swelled to an impossible size, and her notes — never backed up outside one application on that laptop — were gone. It took her four months to learn again with any regularity. The system had never been tested against anything other than a normal week.
 

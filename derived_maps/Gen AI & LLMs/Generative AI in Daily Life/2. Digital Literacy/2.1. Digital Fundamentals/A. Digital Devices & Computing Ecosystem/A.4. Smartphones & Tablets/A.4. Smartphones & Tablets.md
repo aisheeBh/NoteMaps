@@ -1,4 +1,4 @@
-# B.4. Smartphones & Tablets
+# A.4. Smartphones & Tablets
 
 A farmer checks the market price of grain before deciding when to sell. A surgeon approves a sign-in request to a hospital system with a fingerprint. A shop assistant takes a card payment on a tablet in the middle of the shop floor. A traveller pays for a train ticket, navigates a foreign city and translates a menu — all with the same device. The smartphone is the **most widely owned computer in history**, and for billions of people it is the only one they use.
 

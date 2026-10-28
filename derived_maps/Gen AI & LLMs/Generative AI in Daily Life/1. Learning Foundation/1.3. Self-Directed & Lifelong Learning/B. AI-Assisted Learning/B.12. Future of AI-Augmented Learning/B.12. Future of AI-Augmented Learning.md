@@ -1,4 +1,4 @@
-# G.12. Future of AI-Augmented Learning
+# B.12. Future of AI-Augmented Learning
 
 For generations, junior lawyers learned by drafting the first versions of contracts, junior analysts by building the first models, and junior doctors by taking the first histories — routine work that seniors checked, corrected and explained. By 2026 AI could produce much of that first-draft work in minutes. If machines do the work through which beginners became experts, **how will the next generation of experts be made?**
 

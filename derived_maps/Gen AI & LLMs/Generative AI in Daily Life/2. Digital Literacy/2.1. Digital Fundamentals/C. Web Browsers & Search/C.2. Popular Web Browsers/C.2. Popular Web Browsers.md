@@ -1,4 +1,4 @@
-# F.2. Popular Web Browsers
+# C.2. Popular Web Browsers
 
 Most people never choose a browser: they use whatever came with the phone or laptop. Yet a consultant moving between client sites, a developer testing a new release, a journalist protecting sources and an IT manager setting a company standard all need to know what distinguishes one browser from another — and what does not. Behind dozens of brand names sit only three working engines, a handful of business models and a market shaped more by defaults than by preference.
 

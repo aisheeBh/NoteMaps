@@ -1,4 +1,4 @@
-# K.3. Metacognitive Monitoring
+# B.3. Metacognitive Monitoring
 
 A pub-quiz contestant is asked the capital of Australia and feels the answer "on the tip of the tongue" before producing it. A trainee pilot judges that she has mastered a checklist and is surprised to forget a step in the simulator. A weather forecaster says "70% chance of rain" and, over hundreds of forecasts, it rains on almost exactly 70% of such days. Each is **judging the state of their own mind** — and the judgements differ enormously in how well they match reality.
 

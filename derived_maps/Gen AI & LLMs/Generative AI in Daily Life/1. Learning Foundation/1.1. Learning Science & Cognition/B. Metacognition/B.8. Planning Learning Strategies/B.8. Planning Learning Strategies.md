@@ -1,4 +1,4 @@
-# K.8. Planning Learning Strategies
+# B.8. Planning Learning Strategies
 
 Two colleagues have ten weeks to pass the same certification. One opens the guide at page one, intending to "get through it". The other first spends an hour: she defines what passing requires, sorts the syllabus into facts, procedures and judgement calls, picks a method for each, books three mock exams, adds a buffer because past candidates found networking slow, and decides what she will do on evenings when she is too tired. Both work hard; only one has **a plan for learning**.
 

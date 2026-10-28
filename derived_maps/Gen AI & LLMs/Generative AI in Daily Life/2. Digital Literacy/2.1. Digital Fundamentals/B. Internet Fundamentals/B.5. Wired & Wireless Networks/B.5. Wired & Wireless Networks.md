@@ -1,4 +1,4 @@
-# E.5. Wired & Wireless Networks
+# B.5. Wired & Wireless Networks
 
 In a modern office, a laptop on a desk may be connected by a cable to a wall socket, a phone in a meeting room by Wi-Fi, a visiting engineer by 5G and a temperature sensor in the plant room by a low-power radio. Every one of them ends up on the same Internet. What differs is the **medium** that carries their bits over the first few metres or kilometres — and that choice decides speed, reliability, cost, mobility and security.
 

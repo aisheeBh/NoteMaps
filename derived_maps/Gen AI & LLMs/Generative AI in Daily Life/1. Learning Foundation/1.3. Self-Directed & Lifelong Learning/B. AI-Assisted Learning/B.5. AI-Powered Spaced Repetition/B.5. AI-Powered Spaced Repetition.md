@@ -1,4 +1,4 @@
-# G.5. AI-Powered Spaced Repetition
+# B.5. AI-Powered Spaced Repetition
 
 A cardiology registrar keeps 4,000 flashcards on drug doses, trial results and guideline thresholds. For years a fixed rule decided when each card returned. Now a model trained on her own review history schedules each card just before she is predicted to forget it, and a language model drafts new cards from the guidelines she reads. Her review time has fallen and her retention has risen.
 

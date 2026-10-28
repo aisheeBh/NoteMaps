@@ -1,4 +1,4 @@
-# L.1. Why Self-Assessment Matters
+# H.1. Why Self-Assessment Matters
 
 A trainee accountant sits a mock paper three weeks before a professional examination and discovers that the topic she felt safest about is the one she cannot do. A surgeon reviews the video of an operation and notices a hesitation nobody else in the theatre saw. A developer re-reads her own pull request before asking for review and finds two bugs that would have embarrassed her.
 

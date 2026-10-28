@@ -1,4 +1,4 @@
-# H.8. Customizing Your System Over Time
+# C.8. Customizing Your System Over Time
 
 As a trainee solicitor, a lawyer built a learning system around flashcards of statutes and weekly case summaries — exactly right for passing qualification exams. Eight years later, as a newly made partner, she was still running it. It was flawless and almost useless: her work now needed judgement about clients, commercial strategy and people, and none of it fitted on a flashcard. Her system had not failed; it had **stopped fitting the person she had become**.
 

@@ -1,4 +1,4 @@
-# B.7. Computer Hardware Components
+# A.7. Computer Hardware Components
 
 A buyer compares two laptops. One lists "12 cores, up to 5.0 GHz, 16 GB LPDDR5X, 512 GB NVMe SSD, integrated graphics, 45 TOPS NPU"; the other "8 cores, 4.4 GHz, 32 GB, 1 TB, RTX graphics". The prices are similar. Which is better? The honest answer is **"for what?"** — and answering it requires knowing what each component does, how they work together, and which one will limit the work that person actually does.
 

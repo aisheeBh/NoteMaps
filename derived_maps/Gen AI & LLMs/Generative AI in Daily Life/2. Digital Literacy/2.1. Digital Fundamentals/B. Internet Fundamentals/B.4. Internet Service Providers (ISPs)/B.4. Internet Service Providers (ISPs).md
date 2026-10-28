@@ -1,4 +1,4 @@
-# E.4. Internet Service Providers (ISPs)
+# B.4. Internet Service Providers (ISPs)
 
 A family signs up for "full-fibre broadband" and receives a router in the post. A start-up in Bengaluru pays a mobile operator for a data plan on every employee's phone. A hospital trust buys two dedicated fibre lines from different companies, with penalty clauses if either fails. In each case someone has bought the same essential thing: a connection to the rest of the Internet from an **Internet service provider**.
 

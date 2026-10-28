@@ -1,4 +1,4 @@
-# F.3. Browser User Interface
+# C.3. Browser User Interface
 
 A finance officer about to approve a large payment glances at the top of the screen: the address reads correctly, the site-information icon shows a secure connection, and the page has not gone full-screen. That glance takes half a second — and it relies entirely on understanding the strip of controls that surrounds every web page. The browser's interface is both a productivity tool and the user's main defence against deception.
 

@@ -1,4 +1,4 @@
-# K. Metacognition
+# B. Metacognition
 
 A pilot senses that an approach "does not feel right", asks the co-pilot to cross-check, and they find a mis-set altimeter. A student closes a textbook sure she has mastered a chapter and recalls half of it the next day. A data scientist accepts a fluent AI-generated analysis, and a client later spots the error. In each case the outcome turned less on what the person knew than on **how well they judged and managed their own knowing**.
 

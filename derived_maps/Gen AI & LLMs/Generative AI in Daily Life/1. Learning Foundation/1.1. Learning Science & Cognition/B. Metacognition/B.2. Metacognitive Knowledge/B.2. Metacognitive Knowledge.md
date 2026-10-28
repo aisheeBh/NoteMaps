@@ -1,4 +1,4 @@
-# K.2. Metacognitive Knowledge
+# B.2. Metacognitive Knowledge
 
 A trainee solicitor prepares for an exam by reading her notes four times, convinced that repetition is how memory works. A colleague, equally able, spends the same hours testing herself because she knows that recall builds memory more than review. They have the same intelligence and the same materials; what differs is what each **believes about how minds learn** — and those beliefs decide their strategies before any studying begins.
 

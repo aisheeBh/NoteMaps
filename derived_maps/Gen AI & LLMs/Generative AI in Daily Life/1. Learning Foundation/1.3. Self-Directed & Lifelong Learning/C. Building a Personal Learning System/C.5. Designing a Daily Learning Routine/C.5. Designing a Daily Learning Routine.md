@@ -1,4 +1,4 @@
-# H.5. Designing a Daily Learning Routine
+# C.5. Designing a Daily Learning Routine
 
 Two colleagues make the same New Year commitment: "an hour of learning every day". One decides each evening what to do, if anything, and has stopped by February. The other has decided in advance exactly when the session happens, what kind of session it is on each weekday, what a five-minute version looks like on bad days, and where the materials are waiting. The second has not more willpower but a **design** — and a design keeps working when motivation does not.
 

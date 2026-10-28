@@ -1,4 +1,4 @@
-# K.10. Developing Metacognitive Awareness
+# B.10. Developing Metacognitive Awareness
 
 A junior analyst writes down, at the end of each day, one judgement she made and how confident she was. At first the entries are vague — "felt OK about the model". By the second month they read: "80% sure the churn figure is right; less sure about the cohort definition, which I built late and did not test." Her intelligence has not changed; her **awareness of her own thinking** has — and with it her ability to catch errors before her manager does.
 

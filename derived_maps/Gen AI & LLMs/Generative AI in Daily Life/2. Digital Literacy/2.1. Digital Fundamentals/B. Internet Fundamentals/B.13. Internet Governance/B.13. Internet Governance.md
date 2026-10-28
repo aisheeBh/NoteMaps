@@ -1,4 +1,4 @@
-# E.13. Internet Governance
+# B.13. Internet Governance
 
 Someone decides which new top-level domains may exist. Someone writes the technical standard that every phone uses to fetch web pages. Someone rules on whether a broadband provider may slow down a video service, whether a platform must remove a post, whether a government may switch off mobile data in a region during unrest. These "someones" are not one authority but a crowded landscape of engineers, companies, non-profits, governments, courts and international bodies — and the way they share power is called **Internet governance**.
 

@@ -1,4 +1,4 @@
-# E.6. IP Addresses
+# B.6. IP Addresses
 
 A support technician asks a caller to read out the numbers shown in the laptop's network settings: "one-nine-two, dot, one-six-eight, dot, one, dot, forty-five". A security analyst sees thousands of failed sign-in attempts from one address in another country. A cloud architect discovers that two merging companies used exactly the same internal numbers for their networks. All three are dealing with the same thing — the numbers that tell the Internet **where** to send each packet.
 

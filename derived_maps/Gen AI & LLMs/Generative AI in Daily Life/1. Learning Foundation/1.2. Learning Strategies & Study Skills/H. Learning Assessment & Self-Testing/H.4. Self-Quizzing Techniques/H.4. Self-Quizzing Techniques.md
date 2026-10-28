@@ -1,4 +1,4 @@
-# L.4. Self-Quizzing Techniques
+# H.4. Self-Quizzing Techniques
 
 A new compliance analyst writes ten questions on the data-protection module she has just finished, answers all ten correctly and concludes she is ready. A week later a colleague asks her one question she had never thought to ask herself — whether a supplier's analytics cookie needs consent — and she has no idea. Her quiz was not wrong; it simply measured only what she already knew she knew. A self-quiz is a measuring instrument, and like any instrument it can be well or badly designed.
 

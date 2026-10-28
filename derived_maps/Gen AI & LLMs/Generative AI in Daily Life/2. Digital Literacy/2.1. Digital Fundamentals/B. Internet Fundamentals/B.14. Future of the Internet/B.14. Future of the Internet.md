@@ -1,4 +1,4 @@
-# E.14. Future of the Internet
+# B.14. Future of the Internet
 
 In December 1995 a respected network pioneer predicted in a trade magazine that the Internet would suffer a "catastrophic collapse" the following year. The same year a well-known astronomer and author wrote that no online database would ever replace the daily newspaper. Both were thoughtful experts; both were wrong. Thinking about the Internet's future is valuable precisely because it is hard — and because organisations that anticipate its direction make better decisions than those that are surprised by it.
 

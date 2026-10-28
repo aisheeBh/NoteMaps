@@ -1,4 +1,4 @@
-# L.5. Rubrics for Self-Evaluation
+# H.5. Rubrics for Self-Evaluation
 
 A junior consultant finishes a client memo and asks herself whether it is good. Without a standard, the honest answer is "it feels fine". With a rubric — clear recommendation in the first paragraph; every claim backed by evidence; options compared on stated criteria; risks and next steps explicit — she can check each feature, find that her risks section is a single vague sentence and fix it before her manager sees it.
 

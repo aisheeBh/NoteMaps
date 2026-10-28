@@ -1,4 +1,4 @@
-# F. Web Browsers & Search
+# C. Web Browsers & Search
 
 Before most professionals have finished their first coffee, they have opened a browser a dozen times and searched several times more: to check a figure, find a form, sign in to a client system, read a policy, compare suppliers or ask an AI assistant a question. Almost everything they will know, decide and do online that day passes through two technologies — a program that fetches and displays the web, and services that decide which parts of it they see first.
 

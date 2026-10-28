@@ -1,4 +1,4 @@
-# C.8. Roadmaps for Career Transitions
+# A.8. Roadmaps for Career Transitions
 
 A secondary-school science teacher wants to become a corporate instructional designer. She already designs lessons, assesses learning and explains difficult ideas every day — yet her applications go unanswered. What she lacks is not mainly knowledge: it is **evidence in the language of the new field**, **people** in that field who know her, and the **new professional identity** that lets her present herself convincingly. A roadmap for a career transition must build all of these, not only skills.
 

@@ -1,4 +1,4 @@
-# B. Digital Devices & Computing Ecosystem
+# A. Digital Devices & Computing Ecosystem
 
 A sales director starts the day on her phone, approves an invoice from her watch on the train, drafts a proposal on a laptop docked at a hot desk, presents it on a meeting-room screen, and that evening asks a speaker in her kitchen to remind her of tomorrow's flight.
 

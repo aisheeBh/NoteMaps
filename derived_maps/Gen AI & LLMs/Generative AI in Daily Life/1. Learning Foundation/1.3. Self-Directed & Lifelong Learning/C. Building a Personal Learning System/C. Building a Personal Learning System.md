@@ -1,4 +1,4 @@
-# H. Building a Personal Learning System
+# C. Building a Personal Learning System
 
 Every professional learns, but few have **built** anything to learn with. Most adult learning runs on a scatter of habits, apps, good intentions and occasional courses, assembled by accident and never examined. Building a personal learning system means treating one's own learning as a designed thing — with a purpose, connected parts, routines, tools, evidence of results and a way of improving — so that capability keeps growing across decades, jobs and changes in the field.
 

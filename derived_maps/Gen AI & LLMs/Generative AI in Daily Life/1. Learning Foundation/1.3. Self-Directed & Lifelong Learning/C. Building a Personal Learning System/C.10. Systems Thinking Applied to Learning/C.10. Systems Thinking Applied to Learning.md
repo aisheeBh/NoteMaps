@@ -1,4 +1,4 @@
-# H.10. Systems Thinking Applied to Learning
+# C.10. Systems Thinking Applied to Learning
 
 An operations manager facing a certification exam doubles his study hours. His scores fall. More study means later nights; less sleep means weaker consolidation and poorer concentration; poorer results prompt still more study. Each step looks sensible, and together they form a loop that defeats its own purpose. Seeing such loops — and the stocks, flows and delays behind them — is what **systems thinking** contributes to learning.
 

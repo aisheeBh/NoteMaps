@@ -1,4 +1,4 @@
-# F.6. Browser Settings & Customization
+# C.6. Browser Settings & Customization
 
 Two employees receive identical new laptops. One accepts every default: cloud spell-check, third-party cookies, a news-filled new-tab page. The other spends fifteen minutes in settings: a separate work profile, stricter tracking protection, notifications blocked by default, pages reopened where they were left.
 

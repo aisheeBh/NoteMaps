@@ -1,4 +1,4 @@
-# E.10. Bandwidth, Speed & Latency
+# B.10. Bandwidth, Speed & Latency
 
 A household upgrades from a 100 to a 900 megabit connection and finds that web pages feel no faster. A trader's firm pays a fortune to shave a few thousandths of a second off the time a message takes between two cities. A video call is perfectly sharp but the other person keeps talking over the speaker. All three are discovering that "Internet speed" is not one thing. It is at least three: **how much** can flow, **how long** it takes to arrive, and **how steadily** it arrives.
 

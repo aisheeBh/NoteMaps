@@ -1,4 +1,4 @@
-# K.12. Teaching Metacognition to Others
+# B.12. Teaching Metacognition to Others
 
 A junior analyst brings a spreadsheet to two different senior colleagues. The first spots the error, fixes it and hands it back. The second asks, "Before I look — how confident are you in the totals, and how did you check them?", listens, and then says, "Here is how I would have checked: I always reconcile the total against last month's report first." The first colleague fixed a spreadsheet; the second taught the analyst **how to check her own work**.
 

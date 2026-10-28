@@ -1,4 +1,4 @@
-# C.10. Visual Roadmap Tools and Templates
+# A.10. Visual Roadmap Tools and Templates
 
 The same learning roadmap can live in a sixty-row spreadsheet or on a single page. In the spreadsheet, the learner scrolls past dates, links and status columns and cannot say, at a glance, what comes next or what is blocking progress. On the single page — a few tracks, a handful of milestones, the destination at the right — a mentor can review it in two minutes and the learner can see where they are while making coffee. The content is identical; the **representation** decides whether the roadmap is used.
 

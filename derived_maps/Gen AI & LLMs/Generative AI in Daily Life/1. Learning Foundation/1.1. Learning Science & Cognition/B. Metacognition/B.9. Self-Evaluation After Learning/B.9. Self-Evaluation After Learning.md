@@ -1,4 +1,4 @@
-# K.9. Self-Evaluation After Learning
+# B.9. Self-Evaluation After Learning
 
 A candidate gets a mock exam back with 58% and thinks only, "I need to study harder." Another with the same score sorts every lost mark by cause, finds that a third went on misreading questions, and changes how she reads them. One late project team blames the client's changing scope; another asks what it could have done differently anyway. **What happens after a learning episode decides whether the next one is better.**
 

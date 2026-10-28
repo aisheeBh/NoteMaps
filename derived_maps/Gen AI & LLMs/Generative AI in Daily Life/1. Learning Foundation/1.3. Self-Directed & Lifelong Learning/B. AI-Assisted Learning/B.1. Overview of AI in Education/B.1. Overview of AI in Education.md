@@ -1,4 +1,4 @@
-# G.1. Overview of AI in Education
+# B.1. Overview of AI in Education
 
 In 2025 a secondary-school pupil in Benin City practised English grammar with a chatbot after school; an undergraduate at Harvard worked through fluid dynamics with a custom physics tutor; a new data analyst in Pune asked an assistant to explain a window function before a client call. Each was learning with artificial intelligence, yet the tools, the purposes and the results differed sharply. Some of these uses produced unusually large learning gains; others, in carefully controlled studies, left learners **worse off** than if they had never touched the tool.
 

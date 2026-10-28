@@ -1,4 +1,4 @@
-# F.12. Browser Extensions & Add-ons
+# C.12. Browser Extensions & Add-ons
 
 A free tab-management extension used by two million people was quietly sold by its original developer. Months later an update arrived like any other — automatically, without a prompt — and the extension began running code from a server controlled by its new owner. Google eventually removed it as malware. Its users had done nothing wrong except install a useful tool years earlier. Extensions are among the most valuable and the most dangerous things a person can add to a browser.
 

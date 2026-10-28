@@ -1,4 +1,4 @@
-# L. Learning Assessment & Self-Testing
+# H. Learning Assessment & Self-Testing
 
 Every learner is constantly measuring — deciding, usually without noticing, that a topic is "done", that a skill is "good enough", that they are "ready". Most of these judgements are made on feelings of familiarity and effort, and many are wrong. The professionals who keep improving for decades are distinguished less by how much they study than by how well they **find out what they can actually do** — and by what they do with the answer.
 

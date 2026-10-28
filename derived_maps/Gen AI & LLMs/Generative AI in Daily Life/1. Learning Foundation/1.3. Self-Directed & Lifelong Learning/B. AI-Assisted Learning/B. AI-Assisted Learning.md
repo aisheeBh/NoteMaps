@@ -1,4 +1,4 @@
-# G. AI-Assisted Learning
+# B. AI-Assisted Learning
 
 Two professionals set out to learn the same new field with the same AI assistant. One asks it to explain, summarise and draft, reads fluent answers every evening, and after three months can talk about the field but not work in it. The other attempts first, asks to be questioned, checks what she is told, and tests herself without the tool each week; after three months she can do the work unaided and uses the AI to go further. The difference was not the technology but **who did the thinking**.
 

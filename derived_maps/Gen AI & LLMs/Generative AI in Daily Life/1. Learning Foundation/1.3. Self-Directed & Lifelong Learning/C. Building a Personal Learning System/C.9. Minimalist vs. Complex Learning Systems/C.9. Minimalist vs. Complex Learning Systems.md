@@ -1,4 +1,4 @@
-# H.9. Minimalist vs. Complex Learning Systems
+# C.9. Minimalist vs. Complex Learning Systems
 
 One historian works with a paper notebook, index cards and a wall calendar, and publishes a well-regarded book every few years. A software architect runs a linked-notes graph with forty plug-ins and spends more time tending the system than learning with it. A clinical pharmacologist must keep thousands of drug interactions at her fingertips and needs a carefully configured toolset. The question is never "simple or complex?" but "**how much complexity does this learning demand, and how much is self-inflicted?**"
 

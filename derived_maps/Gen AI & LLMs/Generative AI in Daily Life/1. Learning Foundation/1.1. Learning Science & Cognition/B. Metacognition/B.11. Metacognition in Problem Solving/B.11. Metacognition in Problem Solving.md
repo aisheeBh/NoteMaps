@@ -1,4 +1,4 @@
-# K.11. Metacognition in Problem Solving
+# B.11. Metacognition in Problem Solving
 
 A student spends twenty minutes on an exam problem using the first method that came to mind, never stopping to ask whether it is getting anywhere. An experienced engineer facing a production fault spends the first five minutes asking what exactly is broken and what has changed, tries a hypothesis, notices after ten minutes that the evidence does not fit, and changes course. Both know enough to solve the problem. The difference is that the engineer is **managing her problem solving** as she goes.
 

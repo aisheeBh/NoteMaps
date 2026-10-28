@@ -1,4 +1,4 @@
-# H.2. Assessing Your Current Learning Practices
+# C.2. Assessing Your Current Learning Practices
 
 A software engineer is certain she studies "about an hour a day". She keeps a simple log for two weeks and finds three and a half hours a week, most of it watching conference videos at double speed, and almost none of it practising. Nothing about her ambition was wrong; her picture of her own learning was. Every redesign of a learning system starts from the same place — an honest account of what is happening now.
 

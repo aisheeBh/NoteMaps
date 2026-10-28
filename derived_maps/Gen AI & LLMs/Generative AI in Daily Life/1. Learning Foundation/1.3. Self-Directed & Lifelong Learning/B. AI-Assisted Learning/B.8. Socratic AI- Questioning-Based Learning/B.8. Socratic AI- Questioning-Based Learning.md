@@ -1,4 +1,4 @@
-# G.8. Socratic AI: Questioning-Based Learning
+# B.8. Socratic AI: Questioning-Based Learning
 
 In Plato's dialogue *Meno*, Socrates draws a square in the sand and asks an uneducated servant boy how to double its area. The boy answers "double the side", is led by questions to see that this quadruples the area, and is then guided, still only by questions, to discover that the square on the diagonal is the answer.
 

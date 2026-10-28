@@ -1,4 +1,4 @@
-# E. Internet Fundamentals
+# B. Internet Fundamentals
 
 An accountant closes the month in a cloud ledger, a surgeon reviews scans stored in another city, a student in a village joins a lecture from a phone, and an AI assistant drafts a reply using a model running on another continent.
 

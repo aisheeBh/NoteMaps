@@ -1,4 +1,4 @@
-# F.1. What is a Web Browser?
+# C.1. What is a Web Browser?
 
 A sales manager opens a dashboard, a nurse checks a drug interaction, a student submits an essay, and a developer tests a new feature — all in the same kind of program. None of them thinks about the dozens of files fetched, the code executed, the security checks passed or the pixels painted in the second before the page appears. That program is the **web browser**, and it has become the most used application on most computers and phones.
 

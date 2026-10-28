@@ -1,4 +1,4 @@
-# B.1. What is a Computing Device?
+# A.1. What is a Computing Device?
 
 A nurse scans a wristband before giving a drug. A delivery driver's phone recalculates a route around a closed road. A washing machine weighs the load and chooses how much water to use. An accountant's laptop reconciles ten thousand bank transactions in a second. None of these people would call all four objects "computers", yet each object does the same four things: it **takes in data, processes it according to stored instructions, keeps information, and produces a result**.
 

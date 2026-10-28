@@ -1,4 +1,4 @@
-# C.5. Finding Quality Learning Resources
+# A.5. Finding Quality Learning Resources
 
 A search for "learn statistics" returns thousands of courses, books, videos and apps. The most popular video is entertaining, beautifully animated and watched by millions; a plain university problem set with worked solutions has a few hundred downloads. A learner who picks by popularity may enjoy every minute and still be unable to run a basic test a month later. Choosing resources is not a minor administrative step in a roadmap — it decides **what kind of practice** the learner will actually do.
 

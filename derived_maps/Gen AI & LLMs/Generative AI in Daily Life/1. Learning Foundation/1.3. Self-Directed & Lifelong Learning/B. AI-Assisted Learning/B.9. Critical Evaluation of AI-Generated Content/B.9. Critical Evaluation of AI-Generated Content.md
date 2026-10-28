@@ -1,4 +1,4 @@
-# G.9. Critical Evaluation of AI-Generated Content
+# B.9. Critical Evaluation of AI-Generated Content
 
 In 2023 a New York lawyer filed a brief in a personal-injury case against an airline citing six earlier court decisions. None existed: a chatbot had invented them, complete with plausible names, quotations and page numbers, and had assured him they were real when he asked. The judge fined the lawyers and their firm. The tool's error was predictable; the professional failure was not checking. In an age of fluent machine-generated text, the ability to **evaluate** content has become as important as the ability to produce it.
 

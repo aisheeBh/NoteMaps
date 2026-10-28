@@ -1,4 +1,4 @@
-# C.9. Community and Mentor-Guided Roadmaps
+# A.9. Community and Mentor-Guided Roadmaps
 
 A self-taught programmer downloads a popular community roadmap for web development: more than a hundred technologies in a sprawling diagram. He works through it for a year.
 

@@ -1,4 +1,4 @@
-# G.4. AI-Generated Practice Questions
+# B.4. AI-Generated Practice Questions
 
 A trainee accountant uploads her revision notes on revenue recognition and asks an AI assistant for fifty multiple-choice questions. She answers them all and scores 92%, then struggles in the examination: the questions had tested definitions she could recognise, three keys were wrong, and none asked her to apply the standard to a messy contract. Practice questions are powerful learning tools — but only if the questions are **good**.
 

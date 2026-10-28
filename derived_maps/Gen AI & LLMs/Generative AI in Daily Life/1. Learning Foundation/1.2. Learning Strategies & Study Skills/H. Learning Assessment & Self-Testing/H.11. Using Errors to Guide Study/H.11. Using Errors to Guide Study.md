@@ -1,4 +1,4 @@
-# L.11. Using Errors to Guide Study
+# H.11. Using Errors to Guide Study
 
 A trainee accountant loses marks on a mock paper and writes "careless" beside every wrong answer. When a tutor looks more closely, the eleven errors fall into three groups: four misread questions, five instances of the same misunderstanding about deferred tax, and two arithmetic slips. "Careless" described none of them well, and it pointed to no remedy. Errors are the richest assessment data a learner ever receives — but only if they are **classified, traced to causes and turned into specific study actions**.
 

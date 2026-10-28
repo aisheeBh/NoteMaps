@@ -1,4 +1,4 @@
-# H.3. Defining Your Learning Philosophy
+# C.3. Defining Your Learning Philosophy
 
 Two engineers are handed the same unfamiliar cloud platform. One reads the architecture documentation end to end before touching anything; the other deploys a small service within the hour and reads only when something breaks. Neither has thought about it, yet each is acting on a **philosophy** — beliefs about what knowledge is, how it is best gained and what it is for. Unexamined, such beliefs quietly decide every design choice in a learning system; examined, they become a source of direction and consistency.
 

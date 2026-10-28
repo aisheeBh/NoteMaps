@@ -1,4 +1,4 @@
-# E.8. URLs & Web Addresses
+# B.8. URLs & Web Addresses
 
 A message arrives: "Your parcel is held — confirm delivery at royalmail.parcel-update.help/track?id=48213". A colleague shares a link to a report that, two years later, leads only to an error page. A marketing team wonders why its campaign links are so long and full of strange codes. Each case turns on the same small string of characters — the **URL** — and on whether the person reading it knows how to interpret it.
 

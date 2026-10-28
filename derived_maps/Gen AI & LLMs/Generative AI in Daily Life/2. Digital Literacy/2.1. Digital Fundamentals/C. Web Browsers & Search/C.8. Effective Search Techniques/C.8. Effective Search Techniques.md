@@ -1,4 +1,4 @@
-# F.8. Effective Search Techniques
+# C.8. Effective Search Techniques
 
 Two colleagues are asked what the latest government guidance says about retaining employee records. One types the question into a search box, skims blogs and law-firm marketing, and an hour later reports an answer from a five-year-old article.
 

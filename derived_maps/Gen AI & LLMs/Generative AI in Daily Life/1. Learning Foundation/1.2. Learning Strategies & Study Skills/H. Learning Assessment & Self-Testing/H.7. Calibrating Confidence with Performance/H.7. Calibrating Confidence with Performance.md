@@ -1,4 +1,4 @@
-# L.7. Calibrating Confidence with Performance
+# H.7. Calibrating Confidence with Performance
 
 Two actuarial students each score 70% on a practice paper. The first marked every answer "sure" before checking; the second marked her answers "sure", "unsure" or "guess" — and discovered that almost all her errors were among the "unsure" ones, while three "sure" answers were wrong. The second student now knows far more than her score: which knowledge she can trust, which she cannot, and where a confidently held wrong idea is waiting to cost her marks in the real examination.
 

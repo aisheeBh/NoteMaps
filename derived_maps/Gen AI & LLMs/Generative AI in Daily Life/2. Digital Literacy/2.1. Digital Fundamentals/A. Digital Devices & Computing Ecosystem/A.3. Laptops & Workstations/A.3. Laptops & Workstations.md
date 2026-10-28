@@ -1,4 +1,4 @@
-# B.3. Laptops & Workstations
+# A.3. Laptops & Workstations
 
 A consultant finishes a client presentation on a train, joins a video call from a hotel and, back at the office, clicks the same machine into a dock that drives two large screens. A structural engineer, meanwhile, runs a simulation of a bridge under wind load on a heavy machine certified for the engineering software her firm depends on. Both are using "laptops and workstations" — one optimised for **going everywhere**, the other for **doing the hardest work reliably**.
 

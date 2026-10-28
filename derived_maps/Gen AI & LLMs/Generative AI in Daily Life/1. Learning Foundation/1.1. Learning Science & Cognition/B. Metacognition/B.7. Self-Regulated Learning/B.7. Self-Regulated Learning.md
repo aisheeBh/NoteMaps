@@ -1,4 +1,4 @@
-# K.7. Self-Regulated Learning
+# B.7. Self-Regulated Learning
 
 Two engineers enrol in the same self-paced cloud certification, with no teacher or timetable. One sets weekly goals, tests herself each Friday, notices that networking questions keep defeating her and changes how she studies them. The other watches videos when time allows and books the exam when the course says "100% complete". What differs is the capacity to **run one's own learning** — to set goals, choose methods, track progress, manage motivation and adapt.
 

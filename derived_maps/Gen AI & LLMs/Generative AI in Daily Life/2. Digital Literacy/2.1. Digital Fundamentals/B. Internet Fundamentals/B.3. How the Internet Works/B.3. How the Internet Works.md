@@ -1,4 +1,4 @@
-# E.3. How the Internet Works
+# B.3. How the Internet Works
 
 A photograph sent from a phone in Nairobi to a relative in Toronto is chopped into a few thousand small pieces. The pieces cross a mobile mast, a city network, an undersea cable, perhaps a dozen routers on two continents, and arrive — some by different paths, some out of order — to be reassembled into the original picture in under a second. No one plans the route in advance, and no single organisation controls it. The way this works is the core engineering idea of the modern world.
 

@@ -1,4 +1,4 @@
-# E.11. Internet Safety Basics
+# B.11. Internet Safety Basics
 
 A finance assistant receives an email from the "chief executive" asking for an urgent, confidential payment to a new supplier. A retired teacher gets a text saying a parcel cannot be delivered until a small fee is paid. A graduate reuses one password on a shopping site and a work account; the shopping site is breached, and within days strangers sign in to the work account.
 

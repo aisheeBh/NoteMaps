@@ -1,4 +1,4 @@
-# K.1. Defining Metacognition
+# B.1. Defining Metacognition
 
 A reader reaches the foot of a page and realises that nothing has gone in, so goes back to the top. A software engineer about to merge a change pauses because the fix "feels too easy" and runs one more test. A doctor says, "I am not certain — let us get a second opinion." None of these people is doing the task itself; each is **watching and steering their own thinking about the task**.
 

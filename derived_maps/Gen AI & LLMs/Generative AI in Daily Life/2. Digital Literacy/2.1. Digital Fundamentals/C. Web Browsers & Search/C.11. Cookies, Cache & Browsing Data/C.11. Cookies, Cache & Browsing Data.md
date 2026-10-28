@@ -1,4 +1,4 @@
-# F.11. Cookies, Cache & Browsing Data
+# C.11. Cookies, Cache & Browsing Data
 
 "Have you tried clearing your cache and cookies?" is one of the most common sentences in technical support — and one of the least understood. Clearing cookies signs a user out of every site; clearing the cache may fix a broken page or change nothing; clearing history removes evidence of where they have been but not what websites recorded about them. Each kind of browsing data exists for a reason, carries a privacy cost, and behaves differently when removed.
 

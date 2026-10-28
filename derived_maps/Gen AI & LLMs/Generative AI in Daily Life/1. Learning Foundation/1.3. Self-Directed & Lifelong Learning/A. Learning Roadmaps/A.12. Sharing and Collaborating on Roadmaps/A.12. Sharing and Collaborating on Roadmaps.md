@@ -1,4 +1,4 @@
-# C.12. Sharing and Collaborating on Roadmaps
+# A.12. Sharing and Collaborating on Roadmaps
 
 An engineer writes a one-page roadmap for moving into site reliability work and posts it on her company's internal wiki. Within a month thirty colleagues have copied it. Within a year it is out of date — two tools have been replaced — but nobody owns it, and new joiners keep following it.
 

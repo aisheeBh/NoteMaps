@@ -1,4 +1,4 @@
-# G.11. Ethical Use of AI in Learning
+# B.11. Ethical Use of AI in Learning
 
 A part-time MBA student who writes in her second language submits an essay she wrote herself; a detection tool flags it as "likely AI-generated" and she spends weeks proving her innocence. An analyst pastes a confidential supplier contract into a public chatbot to learn contract law, not realising the text may be retained. Neither set out to do wrong; both show that learning with AI raises questions of **honesty, fairness, privacy and responsibility**.
 

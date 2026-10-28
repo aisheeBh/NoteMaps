@@ -1,4 +1,4 @@
-# F.13. Safe Web Browsing Practices
+# C.13. Safe Web Browsing Practices
 
 A project coordinator opens a link to a shared invoice. A familiar-looking "Verify you are human" box asks her to press the Windows key and R, then Ctrl+V, then Enter. The page has silently copied a command to the clipboard; following the instructions installs malware that steals every password and session the browser holds.
 
