@@ -6,11 +6,13 @@ A derived map is defined by a JSON file whose nodes look like
 Every node is an existing main-map node. This script:
   1. creates one folder per derived node, holding <title>.md (same layout as
      main_map);
-  2. copies each source note's content byte-for-byte, plus every fig-*.svg in
-     the source node's folder;
+  2. copies each source note byte-for-byte, except that its H1 is rewritten to
+     the derived node's title, so the numbering matches the derived map; plus
+     every fig-*.svg in the source node's folder;
   3. removes files and folders that no longer belong to the derived map
      (derived maps hold no hand-written content, so this is always safe);
-  4. verifies that every derived note and figure is identical to its source.
+  4. verifies that every derived note and figure is identical to its expected
+     content (the source, with only its H1 rewritten) and figure to its source.
 
 Run it again whenever main-map content changes.
 
@@ -63,6 +65,24 @@ def source_dir(src):
     return os.path.join(MAIN_DIR, *[sanitize(t) for t in src])
 
 
+def expected_note(smd, title):
+    """The source note's bytes with its first H1 replaced by the derived title."""
+    data = open(smd, "rb").read()
+    lines = data.split(b"\n")
+    for i, line in enumerate(lines):
+        if line.startswith(b"# "):
+            eol = b"\r" if line.endswith(b"\r") else b""
+            lines[i] = b"# " + title.encode("utf-8") + eol
+            break
+    return b"\n".join(lines)
+
+
+def same_note(smd, md, title):
+    if not os.path.exists(md):
+        return False
+    return open(md, "rb").read() == expected_note(smd, title)
+
+
 def plan(node, parent_dir, out, errors, known):
     name = sanitize(node["title"])
     folder = os.path.join(parent_dir, name)
@@ -73,7 +93,7 @@ def plan(node, parent_dir, out, errors, known):
         errors.append(f"title text differs from source: {node['title']!r} vs {src[-1]!r}")
     sdir = source_dir(src)
     out.append((folder, os.path.join(folder, name + ".md"),
-                sdir, os.path.join(sdir, sanitize(src[-1]) + ".md")))
+                sdir, os.path.join(sdir, sanitize(src[-1]) + ".md"), node["title"]))
     for c in node.get("children") or []:
         plan(c, folder, out, errors, known)
 
@@ -96,7 +116,7 @@ def main():
         sys.exit(f"{len(errors)} structural errors - fix the derived JSON first")
 
     if "--todo" in sys.argv:
-        todo = [(md, smd) for _, md, _, smd in items
+        todo = [(md, smd) for _, md, _, smd, _t in items
                 if not os.path.exists(smd) or os.path.getsize(smd) == 0]
         for md, smd in todo:
             print(f"{os.path.relpath(md, dest)}\n    write in main map: {smd}")
@@ -105,7 +125,7 @@ def main():
 
     want_files, want_dirs = set(), set()
     copied = figs = 0
-    for folder, md, sdir, smd in items:
+    for folder, md, sdir, smd, title in items:
         want_dirs.add(os.path.normpath(folder))
         want_files.add(os.path.normpath(md))
         src_figs = sorted(f for f in os.listdir(sdir)
@@ -115,8 +135,9 @@ def main():
         if check_only:
             continue
         os.makedirs(folder, exist_ok=True)
-        if not os.path.exists(md) or not filecmp.cmp(smd, md, shallow=False):
-            shutil.copyfile(smd, md)
+        if not same_note(smd, md, title):
+            with open(md, "wb") as out:
+                out.write(expected_note(smd, title))
             copied += 1
         for f in src_figs:
             s, d = os.path.join(sdir, f), os.path.join(folder, f)
@@ -139,8 +160,8 @@ def main():
 
     # verify
     bad = []
-    for folder, md, sdir, smd in items:
-        if not os.path.exists(md) or not filecmp.cmp(smd, md, shallow=False):
+    for folder, md, sdir, smd, title in items:
+        if not same_note(smd, md, title):
             bad.append(md)
         if os.path.isdir(sdir):
             for f in os.listdir(sdir):
@@ -148,7 +169,7 @@ def main():
                     d = os.path.join(folder, f)
                     if not os.path.exists(d) or not filecmp.cmp(os.path.join(sdir, f), d, shallow=False):
                         bad.append(d)
-    written = sum(1 for _, md, _, _ in items if os.path.exists(md) and os.path.getsize(md) > 0)
+    written = sum(1 for _, md, _, _, _t in items if os.path.exists(md) and os.path.getsize(md) > 0)
     print(f"{len(items)} nodes | {written} with content | "
           f"{copied} notes and {figs} figures copied | {removed} stale files removed")
     if bad:

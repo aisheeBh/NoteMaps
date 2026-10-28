@@ -537,8 +537,11 @@ and figures that are **exact copies** of the main map.
 - If a derived map needs a node the main map lacks, add it to the **main**
   JSON first (only where it genuinely belongs there), regenerate `main_map`,
   then regenerate the derived map.
-- Validate content in `main_map/`, not in the derived copy: copied notes keep
-  their main-map H1 labels by design.
+- Validate content in `main_map/`, not in the derived copy. Copied notes are
+  exact copies except for the H1: the sync script rewrites it to the derived
+  node's title, so the numbering matches the derived map (e.g. `# 5. AI-Augmented
+  Professional Skills` in a map where the main node is 4.10). The body text is
+  copied unchanged, so it still uses main-map labels where it names them.
 - To find what to write next for a derived map, list its empty notes in learning order:
   `python scripts/sync_derived_map.py <json> <dest> --todo` (prints each empty note with the main-map file to write).
 
