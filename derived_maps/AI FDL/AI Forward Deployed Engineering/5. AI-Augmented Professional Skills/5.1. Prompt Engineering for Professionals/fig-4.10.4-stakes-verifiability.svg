@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" font-family="Arial, Helvetica, sans-serif">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <title>How far to rely on an AI output, by cost of error and ease of checking</title>
+  <desc>A two by two matrix. The horizontal axis runs from hard to check to easy to check. The vertical axis runs from low cost of an error to high cost. Each quadrant gives a rule for how far an AI output may be relied on, from draft only in the high cost hard to check quadrant to routine use with spot checks in the low cost easy to check quadrant.</desc>
+
+  <text x="60" y="50" font-size="22" fill="#111111" font-weight="bold">How far to rely on an AI output</text>
+
+  <!-- Quadrants: top-left high cost and hard to check -->
+  <rect x="200" y="80" width="330" height="180" fill="#F6CACA" stroke="#8B0000" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <text x="220" y="115" font-size="18" font-weight="bold" fill="#111111">Draft only, with expert review</text>
+  <text x="220" y="143" font-size="15" fill="#111111">Treat the output as a draft.</text>
+  <text x="220" y="167" font-size="15" fill="#111111">Check every claim against sources</text>
+  <text x="220" y="191" font-size="15" fill="#111111">before anything is relied on.</text>
+
+  <!-- Top-right: high cost and easy to check -->
+  <rect x="530" y="80" width="330" height="180" fill="#BCD5EE" stroke="#1F3B5C" stroke-width="2"/>
+  <text x="550" y="115" font-size="18" font-weight="bold" fill="#111111">Use with a named check</text>
+  <text x="550" y="143" font-size="15" fill="#111111">Define the check in advance.</text>
+  <text x="550" y="167" font-size="15" fill="#111111">Assign a reviewer who signs off.</text>
+  <text x="550" y="191" font-size="15" fill="#111111">Log the prompt version used.</text>
+
+  <!-- Bottom-left: low cost and hard to check -->
+  <rect x="200" y="260" width="330" height="180" fill="#FFE6A8" stroke="#7A5200" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="220" y="295" font-size="18" font-weight="bold" fill="#111111">Ideas and exploration</text>
+  <text x="220" y="323" font-size="15" fill="#111111">Use freely for options and drafts.</text>
+  <text x="220" y="347" font-size="15" fill="#111111">Do not treat as established fact.</text>
+  <text x="220" y="371" font-size="15" fill="#111111">Verify anything that will be quoted.</text>
+
+  <!-- Bottom-right: low cost and easy to check -->
+  <rect x="530" y="260" width="330" height="180" fill="#D3ECD3" stroke="#1E5E24" stroke-width="3"/>
+  <text x="550" y="295" font-size="18" font-weight="bold" fill="#111111">Routine, easy to verify</text>
+  <text x="550" y="323" font-size="15" fill="#111111">Suitable for repeatable tasks.</text>
+  <text x="550" y="347" font-size="15" fill="#111111">Spot-check a sample of outputs.</text>
+  <text x="550" y="371" font-size="15" fill="#111111">Monitor for change after model updates.</text>
+
+  <!-- Axes labels -->
+  <text x="200" y="470" font-size="16" fill="#111111">Hard to check</text>
+  <text x="860" y="470" font-size="16" fill="#111111" text-anchor="end">Easy to check</text>
+  <text x="530" y="500" font-size="16" fill="#111111" text-anchor="middle">Ease of checking the output</text>
+  <text x="190" y="115" font-size="16" fill="#111111" text-anchor="end">High cost</text>
+  <text x="190" y="435" font-size="16" fill="#111111" text-anchor="end">Low cost</text>
+  <text transform="translate(60,260) rotate(-90)" font-size="16" fill="#111111" text-anchor="middle">Cost of an error</text>
+
+  <text x="60" y="524" font-size="14" fill="#333333">Illustrative placement; the right position depends on the task, the data and the setting.</text>
+</svg>
